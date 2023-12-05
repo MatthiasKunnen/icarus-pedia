@@ -1,0 +1,467 @@
+{
+    "RowStruct": "/Script/Icarus.IcarusMount",
+    "Defaults": {
+        "AISetup": {
+            "RowName": "None",
+            "DataTableName": "D_AISetup"
+        },
+        "RelevantSaddleQuery": {
+            "RowName": "None",
+            "DataTableName": "D_TagQueries"
+        },
+        "SupportedCombatStates": [],
+        "SupportedMovementStates": [],
+        "Animations": {},
+        "InventoryPreviewCameraSettings": {
+            "RowName": "Mount",
+            "DataTableName": "D_PreviewCameraSettings"
+        },
+        "DefaultNames": [],
+        "MapIcon": {
+            "RowName": "None",
+            "DataTableName": "D_MapIcons"
+        },
+        "RelativeFeetOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "RelativeHandsOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        }
+    },
+    "Rows": [
+        {
+            "Name": "Buffalo",
+            "AISetup": {
+                "RowName": "Mount_Buffalo"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Stand_Idle_Montage.Buffalo_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Rest_Montage.Buffalo_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Eating_Montage.Buffalo_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Jump_Montage.Buffalo_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-0\", \"Thales\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-1\", \"Pythagoras\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-2\", \"Protagoras\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-3\", \"Socrates\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-4\", \"Plato\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-5\", \"Aristotle\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-6\", \"Epicurus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-7\", \"Diogenes\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-8\", \"Zeno\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "Y": 10,
+                "Z": 10
+            }
+        },
+        {
+            "Name": "Moa",
+            "AISetup": {
+                "RowName": "Mount_Moa"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle_Standard"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Moa/Anims/Moa_Stand_Idle_Montage.Moa_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Moa/Anims/Moa_Rest_Montage.Moa_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Moa/Anims/Moa_Eat_Montage.Moa_Eat_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Moa/Anims/Moa_Jump_Montage.Moa_Jump_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Moa"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-0\", \"Ranginui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-1\", \"Kupe\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-2\", \"Rongo\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-3\", \"Tangaroa\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-4\", \"Haumia\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-5\", \"Maui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-6\", \"Tane\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-7\", \"Tawhiri\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Moa-DefaultNames-8\", \"Tu\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": 20,
+                "Z": -10
+            },
+            "RelativeHandsOffset": {
+                "X": -15
+            }
+        },
+        {
+            "Name": "Swamp_Bird",
+            "AISetup": {
+                "RowName": "Mount_SwampBird"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle_Standard"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/SwampBird/Anims/SwampBird_Stand_Idle_Montage.SwampBird_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/SwampBird/Anims/SwampBird_Rest_Montage.SwampBird_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/SwampBird/Anims/SwampBird_Eat_Montage.SwampBird_Eat_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/SwampBird/Anims/SwampBird_Jump_Montage.SwampBird_Jump_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Moa"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-0\", \"Ranginui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-1\", \"Kupe\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-2\", \"Rongo\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-3\", \"Tangaroa\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-4\", \"Haumia\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-5\", \"Maui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-6\", \"Tane\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-7\", \"Tawhiri\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Swamp_Bird-DefaultNames-8\", \"Tu\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": 20,
+                "Z": -10
+            },
+            "RelativeHandsOffset": {
+                "X": -15
+            }
+        },
+        {
+            "Name": "SwampQuad",
+            "AISetup": {
+                "RowName": "Mount_SwampQuad"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle_Standard"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Swamp_Quadruped/Anims/SwampQuad_Idle_Montage.SwampQuad_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Swamp_Quadruped/Anims/SwampQuad_Rest_Montage.SwampQuad_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Swamp_Quadruped/Anims/SwampQuad_Eating_Montage.SwampQuad_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Swamp_Quadruped/Anims/SwampQuad_Jump_Montage.SwampQuad_Jump_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Moa"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-0\", \"Ranginui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-1\", \"Kupe\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-2\", \"Rongo\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-3\", \"Tangaroa\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-4\", \"Haumia\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-5\", \"Maui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-6\", \"Tane\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-7\", \"Tawhiri\")",
+                "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-8\", \"Tu\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": 20,
+                "Z": -10
+            },
+            "RelativeHandsOffset": {
+                "X": -15
+            }
+        },
+        {
+            "Name": "Snow_Striker",
+            "AISetup": {
+                "RowName": "Mount_Snow_Striker"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle_Standard"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Striker/Anim/SnowStriker_ilde4legs_Montage.SnowStriker_ilde4legs_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Striker/Anim/Striker_Sleep_Montage.Striker_Sleep_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Striker/Anim/Striker_Eat_Montage.Striker_Eat_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Moa/Anims/Moa_Jump_Montage.Moa_Jump_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Moa"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-0\", \"Ranginui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-1\", \"Kupe\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-2\", \"Rongo\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-3\", \"Tangaroa\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-4\", \"Haumia\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-5\", \"Maui\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-6\", \"Tane\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-7\", \"Tawhiri\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-8\", \"Tu\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": 20,
+                "Z": -10
+            },
+            "RelativeHandsOffset": {
+                "X": -15
+            }
+        },
+        {
+            "Name": "WoolyZebra",
+            "AISetup": {
+                "RowName": "Mount_WoolyZebra"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Stand_Idle_Montage.Buffalo_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Rest_Montage.Buffalo_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Eating_Montage.Buffalo_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Jump_Montage.Buffalo_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-0\", \"Thales\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-1\", \"Pythagoras\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-2\", \"Protagoras\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-3\", \"Socrates\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-4\", \"Plato\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-5\", \"Aristotle\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-6\", \"Epicurus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-7\", \"Diogenes\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-8\", \"Zeno\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "Y": 10,
+                "Z": 10
+            }
+        },
+        {
+            "Name": "Blueback",
+            "AISetup": {
+                "RowName": "Mount_BlueBack"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Stand_Idle_Montage.BlueBack_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Rest_Montage.BlueBack_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Eating_Montage.BlueBack_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Jump_Montage.BlueBack_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Attack_Montage.BlueBack_Attack_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-0\", \"Thales\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-1\", \"Pythagoras\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-2\", \"Protagoras\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-3\", \"Socrates\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-4\", \"Plato\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-5\", \"Aristotle\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-6\", \"Epicurus\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-7\", \"Diogenes\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-8\", \"Zeno\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "Y": 10,
+                "Z": 10
+            }
+        },
+        {
+            "Name": "Horse",
+            "AISetup": {
+                "RowName": "Mount_Horse"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Zebra/Anim/Montages/Horse_Idle_Montage.Horse_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Zebra/Anim/Montages/zebra_Sleep_Montage.zebra_Sleep_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Zebra/Anim/Montages/zebra_Eat_Montage.zebra_Eat_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Zebra/Anim/Montages/Zebra_Jump_Montage.Zebra_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Zebra/Anim/Montages/zebra_Attack_Montage.zebra_Attack_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Horse"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-0\", \"Sir Percival\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-1\", \"Lord Rutherford\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-2\", \"Cornelius\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-3\", \"Bartholomew\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-4\", \"Octavius\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-5\", \"Archibald\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-6\", \"Ignatius\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-7\", \"Constantine\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Horse-DefaultNames-8\", \"Benedict\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": 20,
+                "Z": -10
+            },
+            "RelativeHandsOffset": {
+                "X": -15
+            }
+        },
+        {
+            "Name": "Tusker",
+            "AISetup": {
+                "RowName": "Mount_Tusker"
+            },
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage",
+                "NeutralEngagement",
+                "AggressiveEngagement"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Stand_Idle_Montage.Buffalo_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Rest_Montage.Buffalo_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Eating_Montage.Buffalo_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Jump_Montage.Buffalo_Jump_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack.Charge\")": "/Game/ASS/CRE/Tusker/Animations/Tusker_Charge_Montage.Tusker_Charge_Montage"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-0\", \"Odin\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-1\", \"Thor\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-2\", \"Frigg\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-3\", \"Tyr\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-4\", \"Heimdallr\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-5\", \"Loki\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-6\", \"Freyja\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-7\", \"Baldr\")",
+                "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-8\", \"Mimir\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "X": -10,
+                "Y": -17.5,
+                "Z": 10
+            }
+        }
+    ]
+}
