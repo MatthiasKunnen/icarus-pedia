@@ -1,0 +1,26 @@
+---
+
+env:
+  es6: true
+
+overrides:
+  -
+    files:
+      - '*.js'
+    env:
+      node: true
+    extends:
+      - '@matthiaskunnen/eslint-config-base'
+
+  -
+    files:
+      - 'tools/**/*.ts'
+    env:
+      node: true
+    extends:
+      - '@matthiaskunnen/eslint-config-typescript-node'
+    parserOptions:
+      project:
+        - tools/tsconfig.json
+    rules:
+      '@typescript-eslint/no-var-requires': off

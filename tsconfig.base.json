@@ -1,0 +1,11 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+    }
+}
