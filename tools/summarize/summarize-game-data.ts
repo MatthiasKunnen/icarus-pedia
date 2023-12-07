@@ -143,7 +143,7 @@ for (const item of itemsStatic.Rows) {
                     Count: input.Count,
                 };
             }),
-            Outputs: recipe.Inputs.map(input => {
+            Outputs: recipe.Outputs.map(input => {
                 return {
                     Item: getItemStaticName(input.Element),
                     Count: input.Count,
