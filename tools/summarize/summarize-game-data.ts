@@ -7,6 +7,7 @@ import type {ItemsStatic} from './item-static.interface.js';
 import type {ItemTemplates} from './item-templates.interface.js';
 import type {Itemable} from './itemable.interface.js';
 import type {ProcessorRecipes} from './processor-recipes.interface.js';
+import {extractTranslation} from './util/localization.util.js';
 
 /*
  * Maps the data found in the game's several json files and massage them to something smaller we can
@@ -108,6 +109,16 @@ for (const item of itemsStatic.Rows) {
         continue;
     }
 
+    if (itemable.Icon === undefined) {
+        continue;
+    }
+
+    const displayName = extractTranslation(itemable.DisplayName);
+
+    if (displayName == null) {
+        continue;
+    }
+
     const recipes: Array<any> = [];
     const ingredientIn: Array<any> = [];
 
@@ -152,7 +163,7 @@ for (const item of itemsStatic.Rows) {
     output[item.Name] = {
         Name: item.Name,
         DisplayName: itemable.DisplayName,
-        Icon: itemable.Icon?.substring(iconPrefix.length),
+        Icon: itemable.Icon.substring(iconPrefix.length),
         Description: itemable.Description,
         FlavorText: itemable.FlavorText,
         Itemable: item.Itemable.RowName,
