@@ -152,7 +152,6 @@ for (const recipeSet of recipeSets.Rows) {
     }
 
     crafters[recipeSet.Name] = {
-        AllowRefundOnDestroy: recipeSet.bAllowRefundOfRecipesOnDestroy,
         Icon: icon.substring(iconPrefix.length),
         DisplayName: displayName,
         Recipes: [],
