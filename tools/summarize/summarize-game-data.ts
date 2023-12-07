@@ -66,7 +66,7 @@ for (const itemTemplate of itemTemplates.Rows) {
     itemTemplateMap.set(itemTemplate.Name, itemTemplate.ItemStaticData.RowName);
 }
 
-const getItemStaticName: (ref: RefWithDataTable) => string | undefined = (ref) => {
+function getItemStaticName(ref: RefWithDataTable): string | undefined {
     switch (ref.DataTableName) {
         case 'D_ItemTemplate':
             return itemTemplateMap.get(ref.RowName);
@@ -76,7 +76,7 @@ const getItemStaticName: (ref: RefWithDataTable) => string | undefined = (ref) =
             console.log(`Unknown datatable name ${ref.DataTableName}`);
             return undefined;
     }
-};
+}
 
 for (const item of itemsStatic.Rows) {
     if (item.Itemable === undefined) {
