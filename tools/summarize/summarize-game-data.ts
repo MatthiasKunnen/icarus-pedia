@@ -21,36 +21,22 @@ import {staticItemTagMatches} from './util/tag.util.js';
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const gameDataPath = path.join(dirname, '..', '..', 'gamedata', 'data_pak');
 
-const itemsStatic: ItemsStatic = JSON.parse(await fs.promises.readFile(path.join(
-    gameDataPath,
-    'Items',
-    'D_ItemsStatic.json',
-), {encoding: 'utf-8'}));
-const itemTemplates: ItemTemplates = JSON.parse(await fs.promises.readFile(path.join(
-    gameDataPath,
-    'Items',
-    'D_ItemTemplate.json',
-), {encoding: 'utf-8'}));
+async function readData(filepath: string): Promise<any> {
+    return JSON.parse(await fs.promises.readFile(path.join(
+        gameDataPath,
+        ...filepath.split('/'),
+    ), {encoding: 'utf-8'}));
+}
+
+const itemsStatic: ItemsStatic = await readData('Items/D_ItemsStatic.json');
+const itemTemplates: ItemTemplates = await readData('Items/D_ItemTemplate.json');
 
 /**
  * Contains name, description, and icon link of an item.
  */
-const itemables: Itemable = JSON.parse(await fs.promises.readFile(path.join(
-    gameDataPath,
-    'Traits',
-    'D_Itemable.json',
-), {encoding: 'utf-8'}));
-const processorRecipes: ProcessorRecipes = JSON.parse(await fs.promises.readFile(path.join(
-    gameDataPath,
-    'Crafting',
-    'D_ProcessorRecipes.json',
-), {encoding: 'utf-8'}));
-
-const recipeSets: RecipeSets = JSON.parse(await fs.promises.readFile(path.join(
-    gameDataPath,
-    'Crafting',
-    'D_RecipeSets.json',
-), {encoding: 'utf-8'}));
+const itemables: Itemable = await readData('Traits/D_Itemable.json');
+const processorRecipes: ProcessorRecipes = await readData('Crafting/D_ProcessorRecipes.json');
+const recipeSets: RecipeSets = await readData('Crafting/D_RecipeSets.json');
 
 const iconPrefix = '/Game/Assets/2DArt/UI/';
 
