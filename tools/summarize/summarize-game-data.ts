@@ -49,7 +49,7 @@ const processorRecipes: ProcessorRecipes = JSON.parse(await fs.promises.readFile
 //     'D_RecipeSets.json',
 // ), {encoding: 'utf-8'}));
 
-const iconPrefix = '/Game/Assets/2DArt/UI/Items/Item_Icons/';
+const iconPrefix = '/Game/Assets/2DArt/UI/';
 
 const output: Record<string, any> = {};
 
