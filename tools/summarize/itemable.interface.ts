@@ -8,7 +8,7 @@ export interface ItemableRow {
     DisplayName: string;
     Icon?: string;
     Description: string;
-    FlavorText: string;
+    FlavorText?: string;
     Weight: number;
     MaxStack: number;
 }
