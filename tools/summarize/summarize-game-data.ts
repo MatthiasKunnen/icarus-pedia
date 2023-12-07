@@ -3,11 +3,14 @@ import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
 import type {RefWithDataTable} from './common.interface.js';
+import type {Crafter} from './crafter.interface.js';
 import type {ItemsStatic} from './item-static.interface.js';
 import type {ItemTemplates} from './item-templates.interface.js';
 import type {Itemable} from './itemable.interface.js';
 import type {ProcessorRecipes} from './processor-recipes.interface.js';
+import type {RecipeSets} from './recipe-sets.interface.js';
 import {extractTranslation} from './util/localization.util.js';
+import {staticItemTagMatches} from './util/tag.util.js';
 
 /*
  * Maps the data found in the game's several json files and massage them to something smaller we can
@@ -43,16 +46,13 @@ const processorRecipes: ProcessorRecipes = JSON.parse(await fs.promises.readFile
     'D_ProcessorRecipes.json',
 ), {encoding: 'utf-8'}));
 
-// Later
-// const recipeSets = JSON.parse(await fs.promises.readFile(path.join(
-//     gameDataPath,
-//     'Crafting',
-//     'D_RecipeSets.json',
-// ), {encoding: 'utf-8'}));
+const recipeSets: RecipeSets = JSON.parse(await fs.promises.readFile(path.join(
+    gameDataPath,
+    'Crafting',
+    'D_RecipeSets.json',
+), {encoding: 'utf-8'}));
 
 const iconPrefix = '/Game/Assets/2DArt/UI/';
-
-const output: Record<string, any> = {};
 
 /**
  * Maps item templates to their static name.
@@ -79,6 +79,7 @@ function getItemStaticName(ref: RefWithDataTable): string | undefined {
     }
 }
 
+const mappedItems: Record<string, any> = {};
 for (const item of itemsStatic.Rows) {
     if (item.Itemable === undefined) {
         continue;
@@ -134,43 +135,90 @@ for (const item of itemsStatic.Rows) {
             continue;
         }
 
-        const mappedRecipe = {
-            Requirement: recipe.Requirement?.RowName,
-            RecipeSets: recipe.RecipeSets,
-            Inputs: recipe.Inputs.map(input => {
-                return {
-                    Item: getItemStaticName(input.Element),
-                    Count: input.Count,
-                };
-            }),
-            Outputs: recipe.Outputs.map(input => {
-                return {
-                    Item: getItemStaticName(input.Element),
-                    Count: input.Count,
-                };
-            }),
-        };
-
         if (addToRecipes) {
-            recipes.push(mappedRecipe);
+            recipes.push(recipe.Name);
         }
 
         if (addToIngredientsIn) {
-            ingredientIn.push(mappedRecipe);
+            ingredientIn.push(recipe.Name);
         }
     }
 
-    output[item.Name] = {
+    mappedItems[item.Name] = {
         Name: item.Name,
-        DisplayName: itemable.DisplayName,
+        DisplayName: displayName,
         Icon: itemable.Icon.substring(iconPrefix.length),
-        Description: itemable.Description,
-        FlavorText: itemable.FlavorText,
+        Description: extractTranslation(itemable.Description),
+        FlavorText: extractTranslation(itemable.FlavorText),
         Itemable: item.Itemable.RowName,
-        IsConsumable: item.Consumable !== undefined,
+        IsFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
         Type: type,
         Recipes: recipes,
         IngredientIn: ingredientIn,
     };
 }
-console.log(JSON.stringify(output, undefined, 4));
+
+const crafters: Record<string, Crafter> = {};
+for (const recipeSet of recipeSets.Rows) {
+    const icon = recipeSet.RecipeSetIcon;
+    const displayName = extractTranslation(recipeSet.RecipeSetName);
+
+    if (icon === undefined || icon === 'None' || displayName == null) {
+        continue;
+    }
+
+    crafters[recipeSet.Name] = {
+        AllowRefundOnDestroy: recipeSet.bAllowRefundOfRecipesOnDestroy,
+        Icon: icon.substring(iconPrefix.length),
+        DisplayName: displayName,
+        Recipes: [],
+    };
+}
+
+const mappedRecipes: Record<string, any> = {};
+for (const recipe of processorRecipes.Rows) {
+    for (const recipeSet of recipe.RecipeSets) {
+        if (recipeSet.DataTableName !== 'D_RecipeSets') {
+            console.error(`Unknown RecipeSet datatable ${recipeSet.DataTableName} for recipe ${
+                recipe.Name}`);
+        }
+
+        const crafter = crafters[recipeSet.RowName];
+
+        if (crafter === undefined) {
+            console.log(`Unknown RecipeSet ${recipeSet.RowName} for recipe ${recipe.Name}`);
+            continue;
+        }
+
+        crafter.Recipes.push(recipe.Name);
+    }
+
+    mappedRecipes[recipe.Name] = {
+        Requirement: recipe.Requirement?.RowName,
+        RecipeSets: recipe.RecipeSets,
+        Inputs: recipe.Inputs.map(input => {
+            return {
+                Item: getItemStaticName(input.Element),
+                Count: input.Count,
+            };
+        }),
+        Outputs: recipe.Outputs.map(input => {
+            return {
+                Item: getItemStaticName(input.Element),
+                Count: input.Count,
+            };
+        }),
+    };
+}
+
+fs.writeFileSync(
+    path.join(dirname, 'summarized-data.json'),
+    JSON.stringify({
+        crafters: crafters,
+        items: mappedItems,
+        recipes: mappedRecipes,
+    }, undefined, 4),
+    {
+        encoding: 'utf-8',
+    },
+);
