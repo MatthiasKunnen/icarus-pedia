@@ -131,7 +131,6 @@ for (const item of itemsStatic.Rows) {
     }
 
     mappedItems[item.Name] = {
-        Name: item.Name,
         DisplayName: displayName,
         Icon: itemable.Icon.substring(iconPrefix.length),
         Description: extractTranslation(itemable.Description),
