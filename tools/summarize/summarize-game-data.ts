@@ -135,7 +135,6 @@ for (const item of itemsStatic.Rows) {
         Icon: itemable.Icon.substring(iconPrefix.length),
         Description: extractTranslation(itemable.Description),
         FlavorText: extractTranslation(itemable.FlavorText),
-        Itemable: item.Itemable.RowName,
         IsFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
         Type: type,
         Recipes: recipes,
