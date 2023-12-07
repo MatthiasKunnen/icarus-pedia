@@ -8,7 +8,7 @@ export interface ProcessorRecipes {
 export interface ProcessorRecipesRow {
     Name: string;
     Requirement?: Ref;
-    RecipeSets: RefWithDataTable;
+    RecipeSets: Array<RefWithDataTable>;
     ResourceCostMultipliers: Array<{Value: string}>;
     Inputs: Array<ProcessorRecipeInput>;
     Outputs: Array<ProcessorRecipeOutput>;
