@@ -4,6 +4,7 @@
         "baseUrl": ".",
         "importHelpers": true,
         "noImplicitAny": true,
+        "noUncheckedIndexedAccess": true,
         "sourceMap": true,
         "strict": true,
         "strictPropertyInitialization": false,
