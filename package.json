@@ -8,8 +8,8 @@
         "run:tool:inspect": "TS_NODE_PROJECT=tools/tsconfig.json node --loader ts-node/esm --inspect-brk"
     },
     "devDependencies": {
-        "@matthiaskunnen/eslint-config-typescript": "^5.0.0",
-        "@matthiaskunnen/eslint-config-typescript-node": "^5.0.0",
+        "@matthiaskunnen/eslint-config-typescript": "^6.0.0",
+        "@matthiaskunnen/eslint-config-typescript-node": "^6.0.0",
         "@types/node": "^20.10.0",
         "eslint": "~8.39.0",
         "husky": "^1.3.1",
