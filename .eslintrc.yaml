@@ -9,6 +9,9 @@ overrides:
       - '*.js'
     env:
       node: true
+    parserOptions:
+      ecmaVersion: 2023
+      sourceType: module
     extends:
       - '@matthiaskunnen/eslint-config-base'
 
@@ -25,3 +28,26 @@ overrides:
     rules:
       '@typescript-eslint/no-var-requires': off
       no-console: off
+
+  -
+    files:
+      - 'src/**/*.ts'
+    extends:
+      - '@matthiaskunnen/eslint-config-typescript'
+    parserOptions:
+      project:
+        - tsconfig.json
+    rules:
+      '@typescript-eslint/no-var-requires': off
+      no-console: off
+
+  -
+    files:
+      - vite.config.ts
+    env:
+      node: true
+    extends:
+      - '@matthiaskunnen/eslint-config-typescript'
+    parserOptions:
+      project:
+        - tsconfig.json

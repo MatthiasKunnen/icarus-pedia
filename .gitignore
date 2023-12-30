@@ -38,3 +38,12 @@ coverage
 *.local
 *.local.*
 local/
+
+# Svelte
+/build
+/.svelte-kit
+/package
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
