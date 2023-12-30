@@ -15,3 +15,6 @@ trim_trailing_whitespace = false
 
 [*.nginx]
 indent_style = tab
+
+[*.yaml]
+indent_size = 2
