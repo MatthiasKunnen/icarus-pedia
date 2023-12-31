@@ -29,6 +29,36 @@ overrides:
       '@typescript-eslint/no-var-requires': off
       no-console: off
 
+
+# Linting svelte with TypeScript is not straightforward, see
+# - https://sveltejs.github.io/eslint-plugin-svelte/user-guide/
+# - https://github.com/typescript-eslint/typescript-eslint/issues/6778
+# If this needs to be done, we'll need to do the following:
+# Extract rules, extends, plugins from matthiaskunnen/eslint-config-typescript and use these to
+# construct a special config that takes care to initialize TS in a single step instead of trying to
+# add more parser options after extending a config that already configured TypeScript.
+  -
+    files:
+      - 'src/**/*.svelte'
+    parser: svelte-eslint-parser
+    parserOptions:
+      extraFileExtensions:
+        - .svelte
+      parser:
+        - '@typescript-eslint/parser'
+      project:
+        - tsconfig.json
+    plugins:
+      - '@typescript-eslint'
+      - '@typescript-eslint/tslint'
+    extends:
+#      - '@matthiaskunnen/eslint-config-typescript'
+      - 'plugin:svelte/recommended'
+    rules:
+      '@typescript-eslint/adjacent-overload-signatures': 'error'
+      '@typescript-eslint/no-var-requires': off
+      no-console: off
+
   -
     files:
       - 'src/**/*.ts'
