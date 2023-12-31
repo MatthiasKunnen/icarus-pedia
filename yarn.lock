@@ -541,14 +541,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^3.0.0":
+"@sveltejs/adapter-static@npm:^3.0.1":
   version: 3.0.1
-  resolution: "@sveltejs/adapter-auto@npm:3.0.1"
-  dependencies:
-    import-meta-resolve: "npm:^4.0.0"
+  resolution: "@sveltejs/adapter-static@npm:3.0.1"
   peerDependencies:
     "@sveltejs/kit": ^2.0.0
-  checksum: c6b760fa7adae6310839f687bd3fe67af53d441ff2e14e4e053b3c0f1a9b6a0c39454e652b9bb95749bcf03c1a3ca8f8e93485c96dfa2bb680857fa4533e13ff
+  checksum: 975c8a2cda9ccc07766bee4cee0ad8e3a5067734394e783ed7a54731406ea3319f6bb4fa691340b044eefd3512b3697bf00a0fa76975919d5f3a766505ca123e
   languageName: node
   linkType: hard
 
@@ -2565,7 +2563,7 @@ __metadata:
   dependencies:
     "@matthiaskunnen/eslint-config-typescript": "npm:^6.0.0"
     "@matthiaskunnen/eslint-config-typescript-node": "npm:^6.0.0"
-    "@sveltejs/adapter-auto": "npm:^3.0.0"
+    "@sveltejs/adapter-static": "npm:^3.0.1"
     "@sveltejs/kit": "npm:^2.0.0"
     "@sveltejs/vite-plugin-svelte": "npm:^3.0.0"
     "@types/node": "npm:^20.10.0"
@@ -2614,13 +2612,6 @@ __metadata:
     parent-module: "npm:^1.0.0"
     resolve-from: "npm:^4.0.0"
   checksum: 7f882953aa6b740d1f0e384d0547158bc86efbf2eea0f1483b8900a6f65c5a5123c2cf09b0d542cc419d0b98a759ecaeb394237e97ea427f2da221dc3cd80cc3
-  languageName: node
-  linkType: hard
-
-"import-meta-resolve@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "import-meta-resolve@npm:4.0.0"
-  checksum: 709375e01f8c3a87b7870991ca29c630d71bb7e22b7bb0f622613173d87b41b4043b4a983800e6d38ab3867496a46f82d30df0cbc2e55792c91c23193eea67a1
   languageName: node
   linkType: hard
 
