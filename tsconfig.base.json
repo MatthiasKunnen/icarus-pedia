@@ -1,7 +1,6 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-        "baseUrl": ".",
         "importHelpers": true,
         "noImplicitAny": true,
         "noUncheckedIndexedAccess": true,
