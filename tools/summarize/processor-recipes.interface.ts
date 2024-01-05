@@ -10,16 +10,11 @@ export interface ProcessorRecipesRow {
     Requirement?: Ref;
     RecipeSets: Array<RefWithDataTable>;
     ResourceCostMultipliers: Array<{Value: string}>;
-    Inputs: Array<ProcessorRecipeInput>;
-    Outputs: Array<ProcessorRecipeOutput>;
+    Inputs: Array<ElementCount>;
+    Outputs: Array<ElementCount>;
 }
 
-export interface ProcessorRecipeInput {
-    Element: RefWithDataTable;
-    Count: number;
-}
-
-export interface ProcessorRecipeOutput {
+export interface ElementCount {
     Element: RefWithDataTable;
     Count: number;
 }

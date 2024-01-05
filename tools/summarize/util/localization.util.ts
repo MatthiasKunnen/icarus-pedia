@@ -78,7 +78,7 @@ function parseFunction(text: string): ParseResult | null {
     return null;
 }
 
-export function extractTranslation(fn: string | undefined): string | null | undefined {
+export function extractTranslation(fn: string | undefined): string | undefined {
     if (fn === undefined) {
         return undefined;
     }
@@ -86,13 +86,13 @@ export function extractTranslation(fn: string | undefined): string | null | unde
     const parsed = parseFunction(fn);
 
     if (parsed === null) {
-        return null;
+        return undefined;
     }
 
     switch (parsed.functionName) {
         case 'NSLOCTEXT':
             return parsed.arguments[2];
         default:
-            return null;
+            return undefined;
     }
 }

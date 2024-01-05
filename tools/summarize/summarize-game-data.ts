@@ -3,14 +3,20 @@ import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
 import type {RefWithDataTable} from './common.interface.js';
-import type {Crafter} from './crafter.interface.js';
 import type {ItemsStatic} from './item-static.interface.js';
 import type {ItemTemplates} from './item-templates.interface.js';
 import type {Itemable} from './itemable.interface.js';
-import type {ProcessorRecipes} from './processor-recipes.interface.js';
+import type {ElementCount, ProcessorRecipes} from './processor-recipes.interface.js';
 import type {RecipeSets} from './recipe-sets.interface.js';
 import {extractTranslation} from './util/localization.util.js';
 import {staticItemTagMatches} from './util/tag.util.js';
+import type {
+    Crafter,
+    GameData,
+    ItemCount,
+    Item as OutputItem,
+    Recipe as OutputRecipe,
+} from '../../src/lib/data.interface.js';
 
 /*
  * Maps the data found in the game's several json files and massage them to something smaller we can
@@ -65,7 +71,7 @@ function getItemStaticName(ref: RefWithDataTable): string | undefined {
     }
 }
 
-const mappedItems: Record<string, any> = {};
+const mappedItems: Record<string, OutputItem> = {};
 for (const item of itemsStatic.Rows) {
     if (item.Itemable === undefined) {
         continue;
@@ -76,6 +82,7 @@ for (const item of itemsStatic.Rows) {
      */
     const itemableName = item.Itemable.RowName;
 
+    /*
     let type: 'Attachment' | 'Consumable' | 'Knife' | undefined;
     if (item.Consumable !== undefined) {
         type = 'Consumable';
@@ -86,6 +93,7 @@ for (const item of itemsStatic.Rows) {
     }) === true) {
         type = 'Knife';
     }
+    */
 
     const itemable = itemables.Rows.find(itemr => {
         return itemr.Name === itemableName;
@@ -102,7 +110,7 @@ for (const item of itemsStatic.Rows) {
 
     const displayName = extractTranslation(itemable.DisplayName);
 
-    if (displayName == null) {
+    if (displayName === undefined) {
         continue;
     }
 
@@ -131,14 +139,13 @@ for (const item of itemsStatic.Rows) {
     }
 
     mappedItems[item.Name] = {
-        DisplayName: displayName,
-        Icon: itemable.Icon.substring(iconPrefix.length),
-        Description: extractTranslation(itemable.Description),
-        FlavorText: extractTranslation(itemable.FlavorText),
-        IsFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
-        Type: type,
-        Recipes: recipes,
-        IngredientIn: ingredientIn,
+        displayName: displayName,
+        icon: itemable.Icon.substring(iconPrefix.length),
+        description: extractTranslation(itemable.Description),
+        flavorText: extractTranslation(itemable.FlavorText),
+        isFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
+        recipes: recipes,
+        ingredientIn: ingredientIn,
     };
 }
 
@@ -147,18 +154,18 @@ for (const recipeSet of recipeSets.Rows) {
     const icon = recipeSet.RecipeSetIcon;
     const displayName = extractTranslation(recipeSet.RecipeSetName);
 
-    if (icon === undefined || icon === 'None' || displayName == null) {
+    if (icon === undefined || icon === 'None' || displayName === undefined) {
         continue;
     }
 
     crafters[recipeSet.Name] = {
-        Icon: icon.substring(iconPrefix.length),
-        DisplayName: displayName,
-        Recipes: [],
+        icon: icon.substring(iconPrefix.length),
+        displayName: displayName,
+        recipes: [],
     };
 }
 
-const mappedRecipes: Record<string, any> = {};
+const mappedRecipes: Record<string, OutputRecipe> = {};
 for (const recipe of processorRecipes.Rows) {
     for (const recipeSet of recipe.RecipeSets) {
         if (recipeSet.DataTableName !== 'D_RecipeSets') {
@@ -173,34 +180,53 @@ for (const recipe of processorRecipes.Rows) {
             continue;
         }
 
-        crafter.Recipes.push(recipe.Name);
+        crafter.recipes.push(recipe.Name);
     }
 
+    const elementCountsToItemCount = (elementCounts: Array<ElementCount>): Array<ItemCount> => {
+        const itemCounts: Array<ItemCount> = [];
+
+        for (const elementCount of elementCounts) {
+            const itemName = getItemStaticName(elementCount.Element);
+            if (itemName === undefined) {
+                console.error(`Could not find static name for element`, elementCount.Element);
+                continue;
+            }
+
+            itemCounts.push({
+                item: itemName,
+                count: elementCount.Count,
+            });
+        }
+
+        return itemCounts;
+    };
+
     mappedRecipes[recipe.Name] = {
-        Requirement: recipe.Requirement?.RowName,
-        RecipeSets: recipe.RecipeSets,
-        Inputs: recipe.Inputs.map(input => {
-            return {
-                Item: getItemStaticName(input.Element),
-                Count: input.Count,
-            };
+        requirement: recipe.Requirement?.RowName,
+        craftedAt: recipe.RecipeSets.map(recipeSet => {
+            switch (recipeSet.DataTableName) {
+                case 'D_RecipeSets':
+                    return recipeSet.RowName;
+                default:
+                    throw new Error(`Unknown RecipeSet data table name: ${
+                        recipeSet.DataTableName}`);
+            }
         }),
-        Outputs: recipe.Outputs.map(input => {
-            return {
-                Item: getItemStaticName(input.Element),
-                Count: input.Count,
-            };
-        }),
+        inputs: elementCountsToItemCount(recipe.Inputs),
+        outputs: elementCountsToItemCount(recipe.Outputs),
     };
 }
 
+const gameData: GameData = {
+    crafters: crafters,
+    items: mappedItems,
+    recipes: mappedRecipes,
+};
+
 fs.writeFileSync(
     path.join(dirname, 'summarized-data.json'),
-    JSON.stringify({
-        crafters: crafters,
-        items: mappedItems,
-        recipes: mappedRecipes,
-    }, undefined, 4),
+    JSON.stringify(gameData, undefined, 4),
     {
         encoding: 'utf-8',
     },
