@@ -103,9 +103,11 @@ const itemBlacklist: Array<string> = [
     'Water_Purifier_T1',
 ];
 
+const itemExcluded: Record<string, string> = {};
 const mappedItems: Record<string, OutputItem> = {};
 for (const item of itemsStatic.Rows) {
     if (item.Itemable === undefined) {
+        itemExcluded[item.Name] = 'Not itemable';
         continue;
     }
 
@@ -115,6 +117,7 @@ for (const item of itemsStatic.Rows) {
     const itemableName = item.Itemable.RowName;
 
     if (itemBlacklist.includes(itemableName)) {
+        itemExcluded[item.Name] = 'Blacklisted';
         continue;
     }
 
@@ -137,16 +140,19 @@ for (const item of itemsStatic.Rows) {
 
     if (itemable === undefined) {
         console.log(`${item.Name} not found in itemable`);
+        itemExcluded[item.Name] = 'Not found in itemable';
         continue;
     }
 
     if (itemable.Icon === undefined) {
+        itemExcluded[item.Name] = 'No icon';
         continue;
     }
 
     const displayName = extractTranslation(itemable.DisplayName);
 
     if (displayName === undefined) {
+        itemExcluded[item.Name] = 'No display name';
         continue;
     }
 
@@ -267,3 +273,25 @@ fs.writeFileSync(
         encoding: 'utf-8',
     },
 );
+
+console.log('Checking whether all recipe items are known...');
+for (const [recipeName, recipe] of Object.entries(mappedRecipes)) {
+    const items = [
+        ...recipe.inputs.map(i => i.item),
+        ...recipe.outputs.map(i => i.item),
+    ];
+
+    for (const item of items) {
+        if (mappedItems[item] !== undefined) {
+            continue;
+        }
+
+        const exclusionReason = itemExcluded[item];
+        if (exclusionReason === undefined) {
+            console.error(`Recipe '${recipeName}' contains an unknown item '${item}'`);
+        } else {
+            console.error(`Recipe '${recipeName}' contains an excluded item '${item}'. Reason: ${
+                exclusionReason}`);
+        }
+    }
+}
