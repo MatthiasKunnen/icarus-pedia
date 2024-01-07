@@ -92,6 +92,17 @@ function getItemStaticName(ref: RefWithDataTable): string | undefined {
     }
 }
 
+const itemBlacklist: Array<string> = [
+    'DEV_Bug_Tool',
+    'DEV_Fireball',
+    'Debug_Target',
+    'Kit_Road',
+    'Player_Gravestone_DBNO',
+    'Player_Gravestone_MIA',
+    'SplineTool_Fuel',
+    'Water_Purifier_T1',
+];
+
 const mappedItems: Record<string, OutputItem> = {};
 for (const item of itemsStatic.Rows) {
     if (item.Itemable === undefined) {
@@ -102,6 +113,10 @@ for (const item of itemsStatic.Rows) {
      * E.g. Name of item as used in D_ItemsStatic.json, e.g. Stick.
      */
     const itemableName = item.Itemable.RowName;
+
+    if (itemBlacklist.includes(itemableName)) {
+        continue;
+    }
 
     /*
     let type: 'Attachment' | 'Consumable' | 'Knife' | undefined;
