@@ -68,6 +68,12 @@ function processIcon(icon: string): string {
 }
 
 /**
+ * Some items are named with different case in the recipes. This maps exists to retrieve the correct
+ * case. The key is from D_ItemsStatic.json, lowercase. The value is the original case.
+ */
+const itemStaticCaseCorrectionMap = new Map<string, string>();
+
+/**
  * Maps item templates to their static name.
  */
 const itemTemplateMap = new Map<string, string>();
@@ -81,15 +87,25 @@ for (const itemTemplate of itemTemplates.Rows) {
 }
 
 function getItemStaticName(ref: RefWithDataTable): string | undefined {
+    let result: string | undefined;
+
     switch (ref.DataTableName) {
         case 'D_ItemTemplate':
-            return itemTemplateMap.get(ref.RowName);
+            result = itemTemplateMap.get(ref.RowName);
+            break;
         case 'D_ItemsStatic':
-            return ref.RowName;
+            result = ref.RowName;
+            break;
         default:
             console.log(`Unknown datatable name ${ref.DataTableName}`);
             return undefined;
     }
+
+    if (result !== undefined) {
+        return itemStaticCaseCorrectionMap.get(result.toLowerCase());
+    }
+
+    return result;
 }
 
 const itemBlacklist: Array<string> = [
@@ -106,6 +122,7 @@ const itemBlacklist: Array<string> = [
 const itemExcluded: Record<string, string> = {};
 const mappedItems: Record<string, OutputItem> = {};
 for (const item of itemsStatic.Rows) {
+    itemStaticCaseCorrectionMap.set(item.Name.toLowerCase(), item.Name);
     if (item.Itemable === undefined) {
         itemExcluded[item.Name] = 'Not itemable';
         continue;
@@ -161,10 +178,10 @@ for (const item of itemsStatic.Rows) {
 
     for (const recipe of processorRecipes.Rows) {
         const addToRecipes = recipe.Outputs.some(o => {
-            return getItemStaticName(o.Element) === item.Name;
+            return getItemStaticName(o.Element)?.toLowerCase() === item.Name.toLowerCase();
         });
         const addToIngredientsIn = recipe.Inputs.some(o => {
-            return getItemStaticName(o.Element) === item.Name;
+            return getItemStaticName(o.Element)?.toLowerCase() === item.Name.toLowerCase();
         });
 
         if (!addToRecipes && !addToIngredientsIn) {
