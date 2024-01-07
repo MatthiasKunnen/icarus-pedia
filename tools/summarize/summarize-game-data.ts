@@ -45,6 +45,27 @@ const processorRecipes: ProcessorRecipes = await readData('Crafting/D_ProcessorR
 const recipeSets: RecipeSets = await readData('Crafting/D_RecipeSets.json');
 
 const iconPrefix = '/Game/Assets/2DArt/UI/';
+function processIcon(icon: string): string {
+    icon = icon.substring(iconPrefix.length);
+
+    const iconBaseNameIndex = icon.lastIndexOf('/');
+    if (iconBaseNameIndex < 0) {
+        throw new Error('Icon is not a path, no /.');
+    }
+
+    const iconBaseSplit = icon.substring(iconBaseNameIndex + 1).split('.');
+
+    if (iconBaseSplit.length < 2 || iconBaseSplit.length > 2) {
+        throw new Error(`Basename of icon is not split by . as expected. ${icon}`);
+    }
+
+    if (iconBaseSplit[0] !== iconBaseSplit[1]) {
+        throw new Error(`Basename of icon is not symmetrical. ${icon} (${
+            iconBaseSplit[0]} !== ${iconBaseSplit[1]})`);
+    }
+
+    return `${icon.substring(0, iconBaseNameIndex)}/${iconBaseSplit[0]}`;
+}
 
 /**
  * Maps item templates to their static name.
@@ -140,7 +161,7 @@ for (const item of itemsStatic.Rows) {
 
     mappedItems[item.Name] = {
         displayName: displayName,
-        icon: itemable.Icon.substring(iconPrefix.length),
+        icon: processIcon(itemable.Icon),
         description: extractTranslation(itemable.Description),
         flavorText: extractTranslation(itemable.FlavorText),
         isFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
@@ -159,7 +180,7 @@ for (const recipeSet of recipeSets.Rows) {
     }
 
     crafters[recipeSet.Name] = {
-        icon: icon.substring(iconPrefix.length),
+        icon: processIcon(icon),
         displayName: displayName,
         recipes: [],
     };
