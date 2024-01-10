@@ -138,7 +138,7 @@ for (const item of itemsStatic.Rows) {
      */
     const itemableName = item.Itemable.RowName;
 
-    if (itemBlacklist.includes(itemableName)) {
+    if (itemBlacklist.includes(item.Name)) {
         itemExcluded[item.Name] = 'Blacklisted';
         continue;
     }
