@@ -21,7 +21,7 @@
         align-items: center;
         justify-content: center;
         gap: 1em;
-        font-size: 2em;
+        font-size: min(5vw, 2em);
         text-align: center;
     }
 
