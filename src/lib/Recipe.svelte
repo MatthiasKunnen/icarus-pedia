@@ -9,7 +9,7 @@
     <ul class="items">
         <RecipeItems items={recipe.outputs}></RecipeItems>
     </ul>
-    <span>=</span>
+    <span class="direction">←</span>
     <ul class="items">
         <RecipeItems items={recipe.inputs}></RecipeItems>
     </ul>
@@ -22,6 +22,10 @@
         align-items: center;
         gap: 8px;
         font-weight: bold;
+    }
+
+    .direction {
+        font-size: 3em;
     }
 
     .items {
