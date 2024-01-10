@@ -265,7 +265,7 @@ for (const recipe of processorRecipes.Rows) {
             });
         }
 
-        return itemCounts;
+        return itemCounts.sort((a, b) => a.item.localeCompare(b.item));
     };
 
     mappedRecipes[recipe.Name] = {
