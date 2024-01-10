@@ -35,8 +35,8 @@ for (const icon of icons) {
 
     try {
         await fs.promises.symlink(
-            path.relative(path.dirname(iconOutputPath), iconSourcePath),
-            iconOutputPath,
+            path.relative(path.dirname(iconOutputPath), `${iconSourcePath}.png`),
+            `${iconOutputPath}.png`,
         );
     } catch (error) {
         if (error != null
@@ -60,18 +60,13 @@ const sizes = [
 
 const commands: Array<string> = [];
 for (const iconPath of linkedIcons) {
-    const filename = iconPath.substring(
-        0,
-        iconPath.length - path.extname(iconPath).length,
-    );
-
-    commands.push(`convert ${iconPath} ${filename}.avif`);
-    commands.push(`convert ${iconPath} ${filename}.webp`);
-    commands.push(`cjxl -d 2 ${iconPath} ${filename}.jxl`);
+    commands.push(`convert ${iconPath}.png ${iconPath}.avif`);
+    commands.push(`convert ${iconPath}.png ${iconPath}.webp`);
+    commands.push(`cjxl -d 2 ${iconPath}.png ${iconPath}.jxl`);
 
     for (const size of sizes) {
-        const f = `${filename}_${size}`;
-        commands.push(`convert ${iconPath} -resize ${size} ${f}.png \
+        const f = `${iconPath}_${size}`;
+        commands.push(`convert ${iconPath}.png -resize ${size} ${f}.png \
             && convert ${f}.png ${f}.avif \
             && convert ${f}.png ${f}.webp \
             && cjxl -d 2 ${f}.png ${f}.jxl`);
