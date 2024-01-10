@@ -122,6 +122,8 @@ const itemBlacklist: Array<string> = [
     'Kit_Road',
     'Player_Gravestone_DBNO',
     'Player_Gravestone_MIA',
+    'Smoker_T3',
+    'Smoker_T4',
     'SplineTool_Fuel',
     'Water_Purifier_T1',
 ];
@@ -231,12 +233,20 @@ for (const recipeSet of recipeSets.Rows) {
     };
 }
 
+const blacklistedRecipeSets: Array<string> = [
+    'T3_Smoker',
+    'T4_Smoker',
+];
 const mappedRecipes: Record<string, OutputRecipe> = {};
 for (const recipe of processorRecipes.Rows) {
     for (const recipeSet of recipe.RecipeSets) {
         if (recipeSet.DataTableName !== 'D_RecipeSets') {
             console.error(`Unknown RecipeSet datatable ${recipeSet.DataTableName} for recipe ${
                 recipe.Name}`);
+        }
+
+        if (blacklistedRecipeSets.includes(recipeSet.RowName)) {
+            continue;
         }
 
         const crafter = crafters[recipeSet.RowName];
@@ -278,7 +288,7 @@ for (const recipe of processorRecipes.Rows) {
                     throw new Error(`Unknown RecipeSet data table name: ${
                         recipeSet.DataTableName}`);
             }
-        }),
+        }).filter(rs => !blacklistedRecipeSets.includes(rs)),
         inputs: elementCountsToItemCount(recipe.Inputs),
         outputs: elementCountsToItemCount(recipe.Outputs),
     };
