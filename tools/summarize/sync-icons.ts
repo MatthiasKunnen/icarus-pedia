@@ -67,7 +67,10 @@ for (const iconPath of linkedIcons) {
 
     for (const size of sizes) {
         const f = `${iconPath}_${size}`;
-        commands.push(`convert ${iconPath}.png -resize ${size} ${f}.png \
+        commands.push(`convert ${iconPath}.png -resize ${size} \
+            -define png:exclude-chunk=TIME \
+            -strip \
+            ${f}.png \
             && convert ${f}.png ${f}.avif \
             && convert ${f}.png ${f}.webp \
             && cjxl -d 2 ${f}.png ${f}.jxl`);
