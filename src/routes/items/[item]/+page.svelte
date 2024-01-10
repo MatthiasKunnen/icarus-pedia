@@ -5,6 +5,7 @@
     export let data;
 </script>
 
+<a href="/items">&lt; See all items</a>
 <h1>{data.item.displayName}</h1>
 <div class="icon">
     <GameIcon
