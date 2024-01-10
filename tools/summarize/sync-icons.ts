@@ -15,6 +15,7 @@ const data: GameData = JSON.parse(fs.readFileSync(
     {encoding: 'utf-8'},
 ));
 const icons = Object.values(data.items).map(item => item.icon);
+icons.push('Logos/Icon_Icarus');
 
 console.log('Cleaning output path');
 for (const filename of await fs.promises.readdir(outputPath)) {
