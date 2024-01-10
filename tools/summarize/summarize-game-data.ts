@@ -9,6 +9,7 @@ import type {Itemable} from './itemable.interface.js';
 import type {ElementCount, ProcessorRecipes} from './processor-recipes.interface.js';
 import type {RecipeSets} from './recipe-sets.interface.js';
 import {extractTranslation} from './util/localization.util.js';
+import {sortObjectKeys} from './util/object.util.js';
 import {staticItemTagMatches} from './util/tag.util.js';
 import type {
     Crafter,
@@ -284,9 +285,9 @@ for (const recipe of processorRecipes.Rows) {
 }
 
 const gameData: GameData = {
-    crafters: crafters,
-    items: mappedItems,
-    recipes: mappedRecipes,
+    crafters: sortObjectKeys(crafters),
+    items: sortObjectKeys(mappedItems),
+    recipes: sortObjectKeys(mappedRecipes),
 };
 
 fs.writeFileSync(
