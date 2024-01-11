@@ -1,9 +1,14 @@
 export interface FullRecipe {
-    craftedAt: Array<string>;
+    craftedAt: Array<FullRecipeCraftedAt>;
     inputs: Array<FullItemCount>;
     name: string;
     outputs: Array<FullItemCount>;
     requirement: string | undefined;
+}
+
+export interface FullRecipeCraftedAt {
+    id: string;
+    displayName: string;
 }
 
 export interface FullItemCount {

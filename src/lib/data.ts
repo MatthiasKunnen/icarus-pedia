@@ -52,7 +52,10 @@ export function getRecipe(recipeName: string, data: GameData): FullRecipe {
     }
 
     return {
-        craftedAt: recipe.craftedAt,
+        craftedAt: recipe.craftedAt.map(craftedAtId => ({
+            displayName: data.crafters[craftedAtId]?.displayName ?? craftedAtId,
+            id: craftedAtId,
+        })),
         inputs: recipe.inputs.map(ic => itemCountToFull(ic, data)),
         name: recipeName,
         outputs: recipe.outputs.map(ic => itemCountToFull(ic, data)),

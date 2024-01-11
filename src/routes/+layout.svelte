@@ -24,6 +24,7 @@
         </a>
         <nav>
             <a href="/Items">Items</a>
+            <a href="/Crafters">Crafters</a>
         </nav>
     </footer>
 </div>

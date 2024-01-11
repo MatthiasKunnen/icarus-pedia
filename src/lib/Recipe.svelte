@@ -14,7 +14,12 @@
         <RecipeItems items={recipe.inputs}></RecipeItems>
     </ul>
 </div>
-<p class="craft-at">Craft at: {recipe.craftedAt.join(', ')}</p>
+<p class="craft-at">Craft at:
+    {#each recipe.craftedAt as crafter, i}
+        {#if i > 0},{/if}
+        <a href="/Crafters/{crafter.id}">{crafter.displayName}</a>
+    {/each}
+</p>
 
 <style>
     .in-and-out {
@@ -47,5 +52,9 @@
 
     .craft-at {
         margin: 1em 0 0 0;
+    }
+
+    .craft-at a {
+        border-bottom: 1px solid white;
     }
 </style>
