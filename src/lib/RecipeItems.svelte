@@ -30,6 +30,7 @@
     }
 
     .item {
+        --game-icon-width: 64px;
         position: relative;
         display: flex;
         padding-top: 6px;
