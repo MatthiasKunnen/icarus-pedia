@@ -1,15 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {fileURLToPath} from 'url';
 
 import type {FullItemCount, FullRecipe} from '$lib/recipe.interface';
 import type {GameData, ItemCount} from './data.interface';
 
-const dirname = path.dirname(fileURLToPath(import.meta.url));
 const summarizedDataPath = path.join(
-    dirname,
-    '..',
-    '..',
+    process.cwd(),
     'tools',
     'summarize',
     'summarized-data.json',
