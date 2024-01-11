@@ -38,6 +38,7 @@ coverage
 *.local
 *.local.*
 local/
+/nginx.conf
 
 # Svelte
 /build
