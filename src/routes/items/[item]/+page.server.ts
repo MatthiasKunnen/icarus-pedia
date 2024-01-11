@@ -4,7 +4,6 @@ export const load = async ({params}) => {
     const data = await getData();
     const itemName = params.item;
     const item = data.items[itemName];
-    console.log(itemName, item);
 
     if (item === undefined) {
         throw new Error('404');
