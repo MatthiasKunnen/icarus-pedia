@@ -14,7 +14,10 @@ const data: GameData = JSON.parse(fs.readFileSync(
     path.join(dirname, 'summarized-data.json'),
     {encoding: 'utf-8'},
 ));
-const icons = Object.values(data.items).map(item => item.icon);
+const icons = [
+    ...Object.values(data.items).map(item => item.icon),
+    ...Object.values(data.crafters).map(item => item.icon),
+];
 icons.push('Logos/Icon_Icarus');
 
 console.log('Cleaning output path');
