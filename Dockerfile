@@ -1,5 +1,4 @@
-# Dockerfile for frontend, for backend dockerfile see api/Dockerfile
-FROM nginx:1.25.3
+FROM georgjung/nginx-brotli@sha256:46b8f1eeee2df8e7ed61cd9be97b02d2d18d9af8defefe10bfe09c822bc01e2f
 LABEL org.opencontainers.image.source=https://github.com/MatthiasKunnen/icarus-pedia
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
