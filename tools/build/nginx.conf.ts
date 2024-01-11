@@ -59,9 +59,14 @@ http {
 
 		index index.html;
 
+		error_page 404 /index.html;
+
+		location = / {
+		    rewrite index.html last;
+		}
+
 		location / {
-			# Serve file if it exists, index.html otherwise
-			try_files $uri $uri.html /index.html;
+			try_files $uri $uri.html =404;
 		}
 
 		location /_app/immutable {
