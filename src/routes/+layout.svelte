@@ -23,7 +23,7 @@
             <Logo size={64}></Logo>
         </a>
         <nav>
-            <a href="/items">Items</a>
+            <a href="/Items">Items</a>
         </nav>
     </footer>
 </div>

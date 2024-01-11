@@ -9,7 +9,7 @@
 
 <div class="items">
     {#each data.items as [name, item]}
-        <a href="/items/{name}">
+        <a href="/Items/{name}">
             <GameIcon
                 icon={item.icon}
                 alt="{item.displayName}"
