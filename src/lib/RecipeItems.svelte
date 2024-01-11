@@ -6,9 +6,7 @@
 </script>
 
 {#each items as item, i}
-    {#if i > 0}
-        +
-    {/if}
+    <li class="sum">{#if i > 0}+{/if}</li>
     <li class="item">
         <a href="/items/{item.item.name}">
             <GameIcon
