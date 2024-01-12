@@ -7,7 +7,7 @@
         "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
         "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
         "dev": "vite dev",
-        "lint:ts": "eslint \"src/**/*.ts\" \"svelte.config.js\" \"tools/**/*.ts\" vite.config.ts",
+        "lint": "eslint \"src/**/*.ts\" \"svelte.config.js\" \"tools/**/*.ts\" vite.config.ts",
         "preview": "vite preview",
         "run:tool": "TS_NODE_PROJECT=tools/tsconfig.json node --loader ts-node/esm",
         "run:tool:inspect": "TS_NODE_PROJECT=tools/tsconfig.json node --loader ts-node/esm --inspect-brk"

@@ -4,7 +4,7 @@ function mapFilenames(filenames) {
 
 export default {
     '**/*.ts': (filenames) => [
-        `yarn run lint:ts --fix --cache ${mapFilenames(filenames)}`,
+        `yarn run lint --fix --cache ${mapFilenames(filenames)}`,
         // `yarn run compile:ts`,
     ],
 };
