@@ -110,6 +110,7 @@ function getItemStaticName(ref: RefWithDataTable): string | undefined {
 }
 
 const itemBlacklist: Array<string> = [
+    'CollectionShipBeacon',
     'DEV_Bug_Tool',
     'DEV_Fireball',
     'DEV_Inspection_Tool',
