@@ -219,26 +219,6 @@ const blacklistedRecipeSets: Array<string> = [
 ];
 const mappedRecipes: Record<string, OutputRecipe> = {};
 for (const recipe of processorRecipes.Rows) {
-    for (const recipeSet of recipe.RecipeSets) {
-        if (recipeSet.DataTableName !== 'D_RecipeSets') {
-            console.error(`Unknown RecipeSet datatable ${recipeSet.DataTableName} for recipe ${
-                recipe.Name}`);
-        }
-
-        if (blacklistedRecipeSets.includes(recipeSet.RowName)) {
-            continue;
-        }
-
-        const crafter = crafters[recipeSet.RowName];
-
-        if (crafter === undefined) {
-            console.log(`Unknown RecipeSet ${recipeSet.RowName} for recipe ${recipe.Name}`);
-            continue;
-        }
-
-        crafter.recipes.push(recipe.Name);
-    }
-
     const elementCountsToItemCount = (elementCounts: Array<ElementCount>): Array<ItemCount> => {
         const itemCounts: Array<ItemCount> = [];
 
@@ -294,6 +274,26 @@ for (const recipe of processorRecipes.Rows) {
     }
     if (skip) {
         continue;
+    }
+
+    for (const recipeSet of recipe.RecipeSets) {
+        if (recipeSet.DataTableName !== 'D_RecipeSets') {
+            console.error(`Unknown RecipeSet datatable ${recipeSet.DataTableName} for recipe ${
+                recipe.Name}`);
+        }
+
+        if (blacklistedRecipeSets.includes(recipeSet.RowName)) {
+            continue;
+        }
+
+        const crafter = crafters[recipeSet.RowName];
+
+        if (crafter === undefined) {
+            console.log(`Unknown RecipeSet ${recipeSet.RowName} for recipe ${recipe.Name}`);
+            continue;
+        }
+
+        crafter.recipes.push(recipe.Name);
     }
 
     mappedRecipes[recipe.Name] = {
