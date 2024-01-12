@@ -3655,7 +3655,9 @@
             "description": "Fast-working anti-venom to combat poisoning.",
             "flavorText": "Of the many ways to die on Icarus, poisoning is perhaps the least glorious.",
             "isFood": false,
-            "recipes": [],
+            "recipes": [
+                "AntiPoison_Tonic"
+            ],
             "ingredientIn": [
                 "Antipoison_Pill"
             ]
@@ -8214,7 +8216,9 @@
             "description": "The largest of steaks can typically only be found in the largest of creatures",
             "flavorText": "Calories dont count on Icarus",
             "isFood": true,
-            "recipes": [],
+            "recipes": [
+                "Carcass_BatDog"
+            ],
             "ingredientIn": [
                 "Cooked_Fatty_TBone",
                 "Dried_Fatty_Tbone",
@@ -21611,7 +21615,9 @@
             "description": "A thrown device for fire fighting.",
             "flavorText": "Woven from fiber, the water bomb allows fire suppression from a safe distance.",
             "isFood": false,
-            "recipes": [],
+            "recipes": [
+                "WaterBomb"
+            ],
             "ingredientIn": []
         },
         "WaterWheel_Generator": {
@@ -23375,7 +23381,12 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [
+                {
+                    "item": "Antipoison_Tonic",
+                    "count": 1
+                }
+            ]
         },
         "Antibiotic_Paste": {
             "requirement": "Antibiotic_Paste",
@@ -28055,6 +28066,10 @@
                 {
                     "item": "Bone",
                     "count": 20
+                },
+                {
+                    "item": "Fatty_Tbone",
+                    "count": 2
                 },
                 {
                     "item": "Fur",
@@ -50081,7 +50096,12 @@
                     "count": 5
                 }
             ],
-            "outputs": []
+            "outputs": [
+                {
+                    "item": "WaterBomb",
+                    "count": 5
+                }
+            ]
         },
         "Water_Pump": {
             "requirement": "Water_Pump",

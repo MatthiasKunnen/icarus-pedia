@@ -84,7 +84,7 @@ for (const itemTemplate of itemTemplates.Rows) {
         continue;
     }
 
-    itemTemplateMap.set(itemTemplate.Name, itemTemplate.ItemStaticData.RowName);
+    itemTemplateMap.set(itemTemplate.Name.toLowerCase(), itemTemplate.ItemStaticData.RowName);
 }
 
 function getItemStaticName(ref: RefWithDataTable): string | undefined {
@@ -92,7 +92,7 @@ function getItemStaticName(ref: RefWithDataTable): string | undefined {
 
     switch (ref.DataTableName) {
         case 'D_ItemTemplate':
-            result = itemTemplateMap.get(ref.RowName);
+            result = itemTemplateMap.get(ref.RowName.toLowerCase());
             break;
         case 'D_ItemsStatic':
             result = ref.RowName;
