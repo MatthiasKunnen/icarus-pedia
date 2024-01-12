@@ -1,9 +1,21 @@
 <script lang="ts">
     import {page} from '$app/stores';
     import Logo from '$lib/Logo.svelte';
+    import type {Snapshot} from '@sveltejs/kit';
 
     import './normalize.css';
     import './global.css';
+
+    let rootContent: HTMLElement;
+
+    export const snapshot: Snapshot<number> = {
+        capture: () => {
+            return rootContent.scrollTop;
+        },
+        restore: (value) => {
+            rootContent.scrollTop = value
+        },
+    };
 </script>
 
 <svelte:head>
@@ -15,7 +27,7 @@
 </svelte:head>
 
 <div class="body">
-    <div class="root-content">
+    <div class="root-content" bind:this={rootContent}>
         <slot></slot>
     </div>
     <footer>
