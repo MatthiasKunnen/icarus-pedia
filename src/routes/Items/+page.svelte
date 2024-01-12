@@ -34,9 +34,9 @@
     }
 
     .items {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1em;
+        display: grid;
+        gap: 2em;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         --game-icon-width: 64px;
     }
 </style>
