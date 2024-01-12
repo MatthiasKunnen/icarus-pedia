@@ -184,38 +184,14 @@ for (const item of itemsStatic.Rows) {
         continue;
     }
 
-    const recipes: Array<any> = [];
-    const ingredientIn: Array<any> = [];
-
-    for (const recipe of processorRecipes.Rows) {
-        const addToRecipes = recipe.Outputs.some(o => {
-            return getItemStaticName(o.Element)?.toLowerCase() === item.Name.toLowerCase();
-        });
-        const addToIngredientsIn = recipe.Inputs.some(o => {
-            return getItemStaticName(o.Element)?.toLowerCase() === item.Name.toLowerCase();
-        });
-
-        if (!addToRecipes && !addToIngredientsIn) {
-            continue;
-        }
-
-        if (addToRecipes) {
-            recipes.push(recipe.Name);
-        }
-
-        if (addToIngredientsIn) {
-            ingredientIn.push(recipe.Name);
-        }
-    }
-
     mappedItems[item.Name] = {
         displayName: displayName,
         icon: processIcon(itemable.Icon),
         description: extractTranslation(itemable.Description),
         flavorText: extractTranslation(itemable.FlavorText),
         isFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
-        recipes: recipes,
-        ingredientIn: ingredientIn,
+        recipes: [],
+        ingredientIn: [],
     };
 }
 
@@ -291,6 +267,35 @@ for (const recipe of processorRecipes.Rows) {
         continue;
     }
 
+    let skip = false;
+    for (const recipeInput of inputs) {
+        const mappedItem = mappedItems[recipeInput.item];
+        if (mappedItem === undefined) {
+            const reason = itemExcluded[recipeInput.item];
+            console.log(`Excluding recipe ${recipe.Name} because input ${
+                recipeInput.item} is not mapped.${
+                reason === undefined ? '' : ` Reason: ${reason}.`}`);
+            skip = true;
+            break;
+        }
+        mappedItem.ingredientIn.push(recipe.Name);
+    }
+    for (const recipeOutput of outputs) {
+        const mappedItem = mappedItems[recipeOutput.item];
+        if (mappedItem === undefined) {
+            const reason = itemExcluded[recipeOutput.item];
+            console.log(`Excluding recipe ${recipe.Name} because output ${
+                recipeOutput.item} is not mapped.${
+                reason === undefined ? '' : ` Reason: ${reason}.`}`);
+            skip = true;
+            break;
+        }
+        mappedItem.recipes.push(recipe.Name);
+    }
+    if (skip) {
+        continue;
+    }
+
     mappedRecipes[recipe.Name] = {
         requirement: recipe.Requirement?.RowName,
         craftedAt: recipe.RecipeSets.map(recipeSet => {
@@ -320,25 +325,3 @@ fs.writeFileSync(
         encoding: 'utf-8',
     },
 );
-
-console.log('Checking whether all recipe items are known...');
-for (const [recipeName, recipe] of Object.entries(mappedRecipes)) {
-    const items = [
-        ...recipe.inputs.map(i => i.item),
-        ...recipe.outputs.map(i => i.item),
-    ];
-
-    for (const item of items) {
-        if (mappedItems[item] !== undefined) {
-            continue;
-        }
-
-        const exclusionReason = itemExcluded[item];
-        if (exclusionReason === undefined) {
-            console.error(`Recipe '${recipeName}' contains an unknown item '${item}'`);
-        } else {
-            console.error(`Recipe '${recipeName}' contains an excluded item '${item}'. Reason: ${
-                exclusionReason}`);
-        }
-    }
-}
