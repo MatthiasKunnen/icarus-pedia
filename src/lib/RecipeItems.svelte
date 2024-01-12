@@ -7,7 +7,7 @@
 
 {#each items as item, i}
     <li class="sum">{#if i > 0}+{/if}</li>
-    <li class="item">
+    <li class="item" data-name={item.item.name}>
         <a href="/Items/{item.item.name}">
             <GameIcon
                 icon={item.item.icon}
