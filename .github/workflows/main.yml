@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    name: Lint and build
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name # Prevent duplicate run
+    runs-on: ubuntu-latest
+    steps:
+      -
+        uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3.5.1
+        with:
+          node-version-file: package.json
+      - name: Enable corepack
+        run: corepack enable
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+      - name: Cache Yarn packages
+        uses: actions/cache@v3.0.11
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      -
+        name: Install dependencies
+        run: |
+          yarn install --immutable
+      -
+        name: Lint
+        run: yarn run lint
+      -
+        name: Build website
+        run: yarn run build
+      -
+        name: Svelte check
+        run: yarn run check

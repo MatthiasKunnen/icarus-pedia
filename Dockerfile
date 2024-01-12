@@ -8,7 +8,7 @@ ENV REVISION=$REVISION
 LABEL org.opencontainers.image.revision=$REVISION
 
 LABEL org.opencontainers.image.description="The frontend for IcarusPedia"
-LABEL org.opencontainers.image.title="IcarusPedia's frontend"
+LABEL org.opencontainers.image.title="IcarusPedia website"
 
 WORKDIR /usr/share/nginx/html
 
