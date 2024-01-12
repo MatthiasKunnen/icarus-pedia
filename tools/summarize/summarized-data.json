@@ -36041,19 +36041,6 @@
                 }
             ]
         },
-        "Fur_Curtain_Door": {
-            "requirement": "Fur_Curtain_Door",
-            "craftedAt": [
-                "Crafting_Bench"
-            ],
-            "inputs": [
-                {
-                    "item": "Fur",
-                    "count": 1
-                }
-            ],
-            "outputs": []
-        },
         "Fur_Feet_Armor": {
             "requirement": "Fur_Feet_Armor",
             "craftedAt": [

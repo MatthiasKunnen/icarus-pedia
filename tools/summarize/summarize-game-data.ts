@@ -282,6 +282,15 @@ for (const recipe of processorRecipes.Rows) {
         return itemCounts.sort((a, b) => a.item.localeCompare(b.item));
     };
 
+    const inputs = elementCountsToItemCount(recipe.Inputs);
+    const outputs = elementCountsToItemCount(recipe.Outputs);
+
+    if (inputs.length !== recipe.Inputs.length || outputs.length !== recipe.Outputs.length) {
+        console.log(`Excluding recipe ${recipe.Name} because not all inputs and outputs could be `
+            + `found.`);
+        continue;
+    }
+
     mappedRecipes[recipe.Name] = {
         requirement: recipe.Requirement?.RowName,
         craftedAt: recipe.RecipeSets.map(recipeSet => {
@@ -293,8 +302,8 @@ for (const recipe of processorRecipes.Rows) {
                         recipeSet.DataTableName}`);
             }
         }).filter(rs => !blacklistedRecipeSets.includes(rs)),
-        inputs: elementCountsToItemCount(recipe.Inputs),
-        outputs: elementCountsToItemCount(recipe.Outputs),
+        inputs: inputs,
+        outputs: outputs,
     };
 }
 
