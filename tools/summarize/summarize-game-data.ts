@@ -235,6 +235,7 @@ for (const recipeSet of recipeSets.Rows) {
 
 const blacklistedRecipeSets: Array<string> = [
     'Cleaning_Device',
+    'RefundOnly',
     'T3_Smoker',
     'T4_Smoker',
 ];
