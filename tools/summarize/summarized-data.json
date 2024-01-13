@@ -2168,6 +2168,7 @@
             ]
         },
         "Advanced_Alteration_Bench": {
+            "crafter": "Advanced_Alteration_Bench",
             "displayName": "Advanced Alteration Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Advanced_Alteration_Bench",
             "description": "A bench with a 3d printer to create any attachment. Allows faster altering of items than the basic Alteration Bench.",
@@ -2190,6 +2191,7 @@
             "ingredientIn": []
         },
         "Advanced_Armor_Bench": {
+            "crafter": "Advanced_Armor_Bench",
             "displayName": "Advanced Textiles Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Advanced_Armor_Bench",
             "description": "Craft and assemble advanced protective items and garments.",
@@ -2273,6 +2275,7 @@
             "ingredientIn": []
         },
         "Advanced_Kitchen_Bench": {
+            "crafter": "Advanced_Kitchen_Bench",
             "displayName": "Marble Kitchen Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Advanced_Kitchen_Bench",
             "description": "A full food preparation area.",
@@ -2423,6 +2426,7 @@
             "ingredientIn": []
         },
         "Alteration_Bench": {
+            "crafter": "Alteration_Bench",
             "displayName": "Alteration Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Alteration_Bench",
             "description": "A bench with built-in drill press for crafting attachments and a workspace for altering Items.",
@@ -3671,6 +3675,7 @@
             "ingredientIn": []
         },
         "Anvil_Bench": {
+            "crafter": "Anvil_Bench",
             "displayName": "Anvil Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Anvil_Bench",
             "description": "Heavyweight work surface for iron and steel tools, using ingots smelted in their appropriate furnaces.",
@@ -3682,6 +3687,7 @@
             "ingredientIn": []
         },
         "Anvil_Bench_T3": {
+            "crafter": "Anvil_Bench_T3",
             "displayName": "Forge",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Anvil_Bench_T3",
             "description": "A versatile forge powered by coal for crafting various weapons and tools.",
@@ -3693,6 +3699,7 @@
             "ingredientIn": []
         },
         "Anvil_Bench_T4": {
+            "crafter": "Anvil_Bench_T4",
             "displayName": "Foundry",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Anvil_Bench_T4",
             "description": "An impressive foundry powered by electricity for crafting various higher quality weapons and tools.",
@@ -3748,6 +3755,7 @@
             "ingredientIn": []
         },
         "Armor_Bench": {
+            "crafter": "Armor_Bench",
             "displayName": "Textiles Bench",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Armor_Bench",
             "description": "Craft and assemble various protective items and garments.",
@@ -4931,6 +4939,7 @@
             "ingredientIn": []
         },
         "Campfire": {
+            "crafter": "Campfire",
             "displayName": "Campfire",
             "icon": "Items/Item_Icons/Deployables/ITEM_Campfire",
             "description": "A place to cook food and fend the cold away.",
@@ -5145,6 +5154,7 @@
             "ingredientIn": []
         },
         "Carpentry_Bench": {
+            "crafter": "Carpentry_Bench",
             "displayName": "Carpentry Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carpentry_Bench",
             "description": "Workbench and tools for advanced wooden crafting.",
@@ -5156,6 +5166,7 @@
             "ingredientIn": []
         },
         "Carpentry_Bench_T4": {
+            "crafter": "Carpentry_Bench_T4",
             "displayName": "Electric Carpentry Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carpentry_Bench_T4",
             "description": "Powered workbench and machine tools for advanced woodworking.",
@@ -5519,6 +5530,7 @@
             "ingredientIn": []
         },
         "Cement_Mixer": {
+            "crafter": "Cement_Mixer",
             "displayName": "Cement Mixer",
             "icon": "Items/Item_Icons/Deployables/ITEM_Cement_Mixer",
             "description": "Craft concrete construction elements.",
@@ -5619,6 +5631,7 @@
             "ingredientIn": []
         },
         "Chemistry_Bench": {
+            "crafter": "Chemistry_Bench",
             "displayName": "Chemistry Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Chemistry_Bench",
             "description": "A rough but effective laboratory.",
@@ -6307,6 +6320,7 @@
             ]
         },
         "Composter": {
+            "crafter": "Composter",
             "displayName": "Biofuel Composter",
             "icon": "Items/Item_Icons/Deployables/ITEM_Composter",
             "description": "Rapidly decomposes organic matter into biofuel, which is collected by adding a biofuel can. Can be connected to a water network for increased processing speed.",
@@ -6318,6 +6332,7 @@
             "ingredientIn": []
         },
         "Composter_Electric": {
+            "crafter": "Composter_Electric",
             "displayName": "Electric Composter",
             "icon": "Items/Item_Icons/Deployables/ITEM_Composter_Electric",
             "description": "Advanced biofuel unit for accelerated production.",
@@ -6329,6 +6344,7 @@
             "ingredientIn": []
         },
         "Composter_Wood": {
+            "crafter": "Composter_Wood",
             "displayName": "Wood Composter",
             "icon": "Items/Item_Icons/Deployables/ITEM_Composter_Wood",
             "description": "Change your trash into Fertilizer with this simple composter. Items placed in this device will spoil at an accelerated rate.",
@@ -6381,6 +6397,7 @@
             "ingredientIn": []
         },
         "Concrete_Furnace_V2": {
+            "crafter": "Concrete_Furnace",
             "displayName": "Concrete Furnace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Concrete_Furnace_V2",
             "description": "An insulated, high-temperature furnace for smelting a wide range of materials including steel.",
@@ -6744,6 +6761,7 @@
             "ingredientIn": []
         },
         "Cooking_Station": {
+            "crafter": "Cooking_Station",
             "displayName": "Cooking Station",
             "icon": "Items/Item_Icons/Deployables/ITEM_Cooking_Station",
             "description": "A food preparation and butchering bench.",
@@ -6753,6 +6771,7 @@
             "ingredientIn": []
         },
         "Cooking_Station_V2": {
+            "crafter": "Cooking_Station",
             "displayName": "Cooking Station",
             "icon": "Items/Item_Icons/Deployables/ITEM_Cooking_Station_V2",
             "description": "A food preparation and butchering bench.",
@@ -6967,6 +6986,7 @@
             "ingredientIn": []
         },
         "Crafting_Bench": {
+            "crafter": "Crafting_Bench",
             "displayName": "Crafting Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Crafting_Bench",
             "description": "A sturdy construction bench, though useless without shelter.",
@@ -7459,6 +7479,7 @@
             "ingredientIn": []
         },
         "Drying_Rack": {
+            "crafter": "Drying_Rack",
             "displayName": "Drying Rack",
             "icon": "Items/Item_Icons/Deployables/ITEM_DryingRack",
             "description": "A rack for slowly drying various cuts of meat and curing leather.",
@@ -7479,6 +7500,7 @@
             "ingredientIn": []
         },
         "Electric_Armor_Bench": {
+            "crafter": "Electric_Armor_Bench",
             "displayName": "Electric Textiles Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Armor_Bench",
             "description": "Powered workbench for advanced textiles production and maintenance.",
@@ -7509,6 +7531,7 @@
             "ingredientIn": []
         },
         "Electric_Furnace_Large": {
+            "crafter": "Electric_Furnace",
             "displayName": "Electric Furnace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Furnace_Large",
             "description": "A laboratory grade arc furnace, smelts basic and advanced materials alike.",
@@ -7519,6 +7542,7 @@
             "ingredientIn": []
         },
         "Electric_Stove": {
+            "crafter": "Electric_Stove",
             "displayName": "Electric Stove",
             "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Stove",
             "description": "A swifter, safer cooking system.",
@@ -7933,6 +7957,7 @@
             "ingredientIn": []
         },
         "Exotic_Processor": {
+            "crafter": "Exotic_Processor",
             "displayName": "Organic Residue Cleanser",
             "icon": "Items/Item_Icons/Deployables/ITEM_Exotic_Processor",
             "description": "A machine that can process Volatile Exotics into usable materials.",
@@ -8008,6 +8033,7 @@
             "ingredientIn": []
         },
         "Fabricator": {
+            "crafter": "Fabricator",
             "displayName": "Fabricator",
             "icon": "Items/Item_Icons/Deployables/ITEM_Fabricator",
             "description": "A marvel of survival technology.",
@@ -8486,6 +8512,7 @@
             "ingredientIn": []
         },
         "Filletting_Station": {
+            "crafter": "Fishing_Bench_Filletting",
             "displayName": "Basic Fishing Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Fishing_Bench",
             "description": "A place to craft Rods and Lures and to fillet Fish that youve caught.",
@@ -8506,6 +8533,7 @@
             "ingredientIn": []
         },
         "FirePit": {
+            "crafter": "FirePit",
             "displayName": "Firepit",
             "icon": "Items/Item_Icons/Deployables/ITEM_FirePit",
             "description": "A large, stone-lined pit for swift cooking and heating.",
@@ -8539,6 +8567,7 @@
             "ingredientIn": []
         },
         "Fireplace": {
+            "crafter": "Fireplace",
             "displayName": "Fireplace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Fireplace",
             "description": "Cooks food swiftly and safely. Basically a large enclosed firepit, for a more homely feel.",
@@ -9390,6 +9419,7 @@
             "ingredientIn": []
         },
         "Fishing_Bench": {
+            "crafter": "Fishing_Bench_Crafting",
             "displayName": "Basic Fishing Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Fishing_Bench",
             "description": "A place to craft Rods and Lures and to fillet Fish that youve caught.",
@@ -10548,6 +10578,7 @@
             "ingredientIn": []
         },
         "Glassworking_Bench": {
+            "crafter": "Glassworking_Bench",
             "displayName": "Glassworking Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Glassworking_Bench",
             "description": "Tools for creating glass items and construction elements.",
@@ -10557,6 +10588,7 @@
             "ingredientIn": []
         },
         "Glassworking_Bench_V2": {
+            "crafter": "Glassworking_Bench",
             "displayName": "Glassworking Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Glassworking_Bench_V2",
             "description": "Tools for creating glass items and construction elements.",
@@ -10634,6 +10666,7 @@
             "ingredientIn": []
         },
         "Gold_Fireplace": {
+            "crafter": "Fireplace",
             "displayName": "Art Deco Fireplace",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Gold_Fireplace",
             "description": "A gilded fireplace that embodies the sleek, decorative essence of traditional Art Deco design.",
@@ -11232,6 +11265,7 @@
             "ingredientIn": []
         },
         "Herbalism_Bench": {
+            "crafter": "Herbalism_Bench",
             "displayName": "Herbalism Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Herbalism_Bench",
             "description": "Craft, create, concoct.",
@@ -11946,6 +11980,7 @@
             "ingredientIn": []
         },
         "Kit_Concrete_Furnace": {
+            "crafter": "Concrete_Furnace",
             "displayName": "Concrete Furnace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Concrete_Furnace",
             "description": "An insulated, high-temperature furnace for smelting a wide range of materials including steel.",
@@ -11955,6 +11990,7 @@
             "ingredientIn": []
         },
         "Kit_Electric_Furnace": {
+            "crafter": "Electric_Furnace",
             "displayName": "Electric Furnace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Electric_Furnace",
             "description": "A laboratory grade arc furnace, smelts basic and advanced materials alike.",
@@ -11994,6 +12030,7 @@
             "ingredientIn": []
         },
         "Kit_Machining_Bench": {
+            "crafter": "Machining_Bench",
             "displayName": "Machining Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Machining_Bench",
             "description": "Upgrades your manufacturing abilities with basic machine tools.",
@@ -12015,6 +12052,7 @@
             "ingredientIn": []
         },
         "Kit_Mortar_And_Pestle": {
+            "crafter": "Mortar_And_Pestle",
             "displayName": "Mortar and Pestle",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Mortar_And_Pestle",
             "description": "A simple tool for crafting resins, pastes, medicines and more.",
@@ -12026,6 +12064,7 @@
             "ingredientIn": []
         },
         "Kit_Oxite_Dissolver": {
+            "crafter": "Oxite_Dissolver",
             "displayName": "Oxite Dissolver",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Oxite_Dissolver",
             "description": "A more efficient oxidizer for processing oxite into oxygen.",
@@ -12046,6 +12085,7 @@
             "ingredientIn": []
         },
         "Kit_Skinning_Bench": {
+            "crafter": "Skinning_Bench",
             "displayName": "Skinning Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Skinning_Bench",
             "description": "Fully processes animal carcasses for more resources.",
@@ -12057,6 +12097,7 @@
             "ingredientIn": []
         },
         "Kit_Stone_Furnace": {
+            "crafter": "Stone_Furnace",
             "displayName": "Stone Furnace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Stone_Furnace",
             "description": "A simple stone furnace for smelting iron and copper.",
@@ -12099,6 +12140,7 @@
             "ingredientIn": []
         },
         "Kitchen_Bench": {
+            "crafter": "Kitchen_Bench",
             "displayName": "Kitchen Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kitchen_Bench",
             "description": "A modular workspace for cooking and concocting complex recipes.",
@@ -12121,6 +12163,7 @@
             "ingredientIn": []
         },
         "Kitchen_Stove": {
+            "crafter": "Kitchen_Stove",
             "displayName": "Biofuel Stove",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kitchen_Stove",
             "description": "An efficient, biofuel-powered cooking unit.",
@@ -12880,6 +12923,7 @@
             ]
         },
         "Masonry_Bench": {
+            "crafter": "Masonry_Bench",
             "displayName": "Masonry Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Masonry_Bench",
             "description": "Tools for working and shaping stone.",
@@ -12891,6 +12935,7 @@
             "ingredientIn": []
         },
         "Masonry_Bench_T3": {
+            "crafter": "Masonry_Bench_T3",
             "displayName": "Advanced Masonry Bench",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Masonry_Bench_T3",
             "description": "A manual workspace for crafting simple building supplies, weapons, and tools.",
@@ -12902,6 +12947,7 @@
             "ingredientIn": []
         },
         "Masonry_Bench_T4": {
+            "crafter": "Masonry_Bench_T4",
             "displayName": "Electric Masonry Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Masonry_Bench_T4",
             "description": "Powered bench for heavy stonework and carving.",
@@ -12912,6 +12958,7 @@
             "ingredientIn": []
         },
         "Material_Processor": {
+            "crafter": "Material_Processor",
             "displayName": "Material Processor",
             "icon": "Items/Item_Icons/Deployables/ITEM_Material_Processor",
             "description": "Swiftly craft advanced ingredients and resources.",
@@ -13593,6 +13640,7 @@
             "ingredientIn": []
         },
         "Meta_Campfire_Printed": {
+            "crafter": "Campfire",
             "displayName": "MXC Campfire",
             "icon": "Items/Item_Icons/Deployables/ITEM_Meta_Campfire_Printed",
             "description": "A simple, prefabricated campfire for heat, light and cooking, designed to remain lit under all conditions.",
@@ -13872,6 +13920,7 @@
             "ingredientIn": []
         },
         "Meta_Furnace_Printed": {
+            "crafter": "Stone_Furnace",
             "displayName": "MXC Furnace",
             "icon": "Items/Item_Icons/Deployables/ITEM_Meta_Furnace_Printed",
             "description": "A premade furnace for all of your basic smelting needs",
@@ -15035,6 +15084,7 @@
             ]
         },
         "Metal_Oxite_Dissolver": {
+            "crafter": "Metal_Oxite_Dissolver",
             "displayName": "Metal Oxite Dissolver",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Metal_Oxite_Dissolver",
             "description": "A faster and more efficient, biofuel-powered oxidizer with greater storage.",
@@ -16818,6 +16868,7 @@
             "ingredientIn": []
         },
         "PotBellyStove": {
+            "crafter": "Pot_Belly_Stove",
             "displayName": "Potbelly Stove",
             "icon": "Items/Item_Icons/Deployables/ITEM_PotBellyStove",
             "description": "A wrought iron stove for cooking basic meals.",
@@ -18505,6 +18556,7 @@
             "ingredientIn": []
         },
         "Rustic_Decoration_Bench": {
+            "crafter": "Rustic_Decorations_Bench",
             "displayName": "Decoration Bench",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Rustic_Decoration_Bench",
             "description": "A bench for crafting decorations from a range of tech levels.",
@@ -21485,6 +21537,7 @@
             ]
         },
         "Trophy_Bench": {
+            "crafter": "Trophy_Bench",
             "displayName": "Trophy Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Trophy_Bench",
             "description": "Taxidermy tools and mounting equipment.",

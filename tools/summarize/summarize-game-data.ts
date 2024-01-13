@@ -185,6 +185,7 @@ for (const item of itemsStatic.Rows) {
     }
 
     mappedItems[item.Name] = {
+        crafter: item.Processing?.RowName,
         displayName: displayName,
         icon: processIcon(itemable.Icon),
         description: extractTranslation(itemable.Description),

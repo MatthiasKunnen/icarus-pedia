@@ -5,6 +5,7 @@ export interface Crafter {
 }
 
 export interface Item {
+    crafter: string | undefined;
     displayName: string;
     icon: string;
     description: string | undefined;

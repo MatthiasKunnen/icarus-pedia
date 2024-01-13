@@ -9,7 +9,10 @@ export const load = async ({params}) => {
         throw new Error('404');
     }
 
+    const crafter = item.crafter === undefined ? undefined : data.crafters[item.crafter];
+
     return {
+        crafts: crafter?.recipes.map(r => getRecipe(r, data)) ?? [],
         item: item,
         ingredientIn: item.ingredientIn.map(r => getRecipe(r, data)),
         recipes: item.recipes.map(r => getRecipe(r, data)),

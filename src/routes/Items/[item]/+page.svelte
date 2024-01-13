@@ -40,6 +40,17 @@
     {/each}
 </div>
 
+{#if data.crafts.length > 0}
+    <h2>Crafts</h2>
+    <div class="recipes">
+        {#each data.crafts as recipe}
+            <div class="recipe">
+                <Recipe recipe={recipe}></Recipe>
+            </div>
+        {/each}
+    </div>
+{/if}
+
 <style>
     .icon {
         --game-icon-width: 128px;

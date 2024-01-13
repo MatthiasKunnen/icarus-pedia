@@ -23,4 +23,5 @@ export interface ItemStaticRow {
     CraftingExperience?: number;
     Manual_Tags?: Tags;
     Generated_Tags?: Tags;
+    Processing?: Ref;
 }
