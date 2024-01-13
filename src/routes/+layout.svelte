@@ -1,4 +1,5 @@
 <script lang="ts">
+    import {afterNavigate} from '$app/navigation';
     import {page} from '$app/stores';
     import Logo from '$lib/Logo.svelte';
     import type {Snapshot} from '@sveltejs/kit';
@@ -7,12 +8,25 @@
     import './global.css';
 
     let rootContent: HTMLElement;
+    let lastScrollRestoreTime = 0;
+
+    afterNavigate(() => {
+        if (Date.now() - lastScrollRestoreTime > 500) {
+            // Only scroll to top if no restore has been performed. This prevents content from
+            // flashing on back button where first, a scroll to top is performed, and then
+            // an immediate scroll to content.
+            // See https://github.com/sveltejs/kit/issues/10823
+            rootContent.scrollTop = 0;
+        }
+    });
 
     export const snapshot: Snapshot<number> = {
         capture: () => {
             return rootContent.scrollTop;
         },
         restore: (value) => {
+            // Executed before afterNavigate, see https://github.com/sveltejs/kit/issues/10823
+            lastScrollRestoreTime = Date.now()
             rootContent.scrollTop = value
         },
     };
