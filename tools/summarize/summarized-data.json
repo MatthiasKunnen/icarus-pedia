@@ -6760,16 +6760,6 @@
             ],
             "ingredientIn": []
         },
-        "Cooking_Station": {
-            "crafter": "Cooking_Station",
-            "displayName": "Cooking Station",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Cooking_Station",
-            "description": "A food preparation and butchering bench.",
-            "flavorText": "While it may not deliver high cuisine, the Cooking Station rewards the attentions of an attentive chef with a swifter, more sustaining food supply.",
-            "isFood": false,
-            "recipes": [],
-            "ingredientIn": []
-        },
         "Cooking_Station_V2": {
             "crafter": "Cooking_Station",
             "displayName": "Cooking Station",
@@ -7510,15 +7500,6 @@
             ],
             "ingredientIn": []
         },
-        "Electric_Dehumidifier": {
-            "displayName": "Electric Dehumidifier",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Dehumidifier",
-            "description": "Diminishes such health risks as pneumonia, while also seeming to dispel cave worms.",
-            "flavorText": "Whether cave worms are offended by the sudden aridity it produces, or the high pitched whine, research is yet to confirm.",
-            "isFood": false,
-            "recipes": [],
-            "ingredientIn": []
-        },
         "Electric_Dehumidifier_V2": {
             "displayName": "Electric Dehumidifier",
             "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Dehumidifier_V2",
@@ -8166,15 +8147,6 @@
             ],
             "ingredientIn": []
         },
-        "Farming_CropPlot": {
-            "displayName": "Wood Crop Plot",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Farming_CropPlot",
-            "description": "A general-purpose planter bed for your crops. Fully-grown crops left too long will eventually wither and only provide spoiled plants.",
-            "flavorText": "A raised planting bed brings the food to you, slowly.",
-            "isFood": false,
-            "recipes": [],
-            "ingredientIn": []
-        },
         "Farming_CropPlot_T2_v2": {
             "displayName": "Wood Crop Plot",
             "icon": "Items/Item_Icons/Deployables/ITEM_Farming_CropPlot",
@@ -8186,15 +8158,6 @@
             ],
             "ingredientIn": []
         },
-        "Farming_CropPlot_T3": {
-            "displayName": "Iron Crop Plot",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Farming_Metal",
-            "description": "A sturdy option for farming with water intake for faster crop growth. Fully-grown crops left too long will eventually wither and only provide spoiled plants.",
-            "flavorText": "Can be connected to a water network",
-            "isFood": false,
-            "recipes": [],
-            "ingredientIn": []
-        },
         "Farming_CropPlot_T3_v2": {
             "displayName": "Iron Crop Plot",
             "icon": "Items/Item_Icons/Deployables/ITEM_Farming_Metal",
@@ -8204,15 +8167,6 @@
             "recipes": [
                 "Iron_Crop_Plot"
             ],
-            "ingredientIn": []
-        },
-        "Farming_CropPlot_T4": {
-            "displayName": "Hydroponic Crop Plot",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Farming_Hydroponic",
-            "description": "An advanced option for the busy farmer. Supports inputs from both Power and Water networks for increased crop growth speed. Fully-grown crops left too long will eventually wither and only provide spoiled plants.",
-            "flavorText": "Can be connected to both a water and a power network",
-            "isFood": false,
-            "recipes": [],
             "ingredientIn": []
         },
         "Farming_CropPlot_T4_v2": {
@@ -10575,16 +10529,6 @@
             "recipes": [
                 "Glass_Window"
             ],
-            "ingredientIn": []
-        },
-        "Glassworking_Bench": {
-            "crafter": "Glassworking_Bench",
-            "displayName": "Glassworking Bench",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Glassworking_Bench",
-            "description": "Tools for creating glass items and construction elements.",
-            "flavorText": "True glass-making originated in the Indus Valley in 1700 BCE, passing into the Mediterranean, then Africa and the rest of the world, before extending through space to Icarus in the mid 22nd century.",
-            "isFood": false,
-            "recipes": [],
             "ingredientIn": []
         },
         "Glassworking_Bench_V2": {

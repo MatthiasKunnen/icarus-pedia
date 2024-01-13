@@ -111,16 +111,22 @@ function getItemStaticName(ref: RefWithDataTable): string | undefined {
 
 const itemBlacklist: Array<string> = [
     'CollectionShipBeacon',
+    'Cooking_Station', // Replaced with _V2
     'DEV_Bug_Tool',
     'DEV_Fireball',
     'DEV_Inspection_Tool',
     'DEV_Thor_Hammer',
     'Debug_Target',
+    'Electric_Dehumidifier', // Replaced with _V2
     'Faction_MIssion_Analyzer',
     'Faction_Mission_Frozen_Mammoth_Sample',
     'Faction_Mission_Mammoth_Sample',
     'Faction_Satellite',
     'Faction_Satellite_Defend',
+    'Farming_CropPlot', // Replaced with _T2_V2
+    'Farming_CropPlot_T3', // Replaced with _v2
+    'Farming_CropPlot_T4', // Replaced with _v2
+    'Glassworking_Bench', // Replaced with _v2
     'Kit_Road',
     'Player_Gravestone_DBNO',
     'Player_Gravestone_MIA',
