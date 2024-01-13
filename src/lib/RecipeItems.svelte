@@ -10,14 +10,12 @@
     <li class="item" data-name={item.item.name}>
         <a href="/Items/{item.item.name}">
             <GameIcon
+                counter={item.count}
                 icon={item.item.icon}
                 size="64"
                 alt={item.item.displayName}
                 showCaption={true}></GameIcon>
         </a>
-        {#if item.count > 1}
-            <span class="counter">{item.count}</span>
-        {/if}
     </li>
 {/each}
 
@@ -31,20 +29,7 @@
 
     .item {
         --game-icon-width: 64px;
-        position: relative;
         display: flex;
-        padding-top: 6px;
-        padding-right: 16px;
         align-items: center;
-    }
-
-    .counter {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 0 4px;
-        background-color: #a5d740;
-        color: black;
-        border-radius: 0.2em;
     }
 </style>
