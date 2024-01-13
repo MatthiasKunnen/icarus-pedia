@@ -15,10 +15,10 @@
         showCaption={false}></GameIcon>
 </div>
 
-<h2>Crafts</h2>
+<h2 id="crafts">Crafts</h2>
 <div class="recipes">
     {#each data.recipes as recipe}
-        <div class="recipe">
+        <div class="recipe" id="crafts-{recipe.name}">
             <Recipe recipe={recipe}></Recipe>
         </div>
     {:else}

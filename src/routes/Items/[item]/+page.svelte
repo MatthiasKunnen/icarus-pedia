@@ -18,10 +18,10 @@
 <p>{data.item.description}</p>
 <p class="flavor-text">{data.item.flavorText}</p>
 
-<h2>Craft</h2>
+<h2 id="craft">Craft</h2>
 <div class="recipes">
     {#each data.recipes as recipe}
-        <div class="recipe">
+        <div class="recipe" id="craft-{recipe.name}">
             <Recipe recipe={recipe}></Recipe>
         </div>
     {:else}
@@ -29,10 +29,10 @@
     {/each}
 </div>
 
-<h2>Used in</h2>
+<h2 id="used-in">Used in</h2>
 <div class="recipes">
     {#each data.ingredientIn as recipe}
-        <div class="recipe">
+        <div class="recipe" id="used-in-{recipe.name}">
             <Recipe recipe={recipe}></Recipe>
         </div>
     {:else}
@@ -41,10 +41,10 @@
 </div>
 
 {#if data.crafts.length > 0}
-    <h2>Crafts</h2>
+    <h2 id="crafts">Crafts</h2>
     <div class="recipes">
         {#each data.crafts as recipe}
-            <div class="recipe">
+            <div class="recipe" id="crafts-{recipe.name}">
                 <Recipe recipe={recipe}></Recipe>
             </div>
         {/each}
