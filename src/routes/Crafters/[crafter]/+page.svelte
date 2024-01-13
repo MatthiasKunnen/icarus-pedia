@@ -15,7 +15,7 @@
         showCaption={false}></GameIcon>
 </div>
 
-<h2>Craft</h2>
+<h2>Crafts</h2>
 <div class="recipes">
     {#each data.recipes as recipe}
         <div class="recipe">
