@@ -327,7 +327,7 @@ const gameData: GameData = {
 
 fs.writeFileSync(
     path.join(dirname, 'summarized-data.json'),
-    JSON.stringify(gameData, undefined, 4),
+    `${JSON.stringify(gameData, undefined, 4)}\n`,
     {
         encoding: 'utf-8',
     },
