@@ -32,6 +32,15 @@ a.link {
     text-decoration: underline;
 }
 
+ul {
+    list-style: none;
+}
+
+ul.list {
+    list-style: inside;
+    padding-inline-start: 1em;
+}
+
 .box-start, .box {
     border: 1px solid var(--accent-color);
     padding: .8em;

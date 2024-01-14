@@ -7,7 +7,7 @@
 
 <h1>All Craftable Icarus Items</h1>
 <p>Other lists of Icarus items:</p>
-<ul class="other-lists">
+<ul class="list">
     <li><a href="/Items/All" class="link">All items including non-craftable experimental items</a></li>
 </ul>
 
@@ -27,11 +27,6 @@
 <style>
     h2 {
         font-size: 1.3em;
-    }
-
-    .other-lists {
-        list-style-position: inside;
-        padding-left: 1em;
     }
 
     .items {

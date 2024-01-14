@@ -138,11 +138,6 @@ body {
     margin: 0;
 }
 
-nav ol,
-nav ul {
-    list-style: none;
-}
-
 /**
  * 1. Use the default monospace user interface font
  *    in all browsers (opinionated).

@@ -40,7 +40,6 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 8px;
-        list-style: none;
     }
 
     .items:first-of-type {
