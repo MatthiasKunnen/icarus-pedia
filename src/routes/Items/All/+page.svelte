@@ -5,11 +5,11 @@
 
 </script>
 
-<h1>All Craftable Icarus Items</h1>
-<p>Other lists of Icarus items:</p>
-<ul class="other-lists">
-    <li><a href="/Items/All" class="link">All items including non-craftable experimental items</a></li>
-</ul>
+<h1>All Icarus Items</h1>
+<p>
+    This includes items that are experimental and not craftable. For a list of craftable items, go
+    <a href="/Items" class="link">here</a>.
+</p>
 
 <div class="items">
     {#each data.items as [name, item]}
@@ -29,11 +29,6 @@
         font-size: 1.3em;
     }
 
-    .other-lists {
-        list-style-position: inside;
-        padding-left: 1em;
-    }
-
     .items {
         display: grid;
         gap: 2em;
@@ -48,5 +43,4 @@
         gap: 4px;
         text-decoration: none;
     }
-
 </style>

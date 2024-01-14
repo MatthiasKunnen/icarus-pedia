@@ -5,7 +5,6 @@ export const load = async () => {
 
     return {
         items: Object.entries(data.items)
-            .filter(([_, item]) => item.recipes.length > 0)
             .sort(([, a], [, b]) => {
                 return a.displayName.localeCompare(b.displayName);
             }),
