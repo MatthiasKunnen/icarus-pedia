@@ -9,6 +9,5 @@ export const load = async () => {
             .sort(([, a], [, b]) => {
                 return a.displayName.localeCompare(b.displayName);
             }),
-        title: 'Items',
     };
 };

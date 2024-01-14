@@ -4,6 +4,9 @@
 
     export let data;
 </script>
+<svelte:head>
+    <title>Crafter {data.crafter.displayName} | IcarusPedia</title>
+</svelte:head>
 
 <a href="/Crafters">&lt; See all crafters</a>
 <h1>{data.crafter.displayName}</h1>

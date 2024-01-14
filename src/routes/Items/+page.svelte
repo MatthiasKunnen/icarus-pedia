@@ -4,6 +4,9 @@
     export let data;
 
 </script>
+<svelte:head>
+    <title>Craftable Items | IcarusPedia</title>
+</svelte:head>
 
 <h1>All Craftable Icarus Items</h1>
 <p>Other lists of Icarus items:</p>

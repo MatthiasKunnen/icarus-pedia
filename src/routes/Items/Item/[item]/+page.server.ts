@@ -29,7 +29,6 @@ export const load = async ({params}) => {
         modifier: itemModifier,
         recipes: item.recipes.map(r => getRecipe(r, data)),
         stats: itemStats,
-        title: item.displayName,
     };
 };
 

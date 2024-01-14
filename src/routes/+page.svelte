@@ -1,6 +1,9 @@
 <script lang="ts">
     import Logo from '$lib/Logo.svelte';
 </script>
+<svelte:head>
+    <title>IcarusPedia</title>
+</svelte:head>
 
 <div class="home-content">
     <div class="logo">

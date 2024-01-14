@@ -32,14 +32,6 @@
     };
 </script>
 
-<svelte:head>
-    {#if typeof $page.data.title === 'string'}
-        <title>{$page.data.title + ' | IcarusPedia'}</title>
-    {:else}
-        <title>IcarusPedia</title>
-    {/if}
-</svelte:head>
-
 <div class="body">
     <div class="root-content" bind:this={rootContent}>
         <slot></slot>

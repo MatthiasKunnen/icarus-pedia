@@ -12,6 +12,5 @@ export const load = async ({params}) => {
     return {
         crafter: crafter,
         recipes: crafter.recipes.map(r => getRecipe(r, data)),
-        title: crafter.displayName,
     };
 };

@@ -3,6 +3,9 @@
 
     export let data;
 </script>
+<svelte:head>
+    <title>Crafters | IcarusPedia</title>
+</svelte:head>
 
 <h1>Crafters</h1>
 

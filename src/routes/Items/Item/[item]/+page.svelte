@@ -6,6 +6,10 @@
     export let data;
 </script>
 
+<svelte:head>
+    <title>{data.item.displayName} | IcarusPedia</title>
+</svelte:head>
+
 <a href="/Items">&lt; See all items</a>
 <h1>{data.item.displayName}</h1>
 <div class="icon">
