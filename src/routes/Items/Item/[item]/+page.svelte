@@ -1,6 +1,7 @@
 <script lang="ts">
     import GameIcon from '$lib/GameIcon.svelte';
     import Recipe from '$lib/Recipe.svelte';
+    import Seconds from '$lib/Seconds.svelte';
 
     export let data;
 </script>
@@ -17,6 +18,33 @@
 
 <p>{data.item.description}</p>
 <p class="flavor-text">{data.item.flavorText}</p>
+
+{#if data.stats.length > 0}
+    <h2 id="stats" class="box-start">Stats</h2>
+    <div class="box">
+        <ul class="list stats">
+            {#each data.stats as stat}
+                <li>{stat}</li>
+            {/each}
+        </ul>
+    </div>
+{/if}
+
+{#if data.modifier !== undefined}
+    <h2 id="modifier" class="box-start">Modifier</h2>
+    <div class="box">
+        {#if data.modifier.lifetime}
+            <p>
+                Duration: <Seconds seconds={data.modifier.lifetime}></Seconds>
+            </p>
+        {/if}
+        <ul class="list stats">
+            {#each data.modifier.stats as stat}
+                <li>{stat}</li>
+            {/each}
+        </ul>
+    </div>
+{/if}
 
 <h2 id="craft" class="box-start">Craft</h2>
 <div class="recipes">
