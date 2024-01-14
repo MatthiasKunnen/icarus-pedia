@@ -7,21 +7,21 @@
 </script>
 
 <svelte:head>
-    <title>{data.item.displayName} | IcarusPedia</title>
+    <title>{data.displayName} | IcarusPedia</title>
 </svelte:head>
 
 <a href="/Items">&lt; See all items</a>
-<h1>{data.item.displayName}</h1>
+<h1>{data.displayName}</h1>
 <div class="icon">
     <GameIcon
-        icon={data.item.icon}
-        alt="{data.item.displayName}"
+        icon={data.icon}
+        alt="{data.displayName}"
         size="128"
         showCaption={false}></GameIcon>
 </div>
 
-<p>{data.item.description}</p>
-<p class="flavor-text">{data.item.flavorText}</p>
+<p>{data.description}</p>
+<p class="flavor-text">{data.flavorText}</p>
 
 {#if data.stats.length > 0}
     <h2 id="stats" class="box-start">Stats</h2>

@@ -35,9 +35,7 @@ export function itemCountToFull(ic: ItemCount, data: GameData): FullItemCount {
     return {
         count: ic.count,
         item: {
-            description: item.description,
             displayName: item.displayName,
-            flavorText: item.flavorText,
             icon: item.icon,
             name: ic.item,
         },

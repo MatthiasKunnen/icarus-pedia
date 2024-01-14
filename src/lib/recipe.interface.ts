@@ -17,9 +17,7 @@ export interface FullItemCount {
 }
 
 export interface RecipeItem {
-    description: string | undefined;
     displayName: string;
-    flavorText: string | undefined;
     icon: string;
     name: string;
 }
