@@ -15,14 +15,14 @@
         showCaption={false}></GameIcon>
 </div>
 
-<h2 id="crafts">Crafts</h2>
+<h2 id="crafts" class="box-start">Crafts</h2>
 <div class="recipes">
     {#each data.recipes as recipe}
-        <div class="recipe" id="crafts-{recipe.name}">
+        <div class="box recipe" id="crafts-{recipe.name}">
             <Recipe recipe={recipe}></Recipe>
         </div>
     {:else}
-        <p class="no-content">Nothing to craft.</p>
+        <p class="box">Nothing to craft.</p>
     {/each}
 </div>
 
@@ -31,23 +31,7 @@
         --game-icon-width: 128px;
     }
 
-    h2, .recipe, .no-content {
-        padding: .8em;
-    }
-
-    h2, .recipes {
-        border: 1px solid var(--accent-color);
-    }
-
-    .recipe {
-        border-bottom: 1px solid var(--accent-color);
-    }
-
     h2 {
         margin-bottom: 0;
-    }
-
-    .recipe {
-        border-top: none;
     }
 </style>

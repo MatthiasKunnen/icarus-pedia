@@ -31,3 +31,12 @@ h3 {
 a.link {
     text-decoration: underline;
 }
+
+.box-start, .box {
+    border: 1px solid var(--accent-color);
+    padding: .8em;
+}
+
+.box {
+    border-top: none;
+}

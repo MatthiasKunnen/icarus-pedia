@@ -18,33 +18,33 @@
 <p>{data.item.description}</p>
 <p class="flavor-text">{data.item.flavorText}</p>
 
-<h2 id="craft">Craft</h2>
+<h2 id="craft" class="box-start">Craft</h2>
 <div class="recipes">
     {#each data.recipes as recipe}
-        <div class="recipe" id="craft-{recipe.name}">
+        <div class="box" id="craft-{recipe.name}">
             <Recipe recipe={recipe}></Recipe>
         </div>
     {:else}
-        <p class="no-content">Not craftable.</p>
+        <p class="box">Not craftable.</p>
     {/each}
 </div>
 
-<h2 id="used-in">Used in</h2>
+<h2 id="used-in" class="box-start">Used in</h2>
 <div class="recipes">
     {#each data.ingredientIn as recipe}
-        <div class="recipe" id="used-in-{recipe.name}">
+        <div class="box" id="used-in-{recipe.name}">
             <Recipe recipe={recipe}></Recipe>
         </div>
     {:else}
-        <p class="no-content">Not used in any recipes.</p>
+        <p class="box">Not used in any recipes.</p>
     {/each}
 </div>
 
 {#if data.crafts.length > 0}
-    <h2 id="crafts">Crafts</h2>
+    <h2 id="crafts" class="box-start">Crafts</h2>
     <div class="recipes">
         {#each data.crafts as recipe}
-            <div class="recipe" id="crafts-{recipe.name}">
+            <div class="box" id="crafts-{recipe.name}">
                 <Recipe recipe={recipe}></Recipe>
             </div>
         {/each}
@@ -60,23 +60,7 @@
         font-style: italic;
     }
 
-    h2, .recipe, .no-content {
-        padding: .8em;
-    }
-
-    h2, .recipes {
-        border: 1px solid var(--accent-color);
-    }
-
-    .recipe {
-        border-bottom: 1px solid var(--accent-color);
-    }
-
     h2 {
         margin-bottom: 0;
-    }
-
-    .recipe {
-        border-top: none;
     }
 </style>
