@@ -4,7 +4,6 @@
 const fileMapping = new Map<string, {headers: Record<string, string>}>([
     ['index.html', {
         headers: {
-            'Cache-Control': 'public,max-age=0,must-revalidate',
             'Referrer-Policy': 'same-origin',
             'Strict-Transport-Security': 'max-age=63072000',
             'X-Content-Type-Options': 'nosniff',
@@ -70,6 +69,7 @@ http {
 		}
 
 		location / {
+			add_header Cache-Control "no-cache";
 			try_files $uri $uri.html =404;
 		}
 
@@ -84,10 +84,6 @@ http {
 		location = /readyz {
 			default_type text/plain;
 			return 200 'ready';
-		}
-
-		location ~ /__data\\.json$ {
-			add_header Cache-Control "no-cache";
 		}
 ${
 		Array.from(fileMapping.entries(), ([file, config]) => {
