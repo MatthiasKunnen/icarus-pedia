@@ -66,7 +66,7 @@ const commands: Array<string> = [];
 for (const iconPath of linkedIcons) {
     commands.push(`convert ${iconPath}.png ${iconPath}.avif`);
     commands.push(`convert ${iconPath}.png ${iconPath}.webp`);
-    commands.push(`cjxl -d 2 ${iconPath}.png ${iconPath}.jxl`);
+    commands.push(`cjxl -d 4 -e 9 ${iconPath}.png ${iconPath}.jxl`);
 
     for (const size of sizes) {
         const f = `${iconPath}_${size}`;
@@ -76,7 +76,7 @@ for (const iconPath of linkedIcons) {
             ${f}.png \
             && convert ${f}.png ${f}.avif \
             && convert ${f}.png ${f}.webp \
-            && cjxl -d 2 ${f}.png ${f}.jxl`);
+            && cjxl -d 4 -e 9 ${f}.png ${f}.jxl`);
     }
 }
 
