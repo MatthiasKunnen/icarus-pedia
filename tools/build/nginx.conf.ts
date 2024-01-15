@@ -35,6 +35,7 @@ http {
 	log_format main
 		'access: [$time_local] ip=$remote_addr r="$request" '
 		's=$status b=$body_bytes_sent ref="$http_referer" ua="$http_user_agent" '
+		'ae="$http_accept_encoding" '
 		'rt=$request_time rl=$request_length '
 		'rid=$request_id';
 	access_log /dev/stdout main;
