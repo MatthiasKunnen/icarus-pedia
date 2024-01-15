@@ -37,7 +37,7 @@ http {
 		's=$status b=$body_bytes_sent ref="$http_referer" ua="$http_user_agent" '
 		'ae="$http_accept_encoding" '
 		'rt=$request_time rl=$request_length '
-		'rid=$request_id';
+		'rid=$request_id cfr="$http_cf_ray" cfc="$http_cf_ipcountry"';
 	access_log /dev/stdout main;
 
 	include mime.types;
