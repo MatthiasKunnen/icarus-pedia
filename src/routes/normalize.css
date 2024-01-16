@@ -23,6 +23,7 @@
     big,
     blockquote,
     body,
+    button,
     canvas,
     caption,
     center,
@@ -179,4 +180,11 @@ table {
 [aria-disabled='true'],
 [disabled] {
     cursor: not-allowed;
+}
+
+:where(button) {
+    background: none;
+    border: none;
+    color: inherit;
+    outline: none;
 }

@@ -32,7 +32,8 @@
     }
 
     .logo img {
-        height: 3.125em;
+        display: block;
+        height: var(--logo-height);
         width: auto;
     }
 </style>

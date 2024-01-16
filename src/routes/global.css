@@ -49,3 +49,9 @@ ul.list {
 .box {
     border-top: none;
 }
+
+.text-icon {
+    display: block;
+    height: 1em;
+    width: auto;
+}
