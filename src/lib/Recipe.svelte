@@ -5,25 +5,31 @@
     export let recipe: FullRecipe;
 </script>
 
-<div class="in-and-out" data-recipe-name={recipe.name}>
-    <ul class="items">
-        <RecipeItems items={recipe.outputs}></RecipeItems>
-    </ul>
-    <span class="direction">←</span>
-    <ul class="items">
-        <RecipeItems items={recipe.inputs}></RecipeItems>
-    </ul>
+<div class="recipe">
+    <div class="in-and-out" data-recipe-name={recipe.name}>
+        <ul class="items">
+            <RecipeItems items={recipe.outputs}></RecipeItems>
+        </ul>
+        <span class="direction">←</span>
+        <ul class="items">
+            <RecipeItems items={recipe.inputs}></RecipeItems>
+        </ul>
+    </div>
+    <p class="craft-at">Craft at:
+        {#each recipe.craftedAt as crafter, i}
+            {#if i > 0},{/if}
+            <a href="/Crafters/{crafter.id}">{crafter.displayName}</a>
+        {:else}
+            cannot be crafted anywhere.
+        {/each}
+    </p>
 </div>
-<p class="craft-at">Craft at:
-    {#each recipe.craftedAt as crafter, i}
-        {#if i > 0},{/if}
-        <a href="/Crafters/{crafter.id}">{crafter.displayName}</a>
-    {:else}
-        cannot be crafted anywhere.
-    {/each}
-</p>
 
 <style>
+    .recipe {
+        container: recipe / inline-size;
+    }
+
     .in-and-out {
         display: flex;
         align-items: center;
@@ -42,10 +48,6 @@
         gap: 8px;
     }
 
-    .items:first-of-type {
-        flex-shrink: 0;
-    }
-
     ul {
         margin: 0;
         padding: 0;
@@ -57,5 +59,16 @@
 
     .craft-at a {
         border-bottom: 1px solid white;
+    }
+
+    @container recipe (max-width: 599px) {
+
+        .in-and-out {
+            flex-direction: column;
+        }
+
+        .direction {
+            transform: rotate(90deg);
+        }
     }
 </style>
