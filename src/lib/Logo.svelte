@@ -33,7 +33,7 @@
 
     .logo img {
         display: block;
-        height: var(--logo-height);
+        height: 3em;
         width: auto;
     }
 </style>

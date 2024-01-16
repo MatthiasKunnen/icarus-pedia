@@ -110,7 +110,6 @@
         align-items: center;
         padding: 4px 8px;
         background-color: var(--accent-color);
-        --logo-height: 3em;
     }
 
     footer .nav-mobile {
