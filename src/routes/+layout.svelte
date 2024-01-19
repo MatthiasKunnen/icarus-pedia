@@ -153,14 +153,21 @@
         transition: background-color linear 150ms;
     }
 
-    header nav a:hover {
+    header nav a:hover,
+    header nav a:focus {
         background-color: rgb(255 255 255 / 22%);
     }
 
     .nav-toggle {
+        padding: 0.2em 0.2em;
+        border-radius: 4px;
         font-size: 2em;
-        padding: 0 0.3em;
         display: none;
+    }
+
+    .nav-toggle:hover,
+    .nav-toggle:focus {
+        background-color: rgb(255 255 255 / 22%);
     }
 
     @media (max-width: 599px) {
