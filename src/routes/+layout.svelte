@@ -7,11 +7,11 @@
     import './global.css';
 
     let rootContent: HTMLElement;
-    let mobileFooterOpen = false;
+    let mobileNavOpen = false;
     let lastScrollRestoreTime = 0;
 
     afterNavigate(() => {
-        mobileFooterOpen = false;
+        mobileNavOpen = false;
         if (Date.now() - lastScrollRestoreTime > 500) {
             // Only scroll to top if no restore has been performed. This prevents content from
             // flashing on back button where first, a scroll to top is performed, and then
@@ -33,15 +33,8 @@
     };
 </script>
 
-<div class="body" class:mobileFooterOpen>
-    <div class="root-content" bind:this={rootContent}>
-        <slot></slot>
-    </div>
-    <div
-        class="mobile-nav-overlay"
-        aria-hidden="true"
-        on:click={() => mobileFooterOpen = false}></div>
-    <footer>
+<div class="body" class:mobileNavOpen>
+    <header>
         <nav class="nav-mobile">
             <a href="/Items">Items</a>
             <a href="/Crafters">Crafters</a>
@@ -66,13 +59,20 @@
         </nav>
         <button
             class="nav-toggle"
-            on:click={() => mobileFooterOpen = !mobileFooterOpen}
+            on:click={() => mobileNavOpen = !mobileNavOpen}
         >
             <svg class="text-icon" viewBox="0 -960 960 960">
                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
             </svg>
         </button>
-    </footer>
+    </header>
+    <div class="root-content" bind:this={rootContent}>
+        <slot></slot>
+    </div>
+    <div
+        class="mobile-nav-overlay"
+        aria-hidden="true"
+        on:click={() => mobileNavOpen = false}></div>
 </div>
 
 
@@ -103,8 +103,9 @@
         cursor: pointer;
     }
 
-    footer {
+    header {
         position: relative;
+        z-index: 50;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -112,7 +113,7 @@
         background-color: var(--accent-color);
     }
 
-    footer .nav-mobile {
+    header .nav-mobile {
         position: absolute;
         bottom: 100%;
         right: 0;
@@ -122,7 +123,7 @@
         background-color: var(--accent-color);
     }
 
-    footer .nav-mobile a {
+    header .nav-mobile a {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -143,7 +144,7 @@
         border-radius: 4px;
     }
 
-    footer nav a {
+    header nav a {
         display: flex;
         align-items: center;
         padding: 0.25em 1em;
@@ -152,7 +153,7 @@
         transition: background-color linear 150ms;
     }
 
-    footer nav a:hover {
+    header nav a:hover {
         background-color: rgb(255 255 255 / 22%);
     }
 
@@ -164,15 +165,19 @@
 
     @media (max-width: 599px) {
 
+        .body {
+            flex-direction: column-reverse;
+        }
+
         .nav-toggle {
             display: block;
         }
 
-        .body.mobileFooterOpen .mobile-nav-overlay {
+        .body.mobileNavOpen .mobile-nav-overlay {
             display: block;
         }
 
-        .body.mobileFooterOpen .nav-mobile {
+        .body.mobileNavOpen .nav-mobile {
             display: flex;
         }
 
