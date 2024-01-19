@@ -28,7 +28,16 @@ export const load = async ({params}) => {
         displayName: item.displayName,
         flavorText: item.flavorText,
         icon: item.icon,
-        ingredientIn: item.ingredientIn.map(r => getRecipe(r, data)),
+        ingredientIn: item.ingredientIn.map(r => {
+            const recipe = getRecipe(r, data);
+            const i = recipe.inputs.findIndex(input => input.item.name === itemName);
+            if (i >= 0) {
+                // Move item to front
+                recipe.inputs.unshift(recipe.inputs.splice(i, 1)[0]!);
+            }
+
+            return recipe;
+        }),
         modifier: itemModifier,
         recipes: item.recipes.map(r => getRecipe(r, data)),
         stats: itemStats,
