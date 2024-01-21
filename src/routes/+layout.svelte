@@ -121,6 +121,8 @@
         left: 0;
         display: none;
         flex-direction: column;
+        max-height: calc(100vh - 100%); /* Scroll when nav is larger than page - header height */
+        overflow: auto;
         background-color: var(--accent-color);
     }
 
