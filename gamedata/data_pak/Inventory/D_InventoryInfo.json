@@ -143,6 +143,20 @@
             "StartingSlots": 30
         },
         {
+            "Name": "Processor_T3",
+            "InventoryID": {
+                "Value": "Processor"
+            },
+            "StartingSlots": 36
+        },
+        {
+            "Name": "Processor_T4",
+            "InventoryID": {
+                "Value": "Processor"
+            },
+            "StartingSlots": 42
+        },
+        {
             "Name": "Container",
             "InventoryID": {
                 "Value": "General"
@@ -253,7 +267,7 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 70,
+            "StartingSlots": 150,
             "RemoveOnly": true
         },
         {
@@ -350,7 +364,7 @@
             "InventoryID": {
                 "Value": "Corpse"
             },
-            "StartingSlots": 12,
+            "StartingSlots": 90,
             "RemoveOnly": true
         },
         {
@@ -518,7 +532,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 20
+            "StartingSlots": 24
         },
         {
             "Name": "Storage_Kitchen_Block",
@@ -920,7 +934,7 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Tamed_Herbivore_Food"
+                "RowName": "Any_Tamed_Creature_Food_Trough"
             },
             "StartingSlots": 4
         },
@@ -1089,16 +1103,16 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Ammo"
+                "RowName": "Any_Bow_Attachment"
             },
             "StartingSlots": 2,
             "SlotOverrides": [
                 {
                     "Query": {
-                        "RowName": "Any_Bow_Attachment",
+                        "RowName": "Any_Ammo",
                         "DataTableName": "D_TagQueries"
                     },
-                    "Location": 1
+                    "Location": 0
                 }
             ]
         },
@@ -1268,7 +1282,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Food_Or_Ice"
             },
-            "StartingSlots": 12
+            "StartingSlots": 24
         },
         {
             "Name": "Fishing_Trap",
@@ -1516,6 +1530,241 @@
             "InventoryID": {
                 "Value": "Processor"
             }
+        },
+        {
+            "Name": "Smoker_T3_Fuel",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Charcoal"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Basic_Turret_Pistol",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Pistol_Ammo"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Basic_Turret_Rifle",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Rifle_Ammo"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Basic_Turret_Rifle_Precision",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Rifle_Ammo"
+            },
+            "StartingSlots": 6
+        },
+        {
+            "Name": "Basic_Turret_Shotgun",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Shotgun_Ammo"
+            },
+            "StartingSlots": 4
+        },
+        {
+            "Name": "Loot_WildBeehive",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "General_Inventory_Slot"
+            },
+            "StartingSlots": 4,
+            "RemoveOnly": true
+        },
+        {
+            "Name": "Chicken_Coop",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 12,
+            "Stats": {
+                "(Value=\"BaseInventorySpoilRate_+%\")": -66
+            }
+        },
+        {
+            "Name": "BeehiveUpgrades",
+            "InventoryID": {
+                "Value": "BeehiveUpgrades"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Beehive_Upgrade"
+            },
+            "StartingSlots": 4,
+            "SlotOverrides": [
+                {
+                    "Query": {
+                        "RowName": "BeehiveExpansion_T3",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 0
+                },
+                {
+                    "Query": {
+                        "RowName": "BeehiveBreedingZone",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 1
+                },
+                {
+                    "Query": {
+                        "RowName": "BeehiveExpansion_T4",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 2
+                },
+                {
+                    "Query": {
+                        "RowName": "BeehiveExtractor",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Location": 3
+                }
+            ]
+        },
+        {
+            "Name": "BeehiveStorage",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 12
+        },
+        {
+            "Name": "BeeFuel",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Bee"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "BeeBreeding",
+            "InventoryID": {
+                "Value": "Upgrade"
+            },
+            "SlotTemplate": {
+                "RowName": "Queen_Bee"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Fuel_FatWax",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Fuel_FatWax"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Trap_BaitSlot",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Trap_Bait"
+            },
+            "StartingSlots": 1,
+            "Stats": {
+                "(Value=\"BaseInventoryCannotSpoil_?\")": 1
+            }
+        },
+        {
+            "Name": "Food_Trough_T4_Input",
+            "InventoryID": {
+                "Value": "Processor"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Food"
+            },
+            "StartingSlots": 5
+        },
+        {
+            "Name": "Food_Trough_T4_Storage",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Tamed_Creature_Food_Trough"
+            },
+            "StartingSlots": 5
+        },
+        {
+            "Name": "Hatching_Slot",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Hatchable_Egg"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Cairn",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_AnimalCorpse"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Medicine_Bag",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Medicine"
+            },
+            "StartingSlots": 12
+        },
+        {
+            "Name": "Charging_Device",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Battery_Powered_Object"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Kiwi_Nest",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 2
+        },
+        {
+            "Name": "Wild_Kiwi_Nest",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 5
         }
     ]
 }

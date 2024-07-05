@@ -732,6 +732,10 @@
             "Max_Durability": 4000
         },
         {
+            "Name": "Limestone_Building",
+            "Max_Durability": 4000
+        },
+        {
             "Name": "Clay_Brick_Building",
             "Max_Durability": 3500
         },
@@ -829,7 +833,7 @@
             "ItemsForRepair": [
                 {
                     "Item": {
-                        "RowName": "Wood",
+                        "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Amount": 1
@@ -1633,6 +1637,72 @@
                     "Amount": 1
                 }
             ]
+        },
+        {
+            "Name": "Black_Wolf_Armor",
+            "Max_Durability": 7500,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Black_Fur",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 10
+                }
+            ]
+        },
+        {
+            "Name": "Queen_Bee",
+            "Destroyed_At_Zero": true
+        },
+        {
+            "Name": "Shotgun_T4",
+            "Max_Durability": 15000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Titanium_Ingot",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "Iron_Shears",
+            "Max_Durability": 8000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "CHAC_Firearms",
+            "Max_Durability": 25000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Meta_Repair_Item",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ],
+            "NoRecipe_RequiredRecipeSet": [
+                {
+                    "RowName": "Repair_Bench",
+                    "DataTableName": "D_RecipeSets"
+                }
+            ]
+        },
+        {
+            "Name": "Stone_Brick_Building",
+            "Max_Durability": 3500
         }
     ]
 }

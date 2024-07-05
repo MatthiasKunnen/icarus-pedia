@@ -6,7 +6,8 @@
         "GenerationRatio": 1,
         "TransmutableItems": [],
         "TransmutableResources": [],
-        "RequiresManualActivation": true
+        "RequiresManualActivation": true,
+        "OutOfFuelThresholdPercent": 0
     },
     "Rows": [
         {
@@ -46,7 +47,7 @@
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
-                    "RowName": "Meta_Coal",
+                    "RowName": "Packed_Fuel_Brick",
                     "DataTableName": "D_ItemsStatic"
                 }
             ]
@@ -133,7 +134,7 @@
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
-                    "RowName": "Meta_Coal",
+                    "RowName": "Packed_Fuel_Brick",
                     "DataTableName": "D_ItemsStatic"
                 }
             ]
@@ -147,12 +148,21 @@
                 {
                     "RowName": "Animal_Fat",
                     "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Beeswax",
+                    "DataTableName": "D_ItemsStatic"
                 }
             ]
         },
         {
             "Name": "Water_Pump_Generator",
-            "Resource": "Water"
+            "Resource": "Water",
+            "TransmutableResources": [
+                "Energy"
+            ],
+            "RequiresManualActivation": false,
+            "OutOfFuelThresholdPercent": -1
         },
         {
             "Name": "Dehumidifier",
@@ -200,7 +210,7 @@
                     "DataTableName": "D_ItemsStatic"
                 },
                 {
-                    "RowName": "Meta_Coal",
+                    "RowName": "Packed_Fuel_Brick",
                     "DataTableName": "D_ItemsStatic"
                 }
             ]
@@ -369,8 +379,7 @@
         },
         {
             "Name": "Water_Purifier",
-            "Resource": "Energy",
-            "GenerationRate": 500,
+            "GenerationRate": 25000,
             "TransmutableItems": [
                 {
                     "RowName": "Charcoal",
@@ -380,22 +389,66 @@
             "RequiresManualActivation": false
         },
         {
-            "Name": "Water_PurifierT2",
-            "Resource": "Water",
-            "GenerationRate": 500,
-            "TransmutableItems": [
-                {
-                    "RowName": "Sulfur",
-                    "DataTableName": "D_ItemsStatic"
-                }
-            ]
-        },
-        {
             "Name": "T3_Cleaning_Device",
             "Resource": "Energy",
             "GenerationRatio": 100,
             "TransmutableResources": [
                 "Fuel"
+            ]
+        },
+        {
+            "Name": "Smoker_T3",
+            "Resource": "Energy",
+            "GenerationRate": 2500,
+            "TransmutableItems": [
+                {
+                    "RowName": "Charcoal",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Beehive",
+            "GenerationRate": 100,
+            "TransmutableItems": [
+                {
+                    "RowName": "Queen_Bee",
+                    "DataTableName": "D_ItemsStatic"
+                },
+                {
+                    "RowName": "Worker_Bee",
+                    "DataTableName": "D_ItemsStatic"
+                }
+            ],
+            "RequiresManualActivation": false
+        },
+        {
+            "Name": "Water_Pump_Biofuel",
+            "Resource": "Energy",
+            "GenerationRate": 500,
+            "GenerationRatio": 450,
+            "TransmutableResources": [
+                "Fuel"
+            ]
+        },
+        {
+            "Name": "Water_Borer",
+            "Resource": "Water",
+            "GenerationRate": 2000,
+            "GenerationRatio": 2,
+            "TransmutableResources": [
+                "Energy"
+            ],
+            "RequiresManualActivation": false,
+            "OutOfFuelThresholdPercent": -1
+        },
+        {
+            "Name": "Electric_Oxite_Dissolver",
+            "Resource": "Oxygen",
+            "GenerationRate": 500,
+            "GenerationRatio": 10,
+            "TransmutableResources": [
+                "Energy"
             ]
         }
     ]

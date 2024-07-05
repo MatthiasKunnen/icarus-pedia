@@ -663,6 +663,41 @@
             "Settings": {
                 "RowName": "AlwaysRelevant_Default"
             }
+        },
+        {
+            "Name": "Icarus.TrailBeacon",
+            "Class": "/Game/BP/Objects/World/Items/Deployables/Communication/BP_Trail_Beacon.BP_Trail_Beacon_C",
+            "Description": "Always Relevant (all connections) (TODO: potentially optimize by making Spatialized)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "InstancedCaveEntrance",
+            "Class": "/Script/Icarus.InstancedCaveEntrance",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.SaddleNonRidable",
+            "Class": "/Game/BP/Mounts/BP_Saddle_NonRidable.BP_Saddle_NonRidable_C",
+            "Description": "Spatialized static, level streamed, distance culled",
+            "Policy": "Spatialize_Dormancy",
+            "Settings": {
+                "RowName": "Spatialize_Default"
+            }
+        },
+        {
+            "Name": "Icarus.SpawnBlocker",
+            "Class": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Deployable_SpawnBlocker.BP_Deployable_SpawnBlocker_C",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
         }
     ]
 }

@@ -472,7 +472,7 @@
         {
             "Name": "Enzyme_Geyser",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Enzyme_Geyser-DisplayName\", \"Enzyme Geyser\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Enzyme_Geyser-Description\", \"Place a Vapor Condenser on top to harvest Exotics and Condensed Enzymes\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Enzyme_Geyser-Description\", \"Place a Vapor Condenser on top to harvest Exotics and Condensed Enzymes. Place a Water Borer to gather water.\")"
         },
         {
             "Name": "Mission_Central_Scanner",
@@ -743,6 +743,71 @@
             "Name": "Overflow_Bag_Gravestone",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Overflow_Bag_Gravestone-DisplayName\", \"Lost Equipment\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Overflow_Bag_Gravestone-Description\", \"Contains the inventory of a fallen prospector.\")"
+        },
+        {
+            "Name": "Batnest_Cave",
+            "DisplayName": "INVTEXT(\"[DNT] Cave Bat Nest\")",
+            "Description": ""
+        },
+        {
+            "Name": "Batnest_Arctic",
+            "DisplayName": "INVTEXT(\"[DNT] Arctic Bat Nest\")",
+            "Description": ""
+        },
+        {
+            "Name": "WildBeehive",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"WildBeehive-DisplayName\", \"Wild Beehive\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"WildBeehive-Description\", \"Source of honeycomb and bees, which aggressively protect the hive.  \")"
+        },
+        {
+            "Name": "Deep_Mining_Ore_Deposit_Limestone",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Limestone-DisplayName\", \"Deep Mining Ore Deposit: Limestone\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Deep_Mining_Ore_Deposit_Limestone-Description\", \"An ore deposit that can be drilled with deep mining equipment.\")"
+        },
+        {
+            "Name": "Landshark_Loot",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Landshark_Loot-DisplayName\", \"Landshark Remains\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Landshark_Loot-Description\", \"A sack containing the remnants of a great worm.\")"
+        },
+        {
+            "Name": "FrozenResearcher",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"FrozenResearcher-DisplayName\", \"Frozen Researcher\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"FrozenResearcher-Description\", \"Out of supplies, out of sanity, searching for the lights.\")"
+        },
+        {
+            "Name": "Strange_Egg_Clutch",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Strange_Egg_Clutch-DisplayName\", \"Strange Egg Clutch\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Strange_Egg_Clutch-Description\", \"There might be some undamaged eggs left inside.\")"
+        },
+        {
+            "Name": "Hyena_Den",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den-DisplayName\", \"Hyena Den\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den-Description\", \"A den full of Hyena\\'s. Destroy it before more come out.\")"
+        },
+        {
+            "Name": "Hyena_Den_Alpha",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den_Alpha-DisplayName\", \"Alpha Hyena Den\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Hyena_Den_Alpha-Description\", \"A den for a Hyena Alpha.\")"
+        },
+        {
+            "Name": "Wolf_Den",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Wolf_Den-DisplayName\", \"Wolf Den\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Wolf_Den-Description\", \"A den full of Wolves. Destroy it before more come out.\")"
+        },
+        {
+            "Name": "Wild_Kiwi_Nest",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Wild_Kiwi_Nest-DisplayName\", \"Wild Kiwi Nest\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Wild_Kiwi_Nest-Description\", \"A small nest in which Kiwis sleep during the day.\")"
+        },
+        {
+            "Name": "Exotic_Deposit",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Exotic_Deposit-DisplayName\", \"Exotic Deposit\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Exotic_Deposit-Description\", \"Exotic matter, an impossibility in your hands. Collect with an Extractor.\")"
+        },
+        {
+            "Name": "Exotic_Deposit_Red",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Exotic_Deposit_Red-DisplayName\", \"Exotic Tree\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Exotic_Deposit_Red-Description\", \"A tree formed of Volatile Raw Exotics. Collect with a Harvester.\")"
         }
     ]
 }

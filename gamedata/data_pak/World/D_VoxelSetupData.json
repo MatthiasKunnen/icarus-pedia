@@ -85,6 +85,9 @@
             "SecondaryResourceType": {
                 "RowName": "Stone"
             },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Stone"
+            },
             "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
             "ExperienceForMining": {
                 "RowName": "MineStone"
@@ -104,6 +107,9 @@
             },
             "SecondaryResourceType": {
                 "RowName": "Stone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Stone"
             },
             "DensityMultiplier": 2,
             "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
@@ -571,12 +577,62 @@
             "SecondaryResourceType": {
                 "RowName": "Salt"
             },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Salt"
+            },
             "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
             "ExperienceForMining": {
                 "RowName": "MineSalt"
             },
             "VoxelTag": {
                 "TagName": "Harvest.Pickaxe.T1"
+            }
+        },
+        {
+            "Name": "Limestone_Normal",
+            "ResourceCategory": "Limestone",
+            "ResourceType": {
+                "RowName": "Limestone"
+            },
+            "SecondaryResourceType": {
+                "RowName": "Crushed_Limestone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Limestone"
+            },
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "Mine_Limestone"
+            },
+            "RewardStat": {
+                "Value": "MiningLimestoneRewards_%"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
+            }
+        },
+        {
+            "Name": "Limestone_Dense",
+            "ResourceCategory": "Limestone",
+            "ResourceType": {
+                "RowName": "Limestone"
+            },
+            "SecondaryResourceType": {
+                "RowName": "Crushed_Limestone"
+            },
+            "PyriticCrustResourceType": {
+                "RowName": "Pyritic_Crust_Limestone"
+            },
+            "DensityMultiplier": 2,
+            "FullyMinedSound": "/Game/FMOD/Events/SFX/D_Surfaces/SFX_VOXEL_FINAL_HIT.SFX_VOXEL_FINAL_HIT",
+            "ExperienceForMining": {
+                "RowName": "Mine_Limestone"
+            },
+            "RewardStat": {
+                "Value": "MiningLimestoneRewards_%"
+            },
+            "VoxelTag": {
+                "TagName": "Harvest.Pickaxe.T2"
             }
         }
     ]

@@ -23,16 +23,6 @@
             "DecayTime": 600
         },
         {
-            "Name": "Decay_Waterskin",
-            "DecayTime": 300,
-            "ResourceLeakage": 30
-        },
-        {
-            "Name": "Decay_Sponge",
-            "DecayTime": 300,
-            "ResourceLeakage": 60
-        },
-        {
             "Name": "Decay_Raw_Meat",
             "DecayTime": 300,
             "SpoilTime": 600,
@@ -51,12 +41,17 @@
         {
             "Name": "Decay_Bread_Generic",
             "DecayTime": 300,
-            "SpoilTime": 3600
+            "SpoilTime": 10800
         },
         {
             "Name": "Decay_Food_Generic",
             "DecayTime": 300,
             "SpoilTime": 800
+        },
+        {
+            "Name": "Decay_Food_OneDay",
+            "DecayTime": 3600,
+            "SpoilTime": 3600
         },
         {
             "Name": "Decay_Ice",
@@ -156,6 +151,27 @@
             "SpoiledItem": {
                 "RowName": "Volatile_Substance_Inert"
             }
+        },
+        {
+            "Name": "Decay_Smoked_Meat",
+            "DecayTime": 300,
+            "SpoilTime": 6000,
+            "SpoiledItem": {
+                "RowName": "Spoiled_Meat"
+            }
+        },
+        {
+            "Name": "Decay_Raw_Chicken",
+            "DecayTime": 300,
+            "SpoilTime": 1200,
+            "SpoiledItem": {
+                "RowName": "Spoiled_Meat"
+            }
+        },
+        {
+            "Name": "Decay_Frozen_Food",
+            "DecayTime": 200,
+            "SpoilTime": 800
         }
     ]
 }

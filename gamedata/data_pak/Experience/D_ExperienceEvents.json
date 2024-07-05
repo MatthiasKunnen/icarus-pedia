@@ -928,6 +928,156 @@
             "Name": "Skin_Chicken",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Chicken-EventDescription\", \"Skinned Chicken\")",
             "ExperienceGranted": 80
+        },
+        {
+            "Name": "Mine_Limestone",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Mine_Limestone-EventDescription\", \"Mine Limestone\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 35
+        },
+        {
+            "Name": "Skin_Primed_Wolf",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Primed_Wolf-EventDescription\", \"Skinned Wolf\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Tame_Fed",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Tame_Fed-EventDescription\", \"Well Fed XP Bonus\")",
+            "ExperienceGranted": 30
+        },
+        {
+            "Name": "Skin_Hammerhead_Slug",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Hammerhead Slug\")",
+            "ExperienceGranted": 750
+        },
+        {
+            "Name": "Kill_Hammerhead_Slug",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Hammerhead Slug\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1500
+        },
+        {
+            "Name": "Kill_Bee",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bee-EventDescription\", \"Killed Bee\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 500
+        },
+        {
+            "Name": "Skin_MiniHippo",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_MiniHippo-EventDescription\", \"Skinned Dribbo \")",
+            "ExperienceGranted": 500
+        },
+        {
+            "Name": "Kill_MiniHippo",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_MiniHippo-EventDescription\", \"Killed Dribbo\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1000
+        },
+        {
+            "Name": "Kill_MangeWolf",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_MangeWolf-EventDescription\", \"Killed Skulmutt\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1500
+        },
+        {
+            "Name": "Skin_Mange_Wolf",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Mange_Wolf-EventDescription\", \"Skinned Skulmutt\")",
+            "ExperienceGranted": 750
+        },
+        {
+            "Name": "Skin_Mange_Wolf_Alpha",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Mange_Wolf_Alpha-EventDescription\", \"Skinned Skulmutt Prime\")",
+            "ExperienceGranted": 750
+        },
+        {
+            "Name": "Skin_Kiwi",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Kiwi-EventDescription\", \"Skinned Kiwi\")",
+            "ExperienceGranted": 100
+        },
+        {
+            "Name": "Kill_Kiwi",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Kiwi-EventDescription\", \"Killed Kiwi\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 250
+        },
+        {
+            "Name": "Skin_Ghost_Crocodile",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Ghost Crocodile\")",
+            "ExperienceGranted": 750
+        },
+        {
+            "Name": "Kill_GhostCrocodile",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Ghost Crocodile\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1000
+        },
+        {
+            "Name": "Kill_Ape",
+            "EventDescription": "INVTEXT(\"[DNT] Killed Ape\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 5000
+        },
+        {
+            "Name": "Kill_Landshark",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Landshark-EventDescription\", \"Killed Landshark\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2500
+        },
+        {
+            "Name": "DestroyedBeehive",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"DestroyedBeehive-EventDescription\", \"Destroyed Beehive\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2000
+        },
+        {
+            "Name": "Kill_Pet",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Pet-EventDescription\", \"Killed Animal Companion\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 10
+        },
+        {
+            "Name": "Shear_Sheep",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Shear_Sheep-EventDescription\", \"Sheared Sheep\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 200
+        },
+        {
+            "Name": "Grow_Wool",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Grow_Wool-EventDescription\", \"Grew Wool\")",
+            "ExperienceGranted": 1000
+        },
+        {
+            "Name": "Skin_Arctic_Moa",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Arctic_Moa-EventDescription\", \"Skinned Arctic Moa\")",
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Kill_Arctic_Moa",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Arctic_Moa-EventDescription\", \"Killed Arctic Moa\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 520
+        },
+        {
+            "Name": "Kill_Arctic_BabyMoa",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Arctic_BabyMoa-EventDescription\", \"Killed Juvenile Moa\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 260
+        },
+        {
+            "Name": "Skin_Arctic_BabyMoa",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Arctic_BabyMoa-EventDescription\", \"Skinned Juvenile Moa\")",
+            "ExperienceGranted": 130
+        },
+        {
+            "Name": "Skin_Eagle",
+            "EventDescription": "INVTEXT(\"[DNT] Skinned Eagle\")",
+            "ExperienceGranted": 80
+        },
+        {
+            "Name": "Kill_Spider",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Spider-EventDescription\", \"Killed Spider\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1750
         }
     ]
 }

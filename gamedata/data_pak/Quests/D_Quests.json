@@ -1087,7 +1087,7 @@
         {
             "Name": "OLY_Glacier_Expedition_Recombine",
             "Class": "/Game/BP/Quests/Olympus/Glacier/Expedition/BPQ_Glacier_OLY_Expedition_Recombine.BPQ_Glacier_OLY_Expedition_Recombine_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Glacier_Expedition_Recombine-Description\", \"Assemble the device\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Glacier_Expedition_Recombine-Description\", \"Assemble the device (Crafting Menu)\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "Expedition2aDeviceExplanation",
@@ -1140,7 +1140,7 @@
         },
         {
             "Name": "OLY_Glacier_Scan_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Common/BPQ_Retrieve_Radar.BPQ_Retrieve_Radar_C",
+            "Class": "/Game/BP/Quests/Olympus/Glacier/Scan/BPQ_OLY_Glacier_Scan_CollectPod.BPQ_OLY_Glacier_Scan_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Glacier_Scan_Retrieve_Equipment-Description\", \"Collect radar from supply pod\")",
             "LocationQuery": {
                 "RowName": "T2_Glacier_Scan_Equipment"
@@ -1435,7 +1435,7 @@
         },
         {
             "Name": "OLY_Canyon_Scan_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Common/BPQ_Retrieve_Radar.BPQ_Retrieve_Radar_C",
+            "Class": "/Game/BP/Quests/Olympus/Glacier/Scan/BPQ_OLY_Glacier_Scan_CollectPod.BPQ_OLY_Glacier_Scan_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Canyon_Scan_Retrieve_Equipment-Description\", \"Collect radar from supply pod\")",
             "LocationQuery": {
                 "RowName": "T2_Canyon_Scan_Equipment"
@@ -1629,7 +1629,7 @@
                 "RowName": "T2_Canyon_Stockpile_Loc3"
             },
             "DialogueEvents": {
-                "QuestEnd": {
+                "None": {
                     "RowName": "AllItemsFound2",
                     "DataTableName": "D_Dialogue"
                 }
@@ -1820,7 +1820,7 @@
         },
         {
             "Name": "OLY_Riverlands_Scan_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Common/BPQ_Retrieve_Radar.BPQ_Retrieve_Radar_C",
+            "Class": "/Game/BP/Quests/Olympus/Riverlands/Scan/BPQ_OLY_Riverlands_Scan_CollectPod.BPQ_OLY_Riverlands_Scan_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_Scan_Retrieve_Equipment-Description\", \"Collect radar from supply pod\")",
             "LocationQuery": {
                 "RowName": "T3_Riverlands_Scan_Equipment"
@@ -2001,7 +2001,7 @@
         {
             "Name": "OLY_Riverlands_LongSurvey_Collect",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_LongSurvey_Collect-Description\", \"Locate the device drop\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_LongSurvey_Collect-Description\", \"Locate the Supplied Equipment (M)\")",
             "LocationQuery": {
                 "RowName": "T3_Riverlands_LongSurvey_Collect"
             }
@@ -2009,7 +2009,7 @@
         {
             "Name": "OLY_Arctic_LongSurvey_Collect_0",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_LongSurvey_Collect_0-Description\", \"Locate the device drop\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_LongSurvey_Collect_0-Description\", \"Locate the Supplied Equipment (M)\")",
             "LocationQuery": {
                 "RowName": "T3_Arctic_LongSurvey_Collect"
             }
@@ -2017,7 +2017,7 @@
         {
             "Name": "OLY_Canyon_LongSurvey_Collect_0",
             "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Canyon_LongSurvey_Collect_0-Description\", \"Locate the device drop\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Canyon_LongSurvey_Collect_0-Description\", \"Locate the Supplied Equipment (M)\")",
             "LocationQuery": {
                 "RowName": "T3_Canyon_LongSurvey_Collect"
             }
@@ -2424,8 +2424,16 @@
         },
         {
             "Name": "OLY_Riverlands_Delivery_Deliver",
-            "Class": "/Game/BP/Quests/Olympus/Riverlands/Delivery/BPQ_OLY_Riverlands_Delivery_Deliver.BPQ_OLY_Riverlands_Delivery_Deliver_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_Delivery_Deliver-Description\", \"Deliver the Flechette to your Dropship\")"
+            "Class": "/Game/BP/Quests/Olympus/Riverlands/Delivery/BPQ_OLY_Riverlands_Delivery_ShipContainer.BPQ_OLY_Riverlands_Delivery_ShipContainer_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_Delivery_Deliver-Description\", \"Deliver the Flechette to the Supply Pod at the Marked Location (M)\")",
+            "LocationQuery": {
+                "RowName": "T2_Riverlands_Extermination_Search1"
+            }
+        },
+        {
+            "Name": "OLY_Riverlands_Delivery_Deliver_Flechette",
+            "Class": "/Game/BP/Quests/Olympus/Riverlands/Delivery/BPQ_OLY_Riverlands_Delivery_Deposit.BPQ_OLY_Riverlands_Delivery_Deposit_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_Delivery_Deliver_Flechette-Description\", \"Flechette\")"
         },
         {
             "Name": "OLY_Riverlands_Delivery_Status",
@@ -2546,7 +2554,7 @@
         },
         {
             "Name": "OLY_Arctic_Scan_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Common/BPQ_Retrieve_Radar.BPQ_Retrieve_Radar_C",
+            "Class": "/Game/BP/Quests/Olympus/Glacier/Scan/BPQ_OLY_Glacier_Scan_CollectPod.BPQ_OLY_Glacier_Scan_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Scan_Retrieve_Equipment-Description\", \"Collect radar from supply pod\")",
             "LocationQuery": {
                 "RowName": "T4_Arctic_Scan_Equipment"
@@ -2678,7 +2686,7 @@
         {
             "Name": "OLY_Arctic_Recovery_Combine",
             "Class": "/Game/BP/Quests/Olympus/Arctic/Recovery/BPQ_OLY_Arctic_Recovery_Reassemble.BPQ_OLY_Arctic_Recovery_Reassemble_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Combine-Description\", \"Assemble the device\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Combine-Description\", \"Assemble the device (Crafting Menu)\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "RecoveryCraftItem4b",
@@ -2699,8 +2707,11 @@
         },
         {
             "Name": "OLY_Arctic_Recovery_Recover_Tech",
-            "Class": "/Game/BP/Quests/Olympus/Arctic/Recovery/BPQ_OLY_Arctic_Recovery_Retrieve.BPQ_OLY_Arctic_Recovery_Retrieve_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Recover_Tech-Description\", \"Deliver the device to the dropship\")"
+            "Class": "/Game/BP/Quests/Olympus/Arctic/Recovery/BPQ_OLY_Arctic_Recovery_Ship.BPQ_OLY_Arctic_Recovery_Ship_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Recover_Tech-Description\", \"Deliver the device to the drop pod\")",
+            "LocationQuery": {
+                "RowName": "T4_Arctic_Stockpile_Ship1"
+            }
         },
         {
             "Name": "OLY_Arctic_Survey_0",
@@ -2871,7 +2882,7 @@
         {
             "Name": "OLY_Arctic_Stockpile_Med1",
             "Class": "/Game/BP/Quests/Olympus/Arctic/Stockpile/BPQ_OLY_Arctic_Stockpile_Deposit_Med1.BPQ_OLY_Arctic_Stockpile_Deposit_Med1_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Stockpile_Med1-Description\", \"{0} / {1} Health Enhancement Tonic\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Stockpile_Med1-Description\", \"{0} / {1} Health Recovery Tonic\")"
         },
         {
             "Name": "OLY_Arctic_Stockpile_Med2",
@@ -2979,7 +2990,7 @@
         },
         {
             "Name": "OLY_Desert_Scan_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Common/BPQ_Retrieve_Radar.BPQ_Retrieve_Radar_C",
+            "Class": "/Game/BP/Quests/Olympus/Glacier/Scan/BPQ_OLY_Glacier_Scan_CollectPod.BPQ_OLY_Glacier_Scan_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Scan_Retrieve_Equipment-Description\", \"Collect radar from supply pod\")",
             "LocationQuery": {
                 "RowName": "T4_Desert_Scan_Equipment"
@@ -3711,7 +3722,7 @@
         {
             "Name": "OLY_Omni_Research_2_Equipment_Solar_Repair",
             "Class": "/Game/BP/Quests/Olympus/Omni/Research2/BPQ_OLY_Omni_Research_2_Solar_Repair.BPQ_OLY_Omni_Research_2_Solar_Repair_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Omni_Research_2_Equipment_Solar_Repair-Description\", \"Repair the Broken Solar Panel (Maching Bench)\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Omni_Research_2_Equipment_Solar_Repair-Description\", \"Repair the Broken Solar Panel (Machining Bench)\")",
             "LocationQuery": {
                 "RowName": "T4_Omni_Research_2_Equipment_Solar"
             },
@@ -3924,6 +3935,97 @@
             "Name": "OLY_Desert_Recovery_Defend_Waves",
             "Class": "/Game/BP/Quests/Olympus/Desert/Recovery/BPQ_OLY_Desert_Recovery_Defend_Waves.BPQ_OLY_Desert_Recovery_Defend_Waves_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_Defend_Waves-Description\", \"{0}% of Scorpions defeated\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2.BPQ_OLY_Desert_Recovery2_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2-Description\", \"RELOCATED: Recovery\")",
+            "LocationQuery": {
+                "RowName": "ZebraBase"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "RelocatedIntro",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Camp",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Camp.BPQ_OLY_Desert_Recovery2_Camp_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Camp-Description\", \"Find out the Status of the Sinotai Creature Research Encampment\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Camp_Travel",
+            "Class": "/Game/BP/Quests/Common/BPQ_Travel.BPQ_Travel_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Camp_Travel-Description\", \"Head to the Marked Location (M)\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Camp_Clear",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Camp_Clear.BPQ_OLY_Desert_Recovery2_Camp_Clear_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Camp_Clear-Description\", \"Clear the Encampment of Hostile Creatures {0}%\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "RelocatedEvent2",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Camp_Interact",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Camp_Interact.BPQ_OLY_Desert_Recovery2_Camp_Interact_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Camp_Interact-Description\", \"Activate Domestic Creature Trackers by Interacting with the Terminal (F)\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "RelocatedEvent3",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Creatures",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Creatures.BPQ_OLY_Desert_Recovery2_Creatures_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Creatures-Description\", \"Locate and Return the Remaining Domesticated Creatures to the Pen (M)\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "RelocatedEvent4",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Creatures_1",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Creatures_Escort.BPQ_OLY_Desert_Recovery2_Creatures_Escort_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Creatures_1-Description\", \"{0} Is Alive and Well\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Creatures_2",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Creatures_Escort.BPQ_OLY_Desert_Recovery2_Creatures_Escort_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Creatures_2-Description\", \"{0} Is Alive and Well\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Creatures_3",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Creatures_Escort.BPQ_OLY_Desert_Recovery2_Creatures_Escort_C",
+            "Variation": 2,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Creatures_3-Description\", \"{0} Is Alive and Well\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Creatures_4",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Creatures_Escort.BPQ_OLY_Desert_Recovery2_Creatures_Escort_C",
+            "Variation": 3,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Creatures_4-Description\", \"{0} Is Alive and Well\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Creatures_5",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Creatures_Escort.BPQ_OLY_Desert_Recovery2_Creatures_Escort_C",
+            "Variation": 4,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Creatures_5-Description\", \"{0} Is Alive and Well\")"
+        },
+        {
+            "Name": "OLY_Desert_Recovery_2_Reward",
+            "Class": "/Game/BP/Quests/Olympus/Desert/Recovery2/BPQ_OLY_Desert_Recovery2_Reward.BPQ_OLY_Desert_Recovery2_Reward_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Desert_Recovery_2_Reward-Description\", \"Collect the Reward from the Sinotai Reward Pod (M)\")"
         },
         {
             "Name": "OLY_Riverlands_Extraction",
@@ -5013,7 +5115,7 @@
         {
             "Name": "STYX_D_Delivery_Collect",
             "Class": "/Game/BP/Quests/Styx/D/Delivery/BPQ_STYX_D_Delivery_Collect.BPQ_STYX_D_Delivery_Collect_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Delivery_Collect-Description\", \"Collect a Terraforming Sample From the Supply Pod\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Delivery_Collect-Description\", \"Collect a Terraforming Sample From the Crashed Supply Pod\")",
             "DialogueEvents": {
                 "QuestEnd": {
                     "RowName": "ResearchFindItem1",
@@ -5024,7 +5126,10 @@
         {
             "Name": "STYX_D_Delivery_Deliver",
             "Class": "/Game/BP/Quests/Styx/D/Delivery/BPQ_STYX_D_Delivery_Deliver.BPQ_STYX_D_Delivery_Deliver_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Delivery_Deliver-Description\", \"Deliver a Stable Terraforming Sample to your Dropship\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Delivery_Deliver-Description\", \"Deliver a Stable Terraforming Sample to the new Supply Pod\")",
+            "LocationQuery": {
+                "RowName": "STYX_IceFlats_Cliff"
+            }
         },
         {
             "Name": "STYX_D_Delivery_Check_Item_0",
@@ -5811,7 +5916,10 @@
         {
             "Name": "STYX_D_Research2",
             "Class": "/Game/BP/Quests/Styx/D/Research2/BPQ_STYX_D_Research2.BPQ_STYX_D_Research2_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research2-Description\", \"RESEARCH: The Ring\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research2-Description\", \"RESEARCH: The Ring\")",
+            "LocationQuery": {
+                "RowName": "STYX_RingLake_Center"
+            }
         },
         {
             "Name": "STYX_D_Research2_FindDeposit",
@@ -5855,12 +5963,6 @@
             "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research2_Research-Description\", \"OPTIONAL: Discover methods for prospectors to handle Abyssal Oxite safely\")",
             "LocationQuery": {
                 "RowName": "STYX_D_Research2_Canyon"
-            },
-            "DialogueEvents": {
-                "QuestEnd": {
-                    "RowName": "RecoveryExoticsFound",
-                    "DataTableName": "D_Dialogue"
-                }
             }
         },
         {
@@ -5903,6 +6005,20 @@
             "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research2_BonusReward-Description\", \"Collect the stashed exotics nearby\")",
             "LocationQuery": {
                 "RowName": "STYX_D_Research2_CaveStash"
+            },
+            "DialogueEvents": {
+                "QuestEnd": {
+                    "RowName": "RecoveryExoticsFound",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "STYX_D_Research2_ReturnResearchEquipment",
+            "Class": "/Game/BP/Quests/Styx/D/Research2/BPQ_STYX_D_Research2_ReturnResearchEquipment.BPQ_STYX_D_Research2_ReturnResearchEquipment_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Research2_ReturnResearchEquipment-Description\", \"Return the research equipment.\")",
+            "LocationQuery": {
+                "RowName": "STYX_RingLake_Center"
             }
         },
         {
@@ -6418,7 +6534,7 @@
         },
         {
             "Name": "OLY_Forest_Survey_Retrieve_Equipment",
-            "Class": "/Game/BP/Quests/Implementations/Bw6_Survey/BPQ_BW6_Retrieve_Equipment.BPQ_BW6_Retrieve_Equipment_C",
+            "Class": "/Game/BP/Quests/BPQ_OLY_Forest_Survey_CollectPod.BPQ_OLY_Forest_Survey_CollectPod_C",
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Forest_Survey_Retrieve_Equipment-Description\", \"Collect the Survey Equipment from your Dropship\")"
         },
         {
@@ -6482,7 +6598,7 @@
         {
             "Name": "PRO_Story1_Recipe",
             "Class": "/Game/BP/Quests/Prometheus/Story/Story1/BPQ_PRO_Story1_Recipe.BPQ_PRO_Story1_Recipe_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story1_Recipe-Description\", \"Find and collect SMPL3 chip from OES\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story1_Recipe-Description\", \"Find and collect SMPL3 chip from O.E.S.\")"
         },
         {
             "Name": "PRO_Story1_Recipe_Location",
@@ -6535,7 +6651,7 @@
         {
             "Name": "PRO_Story1_Mini_Quest_Collect_Seed",
             "Class": "/Game/BP/Quests/Prometheus/Story/Story1/BPQ_PRO_Story1_Mini_Quest_Collect_Seed.BPQ_PRO_Story1_Mini_Quest_Collect_Seed_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story1_Mini_Quest_Collect_Seed-Description\", \"Collected a Tomato and Farming Plot Sinotai Delivery Pod (M)\")"
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story1_Mini_Quest_Collect_Seed-Description\", \"Collected a Tomato and Farming Plot from the Sinotai Delivery Pod (M)\")"
         },
         {
             "Name": "PRO_Story1_Mini_Quest_Plant",
@@ -7895,7 +8011,7 @@
         {
             "Name": "PRO_Story0_Craft",
             "Class": "/Game/BP/Quests/Prometheus/Story/Story0/BPQ_PRO_Story0_Craft.BPQ_PRO_Story0_Craft_C",
-            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story0_Craft-Description\", \"Build & Place a C0NT4CT Device (Crafting Bench) to engage with Dynamic missions and the Prometheus Story\")",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Story0_Craft-Description\", \"Build & Place a C0NT4CT Device (Crafting Bench) to engage with SMPL3 Missions and Operations\")",
             "DialogueEvents": {
                 "QuestStart": {
                     "RowName": "OpenWorldIntroSRR",
@@ -8702,62 +8818,492 @@
             "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Riverlands_Extraction_Resupply-Description\", \"(Optional) Open the Escape Menu and Request a Mission Resupply if your mission equipment is lost\")"
         },
         {
-            "Name": "PRO_Ashlands",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story.BPQ_PRO_Ashlands_Story_C",
-            "Description": "INVTEXT(\"[DNT] UNKNOWN VENTURE: Ashlands\")"
+            "Name": "PRO_Ashlands_Story",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story.BPQ_PRO_Ashlands_Story_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Story-Description\", \"UNKNOWN VENTURE: Ashlands\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "AshlandsIntro",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
         },
         {
-            "Name": "PRO_Ashlands_CraftBeacons",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story_CraftBeacons.BPQ_PRO_Ashlands_Story_CraftBeacons_C",
-            "Description": "INVTEXT(\"[DNT] Craft at least 3 Beacons: {0} / {1}\")"
+            "Name": "PRO_Ashlands_CraftTrailBeaconTool",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_CraftTrailBeaconTool.BPQ_PRO_Ashlands_Story_CraftTrailBeaconTool_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_CraftTrailBeaconTool-Description\", \"Craft a Trail Beacon Tool\")"
+        },
+        {
+            "Name": "PRO_Ashlands_CraftTrailBeacons",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_CraftTrailBeacons.BPQ_PRO_Ashlands_Story_CraftTrailBeacons_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_CraftTrailBeacons-Description\", \"Craft Trail Beacons: {0} / {1}\")"
         },
         {
             "Name": "PRO_Ashlands_Beacon",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story_Beacon.BPQ_PRO_Ashlands_Story_Beacon_C",
-            "Description": "INVTEXT(\"[DNT] Place Portable Beacon at Entrance to Ashlands.\")",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_Beacon.BPQ_PRO_Ashlands_Story_Beacon_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Beacon-Description\", \"Place Trail Beacon at Entrance to Ashlands\")",
             "LocationQuery": {
                 "RowName": "PRO_Ashlands_Entrances"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "AshlandsEvent3",
+                    "DataTableName": "D_Dialogue"
+                }
             }
         },
         {
             "Name": "PRO_Ashlands_Beacon_Chain",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story_Travel.BPQ_PRO_Ashlands_Story_Travel_C",
-            "Description": "INVTEXT(\"[DNT] Chain beacons until you find the scientists\\' outpost. (just travel, or place normal beacons for now)\")",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_Travel.BPQ_PRO_Ashlands_Story_Travel_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Beacon_Chain-Description\", \"Chain beacons until you find the scientists\\' outpost\")",
             "LocationQuery": {
                 "RowName": "PRO_Ashlands_Outpost"
             }
         },
         {
             "Name": "PRO_Ashlands_Outpost_Percentage",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story_Outpost_Signal.BPQ_PRO_Ashlands_Story_Outpost_Signal_C",
-            "Description": "INVTEXT(\"[DNT] Detecting Signal from Outpost: {0}% Signal Strength\")",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_Outpost_Signal.BPQ_PRO_Ashlands_Story_Outpost_Signal_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Outpost_Percentage-Description\", \"Detecting Signal from Outpost: {0}% Signal Strength\")",
             "LocationQuery": {
                 "RowName": "PRO_Ashlands_Outpost"
             }
         },
         {
             "Name": "PRO_Ashlands_Outpost_Clear",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story_Outpost_Clear.BPQ_PRO_Ashlands_Story_Outpost_Clear_C",
-            "Description": "INVTEXT(\"[DNT] Clear creatures from around the outpost.\")",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_Outpost_Clear.BPQ_PRO_Ashlands_Story_Outpost_Clear_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Outpost_Clear-Description\", \"Clear creatures from around the outpost\")",
             "LocationQuery": {
                 "RowName": "PRO_Ashlands_Outpost"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "AshlandsEvent5",
+                    "DataTableName": "D_Dialogue"
+                }
             }
         },
         {
             "Name": "PRO_Ashlands_Outpost_Collect",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashands_Story_Outpost_Collect.BPQ_PRO_Ashands_Story_Outpost_Collect_C",
-            "Description": "INVTEXT(\"[DNT] Find audio log in structure.\")",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashands_Story_Outpost_Collect.BPQ_PRO_Ashands_Story_Outpost_Collect_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Outpost_Collect-Description\", \"Find audio log in structure\")",
             "LocationQuery": {
                 "RowName": "PRO_Ashlands_Outpost"
             }
         },
         {
             "Name": "PRO_Ashlands_Beacon_Icesheets",
-            "Class": "/Game/BP/Quests/Prometheus/Phase2/Ashlands/BPQ_PRO_Ashlands_Story_Beacon_Icesheet.BPQ_PRO_Ashlands_Story_Beacon_Icesheet_C",
-            "Description": "INVTEXT(\"[DNT] Place the final beacon around the entrance to the Ice Sheet.\")",
+            "Class": "/Game/BP/Quests/Prometheus/D/Story/BPQ_PRO_Ashlands_Story_Beacon_Icesheet.BPQ_PRO_Ashlands_Story_Beacon_Icesheet_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Ashlands_Beacon_Icesheets-Description\", \"Place the final beacon around the entrance to the Ice Sheet\")",
             "LocationQuery": {
                 "RowName": "PRO_Ashlands_IcesheetTransition"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "AshlandsEvent6",
+                    "DataTableName": "D_Dialogue"
+                }
             }
+        },
+        {
+            "Name": "PRO_Icesheet_Story",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story.BPQ_PRO_Icesheet_Story_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_Story-Description\", \"UNKNOWN VENTURE: Ice Sheets\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "IceSheetIntro",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_CraftTrailBeaconTool",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_CraftTrailBeaconTool.BPQ_PRO_Icesheet_Story_CraftTrailBeaconTool_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_CraftTrailBeaconTool-Description\", \"Craft a Trail Beacon Tool\")"
+        },
+        {
+            "Name": "PRO_Icesheet_CraftTrailBeacons",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_CraftTrailBeacons.BPQ_PRO_Icesheet_Story_CraftTrailBeacons_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_CraftTrailBeacons-Description\", \"Craft Trail Beacons: {0} / {1}\")"
+        },
+        {
+            "Name": "PRO_Icesheet_Beacon",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_Beacon.BPQ_PRO_Icesheet_Story_Beacon_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_Beacon-Description\", \"Place Trail Beacon at Entrance to the Ice Sheet\")",
+            "LocationQuery": {
+                "RowName": "PRO_Icesheet_Entrance"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "IceSheetEvent2",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Beacon_Chain",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_Travel.BPQ_PRO_Icesheet_Story_Travel_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_Beacon_Chain-Description\", \"Chain beacons until you find the scientists\\' outpost\")",
+            "LocationQuery": {
+                "RowName": "PRO_Icesheet_Outpost"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Outpost_Percentage",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_Outpost_Signal.BPQ_PRO_Icesheet_Story_Outpost_Signal_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_Outpost_Percentage-Description\", \"Detecting Signal from Outpost: {0}% Signal Strength\")",
+            "LocationQuery": {
+                "RowName": "PRO_Icesheet_Outpost"
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Outpost_Collect",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_Outpost_Collect.BPQ_PRO_Icesheet_Story_Outpost_Collect_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_Outpost_Collect-Description\", \"Search Bodies for Audio Log\")",
+            "LocationQuery": {
+                "RowName": "PRO_Icesheet_Outpost"
+            },
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "IceSheetEvent3",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "PRO_Icesheet_Beacon_Final",
+            "Class": "/Game/BP/Quests/Prometheus/E/Story/BPQ_PRO_Icesheet_Story_FindFinalCave.BPQ_PRO_Icesheet_Story_FindFinalCave_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_Icesheet_Beacon_Final-Description\", \"Search nearby caves to find where the Crazed Scientist may have gone: {0}/3\")"
+        },
+        {
+            "Name": "STYX_D_Recovery",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery.BPQ_STYX_D_Recovery_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery-Description\", \"GENESIS: Recovery\")",
+            "LocationQuery": {
+                "RowName": "STYX_MiniHippoEggs"
+            }
+        },
+        {
+            "Name": "STYX_D_Recovery_Site",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Site.BPQ_STYX_D_Recovery_Site_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site-Description\", \"Find out the status of the Creature Research Site in the Desert Region\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Site_Travel",
+            "Class": "/Game/BP/Quests/Common/BPQ_Travel_Large.BPQ_Travel_Large_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site_Travel-Description\", \"Head to the Site Location (M)\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Site_Hostiles",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Site_Hostiles.BPQ_STYX_D_Recovery_Site_Hostiles_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site_Hostiles-Description\", \"Destroy the Nearby Hyena Dens ({0}/{1})\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Site_Boss",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Site_Boss.BPQ_STYX_D_Recovery_Site_Boss_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site_Boss-Description\", \"Kill The Pack Leader\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Site_Collect",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Site_Collect.BPQ_STYX_D_Recovery_Site_Collect_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Site_Collect-Description\", \"Collect any of the Surviving Eggs\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch.BPQ_STYX_D_Recovery_Hatch_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch-Description\", \"Hatch the Egg\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch_Incubator",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch_Incubator.BPQ_STYX_D_Recovery_Hatch_Incubator_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch_Incubator-Description\", \"Craft an Incubator (Fabricator)\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch_Deploy",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch_Deploy.BPQ_STYX_D_Recovery_Hatch_Deploy_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch_Deploy-Description\", \"Deploy the Incubator\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch_PlaceEgg",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch_Place.BPQ_STYX_D_Recovery_Hatch_Place_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch_PlaceEgg-Description\", \"Place the Egg in the Incubator\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch_Incubate",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch_Incubate.BPQ_STYX_D_Recovery_Hatch_Incubate_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch_Incubate-Description\", \"Hatch the Egg in the Incubator\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch_Active",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch_Incubate_Incubator.BPQ_STYX_D_Recovery_Hatch_Incubate_Incubator_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch_Active-Description\", \"Incubator {0}\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Hatch_Progress",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Hatch_Incubate_Progress.BPQ_STYX_D_Recovery_Hatch_Incubate_Progress_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Hatch_Progress-Description\", \"{0}% Hatching Progress\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Alive",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Alive.BPQ_STYX_D_Recovery_Alive_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Alive-Description\", \"Keep the Creature Alive {0}/{1}\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Retrieval",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Retrieval.BPQ_STYX_D_Recovery_Retrieval_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Retrieval-Description\", \"Prepare the Creature for its Journey\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Retrieval_Thirst",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Retrieval_Thirst.BPQ_STYX_D_Recovery_Retrieval_Thirst_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Retrieval_Thirst-Description\", \"Thirst (>80%) {0}/100\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Retrieval_Hunger",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Retrieval_Hunger.BPQ_STYX_D_Recovery_Retrieval_Hunger_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Retrieval_Hunger-Description\", \"Hunger (>80%) {0}/100\")"
+        },
+        {
+            "Name": "STYX_D_Recovery_Escort",
+            "Class": "/Game/BP/Quests/Styx/D/Recovery/BPQ_STYX_D_Recovery_Escort.BPQ_STYX_D_Recovery_Escort_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_D_Recovery_Escort-Description\", \"Escort the Creature to the Sinotai Retrieval Pod (M)\")",
+            "LocationQuery": {
+                "RowName": "STYX_MiniHippoQuestEnd"
+            }
+        },
+        {
+            "Name": "STYX_Open_World",
+            "Class": "/Game/BP/Quests/Prometheus/Story/Story0/BPQ_PRO_Story0.BPQ_PRO_Story0_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_Open_World-Description\", \"Welcome to Styx\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "OpenWorldIntroStyx",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "OLY_Open_World",
+            "Class": "/Game/BP/Quests/Prometheus/Story/Story0/BPQ_PRO_Story0.BPQ_PRO_Story0_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Open_World-Description\", \"Welcome to Olympus\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "OpenWorldIntroOly",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "STYX_A_Research",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research.BPQ_Styx_A_Research_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research-Description\", \"RESEARCH: KIWI\")"
+        },
+        {
+            "Name": "STYX_A_Research_Seed",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Seed_Kiwi.BPQ_Styx_A_Research_Seed_Kiwi_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed-Description\", \"Scout out the Kiwi Release Location\")",
+            "LocationQuery": {
+                "RowName": "STYX_Kiwi_Release"
+            }
+        },
+        {
+            "Name": "STYX_A_Research_Seed_Travel",
+            "Class": "/Game/BP/Quests/Common/BPQ_Travel_Large.BPQ_Travel_Large_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed_Travel-Description\", \"Head to Location Delta (M)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Seed_Kill",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Seed_Kill.BPQ_Styx_A_Research_Seed_Kill_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed_Kill-Description\", \"Thin the Heard of Moa {0}%\")"
+        },
+        {
+            "Name": "STYX_A_Research_Seed_Boss",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Seed_Boss.BPQ_Styx_A_Research_Seed_Boss_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed_Boss-Description\", \"Kill The Matriarch\")"
+        },
+        {
+            "Name": "STYX_A_Research_Seed_Collect",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Seed_Collect.BPQ_Styx_A_Research_Seed_Collect_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed_Collect-Description\", \"Collect the Cryogenically Frozen Kiwi\\'s from the Sinotai Supply Pod (M)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Seed_Release",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Seed_Release.BPQ_Styx_A_Research_Seed_Release_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed_Release-Description\", \"Release the Bonded Pair of Kiwi\\'s into their new home (Place the Kiwi\\'s on the Ground)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Kiwi.BPQ_Styx_A_Research_Nest_Kiwi_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest-Description\", \"Scout out the Nesting Location\")",
+            "LocationQuery": {
+                "RowName": "STYX_Kiwi_Nest"
+            }
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Travel",
+            "Class": "/Game/BP/Quests/Common/BPQ_Travel_Large.BPQ_Travel_Large_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Travel-Description\", \"Head to Location Sigma (M)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Den",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Dens.BPQ_Styx_A_Research_Nest_Dens_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Den-Description\", \"Destroy the Nearby Wolf Dens ({0}/{1})\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Setup",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Setup.BPQ_Styx_A_Research_Nest_Setup_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Setup-Description\", \"Collect Nearby Resources and Craft Kiwi Nests (Sticks / Fiber / Tree Sap / Dirt) \")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Setup_Craft",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Setup_Craft.BPQ_Styx_A_Research_Nest_Setup_Craft_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Setup_Craft-Description\", \"Craft the Kiwi Nests in your crafting menu {0}/{1}\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Setup_Place",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Setup_Place.BPQ_Styx_A_Research_Nest_Setup_Place_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Setup_Place-Description\", \"Place the Kiwi Nests around Location Sigma {0}/{1}\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Prepare",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Prepare.BPQ_Styx_A_Research_Nest_Prepare_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Prepare-Description\", \"Prepare the Nests\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Prepare_Collect",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Prepare_Collect.BPQ_Styx_A_Research_Nest_Prepare_Collect_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Prepare_Collect-Description\", \"Collect the Genetically Modified Eggs from the Sinotai Supply Pod (M)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Prepare_Eggs",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Prepare_Eggs.BPQ_Styx_A_Research_Nest_Prepare_Eggs_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Prepare_Eggs-Description\", \"Place the Eggs inside the Nests {0}/{1}\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Prepare_Food",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Prepare_Berries.BPQ_Styx_A_Research_Nest_Prepare_Berries_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Prepare_Food-Description\", \"Collect and Place some Berries in the Kiwi Nests {0}/{1}\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Incubate",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Incubate.BPQ_Styx_A_Research_Nest_Incubate_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Incubate-Description\", \"Fend off any Animals while the Nests Incubate the Eggs\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Incubate_Eggs",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Incubate_Eggs.BPQ_Styx_A_Research_Nest_Incubate_Eggs_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Incubate_Eggs-Description\", \"Remaning Eggs {0}/{1}\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Incubate_Boss",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Incubate_Boss.BPQ_Styx_A_Research_Nest_Incubate_Boss_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Incubate_Boss-Description\", \"(Optional) Kill The Fowler\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Incubate_Progress",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Nest_Incubate_Progress.BPQ_Styx_A_Research_Nest_Incubate_Progress_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Incubate_Progress-Description\", \"{0}% Complete\")"
+        },
+        {
+            "Name": "STYX_A_Research_Bonus",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Bonus.BPQ_Styx_A_Research_Bonus_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Bonus-Description\", \"(Optional) Cull the Population of the Kiwi\\'s Natural Predators\")"
+        },
+        {
+            "Name": "STYX_A_Research_Bonus_Kill",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Bonus_Wolf.BPQ_Styx_A_Research_Bonus_Wolf_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Bonus_Kill-Description\", \"Kill Wolves or Moa {0}/{1} \")"
+        },
+        {
+            "Name": "STYX_A_Research_Bonus_Reward",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Research_Bonus_Reward.BPQ_Styx_A_Research_Bonus_Reward_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Bonus_Reward-Description\", \"Collect your reward from the Sinotai Reward Pod (M)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Nest_Reward",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Reward.BPQ_Styx_A_Reward_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Nest_Reward-Description\", \"Collect your reward from the Sinotai Reward Pod (M)\")"
+        },
+        {
+            "Name": "STYX_A_Research_Seed_Reward",
+            "Class": "/Game/BP/Quests/Styx/A/Research/BPQ_Styx_A_Reward.BPQ_Styx_A_Reward_C",
+            "Variation": 2,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"STYX_A_Research_Seed_Reward-Description\", \"Collect your reward from the Sinotai Reward Pod (M)\")"
+        },
+        {
+            "Name": "OLY_Arctic_Recovery_Tech",
+            "Class": "/Game/BP/Quests/Olympus/Arctic/Recovery/BPQ_OLY_Arctic_Recovery_DepositTech.BPQ_OLY_Arctic_Recovery_DepositTech_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"OLY_Arctic_Recovery_Tech-Description\", \"{0} / {1} Device\")",
+            "DialogueEvents": {
+                "QuestStart": {
+                    "RowName": "ItemFoundGeneric6",
+                    "DataTableName": "D_Dialogue"
+                }
+            }
+        },
+        {
+            "Name": "PRO_D_Transport",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport.BPQ_PRO_D_Transport_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport-Description\", \"CARAVAN: Ashlands\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Start",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Stockpile_Ship.BPQ_PRO_D_Transport_Stockpile_Ship_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Start-Description\", \"Stockpile a large stash of supplies ready for transport\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Wood",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Wood.BPQ_PRO_D_Transport_Wood_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Wood-Description\", \"{0} / {1} Wood\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Fiber",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Fiber.BPQ_PRO_D_Transport_Fiber_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Fiber-Description\", \"{0} / {1} Fiber\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Oxite",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Oxite.BPQ_PRO_D_Transport_Oxite_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Oxite-Description\", \"{0} / {1} Oxite\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Seeds",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_SeedVariety.BPQ_PRO_D_Transport_SeedVariety_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Seeds-Description\", \"{0} / {1} Seed Varieties\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Destination",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Destination.BPQ_PRO_D_Transport_Destination_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Destination-Description\", \"Deploy storage and store supplies at the marked location within the Ashlands\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Wood_End",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Wood.BPQ_PRO_D_Transport_Wood_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Wood_End-Description\", \"{0} / {1} Wood\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Fiber_End",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Fiber.BPQ_PRO_D_Transport_Fiber_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Fiber_End-Description\", \"{0} / {1} Fiber\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Oxite_End",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Oxite.BPQ_PRO_D_Transport_Oxite_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Oxite_End-Description\", \"{0} / {1} Oxite\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Stockpile_Seeds_End",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_SeedVariety.BPQ_PRO_D_Transport_SeedVariety_C",
+            "Variation": 1,
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Stockpile_Seeds_End-Description\", \"{0} / {1} Seed Varieties\")"
+        },
+        {
+            "Name": "PRO_D_Transport_Ambush",
+            "Class": "/Game/BP/Quests/Prometheus/D/Transport/BPQ_PRO_D_Transport_Stockpile_Ship.BPQ_PRO_D_Transport_Stockpile_Ship_C",
+            "Description": "NSLOCTEXT(\"D_Quests\", \"PRO_D_Transport_Ambush-Description\", \"Defeat the Ambush\")"
         }
     ]
 }

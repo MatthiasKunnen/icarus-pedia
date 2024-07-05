@@ -45,6 +45,22 @@
         "Ice": {
             "RowName": "None",
             "DataTableName": "D_BuildingPieces"
+        },
+        "Dirt": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingPieces"
+        },
+        "Steel": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingPieces"
+        },
+        "StoneBrick": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingPieces"
+        },
+        "Limestone": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingPieces"
         }
     },
     "GenerateEnum": true,
@@ -89,8 +105,26 @@
             "Concrete": {
                 "RowName": "Concrete_Frame_Pillar"
             },
+            "Aluminium": {
+                "RowName": "Iron_Frame_Pillar"
+            },
+            "Glass": {
+                "RowName": "Glass_Frame_Pillar"
+            },
+            "ClayBrick": {
+                "RowName": "Clay_Brick_Frame_Pillar"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Frame_Pillar"
+            },
+            "ScoriaBrick": {
+                "RowName": "Scoria_Brick_Frame_Pillar"
+            },
             "Ice": {
                 "RowName": "Ice_Frame_Pillar"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Frame_Pillar"
             }
         },
         {
@@ -147,6 +181,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Floor"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Floor"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Floor"
             }
         },
         {
@@ -181,6 +221,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Floor_TrapDoor"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Floor_TrapDoor"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Floor_TrapDoor"
             }
         },
         {
@@ -218,6 +264,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_Solid"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_Solid"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_Solid"
             }
         },
         {
@@ -255,6 +307,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_WindowFrame"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_WindowFrame"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_WindowFrame"
             }
         },
         {
@@ -292,6 +350,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_DoubleWindowL"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_DoubleWindowL"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_DoubleWindowL"
             }
         },
         {
@@ -329,6 +393,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_DoubleWindowR"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_DoubleWindowR"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_DoubleWindowR"
             }
         },
         {
@@ -366,6 +436,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_DoorFrame"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_DoorFrame"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_DoorFrame"
             }
         },
         {
@@ -403,6 +479,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_DoubleDoorR"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_DoubleDoorR"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_DoubleDoorR"
             }
         },
         {
@@ -440,6 +522,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_DoubleDoorL"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_DoubleDoorL"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_DoubleDoorL"
             }
         },
         {
@@ -477,6 +565,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_Angle_AngleRight"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_Angle_AngleRight"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_Angle_AngleRight"
             }
         },
         {
@@ -514,6 +608,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_Angle_AngleRightInverted"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_Angle_AngleRightInverted"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_Angle_AngleRightInverted"
             }
         },
         {
@@ -551,6 +651,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_Angle_AngleLeft"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_Angle_AngleLeft"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_Angle_AngleLeft"
             }
         },
         {
@@ -588,6 +694,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_Angle_AngleLeftInverted"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_Angle_AngleLeftInverted"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_Angle_AngleLeftInverted"
             }
         },
         {
@@ -625,6 +737,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Wall_Angle_AnglePeak"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Wall_Angle_AnglePeak"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Wall_Angle_AnglePeak"
             }
         },
         {
@@ -659,6 +777,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Ramp"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Ramp"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Ramp"
             }
         },
         {
@@ -693,6 +817,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Ramp_Stairs"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Ramp_Stairs"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Ramp_Stairs"
             }
         },
         {
@@ -730,6 +860,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Beam_VerticalBeam"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Beam_VerticalBeam"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Beam_VerticalBeam"
             }
         },
         {
@@ -767,6 +903,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Beam_HorizontalBeam"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Beam_HorizontalBeam"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Beam_HorizontalBeam"
             }
         },
         {
@@ -804,6 +946,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Beam_DiagonalBeam"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Beam_DiagonalBeam"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Beam_DiagonalBeam"
             }
         },
         {
@@ -838,6 +986,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Ramp_Roof"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Ramp_Roof"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Ramp_Roof"
             }
         },
         {
@@ -872,6 +1026,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Ramp_RoofPeak"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Ramp_RoofPeak"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Ramp_RoofPeak"
             }
         },
         {
@@ -906,6 +1066,9 @@
             },
             "Ice": {
                 "RowName": "Ice_Ramp_RoofPeak_Connector"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Ramp_RoofPeak_Connector"
             }
         },
         {
@@ -940,6 +1103,9 @@
             },
             "Ice": {
                 "RowName": "Ice_Ramp_RoofPeak_Cap"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Ramp_RoofPeak_Cap"
             }
         },
         {
@@ -974,6 +1140,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Roof_Corner_Left"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Roof_Corner_Left"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Roof_Corner_Left"
             }
         },
         {
@@ -1008,6 +1180,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Roof_Corner_Right"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Roof_Corner_Right"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Roof_Corner_Right"
             }
         },
         {
@@ -1042,6 +1220,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Roof_Corner_InvertedLeft"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Roof_Corner_InvertedLeft"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Roof_Corner_InvertedLeft"
             }
         },
         {
@@ -1076,6 +1260,12 @@
             },
             "Ice": {
                 "RowName": "Ice_Roof_Corner_InvertedRight"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Roof_Corner_InvertedRight"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Roof_Corner_InvertedRight"
             }
         },
         {
@@ -1113,6 +1303,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfNormal_HalfFloor"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Normal_HalfFloor"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfNormal_HalfFloor"
             }
         },
         {
@@ -1150,6 +1346,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfNormal_QuarterFloor"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Normal_QuarterFloor"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfNormal_QuarterFloor"
             }
         },
         {
@@ -1187,6 +1389,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfNormal_HalfRampRight"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Normal_HalfRampRight"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfNormal_HalfRampRight"
             }
         },
         {
@@ -1224,6 +1432,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfNormal_HalfRampLeft"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Normal_HalfRampLeft"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfNormal_HalfRampLeft"
             }
         },
         {
@@ -1261,6 +1475,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfNormal_HalfWallLower"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Normal_HalfWallLower"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfNormal_HalfWallLower"
             }
         },
         {
@@ -1298,6 +1518,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfNormal_HalfWallUpper"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Normal_HalfWallUpper"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfNormal_HalfWallUpper"
             }
         },
         {
@@ -1332,6 +1558,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfPitch_LowerRoof"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Pitch_LowerRoof"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfPitch_LowerRoof"
             }
         },
         {
@@ -1366,6 +1598,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfPitch_UpperRoof"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Pitch_UpperRoof"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfPitch_UpperRoof"
             }
         },
         {
@@ -1403,6 +1641,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfPitch_LowerLeftWall"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Pitch_LowerLeftWall"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfPitch_LowerLeftWall"
             }
         },
         {
@@ -1440,6 +1684,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfPitch_LowerRightWall"
+            },
+            "StoneBrick": {
+                "RowName": "Scoria_Brick_Half_Pitch_LowerLeftWall"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfPitch_LowerRightWall"
             }
         },
         {
@@ -1477,6 +1727,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfPitch_UpperLeftWall"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Pitch_UpperLeftWall"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfPitch_UpperLeftWall"
             }
         },
         {
@@ -1514,6 +1770,12 @@
             },
             "Ice": {
                 "RowName": "Ice_HalfPitch_UpperRightWall"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_Half_Pitch_UpperRightWall"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfPitch_UpperRightWall"
             }
         },
         {
@@ -1521,6 +1783,12 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Solid-PieceName\", \"Wall\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Solid"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Solid"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Solid"
             }
         },
         {
@@ -1528,13 +1796,25 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Angle_L-PieceName\", \"Angle Left\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Angle_Left"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Left"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Angle_Left"
             }
         },
         {
             "Name": "Diagonal_Wall_Angle_L_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Angle_L_Invert-PieceName\", \"Angle Left Inverted\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Wall_Angle_Left_Inverted"
+                "RowName": "Stone_Diagonal_Wall_Angle_Left_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Left_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Angle_Left_Invert"
             }
         },
         {
@@ -1542,13 +1822,25 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Angle_R-PieceName\", \"Angle Right\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Angle_Right"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Right"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Angle_Right"
             }
         },
         {
             "Name": "Diagonal_Wall_Angle_R_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Angle_R_Invert-PieceName\", \"Angle Right Inverted\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Wall_Angle_Right_Inverted"
+                "RowName": "Stone_Diagonal_Wall_Angle_Right_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Angle_Right_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Angle_Right_Invert"
             }
         },
         {
@@ -1556,6 +1848,12 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Floor-PieceName\", \"Floor\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Floor"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Floor"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Floor"
             }
         },
         {
@@ -1563,6 +1861,25 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Ramp-PieceName\", \"Ramp/Roof\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Ramp_Roof"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Ramp_Roof"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Ramp_Roof"
+            }
+        },
+        {
+            "Name": "Diagonal_Ramp_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Ramp_Invert-PieceName\", \"Ramp/Roof Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Ramp_Roof_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Ramp_Roof_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Ramp_Roof_Invert"
             }
         },
         {
@@ -1570,6 +1887,12 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Horizontal-PieceName\", \"Horizontal Cross-Beam\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Horizontal"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Horizontal"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Horizontal"
             }
         },
         {
@@ -1577,6 +1900,12 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Diagonal-PieceName\", \"Diagonal Cross-Beam\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Diagonal"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Diagonal"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Diagonal"
             }
         },
         {
@@ -1584,6 +1913,12 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Curved_Floor-PieceName\", \"Floor\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Curved_Floor"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Curved_Floor"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Curved_Floor"
             }
         },
         {
@@ -1591,6 +1926,12 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Curved_Ramp-PieceName\", \"Ramp/Roof\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Curved_Ramp_Roof"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Curved_Ramp_Roof"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Curved_Ramp_Roof"
             }
         },
         {
@@ -1598,13 +1939,64 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Curved_Horizontal-PieceName\", \"Horizontal Curved Cross-Beam\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Curved_Horizontal"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Horizontal"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Curved_Horizontal"
             }
         },
         {
-            "Name": "Diagonal_Beam_Curved_Diagonal",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Curved_Diagonal-PieceName\", \"Diagonal Curved Cross-Beam\")",
+            "Name": "Diagonal_Beam_Curved_Diagonal_Up_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Curved_Diagonal_Up_L-PieceName\", \"Diagonal Curved Cross-Beam Up-Left\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal"
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Up_L"
+            }
+        },
+        {
+            "Name": "Diagonal_Beam_Curved_Diagonal_Up_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Curved_Diagonal_Up_R-PieceName\", \"Diagonal Curved Cross-Beam Up-Right\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Up_R"
+            }
+        },
+        {
+            "Name": "Diagonal_Beam_Curved_Diagonal_Down_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Curved_Diagonal_Down_L-PieceName\", \"Diagonal Curved Cross-Beam Down-Left\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Down_L"
+            }
+        },
+        {
+            "Name": "Diagonal_Beam_Curved_Diagonal_Down_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Beam_Curved_Diagonal_Down_R-PieceName\", \"Diagonal Curved Cross-Beam Down-Right\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Down_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Down_R"
             }
         },
         {
@@ -1612,34 +2004,110 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Solid-PieceName\", \"Wall\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Solid"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Solid"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Solid"
             }
         },
         {
-            "Name": "Diagonal_Wall_Curved_Angle_L",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_L-PieceName\", \"Angle Left\")",
+            "Name": "Diagonal_Wall_Curved_Angle_Up_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Up_L-PieceName\", \"Left Up-Curve\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Wall_Curved_Angle_L"
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_L"
             }
         },
         {
-            "Name": "Diagonal_Wall_Curved_Angle_L_Invert",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_L_Invert-PieceName\", \"Angle Left Inverted\")",
+            "Name": "Diagonal_Wall_Curved_Angle_Down_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Down_L-PieceName\", \"Left Down-Curve\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Wall_Curved_Angle_L_Invert"
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_L"
             }
         },
         {
-            "Name": "Diagonal_Wall_Curved_Angle_R",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_R-PieceName\", \"Angle Right\")",
+            "Name": "Diagonal_Wall_Curved_Angle_Up_L_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Up_L_Invert-PieceName\", \"Left Up-Curve Inverted\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Wall_Curved_Angle_R"
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_L_Invert"
             }
         },
         {
-            "Name": "Diagonal_Wall_Curved_Angle_R_Invert",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_R_Invert-PieceName\", \"Angle Right Inverted\")",
+            "Name": "Diagonal_Wall_Curved_Angle_Down_L_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Down_L_Invert-PieceName\", \"Left Down-Curve Inverted\")",
             "Stone": {
-                "RowName": "Stone_Diagonal_Wall_Curved_Angle_R_Invert"
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            }
+        },
+        {
+            "Name": "Diagonal_Wall_Curved_Angle_Up_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Up_R-PieceName\", \"Right Up-Curve\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_R"
+            }
+        },
+        {
+            "Name": "Diagonal_Wall_Curved_Angle_Down_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Down_R-PieceName\", \"Right Down-Curve\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_R"
+            }
+        },
+        {
+            "Name": "Diagonal_Wall_Curved_Angle_Up_R_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Up_R_Invert-PieceName\", \"Right Up-Curve Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            }
+        },
+        {
+            "Name": "Diagonal_Wall_Curved_Angle_Down_R_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Down_R_Invert-PieceName\", \"Right Down-Curve Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_R_Invert"
             }
         },
         {
@@ -1647,41 +2115,288 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Curved-PieceName\", \"Ramp\")",
             "Stone": {
                 "RowName": "Stone_Ramp_Curved"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Ramp_Curved"
+            },
+            "Ice": {
+                "RowName": "Ice_Ramp_Curved"
             }
         },
         {
-            "Name": "Wall_Curved_Angle_Left",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_Left-PieceName\", \"Wall Angle Left\")",
+            "Name": "Wall_Curved_Angle_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_L-PieceName\", \"Wall Angle Left\")",
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Wall_Curved_Angle_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Wall_Curved_Angle_L"
             }
         },
         {
-            "Name": "Wall_Curved_Angle_Left_Invert",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_Left_Invert-PieceName\", \"Wall Angle Left Invert\")",
+            "Name": "Wall_Curved_Angle_L_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_L_Invert-PieceName\", \"Wall Angle Left Invert\")",
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_L_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Wall_Curved_Angle_L_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Wall_Curved_Angle_L_Invert"
             }
         },
         {
-            "Name": "Wall_Curved_Angle_Right",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_Right-PieceName\", \"Wall Angle Right\")",
+            "Name": "Wall_Curved_Angle_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_R-PieceName\", \"Wall Angle Right\")",
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Wall_Curved_Angle_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Wall_Curved_Angle_R"
             }
         },
         {
-            "Name": "Wall_Curved_Angle_Right_Invert",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_Right_Invert-PieceName\", \"Wall Angle Right Invert\")",
+            "Name": "Wall_Curved_Angle_R_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Wall_Curved_Angle_R_Invert-PieceName\", \"Wall Angle Right Invert\")",
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_R_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Wall_Curved_Angle_R_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Wall_Curved_Angle_R_Invert"
             }
         },
         {
-            "Name": "Beam_Curved_Diagonal",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Beam_Curved_Diagonal-PieceName\", \"Curved Diagonal Beam\")",
+            "Name": "Beam_Curved_Diagonal_Down",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Beam_Curved_Diagonal_Down-PieceName\", \"Down-Curve Diagonal Beam\")",
             "Stone": {
-                "RowName": "Stone_Beam_Curved_Diagonal"
+                "RowName": "Stone_Beam_Curved_Diagonal_Down"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Beam_Curved_Diagonal_Down"
+            },
+            "Ice": {
+                "RowName": "Ice_Beam_Curved_Diagonal_Down"
+            }
+        },
+        {
+            "Name": "Beam_Curved_Diagonal_Up",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Beam_Curved_Diagonal_Up-PieceName\", \"Up-Curve Diagonal Beam\")",
+            "Stone": {
+                "RowName": "Stone_Beam_Curved_Diagonal_Up"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Beam_Curved_Diagonal_Up"
+            },
+            "Ice": {
+                "RowName": "Ice_Beam_Curved_Diagonal_Up"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Up_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_L-PieceName\", \"Left Up-Curve\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Up_L"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Down_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_L-PieceName\", \"Left Down-Curve\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_L"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Down_L"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Up_L_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_L_Invert-PieceName\", \"Left Up-Curve Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_L_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_L_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Up_L_Invert"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Down_L_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_L_Invert-PieceName\", \"Left Down-Curve Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_L_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_L_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Down_L_Invert"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Up_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_R-PieceName\", \"Right Up-Curve\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Up_R"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Down_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_R-PieceName\", \"Right Down-Curve\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_R"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Down_R"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Up_R_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_R_Invert-PieceName\", \"Right Up-Curve Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Up_R_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Up_R_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Up_R_Invert"
+            }
+        },
+        {
+            "Name": "Roof_CurvedAngle_Down_R_Invert",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_R_Invert-PieceName\", \"Right Down-Curve Inverted\")",
+            "Stone": {
+                "RowName": "Stone_Roof_CurvedAngle_Down_R_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Roof_CurvedAngle_Down_R_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Roof_CurvedAngle_Down_R_Invert"
+            }
+        },
+        {
+            "Name": "CornerStair_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"CornerStair_L-PieceName\", \"Left\")",
+            "Refined_Wood": {
+                "RowName": "Interior_Wood_CornerStair_L"
+            },
+            "Stone": {
+                "RowName": "Stone_CornerStair_L"
+            }
+        },
+        {
+            "Name": "CornerStair_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"CornerStair_R-PieceName\", \"Right\")",
+            "Refined_Wood": {
+                "RowName": "Interior_Wood_CornerStair_R"
+            },
+            "Stone": {
+                "RowName": "Stone_CornerStair_R"
+            }
+        },
+        {
+            "Name": "Ramp_Stairs_Half_L",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_L-PieceName\", \"Left\")",
+            "Thatch": {
+                "RowName": "Thatch_HalfStair_L"
+            },
+            "Wood": {
+                "RowName": "Wood_HalfStair_L"
+            },
+            "Refined_Wood": {
+                "RowName": "Interior_Wood_HalfStair_L"
+            },
+            "Stone": {
+                "RowName": "Stone_HalfStair_L"
+            },
+            "Concrete": {
+                "RowName": "Concrete_HalfStair_L"
+            },
+            "Aluminium": {
+                "RowName": "Iron_HalfStair_L"
+            },
+            "ClayBrick": {
+                "RowName": "Clay_Brick_HalfStair_L"
+            },
+            "Scoria": {
+                "RowName": "Scoria_HalfStair_L"
+            },
+            "ScoriaBrick": {
+                "RowName": "Scoria_Brick_HalfStair_R"
+            },
+            "Ice": {
+                "RowName": "Ice_HalfStair_L"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_HalfStair_L"
+            }
+        },
+        {
+            "Name": "Ramp_Stairs_Half_R",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_R-PieceName\", \"Right\")",
+            "Thatch": {
+                "RowName": "Thatch_HalfStair_R"
+            },
+            "Wood": {
+                "RowName": "Wood_HalfStair_R"
+            },
+            "Refined_Wood": {
+                "RowName": "Interior_Wood_HalfStair_R"
+            },
+            "Stone": {
+                "RowName": "Stone_HalfStair_R"
+            },
+            "Concrete": {
+                "RowName": "Concrete_HalfStair_R"
+            },
+            "Aluminium": {
+                "RowName": "Iron_HalfStair_R"
+            },
+            "ClayBrick": {
+                "RowName": "Clay_Brick_HalfStair_R"
+            },
+            "Scoria": {
+                "RowName": "Scoria_HalfStair_R"
+            },
+            "ScoriaBrick": {
+                "RowName": "Scoria_Brick_HalfStair_R"
+            },
+            "Ice": {
+                "RowName": "Ice_HalfStair_R"
+            },
+            "StoneBrick": {
+                "RowName": "Stone_Brick_HalfStair_R"
             }
         }
     ]

@@ -83,10 +83,54 @@
             ]
         },
         {
+            "Name": "Processor_T3",
+            "Inventories": [
+                {
+                    "RowName": "Processor_T3",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Fuel_Combustible",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Processor_T4",
+            "Inventories": [
+                {
+                    "RowName": "Processor_T4",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Fuel_Combustible",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
             "Name": "Processor_NoFuel",
             "Inventories": [
                 {
                     "RowName": "Processor",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Processor_NoFuel_T3",
+            "Inventories": [
+                {
+                    "RowName": "Processor_T3",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Processor_NoFuel_T4",
+            "Inventories": [
+                {
+                    "RowName": "Processor_T4",
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
@@ -984,15 +1028,6 @@
             ]
         },
         {
-            "Name": "Inventory_Turret",
-            "Inventories": [
-                {
-                    "RowName": "Basic_Turret",
-                    "DataTableName": "D_InventoryInfo"
-                }
-            ]
-        },
-        {
             "Name": "Fuel_AnimalFat",
             "Inventories": [
                 {
@@ -1054,7 +1089,7 @@
             "Name": "Processor_Anvil_T3",
             "Inventories": [
                 {
-                    "RowName": "Processor",
+                    "RowName": "Processor_T3",
                     "DataTableName": "D_InventoryInfo"
                 },
                 {
@@ -1080,7 +1115,7 @@
                     "DataTableName": "D_InventoryInfo"
                 },
                 {
-                    "RowName": "Fuel_Combustible",
+                    "RowName": "Smoker_T3_Fuel",
                     "DataTableName": "D_InventoryInfo"
                 }
             ]
@@ -1129,6 +1164,191 @@
                 },
                 {
                     "RowName": "Fuel_Biofuel",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Turret",
+            "Inventories": [
+                {
+                    "RowName": "Basic_Turret",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Turret_Pistol",
+            "Inventories": [
+                {
+                    "RowName": "Basic_Turret_Pistol",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Turret_Rifle",
+            "Inventories": [
+                {
+                    "RowName": "Basic_Turret_Rifle",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Turret_Rifle_Precision",
+            "Inventories": [
+                {
+                    "RowName": "Basic_Turret_Rifle",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Inventory_Turret_Shotgun",
+            "Inventories": [
+                {
+                    "RowName": "Basic_Turret_Shotgun",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Loot_WildBeehive",
+            "Inventories": [
+                {
+                    "RowName": "Loot_WildBeehive",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Chicken_Coop",
+            "Inventories": [
+                {
+                    "RowName": "Chicken_Coop",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "DomesticBeehive",
+            "Inventories": [
+                {
+                    "RowName": "BeehiveUpgrades",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "BeehiveStorage",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "BeeFuel",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "BeeBreeding",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Fuel_FatWax",
+            "Inventories": [
+                {
+                    "RowName": "Fuel_FatWax",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Snare_Trap",
+            "Inventories": [
+                {
+                    "RowName": "Trap_BaitSlot",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Tame_NoCargo"
+        },
+        {
+            "Name": "Food_Trough_Storage_T4",
+            "Inventories": [
+                {
+                    "RowName": "Food_Trough_T4_Storage",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Food_Trough_T4_Input",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Mission_Incubator",
+            "Inventories": [
+                {
+                    "RowName": "Mission_Analyzer_Egg",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Electric_Oxite_Dissolver",
+            "Inventories": [
+                {
+                    "RowName": "Slotable_Generic",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Processor_Slot_Purifier",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Cairn",
+            "Inventories": [
+                {
+                    "RowName": "Cairn",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Charging_Device",
+            "Inventories": [
+                {
+                    "RowName": "Charging_Device",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Mount_SaddleOnly",
+            "Inventories": [
+                {
+                    "RowName": "Mount_Saddle",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Kiwi_Nest",
+            "Inventories": [
+                {
+                    "RowName": "Kiwi_Nest",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Wild_Kiwi_Nest",
+            "Inventories": [
+                {
+                    "RowName": "Wild_Kiwi_Nest",
                     "DataTableName": "D_InventoryInfo"
                 }
             ]

@@ -255,6 +255,84 @@
             "LookupStat": {
                 "Value": "BaseAttacksCauseMiasma_%"
             }
+        },
+        {
+            "Name": "Bee_Swarm",
+            "AfflictionStat": {
+                "Value": "AttacksCauseBeeSwarm_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Bee_Swarm"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseBeeSwarm_%"
+            }
+        },
+        {
+            "Name": "Blunt_Trauma",
+            "AfflictionStat": {
+                "Value": "AttacksCauseBluntTrauma_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Blunt_Trauma"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseBluntTrauma_%"
+            }
+        },
+        {
+            "Name": "Marked_Target",
+            "AfflictionStat": {
+                "Value": "AttacksCauseMarkedTarget_%"
+            },
+            "DurationInSeconds": 10,
+            "Modifier": {
+                "RowName": "Marked_Target"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseMarkedTarget_%"
+            }
+        },
+        {
+            "Name": "Highlighted_Target",
+            "AfflictionStat": {
+                "Value": "AttacksCauseHighlightedTarget_%"
+            },
+            "DurationInSeconds": 15,
+            "Modifier": {
+                "RowName": "Highlighted_Target"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseHighlightedTarget_%"
+            }
+        },
+        {
+            "Name": "ExoticDebuff",
+            "AfflictionStat": {
+                "Value": "AttacksCauseExoticDebuff_%"
+            },
+            "DurationInSeconds": 3600,
+            "Modifier": {
+                "RowName": "ExoticDebuff"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseExoticDebuff_%"
+            }
+        },
+        {
+            "Name": "ExoticDebuff_Red",
+            "AfflictionStat": {
+                "Value": "AttacksCauseRedExoticDebuff_%"
+            },
+            "DurationInSeconds": 3600,
+            "Modifier": {
+                "RowName": "ExoticDebuff"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseRedExoticDebuff_%"
+            }
         }
     ]
 }

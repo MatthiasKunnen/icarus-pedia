@@ -133,7 +133,49 @@
                 "RowName": "Building_Ice"
             },
             "Stats": {
-                "(Value=\"BaseBuildingInsulation_+\")": 5
+                "(Value=\"BaseBuildingInsulation_+\")": 8
+            }
+        },
+        {
+            "Name": "Dirt",
+            "TagQuery": {
+                "RowName": "Building_Dirt"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 2,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
+                "(Value=\"BaseWindDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Steel",
+            "TagQuery": {
+                "RowName": "Building_Steel"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
+            }
+        },
+        {
+            "Name": "Limestone",
+            "TagQuery": {
+                "RowName": "Building_Limestone"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100
+            }
+        },
+        {
+            "Name": "Stone_Brick",
+            "TagQuery": {
+                "RowName": "Building_Stone_Brick"
+            },
+            "Stats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 10,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
+                "(Value=\"BaseWindDamageResistance_%\")": 65
             }
         }
     ]

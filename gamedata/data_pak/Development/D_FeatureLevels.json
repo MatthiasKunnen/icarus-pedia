@@ -170,6 +170,18 @@
             }
         },
         {
+            "Name": "Laika",
+            "DisplayName": "INVTEXT(\"Laika\")",
+            "ShortName": "INVTEXT(\"LKA\")",
+            "Description": "Feature level for Laika",
+            "Color": {
+                "R": 1,
+                "G": 0.5,
+                "B": 0.5,
+                "A": 0.33000001311302185
+            }
+        },
+        {
             "Name": "Hubble",
             "DisplayName": "INVTEXT(\"Hubble\")",
             "ShortName": "INVTEXT(\"HBL\")",

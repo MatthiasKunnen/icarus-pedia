@@ -854,6 +854,126 @@
             "Name": "Test_Dead",
             "TimeToNextState": 1,
             "StageMesh": "/Game/ASS/ENV/HRB/Avocado/SM_HRB_Avocado_Dead_Var1.SM_HRB_Avocado_Dead_Var1"
+        },
+        {
+            "Name": "Sugar_Growth_01",
+            "TimeToNextState": 200,
+            "StageMesh": "/Game/ASS/ENV/HRB/Sugar_Cane/SM_HRB_Sugar_Cane_Stage1_Var1.SM_HRB_Sugar_Cane_Stage1_Var1"
+        },
+        {
+            "Name": "Sugar_Growth_02",
+            "TimeToNextState": 400,
+            "StageMesh": "/Game/ASS/ENV/HRB/Sugar_Cane/SM_HRB_Sugar_Cane_Stage2_Var1.SM_HRB_Sugar_Cane_Stage2_Var1"
+        },
+        {
+            "Name": "Sugar_Growth_03",
+            "TimeToNextState": 600,
+            "StageMesh": "/Game/ASS/ENV/HRB/Sugar_Cane/SM_HRB_Sugar_Cane_Stage3_Var1.SM_HRB_Sugar_Cane_Stage3_Var1"
+        },
+        {
+            "Name": "Sugar_Growth_04",
+            "TimeToNextState": 1200,
+            "StageMesh": "/Game/ASS/ENV/HRB/Sugar_Cane/SM_HRB_Sugar_Cane_Stage4_Var1.SM_HRB_Sugar_Cane_Stage4_Var1"
+        },
+        {
+            "Name": "Sugar_Growth_05",
+            "TimeToNextState": 7200,
+            "StageMesh": "/Game/ASS/ENV/HRB/Sugar_Cane/SM_HRB_Sugar_Cane_Stage5_Var1.SM_HRB_Sugar_Cane_Stage5_Var1"
+        },
+        {
+            "Name": "Sugar_Dead",
+            "TimeToNextState": 1,
+            "StageMesh": "/Game/ASS/ENV/HRB/Sugar_Cane/SM_HRB_Sugar_Cane_Dead_Var1.SM_HRB_Sugar_Cane_Dead_Var1"
+        },
+        {
+            "Name": "Coconut_Growth_01",
+            "TimeToNextState": 200,
+            "StageMesh": "/Game/ASS/ENV/HRB/CocoPalm/SM_HRB_CocoPalm_Stage1_Var1.SM_HRB_CocoPalm_Stage1_Var1"
+        },
+        {
+            "Name": "Coconut_Growth_02",
+            "TimeToNextState": 400,
+            "StageMesh": "/Game/ASS/ENV/HRB/CocoPalm/SM_HRB_CocoPalm_Stage2_Var1.SM_HRB_CocoPalm_Stage2_Var1"
+        },
+        {
+            "Name": "Coconut_Growth_03",
+            "TimeToNextState": 600,
+            "StageMesh": "/Game/ASS/ENV/HRB/CocoPalm/SM_HRB_CocoPalm_Stage3_Var1.SM_HRB_CocoPalm_Stage3_Var1"
+        },
+        {
+            "Name": "Coconut_Growth_04",
+            "TimeToNextState": 1200,
+            "StageMesh": "/Game/ASS/ENV/HRB/CocoPalm/SM_HRB_CocoPalm_Stage4_Var1.SM_HRB_CocoPalm_Stage4_Var1"
+        },
+        {
+            "Name": "Coconut_Growth_05",
+            "TimeToNextState": 7200,
+            "StageMesh": "/Game/ASS/ENV/HRB/CocoPalm/SM_HRB_CocoPalm_Stage5_Var1.SM_HRB_CocoPalm_Stage5_Var1"
+        },
+        {
+            "Name": "Coconut_Dead",
+            "TimeToNextState": 1,
+            "StageMesh": "/Game/ASS/ENV/HRB/CocoPalm/SM_HRB_CocoPalm_Dead_Var1.SM_HRB_CocoPalm_Dead_Var1"
+        },
+        {
+            "Name": "Bramble_Growth_01",
+            "TimeToNextState": 200,
+            "StageMesh": "/Game/ASS/ENV/HRB/Bramble_Thorns/SM_HRB_Bramble_Thorns_Stage1_Var1.SM_HRB_Bramble_Thorns_Stage1_Var1"
+        },
+        {
+            "Name": "Bramble_Growth_02",
+            "TimeToNextState": 400,
+            "StageMesh": "/Game/ASS/ENV/HRB/Bramble_Thorns/SM_HRB_Bramble_Thorns_Stage2_Var1.SM_HRB_Bramble_Thorns_Stage2_Var1"
+        },
+        {
+            "Name": "Bramble_Growth_03",
+            "TimeToNextState": 600,
+            "StageMesh": "/Game/ASS/ENV/HRB/Bramble_Thorns/SM_HRB_Bramble_Thorns_Stage3_Var1.SM_HRB_Bramble_Thorns_Stage3_Var1"
+        },
+        {
+            "Name": "Bramble_Growth_04",
+            "TimeToNextState": 1200,
+            "StageMesh": "/Game/ASS/ENV/HRB/Bramble_Thorns/SM_HRB_Bramble_Thorns_Stage4_Var1.SM_HRB_Bramble_Thorns_Stage4_Var1"
+        },
+        {
+            "Name": "Bramble_Growth_05",
+            "TimeToNextState": 7200,
+            "StageMesh": "/Game/ASS/ENV/HRB/Bramble_Thorns/SM_HRB_Bramble_Thorns_Stage5_Var1.SM_HRB_Bramble_Thorns_Stage5_Var1"
+        },
+        {
+            "Name": "Bramble_Dead",
+            "TimeToNextState": 1,
+            "StageMesh": "/Game/ASS/ENV/HRB/Bramble_Thorns/SM_HRB_Bramble_Thorns_Dead_Var1.SM_HRB_Bramble_Thorns_Dead_Var1"
+        },
+        {
+            "Name": "Kiwi_Fruit_Growth_01",
+            "TimeToNextState": 250,
+            "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Stage1.SM_HRB_KiwiFruit_Stage1"
+        },
+        {
+            "Name": "Kiwi_Fruit_Growth_02",
+            "TimeToNextState": 500,
+            "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Stage2.SM_HRB_KiwiFruit_Stage2"
+        },
+        {
+            "Name": "Kiwi_Fruit_Growth_03",
+            "TimeToNextState": 1000,
+            "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Stage3.SM_HRB_KiwiFruit_Stage3"
+        },
+        {
+            "Name": "Kiwi_Fruit_Growth_04",
+            "TimeToNextState": 3000,
+            "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Stage4.SM_HRB_KiwiFruit_Stage4"
+        },
+        {
+            "Name": "Kiwi_Fruit_Growth_05",
+            "TimeToNextState": 8000,
+            "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Stage5.SM_HRB_KiwiFruit_Stage5"
+        },
+        {
+            "Name": "Kiwi_Fruit_Dead",
+            "TimeToNextState": 1,
+            "StageMesh": "/Game/ASS/ENV/HRB/Crop_Kiwifruit/SM_HRB_KiwiFruit_Dead.SM_HRB_KiwiFruit_Dead"
         }
     ]
 }

@@ -224,6 +224,12 @@
         },
         {
             "Name": "Mission_Resupply_Available"
+        },
+        {
+            "Name": "Mission_Recipe_Incubator"
+        },
+        {
+            "Name": "Mission_Recipe_Kiwi_Nest"
         }
     ]
 }

@@ -170,8 +170,6 @@ const itemBlacklist: Array<string> = [
     'Kit_Road',
     'Player_Gravestone_DBNO',
     'Player_Gravestone_MIA',
-    'Smoker_T3',
-    'Smoker_T4',
     'SplineTool_Fuel',
     'Water_Purifier_T1',
 ];
