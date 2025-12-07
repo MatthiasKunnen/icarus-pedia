@@ -87,7 +87,7 @@
                 ]
             },
             "WaterAlteration": {
-                "Value": "Dirty_Water"
+                "Value": "Dirty_Water_Swamp"
             }
         },
         {
@@ -243,6 +243,63 @@
                 "GameplayTags": [
                     {
                         "TagName": "Traits.Water.Geothermal"
+                    }
+                ]
+            },
+            "WaterAlteration": {
+                "Value": "Dirty_Water_Lava"
+            }
+        },
+        {
+            "Name": "Geothermal_DLC2",
+            "Material": "/Game/ASS/ENV/WAT/MI_Water_GeothermalLake_DLC2.MI_Water_GeothermalLake_DLC2",
+            "Sound": "/Game/FMOD/Events/Environment/Fluids/Lake/ENV_GEOTHERMAL_LAKE.ENV_GEOTHERMAL_LAKE",
+            "WetModifiers": [
+                {
+                    "RowName": "GeothermalPool_Wet",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "GameplayTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Water.Geothermal"
+                    }
+                ]
+            },
+            "WaterAlteration": {
+                "Value": "Dirty_Water_Lava"
+            }
+        },
+        {
+            "Name": "Ocean",
+            "Material": "/Game/ASS/ENV/WAT/MI_WaterRVT_Tessellated_Ocean.MI_WaterRVT_Tessellated_Ocean",
+            "Fish": [
+                {
+                    "RowName": "Fish_01",
+                    "DataTableName": "D_FishSetup"
+                },
+                {
+                    "RowName": "Fish_02",
+                    "DataTableName": "D_FishSetup"
+                },
+                {
+                    "RowName": "Fish_03",
+                    "DataTableName": "D_FishSetup"
+                }
+            ],
+            "Sound": "/Game/FMOD/Events/Environment/Fluids/Lake/ENV_LAKE.ENV_LAKE",
+            "IsDrinkable": false,
+            "WetModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "GameplayTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Water"
                     }
                 ]
             },

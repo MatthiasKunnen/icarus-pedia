@@ -88,6 +88,18 @@
             "TagQuery": {
                 "RowName": "Any_Fishing_Rod"
             }
+        },
+        {
+            "Name": "Chainsaw",
+            "TagQuery": {
+                "RowName": "Any_Chainsaw"
+            }
+        },
+        {
+            "Name": "Jackhammer",
+            "TagQuery": {
+                "RowName": "Any_Jackhammer"
+            }
         }
     ]
 }

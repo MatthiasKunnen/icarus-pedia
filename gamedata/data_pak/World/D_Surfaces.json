@@ -387,6 +387,9 @@
             "PhysicalMaterial": "/Game/Physical_Materials/PM_Bone.PM_Bone",
             "SurfaceType": "SurfaceType31",
             "ParticleSystem": "/Game/TRD/Realistic_Starter_VFX_Pack/Particles/Hit/P_Bone.P_Bone",
+            "PlayerFootstepAudioData": {
+                "RowName": "Hardwood"
+            },
             "FMODParam": "Bone"
         },
         {
@@ -463,6 +466,34 @@
                 "RowName": "Slime"
             },
             "FMODParam": "Slime"
+        },
+        {
+            "Name": "Metal_Grate",
+            "PhysicalMaterial": "/Game/Physical_Materials/PM_Metal_Grate.PM_Metal_Grate",
+            "SurfaceType": "SurfaceType38",
+            "ParticleSystem": "/Game/TRD/Realistic_Starter_VFX_Pack/Particles/Hit/P_Metal.P_Metal",
+            "PlayerFootstepAudioData": {
+                "RowName": "Metal_Grate"
+            },
+            "FMODParam": "Metal",
+            "AudioReflectionData": {
+                "ReflectionMultiplier": 1
+            },
+            "AIPerceptionVolumeMultiplier": 2
+        },
+        {
+            "Name": "Voxel_Ruby",
+            "PhysicalMaterial": "/Game/Physical_Materials/PM_Voxel_Ruby.PM_Voxel_Ruby",
+            "SurfaceType": "SurfaceType39",
+            "ParticleSystem": "/Game/TRD/Realistic_Starter_VFX_Pack/Particles/Hit/P_Rock.P_Rock",
+            "NiagaraSystem": "NiagaraSystem'/Game/ASS/VFX/VOX/NS_Voxel_Ruby_Hit.NS_Voxel_Ruby_Hit'",
+            "PlayerFootstepAudioData": {
+                "RowName": "Rock"
+            },
+            "FMODParam": "VoxelMetal",
+            "AudioReflectionData": {
+                "ReflectionMultiplier": 0.800000011920929
+            }
         }
     ]
 }

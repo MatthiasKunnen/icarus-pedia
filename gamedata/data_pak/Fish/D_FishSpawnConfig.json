@@ -650,6 +650,30 @@
                         "RowName": "PRO_GlacialCascade_Pool",
                         "DataTableName": "D_FishSpawnZones"
                     }
+                },
+                {
+                    "Color": {
+                        "B": 169,
+                        "G": 0,
+                        "R": 135,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "PRO_Ashlands_Main",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 255,
+                        "G": 0,
+                        "R": 24,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "PRO_IceSheet_Main",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
                 }
             ]
         },
@@ -774,6 +798,36 @@
                     },
                     "SpawnZone": {
                         "RowName": "OP_Arctic",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Outpost_009",
+            "SpawnMap": "/Game/Heatmaps/Outpost_009/GT_Outpost009_Fish.GT_Outpost009_Fish",
+            "SpawnZones": [
+                {
+                    "Color": {
+                        "B": 254,
+                        "G": 248,
+                        "R": 7,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OP_Arctic",
+                        "DataTableName": "D_FishSpawnZones"
+                    }
+                },
+                {
+                    "Color": {
+                        "B": 38,
+                        "G": 131,
+                        "R": 125,
+                        "A": 255
+                    },
+                    "SpawnZone": {
+                        "RowName": "OP_Geothermal",
                         "DataTableName": "D_FishSpawnZones"
                     }
                 }

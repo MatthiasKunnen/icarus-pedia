@@ -101,6 +101,15 @@
             }
         },
         {
+            "Name": "Resistance",
+            "StatRequirement": {
+                "Value": "TamedCreaturePhysicalResistance_%"
+            },
+            "GrantedStat": {
+                "Value": "BasePhysicalDamageResistance_%"
+            }
+        },
+        {
             "Name": "JuvenileMinTempPercent",
             "StatRequirement": {
                 "Value": "JuvenileCreatureMinimumTemperatureRequirement_+%"
@@ -157,6 +166,16 @@
             },
             "GrantedStat": {
                 "Value": "BaseTameMaximumDesiredTemperature_+"
+            },
+            "Effects": "Juvenile"
+        },
+        {
+            "Name": "JuvenileTamingDurationDecrease",
+            "StatRequirement": {
+                "Value": "TamingSpeedSaddleBoost_%"
+            },
+            "GrantedStat": {
+                "Value": "BaseTamingSpeedSaddleBoost_%"
             },
             "Effects": "Juvenile"
         }

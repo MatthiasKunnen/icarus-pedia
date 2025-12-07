@@ -61,6 +61,14 @@
         "Limestone": {
             "RowName": "None",
             "DataTableName": "D_BuildingPieces"
+        },
+        "BeeswaxWood": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingPieces"
+        },
+        "GlassTempered": {
+            "RowName": "None",
+            "DataTableName": "D_BuildingPieces"
         }
     },
     "GenerateEnum": true,
@@ -125,6 +133,15 @@
             },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Frame_Pillar"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Frame_Pillar"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Frame_Pillar"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Frame_Pillar_Tempered"
             }
         },
         {
@@ -187,6 +204,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Floor"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Floor"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Floor_Tempered"
             }
         },
         {
@@ -227,6 +250,9 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Floor_TrapDoor"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Floor_TrapDoor"
             }
         },
         {
@@ -270,6 +296,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_Solid"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_Solid"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_Solid_Tempered"
             }
         },
         {
@@ -313,6 +345,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_WindowFrame"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_WindowFrame"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_WindowFrame_Tempered"
             }
         },
         {
@@ -356,6 +394,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_DoubleWindowL"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_DoubleWindowL"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_DoubleWindowL_Tempered"
             }
         },
         {
@@ -399,6 +443,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_DoubleWindowR"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_DoubleWindowR"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_DoubleWindowR_Tempered"
             }
         },
         {
@@ -442,6 +492,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_DoorFrame"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_DoorFrame"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_DoorFrame_Tempered"
             }
         },
         {
@@ -485,6 +541,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_DoubleDoorR"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_DoubleDoorL"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_DoubleDoorR_Tempered"
             }
         },
         {
@@ -528,6 +590,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_DoubleDoorL"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_DoubleDoorR"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_DoubleDoorL_Tempered"
             }
         },
         {
@@ -571,6 +639,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_Angle_AngleRight"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_Angle_AngleRight"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_Angle_AngleRight_Tempered"
             }
         },
         {
@@ -614,6 +688,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_Angle_AngleRightInverted"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_Angle_AngleRightInverted"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_Angle_AngleRightInverted_Tempered"
             }
         },
         {
@@ -657,6 +737,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_Angle_AngleLeft"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Wall_Angle_AngleLeft"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_Angle_AngleLeft_Tempered"
             }
         },
         {
@@ -700,6 +786,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_Angle_AngleLeftInverted"
+            },
+            "BeeswaxWood": {
+                "RowName": "Interior_Wood_Wall_Angle_AngleLeftInverted"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_Angle_AngleLeftInverted_Tempered"
             }
         },
         {
@@ -743,6 +835,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Wall_Angle_AnglePeak"
+            },
+            "BeeswaxWood": {
+                "RowName": "Interior_Wood_Wall_Angle_AnglePeak"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Wall_Angle_AnglePeak_Tempered"
             }
         },
         {
@@ -783,6 +881,9 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Ramp"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Ramp"
             }
         },
         {
@@ -823,6 +924,9 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Ramp_Stairs"
+            },
+            "BeeswaxWood": {
+                "RowName": "Interior_Wood_Ramp_Stairs"
             }
         },
         {
@@ -866,6 +970,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Beam_VerticalBeam"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Beam_VerticalBeam"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Beam_VerticalBeam_Tempered"
             }
         },
         {
@@ -909,6 +1019,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Beam_HorizontalBeam"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Beam_HorizontalBeam"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Beam_HorizontalBeam_Tempered"
             }
         },
         {
@@ -952,6 +1068,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_Beam_DiagonalBeam"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Beam_DiagonalBeam"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Beam_DiagonalBeam_Tempered"
             }
         },
         {
@@ -965,9 +1087,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Ramp_Roof"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Ramp_Roof"
             },
             "Aluminium": {
                 "RowName": "Iron_Ramp_Roof"
@@ -987,11 +1106,20 @@
             "Ice": {
                 "RowName": "Ice_Ramp_Roof"
             },
+            "Steel": {
+                "RowName": "Concrete_Ramp_Roof"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Ramp_Roof"
             },
             "Limestone": {
                 "RowName": "Limestone_Ramp_Roof"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Ramp_Roof"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Ramp_Roof_Tempered"
             }
         },
         {
@@ -1005,9 +1133,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Ramp_RoofPeak"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Ramp_RoofPeak"
             },
             "Aluminium": {
                 "RowName": "Iron_Ramp_RoofPeak"
@@ -1027,11 +1152,20 @@
             "Ice": {
                 "RowName": "Ice_Ramp_RoofPeak"
             },
+            "Steel": {
+                "RowName": "Concrete_Ramp_RoofPeak"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Ramp_RoofPeak"
             },
             "Limestone": {
                 "RowName": "Limestone_Ramp_RoofPeak"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Ramp_RoofPeak"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Ramp_RoofPeak_Tempered"
             }
         },
         {
@@ -1045,9 +1179,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Ramp_RoofPeak_Connector"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Ramp_RoofPeak_Connector"
             },
             "Aluminium": {
                 "RowName": "Iron_Ramp_RoofPeak_Connector"
@@ -1067,8 +1198,20 @@
             "Ice": {
                 "RowName": "Ice_Ramp_RoofPeak_Connector"
             },
+            "Steel": {
+                "RowName": "Concrete_Ramp_RoofPeak_Connector"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Ramp_RoofPeak_Connector"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Ramp_RoofPeak_Connector"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Ramp_RoofPeak_Connector"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Ramp_RoofPeak_Connector_Tempered"
             }
         },
         {
@@ -1082,9 +1225,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Ramp_RoofPeak_Cap"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Ramp_RoofPeak_Cap"
             },
             "Aluminium": {
                 "RowName": "Iron_Ramp_RoofPeak_Cap"
@@ -1104,8 +1244,20 @@
             "Ice": {
                 "RowName": "Ice_Ramp_RoofPeak_Cap"
             },
+            "Steel": {
+                "RowName": "Concrete_Ramp_RoofPeak_Cap"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Ramp_RoofPeak_Cap"
+            },
+            "Limestone": {
+                "RowName": "Limestone_Ramp_RoofPeak_Cap"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Ramp_RoofPeak_Cap"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Ramp_RoofPeak_Cap_Tempered"
             }
         },
         {
@@ -1119,9 +1271,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Roof_Corner_Left"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Roof_Corner_Left"
             },
             "Aluminium": {
                 "RowName": "Iron_Roof_Corner_Left"
@@ -1141,11 +1290,20 @@
             "Ice": {
                 "RowName": "Ice_Roof_Corner_Left"
             },
+            "Steel": {
+                "RowName": "Concrete_Roof_Corner_Left"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Roof_Corner_Left"
             },
             "Limestone": {
                 "RowName": "Limestone_Roof_Corner_Left"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Roof_Corner_Left"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Roof_Corner_Left_Tempered"
             }
         },
         {
@@ -1159,9 +1317,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Roof_Corner_Right"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Roof_Corner_Right"
             },
             "Aluminium": {
                 "RowName": "Iron_Roof_Corner_Right"
@@ -1181,11 +1336,20 @@
             "Ice": {
                 "RowName": "Ice_Roof_Corner_Right"
             },
+            "Steel": {
+                "RowName": "Concrete_Roof_Corner_Right"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Roof_Corner_Right"
             },
             "Limestone": {
                 "RowName": "Limestone_Roof_Corner_Right"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Roof_Corner_Right"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Roof_Corner_Right_Tempered"
             }
         },
         {
@@ -1199,9 +1363,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Roof_Corner_InvertedLeft"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Wall_Angle_AngleLeftInverted"
             },
             "Aluminium": {
                 "RowName": "Iron_Roof_Corner_InvertedLeft"
@@ -1221,11 +1382,20 @@
             "Ice": {
                 "RowName": "Ice_Roof_Corner_InvertedLeft"
             },
+            "Steel": {
+                "RowName": "Concrete_Roof_Corner_InvertedLeft"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Roof_Corner_InvertedLeft"
             },
             "Limestone": {
                 "RowName": "Limestone_Roof_Corner_InvertedLeft"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Roof_Corner_InvertedLeft"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Roof_Corner_InvertedLeft_Tempered"
             }
         },
         {
@@ -1239,9 +1409,6 @@
             },
             "Stone": {
                 "RowName": "Stone_Roof_Corner_InvertedRight"
-            },
-            "Concrete": {
-                "RowName": "Concrete_Roof_Corner_InvertedRight"
             },
             "Aluminium": {
                 "RowName": "Iron_Roof_Corner_InvertedRight"
@@ -1261,11 +1428,20 @@
             "Ice": {
                 "RowName": "Ice_Roof_Corner_InvertedRight"
             },
+            "Steel": {
+                "RowName": "Concrete_Roof_Corner_InvertedRight"
+            },
             "StoneBrick": {
                 "RowName": "Stone_Brick_Roof_Corner_InvertedRight"
             },
             "Limestone": {
                 "RowName": "Limestone_Roof_Corner_InvertedRight"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_Roof_Corner_InvertedRight"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_Roof_Corner_InvertedRight_Tempered"
             }
         },
         {
@@ -1309,6 +1485,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfNormal_HalfFloor"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfNormal_HalfFloor"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfNormal_HalfFloor_Tempered"
             }
         },
         {
@@ -1352,11 +1534,17 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfNormal_QuarterFloor"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfNormal_QuarterFloor"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfNormal_QuarterFloor_Tempered"
             }
         },
         {
             "Name": "Ramp_Half_L",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Half_L-PieceName\", \"Half Ramp Left\")",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Half_L-PieceName\", \"Half Ramp Right\")",
             "Thatch": {
                 "RowName": "Thatch_HalfNormal_HalfRampRight"
             },
@@ -1395,11 +1583,17 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfNormal_HalfRampRight"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfNormal_HalfRampRight"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfNormal_HalfRampRight_Tempered"
             }
         },
         {
             "Name": "Ramp_Half_R",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Half_R-PieceName\", \"Half Ramp Right\")",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Half_R-PieceName\", \"Half Ramp Left\")",
             "Thatch": {
                 "RowName": "Thatch_HalfNormal_HalfRampLeft"
             },
@@ -1438,6 +1632,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfNormal_HalfRampLeft"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfNormal_HalfRampLeft"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfNormal_HalfRampLeft_Tempered"
             }
         },
         {
@@ -1481,6 +1681,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfNormal_HalfWallLower"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfNormal_HalfWallLower"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfNormal_HalfWallLower_Tempered"
             }
         },
         {
@@ -1524,6 +1730,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfNormal_HalfWallUpper"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfNormal_HalfWallUpper"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfNormal_HalfWallUpper_Tempered"
             }
         },
         {
@@ -1564,6 +1776,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfPitch_LowerRoof"
+            },
+            "BeeswaxWood": {
+                "RowName": "Limestone_HalfPitch_LowerRoof"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfPitch_LowerRoof_Tempered"
             }
         },
         {
@@ -1604,6 +1822,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfPitch_UpperRoof"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfPitch_UpperRoof"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfPitch_UpperRoof_Tempered"
             }
         },
         {
@@ -1647,6 +1871,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfPitch_LowerLeftWall"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfPitch_LowerLeftWall"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfPitch_LowerLeftWall_Tempered"
             }
         },
         {
@@ -1690,6 +1920,12 @@
             },
             "Limestone": {
                 "RowName": "Limestone_HalfPitch_LowerRightWall"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfPitch_LowerRightWall"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfPitch_LowerRightWall_Tempered"
             }
         },
         {
@@ -1729,10 +1965,16 @@
                 "RowName": "Ice_HalfPitch_UpperLeftWall"
             },
             "StoneBrick": {
-                "RowName": "Stone_Brick_Half_Pitch_UpperLeftWall"
+                "RowName": "Stone_Brick_Half_Pitch_UpperRightWall"
             },
             "Limestone": {
                 "RowName": "Limestone_HalfPitch_UpperLeftWall"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfPitch_UpperLeftWall"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfPitch_UpperLeftWall_Tempered"
             }
         },
         {
@@ -1772,10 +2014,16 @@
                 "RowName": "Ice_HalfPitch_UpperRightWall"
             },
             "StoneBrick": {
-                "RowName": "Stone_Brick_Half_Pitch_UpperRightWall"
+                "RowName": "Stone_Brick_Half_Pitch_UpperLeftWall"
             },
             "Limestone": {
                 "RowName": "Limestone_HalfPitch_UpperRightWall"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfPitch_UpperRightWall"
+            },
+            "GlassTempered": {
+                "RowName": "Glass_HalfPitch_UpperRightWall_Tempered"
             }
         },
         {
@@ -1784,11 +2032,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Solid"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Solid"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Solid"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Solid"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Solid"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Solid"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Solid"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Solid"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Solid"
             }
         },
         {
@@ -1797,11 +2063,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Angle_Left"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Left"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Left"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Angle_Left"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Angle_Left"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Left"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Angle_Left"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Left"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Left"
             }
         },
         {
@@ -1810,11 +2094,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Angle_Left_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Left_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Left_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Angle_Left_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Angle_Left_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Left_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Angle_Left_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Left_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Left_Invert"
             }
         },
         {
@@ -1823,11 +2125,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Angle_Right"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Right"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Right"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Angle_Right"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Angle_Right"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Right"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Angle_Right"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Right"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Right"
             }
         },
         {
@@ -1836,11 +2156,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Angle_Right_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Angle_Right_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Angle_Right_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Angle_Right_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Angle_Right_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Angle_Right_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Angle_Right_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Angle_Right_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Angle_Right_Invert"
             }
         },
         {
@@ -1849,11 +2187,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Floor"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Floor"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Floor"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Floor"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Floor"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Floor"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Floor"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Floor"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Floor"
             }
         },
         {
@@ -1862,11 +2218,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Ramp_Roof"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Ramp_Roof"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Ramp_Roof"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Ramp_Roof"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Ramp_Roof"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Ramp_Roof"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Ramp_Roof"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Ramp_Roof"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Ramp_Roof"
             }
         },
         {
@@ -1875,11 +2249,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Ramp_Roof_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Ramp_Roof_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Ramp_Roof_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Ramp_Roof_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Ramp_Roof_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Ramp_Roof_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Ramp_Roof_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Ramp_Roof_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Ramp_Roof_Invert"
             }
         },
         {
@@ -1888,11 +2280,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Horizontal"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Horizontal"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Horizontal"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Horizontal"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Horizontal"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Horizontal"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Horizontal"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Horizontal"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Horizontal"
             }
         },
         {
@@ -1901,11 +2311,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Diagonal"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Diagonal"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Diagonal"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Diagonal"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Diagonal"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Diagonal"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Diagonal"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Diagonal"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Diagonal"
             }
         },
         {
@@ -1914,11 +2342,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Curved_Floor"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Curved_Floor"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Curved_Floor"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Curved_Floor"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Curved_Floor"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Curved_Floor"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Curved_Floor"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Curved_Floor"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Curved_Floor"
             }
         },
         {
@@ -1927,11 +2373,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Curved_Ramp_Roof"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Curved_Ramp_Roof"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Curved_Ramp_Roof"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Curved_Ramp_Roof"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Curved_Ramp_Roof"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Curved_Ramp_Roof"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Curved_Ramp_Roof"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Curved_Ramp_Roof"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Curved_Ramp_Roof"
             }
         },
         {
@@ -1940,11 +2404,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Curved_Horizontal"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Horizontal"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Horizontal"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Curved_Horizontal"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Curved_Horizontal"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Horizontal"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Curved_Horizontal"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Horizontal"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Horizontal"
             }
         },
         {
@@ -1953,11 +2435,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Up_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Up_L"
             }
         },
         {
@@ -1966,11 +2466,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Up_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Up_R"
             }
         },
         {
@@ -1979,11 +2497,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Down_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Down_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Down_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Down_L"
             }
         },
         {
@@ -1992,11 +2528,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Beam_Curved_Diagonal_Up_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Beam_Curved_Diagonal_Up_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Beam_Curved_Diagonal_Down_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Beam_Curved_Diagonal_Down_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Beam_Curved_Diagonal_Down_R"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Beam_Curved_Diagonal_Down_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Beam_Curved_Diagonal_Down_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Beam_Curved_Diagonal_Up_R"
             }
         },
         {
@@ -2005,11 +2559,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Solid"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Solid"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Solid"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Solid"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Solid"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Solid"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Solid"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Solid"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Solid"
             }
         },
         {
@@ -2018,11 +2590,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Up_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_L"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_L"
             }
         },
         {
@@ -2031,11 +2621,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Down_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_L"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_L"
             }
         },
         {
@@ -2044,11 +2652,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_L_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_L_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_L_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_L_Invert"
             }
         },
         {
@@ -2056,6 +2682,30 @@
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Wall_Curved_Angle_Down_L_Invert-PieceName\", \"Left Down-Curve Inverted\")",
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "Scoria": {
+                "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "Ice": {
+                "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_L_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_L_Invert"
             }
         },
         {
@@ -2064,11 +2714,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Up_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_R"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_R"
             }
         },
         {
@@ -2077,11 +2745,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Down_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_R"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_R"
             }
         },
         {
@@ -2090,11 +2776,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Up_R_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Up_R_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Up_R_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Up_R_Invert"
             }
         },
         {
@@ -2103,11 +2807,29 @@
             "Stone": {
                 "RowName": "Stone_Diagonal_Wall_Curved_Angle_Down_R_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Diagonal_Wall_Curved_Angle_Down_R_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Diagonal_Wall_Curved_Angle_Down_R_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Diagonal_Wall_Curved_Angle_Down_R_Invert"
             }
         },
         {
@@ -2116,11 +2838,29 @@
             "Stone": {
                 "RowName": "Stone_Ramp_Curved"
             },
+            "Concrete": {
+                "RowName": "Concrete_Ramp_Curved"
+            },
+            "Glass": {
+                "RowName": "Glass_Ramp_Curved"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Ramp_Curved"
+            },
             "Scoria": {
                 "RowName": "Scoria_Ramp_Curved"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Ramp_Curved"
+            },
             "Ice": {
                 "RowName": "Ice_Ramp_Curved"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Ramp_Curved"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Ramp_Curved"
             }
         },
         {
@@ -2129,11 +2869,29 @@
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Wall_Curved_Angle_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Wall_Curved_Angle_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Wall_Curved_Angle_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Wall_Curved_Angle_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_L"
+            },
             "Ice": {
                 "RowName": "Ice_Wall_Curved_Angle_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_L"
             }
         },
         {
@@ -2142,11 +2900,29 @@
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_L_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Wall_Curved_Angle_L_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Wall_Curved_Angle_L_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Wall_Curved_Angle_L_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Wall_Curved_Angle_L_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_L_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Wall_Curved_Angle_L_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_L_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_L_Invert"
             }
         },
         {
@@ -2155,11 +2931,29 @@
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Wall_Curved_Angle_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Wall_Curved_Angle_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Wall_Curved_Angle_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Wall_Curved_Angle_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_R"
+            },
             "Ice": {
                 "RowName": "Ice_Wall_Curved_Angle_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_R"
             }
         },
         {
@@ -2168,11 +2962,29 @@
             "Stone": {
                 "RowName": "Stone_Wall_Curved_Angle_R_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Wall_Curved_Angle_R_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Wall_Curved_Angle_R_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Wall_Curved_Angle_R_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Wall_Curved_Angle_R_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Wall_Curved_Angle_R_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Wall_Curved_Angle_R_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Wall_Curved_Angle_R_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Wall_Curved_Angle_R_Invert"
             }
         },
         {
@@ -2181,11 +2993,29 @@
             "Stone": {
                 "RowName": "Stone_Beam_Curved_Diagonal_Down"
             },
+            "Concrete": {
+                "RowName": "Concrete_Beam_Curved_Diagonal_Down"
+            },
+            "Glass": {
+                "RowName": "Glass_Beam_Curved_Diagonal_Down"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Beam_Curved_Diagonal_Down"
+            },
             "Scoria": {
                 "RowName": "Scoria_Beam_Curved_Diagonal_Down"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Beam_Curved_Diagonal_Down"
+            },
             "Ice": {
                 "RowName": "Ice_Beam_Curved_Diagonal_Down"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Beam_Curved_Diagonal_Down"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Beam_Curved_Diagonal_Down"
             }
         },
         {
@@ -2194,11 +3024,29 @@
             "Stone": {
                 "RowName": "Stone_Beam_Curved_Diagonal_Up"
             },
+            "Concrete": {
+                "RowName": "Concrete_Beam_Curved_Diagonal_Up"
+            },
+            "Glass": {
+                "RowName": "Glass_Beam_Curved_Diagonal_Up"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Beam_Curved_Diagonal_Up"
+            },
             "Scoria": {
                 "RowName": "Scoria_Beam_Curved_Diagonal_Up"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Beam_Curved_Diagonal_Up"
+            },
             "Ice": {
                 "RowName": "Ice_Beam_Curved_Diagonal_Up"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Beam_Curved_Diagonal_Up"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Beam_Curved_Diagonal_Up"
             }
         },
         {
@@ -2207,11 +3055,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Up_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Up_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_L"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Up_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_L"
             }
         },
         {
@@ -2220,11 +3086,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_L"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_L"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_L"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Down_L"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Down_L"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_L"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Down_L"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_L"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_L"
             }
         },
         {
@@ -2233,11 +3117,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_L_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_L_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_L_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Up_L_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Up_L_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_L_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Up_L_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_L_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_L_Invert"
             }
         },
         {
@@ -2246,11 +3148,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_L_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_L_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_L_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Down_L_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Down_L_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_L_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Down_L_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_L_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_L_Invert"
             }
         },
         {
@@ -2259,11 +3179,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Up_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Up_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_R"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Up_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_R"
             }
         },
         {
@@ -2272,11 +3210,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_R"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_R"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_R"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Down_R"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Down_R"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_R"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Down_R"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_R"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_R"
             }
         },
         {
@@ -2285,11 +3241,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_R_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Up_R_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Up_R_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Up_R_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Up_R_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Up_R_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Up_R_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Up_R_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Up_R_Invert"
             }
         },
         {
@@ -2298,11 +3272,29 @@
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_R_Invert"
             },
+            "Concrete": {
+                "RowName": "Concrete_Roof_CurvedAngle_Down_R_Invert"
+            },
+            "Glass": {
+                "RowName": "Glass_Roof_CurvedAngle_Down_R_Invert"
+            },
+            "ClayBrick": {
+                "RowName": "ClayBrick_Roof_CurvedAngle_Down_R_Invert"
+            },
             "Scoria": {
                 "RowName": "Scoria_Roof_CurvedAngle_Down_R_Invert"
             },
+            "ScoriaBrick": {
+                "RowName": "ScoriaBrick_Roof_CurvedAngle_Down_R_Invert"
+            },
             "Ice": {
                 "RowName": "Ice_Roof_CurvedAngle_Down_R_Invert"
+            },
+            "StoneBrick": {
+                "RowName": "StoneBrick_Roof_CurvedAngle_Down_R_Invert"
+            },
+            "GlassTempered": {
+                "RowName": "TemperedGlass_Roof_CurvedAngle_Down_R_Invert"
             }
         },
         {
@@ -2313,6 +3305,12 @@
             },
             "Stone": {
                 "RowName": "Stone_CornerStair_L"
+            },
+            "Concrete": {
+                "RowName": "Concrete_CornerStair_L"
+            },
+            "Aluminium": {
+                "RowName": "Iron_CornerStair_L"
             }
         },
         {
@@ -2323,11 +3321,17 @@
             },
             "Stone": {
                 "RowName": "Stone_CornerStair_R"
+            },
+            "Concrete": {
+                "RowName": "Concrete_CornerStair_R"
+            },
+            "Aluminium": {
+                "RowName": "Iron_CornerStair_R"
             }
         },
         {
             "Name": "Ramp_Stairs_Half_L",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_L-PieceName\", \"Left\")",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_L-PieceName\", \"Half Stairs Left\")",
             "Thatch": {
                 "RowName": "Thatch_HalfStair_L"
             },
@@ -2360,11 +3364,17 @@
             },
             "StoneBrick": {
                 "RowName": "Stone_Brick_HalfStair_L"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfStair_L"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfStair_L"
             }
         },
         {
             "Name": "Ramp_Stairs_Half_R",
-            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_R-PieceName\", \"Right\")",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_R-PieceName\", \"Half Stairs Right\")",
             "Thatch": {
                 "RowName": "Thatch_HalfStair_R"
             },
@@ -2397,6 +3407,26 @@
             },
             "StoneBrick": {
                 "RowName": "Stone_Brick_HalfStair_R"
+            },
+            "Limestone": {
+                "RowName": "Limestone_HalfStair_R"
+            },
+            "BeeswaxWood": {
+                "RowName": "ReinforcedWood_HalfStair_R"
+            }
+        },
+        {
+            "Name": "Floor_Inverted",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Floor_Inverted-PieceName\", \"Inverted Floor\")",
+            "Concrete": {
+                "RowName": "Concrete_Floor_Inverted"
+            }
+        },
+        {
+            "Name": "Ramp_Inverted",
+            "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Inverted-PieceName\", \"Inverted Ramp\")",
+            "Concrete": {
+                "RowName": "Concrete_Ramp_Inverted"
             }
         }
     ]

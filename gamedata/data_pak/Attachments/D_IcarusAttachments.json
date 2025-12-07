@@ -68,15 +68,15 @@
             }
         },
         {
-            "Name": "Felling_Yield_1",
+            "Name": "FellingDamage_1",
             "GrantedAlteration": {
-                "RowName": "Felling_1"
+                "RowName": "FellingDamage_1"
             }
         },
         {
-            "Name": "Felling_Yield_2",
+            "Name": "FellingDamage_2",
             "GrantedAlteration": {
-                "RowName": "Felling_2"
+                "RowName": "FellingDamage_2"
             }
         },
         {
@@ -287,6 +287,12 @@
             "Name": "Stomach_Capacity_1",
             "GrantedAlteration": {
                 "RowName": "Stomach_Capacity_1"
+            }
+        },
+        {
+            "Name": "Stomach_Capacity_2",
+            "GrantedAlteration": {
+                "RowName": "Stomach_Capacity_2"
             }
         },
         {
@@ -599,6 +605,342 @@
             "Name": "Biolab_Scorpion_Armor",
             "GrantedAlteration": {
                 "RowName": "Biolab_Scorpion_Armor"
+            }
+        },
+        {
+            "Name": "Lava_Hunter_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Lava_Hunter_Attachment"
+            }
+        },
+        {
+            "Name": "Slug_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Slug_Attachment"
+            }
+        },
+        {
+            "Name": "Ape_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Ape_Attachment"
+            }
+        },
+        {
+            "Name": "Scyther_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Scyther_Attachment"
+            }
+        },
+        {
+            "Name": "Hornet_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Hornet_Attachment"
+            }
+        },
+        {
+            "Name": "Plant_Boss_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Hornet_Attachment"
+            }
+        },
+        {
+            "Name": "Cat_Boss_Attachment",
+            "GrantedAlteration": {
+                "RowName": "Cat_Boss_Attachment"
+            }
+        },
+        {
+            "Name": "Cat_Boss_Lure",
+            "GrantedAlteration": {
+                "RowName": "Cat_Boss_Lure"
+            }
+        },
+        {
+            "Name": "Plough_Steel",
+            "GrantedAlteration": {
+                "RowName": "Plough_Steel"
+            }
+        },
+        {
+            "Name": "Plough_Platinum",
+            "GrantedAlteration": {
+                "RowName": "Plough_Platinum"
+            }
+        },
+        {
+            "Name": "Plough_Titanium",
+            "GrantedAlteration": {
+                "RowName": "Plough_Titanium"
+            }
+        },
+        {
+            "Name": "ClayYield_1",
+            "GrantedAlteration": {
+                "RowName": "ClayYield_1"
+            }
+        },
+        {
+            "Name": "ClayYield_2",
+            "GrantedAlteration": {
+                "RowName": "ClayYield_2"
+            }
+        },
+        {
+            "Name": "ScoriaYield_1",
+            "GrantedAlteration": {
+                "RowName": "ScoriaYield_1"
+            }
+        },
+        {
+            "Name": "ScoriaYield_2",
+            "GrantedAlteration": {
+                "RowName": "ScoriaYield_2"
+            }
+        },
+        {
+            "Name": "ObsidianYield_1",
+            "GrantedAlteration": {
+                "RowName": "ObsidianYield_1"
+            }
+        },
+        {
+            "Name": "ObsidianYield_2",
+            "GrantedAlteration": {
+                "RowName": "ObsidianYield_2"
+            }
+        },
+        {
+            "Name": "RockGolem_Attachment",
+            "GrantedAlteration": {
+                "RowName": "RockGolem_Attachment"
+            }
+        },
+        {
+            "Name": "Threshing_1",
+            "GrantedAlteration": {
+                "RowName": "Threshing_1"
+            }
+        },
+        {
+            "Name": "Seed_Harvester",
+            "GrantedAlteration": {
+                "RowName": "Seed_Harvester"
+            }
+        },
+        {
+            "Name": "Tool_Durability_1",
+            "GrantedAlteration": {
+                "RowName": "Tool_Durability_1"
+            }
+        },
+        {
+            "Name": "Tool_Durability_2",
+            "GrantedAlteration": {
+                "RowName": "Tool_Durability_2"
+            }
+        },
+        {
+            "Name": "Tool_StaminaCost_1",
+            "GrantedAlteration": {
+                "RowName": "Tool_StaminaCost_1"
+            }
+        },
+        {
+            "Name": "Tool_StaminaCost_2",
+            "GrantedAlteration": {
+                "RowName": "Tool_StaminaCost_2"
+            }
+        },
+        {
+            "Name": "Knife_VestigeChance_1",
+            "GrantedAlteration": {
+                "RowName": "Knife_VestigeChance_1"
+            }
+        },
+        {
+            "Name": "Knife_VestigeChance_2",
+            "GrantedAlteration": {
+                "RowName": "Knife_VestigeChance_2"
+            }
+        },
+        {
+            "Name": "Pickaxe_MiningRadius_1",
+            "GrantedAlteration": {
+                "RowName": "Pickaxe_MiningRadius_1"
+            }
+        },
+        {
+            "Name": "Pickaxe_MiningRadius_2",
+            "GrantedAlteration": {
+                "RowName": "Pickaxe_MiningRadius_2"
+            }
+        },
+        {
+            "Name": "Pickaxe_BauxiteYield_1",
+            "GrantedAlteration": {
+                "RowName": "Pickaxe_BauxiteYield_1"
+            }
+        },
+        {
+            "Name": "Pickaxe_BauxiteYield_2",
+            "GrantedAlteration": {
+                "RowName": "Pickaxe_BauxiteYield_2"
+            }
+        },
+        {
+            "Name": "Axe_WoodYield_1",
+            "GrantedAlteration": {
+                "RowName": "Axe_WoodYield_1"
+            }
+        },
+        {
+            "Name": "Axe_WoodYield_2",
+            "GrantedAlteration": {
+                "RowName": "Axe_WoodYield_1"
+            }
+        },
+        {
+            "Name": "Sledgehammer_Slow_1",
+            "GrantedAlteration": {
+                "RowName": "Sledgehammer_Slow_1"
+            }
+        },
+        {
+            "Name": "Sledgehammer_Slow_2",
+            "GrantedAlteration": {
+                "RowName": "Sledgehammer_Slow_2"
+            }
+        },
+        {
+            "Name": "Armor_Comfort_1",
+            "GrantedAlteration": {
+                "RowName": "Armor_Comfort_1"
+            }
+        },
+        {
+            "Name": "Armor_Comfort_2",
+            "GrantedAlteration": {
+                "RowName": "Armor_Comfort_2"
+            }
+        },
+        {
+            "Name": "Arms_FistDamage_1",
+            "GrantedAlteration": {
+                "RowName": "Arms_FistDamage_1"
+            }
+        },
+        {
+            "Name": "Arms_FistDamage_2",
+            "GrantedAlteration": {
+                "RowName": "Arms_FistDamage_2"
+            }
+        },
+        {
+            "Name": "Arms_ThrowAccuracy_1",
+            "GrantedAlteration": {
+                "RowName": "Arms_ThrowAccuracy_1"
+            }
+        },
+        {
+            "Name": "Arms_ThrowAccuracy_2",
+            "GrantedAlteration": {
+                "RowName": "Arms_ThrowAccuracy_2"
+            }
+        },
+        {
+            "Name": "Legs_Jump_1",
+            "GrantedAlteration": {
+                "RowName": "Legs_Jump_1"
+            }
+        },
+        {
+            "Name": "Legs_Jump_2",
+            "GrantedAlteration": {
+                "RowName": "Legs_Jump_2"
+            }
+        },
+        {
+            "Name": "Chest_Oxygen_1",
+            "GrantedAlteration": {
+                "RowName": "Chest_Oxygen_1"
+            }
+        },
+        {
+            "Name": "Chest_Oxygen_2",
+            "GrantedAlteration": {
+                "RowName": "Chest_Oxygen_2"
+            }
+        },
+        {
+            "Name": "Guns_Damage_1",
+            "GrantedAlteration": {
+                "RowName": "Guns_Damage_1"
+            }
+        },
+        {
+            "Name": "Guns_Damage_2",
+            "GrantedAlteration": {
+                "RowName": "Guns_Damage_2"
+            }
+        },
+        {
+            "Name": "Guns_ExtendedAmmo_1",
+            "GrantedAlteration": {
+                "RowName": "Guns_ExtendedAmmo_1"
+            }
+        },
+        {
+            "Name": "Guns_ExtendedAmmo_2",
+            "GrantedAlteration": {
+                "RowName": "Guns_ExtendedAmmo_2"
+            }
+        },
+        {
+            "Name": "Pistol_Accuracy_1",
+            "GrantedAlteration": {
+                "RowName": "Pistol_Accuracy_1"
+            }
+        },
+        {
+            "Name": "Pistol_Accuracy_2",
+            "GrantedAlteration": {
+                "RowName": "Pistol_Accuracy_2"
+            }
+        },
+        {
+            "Name": "Rifle_Accuracy_1",
+            "GrantedAlteration": {
+                "RowName": "Rifle_Accuracy_1"
+            }
+        },
+        {
+            "Name": "Rifle_Accuracy_2",
+            "GrantedAlteration": {
+                "RowName": "Rifle_Accuracy_2"
+            }
+        },
+        {
+            "Name": "Laser_FireConversion",
+            "GrantedAlteration": {
+                "RowName": "Laser_FireConversion"
+            }
+        },
+        {
+            "Name": "Laser_FrostConversion",
+            "GrantedAlteration": {
+                "RowName": "Laser_FrostConversion"
+            }
+        },
+        {
+            "Name": "Laser_PoisonConversion",
+            "GrantedAlteration": {
+                "RowName": "Laser_PoisonConversion"
+            }
+        },
+        {
+            "Name": "Laser_ElectricConversion",
+            "GrantedAlteration": {
+                "RowName": "Laser_ElectricConversion"
             }
         }
     ]

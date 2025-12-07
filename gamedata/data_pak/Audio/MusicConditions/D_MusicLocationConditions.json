@@ -25,6 +25,18 @@
         },
         {
             "Name": "Grasslands"
+        },
+        {
+            "Name": "GreatHuntArena"
+        },
+        {
+            "Name": "DHTundra"
+        },
+        {
+            "Name": "DHGeothermal"
+        },
+        {
+            "Name": "DHEden"
         }
     ]
 }

@@ -2,7 +2,9 @@
     "RowStruct": "/Script/Icarus.PaintingData",
     "Defaults": {
         "SmallPaintingImage": "None",
-        "LargePaintingImage": "None"
+        "LargePaintingImage": "None",
+        "bIsMonitor": false,
+        "MonitorMaterial": "None"
     },
     "Rows": [
         {
@@ -264,6 +266,146 @@
             "Name": "SMPL3_Lost",
             "SmallPaintingImage": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_SMPL3_Lost_Small.T_SMPL3_Lost_Small",
             "LargePaintingImage": "/Game/Assets/2DArt/UI/ProspectSelect/Images/T_SMPL3_Lost_Large.T_SMPL3_Lost_Large"
+        },
+        {
+            "Name": "Screen_Mo_A",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_01_A.T_PRP_Screen_Mo_01_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_01_A.T_PRP_Screen_Mo_01_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Mo_A.M_PRP_Screen_Mo_A"
+        },
+        {
+            "Name": "Screen_Mo_B",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_02_A.T_PRP_Screen_Mo_02_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_02_A.T_PRP_Screen_Mo_02_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Mo_B.M_PRP_Screen_Mo_B"
+        },
+        {
+            "Name": "Screen_Mo_C",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_03_A.T_PRP_Screen_Mo_03_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_03_A.T_PRP_Screen_Mo_03_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Mo_C.M_PRP_Screen_Mo_C"
+        },
+        {
+            "Name": "Screen_Mo_D",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_04_A.T_PRP_Screen_Mo_04_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Mo_04_A.T_PRP_Screen_Mo_04_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Mo_D.M_PRP_Screen_Mo_D"
+        },
+        {
+            "Name": "Screen_Reactor_A",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Reactor_01_A.T_PRP_Screen_Reactor_01_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Reactor_01_A.T_PRP_Screen_Reactor_01_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Reactor_A.M_PRP_Screen_Reactor_A"
+        },
+        {
+            "Name": "Screen_Reactor_B",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Reactor_02_A.T_PRP_Screen_Reactor_02_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Reactor_02_A.T_PRP_Screen_Reactor_02_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Reactor_B.M_PRP_Screen_Reactor_B"
+        },
+        {
+            "Name": "Screen_Satellite_A",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Satellite_01_A.T_PRP_Screen_Satellite_01_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Satellite_01_A.T_PRP_Screen_Satellite_01_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Satellite_A.M_PRP_Screen_Satellite_A"
+        },
+        {
+            "Name": "Screen_Satellite_B",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Satellite_02_A.T_PRP_Screen_Satellite_02_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Satellite_02_A.T_PRP_Screen_Satellite_02_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Satellite_B.M_PRP_Screen_Satellite_B"
+        },
+        {
+            "Name": "Screen_Theo_A",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Theo_01_A.T_PRP_Screen_Theo_01_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Theo_01_A.T_PRP_Screen_Theo_01_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Theo_A.M_PRP_Screen_Theo_A"
+        },
+        {
+            "Name": "Screen_Theo_B",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Theo_02_A.T_PRP_Screen_Theo_02_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Theo_02_A.T_PRP_Screen_Theo_02_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Theo_B.M_PRP_Screen_Theo_B"
+        },
+        {
+            "Name": "Screen_Victor_A",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_01_A.T_PRP_Screen_Victor_01_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_01_A.T_PRP_Screen_Victor_01_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Victor_A.M_PRP_Screen_Victor_A"
+        },
+        {
+            "Name": "Screen_Victor_B",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_02_A.T_PRP_Screen_Victor_02_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_02_A.T_PRP_Screen_Victor_02_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Victor_B.M_PRP_Screen_Victor_B"
+        },
+        {
+            "Name": "Screen_Victor_C",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_03_A.T_PRP_Screen_Victor_03_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_03_A.T_PRP_Screen_Victor_03_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Victor_C.M_PRP_Screen_Victor_C"
+        },
+        {
+            "Name": "Screen_Victor_D",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_04_A.T_PRP_Screen_Victor_04_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_Victor_04_A.T_PRP_Screen_Victor_04_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Victor_D.M_PRP_Screen_Victor_D"
+        },
+        {
+            "Name": "Screen_Laser_A",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_01_A.T_PRP_Screen_laser_01_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_01_A.T_PRP_Screen_laser_01_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Laser_A.M_PRP_Screen_Laser_A"
+        },
+        {
+            "Name": "Screen_Laser_B",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_02_A.T_PRP_Screen_laser_02_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_02_A.T_PRP_Screen_laser_02_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Laser_B.M_PRP_Screen_Laser_B"
+        },
+        {
+            "Name": "Screen_Laser_C",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_03_A.T_PRP_Screen_laser_03_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_03_A.T_PRP_Screen_laser_03_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Laser_C.M_PRP_Screen_Laser_C"
+        },
+        {
+            "Name": "Screen_Laser_D",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_04_A.T_PRP_Screen_laser_04_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_04_A.T_PRP_Screen_laser_04_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Laser_D.M_PRP_Screen_Laser_D"
+        },
+        {
+            "Name": "Screen_Laser_E",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_05_A.T_PRP_Screen_laser_05_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_05_A.T_PRP_Screen_laser_05_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Laser_E.M_PRP_Screen_Laser_E"
+        },
+        {
+            "Name": "Screen_Laser_F",
+            "SmallPaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_06_A.T_PRP_Screen_laser_06_A",
+            "LargePaintingImage": "/Game/ASS/PRP/PRP_Laptop/T_PRP_Screen_laser_06_A.T_PRP_Screen_laser_06_A",
+            "bIsMonitor": true,
+            "MonitorMaterial": "/Game/ASS/PRP/PRP_Laptop/M_PRP_Screen_Laser_F.M_PRP_Screen_Laser_F"
         }
     ]
 }

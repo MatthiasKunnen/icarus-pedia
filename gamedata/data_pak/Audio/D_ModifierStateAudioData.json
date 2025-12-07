@@ -60,6 +60,40 @@
             "bApplyExposedVocalisation": true,
             "ExposedVocalisationMinEffectiveness": 50,
             "bApplyEffectivenessParameter": true
+        },
+        {
+            "Name": "Exposure_Radiation",
+            "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
+            "bReplayOnStack": true,
+            "CooldownTime": 30,
+            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/Character/Vocals/Vocal_System/SFX_CHAR_VOC_RADIATION.SFX_CHAR_VOC_RADIATION"
+        },
+        {
+            "Name": "Exposure_Radiation_MED",
+            "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
+            "bReplayOnStack": true,
+            "CooldownTime": 30,
+            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/Character/Vocals/Vocal_System/SFX_CHAR_VOC_RADIATION_MED.SFX_CHAR_VOC_RADIATION_MED"
+        },
+        {
+            "Name": "Exposure_Radiation_HIGH",
+            "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
+            "bReplayOnStack": true,
+            "CooldownTime": 30,
+            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/Character/Vocals/Vocal_System/SFX_CHAR_VOC_RADIATION_HIGH.SFX_CHAR_VOC_RADIATION_HIGH"
+        },
+        {
+            "Name": "Exposure_Radiation_Geiger",
+            "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
+            "bReplayOnStack": true,
+            "CooldownTime": 30,
+            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_WARN_RADIATION_HIGH.SFX_MODIF_WARN_RADIATION_HIGH"
+        },
+        {
+            "Name": "Radiation_Warning_1SHOT",
+            "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
+            "bReplayOnStack": true,
+            "CooldownTime": 10
         }
     ]
 }

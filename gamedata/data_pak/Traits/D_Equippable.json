@@ -7,7 +7,8 @@
         "GlobalStat_ActorClass": "None",
         "GlobalStat_GrantedStats": {},
         "bAppliesInAllInventories": false,
-        "bBindToAllInventoryUpdates": true
+        "bBindToAllInventoryUpdates": true,
+        "bPreventReinitialisation": false
     },
     "Rows": [
         {
@@ -197,6 +198,13 @@
             }
         },
         {
+            "Name": "Equippable_StasisBag",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseAnimalCarryingMovementSpeed_+%\")": -30
+            }
+        },
+        {
             "Name": "Module_Animal_Healthbar",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
@@ -230,7 +238,8 @@
             "GrantedStats": {
                 "(Value=\"BaseShotgunAmmoCapacity_+%\")": 25,
                 "(Value=\"BaseShotgunReloadSpeed_+%\")": 25,
-                "(Value=\"BaseShotgunProjectileDamage_+%\")": 25
+                "(Value=\"BaseShotgunProjectileDamage_+%\")": 25,
+                "(Value=\"BaseBackpackSlots_+\")": 6
             },
             "bBindToAllInventoryUpdates": false
         },
@@ -357,11 +366,11 @@
             "Name": "Farmers_Backpack",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseHarvestingSeedRewards_+%\")": 50,
                 "(Value=\"BaseBackpackSlots_+\")": 6,
-                "(Value=\"BaseExposureResistance_+%\")": 15,
-                "(Value=\"BaseSickleItemWear_+%\")": -25,
-                "(Value=\"BaseSickleDamage_+%\")": 50
+                "(Value=\"CanHarvestSeeds_?\")": 1,
+                "(Value=\"BaseHarvestingRewards_+%\")": 35,
+                "(Value=\"BaseHarvestingSeedRewards_+%\")": 50,
+                "(Value=\"BaseExposureResistance_+%\")": 10
             },
             "bBindToAllInventoryUpdates": false
         },
@@ -406,7 +415,7 @@
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
                 "(Value=\"BaseCookedFoodModifierDuration_+%\")": 25,
-                "(Value=\"BaseBackpackSlots_+\")": 12,
+                "(Value=\"BaseBackpackSlots_+\")": 6,
                 "(Value=\"BaseFoodConsumption_+%\")": -25,
                 "(Value=\"BaseWaterConsumption_+%\")": -25,
                 "(Value=\"BaseCookedFoodModifierEffectiveness_+%\")": 25,
@@ -418,9 +427,7 @@
             "Name": "Medic_Backpack",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"GrantedAuraHealingAfflictions_?\")": 1,
-                "(Value=\"GrantedAuraPhysicalDamageResistance_?\")": 1,
-                "(Value=\"GrantedAuraHealthRegen_?\")": 1,
+                "(Value=\"GrantedAuraMedicBackpack_?\")": 1,
                 "(Value=\"BaseBackpackSlots_+\")": 6,
                 "(Value=\"BaseStaminaActionCost_+%\")": -10,
                 "(Value=\"BaseMovementSpeed_+%\")": 5,
@@ -430,12 +437,12 @@
         },
         {
             "Name": "Icebox_Backpack",
-            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Icebox_Backpack.BP_EquippableModifier_Icebox_Backpack_C",
             "GrantedStats": {
-                "(Value=\"BaseInventorySpoilRate_+%\")": -100,
                 "(Value=\"BaseBackpackSlots_+\")": 6
             },
-            "bBindToAllInventoryUpdates": false
+            "bBindToAllInventoryUpdates": false,
+            "bPreventReinitialisation": true
         },
         {
             "Name": "Saddle_Cart_Farming",
@@ -464,6 +471,498 @@
                 "(Value=\"BaseComfortLevel_+\")": 20,
                 "(Value=\"BaseMeleeDamageResistance_+%\")": 10
             }
+        },
+        {
+            "Name": "Module_Sandworm",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseDesertHealthRegen_+%\")": 20,
+                "(Value=\"BaseDesertStaminaRegen_+%\")": 10,
+                "(Value=\"BaseDesertExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Black_Wolf",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseConiferHealthRegen_+%\")": 20,
+                "(Value=\"BaseConiferStaminaRegen_+%\")": 10,
+                "(Value=\"BaseConiferExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Scorpion",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseDamageReturned_%\")": 10,
+                "(Value=\"BaseChanceToReturnDamage_%\")": 40
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Lava_Hunter",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseVolcanicHealthRegen_+%\")": 20,
+                "(Value=\"BaseVolcanicStaminaRegen_+%\")": 10,
+                "(Value=\"BaseVolcanicExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Slug",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseSwampHealthRegen_+%\")": 20,
+                "(Value=\"BaseSwampStaminaRegen_+%\")": 10,
+                "(Value=\"BaseSwampExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Ape",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseShatteringDamage_+%\")": 10,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseFellingDamage_+%\")": 10,
+                "(Value=\"BaseMiningRadius_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_IceMammoth",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseArcticHealthRegen_+%\")": 20,
+                "(Value=\"BaseArcticStaminaRegen_+%\")": 10,
+                "(Value=\"BaseArcticExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Scyther",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseSwimSpeed_+%\")": 20,
+                "(Value=\"BaseBoneHarvestedFromAnimals_+%\")": 20
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Hornet_Backpack",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseMaximumStamina_+%\")": 40,
+                "(Value=\"BaseMovementSpeed_+%\")": 10,
+                "(Value=\"BaseStaminaRegen_+%\")": 20,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -15
+            },
+            "bBindToAllInventoryUpdates": false
+        },
+        {
+            "Name": "Module_Hornet",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseKnifeProjectileSpeed_+%\")": 10,
+                "(Value=\"BaseKnifeProjectileDamage_+%\")": 20,
+                "(Value=\"BaseSpearProjectileSpeed_+%\")": 10,
+                "(Value=\"BaseSpearProjectileDamage_+%\")": 20
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Plant_Boss",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseChanceToFellTreeInstantly_%\")": 2,
+                "(Value=\"BaseWoodCarryWeight_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Cat_Boss",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseGrasslandsHealthRegen_+%\")": 20,
+                "(Value=\"BaseGrasslandsStaminaRegen_+%\")": 10,
+                "(Value=\"BaseGrasslandsExposureResistance_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_Food",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseFoodConsumption_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_Oxygen",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseOxygenConsumption_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_Water",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_TamedDamage",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 10,
+                "(Value=\"BaseTamedCreatureExperience_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_XP",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseExperience_+%\")": 15,
+                "(Value=\"BaseSharedExperience_+%\")": 15
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_StoneGathering",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_Melee",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 5
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_HeatResist",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseHeatResistance_%\")": 5
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_ColdResist",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseColdResistance_%\")": 5
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_ExposureResist",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseExposureResistance_+%\")": 4
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_WeightCapacity",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseWeightCapacity_+%\")": 5
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_ItemWear",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseItemWear_+%\")": -5
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_Night",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseNightMovementSpeed_+%\")": 5,
+                "(Value=\"BaseNightFoodConsumption_+%\")": -10,
+                "(Value=\"BaseNightWaterConsumption_+%\")": -10,
+                "(Value=\"BaseNightOxygenConsumption_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Food",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseFoodConsumption_+%\")": -15,
+                "(Value=\"BaseMaximumFood_+\")": 150
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Oxygen",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseOxygenConsumption_+%\")": -15,
+                "(Value=\"BaseMaximumOxygen_+\")": 150
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Water",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -15,
+                "(Value=\"BaseMaximumWater_+\")": 150
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_TamedDamage",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseTamedCreatureMeleeDamage_+%\")": 25
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Melee",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": 15,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_HeatResist",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseHeatResistance_%\")": 10,
+                "(Value=\"BaseHyperthermiaResistance_%\")": 25
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_ColdResist",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseColdResistance_%\")": 10,
+                "(Value=\"BaseHypothermiaResistance_%\")": 25
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_ExposureResist",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseExposureResistance_+%\")": 6
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_ItemWear",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseItemWear_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Night",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseNightMovementSpeed_+%\")": 10,
+                "(Value=\"BaseNightFoodConsumption_+%\")": -15,
+                "(Value=\"BaseNightWaterConsumption_+%\")": -15,
+                "(Value=\"BaseNightOxygenConsumption_+%\")": -15
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Highlight",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"HighlightShotProjectile_?\")": 1,
+                "(Value=\"HighlightThrownKnife_?\")": 1,
+                "(Value=\"HighlightThrownSpear_?\")": 1
+            }
+        },
+        {
+            "Name": "Module_StaminaRegen",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Module_Basic_StaminaRegen",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseStaminaRegen_+%\")": 5
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Lava_Hunter_Backpack",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Lava_Hunter_Backpack.BP_EquippableModifier_Lava_Hunter_Backpack_C",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 10
+            },
+            "bBindToAllInventoryUpdates": false,
+            "bPreventReinitialisation": true
+        },
+        {
+            "Name": "Saddle_Basic_Arctic",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 2,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BaseColdResistance_%\")": 10
+            }
+        },
+        {
+            "Name": "Saddle_Basic_Desert",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 2,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BaseHeatResistance_%\")": 10
+            }
+        },
+        {
+            "Name": "Saddle_Racing",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 2,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 5
+            }
+        },
+        {
+            "Name": "Saddle_Armored",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 2,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 5
+            }
+        },
+        {
+            "Name": "Saddle_Deluxe_Leather",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 3,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1
+            }
+        },
+        {
+            "Name": "Saddle_Croc",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 2,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BasePoisonResistance_%\")": 10
+            }
+        },
+        {
+            "Name": "Module_RockGolem",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 2,
+                "(Value=\"BaseOreCarryWeight_+%\")": -10
+            },
+            "bStackedModifiersGiveDiminishingReturns": true
+        },
+        {
+            "Name": "Sand_Armor_Backpack",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -25,
+                "(Value=\"BaseFoodConsumption_+%\")": -25,
+                "(Value=\"BaseOxygenConsumption_+%\")": -25,
+                "(Value=\"BaseVolcanicExposureResistance_+%\")": 20,
+                "(Value=\"BaseDesertExposureResistance_+%\")": 20
+            },
+            "bBindToAllInventoryUpdates": false
+        },
+        {
+            "Name": "Saddle_Advanced_Arctic",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 5,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 2,
+                "(Value=\"BaseColdResistance_%\")": 20,
+                "(Value=\"BaseFoodModifierDuration_+%\")": 20
+            }
+        },
+        {
+            "Name": "Module_Radiation",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseRadiationResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Saddle_Standard_Quick",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 1,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BaseTamingSpeedSaddleBoost_%\")": 40
+            }
+        },
+        {
+            "Name": "Saddle_Raptor",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 2,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 10,
+                "(Value=\"BaseArcticColdResistance_+%\")": 10
+            }
+        },
+        {
+            "Name": "Saddle_Overrider",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 5,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 5,
+                "(Value=\"BaseColdResistance_%\")": 10,
+                "(Value=\"BaseHeatResistance_%\")": 10
+            }
+        },
+        {
+            "Name": "Saddle_Carrier",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 20,
+                "(Value=\"BaseWeightCapacity_+\")": 300,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 2
+            }
+        },
+        {
+            "Name": "Solar_Backpack",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"ChargeItemsInInventory_?\")": 1,
+                "(Value=\"BaseBackpackSlots_+\")": 6
+            },
+            "bBindToAllInventoryUpdates": false
         }
     ]
 }

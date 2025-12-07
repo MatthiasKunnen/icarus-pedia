@@ -69,6 +69,16 @@
             }
         },
         {
+            "Name": "T3_Cleaner",
+            "AutoActivate": true,
+            "ResourceFlowRate": 250,
+            "AutoShutoffFlowPercent": -1,
+            "bIsOptional": true,
+            "OptionalFlowType": {
+                "RowName": "Boost"
+            }
+        },
+        {
             "Name": "KitchenBench",
             "AutoActivate": true,
             "ResourceFlowRate": 0,
@@ -90,12 +100,9 @@
         {
             "Name": "GlassworkingBench",
             "AutoActivate": true,
-            "ResourceFlowRate": 250,
+            "ResourceFlowRate": 0,
             "AutoShutoffFlowPercent": -1,
-            "bIsOptional": true,
-            "OptionalFlowType": {
-                "RowName": "ReinforcedGlass"
-            }
+            "bIsOptional": true
         },
         {
             "Name": "MasonryBench",
@@ -225,7 +232,6 @@
         },
         {
             "Name": "Water_Trough",
-            "FlowType": "Store",
             "AutoActivate": true,
             "ResourceFlowRate": 250,
             "bStorageIsInFlowOnly": true
@@ -235,6 +241,28 @@
             "AutoActivate": true,
             "ResourceFlowRate": 500,
             "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Fabricator",
+            "AutoActivate": true,
+            "ResourceFlowRate": 0,
+            "bAllowPullingResourceFromInventory": true,
+            "AutoShutoffFlowPercent": -1,
+            "bIsOptional": true,
+            "OptionalFlowType": {
+                "RowName": "PerRecipe"
+            }
+        },
+        {
+            "Name": "ChemistryBench",
+            "AutoActivate": true,
+            "ResourceFlowRate": 0,
+            "bAllowPullingResourceFromInventory": true,
+            "AutoShutoffFlowPercent": -1,
+            "bIsOptional": true,
+            "OptionalFlowType": {
+                "RowName": "PerRecipe"
+            }
         }
     ]
 }

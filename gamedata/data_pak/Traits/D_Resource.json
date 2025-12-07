@@ -20,6 +20,16 @@
         "OxygenFlow": {
             "RowName": "None",
             "DataTableName": "D_Oxygen"
+        },
+        "bHasCrudeOilConnection": false,
+        "CrudeOilFlow": {
+            "RowName": "None",
+            "DataTableName": "D_CrudeOil"
+        },
+        "bHasRefinedOilConnection": false,
+        "RefinedOilFlow": {
+            "RowName": "None",
+            "DataTableName": "D_RefinedOil"
         }
     },
     "Rows": [
@@ -182,6 +192,10 @@
             "bHasEnergyConnection": true,
             "EnergyFlow": {
                 "RowName": "Processor_Generic"
+            },
+            "bHasWaterConnection": true,
+            "WaterFlow": {
+                "RowName": "ChemistryBench"
             }
         },
         {
@@ -298,6 +312,13 @@
             }
         },
         {
+            "Name": "T3_Cleaner",
+            "bHasWaterConnection": true,
+            "WaterFlow": {
+                "RowName": "T3_Cleaner"
+            }
+        },
+        {
             "Name": "Glassworking_Bench",
             "bHasWaterConnection": true,
             "WaterFlow": {
@@ -317,9 +338,6 @@
             "WaterFlow": {
                 "RowName": "KitchenStove"
             }
-        },
-        {
-            "Name": "Masonry_Bench"
         },
         {
             "Name": "Rain_Reservior",
@@ -433,7 +451,9 @@
         {
             "Name": "Flow_Meter",
             "bHasEnergyConnection": true,
-            "bHasWaterConnection": true
+            "bHasWaterConnection": true,
+            "bHasFuelConnection": true,
+            "bHasCrudeOilConnection": true
         },
         {
             "Name": "Biofuel_Aquarium",
@@ -543,6 +563,172 @@
             "bHasEnergyConnection": true,
             "EnergyFlow": {
                 "RowName": "Charging_Device"
+            }
+        },
+        {
+            "Name": "Manufacturer",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Processor_Generic"
+            }
+        },
+        {
+            "Name": "Pump_Jack",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Auto_Shutoff_At_0"
+            },
+            "bHasCrudeOilConnection": true
+        },
+        {
+            "Name": "Polymerizer",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Processor_Generic"
+            }
+        },
+        {
+            "Name": "Organic_Extractor",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Organic_Extractor"
+            },
+            "bHasFuelConnection": true,
+            "FuelFlow": {
+                "RowName": "Organic_Extractor"
+            }
+        },
+        {
+            "Name": "Crude_Oil_Power_Generator",
+            "bHasEnergyConnection": true,
+            "bHasCrudeOilConnection": true,
+            "CrudeOilFlow": {
+                "RowName": "Oil_Power_Generator"
+            }
+        },
+        {
+            "Name": "Portable_Biofuel_Generator",
+            "bHasEnergyConnection": true
+        },
+        {
+            "Name": "Fabricator",
+            "bHasWaterConnection": true,
+            "WaterFlow": {
+                "RowName": "Fabricator"
+            }
+        },
+        {
+            "Name": "Portable_Tank_Water",
+            "bHasWaterConnection": true,
+            "WaterFlow": {
+                "RowName": "Water_Barrel"
+            }
+        },
+        {
+            "Name": "Aerosol_Emitter",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Aerosol_Emitter"
+            }
+        },
+        {
+            "Name": "Portable_Tank_Biofuel",
+            "bHasFuelConnection": true,
+            "FuelFlow": {
+                "RowName": "Biofuel_Battery"
+            }
+        },
+        {
+            "Name": "Windmill",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Processor_Generic"
+            }
+        },
+        {
+            "Name": "LandingPad",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "LandingPad"
+            }
+        },
+        {
+            "Name": "Enzyme_Cannon",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Enzyme_Cannon"
+            }
+        },
+        {
+            "Name": "Enzyme_Propagation_Unit",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Enzyme_Propagation_Unit"
+            }
+        },
+        {
+            "Name": "Enzyme_Propagation_Unit_Craftable",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Enzyme_Propagation_Unit_Craftable"
+            }
+        },
+        {
+            "Name": "Enemy_Turret",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Enemy_Turret"
+            }
+        },
+        {
+            "Name": "Mission_Organic_Anaylzer",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Mission_Incubator"
+            }
+        },
+        {
+            "Name": "Crude_Oil_Refiner",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Crude_Oil_Refiner"
+            },
+            "bHasCrudeOilConnection": true,
+            "CrudeOilFlow": {
+                "RowName": "Crude_Oil_Refiner"
+            }
+        },
+        {
+            "Name": "Natural_Oil_Refiner",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Natural_Oil_Refiner"
+            },
+            "bHasFuelConnection": true,
+            "FuelFlow": {
+                "RowName": "Natural_Oil_Refiner"
+            }
+        },
+        {
+            "Name": "Uranium_Generator",
+            "bHasEnergyConnection": true
+        },
+        {
+            "Name": "Tesla_Coil",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Tesla_Coil"
+            }
+        },
+        {
+            "Name": "Flame_Turret",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Turret"
+            },
+            "bHasFuelConnection": true,
+            "FuelFlow": {
+                "RowName": "Flame_Turret_Store"
             }
         }
     ]

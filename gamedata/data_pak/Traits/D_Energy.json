@@ -301,6 +301,7 @@
         },
         {
             "Name": "Turret",
+            "AlwaysActive": true,
             "AutoActivate": true,
             "ResourceFlowRate": 3000,
             "BrownOutModifier": {
@@ -357,7 +358,7 @@
         },
         {
             "Name": "Enzyme_Cannon",
-            "ResourceFlowRate": 5000
+            "AlwaysActive": true
         },
         {
             "Name": "Water_Trough_T4",
@@ -409,6 +410,67 @@
             "AutoActivate": true,
             "ResourceFlowRate": 500,
             "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Aerosol_Emitter",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 1500,
+            "AutoShutoffFlowPercent": 99,
+            "bAllowAutoRestart": true
+        },
+        {
+            "Name": "LandingPad",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 500,
+            "BrownOutModifier": {
+                "RowName": "Electronic_Light_Brownout"
+            },
+            "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Enzyme_Propagation_Unit",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 500,
+            "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Enzyme_Propagation_Unit_Craftable",
+            "AutoActivate": true,
+            "AutoShutoffFlowPercent": 99
+        },
+        {
+            "Name": "Enemy_Turret",
+            "AutoActivate": true,
+            "ResourceFlowRate": 500,
+            "BrownOutModifier": {
+                "RowName": "Energy_Brownout_Turret"
+            },
+            "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Crude_Oil_Refiner",
+            "AutoActivate": true
+        },
+        {
+            "Name": "Natural_Oil_Refiner",
+            "AutoActivate": true
+        },
+        {
+            "Name": "Tesla_Coil",
+            "AutoActivate": true,
+            "ResourceFlowRate": 3000,
+            "AutoShutoffFlowPercent": 99,
+            "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Organic_Extractor",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 1500,
+            "AutoShutoffFlowPercent": -1
         }
     ]
 }

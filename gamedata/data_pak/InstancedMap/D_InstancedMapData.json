@@ -16,7 +16,20 @@
             "IsValid": 0
         },
         "CaveID": -1,
-        "NumEntrances": -1
+        "NumEntrances": -1,
+        "RVTBounds": {
+            "Min": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+            },
+            "Max": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+            },
+            "IsValid": 0
+        }
     },
     "Rows": [
         {
@@ -94,6 +107,96 @@
             },
             "CaveID": 4,
             "NumEntrances": 2
+        },
+        {
+            "Name": "Arena_RockGolem",
+            "MapAsset": "/Game/Maps/GreatHunt/Arena_RockGolem/Arena_RockGolem.Arena_RockGolem",
+            "MapBounds": {
+                "Min": {
+                    "X": -10000,
+                    "Y": -60000,
+                    "Z": -24519.482421875
+                },
+                "Max": {
+                    "X": 60000,
+                    "Y": 10000,
+                    "Z": 29675.505859375
+                },
+                "IsValid": 1
+            },
+            "CaveID": 5,
+            "NumEntrances": 1,
+            "RVTBounds": {
+                "Min": {
+                    "Y": -50400,
+                    "Z": -4527.34375
+                },
+                "Max": {
+                    "X": 50400,
+                    "Z": -3807.8125
+                },
+                "IsValid": 1
+            }
+        },
+        {
+            "Name": "Arena_IceMammoth",
+            "MapAsset": "/Game/Maps/GreatHunt/Arena_IceMammoth/Arena_IceMammoth.Arena_IceMammoth",
+            "MapBounds": {
+                "Min": {
+                    "X": -108673.7734375,
+                    "Y": -100800,
+                    "Z": -56193.6640625
+                },
+                "Max": {
+                    "X": 155638.71875,
+                    "Y": 100800,
+                    "Z": 56193.6640625
+                },
+                "IsValid": 1
+            },
+            "CaveID": 6,
+            "NumEntrances": 1,
+            "RVTBounds": {
+                "Min": {
+                    "Y": -50400,
+                    "Z": -1502.34375
+                },
+                "Max": {
+                    "X": 50400,
+                    "Z": 10569.53125
+                },
+                "IsValid": 1
+            }
+        },
+        {
+            "Name": "Arena_SwampApe",
+            "MapAsset": "/Game/Maps/GreatHunt/Arena_SwampApe/Arena_SwampApe.Arena_SwampApe",
+            "MapBounds": {
+                "Min": {
+                    "X": -7700,
+                    "Y": -63410,
+                    "Z": -28030
+                },
+                "Max": {
+                    "X": 56300,
+                    "Y": 8590,
+                    "Z": 23127.134765625
+                },
+                "IsValid": 1
+            },
+            "CaveID": 7,
+            "NumEntrances": 1,
+            "RVTBounds": {
+                "Min": {
+                    "Y": -50400,
+                    "Z": -4671.09375
+                },
+                "Max": {
+                    "X": 50400,
+                    "Z": -999.21875
+                },
+                "IsValid": 1
+            }
         }
     ]
 }

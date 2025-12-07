@@ -106,10 +106,6 @@
                     "DataTableName": "D_FarmingSeeds"
                 },
                 {
-                    "RowName": "Test_Seed",
-                    "DataTableName": "D_FarmingSeeds"
-                },
-                {
                     "RowName": "Sugar_Cane",
                     "DataTableName": "D_FarmingSeeds"
                 },
@@ -221,10 +217,6 @@
                 },
                 {
                     "RowName": "Fiber",
-                    "DataTableName": "D_FarmingSeeds"
-                },
-                {
-                    "RowName": "Test_Seed",
                     "DataTableName": "D_FarmingSeeds"
                 },
                 {

@@ -64,7 +64,25 @@
                         "DataTableName": "D_TagQueries"
                     },
                     "Stat": {
-                        "Value": "BaseMeleeDamageAgainstBuildings_+%"
+                        "Value": "MeleeDamageAgainstBuildings_+%"
+                    }
+                },
+                {
+                    "Tag": {
+                        "RowName": "Any_Deployable",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Stat": {
+                        "Value": "MeleeDamageAgainstDeployables_+%"
+                    }
+                },
+                {
+                    "Tag": {
+                        "RowName": "Any_Creature_Spawner",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Stat": {
+                        "Value": "DamageAgainstSpawners_+%"
                     }
                 }
             ]
@@ -95,6 +113,15 @@
                     },
                     "Stat": {
                         "Value": "BaseProjectileDamageAgainstBuildings_+%"
+                    }
+                },
+                {
+                    "Tag": {
+                        "RowName": "Any_Deployable",
+                        "DataTableName": "D_TagQueries"
+                    },
+                    "Stat": {
+                        "Value": "BaseProjectileDamageAgainstDeployables_+%"
                     }
                 }
             ],
@@ -287,6 +314,21 @@
             "Color": {
                 "R": 255,
                 "A": 255
+            }
+        },
+        {
+            "Name": "Laser",
+            "DamageType": "Laser",
+            "Color": {
+                "B": 18,
+                "R": 255,
+                "A": 255
+            },
+            "DamageStat": {
+                "Value": "LaserDamage_+"
+            },
+            "ResistanceStat": {
+                "Value": "LaserDamageResistance_%"
             }
         }
     ]

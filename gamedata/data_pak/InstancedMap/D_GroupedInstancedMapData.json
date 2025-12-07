@@ -40,6 +40,33 @@
                     "DataTableName": "D_InstancedMapData"
                 }
             ]
+        },
+        {
+            "Name": "PickArenaRockGolem",
+            "InstancedMaps": [
+                {
+                    "RowName": "Arena_RockGolem",
+                    "DataTableName": "D_InstancedMapData"
+                }
+            ]
+        },
+        {
+            "Name": "PickArenaIceMammoth",
+            "InstancedMaps": [
+                {
+                    "RowName": "Arena_IceMammoth",
+                    "DataTableName": "D_InstancedMapData"
+                }
+            ]
+        },
+        {
+            "Name": "PickArenaSwampApe",
+            "InstancedMaps": [
+                {
+                    "RowName": "Arena_SwampApe",
+                    "DataTableName": "D_InstancedMapData"
+                }
+            ]
         }
     ]
 }

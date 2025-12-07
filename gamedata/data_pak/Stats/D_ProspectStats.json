@@ -293,6 +293,18 @@
             "WorldStats": {
                 "(Value=\"WorldIsOutpostProspect_?\")": 1
             }
+        },
+        {
+            "Name": "VisibleApeDens",
+            "WorldStats": {
+                "(Value=\"WorldPlayerCanSeeJuvenileApeDenOnMap_?\")": 1
+            }
+        },
+        {
+            "Name": "Mission_LavaHunterQuestlineActive",
+            "WorldStats": {
+                "(Value=\"WorldIsLavaHunterQuestlineActive_?\")": 1
+            }
         }
     ]
 }

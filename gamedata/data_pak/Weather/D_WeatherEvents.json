@@ -53,7 +53,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "MediumRain_Damage",
+                        "RowName": "MediumRain_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -67,7 +67,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "MediumRain_Damage",
+                        "RowName": "MediumRain_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -139,7 +139,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "MediumSnow_Damage",
+                        "RowName": "MediumSnow_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -153,7 +153,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "MediumSnow_Damage",
+                        "RowName": "MediumSnow_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -225,7 +225,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "MediumSand_Damage",
+                        "RowName": "MediumSand_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -239,7 +239,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "MediumSand_Damage",
+                        "RowName": "MediumSand_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -311,7 +311,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LongWinds_Damage",
+                        "RowName": "LongWinds_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 160
@@ -325,21 +325,21 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LongWinds_Damage",
+                        "RowName": "LongWinds_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 60
                 },
                 {
                     "Action": {
-                        "RowName": "LongWinds_Unzip_1",
+                        "RowName": "LongWinds_Unzip",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 20
                 },
                 {
                     "Action": {
-                        "RowName": "LongWinds_Damage",
+                        "RowName": "LongWinds_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 60
@@ -410,7 +410,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LightRain_Damage",
+                        "RowName": "LightRain_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -424,7 +424,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LightRain_Damage",
+                        "RowName": "LightRain_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -496,7 +496,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "HeavyRain_Damage",
+                        "RowName": "HeavyRain_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -510,7 +510,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "HeavyRain_Damage",
+                        "RowName": "HeavyRain_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -581,7 +581,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LightSand_Damage",
+                        "RowName": "LightSand_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -595,7 +595,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LightSand_Damage",
+                        "RowName": "LightSand_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -667,7 +667,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "HeavySand_Damage",
+                        "RowName": "HeavySand_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -681,7 +681,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "HeavySand_Damage",
+                        "RowName": "HeavySand_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -752,7 +752,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LightSnow_Damage_1",
+                        "RowName": "LightSnow_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -766,7 +766,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LightSnow_Damage_1",
+                        "RowName": "LightSnow_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -838,7 +838,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "HeavySnow_Damage_1",
+                        "RowName": "HeavySnow_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -852,7 +852,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "HeavySnow_Damage_1",
+                        "RowName": "HeavySnow_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -922,7 +922,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "CosmeticRain_Damage_1",
+                        "RowName": "CosmeticRain_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 180
@@ -992,7 +992,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "CosmeticSnow_Damage_1",
+                        "RowName": "CosmeticSnow_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 180
@@ -1062,7 +1062,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "CosmeticSand_Damage_1",
+                        "RowName": "CosmeticSand_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 180
@@ -1134,7 +1134,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "TutorialRain_Damage_1",
+                        "RowName": "TutorialRain_Body_1",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 90
@@ -1584,7 +1584,7 @@
                 },
                 {
                     "Action": {
-                        "RowName": "LongWinds_Damage",
+                        "RowName": "LongWinds_Body",
                         "DataTableName": "D_WeatherActions"
                     },
                     "TimeInSeconds": 60
@@ -1918,6 +1918,10 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_MediumSand.WeatherEvent_MediumSand'",
@@ -1996,6 +2000,10 @@
                 },
                 {
                     "RowName": "Styx_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -2097,6 +2105,10 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSand.WeatherEvent_LightSand'",
@@ -2182,6 +2194,10 @@
                 },
                 {
                     "RowName": "Styx_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -2273,6 +2289,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Light.T_Volcanic_Ash_Light'",
@@ -2335,6 +2363,18 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -2414,6 +2454,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Heavy.T_Volcanic_Ash_Heavy'",
@@ -2492,6 +2544,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Extreme.T_Volcanic_Ash_Extreme'",
@@ -2568,6 +2632,18 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -2647,6 +2723,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Embers_Medium.T_Volcanic_Embers_Medium'",
@@ -2724,6 +2812,18 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -2816,6 +2916,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Embers_Extreme.T_Volcanic_Embers_Extreme'",
@@ -2893,6 +3005,18 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -2986,6 +3110,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Rain_Heavy.T_Volcanic_Rain_Heavy'",
@@ -3063,6 +3199,18 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Geothermal",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -3142,6 +3290,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Geothermal",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Sulfur_Light.T_Volcanic_Sulfur_Light'",
@@ -3219,6 +3379,18 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Geothermal",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -3298,6 +3470,18 @@
                 {
                     "RowName": "Pro_Volcanic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Heatwave.T_Volcanic_Heatwave'",
@@ -3374,6 +3558,10 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -3452,6 +3640,10 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -3545,6 +3737,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Swamp_Rain_Heavy.T_Swamp_Rain_Heavy'",
@@ -3621,6 +3817,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Light.Winds_Light'",
@@ -3683,6 +3883,10 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -3762,6 +3966,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Heavy.Winds_Heavy'",
@@ -3840,6 +4048,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Extreme.Winds_Extreme'",
@@ -3916,6 +4128,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Swamp_Fog_Light.T_Swamp_Fog_Light'",
@@ -3978,6 +4194,10 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -4057,6 +4277,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Swamp_Fog_Heavy.T_Swamp_Fog_Heavy'",
@@ -4134,6 +4358,10 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -4213,6 +4441,10 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Swamp_Gas_Medium.T_Swamp_Gas_Medium'",
@@ -4290,6 +4522,10 @@
             "BiomeGroups": [
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -4981,6 +5217,14 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_MediumRain.WeatherEvent_MediumRain'",
@@ -5075,6 +5319,22 @@
                 {
                     "RowName": "Styx_Arctic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_MediumSnow.WeatherEvent_MediumSnow'",
@@ -5168,6 +5428,10 @@
                 },
                 {
                     "RowName": "Pro_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -5265,6 +5529,14 @@
                 },
                 {
                     "RowName": "Pro_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -5364,6 +5636,14 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavyRain.WeatherEvent_HeavyRain'",
@@ -5456,6 +5736,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -5550,6 +5846,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -5647,6 +5959,14 @@
                 {
                     "RowName": "Pro_Swamp",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Swamp",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightRain.WeatherEvent_LightRain'",
@@ -5724,6 +6044,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -5804,6 +6140,10 @@
                 },
                 {
                     "RowName": "Pro_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -5913,6 +6253,10 @@
                 {
                     "RowName": "Pro_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Light.Winds_Light'",
@@ -6007,6 +6351,10 @@
                 {
                     "RowName": "Pro_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Lightning_Extreme.Lightning_Extreme'",
@@ -6099,6 +6447,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -6193,6 +6557,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -6301,6 +6681,22 @@
                 {
                     "RowName": "Styx_Arctic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSnow.WeatherEvent_LightSnow'",
@@ -6394,6 +6790,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -6503,6 +6915,22 @@
                 {
                     "RowName": "Styx_Arctic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySnow.WeatherEvent_HeavySnow'",
@@ -6603,11 +7031,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_MediumSand.WeatherEvent_MediumSand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T4_Desert_Sand-WeatherName\", \"Medium Sand\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T4_Desert_Sand-WeatherDescription\", \"Incoming storm! Find shelter to protect yourself.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T4_Desert_Sand-WeatherDescription\", \"Incoming sand storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -6688,11 +7120,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSand.WeatherEvent_LightSand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T2_Desert_Sand-WeatherName\", \"Light Sand\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T2_Desert_Sand-WeatherDescription\", \"Incoming storm! Find shelter to protect yourself.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T2_Desert_Sand-WeatherDescription\", \"Incoming sand storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -6774,11 +7210,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySand.WeatherEvent_HeavySand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T6_Desert_Sand-WeatherName\", \"Heavy Sand\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T6_Desert_Sand-WeatherDescription\", \"Incoming storm! Find shelter to protect yourself.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T6_Desert_Sand-WeatherDescription\", \"Incoming sand storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -6858,11 +7298,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSand.WeatherEvent_LightSand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T0_Desert_Sand-WeatherName\", \"Very Light Sand\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T0_Desert_Sand-WeatherDescription\", \"Minor sand storm approaching.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T0_Desert_Sand-WeatherDescription\", \"Incoming sand storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -6929,11 +7373,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSand.WeatherEvent_LightSand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Desert_Wind-WeatherName\", \"Arid Winds\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Desert_Wind-WeatherDescription\", \"Minor winds approaching\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Desert_Wind-WeatherDescription\", \"Incoming wind storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -7014,11 +7462,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_MediumSand.WeatherEvent_MediumSand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Desert_Wind-WeatherName\", \"Desert Winds\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Desert_Wind-WeatherDescription\", \"Desert winds approaching\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Desert_Wind-WeatherDescription\", \"Incoming wind storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -7114,11 +7566,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_ExtremeSandstorm.WeatherEvent_ExtremeSandstorm'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Desert_Wind-WeatherName\", \"Severe Desert Winds\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Desert_Wind-WeatherDescription\", \"Incoming storm! Find shelter to protect yourself.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Desert_Wind-WeatherDescription\", \"Incoming wind storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -7214,11 +7670,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSand.WeatherEvent_LightSand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Desert_Heatwave-WeatherName\", \"Heatwave\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Desert_Heatwave-WeatherDescription\", \"Long Heatwave incoming! Find shelter to cool off.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Desert_Heatwave-WeatherDescription\", \"Incoming heatwave! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -7300,11 +7760,15 @@
                 {
                     "RowName": "Styx_Desert",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySand.WeatherEvent_HeavySand'",
             "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Desert_Sand-WeatherName\", \"Shamal\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Desert_Sand-WeatherDescription\", \"Incoming Shamal! Find shelter to keep warm.\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Desert_Sand-WeatherDescription\", \"Incoming sand storm! Find shelter to protect yourself.\")",
             "WeatherActions": [
                 {
                     "Action": {
@@ -7763,6 +8227,22 @@
                 {
                     "RowName": "Styx_Arctic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Arctic_Torrent_Light.T_Arctic_Torrent_Light'",
@@ -7841,6 +8321,22 @@
                 },
                 {
                     "RowName": "Styx_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
                     "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
@@ -7936,6 +8432,22 @@
                 {
                     "RowName": "Styx_Arctic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Arctic_Torrent_Heavy.T_Arctic_Torrent_Heavy'",
@@ -8030,6 +8542,22 @@
                 {
                     "RowName": "Styx_Arctic",
                     "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Tundra",
+                    "DataTableName": "D_WeatherBiomeGroups"
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Arctic_Torrent_Extreme.T_Arctic_Torrent_Extreme'",
@@ -8109,6 +8637,1214 @@
                 {
                     "MusicCondition": "Normal",
                     "TriggerTime": 480
+                }
+            ]
+        },
+        {
+            "Name": "T0_Volcanic_VolcWinter",
+            "DurationSeconds": 400,
+            "DurationMinutes": 7,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Light.T_Volcanic_Ash_Light'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T0_Volcanic_VolcWinter-WeatherName\", \"Volcanic Cold Snap\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T0_Volcanic_VolcWinter-WeatherDescription\", \"Incoming volcanic winter! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T0_Volcanic_VolcWinter_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 220
+                },
+                {
+                    "Action": {
+                        "RowName": "T0_Volcanic_VolcWinter_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 80
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 400
+                }
+            ]
+        },
+        {
+            "Name": "T1_Volcanic_VolcWinter",
+            "Tier": 1,
+            "DurationSeconds": 510,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Medium.T_Volcanic_Ash_Medium'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Volcanic_VolcWinter-WeatherName\", \"Volcanic Chill\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Volcanic_VolcWinter-WeatherDescription\", \"Incoming volcanic winter! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_VolcWinter_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_VolcWinter_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 50
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 70
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_VolcWinter_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 140
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 510
+                }
+            ]
+        },
+        {
+            "Name": "T3_Volcanic_VolcWinter",
+            "Difficulty": "Medium",
+            "Tier": 3,
+            "DurationSeconds": 480,
+            "DurationMinutes": 8,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Heavy.T_Volcanic_Ash_Heavy'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Volcanic_VolcWinter-WeatherName\", \"Volcanic Frost\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Volcanic_VolcWinter-WeatherDescription\", \"Incoming volcanic winter! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_VolcWinter_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 140
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_VolcWinter_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 480
+                }
+            ]
+        },
+        {
+            "Name": "T5_Volcanic_VolcWinter",
+            "Difficulty": "Heavy",
+            "Tier": 5,
+            "DurationSeconds": 530,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/T_Volcanic_Ash_Extreme.T_Volcanic_Ash_Extreme'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Volcanic_VolcWinter-WeatherName\", \"Volcanic Freeze\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Volcanic_VolcWinter-WeatherDescription\", \"Incoming volcanic winter! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_VolcWinter_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 150
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_VolcWinter_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 80
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_VolcWinter_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 110
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_VolcWinter_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 530
+                }
+            ]
+        },
+        {
+            "Name": "T1_Volcanic_ColdFront",
+            "Tier": 1,
+            "DurationSeconds": 390,
+            "DurationMinutes": 7,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Light.Winds_Light'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Volcanic_ColdFront-WeatherName\", \"Cool Winds\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T1_Volcanic_ColdFront-WeatherDescription\", \"Incoming wind storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_ColdFront_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 180
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T1_Volcanic_ColdFront_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 30
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 390
+                }
+            ]
+        },
+        {
+            "Name": "T3_Volcanic_ColdFront",
+            "Tier": 3,
+            "DurationSeconds": 480,
+            "DurationMinutes": 8,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Medium.Winds_Medium'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Volcanic_ColdFront-WeatherName\", \"Brisk Winds\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Volcanic_ColdFront-WeatherDescription\", \"Incoming wind storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 80
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 140
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Volcanic_ColdFront_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 480
+                }
+            ]
+        },
+        {
+            "Name": "T5_Volcanic_ColdFront",
+            "Difficulty": "Medium",
+            "Tier": 5,
+            "DurationSeconds": 510,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_Ashlands",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Volcanic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Extreme.Winds_Extreme'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Volcanic_ColdFront-WeatherName\", \"Frigid Winds\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Volcanic_ColdFront-WeatherDescription\", \"Incoming wind storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 160
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 40
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 80
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 45
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 70
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Volcanic_ColdFront_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 45
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 510
+                }
+            ]
+        },
+        {
+            "Name": "T5_Arctic_Whiteout",
+            "Difficulty": "Medium",
+            "Tier": 5,
+            "DurationSeconds": 490,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_MediumSnow.WeatherEvent_MediumSnow'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Arctic_Whiteout-WeatherName\", \"Whiteout\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T5_Arctic_Whiteout-WeatherDescription\", \"Incoming snow storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T5_Arctic_Whiteout_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Arctic_Whiteout_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T5_Arctic_Whiteout_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 490
+                }
+            ]
+        },
+        {
+            "Name": "T2_Arctic_Whiteout",
+            "Tier": 2,
+            "DurationSeconds": 490,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSnow.WeatherEvent_LightSnow'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T2_Arctic_Whiteout-WeatherName\", \"Snowy Mist\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T2_Arctic_Whiteout-WeatherDescription\", \"Incoming snow storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T2_Arctic_Whiteout_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T2_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T2_Arctic_Whiteout_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T2_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T2_Arctic_Whiteout_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 490
+                }
+            ]
+        },
+        {
+            "Name": "T6_Arctic_Whiteout",
+            "Difficulty": "Heavy",
+            "Tier": 6,
+            "DurationSeconds": 490,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySnow.WeatherEvent_HeavySnow'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T6_Arctic_Whiteout-WeatherName\", \"Complete Whiteout\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T6_Arctic_Whiteout-WeatherDescription\", \"Incoming snow storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T6_Arctic_Whiteout_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T6_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T6_Arctic_Whiteout_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T6_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "T6_Arctic_Whiteout_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 490
+                }
+            ]
+        },
+        {
+            "Name": "T3_Arctic_Whiteout",
+            "Tier": 3,
+            "DurationSeconds": 490,
+            "DurationMinutes": 9,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_LightSnow.WeatherEvent_LightSnow'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Arctic_Whiteout-WeatherName\", \"Snowy Fog\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T3_Arctic_Whiteout-WeatherDescription\", \"Incoming snow storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T3_Arctic_Whiteout_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Arctic_Whiteout_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T3_Arctic_Whiteout_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 490
+                }
+            ]
+        },
+        {
+            "Name": "T4_Arctic_Whiteout",
+            "Difficulty": "Medium",
+            "Tier": 4,
+            "DurationSeconds": 400,
+            "DurationMinutes": 7,
+            "BiomeGroups": [
+                {
+                    "RowName": "Pro_IceSheet",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Northern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                },
+                {
+                    "RowName": "Ely_Southern_Arctic",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySnow.WeatherEvent_HeavySnow'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"T4_Arctic_Whiteout-WeatherName\", \"Snowy Haze\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"T4_Arctic_Whiteout-WeatherDescription\", \"Incoming snow storm! Find shelter to protect yourself.\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 30
+                },
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 30
+                },
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 30
+                },
+                {
+                    "Action": {
+                        "RowName": "T4_Arctic_Whiteout_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "GenericStormEnd",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 400
+                }
+            ]
+        },
+        {
+            "Name": "Arctic_Blizzard_Ice_Mammoth",
+            "Difficulty": "Medium",
+            "Tier": 6,
+            "DurationSeconds": 9999,
+            "DurationMinutes": 167,
+            "BiomeGroups": [
+                {
+                    "RowName": "Arena_IceMammoth",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySnow.WeatherEvent_HeavySnow'",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"Arctic_Blizzard_Ice_Mammoth-WeatherName\", \"Light Blizzard\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"Arctic_Blizzard_Ice_Mammoth-WeatherDescription\", \"Incoming Blizzard!\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "ArcticBlizzard_IceMammothArena_Chaos",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 9999
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 9999
+                }
+            ]
+        },
+        {
+            "Name": "Dev_EmptyEvent",
+            "DurationSeconds": 340,
+            "DurationMinutes": 6,
+            "BiomeGroups": [],
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"Dev_EmptyEvent-WeatherName\", \"Clear Skies\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "ClearSky",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 90
+                },
+                {
+                    "Action": {
+                        "RowName": "ClearSky",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 180
+                },
+                {
+                    "Action": {
+                        "RowName": "ClearSky",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 60
+                },
+                {
+                    "Action": {
+                        "RowName": "ClearSky",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 340
+                }
+            ]
+        },
+        {
+            "Name": "DustStorm_WyrmQueen",
+            "Difficulty": "Medium",
+            "Tier": 3,
+            "DurationSeconds": 140,
+            "DurationMinutes": 3,
+            "BiomeGroups": [
+                {
+                    "RowName": "Ely_Desert",
+                    "DataTableName": "D_WeatherBiomeGroups"
+                }
+            ],
+            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySand.WeatherEvent_HeavySand'",
+            "WeatherName": "INVTEXT(\"[DNT] Dust Storm\")",
+            "WeatherDescription": "INVTEXT(\"[DNT] Incoming Dust Storm!\")",
+            "WeatherActions": [
+                {
+                    "Action": {
+                        "RowName": "Sandwyrm_DustStorm_Start",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                },
+                {
+                    "Action": {
+                        "RowName": "Sandwyrm_DustStorm_Body",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 120
+                },
+                {
+                    "Action": {
+                        "RowName": "Sandwyrm_DustStorm_Stop",
+                        "DataTableName": "D_WeatherActions"
+                    },
+                    "TimeInSeconds": 10
+                }
+            ],
+            "MusicCues": [
+                {
+                    "MusicCondition": "Storm_Ramp",
+                    "TriggerTime": 0
+                },
+                {
+                    "MusicCondition": "Storm_Damage",
+                    "TriggerTime": 3
+                },
+                {
+                    "MusicCondition": "Storm_Chaos",
+                    "TriggerTime": 70
+                },
+                {
+                    "MusicCondition": "Normal",
+                    "TriggerTime": 140
                 }
             ]
         }
