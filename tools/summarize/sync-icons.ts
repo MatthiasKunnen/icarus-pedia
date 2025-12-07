@@ -34,12 +34,18 @@ for (const icon of icons) {
     await fs.promises.mkdir(path.join(outputPath, path.dirname(icon)), {
         recursive: true,
     });
-    const iconSourcePath = path.join(sourcePath, icon);
+    const iconSourcePath = `${path.join(sourcePath, icon)}.png`;
     const iconOutputPath = path.join(outputPath, icon);
+    try {
+        await fs.promises.access(iconSourcePath, fs.constants.R_OK);
+    } catch (error) {
+        console.log(`Skipping "${icon}", it could not be accessed: ${error}`);
+        continue;
+    }
 
     try {
         await fs.promises.symlink(
-            path.relative(path.dirname(iconOutputPath), `${iconSourcePath}.png`),
+            path.relative(path.dirname(iconOutputPath), `${iconSourcePath}`),
             `${iconOutputPath}.png`,
         );
     } catch (error) {
