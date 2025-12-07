@@ -219,6 +219,9 @@ for (const item of itemsStatic.Rows) {
     if (itemable.Icon === undefined) {
         itemExcluded[item.Name] = 'No icon';
         continue;
+    } else if (!itemable.Icon.startsWith(iconPrefix)) {
+        // Only used for a single dev items it seems, DEV_Transform_Tool
+        continue;
     }
 
     const displayName = extractTranslation(itemable.DisplayName);

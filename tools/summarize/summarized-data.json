@@ -11488,14 +11488,6 @@
             "recipes": [],
             "ingredientIn": []
         },
-        "DEV_Transform_Tool": {
-            "displayName": "Transform Tool",
-            "icon": "isliardet/UI/Icons/FontAwesome/arrows-up-down-left-right-solid",
-            "description": "Left click to select in-world actor to transform. Use the popup to fine-tune location, rotation, and scale",
-            "isFood": false,
-            "recipes": [],
-            "ingredientIn": []
-        },
         "Dead_Ape": {
             "displayName": "Dead Ape",
             "icon": "Icons/Icon_PassiveCreature",
