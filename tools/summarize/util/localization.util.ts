@@ -33,6 +33,8 @@ function parseFunction(text: string): ParseResult | null {
                     case '\\':
                         switch (text[i + 1]) {
                             case '"':
+                            case 'r':
+                            case 'n':
                             case '\'':
                                 i++;
                                 break;
