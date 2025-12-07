@@ -12,9 +12,9 @@ jobs:
     name: Website Docker image
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Setup node
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v6.1.0
         with:
           node-version-file: package.json
       - name: Enable corepack
@@ -23,7 +23,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
       - name: Cache Yarn packages
-        uses: actions/cache@v3.3.1
+        uses: actions/cache@v4.3.0
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
