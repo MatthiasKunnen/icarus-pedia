@@ -1,6 +1,4 @@
-import {exec} from 'node:child_process';
 import * as fs from 'node:fs';
-import * as os from 'node:os';
 import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
@@ -70,57 +68,28 @@ const sizes = [
 
 const commands: Array<string> = [];
 for (const iconPath of linkedIcons) {
-    commands.push(`convert ${iconPath}.png ${iconPath}.avif`);
-    commands.push(`convert ${iconPath}.png ${iconPath}.webp`);
-    commands.push(`cjxl -d 4 -e 9 ${iconPath}.png ${iconPath}.jxl`);
+    commands.push(`magick ${iconPath}.png ${iconPath}.avif`);
+    commands.push(`magick ${iconPath}.png ${iconPath}.webp`);
+    commands.push(`cjxl --quiet -d 4 -e 9 ${iconPath}.png ${iconPath}.jxl`);
 
     for (const size of sizes) {
         const f = `${iconPath}_${size}`;
-        commands.push(`convert ${iconPath}.png -resize ${size} \
-            -define png:exclude-chunk=TIME \
-            -strip \
-            ${f}.png \
-            && convert ${f}.png ${f}.avif \
-            && convert ${f}.png ${f}.webp \
-            && cjxl -d 4 -e 9 ${f}.png ${f}.jxl`);
+        commands.push(`magick ${iconPath}.png -resize ${size} \
+-define png:exclude-chunk=TIME \
+-strip \
+${f}.png \
+&& magick ${f}.png ${f}.avif \
+&& magick ${f}.png ${f}.webp \
+&& cjxl --quiet -d 4 -e 9 ${f}.png ${f}.jxl`);
     }
 }
 
+const commandOutputFileName = 'image-convert-commands.txt';
 fs.writeFileSync(
-    path.join(dirname, 'commands.txt'),
+    path.join(dirname, '..', '..', commandOutputFileName),
     `${commands.join('\n')}\n`,
     {encoding: 'utf-8'},
 );
 
-console.log('Generating image variants');
-
-async function worker() {
-    // eslint-disable-next-line @typescript-eslint/tslint/config
-    for (;;) {
-        const command = commands.shift();
-        if (command === undefined) {
-            break;
-        }
-        await new Promise((resolve, reject) => {
-            exec(command, (error, stdout, stderr) => {
-                if (error !== null) {
-                    reject(error);
-                    return;
-                }
-
-                resolve(stdout);
-            });
-        });
-    }
-}
-
-const workers: Array<Promise<void>> = [];
-
-// eslint-disable-next-line @typescript-eslint/prefer-for-of
-for (let i = 0; i < os.cpus().length; i++) {
-    workers.push(worker());
-}
-
-await Promise.all(workers);
-
-console.log('Done');
+console.log(`Generate the image variants by executing \`parallel --progress < ${
+    commandOutputFileName}\`. Requires GNU parallel.`);

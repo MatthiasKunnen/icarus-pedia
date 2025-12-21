@@ -17,6 +17,7 @@ The game's original copyright applies to this data.
 1. Right click and select `Save Folder's Packages Textures (.png)`.
    This could take a couple of minutes and generates around 500 MB of output.
 1. Copy the `UI` folder in `fmodel_ouput_path/Exports/Icarus/Content/Assets/2DArt` to `gamedata\UI` 
-1. Run `yarn run run:tool tools/summarize/sync-icons.ts` in linux.
+1. Run `yarn run run:tool tools/summarize/sync-icons.ts`.
+1. Run the `parallel` command as shown in the output of sync-icons in linux/wsl.
 
 The 2DArt was previously (at 3398ea1d16bb8fb66dd9bf3f79a4f3ee939a9947) under s15 but was noted to be split on 2024-07-05 into multiple paks (s17/...).
