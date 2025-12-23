@@ -68,9 +68,9 @@ const sizes = [
 
 const commands: Array<string> = [];
 for (const iconPath of linkedIcons) {
-    commands.push(`magick ${iconPath}.png ${iconPath}.avif`);
-    commands.push(`magick ${iconPath}.png ${iconPath}.webp`);
-    commands.push(`cjxl --quiet -d 4 -e 9 ${iconPath}.png ${iconPath}.jxl`);
+    commands.push(pngToAvif(iconPath));
+    commands.push(pngToWebp(iconPath));
+    commands.push(pngToJxl(iconPath));
 
     for (const size of sizes) {
         const f = `${iconPath}_${size}`;
@@ -78,9 +78,9 @@ for (const iconPath of linkedIcons) {
 -define png:exclude-chunk=TIME \
 -strip \
 ${f}.png \
-&& magick ${f}.png ${f}.avif \
-&& magick ${f}.png ${f}.webp \
-&& cjxl --quiet -d 4 -e 9 ${f}.png ${f}.jxl`);
+&& ${pngToAvif(f)} \
+&& ${pngToWebp(f)} \
+&& ${pngToJxl(f)}`);
     }
 }
 
@@ -93,3 +93,15 @@ fs.writeFileSync(
 
 console.log(`Generate the image variants by executing \`parallel --progress < ${
     commandOutputFileName}\`. Requires GNU parallel.`);
+
+function pngToAvif(iconPath: string): string {
+    return `magick ${iconPath}.png ${iconPath}.avif`;
+}
+
+function pngToJxl(iconPath: string): string {
+    return `cjxl --quiet -d 4 -e 9 ${iconPath}.png ${iconPath}.jxl`;
+}
+
+function pngToWebp(iconPath: string): string {
+    return `magick ${iconPath}.png ${iconPath}.webp`;
+}
