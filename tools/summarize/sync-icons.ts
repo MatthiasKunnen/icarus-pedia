@@ -95,7 +95,7 @@ console.log(`Generate the image variants by executing \`parallel --progress < ${
     commandOutputFileName}\`. Requires GNU parallel.`);
 
 function pngToAvif(iconPath: string): string {
-    return `magick ${iconPath}.png ${iconPath}.avif`;
+    return `avifenc --jobs 1 --speed 3 -q 50 ${iconPath}.png ${iconPath}.avif > /dev/null`;
 }
 
 function pngToJxl(iconPath: string): string {
