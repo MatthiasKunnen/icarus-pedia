@@ -1,5 +1,4 @@
 Stat 'BaseFleshSacFloaterExtraDamage_+%' has only negative description.
-Mission_Stasis_Bag_Full_Ape not found in itemable
 Excluded items:
 - Cooking_Station: Blacklisted
 - Kit_Road: Blacklisted
@@ -55,7 +54,6 @@ Excluded items:
 - Slug_Spit: Not itemable
 - HammerheadSlug_Spit: Not itemable
 - Electric_Motor: No display name
-- DEV_Transform_Tool: Does not start with iconPrefix
 - AnimalCarcass_Needler_Fire: No display name
 - Ashlands_Blocker: No display name
 - DecalDeployable: No display name
@@ -67,180 +65,66 @@ Excluded items:
 - RockGolem_Gauntlet_Projectile: Not itemable
 - Mission_Stasis_Bag_Full_Ape: Not found in itemable
 - Ammo_Sniper_Round_Illumination: No display name
-Could not find static name for element { RowName: 'Thatch_Frame', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Thatch_Frame because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Wood_Frame', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Wood_Frame because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Wood_Frame', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Wood_Frame_CarpentryBench because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Wood_Frame_Refined', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Interior_Wood_Frame because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'AnimalCarcass_Rabbit_Variant_Snow',
-  DataTableName: 'D_ItemsStatic'
-}
-Excluding recipe Carcass_Rabbit_Variant_Snow because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Battery_T3', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Battery_T3 because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Battery_T4', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Battery_T4 because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Stone_Diagonal_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Stone_Diagonal_Set because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Stone_Curved_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Stone_Curved_Set because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Stone_Diagonal_Curved_Wall_Angles',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Stone_Diagonal_Curved_Wall_Angles because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Stone_Wall_Curved', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Stone_Wall_Curved because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Stone_Advanced_Beams_Set',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Stone_Advanced_Beams_Set because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Stone_Roof_CurvedAngles', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Stone_Roof_CurvedAngles because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Scoria_Diagonal_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Scoria_Diagonal_Set because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Scoria_Curved_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Scoria_Curved_Set because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Scoria_Diagonal_Curved_Wall_Angles',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Scoria_Diagonal_Curved_Wall_Angles because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Scoria_Roof_CurvedAngles',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Scoria_Roof_CurvedAngles because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Scoria_Wall_Curved', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Scoria_Wall_Curved because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Scoria_Advanced_Beam_Set',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Scoria_Advanced_Beam_Set because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Ice_Half_Pitch', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Ice_Half_Pitch because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Ice_Diagonal_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Ice_Diagonal_Set because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Ice_Curved_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Ice_Curved_Set because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Ice_Diagonal_Curved_Wall_Angles',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Ice_Diagonal_Curved_Wall_Angles because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Ice_Roof_CurvedAngles', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Ice_Roof_CurvedAngles because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Ice_Wall_Curved', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Ice_Wall_Curved because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Ice_Advanced_Beam_Set', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Ice_Advanced_Beam_Set because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Advanced_Butchery_Bench', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Advanced_Butchery_Bench because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Food_Silo', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Silo because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Quilted_Bed', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Quilted_Bed because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Farm_Railing', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Farm_Railing because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Farm_Railing_Gate',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Farm_Railing_Gate because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Swing_Chair', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Swing_Chair because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Soft_Sofa_Single',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Soft_Sofa_Single because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Soft_Sofa_Double',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Soft_Sofa_Double because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Spawn_Blocker_Scarecrow',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Spawn_Blocker_Scarecrow because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_PlanterBox_SML',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_PlanterBox_SML because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Water_Tank', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Water_Tank because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Cabinet', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Cabinet because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Cabinet_LRG', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Cabinet_LRG because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_BirdFeeder', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_BirdFeeder because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Sewing_Machine',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Sewing_Machine because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Ranch_Sign', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Ranch_Sign because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Ranch_Gate_Sign',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Ranch_Gate_Sign because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Vintage_Jar', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Vintage_Jar because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Honey_Pot', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Honey_Pot because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Butter_Churn', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Butter_Churn because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Coffee_Grinder',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Coffee_Grinder because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Cheese', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Cheese because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Hanging_Meat', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Hanging_Meat because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Rocking_Chair_Single',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Rocking_Chair_Single because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Rocking_Chair_Double',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Rocking_Chair_Double because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Picnic_Table', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Picnic_Table because not all inputs and outputs could be found.
-Could not find static name for element {
-  RowName: 'Homestead_Barbed_Wire_Fence',
-  DataTableName: 'D_ItemTemplate'
-}
-Excluding recipe Homestead_Barbed_Wire_Fence because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Lamp_Ground', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Lamp_Ground because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'Homestead_Lamp_Wall', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Homestead_Lamp_Wall because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'MinerArmor_Head', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Miner_Armor_Head because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'MinerArmor_Chest', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Miner_Armor_Chest because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'MinerArmor_Arms', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Miner_Armor_Arms because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'MinerArmor_Legs', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Miner_Armor_Legs because not all inputs and outputs could be found.
-Could not find static name for element { RowName: 'MinerArmor_Feet', DataTableName: 'D_ItemTemplate' }
-Excluding recipe Miner_Armor_Feet because not all inputs and outputs could be found.
+Could not find static name for element with RowName=Thatch_Frame, DataTableName=D_ItemTemplate while processing recipe Thatch_Frame
+Could not find static name for element with RowName=Wood_Frame, DataTableName=D_ItemTemplate while processing recipe Wood_Frame
+Could not find static name for element with RowName=Wood_Frame, DataTableName=D_ItemTemplate while processing recipe Wood_Frame_CarpentryBench
+Could not find static name for element with RowName=Wood_Frame_Refined, DataTableName=D_ItemTemplate while processing recipe Interior_Wood_Frame
+Could not find static name for element with RowName=AnimalCarcass_Rabbit_Variant_Snow, DataTableName=D_ItemsStatic while processing recipe Carcass_Rabbit_Variant_Snow
+Could not find static name for element with RowName=Battery_T3, DataTableName=D_ItemTemplate while processing recipe Battery_T3
+Could not find static name for element with RowName=Battery_T4, DataTableName=D_ItemTemplate while processing recipe Battery_T4
+Could not find static name for element with RowName=Stone_Diagonal_Set, DataTableName=D_ItemTemplate while processing recipe Stone_Diagonal_Set
+Could not find static name for element with RowName=Stone_Curved_Set, DataTableName=D_ItemTemplate while processing recipe Stone_Curved_Set
+Could not find static name for element with RowName=Stone_Diagonal_Curved_Wall_Angles, DataTableName=D_ItemTemplate while processing recipe Stone_Diagonal_Curved_Wall_Angles
+Could not find static name for element with RowName=Stone_Wall_Curved, DataTableName=D_ItemTemplate while processing recipe Stone_Wall_Curved
+Could not find static name for element with RowName=Stone_Advanced_Beams_Set, DataTableName=D_ItemTemplate while processing recipe Stone_Advanced_Beams_Set
+Could not find static name for element with RowName=Stone_Roof_CurvedAngles, DataTableName=D_ItemTemplate while processing recipe Stone_Roof_CurvedAngles
+Could not find static name for element with RowName=Scoria_Diagonal_Set, DataTableName=D_ItemTemplate while processing recipe Scoria_Diagonal_Set
+Could not find static name for element with RowName=Scoria_Curved_Set, DataTableName=D_ItemTemplate while processing recipe Scoria_Curved_Set
+Could not find static name for element with RowName=Scoria_Diagonal_Curved_Wall_Angles, DataTableName=D_ItemTemplate while processing recipe Scoria_Diagonal_Curved_Wall_Angles
+Could not find static name for element with RowName=Scoria_Roof_CurvedAngles, DataTableName=D_ItemTemplate while processing recipe Scoria_Roof_CurvedAngles
+Could not find static name for element with RowName=Scoria_Wall_Curved, DataTableName=D_ItemTemplate while processing recipe Scoria_Wall_Curved
+Could not find static name for element with RowName=Scoria_Advanced_Beam_Set, DataTableName=D_ItemTemplate while processing recipe Scoria_Advanced_Beam_Set
+Could not find static name for element with RowName=Ice_Half_Pitch, DataTableName=D_ItemTemplate while processing recipe Ice_Half_Pitch
+Could not find static name for element with RowName=Ice_Diagonal_Set, DataTableName=D_ItemTemplate while processing recipe Ice_Diagonal_Set
+Could not find static name for element with RowName=Ice_Curved_Set, DataTableName=D_ItemTemplate while processing recipe Ice_Curved_Set
+Could not find static name for element with RowName=Ice_Diagonal_Curved_Wall_Angles, DataTableName=D_ItemTemplate while processing recipe Ice_Diagonal_Curved_Wall_Angles
+Could not find static name for element with RowName=Ice_Roof_CurvedAngles, DataTableName=D_ItemTemplate while processing recipe Ice_Roof_CurvedAngles
+Could not find static name for element with RowName=Ice_Wall_Curved, DataTableName=D_ItemTemplate while processing recipe Ice_Wall_Curved
+Could not find static name for element with RowName=Ice_Advanced_Beam_Set, DataTableName=D_ItemTemplate while processing recipe Ice_Advanced_Beam_Set
+Could not find static name for element with RowName=Advanced_Butchery_Bench, DataTableName=D_ItemTemplate while processing recipe Advanced_Butchery_Bench
+Could not find static name for element with RowName=Homestead_Food_Silo, DataTableName=D_ItemTemplate while processing recipe Homestead_Silo
+Could not find static name for element with RowName=Homestead_Quilted_Bed, DataTableName=D_ItemTemplate while processing recipe Homestead_Quilted_Bed
+Could not find static name for element with RowName=Homestead_Farm_Railing, DataTableName=D_ItemTemplate while processing recipe Homestead_Farm_Railing
+Could not find static name for element with RowName=Homestead_Farm_Railing_Gate, DataTableName=D_ItemTemplate while processing recipe Homestead_Farm_Railing_Gate
+Could not find static name for element with RowName=Homestead_Swing_Chair, DataTableName=D_ItemTemplate while processing recipe Homestead_Swing_Chair
+Could not find static name for element with RowName=Homestead_Soft_Sofa_Single, DataTableName=D_ItemTemplate while processing recipe Homestead_Soft_Sofa_Single
+Could not find static name for element with RowName=Homestead_Soft_Sofa_Double, DataTableName=D_ItemTemplate while processing recipe Homestead_Soft_Sofa_Double
+Could not find static name for element with RowName=Homestead_Spawn_Blocker_Scarecrow, DataTableName=D_ItemTemplate while processing recipe Homestead_Spawn_Blocker_Scarecrow
+Could not find static name for element with RowName=Homestead_PlanterBox_SML, DataTableName=D_ItemTemplate while processing recipe Homestead_PlanterBox_SML
+Could not find static name for element with RowName=Homestead_Water_Tank, DataTableName=D_ItemTemplate while processing recipe Homestead_Water_Tank
+Could not find static name for element with RowName=Homestead_Cabinet, DataTableName=D_ItemTemplate while processing recipe Homestead_Cabinet
+Could not find static name for element with RowName=Homestead_Cabinet_LRG, DataTableName=D_ItemTemplate while processing recipe Homestead_Cabinet_LRG
+Could not find static name for element with RowName=Homestead_BirdFeeder, DataTableName=D_ItemTemplate while processing recipe Homestead_BirdFeeder
+Could not find static name for element with RowName=Homestead_Sewing_Machine, DataTableName=D_ItemTemplate while processing recipe Homestead_Sewing_Machine
+Could not find static name for element with RowName=Homestead_Ranch_Sign, DataTableName=D_ItemTemplate while processing recipe Homestead_Ranch_Sign
+Could not find static name for element with RowName=Homestead_Ranch_Gate_Sign, DataTableName=D_ItemTemplate while processing recipe Homestead_Ranch_Gate_Sign
+Could not find static name for element with RowName=Homestead_Vintage_Jar, DataTableName=D_ItemTemplate while processing recipe Homestead_Vintage_Jar
+Could not find static name for element with RowName=Homestead_Honey_Pot, DataTableName=D_ItemTemplate while processing recipe Homestead_Honey_Pot
+Could not find static name for element with RowName=Homestead_Butter_Churn, DataTableName=D_ItemTemplate while processing recipe Homestead_Butter_Churn
+Could not find static name for element with RowName=Homestead_Coffee_Grinder, DataTableName=D_ItemTemplate while processing recipe Homestead_Coffee_Grinder
+Could not find static name for element with RowName=Homestead_Cheese, DataTableName=D_ItemTemplate while processing recipe Homestead_Cheese
+Could not find static name for element with RowName=Homestead_Hanging_Meat, DataTableName=D_ItemTemplate while processing recipe Homestead_Hanging_Meat
+Could not find static name for element with RowName=Homestead_Rocking_Chair_Single, DataTableName=D_ItemTemplate while processing recipe Homestead_Rocking_Chair_Single
+Could not find static name for element with RowName=Homestead_Rocking_Chair_Double, DataTableName=D_ItemTemplate while processing recipe Homestead_Rocking_Chair_Double
+Could not find static name for element with RowName=Homestead_Picnic_Table, DataTableName=D_ItemTemplate while processing recipe Homestead_Picnic_Table
+Could not find static name for element with RowName=Homestead_Barbed_Wire_Fence, DataTableName=D_ItemTemplate while processing recipe Homestead_Barbed_Wire_Fence
+Could not find static name for element with RowName=Homestead_Lamp_Ground, DataTableName=D_ItemTemplate while processing recipe Homestead_Lamp_Ground
+Could not find static name for element with RowName=Homestead_Lamp_Wall, DataTableName=D_ItemTemplate while processing recipe Homestead_Lamp_Wall
+Could not find static name for element with RowName=MinerArmor_Head, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Head
+Could not find static name for element with RowName=MinerArmor_Chest, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Chest
+Could not find static name for element with RowName=MinerArmor_Arms, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Arms
+Could not find static name for element with RowName=MinerArmor_Legs, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Legs
+Could not find static name for element with RowName=MinerArmor_Feet, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Feet
 Of the non-excluded items, 1740 are usable in crafting, the following 629 are not:
 - Kit_Concrete_Furnace
 - Kit_Electric_Furnace

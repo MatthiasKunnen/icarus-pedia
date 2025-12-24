@@ -3,10 +3,12 @@ interface ParseResult {
     arguments: Array<string>;
 }
 
-function parseFunction(text: string): ParseResult | null {
+function parseFunction(
+    text: string,
+): [parsed: null, error: Error] | [parsed: ParseResult, error: null] {
     const openParenIndex = text.indexOf('(');
     if (openParenIndex === -1) {
-        return null;
+        return [null, new Error('No opening parenthese')];
     }
 
     const functionName = text.substring(0, openParenIndex);
@@ -39,7 +41,9 @@ function parseFunction(text: string): ParseResult | null {
                                 i++;
                                 break;
                             default:
-                                console.error(`Unknown escaped char: ${text[i + 1]} in ${text}`);
+                                return [null, new Error(
+                                    `Unknown escaped char: ${text[i + 1]} in ${text}`,
+                                )];
                         }
                         break;
                     case '"':
@@ -65,36 +69,41 @@ function parseFunction(text: string): ParseResult | null {
                             args.push(argument);
                         }
 
-                        return {
-                            functionName,
-                            arguments: args,
-                        };
+                        return [
+                            {
+                                functionName,
+                                arguments: args,
+                            },
+                            null,
+                        ];
                     default:
                         argument += char;
                 }
         }
     }
 
-    console.error(`Failed to parse function "${text}"`);
-
-    return null;
+    return [null, new Error(`Failed to parse function "${text}"`)];
 }
 
-export function extractTranslation(fn: string | undefined): string | undefined {
+export function extractTranslation(
+    fn: string | undefined,
+): [string | undefined, null] | [undefined, Error] {
     if (fn === undefined) {
-        return undefined;
+        return [undefined, null];
     }
 
-    const parsed = parseFunction(fn);
-
-    if (parsed === null) {
-        return undefined;
+    const [parsed, err] = parseFunction(fn);
+    if (err !== null) {
+        return [undefined, err];
     }
 
     switch (parsed.functionName) {
         case 'NSLOCTEXT':
-            return parsed.arguments[2];
+            if (parsed.arguments[2] === undefined) {
+                return [undefined, new Error('No third argument in NSLOCTEXT')];
+            }
+            return [parsed.arguments[2], null];
         default:
-            return undefined;
+            return [undefined, null];
     }
 }

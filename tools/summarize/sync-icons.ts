@@ -2,97 +2,109 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
+import {LogWriter} from './util/logwriter.js';
 import type {GameData} from '../../src/lib/data.interface.js';
 
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const outputPath = path.join(dirname, '..', '..', 'static', 'gameicons');
 const sourcePath = path.join(dirname, '..', '..', 'gamedata', 'UI');
+const log = new LogWriter(path.join(dirname, 'sync-icons.ts'));
 
-const data: GameData = JSON.parse(fs.readFileSync(
-    path.join(dirname, 'summarized-data.json'),
-    {encoding: 'utf-8'},
-));
-const icons = [
-    ...Object.values(data.items).map(item => item.icon),
-    ...Object.values(data.crafters).map(item => item.icon),
-];
-icons.push('Logos/Icon_Icarus');
+(async () => {
+    const data: GameData = JSON.parse(fs.readFileSync(
+        path.join(dirname, 'summarized-data.json'),
+        {encoding: 'utf-8'},
+    ));
+    const icons = [
+        ...Object.values(data.items).map(item => item.icon),
+        ...Object.values(data.crafters).map(item => item.icon),
+    ];
+    icons.push('Logos/Icon_Icarus');
 
-console.log('Cleaning output path');
-for (const filename of await fs.promises.readdir(outputPath)) {
-    const filepath = path.join(outputPath, filename);
-    await fs.promises.rm(filepath, {
-        recursive: true,
-    });
-}
-
-const linkedIcons: Array<string> = [];
-console.log('Creating symlinks');
-for (const icon of icons) {
-    await fs.promises.mkdir(path.join(outputPath, path.dirname(icon)), {
-        recursive: true,
-    });
-    const iconSourcePath = `${path.join(sourcePath, icon)}.png`;
-    const iconOutputPath = path.join(outputPath, icon);
-    try {
-        await fs.promises.access(iconSourcePath, fs.constants.R_OK);
-    } catch (error) {
-        console.log(`Skipping "${icon}", it could not be accessed: ${error}`);
-        continue;
+    log.print('Cleaning output path');
+    for (const filename of await fs.promises.readdir(outputPath)) {
+        const filepath = path.join(outputPath, filename);
+        await fs.promises.rm(filepath, {
+            recursive: true,
+        });
     }
 
-    try {
-        await fs.promises.symlink(
-            path.relative(path.dirname(iconOutputPath), `${iconSourcePath}`),
-            `${iconOutputPath}.png`,
-        );
-    } catch (error) {
-        if (error != null
-            && typeof error === 'object'
-            && 'code' in error
-            && typeof error.code === 'string'
-            && error.code === 'EEXIST') {
+    const linkedIcons: Array<string> = [];
+    log.print('Creating symlinks');
+    for (const icon of icons) {
+        await fs.promises.mkdir(path.join(outputPath, path.dirname(icon)), {
+            recursive: true,
+        });
+        const iconSourcePath = `${path.join(sourcePath, icon)}.png`;
+        const iconOutputPath = path.join(outputPath, icon);
+        try {
+            await fs.promises.access(iconSourcePath, fs.constants.R_OK);
+        } catch (error) {
+            log.print(`Skipping "${icon}", it could not be accessed: ${error}`);
             continue;
-        } else {
-            throw error;
         }
+
+        try {
+            await fs.promises.symlink(
+                path.relative(path.dirname(iconOutputPath), `${iconSourcePath}`),
+                `${iconOutputPath}.png`,
+            );
+        } catch (error) {
+            if (error != null
+                && typeof error === 'object'
+                && 'code' in error
+                && typeof error.code === 'string'
+                && error.code === 'EEXIST') {
+                continue;
+            } else {
+                throw error;
+            }
+        }
+
+        linkedIcons.push(iconOutputPath);
     }
 
-    linkedIcons.push(iconOutputPath);
-}
+    const sizes = [
+        '64x64',
+        '128x128',
+    ];
 
-const sizes = [
-    '64x64',
-    '128x128',
-];
+    const commands: Array<string> = [];
+    for (const iconPath of linkedIcons) {
+        commands.push(pngToAvif(iconPath));
+        commands.push(pngToWebp(iconPath));
+        commands.push(pngToJxl(iconPath));
 
-const commands: Array<string> = [];
-for (const iconPath of linkedIcons) {
-    commands.push(pngToAvif(iconPath));
-    commands.push(pngToWebp(iconPath));
-    commands.push(pngToJxl(iconPath));
-
-    for (const size of sizes) {
-        const f = `${iconPath}_${size}`;
-        commands.push(`magick ${iconPath}.png -resize ${size} \
+        for (const size of sizes) {
+            const f = `${iconPath}_${size}`;
+            commands.push(`magick ${iconPath}.png -resize ${size} \
 -define png:exclude-chunk=TIME \
 -strip \
 ${f}.png \
 && ${pngToAvif(f)} \
 && ${pngToWebp(f)} \
 && ${pngToJxl(f)}`);
+        }
     }
-}
 
-const commandOutputFileName = 'image-convert-commands.txt';
-fs.writeFileSync(
-    path.join(dirname, '..', '..', commandOutputFileName),
-    `${commands.join('\n')}\n`,
-    {encoding: 'utf-8'},
-);
+    const commandOutputFileName = 'image-convert-commands.txt';
+    fs.writeFileSync(
+        path.join(dirname, '..', '..', commandOutputFileName),
+        `${commands.join('\n')}\n`,
+        {encoding: 'utf-8'},
+    );
 
-console.log(`Generate the image variants by executing \`parallel --progress < ${
-    commandOutputFileName}\`. Requires GNU parallel.`);
+    log.print(`Generate the image variants by executing \`parallel --progress < ${
+        commandOutputFileName}\`. Requires GNU parallel.`);
+})().catch(async err => {
+    if (err instanceof Error) {
+        await log.fatal(err.toString());
+    } else {
+        await log.fatal(String(err));
+    }
+
+    process.exit(1);
+});
 
 function pngToAvif(iconPath: string): string {
     return `avifenc --jobs 1 --speed 3 -q 50 ${iconPath}.png ${iconPath}.avif > /dev/null`;
