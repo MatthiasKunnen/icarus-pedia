@@ -5,13 +5,17 @@
 
 </script>
 <svelte:head>
-    <title>Craftable Items | IcarusPedia</title>
+    <title>Crafting Items | IcarusPedia</title>
 </svelte:head>
 
-<h1>All Craftable Icarus Items</h1>
+<h1>All Crafting Items</h1>
+<p>
+    This page contains all items in Icarus that can be crafted or are used as a crafting
+    ingredient.
+</p>
 <p>Other lists of Icarus items:</p>
 <ul class="list">
-    <li><a href="/Items/All" class="link">All items including non-craftable experimental items</a></li>
+    <li><a href="/Items/All" class="link">All items including non-usable experimental items</a></li>
 </ul>
 
 <div class="items">

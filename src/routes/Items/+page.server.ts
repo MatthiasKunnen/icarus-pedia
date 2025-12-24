@@ -5,7 +5,7 @@ export const load = async () => {
 
     return {
         items: Object.entries(data.items)
-            .filter(([_, item]) => item.recipes.length > 0)
+            .filter(([_, item]) => item.usable !== false)
             .map(([itemId, item]) => [
                 itemId,
                 {

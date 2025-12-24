@@ -289,6 +289,7 @@ for (const item of itemsStatic.Rows) {
         ingredientIn: [],
         stats: Object.keys(itemStats).length > 0 ? itemStats : undefined,
         modifier: modifier ?? undefined,
+        usable: undefined,
     };
 }
 
@@ -422,6 +423,58 @@ for (const statName of stats.keys()) {
     }
 
     stats.delete(statName);
+}
+
+// Weed out items that are not craftable/used in recipes
+const usabilityChecked = new Set<string>();
+function markUsableRecursive(itemName: string, item: OutputItem): void {
+    if (usabilityChecked.has(itemName)) {
+        return;
+    }
+    usabilityChecked.add(itemName);
+    if (item.recipes.length > 0 || item.ingredientIn.length > 0) {
+        item.usable = true;
+    }
+
+    for (const recipeName of item.recipes) {
+        const recipe = mappedRecipes[recipeName];
+        if (recipe === undefined) {
+            console.error(`Recipe of item ${itemName} with recipe name ${
+                recipeName} not found in usability check`);
+            continue;
+        }
+        for (const input of recipe.inputs) {
+            const mappedItem = mappedItems[input.item];
+            if (mappedItem === undefined) {
+                console.error(`Recipe input of item ${input.item}, recipe ${
+                    recipeName}, item ${input.item} not found in usability check`);
+                continue;
+            }
+
+            markUsableRecursive(input.item, mappedItem);
+        }
+    }
+}
+for (const [name, item] of Object.entries(mappedItems)) {
+    // First mark everything
+    markUsableRecursive(name, item);
+}
+let usable = 0;
+const unusable: Array<string> = [];
+for (const [itemName, item] of Object.entries(mappedItems)) {
+    if (item.usable === true) {
+        usable++;
+        // Undefined equals usable, this is done to decrease the size of the resulting output
+        item.usable = undefined;
+    } else {
+        item.usable = false;
+        unusable.push(itemName);
+    }
+}
+console.log(`Of the non-excluded items, ${usable} are usable in crafting, the following ${
+    unusable.length} are not:`);
+for (const itemName of unusable) {
+    console.log(`- ${itemName}`);
 }
 
 const gameData: GameData = {

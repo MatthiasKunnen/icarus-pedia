@@ -6,12 +6,12 @@
 </script>
 
 <svelte:head>
-    <title>All Items | IcarusPedia</title>
+    <title>All Items (including unusable) | IcarusPedia</title>
 </svelte:head>
 
-<h1>All Icarus Items</h1>
+<h1>All Icarus Items (including unusable)</h1>
 <p>
-    This includes items that are experimental and not craftable. For a list of craftable items, go
+    This includes items that are experimental and not craftable. For a list of crafting items, go
     <a href="/Items" class="link">here</a>.
 </p>
 

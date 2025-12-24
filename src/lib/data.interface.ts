@@ -7,6 +7,11 @@ export interface Crafter {
 export interface Item {
     crafter: string | undefined;
     displayName: string;
+    /**
+     * Whether the item can be crafted or is used in a recipe.
+     * Undefined and true means usable.
+     */
+    usable: boolean | undefined;
     icon: string;
     description: string | undefined;
     flavorText: string | undefined;
