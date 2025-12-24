@@ -47,3 +47,7 @@ local/
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Summarize logs
+!/tools/summarize/summarized-data.log
+!/tools/summarize/sync-icons.log

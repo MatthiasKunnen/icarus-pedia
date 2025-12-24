@@ -1,0 +1,3 @@
+Cleaning output path
+Creating symlinks
+Generate the image variants by executing `parallel --progress < image-convert-commands.txt`. Requires GNU parallel.

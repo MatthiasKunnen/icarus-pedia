@@ -1,0 +1,873 @@
+Stat 'BaseFleshSacFloaterExtraDamage_+%' has only negative description.
+Mission_Stasis_Bag_Full_Ape not found in itemable
+Excluded items:
+- Cooking_Station: Blacklisted
+- Kit_Road: Blacklisted
+- DEV_Fireball: Blacklisted
+- DEV_Inspection_Tool: Blacklisted
+- DEV_Bug_Tool: Blacklisted
+- Spacesuit_Cap_Male: Not itemable
+- Spacesuit_Cap_Female: Not itemable
+- Spacesuit_Cap_Male_01: Not itemable
+- Spacesuit_Cap_Female_01: Not itemable
+- Spacesuit_Cap_Male_02: Not itemable
+- Spacesuit_Cap_Female_02: Not itemable
+- Spacesuit_Cap_Male_03: Not itemable
+- Spacesuit_Cap_Female_03: Not itemable
+- Spacesuit_Male: Not itemable
+- Spacesuit_Female: Not itemable
+- Debug_Target: Blacklisted
+- Player_Gravestone_MIA: Blacklisted
+- Player_Gravestone_DBNO: Blacklisted
+- Skin_Head_Female_01: Not itemable
+- Skin_Head_Female_02: Not itemable
+- Skin_Head_Female_03: Not itemable
+- Skin_Head_Female_04: Not itemable
+- Skin_Head_Female_05: Not itemable
+- Skin_Head_Female_06: Not itemable
+- Skin_Head_Male_01: Not itemable
+- Skin_Head_Male_02: Not itemable
+- Skin_Head_Male_03: Not itemable
+- Skin_Head_Male_04: Not itemable
+- Skin_Head_Male_05: Not itemable
+- Skin_Head_Male_06: Not itemable
+- Glassworking_Bench: Blacklisted
+- SandWorm_Spit: Not itemable
+- SandWorm_Spit_Large: Not itemable
+- SandWorm_Spit_Multi: Not itemable
+- CaveWorm_Spit: Not itemable
+- TeenageCaveWorm_Spit: Not itemable
+- Electric_Dehumidifier: Blacklisted
+- Faction_MIssion_Analyzer: Blacklisted
+- Faction_Mission_Mammoth_Sample: Blacklisted
+- Faction_Mission_Frozen_Mammoth_Sample: Blacklisted
+- Caveworm_Spit_Large: Not itemable
+- Dropship_Grenade_Flare: Not itemable
+- Landshark_Spit: Not itemable
+- Landshark_Spit_Large: Not itemable
+- Needler_Spike: Not itemable
+- LavaHunter_Spit: Not itemable
+- GasFlyer_Projectile: Not itemable
+- Rockdog_Spit: Not itemable
+- Spider_Web: Not itemable
+- IceMammoth_Ice_Projectile: Not itemable
+- RockGolem_Ceiling_Rock: Not itemable
+- Slug_Spit: Not itemable
+- HammerheadSlug_Spit: Not itemable
+- Electric_Motor: No display name
+- DEV_Transform_Tool: Does not start with iconPrefix
+- AnimalCarcass_Needler_Fire: No display name
+- Ashlands_Blocker: No display name
+- DecalDeployable: No display name
+- GreatApe_Rock_Projectile: Not itemable
+- GreatApe_Rock_Projectile_Fast: Not itemable
+- GreatApe_Log_Projectile: Not itemable
+- SlugLauncher_Ammo: Not itemable
+- Flamethrower_Fireball: Not itemable
+- RockGolem_Gauntlet_Projectile: Not itemable
+- Mission_Stasis_Bag_Full_Ape: Not found in itemable
+- Ammo_Sniper_Round_Illumination: No display name
+Could not find static name for element { RowName: 'Thatch_Frame', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Thatch_Frame because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Wood_Frame', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Wood_Frame because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Wood_Frame', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Wood_Frame_CarpentryBench because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Wood_Frame_Refined', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Interior_Wood_Frame because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'AnimalCarcass_Rabbit_Variant_Snow',
+  DataTableName: 'D_ItemsStatic'
+}
+Excluding recipe Carcass_Rabbit_Variant_Snow because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Battery_T3', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Battery_T3 because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Battery_T4', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Battery_T4 because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Stone_Diagonal_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Stone_Diagonal_Set because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Stone_Curved_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Stone_Curved_Set because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Stone_Diagonal_Curved_Wall_Angles',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Stone_Diagonal_Curved_Wall_Angles because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Stone_Wall_Curved', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Stone_Wall_Curved because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Stone_Advanced_Beams_Set',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Stone_Advanced_Beams_Set because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Stone_Roof_CurvedAngles', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Stone_Roof_CurvedAngles because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Scoria_Diagonal_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Scoria_Diagonal_Set because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Scoria_Curved_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Scoria_Curved_Set because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Scoria_Diagonal_Curved_Wall_Angles',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Scoria_Diagonal_Curved_Wall_Angles because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Scoria_Roof_CurvedAngles',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Scoria_Roof_CurvedAngles because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Scoria_Wall_Curved', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Scoria_Wall_Curved because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Scoria_Advanced_Beam_Set',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Scoria_Advanced_Beam_Set because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Ice_Half_Pitch', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Ice_Half_Pitch because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Ice_Diagonal_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Ice_Diagonal_Set because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Ice_Curved_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Ice_Curved_Set because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Ice_Diagonal_Curved_Wall_Angles',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Ice_Diagonal_Curved_Wall_Angles because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Ice_Roof_CurvedAngles', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Ice_Roof_CurvedAngles because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Ice_Wall_Curved', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Ice_Wall_Curved because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Ice_Advanced_Beam_Set', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Ice_Advanced_Beam_Set because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Advanced_Butchery_Bench', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Advanced_Butchery_Bench because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Food_Silo', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Silo because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Quilted_Bed', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Quilted_Bed because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Farm_Railing', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Farm_Railing because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Farm_Railing_Gate',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Farm_Railing_Gate because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Swing_Chair', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Swing_Chair because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Soft_Sofa_Single',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Soft_Sofa_Single because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Soft_Sofa_Double',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Soft_Sofa_Double because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Spawn_Blocker_Scarecrow',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Spawn_Blocker_Scarecrow because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_PlanterBox_SML',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_PlanterBox_SML because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Water_Tank', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Water_Tank because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Cabinet', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Cabinet because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Cabinet_LRG', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Cabinet_LRG because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_BirdFeeder', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_BirdFeeder because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Sewing_Machine',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Sewing_Machine because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Ranch_Sign', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Ranch_Sign because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Ranch_Gate_Sign',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Ranch_Gate_Sign because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Vintage_Jar', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Vintage_Jar because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Honey_Pot', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Honey_Pot because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Butter_Churn', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Butter_Churn because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Coffee_Grinder',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Coffee_Grinder because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Cheese', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Cheese because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Hanging_Meat', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Hanging_Meat because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Rocking_Chair_Single',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Rocking_Chair_Single because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Rocking_Chair_Double',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Rocking_Chair_Double because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Picnic_Table', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Picnic_Table because not all inputs and outputs could be found.
+Could not find static name for element {
+  RowName: 'Homestead_Barbed_Wire_Fence',
+  DataTableName: 'D_ItemTemplate'
+}
+Excluding recipe Homestead_Barbed_Wire_Fence because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Lamp_Ground', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Lamp_Ground because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'Homestead_Lamp_Wall', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Homestead_Lamp_Wall because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'MinerArmor_Head', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Miner_Armor_Head because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'MinerArmor_Chest', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Miner_Armor_Chest because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'MinerArmor_Arms', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Miner_Armor_Arms because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'MinerArmor_Legs', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Miner_Armor_Legs because not all inputs and outputs could be found.
+Could not find static name for element { RowName: 'MinerArmor_Feet', DataTableName: 'D_ItemTemplate' }
+Excluding recipe Miner_Armor_Feet because not all inputs and outputs could be found.
+Of the non-excluded items, 1740 are usable in crafting, the following 629 are not:
+- Kit_Concrete_Furnace
+- Kit_Electric_Furnace
+- Kit_Radar
+- Envirosuit
+- Envirosuit_Sand
+- Envirosuit_Deluxe
+- Envirosuit_Shengong
+- Envirosuit_Shengong_2
+- Molotov
+- DropShip
+- Bed_Wood
+- Meta_Axe
+- Meta_Pickaxe
+- Meta_Knife
+- Raw_Fish
+- Cooked_Fish
+- AnimalCarcass_Bear
+- AnimalCarcass_Elephant
+- Wood_Railing_Gate_Refined
+- Module_Player_Tracker
+- Rocket_Part_Top_Mk1
+- Rocket_Part_Mid_Mk1
+- Rocket_Part_Bot_Mk1
+- AnimalCarcass_PolarBear
+- Envirosuit_Tier2
+- Envirosuit_Tier3
+- Envirosuit_Tier4
+- Envirosuit_Tier5
+- Envirosuit_Tier6
+- Envirosuit_Tier7
+- Glass_Bottle_Beer
+- Glass_Bottle_Wine
+- Thermos_IceWater
+- Carbon_Chest
+- Carbon_Arms
+- Carbon_Legs
+- Carbon_Feet
+- Carbon_Head
+- Rocket_Part_Mid_RespawnPod
+- AnimalCarcass_Cougar_Alpha
+- DebugViking
+- Player_Fist
+- DEV_Pyromancy_Flame
+- AnimalCarcass_Mammoth
+- WildSeed_Lily
+- Rug_AlphaWolf
+- Paste_Health_Regen
+- Paste_Health_Buff
+- Paste_Health_Restore
+- Paste_Stamina_Regen
+- Paste_Stamina_Buff
+- Paste_Stamina_Restore
+- Paste_Stamina_Consumption
+- Paste_Oxygen_Buff
+- Paste_Oxygen_Restore
+- Paste_Oxygen_Consumption
+- Paste_Food_Consumption
+- Paste_Water_Consumption
+- AnimalCarcass_DeerLarge
+- AnimalCarcass_DeerDesertLarge
+- AnimalCarcass_Alpha_Wolf
+- AnimalCarcass_Alpha_Snow_Wolf
+- AnimalCarcass_Alpha_Desert_Wolf
+- Antiseptic_Paste
+- Antipoison_Item
+- Blood_Thinner
+- AnimalCarcass_SnowLeopard_Alpha
+- AnimalCarcass_Jaguar_Black
+- Bio_Needle
+- Faction_Mission_Drill
+- Wood_Build_HalfNormal
+- AnimalCarcass_Pack_Wolf
+- Survey_Radar
+- Faction_Mission_AquaScanner
+- Survey_Transmitter
+- AnimalCarcass_Zebra_Mount
+- Meta_Ration
+- Meta_Super_Ration
+- Meta_Soda
+- Meta_Oxygen_Gel
+- Meta_Stamina_Gel
+- Wood_Build_HalfPitch
+- Meta_Module_PlayerTracker
+- Meta_Module_Movement
+- Meta_Module_Carry_Weight
+- Meta_Module_Poison_Resistance
+- Meta_Module_Fire_Resistance
+- Meta_Module_Inventory_Slots
+- Meta_Module_Inventory_Slots_2
+- Meta_Module_Consumption
+- Meta_Module_Fall_Damage
+- Meta_Axe_Shengong_Alpha
+- Meta_Axe_Shengong_Beta
+- Meta_Axe_Shengong_Charlie
+- Meta_Axe_Shengong_Echo
+- Meta_Pickaxe_Shengong_Alpha
+- Meta_Pickaxe_Shengong_Beta
+- Meta_Pickaxe_Shengong_Charlie
+- Meta_Pickaxe_Shengong_Delta
+- Meta_Pickaxe_Shengong_Echo
+- Meta_Knife_Shengong_Alpha
+- Meta_Knife_Shengong_Beta
+- Meta_Knife_Shengong_Charlie
+- Meta_Knife_Shengong_Delta
+- Meta_Knife_Shengong_Echo
+- Food_Fish_Dish
+- Food_Crumbed_Fish_Fillet
+- AnimalCarcass_Buffalo
+- Meta_Spear_Shengong_Alpha
+- Meta_Spear_Shengong_Beta
+- Meta_Spear_Shengong_Charlie
+- Meta_Spear_Shengong_Delta
+- Meta_Spear_Shengong_Echo
+- Meta_Hammer_Shengong_Alpha
+- Meta_Hammer_Shengong_Beta
+- Meta_Bow_Shengong_Alpha
+- Meta_Bow_Shengong_Beta
+- Meta_Bow_Shengong_Charlie
+- Meta_Bow_Shengong_Delta
+- Meta_Bow_Shengong_Echo
+- Meta_Arrow_Shengong
+- Meta_Arrow_Set_Shengong
+- Meta_Canteen_Shengong
+- Meta_Bandage_Shengong
+- Meta_Oxygen_Tank_Shengong
+- Meta_Axe_Printed
+- Meta_Knife_Printed
+- Meta_Pickaxe_Printed
+- Meta_Spear_Printed
+- Meta_Firewhacker_Printed
+- Meta_Arrow_Set_Printed_Alpha
+- Meta_Arrow_Set_Printed_Beta
+- Meta_Arrow_Set_Printed_Charlie
+- Meta_Arrow_Printed_Alpha
+- Meta_Arrow_Printed_Beta
+- Meta_Arrow_Printed_Charlie
+- Meta_Cot_Printed
+- Meta_Antibiotic_Vaccine_Alpha
+- Meta_Antibiotic_Vaccine_Beta
+- Meta_Antibiotic_Vaccine_Charlie
+- Meta_Antiparasitic_Vaccine_Alpha
+- Meta_Antiparasitic_Vaccine_Beta
+- Meta_Antiparasitic_Vaccine_Charlie
+- Meta_Antipoison_Vaccine_Alpha
+- Meta_Antipoison_Vaccine_Beta
+- Meta_Antipoison_Vaccine_Charlie
+- Meta_Blood_Thinning_Vaccine_Alpha
+- Meta_Blood_Thinning_Vaccine_Beta
+- Meta_Blood_Thinning_Vaccine_Charlie
+- Faction_Mission_Radar
+- Meta_Coal_Set
+- Meta_Coal
+- Faction_Mission_WallDrill
+- Thermos_GreenTea
+- Thermos_WildTea
+- Thermos_Cocoa
+- Thermos_Coffee
+- Delivery_Object
+- Mining_Backpack
+- Basic_Quiver
+- Basic_Bandolier
+- Meta_Campfire_Printed
+- Meta_Hammer_Printed
+- Meta_Sickle_Printed
+- Mission_Ship_Thruster_Salvaged
+- Mission_Ship_Cargo
+- Meta_Arrow_Inaris_Alpha
+- Meta_Arrow_Inaris_Bravo
+- Meta_Arrow_Inaris_Set_Bravo
+- Meta_Arrow_Inaris_Charlie
+- Meta_Arrow_Inaris_Set_Charlie
+- Meta_Arrow_Inaris_Delta
+- Meta_Arrow_Inaris_Set_Delta
+- Meta_Axe_Inaris_Alpha
+- Meta_Axe_Inaris_Bravo
+- Meta_Axe_Inaris_Charlie
+- Meta_Axe_Inaris_Delta
+- Meta_Knife_Inaris_Alpha
+- Meta_Knife_Inaris_Bravo
+- Meta_Knife_Inaris_Charlie
+- Meta_Knife_Inaris_Delta
+- Meta_Pickaxe_Inaris_Alpha
+- Meta_Pickaxe_Inaris_Bravo
+- Meta_Pickaxe_Inaris_Charlie
+- Meta_Pickaxe_Inaris_Delta
+- Meta_Spear_Inaris_Alpha
+- Meta_Spear_Inaris_Bravo
+- Meta_Spear_Inaris_Charlie
+- Meta_Spear_Inaris_Delta
+- Meta_Furnace_Printed
+- Meta_Crate_Printed
+- Meta_Arrow_Set_Inaris_Alpha
+- Meta_Corn_Seed
+- Meta_Pumpkin_Seed
+- Meta_Squash_Seed
+- Meta_Carrot_Seed
+- Meta_Mushroom_Seed
+- Meta_Berry_Seed
+- Meta_Watermelon_Seed
+- Meta_Wheat_Seed
+- Meta_Bean_Seed
+- Meta_Module_Animal_Healthbar
+- Meta_Module_Animal_Highlighting
+- Survival_Backpack
+- Meta_Axe_Larkwell
+- Meta_Pickaxe_Larkwell
+- Meta_Hammer_Larkwell
+- Meta_Sickle_Larkwell
+- Meta_Knife_Larkwell
+- Meta_Spear_Larkwell
+- Meta_Arrow_Larkwell_Standard
+- Meta_Arrow_Larkwell_Ballistic
+- Meta_Arrow_Larkwell_Bleed
+- Meta_Arrow_Larkwell_Tazer
+- Meta_Bolt_Larkwell_Standard
+- Meta_Scanner_DeepOre
+- Mission_STYX_D_Research2_Scanner
+- Meta_Bow_Larkwell
+- Metal_Exotic_Infused_Pickaxe
+- AnimalCarcass_Crocodile
+- Meta_Carbon_Head_Alpha
+- Meta_Carbon_Chest_Alpha
+- Meta_Carbon_Arms_Alpha
+- Meta_Carbon_Legs_Alpha
+- Meta_Carbon_Feet_Alpha
+- Meta_Carbon_Head_Beta
+- Meta_Carbon_Chest_Beta
+- Meta_Carbon_Arms_Beta
+- Meta_Carbon_Legs_Beta
+- Meta_Carbon_Feet_Beta
+- Meta_Backpack_Larkwell_Alpha
+- Meta_Backpack_Larkwell_Beta
+- Envirosuit_Inaris_Alpha
+- Meta_Module_Alpha
+- Meta_Module_Beta
+- AnimalCarcass_Komodo
+- AnimalCarcass_Lava_Komodo
+- Meta_Repair_Item
+- Meta_Repair_Item_Pack
+- Mission_Explosive
+- Radar_Meta
+- Extractor_Meta
+- Biofuel_Can_Meta
+- Meta_Power_Source
+- Mission_Knife_Lion
+- Meta_Module_WorldBoss
+- Mission_Analyzer_Egg
+- Mission_CaveWormEgg
+- Delivery_Object_Temperature
+- AnimalCarcass_BearCub
+- Meta_Arrow_Set_Larkwell_Standard
+- Meta_Bolt_Set_Larkwell_Standard
+- Meta_Arrow_Set_Larkwell_Ballistic
+- Meta_Arrow_Set_Larkwell_Bleed
+- Meta_Arrow_Set_Larkwell_Tazer
+- Prototype_Boss_Tracker
+- Mission_Delivery_Crystal
+- Mission_Prototype_Battery
+- Mission_STYX_D_Research2_Abyssal_Oxite
+- Mission_Power_Source
+- Meta_Crossbow_Inaris_A
+- Meta_Crossbow_Inaris_B
+- Meta_Crossbow_Inaris_C
+- Meta_Crossbow_Inaris_D
+- AnimalCarcass_Scorpion_Arctic
+- AnimalCarcass_Scorpion_Armored
+- Target_DPSDummy
+- AnimalCarcass_Moa
+- Mission_Communication_Device_T2
+- AnimalCarcass_Moa_Juvenile
+- AnimalCarcass_Buffalo_Juvenile
+- AnimalCarcass_Buffalo_Mount
+- AnimalCarcass_Moa_Mount
+- Advanced_Leather_Process
+- Mission_Flora_Biomatter_Sample
+- Mission_Digested_Biomatter_Sample
+- Mission_Damaged_Bioweapon_Sample
+- AnimalCarcass_Bear_Contaminated
+- AnimalCarcass_RockDog
+- Mission_Communication_Blueprint_T2
+- AnimalCarcass_Needler
+- Mission_AudioLog_Prometheus_1
+- Mission_AudioLog_Prometheus_2
+- AnimalCarcass_Swamp_Quad
+- AnimalCarcass_SwampBird
+- AnimalCarcass_BlueBack
+- AnimalCarcass_Blueback_Mount
+- AnimalCarcass_Blueback_Mount_Daisy
+- AnimalCarcass_BlueBack_Lava
+- AnimalCarcass_Blueback_Lava_Mount
+- ProspectorID
+- AnimalCarcass_Snow_Striker
+- AnimalCarcass_Desert_Striker
+- Dynamic_Mission_Beacon
+- AnimalCarcass_SwampQuad_Mount
+- AnimalCarcass_Snow_Striker_Mount
+- Dropship_Grenade_Workshop
+- AnimalCarcass_Wooly_Zebra_Juvenile
+- Filletting_Station
+- Fish_17_Var2
+- Fish_17_Var3
+- Fish_17_Var4
+- Meta_Avocado_Seed
+- Meta_Rhubarb_Seed
+- Meta_Kumara_Seed
+- Meta_Strawberry_Seed
+- Meta_Fishfinder
+- Envirosuit_Larkwell_Alpha
+- Envirosuit_Larkwell_Bravo
+- AnimalCarcass_PolarBearCub
+- Meta_Bolt_Larkwell_Electroshock
+- Meta_Bolt_Set_Larkwell_Electroshock
+- Meta_Bolt_Larkwell_Explosive
+- Meta_Bolt_Set_Larkwell_Explosive
+- Meta_Bolt_Larkwell_Piercing
+- Meta_Bolt_Set_Larkwell_Piercing
+- Meta_Module_Temperature
+- Meta_Module_Caving
+- Meta_Module_Extremes
+- Meta_Module_Fishing
+- Meta_Module_Wounds
+- Meta_Module_Taming
+- Meta_Heated_Canteen_Larkwell
+- Meta_Oxygen_Tank_Larkwell
+- Meta_Creature_Scanner
+- AnimalCarcass_LavaBomber
+- Mission_Tomato
+- AnimalCarcass_Swamp_Slug
+- AnimalCarcass_Lava_Slug
+- Mission_Prototype_Printed_Crate
+- AnimalCarcass_Broodling
+- AnimalCarcass_Broodling_WorldSpawn
+- Farming_CropPlot_Workshop
+- Workshop_Shovel
+- Meta_Reed_Seed
+- Meta_Yeast_Seed
+- Meta_Lily_Seed
+- Meta_Cocao_Seed
+- Meta_Coffee_Seed
+- Meta_GreenTea_Seed
+- Meta_WildTea_Seed
+- Meta_Fiber_Seed
+- Meta_Tomato_Seed
+- Meta_Potato_Seed
+- AnimalCarcass_Horse
+- AnimalCarcass_JuvieHorse
+- AnimalCarcass_Horse_Mount
+- Unknown_Ore
+- Meta_Resource_Pack_Wood
+- Meta_Resource_Pack_Stone
+- Meta_Resource_Pack_Silica
+- Meta_Resource_Pack_Oxite
+- Meta_Resource_Pack_Sulfur
+- Meta_Resource_Pack_Iron
+- Meta_Resource_Pack_Copper
+- Meta_Resource_Pack_Gold
+- Meta_Resource_Pack_Aluminium
+- Meta_Resource_Pack_Platinum
+- Meta_Resource_Pack_Titanium
+- Larkwell_Armor_Alpha_Head
+- Larkwell_Armor_Alpha_Chest
+- Larkwell_Armor_Alpha_Legs
+- Larkwell_Armor_Alpha_Arms
+- Larkwell_Armor_Alpha_Feet
+- Farmers_Backpack
+- Medic_Backpack
+- Chefs_Backpack
+- Tech_Backpack
+- Hunters_Backpack
+- Larkwell_Armor_Black_Head
+- Larkwell_Armor_Black_Chest
+- Larkwell_Armor_Black_Arms
+- Larkwell_Armor_Black_Legs
+- Larkwell_Armor_Black_Feet
+- AnimalCarcass_Tusker
+- AnimalCarcass_Tusker_Mount
+- AnimalCarcass_Tusker_Juvenile
+- LegendaryWeapon_Black_Wolf_Revolver
+- Meta_Biolab_Inhaler_Sandworm
+- Meta_Biolab_Inhaler_AlphaWolf
+- Meta_Biolab_Inhaler_Scorpion
+- Meta_Biolab_Inhaler_IceMammoth
+- Queen_Bee
+- Worker_Bee
+- LegendaryWeapon_Scorpion_Rifle
+- Meta_Sickle_Inaris_00
+- Mission_AudioLog_Prometheus_3
+- Food_Animal_Feed_Speed
+- Food_Animal_Feed_CarryWeight
+- LegendaryWeapon_Sandworm_Crossbow
+- Meta_SugarCane_Seed
+- AnimalCarcass_Sheep
+- AnimalCarcass_Chicken
+- Honey_Tea
+- AnimalCarcass_Hammerhead_Slug_Small
+- AnimalCarcass_MiniHippo
+- Meta_Coconut_Seed
+- Meta_Bramble_Seed
+- Shotgun_CHAC
+- AnimalCarcass_Kiwi
+- AnimalCarcass_Ice_Mammoth
+- AnimalCarcass_Ape
+- Mission_AudioLog_Prometheus_4
+- Workshop_Chicken
+- Workshop_Sheep
+- Pistol_CHAC
+- Rifle_CHAC
+- Pyritic_Crust_Limestone
+- AnimalCarcass_Mount_Horse_Standard
+- AnimalCarcass_Tame_Dog_A
+- AnimalCarcass_Tame_Dog_B
+- AnimalCarcass_Tame_Dog_C
+- AnimalCarcass_Tame_Cat_A
+- Workshop_Dog_A1
+- Workshop_Dog_A2
+- Workshop_Dog_B1
+- Workshop_Dog_B2
+- Workshop_Cat_A1
+- Workshop_Cat_A2
+- Workshop_Cat_A3
+- Workshop_Horse_A1
+- Workshop_Horse_A2
+- Workshop_Horse_A3
+- Food_Animal_Feed_High_Quality
+- MiniHippo_Egg
+- Workshop_Dog_C1
+- Dirt_Mound
+- AnimalCarcass_Arctic_Moa
+- AnimalCarcass_Arctic_Moa_Mount
+- AnimalCarcass_Arctic_Moa_Juvenile
+- Workshop_Dressing_Kit
+- Workshop_Dressing_Bundle
+- Workshop_Dog_D1
+- Workshop_Dog_D2
+- AnimalCarcass_Tame_Dog_D
+- Ammo_Pistol_Round_Workshop
+- Ammo_Pistol_Round_Workshop_Bundle
+- Frozen_Kiwi
+- Meta_Kiwi_Fruit_Seed
+- Mission_Kiwi_Egg
+- LegendaryWeapon_GolemGauntlet
+- LegendaryWeapon_Ape_Club
+- Licence
+- Ren
+- Workshop_Heater
+- Workshop_Cooker
+- Workshop_Hydrazine_Container
+- Bunker_Antenna
+- Bunker_Aircon
+- Bunker_Broken_Window
+- Bunker_Poster
+- Bunker_Prop
+- Bunker_SolarPanel
+- Bunker_Whiteboard
+- Bunker_BunkBed
+- Flagpole
+- Bunker_Sign
+- Bunker_Base_Sign
+- Medic_Cabinet
+- Bunker_Locker
+- Mission_Stasis_Bag_Full_NPC_4
+- Mission_Stasis_Bag_Full_NPC_5
+- Metal_Grate_Building
+- Teddy_Bear
+- Toilet
+- IceMammoth_Fractured_Ice
+- AnimalCarcass_Roat_Lava
+- Bunker_BunkBed_TopBunk
+- FieldGuide_Character
+- FieldGuide_Biofuel
+- FieldGuide_Oxygen
+- FieldGuide_Water
+- FieldGuide_Milk
+- FieldGuide_Electricity
+- Bunker_ExtinguisherWallMount
+- FieldGuide_PyriticCrust
+- Rock_Golem_Grenade_Caltrops
+- AnimalCarcass_Cow
+- AnimalCarcass_Calf
+- Workshop_Calf
+- LegendaryWeapon_SlugLauncher
+- Meta_Biolab_Inhaler_LavaHunter
+- Meta_Biolab_Inhaler_Hammerhead
+- Meta_Biolab_Inhaler_RockGolem
+- Meta_Biolab_Inhaler_SwampApe
+- Chocolate_Cake_Piece
+- Carrot_Cake_Piece
+- Coconut_Cake_Piece
+- Meta_Resource_Pack_Dirt
+- Meta_Resource_Pack_Scoria
+- Meta_Resource_Pack_Obsidian
+- Meta_Resource_Pack_Clay
+- LegendaryWeapon_LavaHunter_FlameThrower
+- LegendaryWeapon_IceMammoth_Sledgehammer
+- AnimalCarcass_RockGolem_Juvie
+- AnimalCarcass_RockGolem_Juvie_Arctic
+- Collectable_Note
+- Collectable_Audio_Log
+- Collectable_Logbook
+- ExperimentalGoop
+- AnimalCarcass_Ape_Juvenile
+- Lab_Stool
+- Mission_Seismic_Probe
+- FlavoredDrinkIcon_Cocoa
+- FlavoredDrinkIcon_Coffee
+- FlavoredDrinkIcon_Gorse
+- FlavoredDrinkIcon_GreenTea
+- FlavoredDrinkIcon_Honey
+- FlavoredDrinkIcon_Ice
+- FlavoredDrinkIcon_PurificationPill
+- FlavoredDrinkIcon_Smoothie
+- FlavoredDrinkIcon_XigoPuri
+- FlavoredDrinkIcon_Water
+- FlavoredDrinkIcon_CoffeeCream
+- ResearchCrate
+- Mission_MammothBioSample
+- AnimalCarcass_MammothDesert
+- Dead_Researcher
+- Collectable_Clipboard
+- Collectable_Laptop
+- Dead_Miner
+- Dead_Ape
+- LegendaryWeapon_IceMammoth_Sledgehammer_Ammo
+- Mission_Generator_NoDestroy
+- AnimalCarcass_Mammoth_Icy
+- Curtain_PlatinumWeave
+- Cave_Bat_Head
+- Cave_Bat_Trophy
+- Meta_Resource_Pack_Synthetic_Enzymes
+- Enemy_Turret_Pistol
+- Landmine_Poison
+- Landmine_Burn
+- Landmine_Shock
+- Landmine_Freeze
+- Mission_Stasis_Bag_Full_IM_Researcher2
+- AnimalCarcass_Swamp_Slug_Enzyme
+- Faction_Mission_DownLaser
+- Mission_Enzyme_Propogation_Unit
+- Mission_Enzyme_Propogation_Hub
+- Mission_Biotag
+- Prop_Industrial_Sign_Square
+- Prop_Industrial_Sign_Triangle
+- Prop_Industrial_Sign_Diamond
+- Prop_Poster_Fishing
+- Prop_Corkboard_Small
+- Prop_Corkboard_Large
+- Prop_Photo_Frame_Standing
+- Prop_Plastic_Crate
+- Prop_Burlap_Sack
+- Prop_Saddle_Bag
+- Prop_Container
+- Meta_Banana_Seed
+- Prop_Bear_Trap
+- Prop_Sled
+- Mission_Biochip_A
+- Mission_Biochip_B
+- Mission_Biochip_C
+- Prop_Boardgame
+- Prop_Cards
+- Prop_Book
+- Prop_Bookstack
+- Prop_Magazine
+- Prop_Propaganda_Sign
+- Prop_Poster
+- Mission_Shackles
+- AnimalCarcass_Ape_Juvenile_Wounded
+- Prop_Cryogenic_Sample_Storage
+- Prop_Clipboard
+- Prop_Laptop
+- Prop_Flask
+- Prop_Lab_Stand
+- Prop_Lab_Table
+- Prop_Mortar_And_Pestle
+- Prop_Test_Tube_Rack
+- Prop_Surgical_Masks
+- Prop_Pipe1
+- Prop_Pipe2
+- Prop_Chemicals
+- Prop_CleaningSupplies
+- Prop_Eye_Wash_Station
+- Prop_Large_Flask
+- Prop_Stool
+- Prop_Labcoats
+- Prop_Molecule
+- Prop_PaperTowls
+- Prop_Goggles
+- Prop_Skeleton
+- Prop_Science_Tray
+- Prop_Soap
+- Mission_DNA_Scalpel
+- Mission_DNA_MixedBufferSolution
+- Mission_DNA_Supernatant
+- Mission_DNA_Precipitated
+- Mission_DNA_Pellet
+- Mission_DNA_Sample
+- Mission_DNA_Ruined
+- Prop_Lab_Poster
+- Prop_Medical_Trolly
+- Mission_Examination_Table
+- Mission_Poison_Lair_Sample
+- Prop_Mining_Rail
+- Prop_Mining_Equipment
+- Ammo_Shell_Workshop
+- Ammo_Shell_Workshop_Bundle
+- Landmine_Enemy
+- Splint_Workshop
+- Splint_Workshop_Bundle
+- LegendaryWeapon_Bow
+- LegendaryWeapon_Sniper
+- Mission_Stasis_Bag_Full_RG_NPC1
+- Mission_Stasis_Bag_Full_RG_NPC2
+- Mission_Stasis_Bag_Full_RG_NPC3
+- Mission_Stasis_Bag_Full_RG_NPC4
+- Ammo_Sniper_Round
+- Ammo_Sniper_Round_Workshop_Bundle
+- Ammo_Sniper_Round_Explosive
+- Ammo_Sniper_Round_Explosive_Workshop_Bundle
+- Ammo_Sniper_Round_Incendiary
+- Ammo_Sniper_Round_Incendiary_Workshop_Bundle
+- Ammo_Rifle_Round_Workshop
+- Ammo_Rifle_Round_Workshop_Bundle
+- Ammo_AssaultRifle_Round_Workshop
+- Ammo_AssaultRifle_Round_Workshop_Bundle
+- AnimalCarcass_SwampBird_Mount
+- AnimalCarcass_Wooly_Zebra_Mount
+- AnimalCarcass_SwampBird_Juvenile
+- Collectable_Note_NoDeploy
+- Prop_Eden_Whiteboard
+- Dead_EI_Agent
