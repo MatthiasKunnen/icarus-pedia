@@ -291,6 +291,12 @@ for (const item of itemsStatic.Rows) {
     };
 }
 
+// Report reason for item exclusion
+console.log(`Excluded items:`);
+for (const [itemName, exclusionReason] of Object.entries(itemExcluded)) {
+    console.log(`- ${itemName}: ${exclusionReason}`);
+}
+
 const crafters: Record<string, Crafter> = {};
 for (const recipeSet of recipeSets.Rows) {
     const icon = recipeSet.RecipeSetIcon;
