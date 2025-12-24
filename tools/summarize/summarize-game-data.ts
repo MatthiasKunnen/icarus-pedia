@@ -221,6 +221,7 @@ for (const item of itemsStatic.Rows) {
         continue;
     } else if (!itemable.Icon.startsWith(iconPrefix)) {
         // Only used for a single dev items it seems, DEV_Transform_Tool
+        itemExcluded[item.Name] = 'Does not start with iconPrefix';
         continue;
     }
 
