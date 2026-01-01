@@ -10,7 +10,9 @@
         "lint": "eslint \"src/**/*.ts\" \"svelte.config.js\" \"tools/**/*.ts\" vite.config.ts",
         "preview": "vite preview",
         "run:tool": "TS_NODE_PROJECT=tools/tsconfig.json node --loader ts-node/esm",
-        "run:tool:inspect": "TS_NODE_PROJECT=tools/tsconfig.json node --loader ts-node/esm --inspect-brk"
+        "run:tool:inspect": "TS_NODE_PROJECT=tools/tsconfig.json node --loader ts-node/esm --inspect-brk",
+        "summarize-data": "yarn run run:tool tools/summarize/summarize-game-data.ts",
+        "sync-icons": "yarn run run:tool tools/summarize/sync-icons.ts"
     },
     "devDependencies": {
         "@matthiaskunnen/eslint-config-typescript": "^6.0.0",
