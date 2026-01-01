@@ -292,13 +292,29 @@ export function summarizeData(
             throw flavorTextErr;
         }
 
+        const isFood = item.Consumable !== undefined
+            && staticItemTagMatches(item, tagname => {
+                switch (tagname) {
+                    case 'FieldGuide.Food':
+                    case 'Item.Consumable.Food':
+                    case 'Item.Deployable.Food':
+                    case 'Item.Medicine.Paste':
+                    case 'Item.Medicine.Pill':
+                    case 'Item.Medicine.Tonic.Enhancement':
+                    case 'Item.Medicine.Tonic.Status':
+                        return true;
+                }
+
+                return tagname.startsWith('Item.Consumable.Food.');
+            });
+
         mappedItems[item.Name] = {
             crafter: item.Processing?.RowName,
             displayName: displayName,
             icon: processIcon(itemable.Icon),
             description: description,
             flavorText: flavorText,
-            isFood: staticItemTagMatches(item, tag => tag.startsWith('Item.Consumable.Food')),
+            isFood: isFood,
             recipes: [],
             ingredientIn: [],
             stats: Object.keys(itemStats).length > 0 ? itemStats : undefined,

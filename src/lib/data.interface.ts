@@ -15,6 +15,10 @@ export interface Item {
     icon: string;
     description: string | undefined;
     flavorText: string | undefined;
+    /**
+     * Whether the item can be eaten/applied to provide an effect. Includes food, pastes, pills,
+     * and vaccines.
+     */
     isFood: boolean;
     recipes: Array<string>;
     ingredientIn: Array<string>;

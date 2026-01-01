@@ -5531,7 +5531,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antibiotic_Paste",
             "description": "Reduces the duration of food poisoning, and other low grade infections.",
             "flavorText": "A natural antibacterial agent that diminishes the impact of afflictions such as infected wounds and cave sickness.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antibiotic_Paste"
             ],
@@ -5549,7 +5549,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antibiotic_Pill",
             "description": "A broad-spectrum antibacterial agent, protecting against food poisoning, wound infections and cave sickness.",
             "flavorText": "While not quite invincible, your susceptibility to microbial takeover will temporarily reach an all-time low.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antibiotic_Pill"
             ],
@@ -5563,7 +5563,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antibiotic_Tonic",
             "description": "An antibacterial distillation that cures food poisoning, wound infections and afflictions like cave sickness.",
             "flavorText": "The interaction between bioactive substances and microbial life here on Icarus is still poorly understood, especially when one factors in the effects of exotic matter to both.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antibiotic_Tonic",
                 "Antibiotic_Tonic_2"
@@ -5577,7 +5577,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antiparasitic_Paste",
             "description": "A medical preparation for reducing the duration of festering wounds, dysentry and other parasites.",
             "flavorText": "From the very first, newcomers to Icarus noted the medicinal and bioactive properties of Earth-type plants were significantly more intense.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antiparasitic_Paste"
             ],
@@ -5595,7 +5595,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antiparasitic_Pill",
             "description": "A potent antibacterial preparation for preventing festering wounds, dysentry and other parasites.",
             "flavorText": "Flooding your body with antibiotics is a double-edged sword, but if it stops you needing to use the word festering to describe part of your body, its worth it.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antiparasitic_Pill"
             ],
@@ -5609,7 +5609,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antiparasitic_Tonic",
             "description": "A medicinal preparation for curing festering wounds, dysentry and other parasites.",
             "flavorText": "From suppurating wounds to dysentery, this natural broad-spectrum antibiotic remedy cures it all.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antiparasitic_Tonic",
                 "Antiparasitic_Tonic_2"
@@ -5633,7 +5633,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antipoison_Paste",
             "description": "A basic toxicology and anti-venom kit to reduce the duration of poisoning.",
             "flavorText": "Its speculated that exotics may suffuse much of the plant life in the terrazone, imparting bioactive properties, though exactly what these are, whether theyre safe, and exactly how it works ... at this stage, who knows?",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antipoison_Paste"
             ],
@@ -5651,7 +5651,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antipoison_Pill",
             "description": "An long-acting anti-venom to prevent poisoning.",
             "flavorText": "Ingest and ignore the risks.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Antipoison_Pill"
             ],
@@ -5665,7 +5665,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antipoison_Tonic",
             "description": "Fast-working anti-venom to combat poisoning.",
             "flavorText": "Of the many ways to die on Icarus, poisoning is perhaps the least glorious.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "AntiPoison_Tonic"
             ],
@@ -5932,7 +5932,7 @@
             "icon": "Items/Item_Icons/UseableItems/T_ITEM_Health_Garganutan_Tonic",
             "description": "A tonic that sends one into a frenzy ready to engage in fist to fist combat.",
             "flavorText": "Use only in moderation.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Ape_Tonic"
             ],
@@ -6701,7 +6701,7 @@
             "icon": "Items/Item_Icons/Consumeables/ITEM_Beer",
             "description": "Proving you can brew beer from just about anything.",
             "flavorText": "Warms the body, soothes the soul, increases regeneration rates.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Beer"
             ],
@@ -7135,7 +7135,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Blood_Thinning_Paste",
             "description": "A folk remedy for diminishing the effects of concussions and contusions.",
             "flavorText": "A very basic anticoagulant.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Blood_Thinner_Paste"
             ],
@@ -7153,7 +7153,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Blood_Thinning_Pill",
             "description": "A potent preventative for concussions and contusions.",
             "flavorText": "Off-label and off-planet, this one doesnt come with any warnings. So its probably safe.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Blood_Thinning_Pill"
             ],
@@ -7167,7 +7167,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Blood_Thinning_Tonic",
             "description": "An effective remedy for relieving concussions and contusions.",
             "flavorText": "Voyagers to Icarus have found themselves forced to ressurect a range of folk treatments and traditional medicines.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Blood_Thinning_Tonic"
             ],
@@ -8480,7 +8480,7 @@
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_Carrot_Cake",
             "description": "A big carrot cake of 8 pieces. Deploy this to enjoy with friends.",
             "flavorText": "Who knew vegetables could taste this great.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Carrot_Cake"
             ],
@@ -9511,7 +9511,7 @@
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_Chocolate_Cake",
             "description": "A big chocolate cake of 8 pieces. Deploy this to enjoy with friends.",
             "flavorText": "Just like Grandma used to make.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Chocolate_Cake"
             ],
@@ -9829,7 +9829,7 @@
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_Coconut_Cake",
             "description": "A big coconut cake of 8 pieces. Deploy this to enjoy with friends.",
             "flavorText": "A taste of home.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Coconut_Cake"
             ],
@@ -12257,7 +12257,7 @@
             "displayName": "Bread Dough",
             "icon": "Items/Item_Icons/Resources/ITEM_Dough",
             "description": "Makes bread, just add to a fire.",
-            "isFood": true,
+            "isFood": false,
             "recipes": [
                 "Dough_Bread"
             ],
@@ -12276,7 +12276,7 @@
             "icon": "Items/Item_Icons/Resources/ITEM_Dough",
             "description": "Makes flatbread, just add to a fire.",
             "flavorText": "Lightyears from the Levant.",
-            "isFood": true,
+            "isFood": false,
             "recipes": [
                 "Dough_Flatbread"
             ],
@@ -12591,7 +12591,7 @@
             "icon": "Items/Item_Icons/Resources/T_ITEM_Egg",
             "description": "A fresh chicken egg, can be cooked in all manner of ways.",
             "flavorText": "An extremely versatile food.",
-            "isFood": true,
+            "isFood": false,
             "recipes": [],
             "ingredientIn": [
                 "Food_Cooked_Egg",
@@ -13089,7 +13089,7 @@
             "icon": "Items/Item_Icons/QuestItems/T_ITEM_Enzyme_Elixir",
             "description": "When used Aggressive Enzyme-Enhanced Creatures will be drawn to you.",
             "flavorText": "You can try anything once.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Enzyme_Elixir"
             ],
@@ -18317,7 +18317,7 @@
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_Elixir",
             "description": "Providing a huge amount of health recovery.",
             "flavorText": "When it comes to survival, prospectors on Icarus try everything.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Health_Elixir"
             ],
@@ -18334,7 +18334,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Health_Enhancement_Tonic",
             "description": "Providing a decent amount of health recovery.",
             "flavorText": "When it comes to survival, prospectors on Icarus try everything.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Health_Enhancement_Tonic"
             ],
@@ -18348,7 +18348,7 @@
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_Remedy",
             "description": "Providing a small amount of health recovery.",
             "flavorText": "When it comes to survival, prospectors on Icarus try everything.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Health_Remedy"
             ],
@@ -18567,7 +18567,7 @@
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_Honey_Mead",
             "description": "Delicious Honey Mead, a refreshing treat.",
             "flavorText": "Just like ma used to make.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Honey_Mead"
             ],
@@ -25881,7 +25881,7 @@
             "icon": "Items/Item_Icons/Consumeables/ITEM_Tomato",
             "description": "A tomato spliced with the genes of a goat for surviving harsh climates.",
             "flavorText": "Classed as a fruit, not a vegetable.",
-            "isFood": true,
+            "isFood": false,
             "recipes": [],
             "ingredientIn": [],
             "usable": false
@@ -26728,7 +26728,7 @@
             "icon": "Items/Item_Icons/Consumeables/ITEM_Pastry",
             "description": "A simple but satisfying shortcrust pastry.",
             "flavorText": "Icarus was only truly colonized when we began making pastry on that planet - Jacques Merrida",
-            "isFood": true,
+            "isFood": false,
             "recipes": [
                 "Pastry",
                 "Pastry_Butter"
@@ -33919,7 +33919,7 @@
             "icon": "Items/Item_Icons/Resources/ITEM_Spoiled_Plants",
             "description": "This produce is certainly past its best",
             "flavorText": "I wouldnt eat that if I were you",
-            "isFood": true,
+            "isFood": false,
             "recipes": [],
             "ingredientIn": [
                 "Biofuel7",
@@ -33978,7 +33978,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Stamina_Enhancement_Tonic",
             "description": "Providing a large amount of stamina and boosting maximum stamina and stamina regen for a short time.",
             "flavorText": "Like the energy drinks of old, sometimes you need a little pick me up.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Stamina_Enhancement_Tonic"
             ],
@@ -35229,7 +35229,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Strength_Enhancement_Tonic",
             "description": "Provides a large boost to melee damage, throwing speed and physical resistance, for a short time.",
             "flavorText": "For when you want to get up close and personal.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Strength_Enhancement_Tonic"
             ],
@@ -35520,7 +35520,7 @@
             "icon": "Items/Item_Icons/UseableItems/ITEM_Sustenence_Enhancement_Tonic",
             "description": "Providing a large amount of food, water and oxygen, and reducing their consumption for a short time.",
             "flavorText": "Perfect for the prospector on the go.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Sustenence_Enhancement_Tonic"
             ],
@@ -36660,7 +36660,7 @@
             "icon": "Items/Item_Icons/Resources/T_ITEM_Vitamins",
             "description": "Provides resistance to many of the afflictions on Icarus.",
             "flavorText": "One a day keeps the doctor away.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Vitamins"
             ],
@@ -37144,7 +37144,7 @@
             "icon": "Items/Item_Icons/Consumeables/ITEM_Wine",
             "description": "One of humanitys oldest inventions.",
             "flavorText": "Youre four billion kilometers from Earth, but some things never change. Wine stops the pain, increases stamina and health regen.",
-            "isFood": false,
+            "isFood": true,
             "recipes": [
                 "Wine"
             ],
