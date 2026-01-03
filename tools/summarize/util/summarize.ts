@@ -1,3 +1,4 @@
+import {CsvWriter} from './csv-writer.js';
 import {extractTranslation} from './localization.util.js';
 import type {LogWriter} from './logwriter.js';
 import {sortObjectKeys} from './object.util.js';
@@ -187,6 +188,8 @@ export function summarizeData(
         'Water_Purifier_T1',
     ];
 
+    const foodTsv = new CsvWriter();
+
     const itemExcluded: Record<string, string> = {};
     const mappedItems: Record<string, OutputItem> = {};
     for (const item of itemsStatic.Rows) {
@@ -327,6 +330,24 @@ export function summarizeData(
 
                 return tagname.startsWith('Item.Consumable.Food.');
             });
+
+        if (isFood) {
+            const tsvRow: Record<string, number | string | undefined> = {
+                name: displayName,
+                duration: modifier?.lifetime,
+            };
+
+            Object.entries(itemStats).forEach(([key, value]) => {
+                tsvRow[key] = value.toString();
+            });
+            if (modifier?.stats !== undefined) {
+                Object.entries(modifier.stats).forEach(([key, value]) => {
+                    tsvRow[key] = value.toString();
+                });
+            }
+
+            foodTsv.add(tsvRow);
+        }
 
         mappedItems[item.Name] = {
             crafter: item.Processing?.RowName,
@@ -535,6 +556,8 @@ export function summarizeData(
     for (const itemName of unusable) {
         log.print(`- ${itemName}`);
     }
+
+    console.log('TSV:\n', foodTsv.get());
 
     const gameData: GameData = {
         crafters: sortObjectKeys(crafters),
