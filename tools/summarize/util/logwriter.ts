@@ -36,9 +36,11 @@ export class LogWriter {
     async flush(): Promise<void> {
         const promises: Array<Promise<unknown>> = [
             new Promise<void>((resolve) => {
-                process.stdout.write('\n', err => {
-                    // eslint-disable-next-line no-console
-                    console.log('Error flushing stdout buffer', err);
+                process.stdout.write('\n', (err?: Error | null) => {
+                    if (err != null) {
+                        // eslint-disable-next-line no-console
+                        console.log('Error flushing stdout buffer', err);
+                    }
                     resolve();
                 });
             }),
