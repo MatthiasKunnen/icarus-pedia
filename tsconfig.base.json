@@ -7,5 +7,9 @@
         "sourceMap": true,
         "strict": true,
         "strictPropertyInitialization": false,
-    }
+    },
+    "ts-node": {
+        "logError": true,
+        "pretty": true,
+    },
 }
