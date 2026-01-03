@@ -3851,6 +3851,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Ammo_Casing": {
@@ -4011,6 +4019,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Ammo_Rifle_Round": {
@@ -4124,6 +4140,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Ammo_Shell_Buckshot": {
@@ -4227,6 +4251,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Ammo_Sniper_Round": {
@@ -4257,6 +4289,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Biomass": 15
+                }
+            },
             "usable": false
         },
         "Ammo_Sniper_Round_Incendiary": {
@@ -4280,6 +4320,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Biomass": 15
+                }
+            },
             "stats": {
                 "BaseFireDamage_+%": 25
             },
@@ -4293,6 +4341,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10
+                }
+            },
             "usable": false
         },
         "AnimalCarcass_Alpha_Desert_Wolf": {
@@ -6420,6 +6476,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Basic_Wall_Light": {
@@ -6836,6 +6902,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 150
+                }
+            },
             "usable": false
         },
         "Biofuel_Lamp": {
@@ -8216,6 +8290,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Carbon_Arrow": {
@@ -8239,6 +8321,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Carbon_Feet": {
@@ -8249,6 +8339,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Carbon_Fiber": {
@@ -8365,6 +8463,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Carbon_Legs": {
@@ -8375,6 +8481,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Carbon_Paste": {
@@ -9369,6 +9483,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 500
+                }
+            },
             "usable": false
         },
         "Chemistry_Bench": {
@@ -12559,6 +12683,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Drying_Rack": {
@@ -12941,6 +13073,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Envirosuit_Deluxe": {
@@ -12951,6 +13091,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 0
+                },
+                "researchCost": {
+                    "Credits": 0
+                }
+            },
             "usable": false
         },
         "Envirosuit_Inaris_Alpha": {
@@ -12961,6 +13109,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                },
+                "researchCost": {
+                    "Credits": 750,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Larkwell_Alpha": {
@@ -12971,6 +13129,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 250
+                },
+                "researchCost": {
+                    "Exotic_Red": 500,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Larkwell_Bravo": {
@@ -12981,6 +13148,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 250
+                },
+                "researchCost": {
+                    "Exotic_Red": 500,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Sand": {
@@ -13001,6 +13177,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                },
+                "researchCost": {
+                    "Credits": 750,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Shengong_2": {
@@ -13011,6 +13197,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                },
+                "researchCost": {
+                    "Credits": 750,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Tier2": {
@@ -13021,6 +13217,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Envirosuit_Tier3": {
@@ -13031,6 +13235,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Tier4": {
@@ -13041,6 +13253,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 100
+                }
+            },
             "usable": false
         },
         "Envirosuit_Tier5": {
@@ -13051,6 +13271,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "usable": false
         },
         "Envirosuit_Tier6": {
@@ -13061,6 +13289,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Envirosuit_Tier7": {
@@ -13071,6 +13307,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "usable": false
         },
         "Enzyme_Cannon_Hub": {
@@ -13493,6 +13737,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 500
+                },
+                "researchCost": {
+                    "Exotic1": 300
+                }
+            },
             "stats": {
                 "BaseExtractorDrillSpeed_+%": 33
             },
@@ -13664,6 +13916,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 500
+                }
+            },
             "usable": false
         },
         "Farmers_Shotgun": {
@@ -13727,6 +13989,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseCropPlotTier_+": 5,
                 "BasePlantedCropGrowthSpeed_+%": 25,
@@ -18798,6 +19069,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 100
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Hyena_Statue_Bronze": {
@@ -20424,6 +20705,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Alpha_Chest": {
@@ -20434,6 +20725,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Alpha_Feet": {
@@ -20444,6 +20745,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Alpha_Head": {
@@ -20454,6 +20765,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Alpha_Legs": {
@@ -20464,6 +20785,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Black_Arms": {
@@ -20474,6 +20805,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Black_Chest": {
@@ -20484,6 +20825,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Black_Feet": {
@@ -20494,6 +20845,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Black_Head": {
@@ -20504,6 +20865,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Larkwell_Armor_Black_Legs": {
@@ -20514,6 +20885,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 75
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                }
+            },
             "usable": false
         },
         "Lava_Broodling_Head": {
@@ -21375,6 +21756,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Medic_Cabinet": {
@@ -21421,6 +21812,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "modifier": {
                 "lifetime": 1800
             },
@@ -21434,6 +21833,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300,
+                    "Exotic1": 25
+                }
+            },
             "modifier": {
                 "lifetime": 7200
             },
@@ -21447,6 +21855,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150,
+                    "Exotic1": 25
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 150
+                }
+            },
             "modifier": {
                 "lifetime": 21600
             },
@@ -21460,6 +21878,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "modifier": {
                 "lifetime": 1800
             },
@@ -21473,6 +21899,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300,
+                    "Exotic1": 25
+                }
+            },
             "modifier": {
                 "lifetime": 7200
             },
@@ -21486,6 +21921,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150,
+                    "Exotic1": 25
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 150
+                }
+            },
             "modifier": {
                 "lifetime": 21600
             },
@@ -21499,6 +21944,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "modifier": {
                 "lifetime": 1800
             },
@@ -21512,6 +21965,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300,
+                    "Exotic1": 25
+                }
+            },
             "modifier": {
                 "lifetime": 7200
             },
@@ -21525,6 +21987,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150,
+                    "Exotic1": 25
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 150
+                }
+            },
             "modifier": {
                 "lifetime": 21600
             },
@@ -21590,6 +22062,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 40
@@ -21604,6 +22084,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 40
@@ -21618,6 +22106,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 40
@@ -21721,6 +22217,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Meta_Arrow_Set_Larkwell_Ballistic": {
@@ -21730,6 +22234,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseExplosiveDamageRadius_+": 500,
                 "BaseExplosiveDamage_+": 300
@@ -21743,6 +22255,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 75
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseBleed_%": 100
             },
@@ -21755,6 +22275,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Meta_Arrow_Set_Larkwell_Tazer": {
@@ -21764,6 +22292,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 125
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 100
             },
@@ -21777,6 +22313,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCausePoison_%": 100
             },
@@ -21790,6 +22334,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseSlow_%": 100
             },
@@ -21803,6 +22355,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseWound_%": 100
             },
@@ -21816,6 +22376,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Meta_Arrow_Shengong": {
@@ -21836,6 +22404,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Axe": {
@@ -21856,6 +22432,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseWoodCarryWeight_+%": -50
             },
@@ -21869,6 +22453,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
                 "BaseFellingRewards_%": -50,
@@ -21885,6 +22478,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 50,
@@ -21900,6 +22502,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFellingScorchChance_%": 30,
@@ -21916,6 +22527,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseAxeAttackSpeed_+%": 10,
                 "BaseWoodCarryWeight_+%": -10
@@ -21930,6 +22549,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Axe_Shengong_Alpha": {
@@ -21940,6 +22567,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseFellingDamage_+%": 10,
                 "BaseMeleeDamage_+%": 10,
@@ -21955,6 +22590,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseAxeStaminaActionCost_+%": 15,
                 "BaseFellingDamage_+%": 10,
@@ -21970,6 +22613,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseAttackSpeed_+%": -10,
                 "BaseFellingDamage_+%": 15
@@ -21984,6 +22637,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 150
+                },
+                "researchCost": {
+                    "Exotic_Red": 500
+                }
+            },
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50
@@ -21998,6 +22659,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Meta_Backpack_Larkwell_Beta": {
@@ -22008,6 +22679,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Meta_Banana_Seed": {
@@ -22018,6 +22699,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Bandage_Shengong": {
@@ -22028,6 +22717,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1
             },
@@ -22041,6 +22738,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Berry_Seed": {
@@ -22051,6 +22756,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Biolab_Inhaler_AlphaWolf": {
@@ -22061,6 +22774,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic1": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22079,6 +22802,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic_Red": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22097,6 +22830,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic_Red": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22115,6 +22858,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic_Red": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22134,6 +22887,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic1": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22153,6 +22916,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic1": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22171,6 +22944,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic1": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22189,6 +22972,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Biomass": 10,
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Biomass": 10,
+                    "Exotic1": 100
+                }
+            },
             "modifier": {
                 "lifetime": 1800,
                 "stats": {
@@ -22207,6 +23000,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "modifier": {
                 "lifetime": 1800
             },
@@ -22220,6 +23021,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300,
+                    "Exotic1": 25
+                }
+            },
             "modifier": {
                 "lifetime": 7200
             },
@@ -22233,6 +23043,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150,
+                    "Exotic1": 25
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 150
+                }
+            },
             "modifier": {
                 "lifetime": 21600
             },
@@ -22299,6 +23119,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 25,
                 "BaseElectricDamage_+": 75
@@ -22313,6 +23141,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseExplosiveDamageRadius_+": 500,
                 "BaseExplosiveDamage_+": 300
@@ -22327,6 +23163,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "stats": {
                 "BaseCriticalDamage_+%": 25,
                 "BaseHardenedPointDamage_+%": 25,
@@ -22341,6 +23185,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Meta_Bow_Larkwell": {
@@ -22351,6 +23203,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Meta_Bow_Shengong_Alpha": {
@@ -22361,6 +23223,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseArrowProjectileSpeed_+%": 15,
                 "BaseBowCriticalDamage_+%": -5
@@ -22375,6 +23245,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseBowChargeSpeed_+%": -15,
                 "BaseMovementSpeed_+%": -15
@@ -22389,6 +23267,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseArrowProjectileSpeed_+%": 15,
                 "BaseBowChargeSpeed_+%": -15,
@@ -22404,6 +23292,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50,
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "usable": false
         },
         "Meta_Bow_Shengong_Echo": {
@@ -22414,6 +23311,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 150
+                },
+                "researchCost": {
+                    "Exotic_Red": 500
+                }
+            },
             "stats": {
                 "BaseElectricDamage_+%": 25,
                 "BaseFireDamage_+%": 25,
@@ -22430,6 +23335,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Campfire_Printed": {
@@ -22441,6 +23354,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "stats": {
                 "BaseEnergyTransmutationResourceCost_+%": -25
             },
@@ -22454,6 +23375,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "stats": {
                 "BaseUnitsConsumed_+": 200,
                 "BaseWaterRecovery_+": 50
@@ -22468,6 +23397,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Arms_Beta": {
@@ -22478,6 +23417,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Chest_Alpha": {
@@ -22488,6 +23437,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Chest_Beta": {
@@ -22498,6 +23457,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Feet_Alpha": {
@@ -22508,6 +23477,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Feet_Beta": {
@@ -22518,6 +23497,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Head_Alpha": {
@@ -22528,6 +23517,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Head_Beta": {
@@ -22538,6 +23537,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Legs_Alpha": {
@@ -22548,6 +23557,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carbon_Legs_Beta": {
@@ -22558,6 +23577,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Carrot_Seed": {
@@ -22568,6 +23597,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Coal": {
@@ -22588,6 +23625,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Cocao_Seed": {
@@ -22598,6 +23643,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Coconut_Seed": {
@@ -22608,6 +23661,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Coffee_Seed": {
@@ -22618,6 +23679,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Corn_Seed": {
@@ -22628,6 +23697,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Cot_Printed": {
@@ -22638,6 +23715,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 75
+                },
+                "researchCost": {
+                    "Credits": 100
+                }
+            },
             "stats": {
                 "BaseComfortLevel_+": 14,
                 "BaseSleepModifierDurationSeconds_+": 800,
@@ -22653,6 +23738,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 250
+                }
+            },
             "usable": false
         },
         "Meta_Creature_Scanner": {
@@ -22663,6 +23756,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Meta_Crossbow_Inaris_A": {
@@ -22673,6 +23775,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseAttacksCauseSlow_%": 20,
                 "BaseHardenedPointPenetration_%": 100
@@ -22687,6 +23797,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseSlow_%": 35,
                 "BaseBowCriticalDamage_+%": 10,
@@ -22703,6 +23823,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 200,
+                    "Exotic_Red": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseSlow_%": 25,
                 "BaseHardenedPointPenetration_%": 100
@@ -22717,6 +23846,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 200,
+                    "Exotic_Red": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseSlow_%": 25,
                 "BaseElectricDamage_+%": 35,
@@ -22735,6 +23873,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Firewhacker_Printed": {
@@ -22745,6 +23891,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "stats": {
                 "BaseToolStaminaActionCost_+%": -20
             },
@@ -22758,6 +23912,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Meta_Furnace_Printed": {
@@ -22769,6 +23932,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 500
+                }
+            },
             "stats": {
                 "BaseEnergyTransmutationResourceCost_+%": -25
             },
@@ -22782,6 +23953,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Hammer_Larkwell": {
@@ -22792,6 +23971,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseActionHoldTime_+%": -30,
                 "BaseExposureResistance_+%": 10
@@ -22806,6 +23993,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "stats": {
                 "BaseActionHoldTime_+%": -16,
                 "BaseMovementSpeed_+%": -5
@@ -22820,6 +24015,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseActionHoldTime_+%": -22,
                 "BaseMovementSpeed_+%": 10
@@ -22834,6 +24037,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseActionHoldTime_+%": -22,
                 "BaseExposureResistance_+%": 25
@@ -22848,6 +24059,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 200
+                }
+            },
             "stats": {
                 "BaseUnitsConsumed_+": 200,
                 "BaseWaterRecovery_+": 50,
@@ -22863,6 +24082,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Knife": {
@@ -22883,6 +24110,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseWoundResistance_%": 100
             },
@@ -22896,6 +24131,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAcidicGlandsPerSkinnedResource_%": 10,
                 "BaseAttacksCauseMiasma_%": 15,
@@ -22912,6 +24156,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 50,
@@ -22927,6 +24180,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseChilledAlterationChance_%": 30,
@@ -22942,6 +24204,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseAttackSpeed_+%": 10
             },
@@ -22955,6 +24225,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Knife_Shengong_Alpha": {
@@ -22965,6 +24243,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseSkinningRewards_+%": 15,
                 "BaseSkinningSpeed_+%": 15,
@@ -22980,6 +24266,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseItemWear_+%": -10,
                 "BaseToolStaminaActionCost_+%": 10
@@ -22994,6 +24288,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseMeleeDamage_+%": 10,
                 "BaseStealthThreatModifier_+%": 25
@@ -23008,6 +24310,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseMeleeDamage_+%": 10,
                 "BaseSkinningRewards_+%": 15,
@@ -23023,6 +24335,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 150
+                },
+                "researchCost": {
+                    "Exotic_Red": 500
+                }
+            },
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50
@@ -23037,6 +24357,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Lily_Seed": {
@@ -23047,6 +24375,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Module_Alpha": {
@@ -23057,6 +24393,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 150,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Module_Animal_Healthbar": {
@@ -23067,6 +24413,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Animal_Highlighting": {
@@ -23077,6 +24433,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Beta": {
@@ -23087,6 +24453,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 150,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Meta_Module_Carry_Weight": {
@@ -23097,6 +24473,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Caving": {
@@ -23107,6 +24493,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "usable": false
         },
         "Meta_Module_Consumption": {
@@ -23117,6 +24511,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Extremes": {
@@ -23127,6 +24531,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "usable": false
         },
         "Meta_Module_Fall_Damage": {
@@ -23137,6 +24549,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Fire_Resistance": {
@@ -23147,6 +24569,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Fishing": {
@@ -23157,6 +24589,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "usable": false
         },
         "Meta_Module_Inventory_Slots": {
@@ -23167,6 +24607,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Inventory_Slots_2": {
@@ -23177,6 +24627,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 35
+                }
+            },
             "usable": false
         },
         "Meta_Module_Movement": {
@@ -23187,6 +24647,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Module_PlayerTracker": {
@@ -23197,6 +24665,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Poison_Resistance": {
@@ -23207,6 +24685,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 10
+                },
+                "researchCost": {
+                    "Credits": 75,
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Module_Taming": {
@@ -23217,6 +24705,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "usable": false
         },
         "Meta_Module_Temperature": {
@@ -23227,6 +24723,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "usable": false
         },
         "Meta_Module_WorldBoss": {
@@ -23237,6 +24741,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 200,
+                    "Exotic1": 150
+                },
+                "researchCost": {
+                    "Credits": 150,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Meta_Module_Wounds": {
@@ -23247,6 +24761,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 100
+                }
+            },
             "usable": false
         },
         "Meta_Mushroom_Seed": {
@@ -23257,6 +24779,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Oxygen_Gel": {
@@ -23267,6 +24797,14 @@
             "isFood": true,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "stats": {
                 "BaseOxygenRecovery_+": 150
             },
@@ -23280,6 +24818,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 50
+                },
+                "researchCost": {
+                    "Exotic_Red": 200
+                }
+            },
             "modifier": {
                 "lifetime": 20,
                 "stats": {
@@ -23297,6 +24843,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 75
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "usable": false
         },
         "Meta_Pickaxe": {
@@ -23320,6 +24874,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseMiningRewards_%": 15,
@@ -23335,6 +24897,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseMiasma_%": 15,
@@ -23352,6 +24923,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseFreeze_%": 15,
@@ -23368,6 +24948,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseBurn_%": 15,
@@ -23384,6 +24973,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseOverencumberedPenalty_+%": -10,
@@ -23399,6 +24996,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500
             },
@@ -23412,6 +25017,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BasePickaxeItemWear_+%": 10
@@ -23426,6 +25039,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BasePickaxeStaminaActionCost_+%": 15
@@ -23440,6 +25061,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseMiningCopperRewards_+%": 10,
@@ -23455,6 +25086,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseMiningMetalRewards_+%": 10
@@ -23469,6 +25110,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 150
+                },
+                "researchCost": {
+                    "Exotic_Red": 500
+                }
+            },
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseElectroshock_%": 15,
@@ -23484,6 +25133,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Power_Source": {
@@ -23494,6 +25151,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 150
+                }
+            },
             "usable": false
         },
         "Meta_Pumpkin_Seed": {
@@ -23504,6 +25169,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Ration": {
@@ -23514,6 +25187,14 @@
             "isFood": true,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "stats": {
                 "BaseFoodRecovery_+": 100
             },
@@ -23538,6 +25219,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Repair_Item": {
@@ -23558,6 +25247,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Aluminium": {
@@ -23568,6 +25265,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 350
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Clay": {
@@ -23578,6 +25283,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic_Red": 10
+                },
+                "researchCost": {
+                    "Exotic_Red": 15
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Copper": {
@@ -23588,6 +25302,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Dirt": {
@@ -23598,6 +25320,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Gold": {
@@ -23608,6 +25338,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 350
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Iron": {
@@ -23618,6 +25356,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Obsidian": {
@@ -23628,6 +25374,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 350,
+                    "Exotic_Red": 25
+                },
+                "researchCost": {
+                    "Exotic_Red": 30
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Oxite": {
@@ -23638,6 +25393,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Platinum": {
@@ -23648,6 +25411,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 350
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Scoria": {
@@ -23658,6 +25429,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic_Red": 10
+                },
+                "researchCost": {
+                    "Exotic_Red": 15
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Silica": {
@@ -23668,6 +25448,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Stone": {
@@ -23678,6 +25466,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Sulfur": {
@@ -23688,6 +25484,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Synthetic_Enzymes": {
@@ -23698,6 +25502,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 150
+                },
+                "researchCost": {
+                    "Exotic1": 25
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Titanium": {
@@ -23708,6 +25520,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 450
+                },
+                "researchCost": {
+                    "Credits": 125
+                }
+            },
             "usable": false
         },
         "Meta_Resource_Pack_Wood": {
@@ -23718,6 +25538,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "usable": false
         },
         "Meta_Rhubarb_Seed": {
@@ -23728,6 +25556,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Scanner_DeepOre": {
@@ -23738,6 +25574,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500
+                }
+            },
             "usable": false
         },
         "Meta_Sickle_Inaris_00": {
@@ -23748,6 +25592,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseReapingSeedRewards_+%": 100,
                 "CanHarvestSeeds_?": 1
@@ -23762,6 +25614,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseAttackSpeed_+%": 25,
                 "BaseCriticalDamage_+%": 25,
@@ -23777,6 +25637,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "usable": false
         },
         "Meta_Soda": {
@@ -23787,6 +25655,14 @@
             "isFood": true,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "stats": {
                 "BaseWaterRecovery_+": 100
             },
@@ -23808,6 +25684,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseAttacksCauseImmobilise_%": 10,
                 "BaseAttacksCauseSlow_%": 50
@@ -23822,6 +25706,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 50,
@@ -23837,6 +25730,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 50,
@@ -23852,6 +25754,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 200,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 50,
@@ -23867,6 +25778,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 1000
+                }
+            },
             "stats": {
                 "BaseSpearAttackSpeed_+%": 10,
                 "BaseSpearStaminaActionCost_+%": -15
@@ -23881,6 +25800,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 75
+                }
+            },
             "stats": {
                 "BaseSpearCriticalDamage_+%": 15
             },
@@ -23894,6 +25821,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseMeleeDamageResistance_+%": -5,
                 "BaseMovementSpeed_+%": 10,
@@ -23909,6 +25844,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 300
+                }
+            },
             "stats": {
                 "BaseSpearAttackSpeed_+%": 10,
                 "BaseSpearCriticalDamage_+%": 20,
@@ -23924,6 +25867,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseSpearAttackSpeed_+%": 15,
                 "BaseSpearCriticalDamage_+%": 20
@@ -23938,6 +25891,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 250
+                }
+            },
             "stats": {
                 "BaseMovementSpeed_+%": 10,
                 "BaseSpearCriticalDamage_+%": 20,
@@ -23953,6 +25916,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 150
+                },
+                "researchCost": {
+                    "Exotic_Red": 500
+                }
+            },
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50,
@@ -23968,6 +25939,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Stamina_Gel": {
@@ -23978,6 +25957,14 @@
             "isFood": true,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "stats": {
                 "BaseStaminaRecovery_+": 50
             },
@@ -23991,6 +25978,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_SugarCane_Seed": {
@@ -24001,6 +25996,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Super_Ration": {
@@ -24011,6 +26014,14 @@
             "isFood": true,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "stats": {
                 "BaseFoodRecovery_+": 200
             },
@@ -24035,6 +26046,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Watermelon_Seed": {
@@ -24045,6 +26064,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Wheat_Seed": {
@@ -24055,6 +26082,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_WildTea_Seed": {
@@ -24065,6 +26100,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Meta_Yeast_Seed": {
@@ -24075,6 +26118,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 20
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Metal_Axe": {
@@ -24619,6 +26670,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50,
+                    "Exotic1": 50
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 100
+                }
+            },
             "usable": false
         },
         "Mission_Aerosol_Emitter": {
@@ -26974,6 +29035,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 500
+                }
+            },
             "stats": {
                 "BaseCriticalDamage_+%": 25,
                 "BaseProjectileDamage_+%": 25
@@ -28805,6 +30876,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 400
+                },
+                "researchCost": {
+                    "Exotic1": 200
+                }
+            },
             "stats": {
                 "BaseAnimalAttraction_+%": 50,
                 "BaseRadarPrecision_%": 33,
@@ -30130,6 +32209,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 500
+                }
+            },
             "stats": {
                 "BaseCriticalDamage_+%": 25,
                 "BaseProjectileDamage_+%": -10
@@ -32902,6 +34991,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 750,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 1000,
+                    "Exotic1": 500
+                }
+            },
             "stats": {
                 "BaseCriticalDamage_+%": 25,
                 "BaseProjectileDamage_+%": 60
@@ -33877,6 +35976,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 100
+                }
+            },
             "usable": false
         },
         "Spoiled_Meat": {
@@ -35513,6 +37620,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 25
+                },
+                "researchCost": {
+                    "Credits": 50
+                }
+            },
             "usable": false
         },
         "Sustenence_Enhancement_Tonic": {
@@ -35661,6 +37776,16 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 500
+                }
+            },
             "usable": false
         },
         "Teddy_Bear": {
@@ -38215,6 +40340,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Cat_A1": {
@@ -38225,6 +40359,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Cat_A2": {
@@ -38235,6 +40378,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Cat_A3": {
@@ -38245,6 +40397,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Chicken": {
@@ -38255,6 +40416,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Cooker": {
@@ -38266,6 +40436,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_A1": {
@@ -38276,6 +40454,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_A2": {
@@ -38286,6 +40473,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_B1": {
@@ -38296,6 +40492,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_B2": {
@@ -38306,6 +40511,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_C1": {
@@ -38316,6 +40530,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_D1": {
@@ -38326,6 +40549,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dog_D2": {
@@ -38336,6 +40568,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Dressing_Bundle": {
@@ -38346,6 +40587,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 200,
+                    "Exotic1": 50
+                }
+            },
             "usable": false
         },
         "Workshop_Dressing_Kit": {
@@ -38369,6 +40619,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100
+                },
+                "researchCost": {
+                    "Credits": 200
+                }
+            },
             "usable": false
         },
         "Workshop_Horse_A1": {
@@ -38379,6 +40637,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Horse_A2": {
@@ -38389,6 +40656,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Horse_A3": {
@@ -38399,6 +40675,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Hydrazine_Container": {
@@ -38409,6 +40694,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 50
+                },
+                "researchCost": {
+                    "Credits": 150
+                }
+            },
             "usable": false
         },
         "Workshop_Purification_Tablet": {
@@ -38420,6 +40713,14 @@
             "ingredientIn": [
                 "Purify_Water"
             ],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 10
+                },
+                "researchCost": {
+                    "Credits": 25
+                }
+            },
             "stats": {
                 "RemoveWaterQuality_?": 1
             }
@@ -38432,6 +40733,15 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
             "usable": false
         },
         "Workshop_Shovel": {
@@ -38442,6 +40752,14 @@
             "isFood": false,
             "recipes": [],
             "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Exotic1": 500
+                }
+            },
             "stats": {
                 "BaseCreatesCropPlotTier_+": 8,
                 "BaseDiggingRewards_+%": 100,

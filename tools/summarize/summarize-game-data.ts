@@ -10,6 +10,7 @@ import type {ModifierStatesFile} from './types/modifier-states.interface.js';
 import type {ProcessorRecipes} from './types/processor-recipes.interface.js';
 import type {RecipeSets} from './types/recipe-sets.interface.js';
 import type {StatsFile} from './types/stats.interface.js';
+import type {WorkshopItemsFile} from './types/workshop-items.interface.js';
 import {LogWriter} from './util/logwriter.js';
 import {summarizeData} from './util/summarize.js';
 
@@ -44,6 +45,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
     const itemables: Itemable = await readData('Traits/D_Itemable.json');
     const processorRecipes: ProcessorRecipes = await readData('Crafting/D_ProcessorRecipes.json');
     const recipeSets: RecipeSets = await readData('Crafting/D_RecipeSets.json');
+    const workshopItems: WorkshopItemsFile = await readData('MetaWorkshop/D_WorkshopItems.json');
 
     const gameData = summarizeData({
         consumables: consumables,
@@ -55,6 +57,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
         processorRecipes,
         recipeSets,
         statsFile,
+        workshopItems: workshopItems,
     });
 
     fs.writeFileSync(

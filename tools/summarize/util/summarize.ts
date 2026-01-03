@@ -3,6 +3,7 @@ import type {LogWriter} from './logwriter.js';
 import {sortObjectKeys} from './object.util.js';
 import {extractStats, getModifier} from './stats.util.js';
 import {staticItemTagMatches} from './tag.util.js';
+import {workshopItemToSummary} from './workshop.util.js';
 import type {
     Crafter,
     GameData,
@@ -11,6 +12,7 @@ import type {
     Item as OutputItem,
     Recipe as OutputRecipe,
     Stat,
+    WorkshopItem,
 } from '../../../src/lib/data.interface.js';
 import type {RefWithDataTable} from '../types/common.interface.js';
 import type {ConsumableFile, ConsumableRow} from '../types/consumable.interface.js';
@@ -21,6 +23,7 @@ import type {ModifierStateRow, ModifierStatesFile} from '../types/modifier-state
 import type {ElementCount, ProcessorRecipes} from '../types/processor-recipes.interface.js';
 import type {RecipeSets} from '../types/recipe-sets.interface.js';
 import type {StatsFile} from '../types/stats.interface.js';
+import type {WorkshopItemsFile} from '../types/workshop-items.interface.js';
 
 export interface SummarizeInput {
     log: LogWriter;
@@ -32,7 +35,7 @@ export interface SummarizeInput {
     itemables: Itemable;
     processorRecipes: ProcessorRecipes;
     recipeSets: RecipeSets;
-
+    workshopItems: WorkshopItemsFile;
 }
 
 export function summarizeData(
@@ -46,6 +49,7 @@ export function summarizeData(
         statsFile,
         modifiers,
         consumables,
+        workshopItems,
     }: SummarizeInput,
 ): GameData {
     const iconPrefix = '/Game/Assets/2DArt/UI/';
@@ -83,12 +87,17 @@ export function summarizeData(
      * Maps item templates to their static name.
      */
     const itemTemplateMap = new Map<string, string>();
+    /**
+     * Maps static items to their template.
+     */
+    const itemStaticToTemplateMap = new Map<string, string>();
 
     for (const itemTemplate of itemTemplates.Rows) {
         if (itemTemplate.ItemStaticData === undefined) {
             continue;
         }
 
+        itemStaticToTemplateMap.set(itemTemplate.ItemStaticData.RowName, itemTemplate.Name);
         itemTemplateMap.set(itemTemplate.Name.toLowerCase(), itemTemplate.ItemStaticData.RowName);
     }
 
@@ -186,6 +195,7 @@ export function summarizeData(
             itemExcluded[item.Name] = 'Not itemable';
             continue;
         }
+        const templateName = itemStaticToTemplateMap.get(item.Name);
 
         /**
          * E.g. Name of item as used in D_ItemsStatic.json, e.g. Stick.
@@ -292,6 +302,16 @@ export function summarizeData(
             throw flavorTextErr;
         }
 
+        let workshopItem: WorkshopItem | undefined;
+        if (templateName !== undefined) {
+            const workshopItemRow = workshopItems.Rows.find(i => {
+                return i.Item.RowName === templateName;
+            });
+            if (workshopItemRow !== undefined) {
+                workshopItem = workshopItemToSummary(workshopItemRow);
+            }
+        }
+
         const isFood = item.Consumable !== undefined
             && staticItemTagMatches(item, tagname => {
                 switch (tagname) {
@@ -317,6 +337,7 @@ export function summarizeData(
             isFood: isFood,
             recipes: [],
             ingredientIn: [],
+            workshopItem: workshopItem,
             stats: Object.keys(itemStats).length > 0 ? itemStats : undefined,
             modifier: modifier ?? undefined,
             usable: undefined,

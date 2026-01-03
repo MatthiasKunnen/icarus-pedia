@@ -36,7 +36,17 @@ export interface Item {
      * - bandage effect
      */
     modifier: ItemModifier | undefined;
+    workshopItem: WorkshopItem | undefined;
 }
+
+export interface WorkshopItem {
+    researchCost: WorkshopCost;
+    craftCost: WorkshopCost;
+}
+
+export type WorkshopCost = Partial<Record<WorkshopCurrency, number>>;
+
+export type WorkshopCurrency = 'Biomass' | 'Credits' | 'Exotic_Red' | 'Exotic1';
 
 export interface ItemModifier {
     stats: ItemStats | undefined;
