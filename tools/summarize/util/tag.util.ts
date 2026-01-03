@@ -1,4 +1,4 @@
-import type {ItemStaticRow} from '../item-static.interface.js';
+import type {ItemStaticRow} from '../types/item-static.interface.js';
 
 export function staticItemTagMatches(
     item: ItemStaticRow,

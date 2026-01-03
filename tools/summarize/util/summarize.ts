@@ -12,15 +12,15 @@ import type {
     Recipe as OutputRecipe,
     Stat,
 } from '../../../src/lib/data.interface.js';
-import type {RefWithDataTable} from '../common.interface.js';
-import type {ConsumableFile, ConsumableRow} from '../consumable.interface.js';
-import type {ItemsStatic} from '../item-static.interface.js';
-import type {ItemTemplates} from '../item-templates.interface.js';
-import type {Itemable} from '../itemable.interface.js';
-import type {ModifierStateRow, ModifierStatesFile} from '../modifier-states.interface.js';
-import type {ElementCount, ProcessorRecipes} from '../processor-recipes.interface.js';
-import type {RecipeSets} from '../recipe-sets.interface.js';
-import type {StatsFile} from '../stats.interface.js';
+import type {RefWithDataTable} from '../types/common.interface.js';
+import type {ConsumableFile, ConsumableRow} from '../types/consumable.interface.js';
+import type {ItemsStatic} from '../types/item-static.interface.js';
+import type {ItemTemplates} from '../types/item-templates.interface.js';
+import type {Itemable} from '../types/itemable.interface.js';
+import type {ModifierStateRow, ModifierStatesFile} from '../types/modifier-states.interface.js';
+import type {ElementCount, ProcessorRecipes} from '../types/processor-recipes.interface.js';
+import type {RecipeSets} from '../types/recipe-sets.interface.js';
+import type {StatsFile} from '../types/stats.interface.js';
 
 export interface SummarizeInput {
     log: LogWriter;

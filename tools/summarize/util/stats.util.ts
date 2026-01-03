@@ -1,7 +1,7 @@
 import {sortObjectKeys} from './object.util.js';
 import type {ItemModifier, ItemStats} from '../../../src/lib/data.interface.js';
-import type {ConsumableRow} from '../consumable.interface.js';
-import type {ModifierStateRow} from '../modifier-states.interface.js';
+import type {ConsumableRow} from '../types/consumable.interface.js';
+import type {ModifierStateRow} from '../types/modifier-states.interface.js';
 
 const statRegex = /^\(Value="(.*)"\)$/u;
 

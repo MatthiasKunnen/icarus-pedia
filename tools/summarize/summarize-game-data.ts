@@ -2,14 +2,14 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
-import type {ConsumableFile} from './consumable.interface.js';
-import type {ItemsStatic} from './item-static.interface.js';
-import type {ItemTemplates} from './item-templates.interface.js';
-import type {Itemable} from './itemable.interface.js';
-import type {ModifierStatesFile} from './modifier-states.interface.js';
-import type {ProcessorRecipes} from './processor-recipes.interface.js';
-import type {RecipeSets} from './recipe-sets.interface.js';
-import type {StatsFile} from './stats.interface.js';
+import type {ConsumableFile} from './types/consumable.interface.js';
+import type {ItemsStatic} from './types/item-static.interface.js';
+import type {ItemTemplates} from './types/item-templates.interface.js';
+import type {Itemable} from './types/itemable.interface.js';
+import type {ModifierStatesFile} from './types/modifier-states.interface.js';
+import type {ProcessorRecipes} from './types/processor-recipes.interface.js';
+import type {RecipeSets} from './types/recipe-sets.interface.js';
+import type {StatsFile} from './types/stats.interface.js';
 import {LogWriter} from './util/logwriter.js';
 import {summarizeData} from './util/summarize.js';
 
