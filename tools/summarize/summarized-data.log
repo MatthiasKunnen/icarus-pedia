@@ -120,6 +120,62 @@ Could not find static name for element with RowName=MinerArmor_Chest, DataTableN
 Could not find static name for element with RowName=MinerArmor_Arms, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Arms
 Could not find static name for element with RowName=MinerArmor_Legs, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Legs
 Could not find static name for element with RowName=MinerArmor_Feet, DataTableName=D_ItemTemplate while processing recipe Miner_Armor_Feet
+Recipe Carcass_Rabbit_Variant_Snow excluded: Not all inputs/outputs found.
+Recipe Battery_T3 excluded: Not all inputs/outputs found.
+Recipe Battery_T4 excluded: Not all inputs/outputs found.
+Recipe Stone_Diagonal_Set excluded: Not all inputs/outputs found.
+Recipe Stone_Curved_Set excluded: Not all inputs/outputs found.
+Recipe Stone_Diagonal_Curved_Wall_Angles excluded: Not all inputs/outputs found.
+Recipe Stone_Wall_Curved excluded: Not all inputs/outputs found.
+Recipe Stone_Advanced_Beams_Set excluded: Not all inputs/outputs found.
+Recipe Stone_Roof_CurvedAngles excluded: Not all inputs/outputs found.
+Recipe Scoria_Diagonal_Set excluded: Not all inputs/outputs found.
+Recipe Scoria_Curved_Set excluded: Not all inputs/outputs found.
+Recipe Scoria_Diagonal_Curved_Wall_Angles excluded: Not all inputs/outputs found.
+Recipe Scoria_Roof_CurvedAngles excluded: Not all inputs/outputs found.
+Recipe Scoria_Wall_Curved excluded: Not all inputs/outputs found.
+Recipe Scoria_Advanced_Beam_Set excluded: Not all inputs/outputs found.
+Recipe Ice_Half_Pitch excluded: Not all inputs/outputs found.
+Recipe Ice_Diagonal_Set excluded: Not all inputs/outputs found.
+Recipe Ice_Curved_Set excluded: Not all inputs/outputs found.
+Recipe Ice_Diagonal_Curved_Wall_Angles excluded: Not all inputs/outputs found.
+Recipe Ice_Roof_CurvedAngles excluded: Not all inputs/outputs found.
+Recipe Ice_Wall_Curved excluded: Not all inputs/outputs found.
+Recipe Ice_Advanced_Beam_Set excluded: Not all inputs/outputs found.
+Recipe Advanced_Butchery_Bench excluded: Not all inputs/outputs found.
+Recipe Homestead_Silo excluded: Not all inputs/outputs found.
+Recipe Homestead_Quilted_Bed excluded: Not all inputs/outputs found.
+Recipe Homestead_Farm_Railing excluded: Not all inputs/outputs found.
+Recipe Homestead_Farm_Railing_Gate excluded: Not all inputs/outputs found.
+Recipe Homestead_Swing_Chair excluded: Not all inputs/outputs found.
+Recipe Homestead_Soft_Sofa_Single excluded: Not all inputs/outputs found.
+Recipe Homestead_Soft_Sofa_Double excluded: Not all inputs/outputs found.
+Recipe Homestead_Spawn_Blocker_Scarecrow excluded: Not all inputs/outputs found.
+Recipe Homestead_PlanterBox_SML excluded: Not all inputs/outputs found.
+Recipe Homestead_Water_Tank excluded: Not all inputs/outputs found.
+Recipe Homestead_Cabinet excluded: Not all inputs/outputs found.
+Recipe Homestead_Cabinet_LRG excluded: Not all inputs/outputs found.
+Recipe Homestead_BirdFeeder excluded: Not all inputs/outputs found.
+Recipe Homestead_Sewing_Machine excluded: Not all inputs/outputs found.
+Recipe Homestead_Ranch_Sign excluded: Not all inputs/outputs found.
+Recipe Homestead_Ranch_Gate_Sign excluded: Not all inputs/outputs found.
+Recipe Homestead_Vintage_Jar excluded: Not all inputs/outputs found.
+Recipe Homestead_Honey_Pot excluded: Not all inputs/outputs found.
+Recipe Homestead_Butter_Churn excluded: Not all inputs/outputs found.
+Recipe Homestead_Coffee_Grinder excluded: Not all inputs/outputs found.
+Recipe Homestead_Cheese excluded: Not all inputs/outputs found.
+Recipe Homestead_Hanging_Meat excluded: Not all inputs/outputs found.
+Recipe Homestead_Rocking_Chair_Single excluded: Not all inputs/outputs found.
+Recipe Homestead_Rocking_Chair_Double excluded: Not all inputs/outputs found.
+Recipe Homestead_Picnic_Table excluded: Not all inputs/outputs found.
+Recipe Homestead_Barbed_Wire_Fence excluded: Not all inputs/outputs found.
+Recipe Homestead_Lamp_Ground excluded: Not all inputs/outputs found.
+Recipe Homestead_Lamp_Wall excluded: Not all inputs/outputs found.
+Recipe Miner_Armor_Head excluded: Not all inputs/outputs found.
+Recipe Miner_Armor_Chest excluded: Not all inputs/outputs found.
+Recipe Miner_Armor_Arms excluded: Not all inputs/outputs found.
+Recipe Miner_Armor_Legs excluded: Not all inputs/outputs found.
+Recipe Miner_Armor_Feet excluded: Not all inputs/outputs found.
 Of the non-excluded items, 1740 are usable in crafting, the following 630 are not:
 - Kit_Concrete_Furnace
 - Kit_Electric_Furnace

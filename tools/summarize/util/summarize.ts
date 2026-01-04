@@ -547,6 +547,10 @@ export function summarizeData(
         };
     }
 
+    for (const [recipeName, exclusionReason] of Object.entries(excludedRecipes)) {
+        log.print(`Recipe ${recipeName} excluded: ${exclusionReason}`);
+    }
+
     for (const statName of stats.keys()) {
         // Do not include unused stats in result
         if (statsToInclude.has(statName)) {
