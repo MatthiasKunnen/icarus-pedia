@@ -5,6 +5,7 @@ export type ProcessorRecipesDataTable = DataTable<ProcessorRecipesRow>;
 
 export interface ProcessorRecipesRow {
     Name: string;
+    bForceDisableRecipe?: boolean;
     Requirement?: Ref;
     RecipeSets: Array<RefWithDataTable>;
     ResourceCostMultipliers: Array<{Value: string}>;

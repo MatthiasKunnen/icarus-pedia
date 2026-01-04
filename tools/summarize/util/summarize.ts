@@ -383,6 +383,10 @@ export function summarizeData(
     const excludedRecipes: Record<string, string> = {};
     const mappedRecipes: Record<string, OutputRecipe> = {};
     for (const recipe of processorRecipes.Rows) {
+        if (recipe.bForceDisableRecipe === true) {
+            continue;
+        }
+
         const elementCountsToItemCount = (elementCounts: Array<ElementCount>): Array<ItemCount> => {
             const itemCounts: Array<ItemCount> = [];
 

@@ -64,10 +64,6 @@ Excluded items:
 - Flamethrower_Fireball: Not itemable
 - RockGolem_Gauntlet_Projectile: Not itemable
 - Ammo_Sniper_Round_Illumination: No display name
-Could not find static name for element with RowName=Thatch_Frame, DataTableName=D_ItemTemplate while processing recipe Thatch_Frame
-Could not find static name for element with RowName=Wood_Frame, DataTableName=D_ItemTemplate while processing recipe Wood_Frame
-Could not find static name for element with RowName=Wood_Frame, DataTableName=D_ItemTemplate while processing recipe Wood_Frame_CarpentryBench
-Could not find static name for element with RowName=Wood_Frame_Refined, DataTableName=D_ItemTemplate while processing recipe Interior_Wood_Frame
 Could not find static name for element with RowName=AnimalCarcass_Rabbit_Variant_Snow, DataTableName=D_ItemsStatic while processing recipe Carcass_Rabbit_Variant_Snow
 Could not find static name for element with RowName=Battery_T3, DataTableName=D_ItemTemplate while processing recipe Battery_T3
 Could not find static name for element with RowName=Battery_T4, DataTableName=D_ItemTemplate while processing recipe Battery_T4
