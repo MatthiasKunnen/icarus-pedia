@@ -15,11 +15,14 @@ const log = new LogWriter(path.join(dirname, 'sync-icons.ts'));
         path.join(dirname, 'summarized-data.json'),
         {encoding: 'utf-8'},
     ));
-    const icons = [
-        ...Object.values(data.items).map(item => item.icon),
-        ...Object.values(data.crafters).map(item => item.icon),
-    ];
-    icons.push('Logos/Icon_Icarus');
+    const icons = new Set<string>();
+    for (const item of Object.values(data.items)) {
+        icons.add(item.icon);
+    }
+    for (const item of Object.values(data.crafters)) {
+        icons.add(item.icon);
+    }
+    icons.add('Logos/Icon_Icarus');
 
     log.print('Cleaning output path');
     for (const filename of await fs.promises.readdir(outputPath)) {
