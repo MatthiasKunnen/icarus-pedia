@@ -12,7 +12,6 @@ See [gamedata/README.md](./gamedata/README.md).
 - [ ] Add groups; ammo, attachments
 - [ ] Add more content and buttons to items on landingspage
 - [ ] Add big food/consumable comparison table
-- [ ] Biofuel recipe is missing icon in https://icaruspedia.gametools.cloud/Items/Item/Spoiled_Plants
 - [ ] Add numbers from D_Armour to armour pieces
 - [ ] Add armor sets
 - [ ] Add effected by weather from D_Deployable
@@ -24,7 +23,6 @@ See [gamedata/README.md](./gamedata/README.md).
 - [ ] Show prospects, exotics min and max, and maybe, the todos,
       example: Tier3_RiverLands_Stockpile_0
 - [ ] Add farm reward info for crops D_FarmingSeeds links to D_FarmingRewards
-- [ ] https://icaruspedia.gametools.cloud/Items/Item/Cream does not show Milk requirement
 - [ ] https://icaruspedia.gametools.cloud/Items/Item/Smoked_Gamey_Meat shows not craftable anywhere
 - [x] Why are the following items not in the list of items?
   - spoiled plants

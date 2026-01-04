@@ -9,6 +9,7 @@ import type {Itemable} from './types/itemable.interface.js';
 import type {ModifierStatesFile} from './types/modifier-states.interface.js';
 import type {ProcessorRecipes} from './types/processor-recipes.interface.js';
 import type {RecipeSets} from './types/recipe-sets.interface.js';
+import type {ResourcesFile} from './types/resources.interface.js';
 import type {StatsFile} from './types/stats.interface.js';
 import type {WorkshopItemsFile} from './types/workshop-items.interface.js';
 import {LogWriter} from './util/logwriter.js';
@@ -45,6 +46,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
     const itemables: Itemable = await readData('Traits/D_Itemable.json');
     const processorRecipes: ProcessorRecipes = await readData('Crafting/D_ProcessorRecipes.json');
     const recipeSets: RecipeSets = await readData('Crafting/D_RecipeSets.json');
+    const resources: ResourcesFile = await readData('Resources/D_IcarusResources.json');
     const workshopItems: WorkshopItemsFile = await readData('MetaWorkshop/D_WorkshopItems.json');
 
     const gameData = summarizeData({
@@ -56,6 +58,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
         modifiers: modifiers,
         processorRecipes,
         recipeSets,
+        resources: resources,
         statsFile,
         workshopItems: workshopItems,
     });

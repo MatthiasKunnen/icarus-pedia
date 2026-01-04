@@ -44046,7 +44046,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel2": {
             "craftedAt": [
@@ -44062,7 +44068,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel3": {
             "craftedAt": [
@@ -44078,7 +44090,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel4": {
             "craftedAt": [
@@ -44094,7 +44112,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel5": {
             "craftedAt": [
@@ -44110,7 +44134,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel6": {
             "craftedAt": [
@@ -44126,7 +44156,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel7": {
             "craftedAt": [
@@ -44142,7 +44178,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel8": {
             "craftedAt": [
@@ -44158,7 +44200,13 @@
                     "count": 10
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ]
         },
         "Biofuel_9": {
             "craftedAt": [
@@ -44174,7 +44222,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 500
+                }
+            ]
         },
         "Biofuel_Generator": {
             "requirement": "Biofuel_Generator",
@@ -47470,6 +47524,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Milk",
+                    "count": 500
+                }
+            ],
             "outputs": [
                 {
                     "item": "Carrot_Cake",
@@ -48764,6 +48824,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Milk",
+                    "count": 2000
+                }
+            ],
             "outputs": [
                 {
                     "item": "Cheese",
@@ -49009,6 +49075,12 @@
                     "count": 2
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 2000
+                }
+            ],
             "outputs": [
                 {
                     "item": "Choc_Chip_Cookie",
@@ -49044,6 +49116,12 @@
                 {
                     "item": "Sugar",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Milk",
+                    "count": 500
                 }
             ],
             "outputs": [
@@ -49085,6 +49163,12 @@
                 {
                     "item": "Clay",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -49550,6 +49634,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Milk",
+                    "count": 500
+                }
+            ],
             "outputs": [
                 {
                     "item": "Coconut_Cake",
@@ -49577,6 +49667,12 @@
                 {
                     "item": "Sugar",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 2000
                 }
             ],
             "outputs": [
@@ -51438,6 +51534,12 @@
                     "count": 2
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Milk",
+                    "count": 1000
+                }
+            ],
             "outputs": [
                 {
                     "item": "Cream",
@@ -52465,6 +52567,12 @@
                     "count": 1
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Dough_Bread",
@@ -52483,6 +52591,12 @@
                 {
                     "item": "Flour",
                     "count": 3
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -53824,7 +53938,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Oxygen",
+                    "count": 100
+                }
+            ]
         },
         "Fill_Oxygen_Container_Metal": {
             "craftedAt": [
@@ -53836,7 +53956,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Oxygen",
+                    "count": 200
+                }
+            ]
         },
         "FireWhacker": {
             "requirement": "FireWhacker",
@@ -53912,6 +54038,12 @@
                 {
                     "item": "Sulfur",
                     "count": 8
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 500
                 }
             ],
             "outputs": [
@@ -55261,6 +55393,12 @@
                     "count": 20
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 5000
+                }
+            ],
             "outputs": [
                 {
                     "item": "Flame_Thrower",
@@ -55793,6 +55931,12 @@
                     "count": 3
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Food_Corn_Soup",
@@ -55814,6 +55958,12 @@
                 {
                     "item": "Corn",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -55890,6 +56040,12 @@
                 {
                     "item": "Squash",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -56165,6 +56321,12 @@
                     "count": 1
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Food_Meat_Stew",
@@ -56230,6 +56392,12 @@
                     "count": 3
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Food_Mushroom_Soup",
@@ -56254,6 +56422,12 @@
                 {
                     "item": "Salt",
                     "count": 5
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -56308,6 +56482,12 @@
                 {
                     "item": "Rhubarb",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -56504,6 +56684,12 @@
                 {
                     "item": "Tomato",
                     "count": 3
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -56850,6 +57036,12 @@
                     "count": 3
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Frag_Grenade",
@@ -56875,6 +57067,12 @@
                 {
                     "item": "Volatile_Substance",
                     "count": 3
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57436,6 +57634,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Geode_Lamp_Burst_Copper",
@@ -57458,6 +57662,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57484,6 +57694,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Geode_Lamp_Burst_Oxite",
@@ -57506,6 +57722,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57532,6 +57754,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Geode_Lamp_Cut_Gold",
@@ -57554,6 +57782,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57580,6 +57814,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Geode_Lamp_Monolith_Copper",
@@ -57602,6 +57842,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57628,6 +57874,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Geode_Lamp_Monolith_Oxite",
@@ -57650,6 +57902,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57676,6 +57934,12 @@
                     "count": 10
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Geode_Lamp_Rock_Gold",
@@ -57698,6 +57962,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -57979,6 +58249,12 @@
                     "count": 4
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 50
+                }
+            ],
             "outputs": [
                 {
                     "item": "Glass_Beam_Tempered",
@@ -58049,6 +58325,12 @@
                     "count": 2
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Glass_Door_Reinforced",
@@ -58099,6 +58381,12 @@
                 {
                     "item": "Steel_Ingot",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -58153,6 +58441,12 @@
                     "count": 1
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 50
+                }
+            ],
             "outputs": [
                 {
                     "item": "Glass_Half_Pitch_Tempered",
@@ -58203,6 +58497,12 @@
                 {
                     "item": "Steel_Ingot",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 50
                 }
             ],
             "outputs": [
@@ -58324,6 +58624,12 @@
                     "count": 2
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Glass_Ramp_Tempered",
@@ -58374,6 +58680,12 @@
                 {
                     "item": "Steel_Ingot",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 50
                 }
             ],
             "outputs": [
@@ -58454,6 +58766,12 @@
                     "count": 1
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 50
+                }
+            ],
             "outputs": [
                 {
                     "item": "Glass_Wall_Angle_Tempered",
@@ -58478,6 +58796,12 @@
                 {
                     "item": "Steel_Ingot",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -58530,6 +58854,12 @@
                 {
                     "item": "Steel_Ingot",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -60386,6 +60716,12 @@
                 {
                     "item": "Any_Water_Container",
                     "count": 1
+                }
+            ],
+            "outputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ]
         },
@@ -65183,6 +65519,12 @@
                     "count": 2
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Mission_Buffer",
@@ -65206,6 +65548,12 @@
                 {
                     "item": "Refined_Metal",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -65359,6 +65707,12 @@
                     "count": 2
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Mission_Ethanol",
@@ -65387,6 +65741,12 @@
                 {
                     "item": "Volatile_Substance",
                     "count": 5
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -65561,6 +65921,12 @@
                 {
                     "item": "Volatile_Substance",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 1000
                 }
             ],
             "outputs": [
@@ -67671,6 +68037,12 @@
                     "count": 1
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Pastry",
@@ -67691,6 +68063,12 @@
                 {
                     "item": "Flour",
                     "count": 5
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -67748,6 +68126,12 @@
                     "count": 5
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Pickled_Avocado",
@@ -67772,6 +68156,12 @@
                 {
                     "item": "Salt",
                     "count": 5
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -67800,6 +68190,12 @@
                     "count": 5
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
+                }
+            ],
             "outputs": [
                 {
                     "item": "Pickled_Freshwater_Fillet",
@@ -67824,6 +68220,12 @@
                 {
                     "item": "Tomato",
                     "count": 1
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 100
                 }
             ],
             "outputs": [
@@ -75211,7 +75613,13 @@
                     "count": 1
                 }
             ],
-            "outputs": []
+            "outputs": [],
+            "outputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 300
+                }
+            ]
         },
         "Seed_Bread": {
             "craftedAt": [
@@ -76517,6 +76925,12 @@
                 {
                     "item": "Stone",
                     "count": 10
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Biofuel",
+                    "count": 50
                 }
             ],
             "outputs": [
@@ -78648,6 +79062,12 @@
                     "count": 1
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 2000
+                }
+            ],
             "outputs": [
                 {
                     "item": "Strawberry_Candy",
@@ -80577,6 +80997,12 @@
                     "count": 5
                 }
             ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 500
+                }
+            ],
             "outputs": [
                 {
                     "item": "WaterBomb",
@@ -81017,6 +81443,12 @@
                 {
                     "item": "Watermelon",
                     "count": 2
+                }
+            ],
+            "inputResources": [
+                {
+                    "item": "Water",
+                    "count": 2000
                 }
             ],
             "outputs": [
@@ -82331,6 +82763,149 @@
                     "item": "Zebra_Trophy",
                     "count": 1
                 }
+            ]
+        }
+    },
+    "resources": {
+        "Biofuel": {
+            "displayName": "Biofuel",
+            "recipeIcon": "Icons/T_ICON_Recipe_Biofuel",
+            "resourceIcon": "Icons/T_ICON_Resource_Biofuel",
+            "ingredientIn": [
+                "Frag_Grenade",
+                "Frag_Grenade_Impact",
+                "Smoke_Grenade",
+                "Flamethrower",
+                "Mission_Explosive_Crafted",
+                "Mission_Buffer",
+                "Mission_Ethanol",
+                "Mission_Burner"
+            ],
+            "recipes": [
+                "Biofuel1",
+                "Biofuel5",
+                "Biofuel2",
+                "Biofuel3",
+                "Biofuel4",
+                "Biofuel6",
+                "Biofuel7",
+                "Biofuel8",
+                "Biofuel_9",
+                "Seed_Biofuel"
+            ]
+        },
+        "Crude_Oil": {
+            "displayName": "Crude Oil",
+            "recipeIcon": "Icons/T_ICON_Recipe_CrudeOil",
+            "resourceIcon": "Icons/T_ICON_Resource_CrudeOil",
+            "ingredientIn": [],
+            "recipes": []
+        },
+        "Energy": {
+            "displayName": "Electricity",
+            "recipeIcon": "Icons/T_ICON_Recipe_Electricity",
+            "resourceIcon": "Icons/T_ICON_Resource_Electricity",
+            "ingredientIn": [],
+            "recipes": []
+        },
+        "Hydrazine": {
+            "displayName": "Hydrazine",
+            "recipeIcon": "Icons/T_ICON_Recipe_Hydrazine",
+            "resourceIcon": "Icons/T_ICON_Resource_Hydrazine",
+            "ingredientIn": [],
+            "recipes": []
+        },
+        "Invalid": {
+            "displayName": "Invalid",
+            "recipeIcon": "Items/Item_Icons/ITEM_Missing",
+            "resourceIcon": "Items/Item_Icons/ITEM_Missing",
+            "ingredientIn": [],
+            "recipes": []
+        },
+        "Milk": {
+            "displayName": "Milk",
+            "recipeIcon": "Icons/T_ICON_Recipe_Milk",
+            "resourceIcon": "Icons/T_ICON_Resource_Milk",
+            "ingredientIn": [
+                "Chocolate_Cake",
+                "Coconut_Cake",
+                "Carrot_Cake",
+                "Cheese",
+                "Cream"
+            ],
+            "recipes": []
+        },
+        "Oxygen": {
+            "displayName": "Oxygen",
+            "recipeIcon": "Icons/T_ICON_Recipe_Oxygen",
+            "resourceIcon": "Icons/T_ICON_Resource_Oxygen",
+            "ingredientIn": [],
+            "recipes": [
+                "Fill_Oxygen_Container",
+                "Fill_Oxygen_Container_Metal"
+            ]
+        },
+        "Refined_Oil": {
+            "displayName": "Refined Oil",
+            "recipeIcon": "Icons/T_ICON_Recipe_RefinedOil",
+            "resourceIcon": "Icons/T_ICON_Resource_RefinedOil",
+            "ingredientIn": [],
+            "recipes": []
+        },
+        "Water": {
+            "displayName": "Water",
+            "recipeIcon": "Icons/T_ICON_Recipe_Water",
+            "resourceIcon": "Icons/T_ICON_Resource_Water",
+            "ingredientIn": [
+                "Dough_Bread",
+                "Dough_Flatbread",
+                "Fire_Extinguisher",
+                "WaterBomb",
+                "Food_Corn_Soup",
+                "Food_Mushroom_Soup",
+                "Food_Meat_Stew",
+                "Food_Creamed_Corn",
+                "Pastry",
+                "Pickled_Carrot",
+                "Clay_Brick",
+                "Food_Tomato_Soup",
+                "Pickled_Tomato",
+                "Food_Rhubarb_Stew",
+                "Pickled_Avocado",
+                "Geode_Lamp_Cut_Copper",
+                "Geode_Lamp_Cut_Gold",
+                "Geode_Lamp_Cut_Oxite",
+                "Geode_Lamp_Burst_Copper",
+                "Geode_Lamp_Burst_Gold",
+                "Geode_Lamp_Burst_Oxite",
+                "Geode_Lamp_Monolith_Copper",
+                "Geode_Lamp_Monolith_Gold",
+                "Geode_Lamp_Monolith_Oxite",
+                "Geode_Lamp_Rock_Copper",
+                "Geode_Lamp_Rock_Gold",
+                "Geode_Lamp_Rock_Oxite",
+                "Food_Fish_Chunk_Stew",
+                "Pickled_Freshwater_Fillet",
+                "Food_Pickled_Eggs",
+                "Mission_LiquidDeployment",
+                "Glass_Wall_Tempered",
+                "Glass_Wall_Angled_Tempered",
+                "Glass_Ramp_Tempered",
+                "Glass_Beam_Tempered",
+                "Glass_Floor_Tempered",
+                "Glass_Halfpiece_Tempered",
+                "Glass_Half_Pitch_Tempered",
+                "Glass_Roof_Corner_Tempered",
+                "Glass_Window_Reinforced",
+                "Glass_Door_Reinforced",
+                "Choc_Chip_Cookie",
+                "Coconut_Cookie",
+                "Strawberry_Candy",
+                "Watermelon_Lollypop",
+                "Pastry_Butter"
+            ],
+            "recipes": [
+                "Ice"
             ]
         }
     },

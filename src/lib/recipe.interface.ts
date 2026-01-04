@@ -13,6 +13,7 @@ export interface FullRecipeCraftedAt {
 
 export interface FullItemCount {
     count: number;
+    isResource: boolean;
     item: RecipeItem;
 }
 

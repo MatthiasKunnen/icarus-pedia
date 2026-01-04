@@ -22,6 +22,10 @@ const log = new LogWriter(path.join(dirname, 'sync-icons.ts'));
     for (const item of Object.values(data.crafters)) {
         icons.add(item.icon);
     }
+    for (const item of Object.values(data.resources)) {
+        icons.add(item.resourceIcon);
+        icons.add(item.recipeIcon);
+    }
     icons.add('Logos/Icon_Icarus');
 
     log.print('Cleaning output path');

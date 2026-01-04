@@ -12,6 +12,7 @@ import type {
     ItemType,
     Item as OutputItem,
     Recipe as OutputRecipe,
+    Resource,
     Stat,
     WorkshopItem,
 } from '../../../src/lib/data.interface.js';
@@ -21,8 +22,13 @@ import type {ItemsStatic} from '../types/item-static.interface.js';
 import type {ItemTemplates} from '../types/item-templates.interface.js';
 import type {Itemable} from '../types/itemable.interface.js';
 import type {ModifierStateRow, ModifierStatesFile} from '../types/modifier-states.interface.js';
-import type {ElementCount, ProcessorRecipes} from '../types/processor-recipes.interface.js';
+import type {
+    ElementCount,
+    ProcessorRecipeResource,
+    ProcessorRecipes,
+} from '../types/processor-recipes.interface.js';
 import type {RecipeSets} from '../types/recipe-sets.interface.js';
+import type {ResourcesFile} from '../types/resources.interface.js';
 import type {StatsFile} from '../types/stats.interface.js';
 import type {WorkshopItemsFile} from '../types/workshop-items.interface.js';
 
@@ -35,6 +41,7 @@ export interface SummarizeInput {
     statsFile: StatsFile;
     itemables: Itemable;
     processorRecipes: ProcessorRecipes;
+    resources: ResourcesFile;
     recipeSets: RecipeSets;
     workshopItems: WorkshopItemsFile;
 }
@@ -50,6 +57,7 @@ export function summarizeData(
         statsFile,
         modifiers,
         consumables,
+        resources,
         workshopItems,
     }: SummarizeInput,
 ): GameData {
@@ -110,6 +118,24 @@ export function summarizeData(
     const modifierStatesMap = new Map<string, ModifierStateRow>();
     for (const modifierState of modifiers.Rows) {
         modifierStatesMap.set(modifierState.Name, modifierState);
+    }
+
+    const mappedResources: Record<string, Resource> = {};
+    for (const row of resources.Rows) {
+        const [displayName, displayNameErr] = extractTranslation(row.DisplayName);
+        if (displayNameErr !== null) {
+            throw new Error(`Error translating resource display name of ${row.Name}`);
+        } else if (displayName === undefined) {
+            log.print(`No display name for resource with name ${row.Name}`);
+            continue;
+        }
+        mappedResources[row.Name] = {
+            displayName: displayName,
+            recipeIcon: processIcon(row.Recipe_Icon),
+            resourceIcon: processIcon(row.Resource_Icon),
+            ingredientIn: [],
+            recipes: [],
+        };
     }
 
     function getItemStaticName(ref: RefWithDataTable): string | undefined {
@@ -395,12 +421,43 @@ export function summarizeData(
 
             return itemCounts.sort((a, b) => a.item.localeCompare(b.item));
         };
+        const resourceToItemCount = (
+            recipeResources: Array<ProcessorRecipeResource> | undefined,
+        ): Array<ItemCount> | undefined => {
+            if (recipeResources === undefined) {
+                return undefined;
+            }
+            const itemCounts: Array<ItemCount> = [];
+
+            for (const recipeResource of recipeResources) {
+                const resource = mappedResources[recipeResource.Type.Value];
+                if (resource === undefined) {
+                    log.print(`Could not resource with Name=${recipeResource.Type.Value
+                        }, DataTableName=D_IcarusResources while processing recipe ${
+                        recipe.Name}`);
+                    continue;
+                }
+
+                itemCounts.push({
+                    item: recipeResource.Type.Value,
+                    count: recipeResource.RequiredUnits,
+                });
+            }
+
+            return itemCounts.sort((a, b) => a.item.localeCompare(b.item));
+        };
 
         const inputs = elementCountsToItemCount(recipe.Inputs);
+        const inputResources = resourceToItemCount(recipe.ResourceInputs);
         const outputs = elementCountsToItemCount(recipe.Outputs);
+        const outputResources = resourceToItemCount(recipe.ResourceOutputs);
 
-        if (inputs.length !== recipe.Inputs.length || outputs.length !== recipe.Outputs.length) {
-            excludedRecipes[recipe.Name] = 'Not all outputs found.';
+        if (inputs.length !== recipe.Inputs.length
+            || outputs.length !== recipe.Outputs.length
+            || inputResources?.length !== recipe.ResourceInputs?.length
+            || outputResources?.length !== recipe.ResourceOutputs?.length
+        ) {
+            excludedRecipes[recipe.Name] = 'Not all inputs/outputs found.';
             continue;
         }
 
@@ -417,6 +474,18 @@ export function summarizeData(
             }
             mappedItem.ingredientIn.push(recipe.Name);
         }
+        for (const input of inputResources ?? []) {
+            const mappedResource = mappedResources[input.item];
+            if (mappedResource === undefined) {
+                const reason = itemExcluded[input.item];
+                excludedRecipes[recipe.Name] = `input resource ${
+                    input.item} is not mapped.${
+                    reason === undefined ? '' : ` Reason: ${reason}.`}`;
+                skip = true;
+                break;
+            }
+            mappedResource.ingredientIn.push(recipe.Name);
+        }
         for (const recipeOutput of outputs) {
             const mappedItem = mappedItems[recipeOutput.item];
             if (mappedItem === undefined) {
@@ -428,6 +497,18 @@ export function summarizeData(
                 break;
             }
             mappedItem.recipes.push(recipe.Name);
+        }
+        for (const output of outputResources ?? []) {
+            const mappedResource = mappedResources[output.item];
+            if (mappedResource === undefined) {
+                const reason = itemExcluded[output.item];
+                excludedRecipes[recipe.Name] = `output resource ${
+                    output.item} is not mapped.${
+                    reason === undefined ? '' : ` Reason: ${reason}.`}`;
+                skip = true;
+                break;
+            }
+            mappedResource.recipes.push(recipe.Name);
         }
         if (skip) {
             continue;
@@ -465,7 +546,9 @@ export function summarizeData(
                 }
             }).filter(rs => !blacklistedRecipeSets.includes(rs)),
             inputs: inputs,
+            inputResources: inputResources,
             outputs: outputs,
+            outputResources: outputResources,
         };
     }
 
@@ -534,6 +617,7 @@ export function summarizeData(
         crafters: sortObjectKeys(crafters),
         items: sortObjectKeys(mappedItems),
         recipes: sortObjectKeys(mappedRecipes),
+        resources: sortObjectKeys(mappedResources),
         stats: sortObjectKeys(Object.fromEntries(stats)),
     };
 

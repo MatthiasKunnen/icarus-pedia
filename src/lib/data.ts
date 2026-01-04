@@ -34,9 +34,26 @@ export function itemCountToFull(ic: ItemCount, data: GameData): FullItemCount {
 
     return {
         count: ic.count,
+        isResource: false,
         item: {
             displayName: item.displayName,
             icon: item.icon,
+            name: ic.item,
+        },
+    };
+}
+export function resourceCountToFull(ic: ItemCount, data: GameData): FullItemCount {
+    const resource = data.resources[ic.item];
+    if (resource === undefined) {
+        throw new Error(`Could not find resource '${ic.item}'`);
+    }
+
+    return {
+        count: ic.count,
+        isResource: true,
+        item: {
+            displayName: resource.displayName,
+            icon: resource.recipeIcon,
             name: ic.item,
         },
     };
@@ -54,9 +71,15 @@ export function getRecipe(recipeName: string, data: GameData): FullRecipe {
             displayName: data.crafters[craftedAtId]?.displayName ?? craftedAtId,
             id: craftedAtId,
         })),
-        inputs: recipe.inputs.map(ic => itemCountToFull(ic, data)),
+        inputs: [
+            ...recipe.inputResources?.map(ic => resourceCountToFull(ic, data)) ?? [],
+            ...recipe.inputs.map(ic => itemCountToFull(ic, data)),
+            ],
         name: recipeName,
-        outputs: recipe.outputs.map(ic => itemCountToFull(ic, data)),
+        outputs: [
+            ...recipe.outputResources?.map(ic => resourceCountToFull(ic, data)) ?? [],
+            ...recipe.outputs.map(ic => itemCountToFull(ic, data)),
+        ],
         requirement: recipe.requirement,
     };
 }

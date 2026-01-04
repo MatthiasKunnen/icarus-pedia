@@ -66,7 +66,17 @@ export interface Recipe {
     requirement: string | undefined;
     craftedAt: Array<string>;
     inputs: Array<ItemCount>;
+    inputResources?: Array<ItemCount>;
     outputs: Array<ItemCount>;
+    outputResources?: Array<ItemCount>;
+}
+
+export interface Resource {
+    displayName: string;
+    resourceIcon: string;
+    recipeIcon: string;
+    ingredientIn: Array<string>;
+    recipes: Array<string>;
 }
 
 export interface Stat {
@@ -78,5 +88,6 @@ export interface GameData {
     crafters: Record<string, Crafter>;
     items: Record<string, Item>;
     recipes: Record<string, Recipe>;
+    resources: Record<string, Resource>;
     stats: Record<string, Stat>;
 }
