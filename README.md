@@ -8,7 +8,6 @@ The gamedata and textures are extracted from the game files.
 See [gamedata/README.md](./gamedata/README.md).
 
 ## TODO
-- [ ] Why undefined in Fur_Arms etc
 - [ ] Add search functionality
 - [ ] Add groups; ammo, attachments
 - [ ] Add more content and buttons to items on landingspage

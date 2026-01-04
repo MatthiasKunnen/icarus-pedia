@@ -21,7 +21,9 @@
 </div>
 
 <p>{data.description}</p>
-<p class="flavor-text">{data.flavorText}</p>
+{#if data.flavorText !== undefined}
+    <p class="flavor-text">{data.flavorText}</p>
+{/if}
 
 {#if data.stats.length > 0}
     <h2 id="stats" class="box-start">Stats</h2>
