@@ -15,11 +15,7 @@ export interface Item {
     icon: string;
     description: string | undefined;
     flavorText: string | undefined;
-    /**
-     * Whether the item can be eaten/applied to provide an effect. Includes food, pastes, pills,
-     * and vaccines.
-     */
-    isFood: boolean;
+    type: ItemType | undefined;
     recipes: Array<string>;
     ingredientIn: Array<string>;
 
@@ -38,6 +34,12 @@ export interface Item {
     modifier: ItemModifier | undefined;
     workshopItem: WorkshopItem | undefined;
 }
+
+export type ItemType =
+    | 'Food'
+    | 'Paste'
+    | 'Pill'
+    | 'Tonic';
 
 export interface WorkshopItem {
     researchCost: WorkshopCost;

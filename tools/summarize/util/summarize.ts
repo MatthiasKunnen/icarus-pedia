@@ -9,6 +9,7 @@ import type {
     GameData,
     ItemCount,
     ItemStats,
+    ItemType,
     Item as OutputItem,
     Recipe as OutputRecipe,
     Stat,
@@ -207,19 +208,6 @@ export function summarizeData(
             continue;
         }
 
-        /*
-        let type: 'Attachment' | 'Consumable' | 'Knife' | undefined;
-        if (item.Consumable !== undefined) {
-            type = 'Consumable';
-        } else if (item.Attachments !== undefined) {
-            type = 'Attachment';
-        } else if (item.Manual_Tags?.GameplayTags.some(t => {
-            return t.TagName.startsWith('Item.Tool.Knife');
-        }) === true) {
-            type = 'Knife';
-        }
-        */
-
         const itemable = itemables.Rows.find(itemr => {
             return itemr.Name === itemableName;
         });
@@ -312,21 +300,27 @@ export function summarizeData(
             }
         }
 
-        const isFood = item.Consumable !== undefined
-            && staticItemTagMatches(item, tagname => {
+        let type: ItemType | undefined;
+        if (item.Consumable !== undefined) {
+            if (staticItemTagMatches(item, t => t.startsWith('Item.Medicine.Tonic.'))) {
+                type = 'Tonic';
+            } else if (staticItemTagMatches(item, t => t === 'Item.Medicine.Pill')) {
+                type = 'Pill';
+            } else if (staticItemTagMatches(item, t => t === 'Item.Medicine.Paste')) {
+                type = 'Paste';
+            } else if (staticItemTagMatches(item, tagname => {
                 switch (tagname) {
                     case 'FieldGuide.Food':
                     case 'Item.Consumable.Food':
                     case 'Item.Deployable.Food':
-                    case 'Item.Medicine.Paste':
-                    case 'Item.Medicine.Pill':
-                    case 'Item.Medicine.Tonic.Enhancement':
-                    case 'Item.Medicine.Tonic.Status':
                         return true;
                 }
 
                 return tagname.startsWith('Item.Consumable.Food.');
-            });
+            })) {
+                type = 'Food';
+            }
+        }
 
         mappedItems[item.Name] = {
             crafter: item.Processing?.RowName,
@@ -334,7 +328,7 @@ export function summarizeData(
             icon: processIcon(itemable.Icon),
             description: description,
             flavorText: flavorText,
-            isFood: isFood,
+            type: type,
             recipes: [],
             ingredientIn: [],
             workshopItem: workshopItem,
