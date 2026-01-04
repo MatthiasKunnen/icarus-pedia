@@ -17,33 +17,33 @@ import type {
     WorkshopItem,
 } from '../../../src/lib/data.interface.js';
 import type {RefWithDataTable} from '../types/common.interface.js';
-import type {ConsumableFile, ConsumableRow} from '../types/consumable.interface.js';
-import type {ItemsStatic} from '../types/item-static.interface.js';
-import type {ItemTemplates} from '../types/item-templates.interface.js';
-import type {Itemable} from '../types/itemable.interface.js';
-import type {ModifierStateRow, ModifierStatesFile} from '../types/modifier-states.interface.js';
+import type {ConsumableDataTable} from '../types/consumable.interface.js';
+import type {ItemStaticDataTable} from '../types/item-static.interface.js';
+import type {ItemTemplateDataTable} from '../types/item-templates.interface.js';
+import type {ItemableDataTable} from '../types/itemable.interface.js';
+import type {ModifierStateDataTable} from '../types/modifier-states.interface.js';
 import type {
     ElementCount,
     ProcessorRecipeResource,
-    ProcessorRecipes,
+    ProcessorRecipesDataTable,
 } from '../types/processor-recipes.interface.js';
-import type {RecipeSets} from '../types/recipe-sets.interface.js';
-import type {ResourcesFile} from '../types/resources.interface.js';
-import type {StatsFile} from '../types/stats.interface.js';
-import type {WorkshopItemsFile} from '../types/workshop-items.interface.js';
+import type {RecipeSetsDataTable} from '../types/recipe-sets.interface.js';
+import type {ResourceDataTable} from '../types/resources.interface.js';
+import type {StatsDataTable} from '../types/stats.interface.js';
+import type {WorkshopItemsDataTable} from '../types/workshop-items.interface.js';
 
 export interface SummarizeInput {
     log: LogWriter;
-    itemsStatic: ItemsStatic;
-    itemTemplates: ItemTemplates;
-    consumables: ConsumableFile;
-    modifiers: ModifierStatesFile;
-    statsFile: StatsFile;
-    itemables: Itemable;
-    processorRecipes: ProcessorRecipes;
-    resources: ResourcesFile;
-    recipeSets: RecipeSets;
-    workshopItems: WorkshopItemsFile;
+    itemsStatic: ItemStaticDataTable;
+    itemTemplates: ItemTemplateDataTable;
+    consumables: ConsumableDataTable;
+    modifiers: ModifierStateDataTable;
+    statsFile: StatsDataTable;
+    itemables: ItemableDataTable;
+    processorRecipes: ProcessorRecipesDataTable;
+    resources: ResourceDataTable;
+    recipeSets: RecipeSetsDataTable;
+    workshopItems: WorkshopItemsDataTable;
 }
 
 export function summarizeData(
@@ -86,39 +86,14 @@ export function summarizeData(
     }
 
     /**
-     * Some items are named with different case in the recipes.
-     * This maps exists to retrieve the correct case.
-     * The key is from D_ItemsStatic.json, lowercase. The value is the original case.
-     */
-    const itemStaticCaseCorrectionMap = new Map<string, string>();
-
-    /**
      * Maps item templates to their static name.
      */
-    const itemTemplateMap = new Map<string, string>();
+    const itemTemplateMap = itemTemplates.createMap(r => r.ItemStaticData?.RowName);
+
     /**
-     * Maps static items to their template.
+     * Maps an ItemTemplate ID to a WorkshopItem ID.
      */
-    const itemStaticToTemplateMap = new Map<string, string>();
-
-    for (const itemTemplate of itemTemplates.Rows) {
-        if (itemTemplate.ItemStaticData === undefined) {
-            continue;
-        }
-
-        itemStaticToTemplateMap.set(itemTemplate.ItemStaticData.RowName, itemTemplate.Name);
-        itemTemplateMap.set(itemTemplate.Name.toLowerCase(), itemTemplate.ItemStaticData.RowName);
-    }
-
-    const consumableMap = new Map<string, ConsumableRow>();
-    for (const consumable of consumables.Rows) {
-        consumableMap.set(consumable.Name, consumable);
-    }
-
-    const modifierStatesMap = new Map<string, ModifierStateRow>();
-    for (const modifierState of modifiers.Rows) {
-        modifierStatesMap.set(modifierState.Name, modifierState);
-    }
+    const workshopItemFromTemplateMap = workshopItems.createMap(w => w.Item.RowName);
 
     const mappedResources: Record<string, Resource> = {};
     for (const row of resources.Rows) {
@@ -138,12 +113,15 @@ export function summarizeData(
         };
     }
 
+    /**
+     * Returns the ItemStatic name of the reference based on the DataTable.
+     */
     function getItemStaticName(ref: RefWithDataTable): string | undefined {
         let result: string | undefined;
 
         switch (ref.DataTableName) {
             case 'D_ItemTemplate':
-                result = itemTemplateMap.get(ref.RowName.toLowerCase());
+                result = itemTemplates.get(ref.RowName.toLowerCase())?.ItemStaticData?.RowName;
                 break;
             case 'D_ItemsStatic':
                 result = ref.RowName;
@@ -153,7 +131,7 @@ export function summarizeData(
         }
 
         if (result !== undefined) {
-            return itemStaticCaseCorrectionMap.get(result.toLowerCase());
+            return itemsStatic.get(result.toLowerCase())?.Name;
         }
 
         return result;
@@ -217,12 +195,10 @@ export function summarizeData(
     const itemExcluded: Record<string, string> = {};
     const mappedItems: Record<string, OutputItem> = {};
     for (const item of itemsStatic.Rows) {
-        itemStaticCaseCorrectionMap.set(item.Name.toLowerCase(), item.Name);
         if (item.Itemable === undefined) {
             itemExcluded[item.Name] = 'Not itemable';
             continue;
         }
-        const templateName = itemStaticToTemplateMap.get(item.Name);
 
         /**
          * E.g. Name of item as used in D_ItemsStatic.json, e.g. Stick.
@@ -234,9 +210,7 @@ export function summarizeData(
             continue;
         }
 
-        const itemable = itemables.Rows.find(itemr => {
-            return itemr.Name === itemableName;
-        });
+        const itemable = itemables.get(itemableName);
 
         if (itemable === undefined) {
             itemExcluded[item.Name] = 'Not found in itemable';
@@ -273,7 +247,7 @@ export function summarizeData(
 
         const consumable = item.Consumable?.RowName === undefined
             ? undefined
-            : consumableMap.get(item.Consumable.RowName);
+            : consumables.get(item.Consumable.RowName);
         let consumeStats: ItemStats | undefined;
         if (consumable?.Stats !== undefined) {
             const [statsResult, error] = extractStats(consumable.Stats, stats);
@@ -286,7 +260,7 @@ export function summarizeData(
 
         const [modifier, modifierError] = getModifier(
             consumable,
-            modifierStatesMap,
+            modifiers,
             stats,
         );
         if (modifierError !== null) {
@@ -316,15 +290,24 @@ export function summarizeData(
             throw flavorTextErr;
         }
 
-        let workshopItem: WorkshopItem | undefined;
-        if (templateName !== undefined) {
-            const workshopItemRow = workshopItems.Rows.find(i => {
-                return i.Item.RowName === templateName;
-            });
-            if (workshopItemRow !== undefined) {
-                workshopItem = workshopItemToSummary(workshopItemRow);
+        const workshopItem = ((): WorkshopItem | undefined => {
+            const templateName = itemTemplateMap.get(item.Name);
+            if (templateName === undefined) {
+                return;
             }
-        }
+
+            const workshopItemName = workshopItemFromTemplateMap.get(templateName);
+            if (workshopItemName === undefined) {
+                return;
+            }
+
+            const workshopItemRow = workshopItems.get(workshopItemName);
+            if (workshopItemRow === undefined) {
+                return;
+            }
+
+            return workshopItemToSummary(workshopItemRow);
+        })();
 
         let type: ItemType | undefined;
         if (item.Consumable !== undefined) {
@@ -404,6 +387,7 @@ export function summarizeData(
             const itemCounts: Array<ItemCount> = [];
 
             for (const elementCount of elementCounts) {
+                // Important to get it from the map to fix casing
                 const itemName = getItemStaticName(elementCount.Element);
                 if (itemName === undefined) {
                     log.print(`Could not find static name for element with RowName=${
@@ -430,16 +414,23 @@ export function summarizeData(
             const itemCounts: Array<ItemCount> = [];
 
             for (const recipeResource of recipeResources) {
-                const resource = mappedResources[recipeResource.Type.Value];
+                // Important to get it from the map to fix casing
+                const item = resources.get(recipeResource.Type.Value);
+                if (item === undefined) {
+                    log.print(`Could not find static item with name '${
+                        recipeResource.Type.Value}' for recipe ${recipe.Name} `);
+                    continue;
+                }
+                const resource = mappedResources[item.Name];
                 if (resource === undefined) {
-                    log.print(`Could not resource with Name=${recipeResource.Type.Value
+                    log.print(`Could not resource with Name=${item.Name
                         }, DataTableName=D_IcarusResources while processing recipe ${
                         recipe.Name}`);
                     continue;
                 }
 
                 itemCounts.push({
-                    item: recipeResource.Type.Value,
+                    item: item.Name,
                     count: recipeResource.RequiredUnits,
                 });
             }

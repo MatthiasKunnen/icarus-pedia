@@ -1,12 +1,11 @@
+import type {DataTable} from '../util/datatable.js';
+
 /**
  * Maps to _Resources/D_IcarusResources.json_.
  */
-export interface ResourcesFile {
-    RowStruct: string;
-    Rows: Array<ResourcesFileRow>;
-}
+export type ResourceDataTable = DataTable<ResourceRow>;
 
-export interface ResourcesFileRow {
+export interface ResourceRow {
     Name: string;
     /**
      * Translation containing string.

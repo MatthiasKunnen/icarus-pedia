@@ -1,10 +1,8 @@
 import type {Ref, Tags} from './common.interface.js';
 import type {ItemStats} from '../../../src/lib/data.interface.js';
+import type {DataTable} from '../util/datatable.js';
 
-export interface ItemsStatic {
-    RowStruct: string;
-    Rows: Array<ItemStaticRow>;
-}
+export type ItemStaticDataTable = DataTable<ItemStaticRow>;
 
 export interface ItemStaticRow {
     Name: string;

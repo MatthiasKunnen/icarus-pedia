@@ -2,16 +2,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
-import type {ConsumableFile} from './types/consumable.interface.js';
-import type {ItemsStatic} from './types/item-static.interface.js';
-import type {ItemTemplates} from './types/item-templates.interface.js';
-import type {Itemable} from './types/itemable.interface.js';
-import type {ModifierStatesFile} from './types/modifier-states.interface.js';
-import type {ProcessorRecipes} from './types/processor-recipes.interface.js';
-import type {RecipeSets} from './types/recipe-sets.interface.js';
-import type {ResourcesFile} from './types/resources.interface.js';
-import type {StatsFile} from './types/stats.interface.js';
-import type {WorkshopItemsFile} from './types/workshop-items.interface.js';
+import {DataTable} from './util/datatable.js';
 import {LogWriter} from './util/logwriter.js';
 import {summarizeData} from './util/summarize.js';
 
@@ -24,43 +15,32 @@ import {summarizeData} from './util/summarize.js';
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const gameDataPath = path.join(dirname, '..', '..', 'gamedata', 'data_pak');
 
-async function readData(filepath: string): Promise<any> {
-    return JSON.parse(await fs.promises.readFile(path.join(
+async function readDataTable<T extends DataTable<any, any>>(
+    filepath: string,
+): Promise<T> {
+    const parsed = JSON.parse(await fs.promises.readFile(path.join(
         gameDataPath,
         ...filepath.split('/'),
     ), {encoding: 'utf-8'}));
+
+    return new DataTable(parsed) as T;
 }
 
 const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
 
 (async () => {
-    const itemsStatic: ItemsStatic = await readData('Items/D_ItemsStatic.json');
-    const itemTemplates: ItemTemplates = await readData('Items/D_ItemTemplate.json');
-    const consumables: ConsumableFile = await readData('Traits/D_Consumable.json');
-    const modifiers: ModifierStatesFile = await readData('Modifiers/D_ModifierStates.json');
-    const statsFile: StatsFile = await readData('Stats/D_Stats.json');
-
-    /**
-     * Contains name, description, and icon link of an item.
-     */
-    const itemables: Itemable = await readData('Traits/D_Itemable.json');
-    const processorRecipes: ProcessorRecipes = await readData('Crafting/D_ProcessorRecipes.json');
-    const recipeSets: RecipeSets = await readData('Crafting/D_RecipeSets.json');
-    const resources: ResourcesFile = await readData('Resources/D_IcarusResources.json');
-    const workshopItems: WorkshopItemsFile = await readData('MetaWorkshop/D_WorkshopItems.json');
-
     const gameData = summarizeData({
-        consumables: consumables,
-        itemTemplates: itemTemplates,
-        itemables,
-        itemsStatic: itemsStatic,
+        consumables: await readDataTable('Traits/D_Consumable.json'),
+        itemTemplates: await readDataTable('Items/D_ItemTemplate.json'),
+        itemables: await readDataTable('Traits/D_Itemable.json'),
+        itemsStatic: await readDataTable('Items/D_ItemsStatic.json'),
         log: logWriter,
-        modifiers: modifiers,
-        processorRecipes,
-        recipeSets,
-        resources: resources,
-        statsFile,
-        workshopItems: workshopItems,
+        modifiers: await readDataTable('Modifiers/D_ModifierStates.json'),
+        processorRecipes: await readDataTable('Crafting/D_ProcessorRecipes.json'),
+        recipeSets: await readDataTable('Crafting/D_RecipeSets.json'),
+        resources: await readDataTable('Resources/D_IcarusResources.json'),
+        statsFile: await readDataTable('Stats/D_Stats.json'),
+        workshopItems: await readDataTable('MetaWorkshop/D_WorkshopItems.json'),
     });
 
     fs.writeFileSync(

@@ -1,9 +1,7 @@
 import type {Ref, RefWithDataTable} from './common.interface.js';
+import type {DataTable} from '../util/datatable.js';
 
-export interface WorkshopItemsFile {
-    RowStruct: string;
-    Rows: Array<WorkshopItemRow>;
-}
+export type WorkshopItemsDataTable = DataTable<WorkshopItemRow>;
 
 export interface WorkshopItemRow {
     Name: string;

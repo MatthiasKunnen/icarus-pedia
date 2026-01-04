@@ -1,7 +1,6 @@
-export interface ModifierStatesFile {
-    RowStruct: string;
-    Rows: Array<ModifierStateRow>;
-}
+import type {DataTable} from '../util/datatable.js';
+
+export type ModifierStateDataTable = DataTable<ModifierStateRow>;
 
 export interface ModifierStateRow {
     Name: string;

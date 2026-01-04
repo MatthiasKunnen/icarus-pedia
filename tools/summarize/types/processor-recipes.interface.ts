@@ -1,9 +1,7 @@
 import type {Ref, RefWithDataTable} from './common.interface.js';
+import type {DataTable} from '../util/datatable.js';
 
-export interface ProcessorRecipes {
-    RowStruct: string;
-    Rows: Array<ProcessorRecipesRow>;
-}
+export type ProcessorRecipesDataTable = DataTable<ProcessorRecipesRow>;
 
 export interface ProcessorRecipesRow {
     Name: string;

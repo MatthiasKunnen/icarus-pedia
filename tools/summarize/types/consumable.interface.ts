@@ -1,9 +1,7 @@
 import type {Ref} from './common.interface.js';
+import type {DataTable} from '../util/datatable.js';
 
-export interface ConsumableFile {
-    RowStruct: string;
-    Rows: Array<ConsumableRow>;
-}
+export type ConsumableDataTable = DataTable<ConsumableRow>;
 
 export interface ConsumableRow {
     Name: string;

@@ -1,7 +1,7 @@
 import {sortObjectKeys} from './object.util.js';
 import type {ItemModifier, ItemStats} from '../../../src/lib/data.interface.js';
 import type {ConsumableRow} from '../types/consumable.interface.js';
-import type {ModifierStateRow} from '../types/modifier-states.interface.js';
+import type {ModifierStateDataTable} from '../types/modifier-states.interface.js';
 
 const statRegex = /^\(Value="(.*)"\)$/u;
 
@@ -39,7 +39,7 @@ export function extractStats(
 
 export function getModifier(
     consumable: ConsumableRow | undefined,
-    modifierStatesMap: Map<string, ModifierStateRow>,
+    modifierStatesMap: ModifierStateDataTable,
     knownStats: ReadonlyMap<string, unknown>,
 ): [modifer: null, error: string] | [modifier: ItemModifier | undefined, error: null] {
     if (consumable?.Modifier?.Modifier === undefined) {

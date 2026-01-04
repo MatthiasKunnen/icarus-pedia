@@ -1,12 +1,10 @@
-export interface RecipeSets {
-    RowStruct: string;
-    Defaults: {
-        RecipeSetIcon: string;
-        ExperienceMultiplier: number;
-        bAllowRefundOfRecipesOnDestroy: boolean;
-    };
-    Rows: Array<RecipeSetRow>;
-}
+import type {DataTable} from '../util/datatable.js';
+
+export type RecipeSetsDataTable = DataTable<RecipeSetRow, {
+    RecipeSetIcon: string;
+    ExperienceMultiplier: number;
+    bAllowRefundOfRecipesOnDestroy: boolean;
+}>;
 
 export interface RecipeSetRow {
     Name: string;

@@ -1,9 +1,7 @@
 import type {Ref} from './common.interface.js';
+import type {DataTable} from '../util/datatable.js';
 
-export interface StatsFile {
-    RowStruct: string;
-    Rows: Array<StatsRow>;
-}
+export type StatsDataTable = DataTable<StatsRow>;
 
 export interface StatsRow {
     Name: string;

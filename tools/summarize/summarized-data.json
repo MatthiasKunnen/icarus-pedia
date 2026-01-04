@@ -14878,6 +14878,16 @@
             "flavorText": "Seed feed to satiate your creatures needs.",
             "recipes": [],
             "ingredientIn": [],
+            "stats": {
+                "BaseFoodRecovery_+": 100
+            },
+            "modifier": {
+                "lifetime": 900,
+                "stats": {
+                    "BaseFoodStomachSlots_+": 1,
+                    "BaseWeightCapacity_+": 100
+                }
+            },
             "usable": false
         },
         "Food_Animal_Feed_Corn": {
@@ -26410,6 +26420,18 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             }
+        },
+        "Mission_Stasis_Bag_Full_Ape": {
+            "displayName": "Stasis Bag (Infant Ape)",
+            "icon": "Items/Item_Icons/QuestItems/T_ITEM_Stasis_Bag_Full_Ape",
+            "description": "Infant Ape is frozen in a medically induced stasis ready to be transported off planet.",
+            "flavorText": "Another XIGO product that is at the bleeding edge of medical technology.",
+            "recipes": [],
+            "ingredientIn": [],
+            "stats": {
+                "IsInvolvedInQuest_?": 1
+            },
+            "usable": false
         },
         "Mission_Stasis_Bag_Full_IM_Researcher2": {
             "displayName": "Stasis Bag (Associate Researcher Felix)",
@@ -83658,6 +83680,10 @@
         "BaseWaterRecovery_+": {
             "positiveFormat": "+{0} Water when Consumed",
             "negativeFormat": "-{0} Water when Consumed"
+        },
+        "BaseWeightCapacity_+": {
+            "positiveFormat": "+{0}kg Weight Capacity",
+            "negativeFormat": "-{0}kg Weight Capacity"
         },
         "BaseWoodCarryWeight_+%": {
             "positiveFormat": "+{0}% Carry Weight of Wood",
