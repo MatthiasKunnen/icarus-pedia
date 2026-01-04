@@ -40,6 +40,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
         recipeSets: await readDataTable('Crafting/D_RecipeSets.json'),
         resources: await readDataTable('Resources/D_IcarusResources.json'),
         statsFile: await readDataTable('Stats/D_Stats.json'),
+        talents: await readDataTable('Talents/D_Talents.json'),
         workshopItems: await readDataTable('MetaWorkshop/D_WorkshopItems.json'),
     });
 

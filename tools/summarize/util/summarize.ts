@@ -30,6 +30,7 @@ import type {
 import type {RecipeSetsDataTable} from '../types/recipe-sets.interface.js';
 import type {ResourceDataTable} from '../types/resources.interface.js';
 import type {StatsDataTable} from '../types/stats.interface.js';
+import type {TalentsDataTable} from '../types/talents.interface.js';
 import type {WorkshopItemsDataTable} from '../types/workshop-items.interface.js';
 
 export interface SummarizeInput {
@@ -43,6 +44,7 @@ export interface SummarizeInput {
     processorRecipes: ProcessorRecipesDataTable;
     resources: ResourceDataTable;
     recipeSets: RecipeSetsDataTable;
+    talents: TalentsDataTable;
     workshopItems: WorkshopItemsDataTable;
 }
 
@@ -58,6 +60,7 @@ export function summarizeData(
         modifiers,
         consumables,
         resources,
+        talents,
         workshopItems,
     }: SummarizeInput,
 ): GameData {
@@ -385,6 +388,14 @@ export function summarizeData(
     for (const recipe of processorRecipes.Rows) {
         if (recipe.bForceDisableRecipe === true) {
             continue;
+        }
+
+        if (recipe.Requirement !== undefined) {
+            if (talents.get(recipe.Requirement.RowName) === undefined) {
+                excludedRecipes[recipe.Name] = `Recipe ${
+                    recipe.Name} has non-existent requirement ${recipe.Requirement.RowName}`;
+                continue;
+            }
         }
 
         const elementCountsToItemCount = (elementCounts: Array<ElementCount>): Array<ItemCount> => {

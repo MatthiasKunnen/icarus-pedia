@@ -1106,7 +1106,6 @@
                 "Water_Purifier_T1_Water",
                 "Water_Purifier_T1_Ground",
                 "Honey_Bar",
-                "Ice_Halfpiece",
                 "Hitching_Rope",
                 "Purify_Water",
                 "Clean_Water",
@@ -18191,7 +18190,6 @@
                 "Ice",
                 "IceWater_Drink",
                 "Mission_STYX_D_Research2_Catalyst",
-                "Ice_Halfpiece",
                 "Kiwifruit_Sorbet"
             ]
         },
@@ -18426,10 +18424,9 @@
             "icon": "Items/Item_Icons/Buildables/T_ITEM_Ice_Halfpiece_0",
             "description": "A basic half-piece for your walls.",
             "flavorText": "There are sixteen different types of ice that have been recorded on Earth.",
-            "recipes": [
-                "Ice_Halfpiece"
-            ],
-            "ingredientIn": []
+            "recipes": [],
+            "ingredientIn": [],
+            "usable": false
         },
         "Icebox_Backpack": {
             "displayName": "Portable Icebox Backpack",
@@ -61233,24 +61230,6 @@
             "outputs": [
                 {
                     "item": "Ice_Borer",
-                    "count": 1
-                }
-            ]
-        },
-        "Ice_Halfpiece": {
-            "requirement": "Ice_Advanced",
-            "craftedAt": [
-                "Character"
-            ],
-            "inputs": [
-                {
-                    "item": "Ice",
-                    "count": 10
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Ice_Halfpiece",
                     "count": 1
                 }
             ]
