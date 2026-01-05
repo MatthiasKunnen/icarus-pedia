@@ -22,6 +22,7 @@ import type {ItemStaticDataTable} from '../types/item-static.interface.js';
 import type {ItemTemplateDataTable} from '../types/item-templates.interface.js';
 import type {ItemableDataTable} from '../types/itemable.interface.js';
 import type {ModifierStateDataTable} from '../types/modifier-states.interface.js';
+import type {ProcessingDataTable} from '../types/processing.interface.js';
 import type {
     ElementCount,
     ProcessorRecipeResource,
@@ -41,6 +42,7 @@ export interface SummarizeInput {
     modifiers: ModifierStateDataTable;
     statsFile: StatsDataTable;
     itemables: ItemableDataTable;
+    processing: ProcessingDataTable;
     processorRecipes: ProcessorRecipesDataTable;
     resources: ResourceDataTable;
     recipeSets: RecipeSetsDataTable;
@@ -54,6 +56,7 @@ export function summarizeData(
         itemsStatic,
         log,
         itemables,
+        processing,
         processorRecipes,
         recipeSets,
         statsFile,
@@ -89,14 +92,19 @@ export function summarizeData(
     }
 
     /**
-     * Maps item templates to their static name.
+     * Key=ItemTemplate.ItemStatic.Name, Value=ItemTemplate.Name.
      */
-    const itemTemplateMap = itemTemplates.createMap(r => r.ItemStaticData?.RowName);
+    const itemTemplateMap = itemTemplates.mapKeyFrom(r => r.ItemStaticData?.RowName, 'many');
+
+    /**
+     * Key=ItemStatic.Processing.Name, Value=ItemStatic.Name.
+     */
+    const itemStaticProcessingToId = itemsStatic.mapKeyFrom(is => is.Processing?.RowName, 'many');
 
     /**
      * Maps an ItemTemplate ID to a WorkshopItem ID.
      */
-    const workshopItemFromTemplateMap = workshopItems.createMap(w => w.Item.RowName);
+    const workshopItemFromTemplateMap = workshopItems.mapKeyFrom(w => w.Item.RowName, '1');
 
     const mappedResources: Record<string, Resource> = {};
     for (const row of resources.Rows) {
@@ -294,22 +302,26 @@ export function summarizeData(
         }
 
         const workshopItem = ((): WorkshopItem | undefined => {
-            const templateName = itemTemplateMap.get(item.Name);
-            if (templateName === undefined) {
+            const templateNames = itemTemplateMap.get(item.Name);
+            if (templateNames === undefined) {
                 return;
             }
 
-            const workshopItemName = workshopItemFromTemplateMap.get(templateName);
-            if (workshopItemName === undefined) {
-                return;
+            for (const templateName of templateNames) {
+                const workshopItemName = workshopItemFromTemplateMap.get(templateName);
+                if (workshopItemName === undefined) {
+                    continue;
+                }
+
+                const workshopItemRow = workshopItems.get(workshopItemName);
+                if (workshopItemRow === undefined) {
+                    continue;
+                }
+
+                return workshopItemToSummary(workshopItemRow);
             }
 
-            const workshopItemRow = workshopItems.get(workshopItemName);
-            if (workshopItemRow === undefined) {
-                return;
-            }
-
-            return workshopItemToSummary(workshopItemRow);
+            return undefined;
         })();
 
         let type: ItemType | undefined;
@@ -356,10 +368,59 @@ export function summarizeData(
         log.print(`- ${itemName}: ${exclusionReason}`);
     }
 
+    const blacklistedCrafters = new Set<string>();
+    // Key=ItemStatic.Name
     const crafters: Record<string, Crafter> = {};
-    for (const recipeSet of recipeSets.Rows) {
-        const icon = recipeSet.RecipeSetIcon;
-        const [displayName, err] = extractTranslation(recipeSet.RecipeSetName);
+    for (const itemStatic of itemsStatic.Rows) {
+        if (itemStatic.Processing === undefined) {
+            continue;
+        }
+        if (staticItemTagMatches(itemStatic, t => {
+            switch (t) {
+                case 'FieldGuide.BlackList':
+                case 'Item.Decoration.Lab':
+                    // Exclude items such as Prop_Mortar_And_Pestle, which is a prop only.
+                    // fallthrough
+                case 'FactionMission.Item':
+                    // Exclude Faction_MIssion_Analyzer, which appears as an electric composter
+                    return true;
+                default:
+                    return false;
+            }
+        })) {
+            blacklistedCrafters.add(itemStatic.Name.toLowerCase());
+            continue;
+        }
+
+        const processor = processing.get(itemStatic.Processing.RowName);
+        if (processor === undefined) {
+            throw new Error(`Skipping ItemStatic.${itemStatic.Name
+                }.Processing, not found in D_Processing`);
+        }
+        if (processor.DefaultRecipeSet === undefined) {
+            throw new Error(`Skipping ItemStatic.${itemStatic.Name
+                }.Processing, DefaultRecipeSet not set`);
+        }
+
+        // @todo do we care about checking for this here?
+        const recipeSet = recipeSets.get(processor.DefaultRecipeSet.RowName);
+        if (recipeSet === undefined) {
+            throw new Error(`RecipeSet ${processor.DefaultRecipeSet.RowName} not found.`);
+        }
+
+        if (itemStatic.Itemable === undefined) {
+            log.print(`Crafter skipped ItemStatic.${itemStatic.Name}: not itemable`);
+            continue;
+        }
+
+        const itemable = itemables.get(itemStatic.Itemable.RowName);
+        if (itemable === undefined) {
+            log.print(`Crafter skipped ItemStatic.${itemStatic.Name}: not found in itemable`);
+            continue;
+        }
+
+        const icon = itemable.Icon;
+        const [displayName, err] = extractTranslation(itemable.DisplayName);
         if (err !== null) {
             throw err;
         }
@@ -368,19 +429,12 @@ export function summarizeData(
             continue;
         }
 
-        crafters[recipeSet.Name] = {
+        crafters[itemStatic.Name] = {
             icon: processIcon(icon),
             displayName: displayName,
             recipes: [],
         };
     }
-
-    const blacklistedRecipeSets: Array<string> = [
-        'Cleaning_Device',
-        'RefundOnly',
-        'T3_Smoker',
-        'T4_Smoker',
-    ];
 
     // Key=Recipe name, Value=Reason
     const excludedRecipes: Record<string, string> = {};
@@ -520,37 +574,46 @@ export function summarizeData(
             continue;
         }
 
+        const craftedAt = new Set<string>();
         for (const recipeSet of recipe.RecipeSets) {
             if (recipeSet.DataTableName !== 'D_RecipeSets') {
                 throw new Error(`Unknown RecipeSet datatable ${recipeSet.DataTableName
                     } for recipe ${recipe.Name}`);
             }
 
-            if (blacklistedRecipeSets.includes(recipeSet.RowName)) {
-                continue;
+            for (const processingRow of processing.Rows) {
+                if (processingRow.DefaultRecipeSet?.RowName.toLowerCase()
+                    !== recipeSet.RowName.toLowerCase()) {
+                    continue;
+                }
+
+                const staticNames = itemStaticProcessingToId.get(processingRow.Name);
+                if (staticNames === undefined) {
+                    log.print(`recipe ${recipe.Name}, recipeSet ${
+                        recipeSet.RowName}, D_Processing ${
+                        processingRow.Name}: no matching StaticItem.Processing`);
+                    continue;
+                }
+                for (const staticName of staticNames) {
+                    if (blacklistedCrafters.has(staticName.toLowerCase())) {
+                        continue;
+                    }
+                    const crafter = crafters[staticName];
+                    if (crafter === undefined) {
+                        log.print(`recipe ${
+                            recipe.Name}, recipeSet ${recipeSet.RowName}, D_Processing ${
+                            processingRow.Name}: no crafter for static item ${staticName}`);
+                        continue;
+                    }
+                    craftedAt.add(staticName);
+                    crafter.recipes.push(recipe.Name);
+                }
             }
-
-            const crafter = crafters[recipeSet.RowName];
-
-            if (crafter === undefined) {
-                log.print(`Unknown RecipeSet ${recipeSet.RowName} for recipe ${recipe.Name}`);
-                continue;
-            }
-
-            crafter.recipes.push(recipe.Name);
         }
 
         mappedRecipes[recipe.Name] = {
             requirement: recipe.Requirement?.RowName,
-            craftedAt: recipe.RecipeSets.map(recipeSet => {
-                switch (recipeSet.DataTableName) {
-                    case 'D_RecipeSets':
-                        return recipeSet.RowName;
-                    default:
-                        throw new Error(`Unknown RecipeSet data table name: ${
-                            recipeSet.DataTableName}`);
-                }
-            }).filter(rs => !blacklistedRecipeSets.includes(rs)),
+            craftedAt: Array.from(craftedAt),
             inputs: inputs,
             inputResources: inputResources,
             outputs: outputs,

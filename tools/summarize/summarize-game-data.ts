@@ -36,6 +36,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
         itemsStatic: await readDataTable('Items/D_ItemsStatic.json'),
         log: logWriter,
         modifiers: await readDataTable('Modifiers/D_ModifierStates.json'),
+        processing: await readDataTable('Traits/D_Processing.json'),
         processorRecipes: await readDataTable('Crafting/D_ProcessorRecipes.json'),
         recipeSets: await readDataTable('Crafting/D_RecipeSets.json'),
         resources: await readDataTable('Resources/D_IcarusResources.json'),
