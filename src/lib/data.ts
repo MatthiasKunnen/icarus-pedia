@@ -1,29 +1,13 @@
-import fs from 'node:fs';
-import path from 'node:path';
-
 import type {FullItemCount, FullRecipe} from '$lib/recipe.interface';
 import type {GameData, ItemCount} from './data.interface';
+import summarizedData from '../../tools/summarize/summarized-data.json';
 
-const summarizedDataPath = path.join(
-    process.cwd(),
-    'tools',
-    'summarize',
-    'summarized-data.json',
-);
-
-let getDataPromise: Promise<GameData> | undefined;
-
+/**
+ * Returns the summarized data.
+ */
+// eslint-disable-next-line @typescript-eslint/require-await
 export async function getData(): Promise<GameData> {
-    if (getDataPromise === undefined) {
-        getDataPromise = loadData();
-    }
-
-    return getDataPromise;
-}
-
-async function loadData(): Promise<GameData> {
-    const dataString = await fs.promises.readFile(summarizedDataPath, {encoding: 'utf-8'});
-    return JSON.parse(dataString);
+    return summarizedData as any;
 }
 
 export function itemCountToFull(ic: ItemCount, data: GameData): FullItemCount {
