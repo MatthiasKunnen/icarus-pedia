@@ -370,7 +370,7 @@ export function summarizeData(
 
     const blacklistedCrafters = new Set<string>();
     // Key=ItemStatic.Name
-    const crafters: Record<string, Crafter> = {};
+    const crafters = new Map<string, Crafter>();
     for (const itemStatic of itemsStatic.Rows) {
         if (itemStatic.Processing === undefined) {
             continue;
@@ -429,11 +429,11 @@ export function summarizeData(
             continue;
         }
 
-        crafters[itemStatic.Name] = {
+        crafters.set(itemStatic.Name, {
             icon: processIcon(icon),
             displayName: displayName,
             recipes: [],
-        };
+        });
     }
 
     // Key=Recipe name, Value=Reason
@@ -598,7 +598,7 @@ export function summarizeData(
                     if (blacklistedCrafters.has(staticName.toLowerCase())) {
                         continue;
                     }
-                    const crafter = crafters[staticName];
+                    const crafter = crafters.get(staticName);
                     if (crafter === undefined) {
                         log.print(`recipe ${
                             recipe.Name}, recipeSet ${recipeSet.RowName}, D_Processing ${
@@ -687,7 +687,7 @@ export function summarizeData(
     }
 
     const gameData: GameData = {
-        crafters: sortObjectKeys(crafters),
+        crafters: sortObjectKeys(Object.fromEntries(crafters)),
         items: sortObjectKeys(mappedItems),
         recipes: sortObjectKeys(mappedRecipes),
         resources: sortObjectKeys(mappedResources),
