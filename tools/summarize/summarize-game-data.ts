@@ -52,6 +52,10 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
         },
     );
 })().catch(async err => {
-    await logWriter.fatal(err.message);
+    if (err instanceof Error) {
+        await logWriter.fatal(err.stack ?? err.message);
+    } else {
+        await logWriter.fatal(err);
+    }
     process.exit(1);
 });
