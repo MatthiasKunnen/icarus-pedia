@@ -3,6 +3,27 @@
 
     export let data;
 
+    let searchTerm = ''
+
+    $: filteredItems = (() => {
+        if (searchTerm === '') {
+            return data.items
+        }
+
+        const matches: Array<{index: number, score: number}> = []
+        data.items.forEach((([id, item], index) => {
+            if (item.displayName.toLowerCase().includes(searchTerm.toLowerCase())) {
+                matches.push({index: index, score: item.displayName.length})
+            }
+        }));
+
+        matches.sort((a, b) => a.score - b.score)
+        const result: typeof data.items = []
+        for (const match of matches) {
+            result.push(data.items[match.index]!)
+        }
+        return result
+    })();
 </script>
 <svelte:head>
     <title>Crafting Items | IcarusPedia</title>
@@ -18,8 +39,11 @@
     <li><a href="/Items/All" class="link">All items including non-usable experimental items</a></li>
 </ul>
 
+<search>
+    <input id="search" aria-label="Search" type="search" placeholder="E.g. Epoxy" bind:value={searchTerm}/>
+</search>
 <div class="items">
-    {#each data.items as [name, item]}
+    {#each filteredItems as [name, item] (name)}
         <a href="/Items/Item/{name}">
             <GameIcon
                 icon={item.icon}
@@ -34,6 +58,19 @@
 <style>
     h2 {
         font-size: 1.3em;
+    }
+
+    search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 0 1em;
+    }
+
+    search input {
+        font-size: 1.3em;
+        width: min(100%, 600px);
+        border-radius: 0.2em;
     }
 
     .items {

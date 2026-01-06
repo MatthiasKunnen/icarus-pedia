@@ -8,7 +8,6 @@ The gamedata and textures are extracted from the game files.
 See [gamedata/README.md](./gamedata/README.md).
 
 ## TODO
-- [ ] Add search functionality
 - [ ] Add groups; ammo, attachments
 - [ ] Add more content and buttons to items on landingspage
 - [ ] Add big food/consumable comparison table
