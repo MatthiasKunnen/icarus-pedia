@@ -8,7 +8,7 @@ import type {GameData} from '../../src/lib/data.interface.js';
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const outputPath = path.join(dirname, '..', '..', 'static', 'gameicons');
 const sourcePath = path.join(dirname, '..', '..', 'gamedata', 'UI');
-const log = new LogWriter(path.join(dirname, 'sync-icons.ts'));
+const log = new LogWriter(path.join(dirname, 'sync-icons.log'));
 
 (async () => {
     const data: GameData = JSON.parse(fs.readFileSync(
