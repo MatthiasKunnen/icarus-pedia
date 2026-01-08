@@ -11,7 +11,7 @@ export const load = async ({params}) => {
         throw new Error('404');
     }
 
-    const crafter = item.crafter === undefined ? undefined : data.crafters[item.crafter];
+    const crafter = data.crafters[itemName];
 
     const itemStats = mapStats(item.stats, data.stats);
 

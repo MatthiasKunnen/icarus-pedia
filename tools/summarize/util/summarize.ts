@@ -347,7 +347,6 @@ export function summarizeData(
         }
 
         mappedItems[item.Name] = {
-            crafter: item.Processing?.RowName,
             displayName: displayName,
             icon: processIcon(itemable.Icon),
             description: description,
