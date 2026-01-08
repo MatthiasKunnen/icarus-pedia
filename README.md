@@ -23,7 +23,6 @@ See [gamedata/README.md](./gamedata/README.md).
 - [ ] Show prospects, exotics min and max, and maybe, the todos,
       example: Tier3_RiverLands_Stockpile_0
 - [ ] Add farm reward info for crops D_FarmingSeeds links to D_FarmingRewards
-- [ ] https://icaruspedia.gametools.cloud/Items/Item/Smoked_Gamey_Meat shows not craftable anywhere
 - [x] Why are the following items not in the list of items?
   - spoiled plants
   - meat
