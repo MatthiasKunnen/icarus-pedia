@@ -11,7 +11,7 @@
 
 <div class="crafters">
     {#each data.crafters as [name, crafter]}
-        <a href="/Crafters/{name}" data-name={name}>
+        <a href="/Items/Item/{name}" data-name={name}>
             <GameIcon
                 icon={crafter.icon}
                 alt="{crafter.displayName}"

@@ -18,7 +18,7 @@
     <p class="craft-at">Craft at:
         {#each recipe.craftedAt as crafter, i}
             {#if i > 0},{/if}
-            <a href="/Crafters/{crafter.id}">{crafter.displayName}</a>
+            <a href="/Items/Item/{crafter.id}">{crafter.displayName}</a>
         {:else}
             cannot be crafted anywhere.
         {/each}
