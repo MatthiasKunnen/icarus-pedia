@@ -2733,8 +2733,8 @@
         {
             "Name": "TemperedGlass_Diagonal_Curved_Ramp_Roof",
             "BaseMeshMaterialSlotOverrides": {
-                "1": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_B.M_BLD_Roof_Curved_Glass_Tempered_B",
-                "0": "/Game/ASS/BLD/Glass/Roof_Curved_Glass/M_BLD_Roof_Curved_Glass_Tempered_A.M_BLD_Roof_Curved_Glass_Tempered_A"
+                "1": "/Game/ASS/BLD/Glass/RoofCorner_Curved_Glass/M_BLD_RoofCorner_Curved_Glass_Tempered_B.M_BLD_RoofCorner_Curved_Glass_Tempered_B",
+                "0": "/Game/ASS/BLD/Glass/RoofCorner_Curved_Glass/M_BLD_RoofCorner_Curved_Glass_Tempered_A.M_BLD_RoofCorner_Curved_Glass_Tempered_A"
             }
         },
         {

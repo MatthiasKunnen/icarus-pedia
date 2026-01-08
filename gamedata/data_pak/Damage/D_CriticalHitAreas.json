@@ -126,6 +126,34 @@
             "AudioData": {
                 "RowName": "CriticalHit"
             }
+        },
+        {
+            "Name": "Crit_WeakPointMetal",
+            "DamageMultiplierStat": {
+                "Value": "CriticalDamage_+%"
+            },
+            "MultiplierStatMultiplier": 0.5,
+            "Priority": 5,
+            "AudioData": {
+                "RowName": "CriticalHitDrone"
+            }
+        },
+        {
+            "Name": "Crit_ExtraStrongPointMetal",
+            "DamageReductionStat": {
+                "Value": "HardenedPointDamageProtection_%"
+            },
+            "DamageReductionMitigatingStat": {
+                "Value": "HardenedPointPenetration_%"
+            },
+            "DamageMultiplierStat": {
+                "Value": "HardenedPointDamage_+%"
+            },
+            "MultiplierStatMultiplier": 0.5,
+            "Priority": 7,
+            "AudioData": {
+                "RowName": "LowDamageHitDrone"
+            }
         }
     ]
 }

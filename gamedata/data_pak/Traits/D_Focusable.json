@@ -1279,7 +1279,7 @@
             "TPCrouchedIdle": "/Game/ASS/CHA/Human/3RD/Animations/3RD_CHA_MAL_SprCrouchIdle.3RD_CHA_MAL_SprCrouchIdle"
         },
         {
-            "Name": "Focusable_Submachine_Nailgun",
+            "Name": "Focusable_Nailgun",
             "Behaviour": "/Game/BP/Behaviours/Focusable/BP_FocusableBehaviour.BP_FocusableBehaviour_C",
             "AttachmentData": {
                 "RowName": "GeneralBoth"

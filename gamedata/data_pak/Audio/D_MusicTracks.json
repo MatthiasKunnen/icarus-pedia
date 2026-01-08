@@ -258,6 +258,52 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHGeothermal",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "GreatHuntArena",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "OutOfBounds",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 1,
             "TimeOfDayFlags": 8,
             "DropStateFlags": 2,
@@ -273,6 +319,52 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHGeothermal",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "GreatHuntArena",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "OutOfBounds",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 1,
             "TimeOfDayFlags": 8,
             "DropStateFlags": 2,
@@ -288,6 +380,52 @@
             "FadeOutCurve": "CurveFloat'/Game/BP/Audio/Music/MusicCurve_DefaultFadeOut.MusicCurve_DefaultFadeOut'",
             "bTrackCanBePaused": true,
             "PlayerStateFlags": 1,
+            "Locations": [
+                {
+                    "RowName": "Arctic",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Cave",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Desert",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHGeothermal",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "DHTundra",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "GreatHuntArena",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Lava",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "OutOfBounds",
+                    "DataTableName": "D_MusicLocationConditions"
+                },
+                {
+                    "RowName": "Wetlands",
+                    "DataTableName": "D_MusicLocationConditions"
+                }
+            ],
             "CombatFlags": 1,
             "TimeOfDayFlags": 8,
             "DropStateFlags": 2,
@@ -846,7 +984,7 @@
                 }
             ],
             "CombatFlags": 1,
-            "TimeOfDayFlags": 7,
+            "TimeOfDayFlags": 15,
             "WeatherFlags": 1,
             "DropStateFlags": 2,
             "DisasterFlags": 1

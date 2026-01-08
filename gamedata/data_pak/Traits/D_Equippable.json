@@ -963,6 +963,22 @@
                 "(Value=\"BaseBackpackSlots_+\")": 6
             },
             "bBindToAllInventoryUpdates": false
+        },
+        {
+            "Name": "Saddle_Mammoth_Standard",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 12,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 3
+            }
+        },
+        {
+            "Name": "Saddle_Mammoth_Heavy",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Saddle.BP_EquippableModifier_Saddle_C",
+            "GrantedStats": {
+                "(Value=\"BaseMountCargoSlots_+\")": 8,
+                "(Value=\"BaseMountHeavyCargoSlots_+\")": 1
+            }
         }
     ]
 }

@@ -475,8 +475,7 @@
             "DefaultRecipeSet": {
                 "RowName": "Fishing_Bench_Recipes"
             },
-            "RequiresEnergy": false,
-            "AutoSelectRecipe": true
+            "RequiresEnergy": false
         },
         {
             "Name": "Fishing_Bench_Crafting",

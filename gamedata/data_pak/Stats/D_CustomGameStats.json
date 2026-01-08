@@ -3,6 +3,7 @@
     "Defaults": {
         "DisplayName": "",
         "Description": "",
+        "bHidden": false,
         "Category": "Misc",
         "StatChangeability": "OnProspectCreation",
         "StatType": "Bool",
@@ -15,5 +16,26 @@
         "MaxIntValue": 100,
         "DropDownOptions": []
     },
-    "Rows": []
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "SettingsVersion",
+            "bHidden": true,
+            "StatChangeability": "Anytime",
+            "StatType": "Int",
+            "DefaultValue": 1,
+            "MaxIntValue": 0
+        },
+        {
+            "Name": "Arachnophobia",
+            "DisplayName": "NSLOCTEXT(\"D_CustomGameStats\", \"Arachnophobia-DisplayName\", \"Arachnophobia Mode\")",
+            "Description": "NSLOCTEXT(\"D_CustomGameStats\", \"Arachnophobia-Description\", \"Disables Spider spawning in world\")",
+            "Category": "Creatures",
+            "StatChangeability": "Anytime",
+            "Stat": {
+                "RowName": "WorldIsSpiderSpawningDisabled_?"
+            },
+            "MaxIntValue": 1
+        }
+    ]
 }

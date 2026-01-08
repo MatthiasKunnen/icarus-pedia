@@ -2773,7 +2773,7 @@
             "AudioData": {
                 "RowName": "LaserPistol"
             },
-            "WeaponLoudness": 1
+            "WeaponLoudness": 0.5
         }
     ]
 }

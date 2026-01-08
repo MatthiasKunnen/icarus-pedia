@@ -210,6 +210,15 @@
             "AISpawnBehaviour": "/Game/BP/AI/SpawnBehaviours/BP_AISpawnBehaviour_AroundPlayers_GroundSpawner.BP_AISpawnBehaviour_AroundPlayers_GroundSpawner_C",
             "MaxSpawnCount": 6,
             "MaxDistanceToPlayers": 30000
+        },
+        {
+            "Name": "Spider",
+            "AISetup": {
+                "Value": "Spider"
+            },
+            "AISpawnBehaviour": "/Game/BP/AI/SpawnBehaviours/BP_AISpawnBehaviour_AroundCaveEntrances_Spider.BP_AISpawnBehaviour_AroundCaveEntrances_Spider_C",
+            "MaxSpawnCount": 8,
+            "MaxDistanceToPlayers": 30000
         }
     ]
 }

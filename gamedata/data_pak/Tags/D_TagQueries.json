@@ -7603,6 +7603,42 @@
                 ],
                 "AutoDescription": " ANY( Item.Tool.Jackhammer )"
             }
+        },
+        {
+            "Name": "Any_Saltwater_Fish",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Fish.Saltwater"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Fish.Saltwater )"
+            }
+        },
+        {
+            "Name": "Any_Freshwater_Fish",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Fish.Freshwater"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Fish.Freshwater )"
+            }
         }
     ]
 }

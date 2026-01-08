@@ -5,6 +5,7 @@
             "RowName": "None",
             "DataTableName": "D_AISetup"
         },
+        "Icon": "None",
         "RelevantSaddleQuery": {
             "RowName": "None",
             "DataTableName": "D_TagQueries"
@@ -66,6 +67,7 @@
             "AISetup": {
                 "RowName": "Mount_Buffalo"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Buffalo.T_Icon_Map_Buffalo",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -120,6 +122,7 @@
             "AISetup": {
                 "RowName": "Mount_Moa"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Moa.T_Icon_Map_Moa",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle_Standard"
             },
@@ -183,6 +186,7 @@
             "AISetup": {
                 "RowName": "Mount_SwampBird"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Ubis.T_Icon_Map_Ubis",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle_Standard"
             },
@@ -365,6 +369,7 @@
             "AISetup": {
                 "RowName": "Mount_WoolyZebra"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_WoolyZebra.T_Icon_Map_WoolyZebra",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -480,6 +485,7 @@
             "AISetup": {
                 "RowName": "Mount_Horse"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Terrenus.T_Icon_Map_Terrenus",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -546,6 +552,7 @@
             "AISetup": {
                 "RowName": "Mount_Tusker"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Tusker.T_Icon_Map_Tusker",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -606,6 +613,7 @@
             "AISetup": {
                 "RowName": "Tamed_Forest_Wolf"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Wolf.T_Icon_Map_Wolf",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -766,6 +774,7 @@
             "AISetup": {
                 "RowName": "Mount_Zebra"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Zebra.T_Icon_Zebra",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -959,6 +968,7 @@
             "AISetup": {
                 "RowName": "Tamed_Wild_Boar"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Boar.T_Icon_Map_Boar",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -1012,6 +1022,7 @@
             "AISetup": {
                 "RowName": "Tamed_Forest_Wolf"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Wolf.T_Icon_Map_Wolf",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -1067,6 +1078,7 @@
             "AISetup": {
                 "RowName": "Tamed_Forest_Wolf"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Wolf.T_Icon_Map_Wolf",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -1120,6 +1132,7 @@
             "AISetup": {
                 "RowName": "Tame_Cat_A1"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Cat.T_Icon_Map_Cat",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -1167,6 +1180,7 @@
             "AISetup": {
                 "RowName": "Mount_Horse_Standard_A1"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Horse.T_Icon_Map_Horse",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -1233,6 +1247,7 @@
             "AISetup": {
                 "RowName": "Mount_Arctic_Moa"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_ArcticMoa.T_Icon_Map_ArcticMoa",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle_Standard"
             },
@@ -1485,6 +1500,64 @@
             },
             "GrowthCurve": {
                 "RowName": "AI_Pets"
+            }
+        },
+        {
+            "Name": "WoollyMammoth",
+            "AISetup": {
+                "RowName": "Mount_WoollyMammoth"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Mammoth.Icon_Map_Mammoth",
+            "RelevantSaddleQuery": {
+                "RowName": "Any_Saddle"
+            },
+            "SupportedCombatStates": [
+                "DoNotEngage"
+            ],
+            "SupportedMovementStates": [
+                "Follow",
+                "IdleWander",
+                "IdleStanding",
+                "IdleLying"
+            ],
+            "Animations": {
+                "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Mammoth/Animations/Montages/Mammoth_Stand_Idle_Montage.Mammoth_Stand_Idle_Montage",
+                "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ASS/CRE/Mammoth/Animations/Montages/Mammoth_Rest_Montage.Mammoth_Rest_Montage",
+                "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Mammoth/Animations/Montages/Mammoth_Eating_Montage.Mammoth_Eating_Montage",
+                "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Mammoth/Animations/Montages/Mammoth_Mount_Attack_Montage.Mammoth_Mount_Attack_Montage",
+                "(TagName=\"BT.Mount.Animation.SecondaryAttack\")": "/Game/ASS/CRE/Mammoth/Animations/Montages/Mammoth_Mount_StompAttack_Montage.Mammoth_Mount_StompAttack_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Mammoth"
+            },
+            "DefaultNames": [
+                "NSLOCTEXT(\"D_Mounts\", \"WoollyMammoth-DefaultNames-0\", \"Dumbo\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoollyMammoth-DefaultNames-1\", \"Barbar\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoollyMammoth-DefaultNames-2\", \"Horton\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoollyMammoth-DefaultNames-3\", \"Elmer\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoollyMammoth-DefaultNames-4\", \"Stampy\")",
+                "NSLOCTEXT(\"D_Mounts\", \"WoollyMammoth-DefaultNames-5\", \"Snuffles\")"
+            ],
+            "MapIcon": {
+                "RowName": "Mount"
+            },
+            "RelativeFeetOffset": {
+                "Y": 10,
+                "Z": 10
+            },
+            "RelativeLightOffset": {
+                "X": 5.577991962432861,
+                "Y": -33.10087585449219,
+                "Z": 66
+            },
+            "SpringArmTargetDistance": 600,
+            "MountTalentArchetype": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "bUseTemperature": true,
+            "ComfortableTemperatureRange": {
+                "X": -20,
+                "Y": 25
             }
         }
     ]

@@ -1762,9 +1762,10 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseSlowResistance_%\")": 10,
                 "(Value=\"BaseImmobiliseResistance_%\")": 10,
-                "(Value=\"BaseMovementSpeed_+\")": 115,
+                "(Value=\"BaseMovementSpeed_+\")": 90,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
-                "(Value=\"BaseFireDamageResistance_%\")": -100
+                "(Value=\"BaseFireDamageResistance_%\")": -100,
+                "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500
             },
             "Health": "CurveFloat'/Game/Data/AI/C_SpiderHealth.C_SpiderHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SpiderMeleeDamage.C_SpiderMeleeDamage'",
@@ -4614,17 +4615,17 @@
                 "(Value=\"BaseMaximumHealth_+\")": 3000,
                 "(Value=\"BaseCharacterMass_+\")": 60,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
-                "(Value=\"BaseMovementSpeed_+\")": 1500,
+                "(Value=\"BaseMovementSpeed_+\")": 800,
                 "(Value=\"BaseProjectileDamage_+%\")": -75,
                 "(Value=\"BasePoisonResistance_%\")": 100,
                 "(Value=\"BaseBleedResistance_%\")": 100,
                 "(Value=\"BaseWoundResistance_%\")": 100,
                 "(Value=\"BaseDeepWoundResistance_%\")": 100,
                 "(Value=\"BaseElectricDamageResistance_%\")": -100,
-                "(Value=\"BaseFlyerMinDistanceToTarget_+\")": 500,
+                "(Value=\"BaseFlyerMinDistanceToTarget_+\")": 2000,
                 "(Value=\"BaseFlyerMaxDistanceToTargetEngage_+\")": 1800,
                 "(Value=\"BaseFlyerMaxDistanceFromAnchor_+\")": 4000,
-                "(Value=\"BaseFlyerTargetHeight_+\")": 400,
+                "(Value=\"BaseFlyerTargetHeight_+\")": 900,
                 "(Value=\"BaseFlyerFlightDuration_+\")": 4000,
                 "(Value=\"BaseFlyerMaxTurnRate_+\")": 6,
                 "(Value=\"BaseFlyerVerticalMoveRate_+\")": 500,
@@ -4720,7 +4721,7 @@
             "Name": "Irradiated_Prospector",
             "Base": {
                 "(Value=\"BaseSwimSpeed_+\")": 300,
-                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 1000,
                 "(Value=\"BaseMinimumFallDamage_%\")": 1,
                 "(Value=\"BaseMaximumFallDamage_%\")": 100,
                 "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
@@ -4736,12 +4737,15 @@
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
                 "(Value=\"CanNPCDamageVoxels_?\")": 1,
                 "(Value=\"BaseMiningRadius_+\")": 100,
-                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseHealthRegenDelay_+\")": 0,
                 "(Value=\"BaseSlowResistance_%\")": 33,
                 "(Value=\"BaseImmobiliseResistance_%\")": 33,
                 "(Value=\"BaseMovementSpeed_+\")": 30,
                 "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 25,
-                "(Value=\"BaseLaserDamageResistance_%\")": -100
+                "(Value=\"BaseLaserDamageResistance_%\")": -100,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 33,
+                "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500
             },
             "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
@@ -5616,7 +5620,8 @@
                 "(Value=\"BaseSlowResistance_%\")": 66,
                 "(Value=\"BaseImmobiliseResistance_%\")": 66,
                 "(Value=\"BaseMovementSpeed_+\")": 125,
-                "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 33
+                "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 33,
+                "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500
             },
             "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedAbominationHealth.C_IrradiatedAbominationHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedAbominationMeleeDamage.C_IrradiatedAbominationMeleeDamage'",
@@ -5856,9 +5861,10 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseSlowResistance_%\")": 10,
                 "(Value=\"BaseImmobiliseResistance_%\")": 10,
-                "(Value=\"BaseMovementSpeed_+\")": 115,
+                "(Value=\"BaseMovementSpeed_+\")": 90,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
-                "(Value=\"BaseFireDamageResistance_%\")": -100
+                "(Value=\"BaseFireDamageResistance_%\")": -100,
+                "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500
             },
             "Health": "CurveFloat'/Game/Data/AI/C_SpiderHealth.C_SpiderHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SpiderMeleeDamage.C_SpiderMeleeDamage'",
@@ -5909,7 +5915,8 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 33,
                 "(Value=\"BaseMovementSpeed_+\")": 120,
                 "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 25,
-                "(Value=\"BaseLaserDamageResistance_%\")": -100
+                "(Value=\"BaseLaserDamageResistance_%\")": -100,
+                "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500
             },
             "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
             "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
@@ -5926,9 +5933,9 @@
         {
             "Name": "Mount_WoollyMammoth",
             "Base": {
-                "(Value=\"BaseMovementSpeed_+\")": 170,
+                "(Value=\"BaseMovementSpeed_+\")": 250,
                 "(Value=\"BaseSwimSpeed_+\")": 300,
-                "(Value=\"BaseHealthRegenPerMinute_+\")": 30,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 50,
                 "(Value=\"BaseMinimumFallDamage_%\")": 1,
                 "(Value=\"BaseMaximumFallDamage_%\")": 100,
                 "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
@@ -5939,7 +5946,7 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
-                "(Value=\"BaseCharacterMass_+\")": 500,
+                "(Value=\"BaseCharacterMass_+\")": 1000,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseNPCAttackRadius_+\")": 500,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
@@ -5948,10 +5955,10 @@
                 "(Value=\"BaseNPCChargeAttackCooldown_+\")": 10,
                 "(Value=\"CanNPCDamageVoxels_?\")": 0,
                 "(Value=\"BaseMiningRadius_+\")": 0,
-                "(Value=\"BaseStaminaRegenPerMinute_+\")": 1600,
+                "(Value=\"BaseStaminaRegenPerMinute_+\")": 1500,
                 "(Value=\"BaseStaminaRegenFromEmptyDelay_+\")": 6000,
                 "(Value=\"BaseStaminaRegenDelay_+\")": 3000,
-                "(Value=\"BaseWeightCapacity_+\")": 300,
+                "(Value=\"BaseWeightCapacity_+\")": 600,
                 "(Value=\"BaseMaximumOxygen_+\")": 300,
                 "(Value=\"BaseMaximumFood_+\")": 300,
                 "(Value=\"BaseMaximumWater_+\")": 300,
@@ -5961,7 +5968,7 @@
                 "(Value=\"BaseOxygenConsumptionPerHour_+\")": 0,
                 "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
                 "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
-                "(Value=\"BaseMountCargoSlots_+\")": 4,
+                "(Value=\"BaseMountCargoSlots_+\")": 12,
                 "(Value=\"BasePhysicalDamageResistance_%\")": 40,
                 "(Value=\"BaseMaximumStomachFullness_+\")": 2,
                 "(Value=\"BaseFallDamageResistance_%\")": 15,
@@ -5970,16 +5977,20 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 40,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40,
-                "(Value=\"BaseColdResistance_%\")": 50
+                "(Value=\"BaseColdResistance_%\")": 50,
+                "(Value=\"IsMountPrimaryAttackDisabledByDefault_?\")": 1,
+                "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
+                "(Value=\"BaseNPCStompAttackRadius_+\")": 100,
+                "(Value=\"BaseHeatResistance_%\")": 15
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Mammoth_Health.C_Mount_Mammoth_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_Mammoth_MeleeDamage.C_Mount_Mammoth_MeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Mammoth_Stamina.C_Mount_Mammoth_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -5987,7 +5998,7 @@
         {
             "Name": "Juvenile_WoollyMammoth",
             "Base": {
-                "(Value=\"BaseMovementSpeed_+\")": 86,
+                "(Value=\"BaseMovementSpeed_+\")": 80,
                 "(Value=\"BaseSwimSpeed_+\")": 150,
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 3,
                 "(Value=\"BaseMinimumFallDamage_%\")": 1,
@@ -6002,7 +6013,7 @@
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
                 "(Value=\"BaseCharacterMass_+\")": 333,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
-                "(Value=\"BaseMaximumHealth_+\")": 300,
+                "(Value=\"BaseMaximumHealth_+\")": 600,
                 "(Value=\"BaseGOAPActionWanderMinDistance_+\")": 250,
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 850,
                 "(Value=\"BaseMaximumFood_+\")": 100,

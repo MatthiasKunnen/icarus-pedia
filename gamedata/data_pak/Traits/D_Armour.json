@@ -3282,8 +3282,8 @@
         },
         {
             "Name": "MinerArmor_Head",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Head.SK_CHA_MAL_ARM_Sand_Head",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Head.SK_CHA_MAL_ARM_Sand_Head",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Helmet.SK_CHA_MAL_ARM_DustyMiner_Helmet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Helmet.SK_CHA_MAL_ARM_DustyMiner_Helmet",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3300,8 +3300,8 @@
         },
         {
             "Name": "MinerArmor_Chest",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Chest.SK_CHA_MAL_ARM_Sand_Chest",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Chest.SK_CHA_MAL_ARM_Sand_Chest",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Chest.SK_CHA_MAL_ARM_DustyMiner_Chest",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Chest.SK_CHA_MAL_ARM_DustyMiner_Chest",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3318,9 +3318,9 @@
         },
         {
             "Name": "MinerArmor_Arms",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Arms.SK_CHA_MAL_ARM_Sand_Arms",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Arms.SK_CHA_MAL_ARM_Sand_Arms",
-            "FirstPersonMeshVariant": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Sand_Arms.SK_1ST_CHA_MAL_ARM_Sand_Arms",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Arms.SK_CHA_MAL_ARM_DustyMiner_Arms",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Arms.SK_CHA_MAL_ARM_DustyMiner_Arms",
+            "FirstPersonMeshVariant": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_DustyMiner_Arms.SK_1ST_CHA_MAL_ARM_DustyMiner_Arms",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
             "FirstPersonAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Arm_AnimBP.SK_1ST_CHA_MAL_ARM_Arm_AnimBP_C",
@@ -3338,8 +3338,8 @@
         },
         {
             "Name": "MinerArmor_Legs",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Legs.SK_CHA_MAL_ARM_Sand_Legs",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Legs.SK_CHA_MAL_ARM_Sand_Legs",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Legs.SK_CHA_MAL_ARM_DustyMiner_Legs",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Legs.SK_CHA_MAL_ARM_DustyMiner_Legs",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3356,8 +3356,8 @@
         },
         {
             "Name": "MinerArmor_Feet",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Feet.SK_CHA_MAL_ARM_Sand_Feet",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Sand_Feet.SK_CHA_MAL_ARM_Sand_Feet",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Feet.SK_CHA_MAL_ARM_DustyMiner_Feet",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_DustyMiner_Feet.SK_CHA_MAL_ARM_DustyMiner_Feet",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
             "ArmourStats": {

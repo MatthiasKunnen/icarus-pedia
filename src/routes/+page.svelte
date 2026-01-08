@@ -13,7 +13,7 @@
     <p>
         Content is extracted from the game files. This makes sure the information is up-to-date
         though items that are not yet accessible may be shown.<br>
-        Last updated for REV. 2.3.20.145714-SHIPPING-GREATHUNTS GREAT HUNTS on 2025-12-07.
+        Last updated for REV. 2.3.24.146614-SHIPPING-GREATHUNTS GREAT HUNTS on 2025-01-08.
     </p>
     <p>
     </p>

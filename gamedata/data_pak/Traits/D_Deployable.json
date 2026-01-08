@@ -8033,6 +8033,10 @@
                 {
                     "RowName": "Enemy_Turret_Pistol",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Enemy_Turret_NPC",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false,
@@ -9770,6 +9774,16 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Storca_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Storca_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
             "Name": "Fortification_Concrete_Wall",
             "Variants": [
                 {
@@ -10228,6 +10242,16 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Prop_Enzyme_Vat_Empty",
+            "Variants": [
+                {
+                    "RowName": "Prop_Enzyme_Vat_Empty",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
             "Name": "Prop_Eden_Whiteboard",
             "Variants": [
                 {
@@ -10250,6 +10274,50 @@
                 },
                 {
                     "RowName": "Dead_EI_Agent_C",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_LaserControls",
+            "Variants": [
+                {
+                    "RowName": "Prop_LaserControls",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "SulfurWorm_Trophy",
+            "Variants": [
+                {
+                    "RowName": "SulfurWorm_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Spider_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Spider_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Spider_Trophy_Wall",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Reaver_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Reaver_Trophy",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

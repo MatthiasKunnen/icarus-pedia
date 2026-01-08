@@ -4176,6 +4176,11 @@
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SMItem_Tonic_Blue.BP_SMItem_Tonic_Blue_C"
         },
         {
+            "Name": "Mesh_Cat_Boss_Tonic",
+            "ItemMesh": "/Game/ASS/ITM/Giant_Cat_Stealth_Tonic/SM_ITM_Giant_Cat_Stealth_Tonic.SM_ITM_Giant_Cat_Stealth_Tonic",
+            "EquipHandMesh": "/Game/ASS/ITM/Giant_Cat_Stealth_Tonic/SM_ITM_Giant_Cat_Stealth_Tonic.SM_ITM_Giant_Cat_Stealth_Tonic"
+        },
+        {
             "Name": "Mesh_Fortification_Wood_Wall",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Wood.SM_KIT_Wood",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
@@ -5762,7 +5767,7 @@
         },
         {
             "Name": "Mesh_Obsidian_ArmorPack",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Backpack_v2.SM_ITM_Backpack_v2",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ObsidianPack.SM_CHA_ARM_ObsidianPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -6496,7 +6501,7 @@
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
-            "Name": "Advanced_Exotic_Delivery_Interface",
+            "Name": "Mesh_Advanced_Exotic_Delivery_Interface",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/LandingPad/BP_Advanced_Exotic_Delivery_Interface.BP_Advanced_Exotic_Delivery_Interface_C"
@@ -6948,11 +6953,11 @@
         },
         {
             "Name": "Mesh_Ape_Armor",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fur_BlackWolf.SM_ITM_Fur_BlackWolf"
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ApePack.SM_CHA_ARM_ApePack"
         },
         {
             "Name": "Mesh_IceMammoth_Armor",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fur_BlackWolf.SM_ITM_Fur_BlackWolf"
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_IceMammothPack.SM_CHA_ARM_IceMammothPack"
         },
         {
             "Name": "Mesh_Scyther_Appendage",
@@ -7035,15 +7040,15 @@
         },
         {
             "Name": "Mesh_Cat_Boss_Whiskers",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Sandworm_Scale.SM_ITM_Sandworm_Scale"
+            "ItemMesh": "/Game/ASS/ITM/Giant_Cat_Whiskers/SM_ITM_Giant_Cat_Whiskers.SM_ITM_Giant_Cat_Whiskers"
         },
         {
             "Name": "Mesh_Cat_Boss_Tail",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Sandworm_Scale.SM_ITM_Sandworm_Scale"
+            "ItemMesh": "/Game/ASS/ITM/Giant_Cat_Tail_Chunk/SM_ITM_Giant_Cat_Tail_Chunk.SM_ITM_Giant_Cat_Tail_Chunk"
         },
         {
             "Name": "Mesh_Cat_Boss_Armor",
-            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Fur_BlackWolf.SM_ITM_Fur_BlackWolf"
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_GiantCatPack.SM_CHA_ARM_GiantCatPack"
         },
         {
             "Name": "Mesh_Cat_Boss_Gauntlets",
@@ -7303,7 +7308,7 @@
         },
         {
             "Name": "Mesh_Spider_Spit",
-            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "ItemMesh": "/Game/ASS/VFX/CRE/Spider/SM_WebProjectile_Small.SM_WebProjectile_Small",
             "ItemActor": "/Game/BP/AI/GOAP/Misc/BP_Spider_Spit.BP_Spider_Spit_C"
         },
         {
@@ -7677,7 +7682,7 @@
         },
         {
             "Name": "Mesh_SandArmor_ArmorPack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_LeatherPack.SM_CHA_ARM_LeatherPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_MAL_ARM_SandPack.SM_CHA_MAL_ARM_SandPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -7719,12 +7724,12 @@
         },
         {
             "Name": "Mesh_ArcticArmor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_LeatherPack.SM_CHA_ARM_LeatherPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ArcticPack.SM_CHA_ARM_ArcticPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_MinerArmor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_LeatherPack.SM_CHA_ARM_LeatherPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_MAL_ARM_DustyMiner.SM_CHA_MAL_ARM_DustyMiner",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -7801,7 +7806,7 @@
         },
         {
             "Name": "Mesh_Mining_Laser",
-            "ItemMesh": "/Game/ASS/WEP/Gun_MiningLaser/SK_GUN_MiningLaser.SK_GUN_MiningLaser",
+            "ItemMesh": "/Game/ASS/WEP/Gun_MiningLaser/SM_GUN_MiningLaser.SM_GUN_MiningLaser",
             "EquipHandMesh": "/Game/ASS/WEP/Gun_MiningLaser/SK_GUN_MiningLaser.SK_GUN_MiningLaser",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Mining_Laser.BP_SkeletalItem_Mining_Laser_C"
         },
@@ -7833,12 +7838,12 @@
         },
         {
             "Name": "Mesh_Hazmat_Armor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_HazmatPack.SM_CHA_ARM_HazmatPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_Radiation_Protection_Armor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_RadiationPack.SM_CHA_ARM_RadiationPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -7931,7 +7936,7 @@
         },
         {
             "Name": "Mesh_Synthetic_Armor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_SyntheticPack.SM_CHA_ARM_SyntheticPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -7948,7 +7953,7 @@
         },
         {
             "Name": "Mesh_Laser_Pistol",
-            "ItemMesh": "/Game/ASS/WEP/GUN_LaserPistol/SK_GUN_LaserPistol.SK_GUN_LaserPistol",
+            "ItemMesh": "/Game/ASS/WEP/GUN_LaserPistol/SM_GUN_LaserPistol.SM_GUN_LaserPistol",
             "EquipHandMesh": "/Game/ASS/WEP/GUN_LaserPistol/SK_GUN_LaserPistol.SK_GUN_LaserPistol",
             "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_LaserPistol.BP_SkeletalItem_LaserPistol_C"
         },
@@ -8051,7 +8056,7 @@
         },
         {
             "Name": "Mesh_Alloy_Armor_Pack",
-            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_ARM_ScorpionPack.SM_CHA_ARM_ScorpionPack",
+            "ItemMesh": "/Game/ASS/CHA/ARM/SM_CHA_MAL_ARM_MetalAlloyPack.SM_CHA_MAL_ARM_MetalAlloyPack",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
@@ -8061,11 +8066,18 @@
         },
         {
             "Name": "Mesh_Carcass_WoollyMammoth_Juvenile",
-            "ItemMesh": "/Game/ASS/CRE/Buffalo/SK_CRE_Buffalo_Juvie.SK_CRE_Buffalo_Juvie",
-            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Buffalo_Juvenile_Corpse.BP_Buffalo_Juvenile_Corpse_C",
-            "EquipHandMesh": "/Game/ASS/CRE/Buffalo/SK_CRE_Buffalo_Juvie.SK_CRE_Buffalo_Juvie",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Buffalo_Juvenile_Corpse.BP_Buffalo_Juvenile_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Buffalo_Juvenile_Corpse.BP_Buffalo_Juvenile_Corpse_C"
+            "ItemMesh": "/Game/ASS/CRE/Mammoth/Juvie/SK_CRE_Mammoth_Juvie.SK_CRE_Mammoth_Juvie",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_WoollyMammoth_Juvenile_Corpse.BP_WoollyMammoth_Juvenile_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Mammoth_Mount",
+            "ItemMesh": "/Game/ASS/CRE/Mammoth/SK_CRE_PAS_Mammoth.SK_CRE_PAS_Mammoth",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Mammoth_Mount_Corpse.BP_Mammoth_Mount_Corpse_C"
+        },
+        {
+            "Name": "Mesh_WyrmQueen_Spit_FlyBy",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "ItemActor": "/Script/Icarus.SkeletalProjectile"
         }
     ]
 }

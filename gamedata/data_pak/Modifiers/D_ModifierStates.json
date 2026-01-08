@@ -335,14 +335,14 @@
         {
             "Name": "XP_Boost",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_XPBonus.Icon_XPBonus'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierName\", \"Experience Boost\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierName\", \"Double XP Event\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"XP_Boost-ModifierDescription\", \"Increases experience gained\")",
             "GrantedStats": {
-                "(Value=\"BaseExperience_+%\")": 200
+                "(Value=\"BaseExperience_+%\")": 100
             },
-            "ShouldTick": true,
             "MergeType": "LongestDuration",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
         },
         {
             "Name": "Stamina_Speed_Bonus",
@@ -4222,8 +4222,8 @@
             "Name": "Rotting_Carcass",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Rotting_Carcass.T_ICON_Rotting_Carcass'",
             "Type": "Debuff",
-            "ModifierName": "INVTEXT(\"[DNT] Rotting Carcass\")",
-            "ModifierDescription": "INVTEXT(\"[DNT] This carcass has been left out in the sun a little too long\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Rotting_Carcass-ModifierName\", \"Rotting Carcass\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Rotting_Carcass-ModifierDescription\", \"This carcass has been left out in the sun a little too long\")",
             "VisibleToPlayer": false,
             "CosmeticAttachComponent": "/Game/BP/Behaviours/Modifiers/CosmeticEffects/ModifierCosmetic_CorpseFlies.ModifierCosmetic_CorpseFlies_C",
             "MergeType": "Replace",
@@ -14792,7 +14792,7 @@
         {
             "Name": "GhostCroc_Emerged",
             "Type": "Debuff",
-            "ModifierName": "INVTEXT(\"[DNT] Emerged\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GhostCroc_Emerged-ModifierName\", \"Emerged\")",
             "ModifierDescription": "",
             "VisibleToPlayer": false,
             "GrantedStats": {
@@ -14939,9 +14939,9 @@
         },
         {
             "Name": "Sandwyrm_Queen_Dust_Storm",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_IcePool.T_ICON_MODIFIER_IcePool'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_SANDWYRMWEATHER.T_ICON_MODIFIER_SANDWYRMWEATHER'",
             "Type": "Debuff",
-            "ModifierName": "INVTEXT(\"[DNT] Dust Storm\")",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sandwyrm_Queen_Dust_Storm-ModifierName\", \"Dust Storm\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sandwyrm_Queen_Dust_Storm-ModifierDescription\", \"Drastically slows movement and deals damage over time. Alerts the owner of this sticky trail to your presence\")",
             "GrantedStats": {
                 "(Value=\"BaseMovementSpeed_+%\")": -10
@@ -15223,7 +15223,7 @@
         },
         {
             "Name": "ChargesItemsInInventory",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Tech_Backpack.T_ITEM_Tech_Backpack'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Solar_Backpack.T_ITEM_Solar_Backpack'",
             "Type": "Item",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"ChargesItemsInInventory-ModifierName\", \"Solar Backpack\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"ChargesItemsInInventory-ModifierDescription\", \"Charges any battery powered items present in the inventory.\")",
@@ -15231,6 +15231,135 @@
             "ShouldTick": true,
             "MergeType": "Replace",
             "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_Sheltered",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Shelter.Icon_Shelter'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Sheltered-ModifierName\", \"Aura: Sheltered\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_Sheltered-ModifierDescription\", \"Provides Shelter in a Radius Around Source\")",
+            "bAura": true,
+            "AuraRange": 1,
+            "AuraFlags": {
+                "EffectsNPCs": true,
+                "EffectsDeployables": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_Sheltered"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_RangeModifiable.BP_Modifier_Aura_RangeModifiable_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "MergeType": "Count",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_Sheltered",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Shelter.Icon_Shelter'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Sheltered-ModifierName\", \"Aura Effect: Sheltered\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_Sheltered-ModifierDescription\", \"Provides Shelter in a Radius Around Source\")",
+            "GrantedStats": {
+                "(Value=\"IsForceSheltered_?\")": 1
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_SandCloud",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_SANDWYRMEGG.T_ICON_MODIFIER_SANDWYRMEGG'",
+            "Type": "Debuff",
+            "ModifierName": "INVTEXT(\"[DNT] Sand Cloud\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] Sand Cloud\")",
+            "bAura": true,
+            "AuraRange": 1500,
+            "AuraFlags": {
+                "EffectsSelf": false
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_SandCloud"
+            },
+            "bRemovedOnEscalation": false,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "RemovedOnDeath": false,
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_SandCloud",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER_SANDWYRMEGG.T_ICON_MODIFIER_SANDWYRMEGG'",
+            "Type": "Debuff",
+            "ModifierName": "INVTEXT(\"[DNT] Sand Cloud\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] Sand Cloud\")",
+            "GrantedStats": {
+                "(Value=\"BaseSprintSpeed_+%\")": -50,
+                "(Value=\"BaseStaminaRegen_+%\")": -10,
+                "(Value=\"BaseExposureResistance_+%\")": -100
+            },
+            "Escalation": {
+                "RowName": "Frostnip_Escalation"
+            },
+            "EscalationTime": 10,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage_Frost.BP_ModifierStateBehaviour_TickDamage_Frost_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 15,
+                    "Deviation": 5
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "Replace",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "ModifierState.Frostbite"
+                    },
+                    {
+                        "TagName": "ModifierState.HeatBandage"
+                    },
+                    {
+                        "TagName": "ModifierState.OnFire"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " NONE( ModifierState.Frostbite, ModifierState.HeatBandage, ModifierState.OnFire )"
+            },
+            "bEffectsNPCs": false
+        },
+        {
+            "Name": "DamageOverTime_Acid",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_BleedingDebuff.Icon_BleedingDebuff'",
+            "Type": "Debuff",
+            "ModifierName": "INVTEXT(\"[DNT] Acidic\")",
+            "ModifierDescription": "INVTEXT(\"[DNT] Slowly melting.\")",
+            "AudioData": {
+                "RowName": "Generic_Negative"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_TickDamage_Bleed.BP_ModifierStateBehaviour_TickDamage_Bleed_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 25,
+                    "Deviation": 0
+                }
+            },
+            "ShouldTick": true,
+            "MergeType": "Stack",
+            "MaxStackNum": 5,
+            "bEffectsObjects": true,
             "SaveToDatabase": false
         }
     ]

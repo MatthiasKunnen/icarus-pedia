@@ -912,74 +912,6 @@
             "FireExtinguish_MaxInterval": 4
         },
         {
-            "Name": "LongWinds_Unzip",
-            "bIsRampingUp": true,
-            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind3.icon-weather-wind3",
-            "TimelineTailBrush": {
-                "SpecifiedColor": {
-                    "R": 0.06770800054073334,
-                    "G": 0.0011399999493733048,
-                    "B": 0.0004309999931138009,
-                    "A": 0.20000000298023224
-                }
-            },
-            "ExposureMultiplier": 0.5,
-            "ExposureModifiers": {
-                "0.010000": {
-                    "Modifier": {
-                        "RowName": "MediumStorm_HeavyExposure",
-                        "DataTableName": "D_ModifierStates"
-                    },
-                    "ModifierLifetime": 0,
-                    "ModifierEffectiveness": 100
-                },
-                "0.500000": {
-                    "Modifier": {
-                        "RowName": "MediumStorm_MediumExposure",
-                        "DataTableName": "D_ModifierStates"
-                    },
-                    "ModifierLifetime": 0,
-                    "ModifierEffectiveness": 100
-                },
-                "0.990000": {
-                    "Modifier": {
-                        "RowName": "MediumStorm_LightExposure",
-                        "DataTableName": "D_ModifierStates"
-                    },
-                    "ModifierLifetime": 0,
-                    "ModifierEffectiveness": 100
-                }
-            },
-            "bEnableVisuals_Rain": true,
-            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
-            "bEnableVisuals_Clouds": true,
-            "Severity_CloudsStart": 0.800000011920929,
-            "Severity_CloudsEnd": 1,
-            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
-            "bEnableVisuals_Debris": true,
-            "Severity_DebrisStart": 0.4000000059604645,
-            "Severity_DebrisEnd": 0.6000000238418579,
-            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
-            "bEnableVisuals_Wind": true,
-            "bEnableAction_Wind": true,
-            "Severity_WindStart": 0.800000011920929,
-            "Severity_WindEnd": 1,
-            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Undulation_010.C_Weather_Generic_Undulation_010",
-            "StormTier": 5.900000095367432,
-            "StormWindDamagePeriod": 0.75,
-            "UnzipChance": 1,
-            "bWindTopplesTrees": true,
-            "TreeToppleMinInterval": 2,
-            "TreeToppleMaxInterval": 6,
-            "TreeToppleStrengthThreshold": 0.5,
-            "bEnableDamage_Deployables": true,
-            "Damage_Deployables_MinInterval": 2,
-            "Damage_Deployables_MaxInterval": 3,
-            "Damage_Deployables_Intensity": 0.5,
-            "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
-        },
-        {
             "Name": "LongWinds_Stop",
             "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind1.icon-weather-wind1",
             "TimelineTailBrush": {
@@ -1009,36 +941,6 @@
             "Curve_EndAllWindDamageTrigger": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Binary_000010000.C_Weather_Binary_000010000",
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4
-        },
-        {
-            "Name": "ClearSky",
-            "bIsRampingUp": true,
-            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-sun.icon-weather-sun",
-            "TimelineTailBrush": {
-                "SpecifiedColor": {
-                    "R": 0.6509799957275391,
-                    "G": 0.792156994342804,
-                    "B": 0.4235289990901947,
-                    "A": 0.20000000298023224
-                }
-            },
-            "bEnableVisuals_Clouds": true,
-            "Severity_CloudsEnd": 0.800000011920929,
-            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
-            "bEnableVisuals_Debris": true,
-            "Severity_DebrisEnd": 0.6000000238418579,
-            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Debris.C_Weather_Debris",
-            "bEnableAction_Temperature": true,
-            "Temperature_End": -1800,
-            "bEnableVisuals_Wind": true,
-            "bEnableAction_Wind": true,
-            "Severity_WindEnd": 0.800000011920929,
-            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Wind.C_Weather_Wind",
-            "FireExtinguish_MaxInterval": 4,
-            "bEnableVisuals_Snow": true,
-            "Severity_SnowEnd": 0.800000011920929,
-            "bEnableVisuals_Snow_Buildup": true,
-            "Severity_Snow_BuildupEnd": 1
         },
         {
             "Name": "LightRain_Start",
@@ -3565,8 +3467,6 @@
                     "A": 0.20000000298023224
                 }
             },
-            "bEnableVisuals_Rain": true,
-            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
             "bEnableVisuals_Clouds": true,
             "Severity_CloudsEnd": 0.800000011920929,
             "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
@@ -3670,8 +3570,6 @@
                     "ModifierEffectiveness": 100
                 }
             },
-            "bEnableVisuals_Rain": true,
-            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
             "bEnableVisuals_Clouds": true,
             "Severity_CloudsStart": 0.800000011920929,
             "Severity_CloudsEnd": 1,
@@ -3709,8 +3607,6 @@
                     "A": 0.20000000298023224
                 }
             },
-            "bEnableVisuals_Rain": true,
-            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Rain.C_Weather_Rain",
             "bEnableVisuals_Clouds": true,
             "Severity_CloudsEnd": 0.800000011920929,
             "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
@@ -4951,76 +4847,6 @@
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
             "Severity_SandEnd": 0.30000001192092896
-        },
-        {
-            "Name": "DesertSevereWinds_Unzip_1",
-            "bIsRampingUp": true,
-            "TimelineIcon": "/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-wind3.icon-weather-wind3",
-            "TimelineTailBrush": {
-                "SpecifiedColor": {
-                    "R": 0.06770800054073334,
-                    "G": 0.0011399999493733048,
-                    "B": 0.0004309999931138009,
-                    "A": 0.20000000298023224
-                }
-            },
-            "ExposureMultiplier": 0.5,
-            "ExposureModifiers": {
-                "0.010000": {
-                    "Modifier": {
-                        "RowName": "Desert_MediumStorm_HeavyExposure",
-                        "DataTableName": "D_ModifierStates"
-                    },
-                    "ModifierLifetime": 0,
-                    "ModifierEffectiveness": 100
-                },
-                "0.500000": {
-                    "Modifier": {
-                        "RowName": "Desert_MediumStorm_MediumExposure",
-                        "DataTableName": "D_ModifierStates"
-                    },
-                    "ModifierLifetime": 0,
-                    "ModifierEffectiveness": 100
-                },
-                "0.990000": {
-                    "Modifier": {
-                        "RowName": "Desert_MediumStorm_LightExposure",
-                        "DataTableName": "D_ModifierStates"
-                    },
-                    "ModifierLifetime": 0,
-                    "ModifierEffectiveness": 100
-                }
-            },
-            "Curve_Rain": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
-            "bEnableVisuals_Clouds": true,
-            "Severity_CloudsStart": 0.800000011920929,
-            "Severity_CloudsEnd": 1,
-            "Curve_Clouds": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Cloud.C_Weather_Cloud",
-            "bEnableVisuals_Debris": true,
-            "Severity_DebrisStart": 0.4000000059604645,
-            "Severity_DebrisEnd": 0.6000000238418579,
-            "Curve_Debris": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Stagger_01.C_Weather_Generic_Stagger_01",
-            "bEnableVisuals_Wind": true,
-            "bEnableAction_Wind": true,
-            "Severity_WindStart": 0.800000011920929,
-            "Severity_WindEnd": 1,
-            "Curve_Wind": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_Undulation_010.C_Weather_Generic_Undulation_010",
-            "StormTier": 5.900000095367432,
-            "StormWindDamagePeriod": 0.75,
-            "UnzipChance": 1,
-            "bWindTopplesTrees": true,
-            "TreeToppleMinInterval": 2,
-            "TreeToppleMaxInterval": 6,
-            "TreeToppleStrengthThreshold": 0.5,
-            "bEnableDamage_Deployables": true,
-            "Damage_Deployables_MinInterval": 2,
-            "Damage_Deployables_MaxInterval": 3,
-            "Damage_Deployables_Intensity": 0.5,
-            "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4,
-            "Severity_SandStart": 0.30000001192092896,
-            "Severity_SandEnd": 0.5,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
         },
         {
             "Name": "DesertNormalWinds_Start_1",
@@ -23908,6 +23734,18 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.4000000059604645,
             "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand"
+        },
+        {
+            "Name": "NoWeather_Body",
+            "TimelineIcon": "/Game/Assets/2DArt/UI/HUD/WeatherCards/Icon_Storm_Sun.Icon_Storm_Sun",
+            "TimelineTailBrush": {
+                "SpecifiedColor": {
+                    "R": 0.992156982421875,
+                    "G": 0.6313729882240295,
+                    "B": 0.137254998087883,
+                    "A": 0.20000000298023224
+                }
+            }
         }
     ]
 }

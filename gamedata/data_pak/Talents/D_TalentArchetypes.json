@@ -639,6 +639,15 @@
             "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Creature_SwampBird-DisplayName\", \"Ubis\")",
             "BackgroundTexture": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Swamp/Bestiary_SwampBird.Bestiary_SwampBird",
             "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf"
+        },
+        {
+            "Name": "Creature_WoollyMammoth",
+            "Model": {
+                "RowName": "Creature"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Creature_WoollyMammoth-DisplayName\", \"Woolly Mammoth\")",
+            "BackgroundTexture": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Arctic/Bestiary_Mammoth.Bestiary_Mammoth",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/BossMonsters/Icon_Wolf.Icon_Wolf"
         }
     ]
 }

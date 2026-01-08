@@ -122,6 +122,10 @@
         {
             "Name": "Uranium_Rod",
             "UnitsProvided": 108000
+        },
+        {
+            "Name": "SpiderSilk",
+            "UnitsProvided": 20000
         }
     ]
 }

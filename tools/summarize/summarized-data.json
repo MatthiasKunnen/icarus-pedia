@@ -204,7 +204,9 @@
                 "Caveworm_Chest_Armor",
                 "Caveworm_Arms_Armor",
                 "Caveworm_Legs_Armor",
-                "Caveworm_Feet_Armor"
+                "Caveworm_Feet_Armor",
+                "Rope_Silk",
+                "Platinum_Wave_Silk"
             ]
         },
         "Advanced_Kitchen_Bench": {
@@ -354,7 +356,8 @@
                 "Plough_Platinum",
                 "Plough_Titanium",
                 "Seed_Harvester",
-                "Saddle_Arctic_Survival"
+                "Saddle_Arctic_Survival",
+                "Saddle_Mammoth_Standard"
             ]
         },
         "Anvil_Bench": {
@@ -709,7 +712,8 @@
                 "Caveworm_Chest_Armor",
                 "Caveworm_Arms_Armor",
                 "Caveworm_Legs_Armor",
-                "Caveworm_Feet_Armor"
+                "Caveworm_Feet_Armor",
+                "Rope_Silk"
             ]
         },
         "Butchery_Bench": {
@@ -730,7 +734,10 @@
                 "Butcher_Meat_Stringy",
                 "Butcher_Meat_Gamey",
                 "Butcher_Meat_Tbone",
-                "Butcher_Meat_Steak"
+                "Butcher_Meat_Steak",
+                "Butcher_Fish",
+                "Butcher_Fish_Saltwater",
+                "Butcher_Fish_Freshwater"
             ]
         },
         "Campfire": {
@@ -771,7 +778,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Carpentry_Bench": {
@@ -1169,7 +1177,8 @@
                 "Animal_Bench",
                 "Wood_Burner",
                 "Crude_Ammo",
-                "MakeshiftRadio"
+                "MakeshiftRadio",
+                "Rope_Silk"
             ]
         },
         "Drying_Rack": {
@@ -1328,7 +1337,9 @@
                 "Caveworm_Chest_Armor",
                 "Caveworm_Arms_Armor",
                 "Caveworm_Legs_Armor",
-                "Caveworm_Feet_Armor"
+                "Caveworm_Feet_Armor",
+                "Rope_Silk",
+                "Platinum_Wave_Silk"
             ]
         },
         "Electric_Fireplace": {
@@ -1369,7 +1380,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Electric_Furnace_Large": {
@@ -1477,7 +1489,8 @@
                 "Cheese_Pizza",
                 "Pavlova",
                 "Coffee_With_Cream",
-                "Crispy_Bacon_Butter"
+                "Crispy_Bacon_Butter",
+                "Cooked_Fish"
             ]
         },
         "Exotic_Processor": {
@@ -1830,6 +1843,7 @@
                 "AssaultRifle_Round_Cold_Steel",
                 "AssaultRifle_Round_Iron_Wood",
                 "Recovery_Beacon_Tracker",
+                "Iron_Sign_Small",
                 "Composite_Sign_Small",
                 "Enzyme_Propagation_Unit",
                 "Mission_Vesper_Cage",
@@ -1852,7 +1866,8 @@
                 "Mission_Scales",
                 "Great_Hunts_Boss_Upgrade",
                 "Thumper_Mini",
-                "Flat_Solar_Panel"
+                "Flat_Solar_Panel",
+                "Rope_Silk"
             ]
         },
         "FieldGuide_Character": {
@@ -1972,7 +1987,11 @@
                 "Thatch_Railing_Gate",
                 "Kiwi_Nest",
                 "Energy_Bar",
-                "Seed_Extractor"
+                "Seed_Extractor",
+                "Butcher_Fish_Player",
+                "Bandage_Basic_Silk",
+                "Bandage_Heat_Silk",
+                "Bandage_Cooling_Silk"
             ]
         },
         "FirePit": {
@@ -2013,7 +2032,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Fireplace": {
@@ -2054,7 +2074,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Fishing_Bench": {
@@ -2128,7 +2149,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Glassworking_Bench_V2": {
@@ -2199,7 +2221,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Herbalism_Bench": {
@@ -2439,11 +2462,13 @@
                 "AssaultRifle_Round_Cold_Steel",
                 "AssaultRifle_Round_Iron_Wood",
                 "Recovery_Beacon_Tracker",
+                "Iron_Sign_Small",
                 "Gas_Fireplace",
                 "Gas_Fireplace_Ext",
                 "Gas_Fireplace_Cap",
                 "Mission_Sonic_Device",
-                "Concrete_Door"
+                "Concrete_Door",
+                "Rope_Silk"
             ]
         },
         "Kit_Mortar_And_Pestle": {
@@ -2509,6 +2534,7 @@
                 "Carcass_Lion_F",
                 "Carcass_Deer_Desert",
                 "Carcass_Conifer_Wolf",
+                "Carcass_Pack_Wolf",
                 "Carcass_Jaguar",
                 "Carcass_SnowLeopord",
                 "Carcass_Desert_Wolf",
@@ -2524,6 +2550,7 @@
                 "Carcass_Chamois_Var",
                 "Carcass_PredatorBird",
                 "Carcass_Roat_Swamp",
+                "Carcass_Roat_Lava",
                 "Carcass_Wooly_Zebra",
                 "Carcass_Rabbit_Variant"
             ]
@@ -2655,7 +2682,8 @@
                 "Frozen_Wood",
                 "Cheese_Roll",
                 "Coffee_With_Cream",
-                "Crispy_Bacon_Butter"
+                "Crispy_Bacon_Butter",
+                "Cooked_Fish"
             ]
         },
         "Masonry_Bench": {
@@ -3007,7 +3035,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Meta_Furnace_Printed": {
@@ -3067,7 +3096,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "PotBellyStove": {
@@ -3125,7 +3155,8 @@
                 "Watermelon_Lollypop",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Crispy_Bacon_Butter"
+                "Crispy_Bacon_Butter",
+                "Cooked_Fish"
             ]
         },
         "Rustic_Decoration_Bench": {
@@ -3372,7 +3403,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "T3_Cleaning_Device": {
@@ -3532,7 +3564,8 @@
                 "Juvenile_Rock_Golem_Trophy",
                 "Juvenile_Ape_Trophy",
                 "Snow_Viscid_Trophy",
-                "Snow_Mammoth_Trophy"
+                "Snow_Mammoth_Trophy",
+                "Spider_Trophy"
             ]
         },
         "Windmill": {
@@ -3618,7 +3651,8 @@
                 "Grilled_Chicken",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Mission_Heated_Lysate"
+                "Mission_Heated_Lysate",
+                "Cooked_Fish"
             ]
         },
         "Workshop_Cooker": {
@@ -3676,7 +3710,8 @@
                 "Watermelon_Lollypop",
                 "Frozen_Wood",
                 "Coffee_With_Cream",
-                "Crispy_Bacon_Butter"
+                "Crispy_Bacon_Butter",
+                "Cooked_Fish"
             ]
         }
     },
@@ -5261,8 +5296,9 @@
             "description": "A once-savage hunter.",
             "flavorText": "A hyper-aggressive member of a genetically-altered wolf pack",
             "recipes": [],
-            "ingredientIn": [],
-            "usable": false
+            "ingredientIn": [
+                "Carcass_Pack_Wolf"
+            ]
         },
         "AnimalCarcass_PolarBear": {
             "displayName": "Polar Bear Carcass",
@@ -5328,8 +5364,9 @@
             "description": "A dead specimen of local wildlife.",
             "flavorText": "One of the rare endemic lifeforms able to survive in the failed terraforming zone, the roat endured the savage shift in Icaruss climate, due to its uniquely flexible respiratory system.",
             "recipes": [],
-            "ingredientIn": [],
-            "usable": false
+            "ingredientIn": [
+                "Carcass_Roat_Lava"
+            ]
         },
         "AnimalCarcass_Roat_Swamp": {
             "displayName": "Swamp Roat Carcass",
@@ -5461,6 +5498,15 @@
             "ingredientIn": [
                 "Carcass_Snow_Wolf"
             ]
+        },
+        "AnimalCarcass_Spider": {
+            "displayName": "Spider Carcass",
+            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Spider",
+            "description": "An example of scientific overreach. ",
+            "flavorText": "Most prospectors agree, seeding this creature on Icarus was a greater mistake than the failed terraforming. ",
+            "recipes": [],
+            "ingredientIn": [],
+            "usable": false
         },
         "AnimalCarcass_SwampBird": {
             "displayName": "Ubis Carcass",
@@ -5598,6 +5644,21 @@
             "ingredientIn": [
                 "Carcass_Boar"
             ]
+        },
+        "AnimalCarcass_WoollyMammoth_Juvenile": {
+            "displayName": "Juvenile Woolly Mammoth",
+            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_WoollyMammoth_Juvenile",
+            "description": "A juvenile Woolly Mammoth which never quite made it to full adulthood.",
+            "recipes": [],
+            "ingredientIn": [],
+            "usable": false
+        },
+        "AnimalCarcass_WoollyMammoth_Mount": {
+            "displayName": "Woolly Mammoth Carcass",
+            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Mammoth",
+            "recipes": [],
+            "ingredientIn": [],
+            "usable": false
         },
         "AnimalCarcass_Wooly_Zebra": {
             "displayName": "Shaggy Zebra Carcass",
@@ -6493,7 +6554,8 @@
             "flavorText": "The healing wont start until the bleeding stops.",
             "recipes": [
                 "Bandage_Basic",
-                "Bandage_Basic_Wool"
+                "Bandage_Basic_Wool",
+                "Bandage_Basic_Silk"
             ],
             "ingredientIn": [],
             "modifier": {
@@ -6506,7 +6568,8 @@
             "description": "A bandage with a soothing balm to quickly lower temperatures. Treats heatstroke and heat exhaustion.",
             "recipes": [
                 "Bandage_Cooling",
-                "Bandage_Cooling_Wool"
+                "Bandage_Cooling_Wool",
+                "Bandage_Cooling_Silk"
             ],
             "ingredientIn": [],
             "modifier": {
@@ -6519,7 +6582,8 @@
             "description": "Cloth bandages impregnated with a warming salve, for treating frosty and frostbite.",
             "recipes": [
                 "Bandage_Heat",
-                "Bandage_Heat_Wool"
+                "Bandage_Heat_Wool",
+                "Bandage_Heat_Silk"
             ],
             "ingredientIn": [],
             "modifier": {
@@ -7477,6 +7541,7 @@
                 "Carcass_Lion_F",
                 "Carcass_Deer_Desert",
                 "Carcass_Conifer_Wolf",
+                "Carcass_Pack_Wolf",
                 "Carcass_Jaguar",
                 "Carcass_SnowLeopord",
                 "Carcass_Desert_Wolf",
@@ -7492,6 +7557,7 @@
                 "Carcass_Chamois_Var",
                 "Carcass_PredatorBird",
                 "Carcass_Roat_Swamp",
+                "Carcass_Roat_Lava",
                 "Carcass_Wooly_Zebra",
                 "Carcass_Rabbit_Variant"
             ],
@@ -8489,7 +8555,8 @@
                 "Sand_Armor_Legs",
                 "Sand_Armor_Feet",
                 "Sand_Armor_Backpack",
-                "Flat_Solar_Panel"
+                "Flat_Solar_Panel",
+                "Saddle_Mammoth_Standard"
             ]
         },
         "Carbon_Head": {
@@ -9359,7 +9426,9 @@
                 "Synthetic_Enzymes",
                 "Synthetic_Enzymes_2",
                 "Seed_Extractor",
-                "Enzyme_Elixir"
+                "Enzyme_Elixir",
+                "Bandage_Heat_Silk",
+                "Bandage_Cooling_Silk"
             ]
         },
         "Charging_Device": {
@@ -10896,11 +10965,13 @@
             }
         },
         "Cooked_Fish": {
-            "displayName": "Cooked Fish",
+            "displayName": "Steamed Fish",
             "icon": "Items/Item_Icons/Consumeables/ITEM_Cooked_Fish",
             "description": "Nourishing, high in protein.",
             "type": "Food",
-            "recipes": [],
+            "recipes": [
+                "Cooked_Fish"
+            ],
             "ingredientIn": [],
             "stats": {
                 "BaseFoodRecovery_+": 80,
@@ -10913,8 +10984,7 @@
                     "BaseMaximumHealth_+": 75,
                     "BaseStaminaRegen_+%": 20
                 }
-            },
-            "usable": false
+            }
         },
         "Cooked_Kumara": {
             "displayName": "Broiled Kumara",
@@ -11234,6 +11304,7 @@
                 "Medicine_Bench",
                 "Butchery_Bench",
                 "Interior_Wood_Railing_Gate",
+                "Iron_Sign_Small",
                 "Wooden_Armor_Stand"
             ]
         },
@@ -12631,7 +12702,7 @@
         "Electric_Oxite_Dissolver": {
             "displayName": "Electrolytic Oxygen Synthesizer",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Metal_Oxite_Dissolver",
-            "description": "Through a process of Electrolysis oxygen is extracted from water. ",
+            "description": "Through a process of Electrolysis, oxygen is extracted from water. ",
             "flavorText": "Fresh air not polluted by poisonous Icarus gasses.",
             "recipes": [
                 "Electric_Oxite_Dissolver"
@@ -13297,6 +13368,7 @@
                 "Assault_Rifle_Legacy",
                 "Sickle_Attachment_Harvest_Seeds",
                 "Seed_Harvester",
+                "Iron_Sign_Small",
                 "Composite_Sign_Small",
                 "Enzyme_Propagation_Unit",
                 "Gas_Fireplace",
@@ -13454,8 +13526,8 @@
         "Extractor_Biofuel": {
             "displayName": "Biofuel Extractor",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Extractor",
-            "description": "A portable, powered mining unit powered by biofuel for extracting exotics deposits.",
-            "flavorText": "I mean, it works.",
+            "description": "A portable mining unit powered by Biofuel, used to extract resources from Exotics deposits.",
+            "flavorText": "Warning: Exotics extraction is known to aggravate nearby wildlife",
             "recipes": [
                 "Extractor_Biofuel"
             ],
@@ -13464,8 +13536,8 @@
         "Extractor_Electric": {
             "displayName": "Electric Extractor",
             "icon": "Items/Item_Icons/Deployables/ITEM_Extractor_Electric",
-            "description": "A portable, powered mining unit powered by electricity for extracting exotics deposits.",
-            "flavorText": "For all your exotic mining needs.",
+            "description": "A portable mining unit powered by Electricity, used to extract resources from Exotics deposits.",
+            "flavorText": "Warning: Exotics extraction is known to aggravate nearby wildlife",
             "recipes": [
                 "Extractor_Electric"
             ],
@@ -13477,8 +13549,8 @@
         "Extractor_Meta": {
             "displayName": "IC-001 Extractor",
             "icon": "Items/Item_Icons/Deployables/ITEM_Extractor_Meta",
-            "description": "Requires the IC-001 Power Source to Run",
-            "flavorText": "Prime First Cohort Extraction Technology",
+            "description": "A portable mining unit powered by the IC-001 Power Source, used to extract resources from Exotics deposits.",
+            "flavorText": "Warning: Exotics extraction is known to aggravate nearby wildlife",
             "recipes": [],
             "ingredientIn": [],
             "workshopItem": {
@@ -14221,9 +14293,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_01"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_01_Var2": {
             "displayName": "Ember Snapper",
@@ -14231,9 +14302,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_01_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_01_Var3": {
             "displayName": "Crimson Snapper",
@@ -14241,9 +14311,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_01_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_01_Var4": {
             "displayName": "Emerald Snapper",
@@ -14251,9 +14320,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_01_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_02": {
             "displayName": "Sunset Jack",
@@ -14261,9 +14329,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_02"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_02_Var2": {
             "displayName": "Banded Jack",
@@ -14271,9 +14338,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_02_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_02_Var3": {
             "displayName": "Emerald Jack",
@@ -14281,9 +14347,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_02_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_02_Var4": {
             "displayName": "Ember Jack",
@@ -14291,9 +14356,8 @@
             "description": "A common freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_02_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_03": {
             "displayName": "Oceanic Piranha",
@@ -14301,9 +14365,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_03"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_03_Var2": {
             "displayName": "Crimson Piranha",
@@ -14311,9 +14374,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_03_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_03_Var3": {
             "displayName": "Crystal Piranha",
@@ -14321,9 +14383,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_03_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_03_Var4": {
             "displayName": "Titan Piranha",
@@ -14331,9 +14392,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_03_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_04": {
             "displayName": "Coral Ripjaw",
@@ -14341,9 +14401,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_04"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_04_Var2": {
             "displayName": "Titan Ripjaw",
@@ -14351,9 +14410,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_04_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_04_Var3": {
             "displayName": "Opal Ripjaw",
@@ -14361,9 +14419,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_04_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_04_Var4": {
             "displayName": "Sunset Ripjaw",
@@ -14371,9 +14428,8 @@
             "description": "A common saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_04_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_05": {
             "displayName": "Sea Darter",
@@ -14381,9 +14437,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_05"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_05_Var2": {
             "displayName": "Crimson Darter",
@@ -14391,9 +14446,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_05_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_05_Var3": {
             "displayName": "Sunset Darter",
@@ -14401,9 +14455,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_05_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_05_Var4": {
             "displayName": "Coral Darter",
@@ -14411,9 +14464,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_05_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_06": {
             "displayName": "Titan Triggerfish",
@@ -14421,9 +14473,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_06"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_06_Var2": {
             "displayName": "Crimson Triggerfish",
@@ -14431,9 +14482,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_06_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_06_Var3": {
             "displayName": "Sunset Triggerfish",
@@ -14441,9 +14491,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_06_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_06_Var4": {
             "displayName": "Void Triggerfish",
@@ -14451,9 +14500,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_06_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_07": {
             "displayName": "Pearl Perch",
@@ -14461,9 +14509,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_07"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_07_Var2": {
             "displayName": "Spotted Perch",
@@ -14471,9 +14518,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_07_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_07_Var3": {
             "displayName": "Sunset Perch",
@@ -14481,9 +14527,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_07_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_07_Var4": {
             "displayName": "Ember Perch",
@@ -14491,9 +14536,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_07_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_08": {
             "displayName": "Neon Tetra",
@@ -14501,9 +14545,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_08"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_08_Var2": {
             "displayName": "Spotted Tetra",
@@ -14511,9 +14554,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_08_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_08_Var3": {
             "displayName": "Sunset Tetra",
@@ -14521,9 +14563,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_08_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_08_Var4": {
             "displayName": "Banded Tetra",
@@ -14531,9 +14572,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_08_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_09": {
             "displayName": "Sunset Trout",
@@ -14541,9 +14581,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_09"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_09_Var2": {
             "displayName": "Opal Trout",
@@ -14551,9 +14590,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_09_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_09_Var3": {
             "displayName": "Ember Trout",
@@ -14561,9 +14599,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_09_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_09_Var4": {
             "displayName": "Void Trout",
@@ -14571,9 +14608,8 @@
             "description": "An uncommon freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_09_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_10": {
             "displayName": "Emerald Diano",
@@ -14581,9 +14617,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_10"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_10_Var2": {
             "displayName": "Azure Diano",
@@ -14591,9 +14626,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_10_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_10_Var3": {
             "displayName": "Coral Diano",
@@ -14601,9 +14635,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_10_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_10_Var4": {
             "displayName": "Pearl Diano",
@@ -14611,9 +14644,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_10_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_11": {
             "displayName": "Banded Dory",
@@ -14621,9 +14653,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_11"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_11_Var2": {
             "displayName": "Neon Dory",
@@ -14631,9 +14662,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_11_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_11_Var3": {
             "displayName": "Crimson Dory",
@@ -14641,9 +14671,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_11_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_11_Var4": {
             "displayName": "Titan Dory",
@@ -14651,9 +14680,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_11_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_12": {
             "displayName": "Crimson Wrasse",
@@ -14661,9 +14689,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_12"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_12_Var2": {
             "displayName": "Crystal Wrasse",
@@ -14671,9 +14698,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_12_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_12_Var3": {
             "displayName": "Spotted Wrasse",
@@ -14681,9 +14707,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_12_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_12_Var4": {
             "displayName": "Ember Wrasse",
@@ -14691,9 +14716,8 @@
             "description": "An uncommon saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_12_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_13": {
             "displayName": "Emerald Dorado",
@@ -14701,9 +14725,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_13"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_13_Var2": {
             "displayName": "Coral Dorado",
@@ -14711,9 +14734,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_13_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_13_Var3": {
             "displayName": "Neon Dorado",
@@ -14721,9 +14743,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_13_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_13_Var4": {
             "displayName": "Ember Dorado",
@@ -14731,9 +14752,8 @@
             "description": "A rare saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_13_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_14": {
             "displayName": "Black Diamond Discus",
@@ -14741,9 +14761,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_14"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_14_Var2": {
             "displayName": "Opal Discus",
@@ -14751,9 +14770,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_14_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_14_Var3": {
             "displayName": "Banded Discus",
@@ -14761,9 +14779,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_14_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_14_Var4": {
             "displayName": "Crystal Discus",
@@ -14771,9 +14788,8 @@
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_14_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_15": {
             "displayName": "Ghostly Tang",
@@ -14781,9 +14797,8 @@
             "description": "An extremely rare specimen found only in the Styx Region. Native to Icarus. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_15"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_16": {
             "displayName": "Electric Wraith",
@@ -14791,9 +14806,8 @@
             "description": "An extremely rare specimen found only in the Olympus Region. Native to Icarus. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_16"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_17": {
             "displayName": "Ember Gar",
@@ -14801,9 +14815,8 @@
             "description": "Unique to the Prometheus region, these fish can only be found in the Sulfur Pools of Volcanic areas.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_17"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_17_Var2": {
             "displayName": "Spotted Gar",
@@ -14838,9 +14851,8 @@
             "description": "An uncommon, saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_18"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_18_Var2": {
             "displayName": "Neon Puffer",
@@ -14848,9 +14860,8 @@
             "description": "An uncommon, saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_18_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_18_Var3": {
             "displayName": "Cobalt Puffer",
@@ -14858,9 +14869,8 @@
             "description": "An uncommon, saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_18_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_18_Var4": {
             "displayName": "Crystal Puffer",
@@ -14868,9 +14878,8 @@
             "description": "An uncommon, saltwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_18_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_19": {
             "displayName": "Crimson Springfield",
@@ -14878,9 +14887,8 @@
             "description": "A common, freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_19"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_19_Var2": {
             "displayName": "Striped Springfield",
@@ -14888,9 +14896,8 @@
             "description": "A common, freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_19_Var2"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_19_Var3": {
             "displayName": "Sunset Springfield",
@@ -14898,9 +14905,8 @@
             "description": "A common, freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_19_Var3"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_19_Var4": {
             "displayName": "Void Springfield",
@@ -14908,9 +14914,8 @@
             "description": "A common, freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
             "recipes": [],
-            "ingredientIn": [
-                "Fish_19_Var4"
-            ]
+            "ingredientIn": [],
+            "usable": false
         },
         "Fish_Chunk_Stew": {
             "displayName": "Fish Chunk Stew",
@@ -14944,7 +14949,10 @@
             "description": "A pile of roughly diced fish.",
             "flavorText": "Not the most appetizing...",
             "type": "Food",
-            "recipes": [],
+            "recipes": [
+                "Butcher_Fish",
+                "Butcher_Fish_Player"
+            ],
             "ingredientIn": [
                 "Food_Fried_Fish_Chunks",
                 "Food_Fish_Chunk_Stew"
@@ -16217,39 +16225,7 @@
             "flavorText": "Nicely done.",
             "type": "Food",
             "recipes": [
-                "Fish_01",
-                "Fish_01_Var2",
-                "Fish_01_Var3",
-                "Fish_01_Var4",
-                "Fish_02",
-                "Fish_02_Var2",
-                "Fish_02_Var3",
-                "Fish_02_Var4",
-                "Fish_07",
-                "Fish_07_Var2",
-                "Fish_07_Var3",
-                "Fish_07_Var4",
-                "Fish_08",
-                "Fish_08_Var2",
-                "Fish_08_Var3",
-                "Fish_08_Var4",
-                "Fish_09",
-                "Fish_09_Var2",
-                "Fish_09_Var3",
-                "Fish_09_Var4",
-                "Fish_10",
-                "Fish_10_Var2",
-                "Fish_10_Var3",
-                "Fish_10_Var4",
-                "Fish_14",
-                "Fish_14_Var2",
-                "Fish_14_Var3",
-                "Fish_14_Var4",
-                "Fish_15",
-                "Fish_19",
-                "Fish_19_Var2",
-                "Fish_19_Var3",
-                "Fish_19_Var4"
+                "Butcher_Fish_Freshwater"
             ],
             "ingredientIn": [
                 "Dried_Freshwater_Fillet",
@@ -16446,6 +16422,7 @@
                 "Carcass_Lion_F",
                 "Carcass_Deer_Desert",
                 "Carcass_Conifer_Wolf",
+                "Carcass_Pack_Wolf",
                 "Carcass_Jaguar",
                 "Carcass_SnowLeopord",
                 "Carcass_Desert_Wolf",
@@ -16460,6 +16437,7 @@
                 "Carcass_Chamois_Var",
                 "Carcass_PredatorBird",
                 "Carcass_Roat_Swamp",
+                "Carcass_Roat_Lava",
                 "Carcass_Wooly_Zebra",
                 "Carcass_Rabbit_Variant",
                 "Fur_From_Wool"
@@ -19138,6 +19116,18 @@
                 "BaseAttacksCauseBleed_%": 50
             }
         },
+        "Iron_Sign_Small": {
+            "displayName": "Small Iron Sign",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Iron_Sign_B",
+            "description": "An iron sign to display information.",
+            "recipes": [
+                "Iron_Sign_Small"
+            ],
+            "ingredientIn": [],
+            "stats": {
+                "BaseComfortLevel_+": 4
+            }
+        },
         "Iron_TrapDoor": {
             "displayName": "Aluminium Trapdoor",
             "icon": "Items/Item_Icons/Deployables/ITEM_Iron_TrapDoor",
@@ -20436,6 +20426,7 @@
                 "Carcass_Lion_F",
                 "Carcass_Deer_Desert",
                 "Carcass_Conifer_Wolf",
+                "Carcass_Pack_Wolf",
                 "Carcass_Jaguar",
                 "Carcass_SnowLeopord",
                 "Carcass_Desert_Wolf",
@@ -20450,6 +20441,7 @@
                 "Carcass_Chamois_Var",
                 "Carcass_PredatorBird",
                 "Carcass_Roat_Swamp",
+                "Carcass_Roat_Lava",
                 "Carcass_Wooly_Zebra",
                 "Carcass_Rabbit_Variant"
             ],
@@ -27356,7 +27348,9 @@
                 "Bandage_Heat_Wool",
                 "Bandage_Cooling_Wool",
                 "Health_Remedy",
-                "Resistance_Fertilizer"
+                "Resistance_Fertilizer",
+                "Bandage_Heat_Silk",
+                "Bandage_Cooling_Silk"
             ],
             "stats": {
                 "BaseOxygenRecovery_+": 9
@@ -28160,7 +28154,8 @@
                 "Trail_Beacon_Tool",
                 "Mission_Alternator",
                 "Mission_Radio",
-                "AssaultRifle_Armor_Piercing_Round"
+                "AssaultRifle_Armor_Piercing_Round",
+                "Platinum_Wave_Silk"
             ]
         },
         "Platinum_Sickle": {
@@ -28215,7 +28210,8 @@
             "description": "Platinum strands interwoven with a fiber based fabric.",
             "recipes": [
                 "Platinum_Wave",
-                "Platinum_Weave_Wool"
+                "Platinum_Weave_Wool",
+                "Platinum_Wave_Silk"
             ],
             "ingredientIn": [
                 "Hunter_Head_Armor",
@@ -28284,7 +28280,8 @@
                 "Arctic_Armor_Arms",
                 "Arctic_Armor_Legs",
                 "Arctic_Armor_Feet",
-                "Saddle_Arctic_Survival"
+                "Saddle_Arctic_Survival",
+                "Saddle_Mammoth_Standard"
             ]
         },
         "Player_Fist": {
@@ -28799,8 +28796,8 @@
         "Prop_Eden_Whiteboard": {
             "displayName": "White Board (Subspecies 1341)",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Bunker_Whiteboard",
-            "description": "Contains a lot of notes related to the evolution of Subspecies 1341.",
-            "flavorText": "Is that a Striker?",
+            "description": "Contains a lot of notes related to the evolution and experimentation on Subspecies 1341.",
+            "flavorText": "Huh, that kinda looks like a Striker...",
             "recipes": [],
             "ingredientIn": [],
             "stats": {
@@ -30001,6 +29998,7 @@
                 "Carcass_Lion_F",
                 "Carcass_Deer_Desert",
                 "Carcass_Conifer_Wolf",
+                "Carcass_Pack_Wolf",
                 "Carcass_Jaguar",
                 "Carcass_SnowLeopord",
                 "Carcass_Desert_Wolf",
@@ -30019,6 +30017,7 @@
                 "Carcass_Deer_Variant",
                 "Carcass_Chamois_Var",
                 "Carcass_Roat_Swamp",
+                "Carcass_Roat_Lava",
                 "Carcass_Wooly_Zebra",
                 "Carcass_Rabbit_Variant"
             ],
@@ -30487,6 +30486,7 @@
                 "SilkWeave_Curtain_Door",
                 "PlatinumWeave_Curtain_Window",
                 "SilkWeave_Curtain_Window",
+                "Iron_Sign_Small",
                 "Mission_Vesper_Cage",
                 "Gas_Fireplace",
                 "Gas_Fireplace_Ext",
@@ -31244,7 +31244,8 @@
                 "Rope",
                 "Rope_Armor_Bench",
                 "Talent_Leather_Rope",
-                "Rope_Armor_Bench_Wool"
+                "Rope_Armor_Bench_Wool",
+                "Rope_Silk"
             ],
             "ingredientIn": [
                 "Lantern",
@@ -31406,7 +31407,8 @@
                 "National_Flag_Turkey",
                 "National_Flag_Ukraine",
                 "National_Flag_UnitedKingdom",
-                "National_Flag_UnitedStates"
+                "National_Flag_UnitedStates",
+                "Saddle_Mammoth_Standard"
             ]
         },
         "Rotten_Meat_Lure": {
@@ -32010,6 +32012,16 @@
             ],
             "ingredientIn": []
         },
+        "Saddle_Mammoth_Standard": {
+            "displayName": "Woolly Mammoth Saddle",
+            "icon": "Items/Item_Icons/UseableItems/T_ITEM_Saddle_Mammoth_Standard",
+            "description": "Place this saddle inside a tamed creatures inventory to allow it to become rideable",
+            "flavorText": "XL size",
+            "recipes": [
+                "Saddle_Mammoth_Standard"
+            ],
+            "ingredientIn": []
+        },
         "Saddle_Racing": {
             "displayName": "Racing Saddle",
             "icon": "Items/Item_Icons/UseableItems/T_ITEM_Saddle_Racing",
@@ -32151,40 +32163,7 @@
             "flavorText": "Nicely done.",
             "type": "Food",
             "recipes": [
-                "Fish_03",
-                "Fish_03_Var2",
-                "Fish_03_Var3",
-                "Fish_03_Var4",
-                "Fish_04",
-                "Fish_04_Var2",
-                "Fish_04_Var3",
-                "Fish_04_Var4",
-                "Fish_05",
-                "Fish_05_Var2",
-                "Fish_05_Var3",
-                "Fish_05_Var4",
-                "Fish_06",
-                "Fish_06_Var2",
-                "Fish_06_Var3",
-                "Fish_06_Var4",
-                "Fish_11",
-                "Fish_11_Var2",
-                "Fish_11_Var3",
-                "Fish_11_Var4",
-                "Fish_12",
-                "Fish_12_Var2",
-                "Fish_12_Var3",
-                "Fish_12_Var4",
-                "Fish_13",
-                "Fish_13_Var2",
-                "Fish_13_Var3",
-                "Fish_13_Var4",
-                "Fish_16",
-                "Fish_17",
-                "Fish_18",
-                "Fish_18_Var2",
-                "Fish_18_Var3",
-                "Fish_18_Var4"
+                "Butcher_Fish_Saltwater"
             ],
             "ingredientIn": [
                 "Dried_Saltwater_Fillet",
@@ -34364,6 +34343,43 @@
                 "BasePlantedCropYield_+%": -25
             }
         },
+        "Spider_Head": {
+            "displayName": "Spider Vestige",
+            "icon": "Items/Item_Icons/Carcasses/T_ITEM_Spider_Head",
+            "description": "A preserved memory of a many legged creature.",
+            "flavorText": "Who knew taxidermy would be so popular on Icarus?",
+            "recipes": [],
+            "ingredientIn": [
+                "Spider_Trophy"
+            ]
+        },
+        "Spider_Silk": {
+            "displayName": "Spider Silk",
+            "icon": "Items/Item_Icons/Resources/T_ITEM_Spider_Silk",
+            "description": "Strong silk produced by spiders created from their webbing.",
+            "flavorText": "Very strong fibrous substance.",
+            "recipes": [],
+            "ingredientIn": [
+                "Bandage_Basic_Silk",
+                "Bandage_Heat_Silk",
+                "Bandage_Cooling_Silk",
+                "Rope_Silk",
+                "Platinum_Wave_Silk"
+            ]
+        },
+        "Spider_Trophy": {
+            "displayName": "Spider Trophy",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Spider_Trophy",
+            "description": "A mounted Spider.",
+            "flavorText": "Evidence of skill, patience and accuracy.",
+            "recipes": [
+                "Spider_Trophy"
+            ],
+            "ingredientIn": [],
+            "stats": {
+                "BaseComfortLevel_+": 8
+            }
+        },
         "SplineTool_Electricity": {
             "displayName": "Electricity Tool",
             "icon": "Items/Item_Icons/Tools/ITEM_SplineTool_Electricity",
@@ -35753,6 +35769,7 @@
                 "Carcass_Snow_Wolf",
                 "Carcass_Lion_F",
                 "Carcass_Conifer_Wolf",
+                "Carcass_Pack_Wolf",
                 "Carcass_Jaguar",
                 "Carcass_SnowLeopord",
                 "Carcass_Desert_Wolf",
@@ -38341,7 +38358,8 @@
                 "Wooden_Armor_Stand",
                 "Stone_Brick_Fireplace",
                 "Stone_Brick_Fireplace_Ext",
-                "Stone_Brick_Fireplace_Cap"
+                "Stone_Brick_Fireplace_Cap",
+                "Spider_Trophy"
             ]
         },
         "Wood_Roof_Corner": {
@@ -43574,6 +43592,24 @@
                 }
             ]
         },
+        "Bandage_Basic_Silk": {
+            "requirement": "Bandage_Basic",
+            "craftedAt": [
+                "FieldGuide_Character"
+            ],
+            "inputs": [
+                {
+                    "item": "Spider_Silk",
+                    "count": 5
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Bandage_Basic",
+                    "count": 1
+                }
+            ]
+        },
         "Bandage_Basic_Wool": {
             "requirement": "Bandage_Basic",
             "craftedAt": [
@@ -43609,6 +43645,32 @@
                 {
                     "item": "Oxite",
                     "count": 4
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Bandage_Cooling",
+                    "count": 1
+                }
+            ]
+        },
+        "Bandage_Cooling_Silk": {
+            "requirement": "Bandage_Cooling",
+            "craftedAt": [
+                "FieldGuide_Character"
+            ],
+            "inputs": [
+                {
+                    "item": "Charcoal",
+                    "count": 10
+                },
+                {
+                    "item": "Oxite",
+                    "count": 4
+                },
+                {
+                    "item": "Spider_Silk",
+                    "count": 5
                 }
             ],
             "outputs": [
@@ -43661,6 +43723,32 @@
                 {
                     "item": "Oxite",
                     "count": 4
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Bandage_Heat",
+                    "count": 1
+                }
+            ]
+        },
+        "Bandage_Heat_Silk": {
+            "requirement": "Bandage_Heat",
+            "craftedAt": [
+                "FieldGuide_Character"
+            ],
+            "inputs": [
+                {
+                    "item": "Charcoal",
+                    "count": 10
+                },
+                {
+                    "item": "Oxite",
+                    "count": 4
+                },
+                {
+                    "item": "Spider_Silk",
+                    "count": 5
                 }
             ],
             "outputs": [
@@ -46630,6 +46718,54 @@
                 }
             ]
         },
+        "Butcher_Fish": {
+            "craftedAt": [
+                "Butchery_Bench"
+            ],
+            "inputs": [],
+            "outputs": [
+                {
+                    "item": "Fish_Chunks",
+                    "count": 1
+                }
+            ]
+        },
+        "Butcher_Fish_Freshwater": {
+            "craftedAt": [
+                "Butchery_Bench"
+            ],
+            "inputs": [],
+            "outputs": [
+                {
+                    "item": "Freshwater_Fish_Fillet",
+                    "count": 1
+                }
+            ]
+        },
+        "Butcher_Fish_Player": {
+            "craftedAt": [
+                "FieldGuide_Character"
+            ],
+            "inputs": [],
+            "outputs": [
+                {
+                    "item": "Fish_Chunks",
+                    "count": 1
+                }
+            ]
+        },
+        "Butcher_Fish_Saltwater": {
+            "craftedAt": [
+                "Butchery_Bench"
+            ],
+            "inputs": [],
+            "outputs": [
+                {
+                    "item": "Saltwater_Fish_Fillet",
+                    "count": 1
+                }
+            ]
+        },
         "Butcher_Meat_Gamey": {
             "craftedAt": [
                 "Butchery_Bench"
@@ -47446,6 +47582,39 @@
                 }
             ]
         },
+        "Carcass_Pack_Wolf": {
+            "craftedAt": [
+                "Kit_Skinning_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "AnimalCarcass_Pack_Wolf",
+                    "count": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Bone",
+                    "count": 20
+                },
+                {
+                    "item": "Fur",
+                    "count": 6
+                },
+                {
+                    "item": "Leather",
+                    "count": 30
+                },
+                {
+                    "item": "Raw_Meat",
+                    "count": 3
+                },
+                {
+                    "item": "Stringy_Meat",
+                    "count": 2
+                }
+            ]
+        },
         "Carcass_PredatorBird": {
             "craftedAt": [
                 "Kit_Skinning_Bench"
@@ -47574,6 +47743,35 @@
                 }
             ]
         },
+        "Carcass_Roat_Lava": {
+            "craftedAt": [
+                "Kit_Skinning_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "AnimalCarcass_Roat_Lava",
+                    "count": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Bone",
+                    "count": 4
+                },
+                {
+                    "item": "Fur",
+                    "count": 12
+                },
+                {
+                    "item": "Leather",
+                    "count": 16
+                },
+                {
+                    "item": "Raw_Meat",
+                    "count": 3
+                }
+            ]
+        },
         "Carcass_Roat_Swamp": {
             "craftedAt": [
                 "Kit_Skinning_Bench"
@@ -47587,15 +47785,15 @@
             "outputs": [
                 {
                     "item": "Bone",
-                    "count": 10
+                    "count": 4
                 },
                 {
                     "item": "Fur",
-                    "count": 15
+                    "count": 12
                 },
                 {
                     "item": "Leather",
-                    "count": 20
+                    "count": 16
                 },
                 {
                     "item": "Raw_Meat",
@@ -51591,6 +51789,31 @@
                 }
             ]
         },
+        "Cooked_Fish": {
+            "craftedAt": [
+                "Campfire",
+                "Meta_Campfire_Printed",
+                "Wood_Burner",
+                "Mission_Burner",
+                "FirePit",
+                "Fireplace",
+                "Gold_Fireplace",
+                "StoneBrick_Fireplace",
+                "Gas_Fireplace",
+                "Electric_Fireplace",
+                "PotBellyStove",
+                "Workshop_Cooker",
+                "Kitchen_Stove",
+                "Electric_Stove"
+            ],
+            "inputs": [],
+            "outputs": [
+                {
+                    "item": "Cooked_Fish",
+                    "count": 1
+                }
+            ]
+        },
         "Cooked_Gamey_Meat": {
             "craftedAt": [
                 "Campfire",
@@ -54669,1011 +54892,6 @@
             "outputs": [
                 {
                     "item": "Fireplace_Chimney_Ext",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_01": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_01",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_01_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_01_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_01_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_01_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_01_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_01_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_02": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_02",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_02_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_02_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_02_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_02_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_02_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_02_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_03": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_03",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_03_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_03_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_03_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_03_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_03_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_03_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_04": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_04",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_04_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_04_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_04_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_04_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_04_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_04_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_05": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_05",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_05_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_05_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_05_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_05_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_05_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_05_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_06": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_06",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_06_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_06_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_06_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_06_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_06_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_06_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_07": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_07",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_07_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_07_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_07_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_07_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_07_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_07_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_08": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_08",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_08_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_08_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_08_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_08_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_08_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_08_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_09": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_09",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_09_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_09_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_09_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_09_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_09_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_09_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_10": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_10",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_10_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_10_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_10_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_10_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_10_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_10_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_11": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_11",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_11_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_11_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_11_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_11_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_11_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_11_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_12": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_12",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_12_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_12_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_12_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_12_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_12_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_12_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_13": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_13",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_13_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_13_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_13_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_13_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_13_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_13_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_14": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_14",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_14_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_14_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_14_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_14_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_14_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_14_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_15": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_15",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_16": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_16",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_17": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_17",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_18": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_18",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_18_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_18_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_18_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_18_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_18_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_18_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Saltwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_19": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_19",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_19_Var2": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_19_Var2",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_19_Var3": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_19_Var3",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
-                    "count": 1
-                }
-            ]
-        },
-        "Fish_19_Var4": {
-            "craftedAt": [],
-            "inputs": [
-                {
-                    "item": "Fish_19_Var4",
-                    "count": 1
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Freshwater_Fish_Fillet",
                     "count": 1
                 }
             ]
@@ -62955,6 +62173,33 @@
                 }
             ]
         },
+        "Iron_Sign_Small": {
+            "requirement": "Iron_Sign_Small",
+            "craftedAt": [
+                "Kit_Machining_Bench",
+                "Fabricator"
+            ],
+            "inputs": [
+                {
+                    "item": "Copper_Nail",
+                    "count": 4
+                },
+                {
+                    "item": "Epoxy",
+                    "count": 2
+                },
+                {
+                    "item": "Refined_Metal",
+                    "count": 8
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Iron_Sign_Small",
+                    "count": 1
+                }
+            ]
+        },
         "Iron_TrapDoor": {
             "requirement": "Iron_Trim",
             "craftedAt": [
@@ -69552,6 +68797,28 @@
                 }
             ]
         },
+        "Platinum_Wave_Silk": {
+            "craftedAt": [
+                "Advanced_Armor_Bench",
+                "Electric_Armor_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "Platinum_Shealth",
+                    "count": 1
+                },
+                {
+                    "item": "Spider_Silk",
+                    "count": 5
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Platinum_Weave",
+                    "count": 1
+                }
+            ]
+        },
         "Platinum_Weave_Wool": {
             "craftedAt": [
                 "Advanced_Armor_Bench",
@@ -72845,6 +72112,28 @@
                 }
             ]
         },
+        "Rope_Silk": {
+            "craftedAt": [
+                "Crafting_Bench",
+                "Kit_Machining_Bench",
+                "Fabricator",
+                "Armor_Bench",
+                "Advanced_Armor_Bench",
+                "Electric_Armor_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "Spider_Silk",
+                    "count": 3
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Rope",
+                    "count": 1
+                }
+            ]
+        },
         "Rotten_Meat_Lure": {
             "requirement": "Basic_Lure_Pack",
             "craftedAt": [
@@ -74039,6 +73328,32 @@
             "outputs": [
                 {
                     "item": "Saddle_Explorer",
+                    "count": 1
+                }
+            ]
+        },
+        "Saddle_Mammoth_Standard": {
+            "requirement": "Saddle_Mammoth",
+            "craftedAt": [
+                "Animal_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "Carbon_Fiber",
+                    "count": 10
+                },
+                {
+                    "item": "Platinum_Weave",
+                    "count": 15
+                },
+                {
+                    "item": "Rope",
+                    "count": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Saddle_Mammoth_Standard",
                     "count": 1
                 }
             ]
@@ -78107,6 +77422,27 @@
             "outputs": [
                 {
                     "item": "Speed_Fertilizer",
+                    "count": 1
+                }
+            ]
+        },
+        "Spider_Trophy": {
+            "craftedAt": [
+                "Trophy_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "Spider_Head",
+                    "count": 1
+                },
+                {
+                    "item": "Wood_Refined",
+                    "count": 30
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Spider_Trophy",
                     "count": 1
                 }
             ]

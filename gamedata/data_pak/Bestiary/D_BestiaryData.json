@@ -2946,6 +2946,76 @@
             }
         },
         {
+            "Name": "Spider",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Spider-CreatureName\", \"Spider\")",
+            "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/T_Bestiary_Spider_Conifer.T_Bestiary_Spider_Conifer",
+            "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_SPIDER.UI_BESTIARY_CRE_SPIDER",
+            "Biomes": [
+                {
+                    "RowName": "Conifer",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Grasslands",
+                    "DataTableName": "D_Atmospheres"
+                }
+            ],
+            "Maps": [
+                {
+                    "RowName": "Terrain_016",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_017",
+                    "DataTableName": "D_Terrains"
+                },
+                {
+                    "RowName": "Terrain_019",
+                    "DataTableName": "D_Terrains"
+                }
+            ],
+            "TotalPointsRequired": 1500,
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Spider-Lore1\", \"These giant arachnids were a botched pet project of Dr Lee. Geneticist and Arachnologist. Lee was repeatedly warned that many prospectors displayed an unwillingness to interact with the new species. The Doctor would adamantly reply \\\"But look at the little floofy nope feets\\\". Lee was not very popular.\")",
+            "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Spider-Lore2\", \"Experimental arachnid gone wrong. A slightly larger arachnid was engineered to curb the spread of small endemic wildlife. Once introduced, environmental conditions and potentially exotic exposure caused this species to mutate. Avoid If possible.\")",
+            "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Spider-Lore3\", \"\\\"**** THIS IS NOT OKAY, ****** THINGS SHOULD NOT EXIST! WHY THE **** DID SOMEONE MAKE THIS. I ******* QUIT, GET ME OFF THIS ******* PLANET. Why is it always spiders? Why couldn\\'t it be butterflies?\\\"\")",
+            "Traits": [
+                {
+                    "RowName": "Head_CritSpot",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Fire_Weakness",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_Resist_Strength",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Slow_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                },
+                {
+                    "RowName": "Poison_DamageType",
+                    "DataTableName": "D_BestiaryTraits"
+                }
+            ],
+            "StatsUnlock1": {
+                "(Value=\"BasePoisonDamage_+%\")": 5
+            },
+            "StatsUnlock2": {
+                "(Value=\"BaseSlowResistance_%\")": 10
+            },
+            "ProgressiveStat": [
+                {
+                    "Value": "BaseSpiderExtraDamage_+%"
+                },
+                {
+                    "Value": "BaseSpiderExtraDamageResistance_+%"
+                }
+            ]
+        },
+        {
             "Name": "Wooly_Zebra",
             "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Wooly_Zebra-CreatureName\", \"Shaggy Zebra\")",
             "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Conifer/Bestiary_WoolyZebra.Bestiary_WoolyZebra",
@@ -3010,12 +3080,16 @@
         },
         {
             "Name": "Roat",
-            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Roat-CreatureName\", \"Swamp Roat\")",
+            "CreatureName": "NSLOCTEXT(\"D_BestiaryData\", \"Roat-CreatureName\", \"Roat\")",
             "Image": "/Game/Assets/2DArt/UI/FieldGuide/Creatures/Grasslands/Bestiary_Roat1.Bestiary_Roat1",
             "CreatureSound": "/Game/FMOD/Events/UI/Bestiary/CREATURES/UI_BESTIARY_CRE_ROAT.UI_BESTIARY_CRE_ROAT",
             "Biomes": [
                 {
                     "RowName": "Swamp",
+                    "DataTableName": "D_Atmospheres"
+                },
+                {
+                    "RowName": "Volcanic",
                     "DataTableName": "D_Atmospheres"
                 }
             ],
@@ -3455,7 +3529,7 @@
                 }
             ],
             "TotalPointsRequired": 1300,
-            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Horse-Lore1\", \"The Terrenus is an engineered descendant of Earth\\'s horses.  Its compact, sturdy build allows for swift movement through most areas. Sinotai came to find that genetic splicing with Eurasian wild boar resulted in significantly heightened endurance in these creatures. Unlike their predecessors, the Terranus is less likely to flee a predator - using its tusks to defend themselves and their kin.\")",
+            "Lore1": "NSLOCTEXT(\"D_BestiaryData\", \"Horse-Lore1\", \"The Terrenus is an engineered descendant of Earth\\'s horses.  Its compact, sturdy build allows for swift movement through most areas. Sinotai came to find that genetic splicing with Eurasian wild boar resulted in significantly heightened endurance in these creatures. Unlike their predecessors, the Terrenus is less likely to flee a predator - using its tusks to defend themselves and their kin.\")",
             "Lore2": "NSLOCTEXT(\"D_BestiaryData\", \"Horse-Lore2\", \"Initial reports on Terrenus development showed concern regarding their ability to be trained for use on time-sensitive drops, where Contractors needed a reliable source of swift transportation. The first batch released into the terrazone disappeared within 72 hours, costing Sinotai a small fortune in lost revenue. The following group were fixed with tracking beacons, and a somewhat controversial device to keep them within a set radius of their designated work zone.\")",
             "Lore3": "NSLOCTEXT(\"D_BestiaryData\", \"Horse-Lore3\", \"\\\"Moas. They\\'re noisy and they **** everywhere. I\\'m sick of em... These guys? WAY better. They may not be as fast, but it sure beats cleaning bird droppings all over your base.\\\"\")",
             "Traits": [

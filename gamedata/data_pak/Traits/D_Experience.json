@@ -1320,6 +1320,18 @@
                     "GainedExperience": 0
                 }
             }
+        },
+        {
+            "Name": "Creature_Irradiated_Prospector",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Irradiated_Prospector",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
         }
     ]
 }

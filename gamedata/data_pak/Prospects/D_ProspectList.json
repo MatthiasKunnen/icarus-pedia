@@ -16580,7 +16580,7 @@
                             "DataTableName": "D_ProspectStats"
                         },
                         {
-                            "RowName": "Outpost_Arctic_Easy_Creatures",
+                            "RowName": "Outpost_012_Easy_Creatures",
                             "DataTableName": "D_ProspectStats"
                         }
                     ],
@@ -16596,7 +16596,7 @@
                             "DataTableName": "D_ProspectStats"
                         },
                         {
-                            "RowName": "Outpost_Arctic_Medium_Creatures",
+                            "RowName": "Outpost_012_Medium_Creatures",
                             "DataTableName": "D_ProspectStats"
                         }
                     ],
@@ -16616,7 +16616,7 @@
                             "DataTableName": "D_ProspectStats"
                         },
                         {
-                            "RowName": "Outpost_Arctic_Hard_Creatures",
+                            "RowName": "Outpost_012_Hard_Creatures",
                             "DataTableName": "D_ProspectStats"
                         }
                     ],
@@ -16636,7 +16636,7 @@
                             "DataTableName": "D_ProspectStats"
                         },
                         {
-                            "RowName": "Outpost_Arctic_Hard_Creatures",
+                            "RowName": "Outpost_012_Hard_Creatures",
                             "DataTableName": "D_ProspectStats"
                         },
                         {

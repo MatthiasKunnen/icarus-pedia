@@ -5566,9 +5566,10 @@
             },
             "PanningDirection": "Vertical",
             "TreePadding": {
-                "Left": 35,
-                "Top": 10,
-                "Right": 35
+                "Left": 50,
+                "Top": 50,
+                "Right": 10,
+                "Bottom": 10
             },
             "LineMethod": "YThenX",
             "ScrollBarStyle": {

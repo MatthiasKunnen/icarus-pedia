@@ -15,6 +15,10 @@
             "RowName": "None",
             "DataTableName": "D_Saddles"
         },
+        "RequiredStat": {
+            "RowName": "None",
+            "DataTableName": "D_Stats"
+        },
         "PersistentSound": "None",
         "AudioSocket": "None"
     },
@@ -2244,6 +2248,22 @@
             "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Raptor_AnimBP.SK_ITM_Saddle_Raptor_AnimBP_C",
             "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
             "AttachSocket": "RaptorSaddle"
+        },
+        {
+            "Name": "Saddle_Mammoth_Standard",
+            "SaddleTag": {
+                "TagName": "Item.Mount.Saddle.Mammoth"
+            },
+            "SupportedMount": [
+                {
+                    "RowName": "WoollyMammoth",
+                    "DataTableName": "D_Mounts"
+                }
+            ],
+            "SkeletalMesh": "/Game/ASS/ITM/Saddle_ArcticExplorer/SK_ITM_Saddle_ArcticExplorer_Mammoth.SK_ITM_Saddle_ArcticExplorer_Mammoth",
+            "SaddleAnimBlueprint": "/Game/ASS/ITM/Saddle/SK_ITM_Saddle_Mammoth_Skeleton_AnimBP.SK_ITM_Saddle_Mammoth_Skeleton_AnimBP_C",
+            "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount_Mammoth.BP_Seat_Mount_Mammoth_C'",
+            "AttachSocket": "RigRoot"
         }
     ]
 }

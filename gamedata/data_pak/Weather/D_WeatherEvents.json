@@ -279,106 +279,6 @@
             ]
         },
         {
-            "Name": "Long_Wind",
-            "Difficulty": "Medium",
-            "Tier": 5,
-            "DurationSeconds": 460,
-            "DurationMinutes": 8,
-            "BiomeGroups": [
-                {
-                    "RowName": "Olympus_Conifer",
-                    "DataTableName": "D_WeatherBiomeGroups"
-                },
-                {
-                    "RowName": "Olympus_Riverlands",
-                    "DataTableName": "D_WeatherBiomeGroups"
-                },
-                {
-                    "RowName": "Styx_Forest",
-                    "DataTableName": "D_WeatherBiomeGroups"
-                }
-            ],
-            "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/Winds_Extreme.Winds_Extreme'",
-            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"Long_Wind-WeatherName\", \"Severe Winds\")",
-            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"Long_Wind-WeatherDescription\", \"Incoming storm! Find shelter to protect yourself.\")",
-            "WeatherActions": [
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Start",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 60
-                },
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Body",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 160
-                },
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Chaos",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 30
-                },
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Body",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 60
-                },
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Unzip",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 20
-                },
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Body",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 60
-                },
-                {
-                    "Action": {
-                        "RowName": "LongWinds_Stop",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 60
-                },
-                {
-                    "Action": {
-                        "RowName": "GenericStormEnd",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 10
-                }
-            ],
-            "MusicCues": [
-                {
-                    "MusicCondition": "Storm_Ramp",
-                    "TriggerTime": 0
-                },
-                {
-                    "MusicCondition": "Storm_Damage",
-                    "TriggerTime": 3
-                },
-                {
-                    "MusicCondition": "Storm_Chaos",
-                    "TriggerTime": 70
-                },
-                {
-                    "MusicCondition": "Normal",
-                    "TriggerTime": 460
-                }
-            ]
-        },
-        {
             "Name": "Light_Rain_1",
             "Tier": 1,
             "DurationSeconds": 460,
@@ -9737,39 +9637,17 @@
             ]
         },
         {
-            "Name": "Dev_EmptyEvent",
-            "DurationSeconds": 340,
-            "DurationMinutes": 6,
-            "BiomeGroups": [],
-            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"Dev_EmptyEvent-WeatherName\", \"Clear Skies\")",
+            "Name": "NoWeather",
+            "DurationSeconds": 120,
+            "DurationMinutes": 2,
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"NoWeather-WeatherName\", \"No Weather\")",
             "WeatherActions": [
                 {
                     "Action": {
-                        "RowName": "ClearSky",
+                        "RowName": "NoWeather_Body",
                         "DataTableName": "D_WeatherActions"
                     },
-                    "TimeInSeconds": 90
-                },
-                {
-                    "Action": {
-                        "RowName": "ClearSky",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 180
-                },
-                {
-                    "Action": {
-                        "RowName": "ClearSky",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 60
-                },
-                {
-                    "Action": {
-                        "RowName": "ClearSky",
-                        "DataTableName": "D_WeatherActions"
-                    },
-                    "TimeInSeconds": 10
+                    "TimeInSeconds": 120
                 }
             ],
             "MusicCues": [
@@ -9787,7 +9665,7 @@
                 },
                 {
                     "MusicCondition": "Normal",
-                    "TriggerTime": 340
+                    "TriggerTime": 120
                 }
             ]
         },
@@ -9795,8 +9673,8 @@
             "Name": "DustStorm_WyrmQueen",
             "Difficulty": "Medium",
             "Tier": 3,
-            "DurationSeconds": 140,
-            "DurationMinutes": 3,
+            "DurationSeconds": 90,
+            "DurationMinutes": 2,
             "BiomeGroups": [
                 {
                     "RowName": "Ely_Desert",
@@ -9819,7 +9697,7 @@
                         "RowName": "Sandwyrm_DustStorm_Body",
                         "DataTableName": "D_WeatherActions"
                     },
-                    "TimeInSeconds": 120
+                    "TimeInSeconds": 70
                 },
                 {
                     "Action": {
@@ -9844,7 +9722,7 @@
                 },
                 {
                     "MusicCondition": "Normal",
-                    "TriggerTime": 140
+                    "TriggerTime": 90
                 }
             ]
         }

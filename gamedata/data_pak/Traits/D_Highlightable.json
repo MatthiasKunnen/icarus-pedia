@@ -1314,13 +1314,13 @@
         },
         {
             "Name": "NPC_Eden",
-            "DisplayName": "INVTEXT(\"[DNT] EDEN Inhabitant\")",
-            "Description": ""
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Eden-DisplayName\", \"Eris Inquisition Agent\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Eden-Description\", \"A member of the Eris Inquisition.\")"
         },
         {
             "Name": "DragonFly_Nest",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"DragonFly_Nest-DisplayName\", \"Venomfly Nest\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"DragonFly_Nest-Description\", \"A nest ful of Venomflies. Be Careful.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"DragonFly_Nest-Description\", \"A nest full of Venomflies. Be Careful.\")"
         },
         {
             "Name": "EDEN_Cook",

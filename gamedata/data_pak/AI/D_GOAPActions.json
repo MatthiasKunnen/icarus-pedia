@@ -1291,6 +1291,32 @@
             "ActionBP": "/Game/BP/AI/GOAP/Actions/BP_IcarusGOAPAction_EatNearbyCarcasses_Protect_Sleep.BP_IcarusGOAPAction_EatNearbyCarcasses_Protect_Sleep_C",
             "BehaviourTree": "/Game/BP/AI/GOAP/BehaviourTrees/BT_IcarusGOAP_Wait.BT_IcarusGOAP_Wait",
             "AudioState": "Relaxing"
+        },
+        {
+            "Name": "Wander_Dormant_Anchored",
+            "Description": "Wander",
+            "Preconditions": [
+                {
+                    "Property": {
+                        "RowName": "Wander",
+                        "DataTableName": "D_GOAPProperties"
+                    },
+                    "Value": false
+                }
+            ],
+            "Effects": [
+                {
+                    "Property": {
+                        "RowName": "Wander",
+                        "DataTableName": "D_GOAPProperties"
+                    },
+                    "Value": true
+                }
+            ],
+            "TimeOut": 60,
+            "AssociatedMovementState": "Walk",
+            "ActionBP": "/Game/BP/AI/GOAP/Actions/BP_IcarusGOAPAction_Wander.BP_IcarusGOAPAction_Wander_C",
+            "BehaviourTree": "/Game/BP/AI/GOAP/BehaviourTrees/BT_IcarusNPCGOAP_DormantAnchoredWander.BT_IcarusNPCGOAP_DormantAnchoredWander"
         }
     ]
 }

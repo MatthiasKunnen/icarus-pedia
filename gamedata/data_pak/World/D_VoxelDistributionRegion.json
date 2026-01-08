@@ -476,8 +476,8 @@
                 "(RowName=\"Metal_Normal\",DataTableName=\"D_VoxelSetupData\")": 50,
                 "(RowName=\"Gold_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
                 "(RowName=\"Bauxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
-                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 5,
-                "(RowName=\"Titanium_Normal\",DataTableName=\"D_VoxelSetupData\")": 2,
+                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
+                "(RowName=\"Titanium_Normal\",DataTableName=\"D_VoxelSetupData\")": 8,
                 "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 5
             },
             "VoxelColor": {
@@ -604,13 +604,13 @@
         {
             "Name": "Elysium_Arctic_Caves",
             "VoxelDistribution": {
-                "(RowName=\"Copper_Normal\",DataTableName=\"D_VoxelSetupData\")": 50,
-                "(RowName=\"Metal_Normal\",DataTableName=\"D_VoxelSetupData\")": 50,
+                "(RowName=\"Copper_Normal\",DataTableName=\"D_VoxelSetupData\")": 40,
+                "(RowName=\"Metal_Normal\",DataTableName=\"D_VoxelSetupData\")": 40,
                 "(RowName=\"Gold_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
                 "(RowName=\"Bauxite_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
-                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 5,
-                "(RowName=\"Titanium_Normal\",DataTableName=\"D_VoxelSetupData\")": 2,
-                "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 5,
+                "(RowName=\"Platinum_Normal\",DataTableName=\"D_VoxelSetupData\")": 15,
+                "(RowName=\"Titanium_Normal\",DataTableName=\"D_VoxelSetupData\")": 15,
+                "(RowName=\"Coal_Normal\",DataTableName=\"D_VoxelSetupData\")": 10,
                 "(RowName=\"Ruby_Ore_Dense\",DataTableName=\"D_VoxelSetupData\")": 5
             },
             "VoxelColor": {

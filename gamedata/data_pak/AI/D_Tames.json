@@ -515,6 +515,38 @@
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 50,
             "MaxNearbyAutoSpawnedJuveniles": 3
+        },
+        {
+            "Name": "WoollyMammoth",
+            "TameDurationInSeconds": 900,
+            "DesiredTemperatureRange": {
+                "X": -20,
+                "Y": 45
+            },
+            "DesiredShelterPercentage": 0,
+            "DesiredNutritionPercentage": 25,
+            "ProhibitedTamingModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Sleepy",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "TamedAI": {
+                "RowName": "Mount_WoollyMammoth"
+            },
+            "MatureCreatureType": {
+                "RowName": "Mammoth_Arctic"
+            },
+            "JuvenileCreatureType": {
+                "RowName": "Juvenile_WoollyMammoth"
+            },
+            "bAutomaticallySpawnJuvenileWithParent": true,
+            "PercentChanceToSpawnJuvenile": 25,
+            "MaxNearbyAutoSpawnedJuveniles": 5
         }
     ]
 }

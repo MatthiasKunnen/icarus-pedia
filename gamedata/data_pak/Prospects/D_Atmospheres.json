@@ -237,9 +237,9 @@
         {
             "Name": "Tundra",
             "AtmosphereName": "NSLOCTEXT(\"D_Atmospheres\", \"Tundra-AtmosphereName\", \"Tundra\")",
-            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Arctic_Small.T_Bestiary_Diorama_Arctic_Small",
-            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Arctic_Med.T_Bestiary_Diorama_Arctic_Med",
-            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Arctic_Big.T_Bestiary_Diorama_Arctic_Big",
+            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Tundra_S.T_Bestiary_Diorama_Tundra_S",
+            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Tundra_M.T_Bestiary_Diorama_Tundra_M",
+            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Tundra_L.T_Bestiary_Diorama_Tundra_L",
             "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/AC/C_AC_FogTint.C_AC_FogTint'",
             "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/AC/C_AC_AtmosSun.C_AC_AtmosSun'",
             "SunIntensity": "CurveFloat'/Game/ASS/ENV/ATM/Biomes/AC/C_AC_SunIntensity.C_AC_SunIntensity'",

@@ -18806,61 +18806,6 @@
             }
         },
         {
-            "Name": "MinerArmor_Head",
-            "ItemStaticData": {
-                "RowName": "MinerArmor_Head"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
-            "Name": "MinerArmor_Chest",
-            "ItemStaticData": {
-                "RowName": "MinerArmor_Chest"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
-            "Name": "MinerArmor_Arms",
-            "ItemStaticData": {
-                "RowName": "MinerArmor_Arms"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
-            "Name": "MinerArmor_Legs",
-            "ItemStaticData": {
-                "RowName": "MinerArmor_Legs"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
-            "Name": "MinerArmor_Feet",
-            "ItemStaticData": {
-                "RowName": "MinerArmor_Feet"
-            },
-            "Metadata": {
-                "RequiredFeatureLevel": {
-                    "RowName": "GreatHunts"
-                }
-            }
-        },
-        {
             "Name": "Thumper_Mini",
             "ItemStaticData": {
                 "RowName": "Thumper_Mini"
@@ -19618,9 +19563,33 @@
             ]
         },
         {
+            "Name": "Spider_Head",
+            "ItemStaticData": {
+                "RowName": "Spider_Head"
+            }
+        },
+        {
+            "Name": "Spider_Trophy",
+            "ItemStaticData": {
+                "RowName": "Spider_Trophy"
+            }
+        },
+        {
+            "Name": "Saddle_Mammoth_Standard",
+            "ItemStaticData": {
+                "RowName": "Saddle_Mammoth_Standard"
+            }
+        },
+        {
             "Name": "Dead_EI_Agent",
             "ItemStaticData": {
                 "RowName": "Dead_EI_Agent"
+            }
+        },
+        {
+            "Name": "Spider_Silk",
+            "ItemStaticData": {
+                "RowName": "Spider_Silk"
             }
         }
     ]

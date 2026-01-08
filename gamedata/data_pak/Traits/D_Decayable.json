@@ -195,6 +195,11 @@
         {
             "Name": "Decay_QuestItem",
             "DecayTime": 1800
+        },
+        {
+            "Name": "Decay_Dried_Fish",
+            "DecayTime": 300,
+            "SpoilTime": 2000
         }
     ]
 }

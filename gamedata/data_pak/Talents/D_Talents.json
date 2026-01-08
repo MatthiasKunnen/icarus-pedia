@@ -536,7 +536,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 7750,
+                "X": 7200,
                 "Y": 1200
             },
             "Size": {
@@ -562,7 +562,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 7900,
+                "X": 7650,
                 "Y": 850
             },
             "Size": {
@@ -650,7 +650,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 850,
+                "X": 750,
                 "Y": 100
             },
             "Size": {
@@ -770,7 +770,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 7600,
+                "X": 7350,
                 "Y": 850
             },
             "Size": {
@@ -794,7 +794,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 9350,
+                "X": 9050,
                 "Y": 850
             },
             "Size": {
@@ -844,7 +844,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 4450,
+                "X": 4350,
                 "Y": 850
             },
             "Size": {
@@ -869,7 +869,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 5050,
+                "X": 4950,
                 "Y": 850
             },
             "Size": {
@@ -893,7 +893,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 4300,
+                "X": 4200,
                 "Y": 1200
             },
             "Size": {
@@ -966,7 +966,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 2050,
+                "X": 2250,
                 "Y": 450
             },
             "Size": {
@@ -1062,7 +1062,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 850,
+                "X": 750,
                 "Y": 450
             },
             "Size": {
@@ -1088,7 +1088,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16500,
+                "X": 16300,
                 "Y": 450
             },
             "Size": {
@@ -1113,7 +1113,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11550,
+                "X": 11400,
                 "Y": 850
             },
             "Size": {
@@ -1139,7 +1139,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11900,
+                "X": 11700,
                 "Y": 850
             },
             "Size": {
@@ -1676,7 +1676,7 @@
             },
             "Position": {
                 "X": 5000,
-                "Y": 250
+                "Y": 300
             },
             "Size": {
                 "X": 184,
@@ -1723,7 +1723,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16900,
+                "X": 16700,
                 "Y": 450
             },
             "Size": {
@@ -2244,7 +2244,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11700,
+                "X": 11550,
                 "Y": 1200
             },
             "Size": {
@@ -2395,7 +2395,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17150,
+                "X": 17000,
                 "Y": 450
             },
             "Size": {
@@ -2420,7 +2420,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 2050,
+                "X": 1950,
                 "Y": 100
             },
             "Size": {
@@ -2470,8 +2470,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14050,
-                "Y": 1200
+                "X": 14000,
+                "Y": 850
             },
             "Size": {
                 "X": 184,
@@ -2479,7 +2479,7 @@
             },
             "RequiredTalents": [
                 {
-                    "RowName": "Fortification_Wood_Gate",
+                    "RowName": "Crafting_Bench",
                     "DataTableName": "D_Talents"
                 }
             ]
@@ -2612,7 +2612,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16700,
+                "X": 16500,
                 "Y": 300
             },
             "Size": {
@@ -10637,7 +10637,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 2650,
+                "X": 2550,
                 "Y": 100
             },
             "Size": {
@@ -11586,7 +11586,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 5550,
+                "X": 5350,
                 "Y": 850
             },
             "Size": {
@@ -11635,7 +11635,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 5700,
+                "X": 5500,
                 "Y": 1200
             },
             "Size": {
@@ -11660,7 +11660,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 5400,
+                "X": 5200,
                 "Y": 1200
             },
             "Size": {
@@ -11686,7 +11686,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 5850,
+                "X": 5650,
                 "Y": 850
             },
             "Size": {
@@ -11734,7 +11734,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 4600,
+                "X": 4500,
                 "Y": 1200
             },
             "Size": {
@@ -12433,7 +12433,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6000,
+                "X": 5800,
                 "Y": 1200
             },
             "Size": {
@@ -13003,7 +13003,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16900,
+                "X": 16700,
                 "Y": 100
             },
             "Size": {
@@ -13128,7 +13128,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16500,
+                "X": 16300,
                 "Y": 100
             },
             "Size": {
@@ -16188,7 +16188,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 8750,
+                "X": 8550,
                 "Y": 850
             },
             "Size": {
@@ -19501,7 +19501,7 @@
             },
             "Position": {
                 "X": 4700,
-                "Y": 250
+                "Y": 300
             },
             "Size": {
                 "X": 184,
@@ -21034,7 +21034,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16050,
+                "X": 16200,
                 "Y": 1200
             },
             "Size": {
@@ -22509,7 +22509,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 1750,
+                "X": 1550,
                 "Y": 450
             },
             "Size": {
@@ -22591,7 +22591,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14550,
+                "X": 14150,
                 "Y": 450
             },
             "Size": {
@@ -22615,7 +22615,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15550,
+                "X": 15150,
                 "Y": 100
             },
             "Size": {
@@ -22639,7 +22639,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13800,
+                "X": 13400,
                 "Y": 100
             },
             "Size": {
@@ -22663,7 +22663,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15550,
+                "X": 15150,
                 "Y": 450
             },
             "Size": {
@@ -22712,7 +22712,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14700,
+                "X": 14300,
                 "Y": 100
             },
             "Size": {
@@ -23540,7 +23540,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14350,
+                "X": 14850,
                 "Y": 850
             },
             "Size": {
@@ -23564,7 +23564,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14350,
+                "X": 14850,
                 "Y": 1200
             },
             "Size": {
@@ -23588,7 +23588,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14050,
+                "X": 14550,
                 "Y": 850
             },
             "Size": {
@@ -23612,7 +23612,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14650,
+                "X": 15150,
                 "Y": 850
             },
             "Size": {
@@ -23637,7 +23637,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 9650,
+                "X": 9500,
                 "Y": 850
             },
             "Size": {
@@ -23686,7 +23686,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 1750,
+                "X": 1550,
                 "Y": 100
             },
             "Size": {
@@ -23814,7 +23814,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13500,
+                "X": 13100,
                 "Y": 100
             },
             "Size": {
@@ -23928,7 +23928,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10900,
+                "X": 10950,
                 "Y": 300
             },
             "Size": {
@@ -23957,7 +23957,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11250,
+                "X": 11300,
                 "Y": 100
             },
             "Size": {
@@ -23986,7 +23986,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10600,
+                "X": 10650,
                 "Y": 100
             },
             "Size": {
@@ -24014,7 +24014,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11250,
+                "X": 11300,
                 "Y": 450
             },
             "Size": {
@@ -24044,7 +24044,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11550,
+                "X": 11600,
                 "Y": 100
             },
             "Size": {
@@ -24158,7 +24158,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 2350,
+                "X": 2250,
                 "Y": 100
             },
             "Size": {
@@ -24238,7 +24238,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11550,
+                "X": 11600,
                 "Y": 450
             },
             "Size": {
@@ -24269,7 +24269,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10300,
+                "X": 10350,
                 "Y": 100
             },
             "Size": {
@@ -24377,7 +24377,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18550,
+                "X": 19100,
                 "Y": 850
             },
             "Size": {
@@ -24424,7 +24424,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18250,
+                "X": 18500,
                 "Y": 1200
             },
             "Size": {
@@ -24691,7 +24691,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6150,
+                "X": 5950,
                 "Y": 850
             },
             "Size": {
@@ -24813,7 +24813,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10500,
+                "X": 10350,
                 "Y": 850
             },
             "Size": {
@@ -25860,7 +25860,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10600,
+                "X": 10650,
                 "Y": 450
             },
             "Size": {
@@ -26021,7 +26021,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 5700,
+                "X": 5500,
                 "Y": 1050
             },
             "Size": {
@@ -26044,7 +26044,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6850,
+                "X": 6600,
                 "Y": 1050
             },
             "Size": {
@@ -26071,7 +26071,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6450,
+                "X": 6200,
                 "Y": 1200
             },
             "Size": {
@@ -26102,7 +26102,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6750,
+                "X": 6500,
                 "Y": 1200
             },
             "Size": {
@@ -26132,7 +26132,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6600,
+                "X": 6350,
                 "Y": 850
             },
             "Size": {
@@ -26162,7 +26162,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 6900,
+                "X": 6650,
                 "Y": 850
             },
             "Size": {
@@ -26192,7 +26192,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 7200,
+                "X": 6950,
                 "Y": 850
             },
             "Size": {
@@ -26219,7 +26219,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 4600,
+                "X": 4500,
                 "Y": 1050
             },
             "Size": {
@@ -26245,7 +26245,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 4900,
+                "X": 4800,
                 "Y": 1200
             },
             "Size": {
@@ -26275,7 +26275,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 8050,
+                "X": 7500,
                 "Y": 1200
             },
             "Size": {
@@ -26456,7 +26456,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 650,
+                "X": 600,
                 "Y": 300
             },
             "Size": {
@@ -26715,7 +26715,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 7050,
+                "X": 6800,
                 "Y": 1200
             },
             "Size": {
@@ -27223,7 +27223,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12600,
+                "X": 12300,
                 "Y": 850
             },
             "Size": {
@@ -28833,7 +28833,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10800,
+                "X": 10650,
                 "Y": 850
             },
             "Size": {
@@ -29404,7 +29404,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 20100,
                 "Y": 450
             },
             "Size": {
@@ -29429,7 +29429,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20350,
+                "X": 20400,
                 "Y": 450
             },
             "Size": {
@@ -29454,7 +29454,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19750,
+                "X": 19800,
                 "Y": 450
             },
             "Size": {
@@ -29479,7 +29479,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 19800,
                 "Y": 850
             },
             "Size": {
@@ -29504,7 +29504,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20350,
+                "X": 20100,
                 "Y": 850
             },
             "Size": {
@@ -29529,7 +29529,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19750,
+                "X": 19800,
                 "Y": 100
             },
             "Size": {
@@ -29555,7 +29555,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 19800,
                 "Y": 1200
             },
             "Size": {
@@ -29585,7 +29585,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20350,
+                "X": 20100,
                 "Y": 1200
             },
             "Size": {
@@ -30063,7 +30063,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 20100,
                 "Y": 300
             },
             "Size": {
@@ -30441,7 +30441,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12250,
+                "X": 12000,
                 "Y": 850
             },
             "Size": {
@@ -30757,7 +30757,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16350,
+                "X": 16500,
                 "Y": 850
             },
             "Size": {
@@ -30844,7 +30844,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15450,
+                "X": 15600,
                 "Y": 850
             },
             "Size": {
@@ -30875,7 +30875,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10300,
+                "X": 10350,
                 "Y": 450
             },
             "Size": {
@@ -31075,7 +31075,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 4750,
+                "X": 4650,
                 "Y": 850
             },
             "Size": {
@@ -31112,7 +31112,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15750,
+                "X": 15900,
                 "Y": 850
             },
             "Size": {
@@ -31227,7 +31227,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 10200,
+                "X": 10050,
                 "Y": 850
             },
             "Size": {
@@ -32121,8 +32121,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11950,
-                "Y": 450
+                "X": 12800,
+                "Y": 850
             },
             "Size": {
                 "X": 184,
@@ -32146,8 +32146,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12250,
-                "Y": 450
+                "X": 13100,
+                "Y": 1200
             },
             "Size": {
                 "X": 184,
@@ -32159,7 +32159,8 @@
                     "DataTableName": "D_Talents"
                 }
             ],
-            "RequiredLevel": 20
+            "RequiredLevel": 20,
+            "DrawMethodOverride": "YThenX"
         },
         {
             "Name": "Beehive_Breeder",
@@ -32171,8 +32172,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12250,
-                "Y": 100
+                "X": 13100,
+                "Y": 850
             },
             "Size": {
                 "X": 184,
@@ -32196,8 +32197,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12550,
-                "Y": 100
+                "X": 13400,
+                "Y": 850
             },
             "Size": {
                 "X": 184,
@@ -32221,8 +32222,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12550,
-                "Y": 450
+                "X": 13400,
+                "Y": 1200
             },
             "Size": {
                 "X": 184,
@@ -32321,7 +32322,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20050,
+                "X": 20100,
                 "Y": 100
             },
             "Size": {
@@ -32348,7 +32349,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 20350,
+                "X": 20400,
                 "Y": 100
             },
             "Size": {
@@ -32374,7 +32375,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16650,
+                "X": 16800,
                 "Y": 850
             },
             "Size": {
@@ -32405,7 +32406,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13350,
+                "X": 12950,
                 "Y": 450
             },
             "Size": {
@@ -32438,7 +32439,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16050,
+                "X": 16200,
                 "Y": 1050
             },
             "Size": {
@@ -39536,7 +39537,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15850,
+                "X": 15450,
                 "Y": 450
             },
             "Size": {
@@ -39566,7 +39567,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15850,
+                "X": 15450,
                 "Y": 100
             },
             "Size": {
@@ -39596,7 +39597,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16150,
+                "X": 15750,
                 "Y": 450
             },
             "Size": {
@@ -39626,7 +39627,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16150,
+                "X": 15750,
                 "Y": 100
             },
             "Size": {
@@ -39894,7 +39895,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13650,
+                "X": 13250,
                 "Y": 450
             },
             "Size": {
@@ -41471,7 +41472,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15250,
+                "X": 14850,
                 "Y": 300
             },
             "Size": {
@@ -41501,7 +41502,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13950,
+                "X": 13550,
                 "Y": 450
             },
             "Size": {
@@ -41528,7 +41529,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14250,
+                "X": 13850,
                 "Y": 450
             },
             "Size": {
@@ -48484,7 +48485,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14950,
+                "X": 14550,
                 "Y": 300
             },
             "Size": {
@@ -48537,7 +48538,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13200,
+                "X": 12800,
                 "Y": 100
             },
             "Size": {
@@ -48570,7 +48571,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14850,
+                "X": 14450,
                 "Y": 450
             },
             "Size": {
@@ -48940,7 +48941,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 1450,
+                "X": 1950,
                 "Y": 450
             },
             "Size": {
@@ -51063,7 +51064,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18750,
+                "X": 18800,
                 "Y": 1200
             },
             "Size": {
@@ -51207,7 +51208,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12050,
+                "X": 11850,
                 "Y": 1200
             },
             "Size": {
@@ -52421,8 +52422,8 @@
                 "RowName": "Blueprint_T4_Fabricator"
             },
             "Position": {
-                "X": 12300,
-                "Y": 850
+                "X": 12450,
+                "Y": 1200
             },
             "Size": {
                 "X": 184,
@@ -52690,7 +52691,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 8750,
+                "X": 8550,
                 "Y": 1200
             },
             "Size": {
@@ -53556,7 +53557,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 11850,
+                "X": 11900,
                 "Y": 100
             },
             "Size": {
@@ -53742,7 +53743,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15000,
+                "X": 14600,
                 "Y": 100
             },
             "Size": {
@@ -53766,7 +53767,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14400,
+                "X": 14000,
                 "Y": 100
             },
             "Size": {
@@ -53792,7 +53793,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12900,
+                "X": 12500,
                 "Y": 100
             },
             "Size": {
@@ -56212,7 +56213,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 15450,
+                "X": 15600,
                 "Y": 1200
             },
             "Size": {
@@ -56669,8 +56670,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13750,
-                "Y": 850
+                "X": 14300,
+                "Y": 1200
             },
             "Size": {
                 "X": 184,
@@ -56699,7 +56700,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 13750,
+                "X": 14000,
                 "Y": 1200
             },
             "Size": {
@@ -57197,8 +57198,8 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 17950,
-                "Y": 1200
+                "X": 18500,
+                "Y": 850
             },
             "Size": {
                 "X": 184,
@@ -57239,6 +57240,30 @@
                     "RowName": "NewFrontiers"
                 }
             }
+        },
+        {
+            "Name": "Iron_Sign_Small",
+            "ExtraData": {
+                "RowName": "Item_Iron_Sign_Small",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T3_Machine"
+            },
+            "Position": {
+                "X": 15900,
+                "Y": 850
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Cement_Mixer",
+                    "DataTableName": "D_Talents"
+                }
+            ]
         },
         {
             "Name": "Composite_Sign_Small",
@@ -57644,7 +57669,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 18250,
+                "X": 18800,
                 "Y": 850
             },
             "Size": {
@@ -57704,7 +57729,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 2500,
+                "X": 2550,
                 "Y": 450
             },
             "Size": {
@@ -57818,7 +57843,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 19050,
+                "X": 19100,
                 "Y": 1200
             },
             "Size": {
@@ -58094,7 +58119,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 12400,
+                "X": 12150,
                 "Y": 1200
             },
             "Size": {
@@ -58129,7 +58154,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 14100,
+                "X": 13700,
                 "Y": 100
             },
             "Size": {
@@ -58298,7 +58323,7 @@
                 "RowName": "Blueprint_T2_Crafting"
             },
             "Position": {
-                "X": 16350,
+                "X": 16500,
                 "Y": 1200
             },
             "Size": {
@@ -63385,7 +63410,7 @@
         },
         {
             "Name": "Orka_Bleed",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Orka_Bleed-DisplayName\", \"Razer Sharp Teeth\")",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Orka_Bleed-DisplayName\", \"Razor Sharp Teeth\")",
             "Description": "NSLOCTEXT(\"D_Talents\", \"Orka_Bleed-Description\", \"Attacks cause the enemy to bleed profusely. \")",
             "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Wolf_BleedOnHit.T_Talent_Wolf_BleedOnHit",
             "TalentTree": {
@@ -63666,6 +63691,8 @@
         },
         {
             "Name": "Storca_Speed",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Storca_Speed-DisplayName\", \"Lightweight\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Storca_Speed-Description\", \"Increases Movement Speed at the Cost of Physical Damage Resistance\")",
             "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Horse_Speed.T_Talent_Horse_Speed",
             "TalentTree": {
                 "RowName": "Creature_Storca"
@@ -65509,7 +65536,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 300
+                "Y": 700
             },
             "Size": {
                 "X": 128,
@@ -65551,8 +65578,9 @@
         },
         {
             "Name": "Creature_Base_Mammoth",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_Mammoth-DisplayName\", \"Buffalo\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_Mammoth-Description\", \"Can be specialized into defensive, hauling or heat resist bonuses.\")",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_Mammoth-DisplayName\", \"Woolly Mammoth\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_Mammoth-Description\", \"A Heavy Hauler with a Thick Coat and Sharp Tusks\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_Mammoth.T_Talent_Base_Mammoth",
             "TalentTree": {
                 "RowName": "Creature_WoollyMammoth"
             },
@@ -65577,6 +65605,921 @@
             ],
             "bDefaultUnlocked": true,
             "DrawMethodOverride": "YThenX"
+        },
+        {
+            "Name": "Creature_WoolyMammoth_ExtraDamage",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_ExtraDamage-DisplayName\", \"War Mammoth\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_ExtraDamage-Description\", \"Increases Attack Damage and Range at the Cost of Carry Capacity\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Mammoth_Run.T_Talent_Mammoth_Run",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 900,
+                "Y": 700
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 15,
+                        "(Value=\"BaseNPCAttackRadius_+%\")": 5,
+                        "(Value=\"BaseMountCargoSlots_+\")": -3
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 40,
+                        "(Value=\"BaseNPCAttackRadius_+%\")": 15,
+                        "(Value=\"BaseMountCargoSlots_+\")": -6
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMeleeDamage_+%\")": 75,
+                        "(Value=\"BaseNPCAttackRadius_+%\")": 30,
+                        "(Value=\"BaseMountCargoSlots_+\")": -12
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_WoolyMammoth_Rupture",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_ReducedFoodConsumption_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_ReducedFoodConsumption_WoolyMammoth-DisplayName\", \"Metabolic Preservation\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_ReducedFoodConsumption_WoolyMammoth-Description\", \"Reduced Food Usage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_ReducedFoodConsumption.T_Talent_Base_ReducedFoodConsumption",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 300,
+                "Y": 300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodConsumption_+%\")": -20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_WoolyMammoth_FrostResist",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_SlowResistance_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_SlowResistance_WoolyMammoth-DisplayName\", \"Riding Forward\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_SlowResistance_WoolyMammoth-Description\", \"Increased Slow Resistance\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_SlowResistance.T_Talent_Base_SlowResistance",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 700
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSlowResistance_%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSlowResistance_%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSlowResistance_%\")": 20
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseSlowResistance_%\")": 40
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_WoolyMammoth_DamageReduction",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_WeightCapacity_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_WeightCapacity_WoolyMammoth-DisplayName\", \"Strong Back\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_WeightCapacity_WoolyMammoth-Description\", \"Increased Weight Capacity\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_WeightCapacity.T_Talent_Base_WeightCapacity",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 700,
+                "Y": 300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWeightCapacity_+%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWeightCapacity_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWeightCapacity_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWeightCapacity_+%\")": 20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_InventorySlots_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_HealthRegeneration_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_HealthRegeneration_WoolyMammoth-DisplayName\", \"Nurtured Recovery\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_HealthRegeneration_WoolyMammoth-Description\", \"Increased Health Regeneration\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_HealthRegeneration.T_Talent_Base_HealthRegeneration",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 900
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 20
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 50
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 100
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseHealthRegen_+%\")": 200
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_Health_Mammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_FoodSlot_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_FoodSlot_WoolyMammoth-DisplayName\", \"Large Stomach\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_FoodSlot_WoolyMammoth-Description\", \"Increases Food Buff Effectiveness and allows an additional Food Buff\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_FoodSlot.T_Talent_Base_FoodSlot",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 100
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 12
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFruitAndVegeModifierEffectiveness_+%\")": 15,
+                        "(Value=\"BaseMaximumStomachFullness_+\")": 1
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_FoodBuffDuration_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                },
+                {
+                    "RowName": "Creature_Base_ReducedWaterUsage_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_StaminaRegeneration_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_StaminaRegeneration_WoolyMammoth-DisplayName\", \"Roaming Vitality\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_StaminaRegeneration_WoolyMammoth-Description\", \"Increased Stamina Regeneration\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_StaminaRegeneration.T_Talent_Base_StaminaRegeneration",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 700,
+                "Y": 900
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseStaminaRegen_+%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseStaminaRegen_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseStaminaRegen_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseStaminaRegen_+%\")": 20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_HealthRegeneration_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_ReducedWaterUsage_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_ReducedWaterUsage_WoolyMammoth-DisplayName\", \"Hydration Elasticity \")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_ReducedWaterUsage_WoolyMammoth-Description\", \"Reduced Water Consumption\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_ReducedWaterUsage.T_Talent_Base_ReducedWaterUsage",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 300,
+                "Y": 100
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseWaterConsumption_+%\")": -20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_ReducedFoodConsumption_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_FoodBuffDuration_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_FoodBuffDuration_WoolyMammoth-DisplayName\", \"Perfect Pasturage\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_FoodBuffDuration_WoolyMammoth-Description\", \"Increased Food Effects Duration\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_FoodBuffDuration.T_Talent_Base_FoodBuffDuration",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFoodModifierDuration_+%\")": 20,
+                        "(Value=\"IsMountGrazingEnabled_?\")": 1
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_ReducedFoodConsumption_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_InventorySlots_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_InventorySlots_WoolyMammoth-DisplayName\", \"Balanced Pack\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_InventorySlots_WoolyMammoth-Description\", \"Increased Inventory Slots\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_InventorySlots.T_Talent_Base_InventorySlots",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 500,
+                "Y": 300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMountCargoSlots_+\")": 3
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMountCargoSlots_+\")": 6
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMountCargoSlots_+\")": 12
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_Mammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "YThenX"
+        },
+        {
+            "Name": "Creature_Base_DamageReduction_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_DamageReduction_WoolyMammoth-DisplayName\", \"Tough as Leather\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_DamageReduction_WoolyMammoth-Description\", \"Increased Physical Damage Reduction\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_DamageReduction.T_Talent_Base_DamageReduction",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 300,
+                "Y": 900
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 10
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_HealthRegeneration_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Creature_Base_MeleeAttack_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_MeleeAttack_WoolyMammoth-DisplayName\", \"Primal Instincts\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_MeleeAttack_WoolyMammoth-Description\", \"Adds Ability to Perform Melee Attacks and Increases Damage\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Mammoth_Attack.T_Talent_Mammoth_Attack",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 700,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"IsMountPrimaryAttackEnabled_?\")": 1
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"IsMountPrimaryAttackEnabled_?\")": 1,
+                        "(Value=\"BaseMeleeDamage_+%\")": 15
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"IsMountPrimaryAttackEnabled_?\")": 1,
+                        "(Value=\"BaseMeleeDamage_+%\")": 30
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_Mammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_ReducedThreat_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_ReducedThreat_WoolyMammoth-DisplayName\", \"Hidden in Plain Sight\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_ReducedThreat_WoolyMammoth-Description\", \"Reduced Animal Threat While in Arctic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Base_ReducedThreat.T_Talent_Base_ReducedThreat",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 100,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -20
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -35
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_WoolyMammoth_FrostResist",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "YThenX"
+        },
+        {
+            "Name": "Creature_WoolyMammoth_Rupture",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_Rupture-DisplayName\", \"Sharpened Tusks\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_Rupture-Description\", \"Chance to Apply Hemorrhage on Hit\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_WoolyZebra_BleedOnHit.T_Talent_WoolyZebra_BleedOnHit",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 700,
+                "Y": 700
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 20
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 40
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 80
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_MeleeAttack_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "XThenY"
+        },
+        {
+            "Name": "Creature_WoolyMammoth_DamageReduction",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_DamageReduction-DisplayName\", \"Thick Hide\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_DamageReduction-Description\", \"Increased Physical Damage Reduction\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_WoolyZebra_PhysicalDamageReduction.T_Talent_WoolyZebra_PhysicalDamageReduction",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 300,
+                "Y": 700
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 5
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BasePhysicalDamageResistance_%\")": 10
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_WoolyMammoth_FrostResist",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_WoolyMammoth_FrostResist",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_FrostResist-DisplayName\", \"Winter Coat\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_FrostResist-Description\", \"Increased Frost and Cold Resistance\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_WoolyZebra_ColdDamageReduction.T_Talent_WoolyZebra_ColdDamageReduction",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 300,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFrostDamageResistance_+%\")": 5,
+                        "(Value=\"BaseColdResistance_%\")": 10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFrostDamageResistance_+%\")": 10,
+                        "(Value=\"BaseColdResistance_%\")": 20
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseFrostDamageResistance_+%\")": 20,
+                        "(Value=\"BaseColdResistance_%\")": 40
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_Mammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_WoolyMammoth_ArcticStealth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_ArcticStealth-DisplayName\", \"Blended Fur\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_ArcticStealth-Description\", \"Reduced Animal Threat while in Arctic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_WoolyZebra_ArcticStealth.T_Talent_WoolyZebra_ArcticStealth",
+            "TalentTree": {
+                "RowName": "Creature_WoolyZebra"
+            },
+            "Position": {
+                "Y": 638.53955078125
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -4
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -10
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -20
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_WoolyMammoth_StompAttack",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_StompAttack-DisplayName\", \"Crushing Blow\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_StompAttack-Description\", \"Adds Ability to Perform a Stomp Attack\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Blueback_DamageReturn.T_Talent_Blueback_DamageReturn",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 900,
+                "Y": 500
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"IsMountSecondaryAttackEnabled_?\")": 1
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"IsMountSecondaryAttackEnabled_?\")": 1,
+                        "(Value=\"BaseNPCStompAttackRadius_+\")": 250
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"IsMountSecondaryAttackEnabled_?\")": 1,
+                        "(Value=\"BaseNPCStompAttackRadius_+\")": 500
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_MeleeAttack_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "ShortestDistance"
+        },
+        {
+            "Name": "Creature_Base_CargoSlots_WoolyMammoth",
+            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_CargoSlots_WoolyMammoth-DisplayName\", \"Big Rig\")",
+            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_Base_CargoSlots_WoolyMammoth-Description\", \"Increased Heavy Cargo Slots\")",
+            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_Buffalo_ExtraCarry.T_Talent_Buffalo_ExtraCarry",
+            "TalentTree": {
+                "RowName": "Creature_WoollyMammoth"
+            },
+            "Position": {
+                "X": 900,
+                "Y": 300
+            },
+            "Size": {
+                "X": 128,
+                "Y": 128
+            },
+            "Rewards": [
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMountHeavyCargoSlots_+\")": 1
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMountHeavyCargoSlots_+\")": 2
+                    },
+                    "GrantedFlags": []
+                },
+                {
+                    "GrantedStats": {
+                        "(Value=\"BaseMountHeavyCargoSlots_+\")": 3
+                    },
+                    "GrantedFlags": []
+                }
+            ],
+            "RequiredTalents": [
+                {
+                    "RowName": "Creature_Base_WeightCapacity_WoolyMammoth",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "YThenX"
+        },
+        {
+            "Name": "Saddle_Mammoth",
+            "ExtraData": {
+                "RowName": "Item_Saddle_Mammoth_Standard",
+                "DataTableName": "D_Itemable"
+            },
+            "TalentTree": {
+                "RowName": "Blueprint_T2_Crafting"
+            },
+            "Position": {
+                "X": 12650,
+                "Y": 450
+            },
+            "Size": {
+                "X": 184,
+                "Y": 184
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Re_route_Creature_Comforts",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "RequiredLevel": 30
         }
     ]
 }

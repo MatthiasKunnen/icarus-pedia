@@ -1,4 +1,3 @@
-Stat 'BaseFleshSacFloaterExtraDamage_+%' has only negative description.
 Excluded items:
 - Cooking_Station: Blacklisted
 - Kit_Road: Blacklisted
@@ -145,8 +144,6 @@ recipe Dried_Freshwater_Fillet, recipeSet T4_Smoker, D_Processing Smoker_T4: no 
 recipe Dried_Saltwater_Fillet, recipeSet T4_Smoker, D_Processing Smoker_T4: no matching StaticItem.Processing
 recipe Seed_Biofuel, recipeSet Composter, D_Processing Natural_Oil_Refiner: no matching StaticItem.Processing
 Could not find static name for element with RowName=AnimalCarcass_Rabbit_Variant_Snow, DataTableName=D_ItemsStatic while processing recipe Carcass_Rabbit_Variant_Snow
-Could not find static name for element with RowName=Battery_T3, DataTableName=D_ItemTemplate while processing recipe Battery_T3
-Could not find static name for element with RowName=Battery_T4, DataTableName=D_ItemTemplate while processing recipe Battery_T4
 recipe Smoked_Giant_Steak, recipeSet T4_Smoker, D_Processing Smoker_T4: no matching StaticItem.Processing
 recipe Smoked_Fatty_Tbone, recipeSet T4_Smoker, D_Processing Smoker_T4: no matching StaticItem.Processing
 recipe Smoked_Gamey_Meat, recipeSet T4_Smoker, D_Processing Smoker_T4: no matching StaticItem.Processing
@@ -173,9 +170,11 @@ recipe Butcher_Meat_Stringy, recipeSet Advanced_Butchery_Bench, D_Processing Adv
 recipe Butcher_Meat_Gamey, recipeSet Advanced_Butchery_Bench, D_Processing Advanced_Butchery_Bench: no matching StaticItem.Processing
 recipe Butcher_Meat_Tbone, recipeSet Advanced_Butchery_Bench, D_Processing Advanced_Butchery_Bench: no matching StaticItem.Processing
 recipe Butcher_Meat_Steak, recipeSet Advanced_Butchery_Bench, D_Processing Advanced_Butchery_Bench: no matching StaticItem.Processing
+recipe Butcher_Fish, recipeSet Advanced_Butchery_Bench, D_Processing Advanced_Butchery_Bench: no matching StaticItem.Processing
+recipe Butcher_Fish_Saltwater, recipeSet Advanced_Butchery_Bench, D_Processing Advanced_Butchery_Bench: no matching StaticItem.Processing
+recipe Butcher_Fish_Freshwater, recipeSet Advanced_Butchery_Bench, D_Processing Advanced_Butchery_Bench: no matching StaticItem.Processing
+recipe Rope_Silk, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
 Recipe Carcass_Rabbit_Variant_Snow excluded: Not all inputs/outputs found.
-Recipe Battery_T3 excluded: Not all inputs/outputs found.
-Recipe Battery_T4 excluded: Not all inputs/outputs found.
 Recipe Stone_Diagonal_Set excluded: Recipe Stone_Diagonal_Set has non-existent requirement Stone_Diagonal
 Recipe Stone_Curved_Set excluded: Recipe Stone_Curved_Set has non-existent requirement Stone_Diagonal
 Recipe Stone_Diagonal_Curved_Wall_Angles excluded: Recipe Stone_Diagonal_Curved_Wall_Angles has non-existent requirement Stone_Diagonal
@@ -225,12 +224,7 @@ Recipe Homestead_Picnic_Table excluded: Recipe Homestead_Picnic_Table has non-ex
 Recipe Homestead_Barbed_Wire_Fence excluded: Recipe Homestead_Barbed_Wire_Fence has non-existent requirement Homestead_Decorations
 Recipe Homestead_Lamp_Ground excluded: Recipe Homestead_Lamp_Ground has non-existent requirement Homestead_Decorations
 Recipe Homestead_Lamp_Wall excluded: Recipe Homestead_Lamp_Wall has non-existent requirement Homestead_Decorations
-Recipe Miner_Armor_Head excluded: Recipe Miner_Armor_Head has non-existent requirement MinerArmor
-Recipe Miner_Armor_Chest excluded: Recipe Miner_Armor_Chest has non-existent requirement MinerArmor
-Recipe Miner_Armor_Arms excluded: Recipe Miner_Armor_Arms has non-existent requirement MinerArmor
-Recipe Miner_Armor_Legs excluded: Recipe Miner_Armor_Legs has non-existent requirement MinerArmor
-Recipe Miner_Armor_Feet excluded: Recipe Miner_Armor_Feet has non-existent requirement MinerArmor
-Of the non-excluded items, 1739 are usable in crafting, the following 631 are not:
+Of the non-excluded items, 1680 are usable in crafting, the following 698 are not:
 - Kit_Concrete_Furnace
 - Kit_Electric_Furnace
 - Kit_Radar
@@ -246,7 +240,6 @@ Of the non-excluded items, 1739 are usable in crafting, the following 631 are no
 - Meta_Pickaxe
 - Meta_Knife
 - Raw_Fish
-- Cooked_Fish
 - AnimalCarcass_Bear
 - AnimalCarcass_Elephant
 - Wood_Railing_Gate_Refined
@@ -302,7 +295,6 @@ Of the non-excluded items, 1739 are usable in crafting, the following 631 are no
 - Bio_Needle
 - Faction_Mission_Drill
 - Wood_Build_HalfNormal
-- AnimalCarcass_Pack_Wolf
 - Survey_Radar
 - Faction_Mission_AquaScanner
 - Survey_Transmitter
@@ -522,6 +514,7 @@ Of the non-excluded items, 1739 are usable in crafting, the following 631 are no
 - AnimalCarcass_BlueBack_Lava
 - AnimalCarcass_Blueback_Lava_Mount
 - ProspectorID
+- AnimalCarcass_Spider
 - AnimalCarcass_Snow_Striker
 - AnimalCarcass_Desert_Striker
 - Dynamic_Mission_Beacon
@@ -530,9 +523,76 @@ Of the non-excluded items, 1739 are usable in crafting, the following 631 are no
 - Dropship_Grenade_Workshop
 - AnimalCarcass_Wooly_Zebra_Juvenile
 - Filletting_Station
+- Fish_01
+- Fish_01_Var2
+- Fish_01_Var3
+- Fish_01_Var4
+- Fish_02
+- Fish_02_Var2
+- Fish_02_Var3
+- Fish_02_Var4
+- Fish_03
+- Fish_03_Var2
+- Fish_03_Var3
+- Fish_03_Var4
+- Fish_04
+- Fish_04_Var2
+- Fish_04_Var3
+- Fish_04_Var4
+- Fish_05
+- Fish_05_Var2
+- Fish_05_Var3
+- Fish_05_Var4
+- Fish_06
+- Fish_06_Var2
+- Fish_06_Var3
+- Fish_06_Var4
+- Fish_07
+- Fish_07_Var2
+- Fish_07_Var3
+- Fish_07_Var4
+- Fish_08
+- Fish_08_Var2
+- Fish_08_Var3
+- Fish_08_Var4
+- Fish_09
+- Fish_09_Var2
+- Fish_09_Var3
+- Fish_09_Var4
+- Fish_10
+- Fish_10_Var2
+- Fish_10_Var3
+- Fish_10_Var4
+- Fish_11
+- Fish_11_Var2
+- Fish_11_Var3
+- Fish_11_Var4
+- Fish_12
+- Fish_12_Var2
+- Fish_12_Var3
+- Fish_12_Var4
+- Fish_13
+- Fish_13_Var2
+- Fish_13_Var3
+- Fish_13_Var4
+- Fish_14
+- Fish_14_Var2
+- Fish_14_Var3
+- Fish_14_Var4
+- Fish_15
+- Fish_16
+- Fish_17
 - Fish_17_Var2
 - Fish_17_Var3
 - Fish_17_Var4
+- Fish_18
+- Fish_18_Var2
+- Fish_18_Var3
+- Fish_18_Var4
+- Fish_19
+- Fish_19_Var2
+- Fish_19_Var3
+- Fish_19_Var4
 - Meta_Avocado_Seed
 - Meta_Rhubarb_Seed
 - Meta_Kumara_Seed
@@ -698,7 +758,6 @@ Of the non-excluded items, 1739 are usable in crafting, the following 631 are no
 - Teddy_Bear
 - Toilet
 - IceMammoth_Fractured_Ice
-- AnimalCarcass_Roat_Lava
 - Bunker_BunkBed_TopBunk
 - FieldGuide_Character
 - FieldGuide_Biofuel
@@ -861,4 +920,6 @@ Of the non-excluded items, 1739 are usable in crafting, the following 631 are no
 - AnimalCarcass_SwampBird_Juvenile
 - Collectable_Note_NoDeploy
 - Prop_Eden_Whiteboard
+- AnimalCarcass_WoollyMammoth_Juvenile
 - Dead_EI_Agent
+- AnimalCarcass_WoollyMammoth_Mount

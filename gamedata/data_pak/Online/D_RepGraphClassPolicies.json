@@ -788,6 +788,15 @@
             "Settings": {
                 "RowName": "AlwaysRelevant_Default"
             }
+        },
+        {
+            "Name": "Icarus.BP_Radiation_Sphere",
+            "Class": "/Game/ASS/VFX/ENV/Radiation/BP_Radiation_Sphere_01.BP_Radiation_Sphere_01_C",
+            "Description": "Spatialized dynamic (explicit as IcarusActor rule doesn't seem to work for classes that haven't been loaded on map transition)",
+            "Policy": "Spatialize_Dynamic",
+            "Settings": {
+                "RowName": "Spatialize_Default"
+            }
         }
     ]
 }

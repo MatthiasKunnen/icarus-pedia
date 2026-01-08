@@ -3608,7 +3608,7 @@
         {
             "Name": "Spider_Web",
             "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
-            "Damage": 10,
+            "Damage": 15,
             "DamageVariationPercentage": 10,
             "bCanStealthAttack": false,
             "bHomingProjectile": false,
@@ -3630,7 +3630,8 @@
             "AudioData": {
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SPIDER_BALLISTIC_TRAVEL.SFX_CRE_SPIDER_BALLISTIC_TRAVEL",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SPIDER_BALLISTIC_IMPACT.SFX_CRE_SPIDER_BALLISTIC_IMPACT"
-            }
+            },
+            "bDisableRecorderComponent": true
         },
         {
             "Name": "RockGolem_Ceiling_Rock",
@@ -4519,8 +4520,17 @@
             "Weight": 0.20000000298023224,
             "GravityScale": 0.5,
             "AllowPickupAfterSettle": false,
+            "PayloadDeploymentType": "OnTimerElapsed",
+            "PayloadDeploymentTimerDelay": 0.5,
             "BreakChance": 1,
-            "AttachOnHit": false,
+            "PostDeployLifetime": 37,
+            "ProjectileBounceSettings": {
+                "bBounceAngleAffectsFriction": false,
+                "Bounciness": 0.6000000238418579,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 5,
+                "MinFrictionFraction": 0
+            },
             "OverrideStaticMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot"
         },
         {
@@ -4733,6 +4743,35 @@
                 "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_THROW_STICK_MONKEY.SFX_BALLISTIC_THROW_STICK_MONKEY",
                 "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_BALLISTIC_STICK_HIT.SFX_BALLISTIC_STICK_HIT"
             }
+        },
+        {
+            "Name": "Wyrm_Queen_Spit",
+            "Behaviour": "/Game/BP/Behaviours/Ballistic/BP_BallisticBehaviour_Base.BP_BallisticBehaviour_Base_C",
+            "Damage": 25,
+            "DamageVariationPercentage": 10,
+            "bCanStealthAttack": false,
+            "bHomingProjectile": false,
+            "Weight": 0.5,
+            "GravityScale": 0.15000000596046448,
+            "AllowPickupAfterSettle": false,
+            "PayloadClass": "/Game/BP/Objects/World/Items/BallisticPayloads/BP_Payload_QueenSpit_FlyBy.BP_Payload_QueenSpit_FlyBy_C",
+            "PayloadDeploymentType": "OnBounceImmediate",
+            "PayloadDeploymentTimerDelay": 1,
+            "TrailParticle": "/Game/ASS/VFX/CRE/Sandwyrm_Queen/NS_Sandwyrm_AcidSpray_Falling_FX.NS_Sandwyrm_AcidSpray_Falling_FX",
+            "BreakChance": 0,
+            "PostDeployLifetime": 0.10000000149011612,
+            "AttachOnHit": false,
+            "ProjectileBounceSettings": {
+                "Bounciness": 0.20000000298023224,
+                "Friction": 0.20000000298023224,
+                "BounceVelocityStopSimulatingThreshold": 10,
+                "MinTimeBetweenBounces": 0.30000001192092896
+            },
+            "AudioData": {
+                "FlySound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL.SFX_CRE_SANDWORM_BALLISTIC_TRAVEL_SMALL",
+                "ImpactSound": "/Game/FMOD/Events/SFX/D_Ballistic/SFX_CRE_SANDWORM_BALLISTIC_MED.SFX_CRE_SANDWORM_BALLISTIC_MED"
+            },
+            "bUseActorPooling": true
         }
     ]
 }

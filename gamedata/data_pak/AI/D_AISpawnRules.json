@@ -146,6 +146,13 @@
             "FilterParams": {
                 "Population": 1
             }
+        },
+        {
+            "Name": "GhostCroc_Population",
+            "SpawnFilter": "/Game/BP/AI/SpawnFilters/BP_SpawnFilter_PopulationCheck_GhostCroc.BP_SpawnFilter_PopulationCheck_GhostCroc_C",
+            "FilterParams": {
+                "Population": 1
+            }
         }
     ]
 }

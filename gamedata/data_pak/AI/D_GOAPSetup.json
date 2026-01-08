@@ -3144,7 +3144,7 @@
             ],
             "Actions": [
                 {
-                    "RowName": "Wander",
+                    "RowName": "Wander_Anchored",
                     "DataTableName": "D_GOAPActions"
                 },
                 {
@@ -5156,7 +5156,7 @@
                 "RowName": "Wander"
             },
             "DynamicSubtreeOverrides": {
-                "(TagName=\"\")": "None"
+                "(TagName=\"BT.NPC.AttackBehaviour\")": "BehaviorTree'/Game/ASS/CRE/Wyrm_Queen/BT_Wyrm_Obstructed.BT_Wyrm_Obstructed'"
             }
         },
         {
@@ -5422,7 +5422,7 @@
             ],
             "Actions": [
                 {
-                    "RowName": "Wander_Dormant",
+                    "RowName": "Wander_Dormant_Anchored",
                     "DataTableName": "D_GOAPActions"
                 },
                 {
@@ -6182,6 +6182,9 @@
             ],
             "DefaultGoal": {
                 "RowName": "Wander"
+            },
+            "DynamicSubtreeOverrides": {
+                "(TagName=\"BT.GOAP.Melee_Attack\")": "BehaviorTree'/Game/BP/AI/GOAP/BehaviourTrees/BT_IcarusNPCGOAP_Melee_Attack_Spider.BT_IcarusNPCGOAP_Melee_Attack_Spider'"
             }
         },
         {
@@ -6202,7 +6205,7 @@
             ],
             "Actions": [
                 {
-                    "RowName": "Wander",
+                    "RowName": "Wander_Dormant_Anchored",
                     "DataTableName": "D_GOAPActions"
                 },
                 {

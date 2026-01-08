@@ -216,6 +216,24 @@
             "Stat": {
                 "Value": "ChargeItemsInInventory_?"
             }
+        },
+        {
+            "Name": "AuraShelter",
+            "Modifier": {
+                "RowName": "GrantedAura_Sheltered"
+            },
+            "Stat": {
+                "Value": "GrantedAuraSheltered_?"
+            }
+        },
+        {
+            "Name": "NonAura_ExperienceBoost",
+            "Modifier": {
+                "RowName": "XP_Boost"
+            },
+            "Stat": {
+                "Value": "DoubleExperienceEvent_?"
+            }
         }
     ]
 }

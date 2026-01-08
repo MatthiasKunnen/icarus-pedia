@@ -18,6 +18,15 @@
             "Name": "NoDamageRicochet",
             "PlayerFeedbackSound": "/Game/FMOD/Events/UI/Generic/UI_HITINDICATOR_RICCOCHET.UI_HITINDICATOR_RICCOCHET",
             "bShouldCritZoneSuppressHitAudio": true
+        },
+        {
+            "Name": "CriticalHitDrone",
+            "PlayerFeedbackSound": "/Game/FMOD/Events/UI/Generic/UI_CRITICAL_HIT_METAL.UI_CRITICAL_HIT_METAL"
+        },
+        {
+            "Name": "LowDamageHitDrone",
+            "PlayerFeedbackSound": "/Game/FMOD/Events/UI/Generic/UI_CRITICAL_HIT_METAL_STRONGPOINT.UI_CRITICAL_HIT_METAL_STRONGPOINT",
+            "bShouldCritZoneSuppressHitAudio": true
         }
     ]
 }

@@ -101,10 +101,6 @@
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
-                        "RowName": "Spider_Nest",
-                        "DataTableName": "D_AutonomousSpawns"
-                    },
-                    {
                         "RowName": "RockGolem",
                         "DataTableName": "D_AutonomousSpawns"
                     },
@@ -242,15 +238,15 @@
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
-                        "RowName": "Spider_Nest",
-                        "DataTableName": "D_AutonomousSpawns"
-                    },
-                    {
                         "RowName": "RockGolem",
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
                         "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -383,15 +379,15 @@
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
-                        "RowName": "Spider_Nest",
-                        "DataTableName": "D_AutonomousSpawns"
-                    },
-                    {
                         "RowName": "RockGolem",
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
                         "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -525,15 +521,15 @@
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
-                        "RowName": "Spider_Nest",
-                        "DataTableName": "D_AutonomousSpawns"
-                    },
-                    {
                         "RowName": "RockGolem",
                         "DataTableName": "D_AutonomousSpawns"
                     },
                     {
                         "RowName": "Caveworm_Spawner",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -800,6 +796,10 @@
                     {
                         "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -904,6 +904,10 @@
                     },
                     {
                         "RowName": "Ape_Forest_Poison",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1036,6 +1040,10 @@
                     },
                     {
                         "RowName": "Ape_Forest_Poison",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -1170,6 +1178,10 @@
                     {
                         "RowName": "Ape_Forest_Poison",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -1275,6 +1287,10 @@
                     },
                     {
                         "RowName": "Ape_Forest_Poison",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -3189,6 +3205,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Scorpion_Arctic"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "RelevantAutonomousSpawners": [
@@ -3592,6 +3617,10 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -4510,6 +4539,10 @@
                     {
                         "RowName": "Predator_Bird_Few",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -4893,6 +4926,10 @@
                     {
                         "RowName": "Wild_Beehive_Tree",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -4985,6 +5022,10 @@
                     {
                         "RowName": "Wild_Beehive_Tree",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -5076,6 +5117,10 @@
                     },
                     {
                         "RowName": "Wild_Beehive_Tree",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "Spider",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -6093,7 +6138,7 @@
                         "AISetup": {
                             "Value": "Deer_Variant"
                         },
-                        "SpawnWeight": 4,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -6102,7 +6147,7 @@
                         "AISetup": {
                             "Value": "Snow_Rabbit"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -6130,6 +6175,15 @@
                             "Value": "Snow_Striker"
                         },
                         "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mammoth_Arctic"
+                        },
+                        "SpawnWeight": 3,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -6186,7 +6240,7 @@
                         "AISetup": {
                             "Value": "Deer_Variant"
                         },
-                        "SpawnWeight": 4,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -6195,7 +6249,7 @@
                         "AISetup": {
                             "Value": "Snow_Rabbit"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -6223,6 +6277,15 @@
                             "Value": "Snow_Striker"
                         },
                         "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mammoth_Arctic"
+                        },
+                        "SpawnWeight": 3,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12073,9 +12136,9 @@
                     },
                     {
                         "AISetup": {
-                            "Value": "Spider"
+                            "Value": "Geothermal_Spider"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12122,6 +12185,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Geothermal_Spider"
+                        },
+                        "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "BiomeSpawnDensity": 10,
@@ -12162,6 +12234,15 @@
                             "Value": "Raptor"
                         },
                         "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Geothermal_Spider"
+                        },
+                        "SpawnWeight": 2,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12410,6 +12491,98 @@
             "MinLevel": 20,
             "MedianLevel": 30,
             "MaxLevel": 50
+        },
+        {
+            "Name": "ELY_Desert_RightOutsideEden",
+            "Creatures": {
+                "AISpawnList": [
+                    {
+                        "AISetup": {
+                            "Value": "Bounder_Desert"
+                        },
+                        "SpawnWeight": 4,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Zebra"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Scorpion"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Desert_Wolf"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Moa"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Mini_Hippo"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Komodo"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Wild_Boar"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Chew"
+                        },
+                        "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    }
+                ],
+                "BiomeSpawnDensity": 8
+            },
+            "MinLevel": 15,
+            "MedianLevel": 30,
+            "MaxLevel": 30
         },
         {
             "Name": "ELY_Desert_Large",

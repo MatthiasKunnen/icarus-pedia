@@ -37,13 +37,6 @@
                         }
                     ]
                 },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
                 "(Value=\"Scorpion_Arctic\")": {
                     "SpawnRules": [
                         {
@@ -247,13 +240,6 @@
                     "SpawnRules": [
                         {
                             "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
                         }
                     ]
                 },
@@ -481,13 +467,6 @@
                         },
                         {
                             "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
                         }
                     ]
                 },
@@ -2009,37 +1988,6 @@
                             "Value": "Bear_Population"
                         }
                     ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
-                        }
-                    ]
                 }
             },
             "SpawnMap": "/Game/Heatmaps/Generic/GT_Generic_Bounds_Full.GT_Generic_Bounds_Full",
@@ -2056,27 +2004,11 @@
                         "DataTableName": "D_AISpawnZones"
                     }
                 }
-            ],
-            "TerrainAutonomousSpawners": [
-                {
-                    "RowName": "Spider_Nest",
-                    "DataTableName": "D_AutonomousSpawns"
-                }
             ]
         },
         {
             "Name": "Outpost_Arctic",
             "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
                 "(Value=\"Polar_Bear\")": {
                     "SpawnRules": [
                         {
@@ -2091,13 +2023,6 @@
                     "SpawnRules": [
                         {
                             "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
                         }
                     ]
                 },
@@ -2128,44 +2053,10 @@
         {
             "Name": "Outpost_Desert",
             "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Polar_Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "PolarBear_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
                 "(Value=\"Mammoth_Desert\")": {
                     "SpawnRules": [
                         {
                             "Value": "MammothDesert_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Scorpion_Arctic\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "ScorpionArctic_Population"
                         }
                     ]
                 }
@@ -2213,13 +2104,6 @@
                     "SpawnRules": [
                         {
                             "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
                         }
                     ]
                 }
@@ -2399,13 +2283,6 @@
                     "SpawnRules": [
                         {
                             "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
                         }
                     ]
                 },
@@ -2616,16 +2493,6 @@
         {
             "Name": "Outpost_009",
             "AISpawnRules": {
-                "(Value=\"Bear\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "Away_From_Dropships"
-                        },
-                        {
-                            "Value": "Bear_Population"
-                        }
-                    ]
-                },
                 "(Value=\"Polar_Bear\")": {
                     "SpawnRules": [
                         {
@@ -2640,13 +2507,6 @@
                     "SpawnRules": [
                         {
                             "Value": "MammothArctic_Population"
-                        }
-                    ]
-                },
-                "(Value=\"Mammoth_Desert\")": {
-                    "SpawnRules": [
-                        {
-                            "Value": "MammothDesert_Population"
                         }
                     ]
                 },

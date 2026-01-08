@@ -1088,7 +1088,7 @@
         },
         {
             "Name": "Skin_Hammerhead_Slug",
-            "EventDescription": "INVTEXT(\"[DNT] Skinned Hammerhead Slug\")",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Hammerhead_Slug-EventDescription\", \"Skinned Hammerhead Slug\")",
             "ExperienceGranted": 750
         },
         {
@@ -1217,6 +1217,17 @@
         {
             "Name": "Skin_Spider",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Spider-EventDescription\", \"Skinned Spider\")",
+            "ExperienceGranted": 900
+        },
+        {
+            "Name": "Kill_Geothermal_Spider",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Geothermal_Spider-EventDescription\", \"Killed Sulfuric Spider\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 1800
+        },
+        {
+            "Name": "Skin_Geothermal_Spider",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Geothermal_Spider-EventDescription\", \"Skinned Sulfuric Spider\")",
             "ExperienceGranted": 900
         },
         {
@@ -1508,14 +1519,20 @@
         },
         {
             "Name": "Kill_DragonFly",
-            "EventDescription": "INVTEXT(\"[DNT] Killed DragonFly\")",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_DragonFly-EventDescription\", \"Killed Venomfly\")",
             "SharedExperience": true,
             "ExperienceGranted": 100
         },
         {
             "Name": "Skin_DragonFly",
-            "EventDescription": "INVTEXT(\"[DNT] Skinned DragonFly\")",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_DragonFly-EventDescription\", \"Skinned Venomfly\")",
             "ExperienceGranted": 100
+        },
+        {
+            "Name": "Kill_TundraMonkey",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_TundraMonkey-EventDescription\", \"Killed Gribbler\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 750
         },
         {
             "Name": "Skin_TundraMonkey",
@@ -1523,10 +1540,10 @@
             "ExperienceGranted": 350
         },
         {
-            "Name": "Kill_TundraMonkey",
-            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_TundraMonkey-EventDescription\", \"Killed Gribbler\")",
+            "Name": "Kill_Irradiated_Prospector",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Irradiated_Prospector-EventDescription\", \"Killed Spectre\")",
             "SharedExperience": true,
-            "ExperienceGranted": 750
+            "ExperienceGranted": 2250
         }
     ]
 }

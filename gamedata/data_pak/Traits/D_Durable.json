@@ -1684,6 +1684,10 @@
             "Destroyed_At_Zero": true
         },
         {
+            "Name": "Landing_Pad",
+            "Max_Durability": 100000000
+        },
+        {
             "Name": "Shotgun_T4",
             "Max_Durability": 15000,
             "ItemsForRepair": [

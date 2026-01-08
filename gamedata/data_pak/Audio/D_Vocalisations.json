@@ -4032,6 +4032,69 @@
             "Setting": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "SlinkerFlee",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Slinker/SFX_CRE_VOCAL_SLINKER_FLEE.SFX_CRE_VOCAL_SLINKER_FLEE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "MammothMountIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Mammoth/SFX_CRE_VOC_MAMMOTH_IDLE_MOUNT.SFX_CRE_VOC_MAMMOTH_IDLE_MOUNT",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "MammothMountAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Mammoth/SFX_CRE_VOCAL_MAMMOTH_ATTACK_MOUNT.SFX_CRE_VOCAL_MAMMOTH_ATTACK_MOUNT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "MammothJuviFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Elephant/SFX_CRE_VOCAL_MAMMOTH_JUVI_FLINCH.SFX_CRE_VOCAL_MAMMOTH_JUVI_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "MammothJuviDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Elephant/SFX_CRE_VOCAL_MAMMOTH_JUVI_DEATH.SFX_CRE_VOCAL_MAMMOTH_JUVI_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "MammothJuviIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Elephant/SFX_CRE_VOC_MAMMOTH_JUVI_IDLE.SFX_CRE_VOC_MAMMOTH_JUVI_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "DroneCarrierDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH_CARRIER.SFX_DRONE_DEATH_CARRIER",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "DroneCarrierIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_IDLE_CARRIER.SFX_DRONE_IDLE_CARRIER",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "DroneHunterIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_IDLE_HUNTER.SFX_DRONE_IDLE_HUNTER",
+            "Setting": {
+                "RowName": "Persistent"
+            }
         }
     ]
 }

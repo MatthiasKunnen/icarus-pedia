@@ -8,5 +8,30 @@
             "DataTableName": "D_TagQueries"
         }
     },
-    "Rows": []
+    "Rows": [
+        {
+            "Name": "Any_Raw_Fish",
+            "TagName": "NSLOCTEXT(\"D_CraftingTags\", \"Any_Raw_Fish-TagName\", \"Raw Fish\")",
+            "TagIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Raw_Fish.ITEM_Raw_Fish",
+            "Query": {
+                "RowName": "Any_Fish"
+            }
+        },
+        {
+            "Name": "Any_Saltwater_Fish",
+            "TagName": "NSLOCTEXT(\"D_CraftingTags\", \"Any_Saltwater_Fish-TagName\", \"Saltwater Fish\")",
+            "TagIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Query/T_QUERY_Fish_Salt.T_QUERY_Fish_Salt",
+            "Query": {
+                "RowName": "Any_Saltwater_Fish"
+            }
+        },
+        {
+            "Name": "Any_Freshwater_Fish",
+            "TagName": "NSLOCTEXT(\"D_CraftingTags\", \"Any_Freshwater_Fish-TagName\", \"Freshwater Fish\")",
+            "TagIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Query/T_QUERY_Fish_Fresh.T_QUERY_Fish_Fresh",
+            "Query": {
+                "RowName": "Any_Freshwater_Fish"
+            }
+        }
+    ]
 }

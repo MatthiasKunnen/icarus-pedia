@@ -1414,7 +1414,7 @@
         },
         {
             "Name": "Item_Cooked_Fish",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Fish-DisplayName\", \"Cooked Fish\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Fish-DisplayName\", \"Steamed Fish\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/ITEM_Cooked_Fish.ITEM_Cooked_Fish",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cooked_Fish-Description\", \"Nourishing, high in protein.\")",
             "Weight": 50,
@@ -7187,24 +7187,24 @@
             "Name": "Item_Extractor_Biofuel",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Biofuel-DisplayName\", \"Biofuel Extractor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Kit_Extractor.ITEM_Kit_Extractor",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Biofuel-Description\", \"A portable, powered mining unit powered by biofuel for extracting exotics deposits.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Biofuel-FlavorText\", \"I mean, it works.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Biofuel-Description\", \"A portable mining unit powered by Biofuel, used to extract resources from Exotics deposits.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Biofuel-FlavorText\", \"Warning: Exotics extraction is known to aggravate nearby wildlife\")",
             "Weight": 2000
         },
         {
             "Name": "Item_Extractor_Electric",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Electric-DisplayName\", \"Electric Extractor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Extractor_Electric.ITEM_Extractor_Electric",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Electric-Description\", \"A portable, powered mining unit powered by electricity for extracting exotics deposits.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Electric-FlavorText\", \"For all your exotic mining needs.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Electric-Description\", \"A portable mining unit powered by Electricity, used to extract resources from Exotics deposits.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Electric-FlavorText\", \"Warning: Exotics extraction is known to aggravate nearby wildlife\")",
             "Weight": 2000
         },
         {
             "Name": "Item_Extractor_Meta",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Meta-DisplayName\", \"IC-001 Extractor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Extractor_Meta.ITEM_Extractor_Meta",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Meta-Description\", \"Requires the IC-001 Power Source to Run\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Meta-FlavorText\", \"Prime First Cohort Extraction Technology\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Meta-Description\", \"A portable mining unit powered by the IC-001 Power Source, used to extract resources from Exotics deposits.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Extractor_Meta-FlavorText\", \"Warning: Exotics extraction is known to aggravate nearby wildlife\")",
             "Weight": 2000
         },
         {
@@ -13246,7 +13246,7 @@
         },
         {
             "Name": "Item_Explorers_Backpack",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Explorers_Backpack-DisplayName\", \"Lunar Backpack\")",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Explorers_Backpack-DisplayName\", \"Explorer Backpack\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Explorers_Backpack.T_ITEM_Explorers_Backpack",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Explorers_Backpack-Description\", \"A handy backpack to help you on your travels.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Explorers_Backpack-FlavorText\", \"Just think of the possibilities...\")",
@@ -13954,13 +13954,6 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Arctic_Scorpion_Trophy-Description\", \"A mounted Arctic Scorpion head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Arctic_Scorpion_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 2000
-        },
-        {
-            "Name": "Item_DevTest_BuildingPieces",
-            "DisplayName": "INVTEXT(\"[DNT] Building Pieces Testing\")",
-            "Description": "INVTEXT(\"[DNT] New building pieces for testing\")",
-            "Weight": 1,
-            "MaxStack": 2000
         },
         {
             "Name": "Item_Larkwell_Armor_Black_Head",
@@ -15933,7 +15926,6 @@
         {
             "Name": "Item_Advanced_Exotic_Delivery_Interface",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Exotic_Delivery_Interface-DisplayName\", \"Advanced Orbital Exchange Interface\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Landing_Pad_Cargo.T_ITEM_Landing_Pad_Cargo",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Exotic_Delivery_Interface-Description\", \"An Orbital Exchange that is able to direct the exchange pods to an exact location.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Advanced_Exotic_Delivery_Interface-FlavorText\", \"Progress\")",
             "Weight": 25000
@@ -16430,8 +16422,8 @@
             "Name": "Item_Carcass_Ghost_Crocodile",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Ghost_Crocodile-DisplayName\", \"Trapjaw Carcass\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Ghost_Crocodile.T_ITEM_AnimalCarcass_Ghost_Crocodile",
-            "Description": "INVTEXT(\"[DNT] Ghost Crocodile Carcass\")",
-            "FlavorText": "INVTEXT(\"[DNT] Ghost Crocodile Carcass\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Ghost_Crocodile-Description\", \"Carcass of a large snapping creature.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Ghost_Crocodile-FlavorText\", \"Better off dead.\")",
             "Weight": 5000
         },
         {
@@ -17295,7 +17287,7 @@
             "Name": "Item_Electric_Oxite_Dissolver",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Oxite_Dissolver-DisplayName\", \"Electrolytic Oxygen Synthesizer\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Metal_Oxite_Dissolver.T_ITEM_Metal_Oxite_Dissolver",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Oxite_Dissolver-Description\", \"Through a process of Electrolysis oxygen is extracted from water. \")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Oxite_Dissolver-Description\", \"Through a process of Electrolysis, oxygen is extracted from water. \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Electric_Oxite_Dissolver-FlavorText\", \"Fresh air not polluted by poisonous Icarus gasses.\")",
             "Weight": 8000
         },
@@ -18695,6 +18687,7 @@
         {
             "Name": "Item_Cat_Boss_Whisker",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Whisker-DisplayName\", \"Felixus Whisker\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Cat_Boss_Whiskers.T_ITEM_Cat_Boss_Whiskers",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Whisker-Description\", \"A whisker taken from the body of a great beast.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Whisker-FlavorText\", \"Evidence of a hard-won fight.\")",
             "Weight": 1000,
@@ -18703,6 +18696,7 @@
         {
             "Name": "Item_Cat_Boss_Tail",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Tail-DisplayName\", \"Felixus Tail\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Cat_Boss_Tail.T_ITEM_Cat_Boss_Tail",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Tail-Description\", \"A chunk of tail taken from the body of a great beast.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Tail-FlavorText\", \"Evidence of a hard-won fight.\")",
             "Weight": 1000,
@@ -18742,6 +18736,7 @@
         {
             "Name": "Item_Cat_Boss_Armor_Head",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Head-DisplayName\", \"Felixus Head Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Cat_Boss_Armor_Head.T_ITEM_Cat_Boss_Armor_Head",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Head-Description\", \"Armor crafted from the spoils of victory against a Felixus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Head-FlavorText\", \"Armor that was truly hard-won.\")",
             "Weight": 500
@@ -18749,6 +18744,7 @@
         {
             "Name": "Item_Cat_Boss_Armor_Chest",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Chest-DisplayName\", \"Felixus Chest Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Cat_Boss_Armor_Chest.T_ITEM_Cat_Boss_Armor_Chest",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Chest-Description\", \"Armor crafted from the spoils of victory against a Felixus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Chest-FlavorText\", \"Armor that was truly hard-won.\")",
             "Weight": 500
@@ -18756,6 +18752,7 @@
         {
             "Name": "Item_Cat_Boss_Armor_Legs",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Legs-DisplayName\", \"Felixus Legs Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Cat_Boss_Armor_Legs.T_ITEM_Cat_Boss_Armor_Legs",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Legs-Description\", \"Armor crafted from the spoils of victory against a Felixus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Legs-FlavorText\", \"Armor that was truly hard-won.\")",
             "Weight": 500
@@ -18763,6 +18760,7 @@
         {
             "Name": "Item_Cat_Boss_Armor_Arms",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Arms-DisplayName\", \"Felixus Arms Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Cat_Boss_Armor_Arms.T_ITEM_Cat_Boss_Armor_Arms",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Arms-Description\", \"Armor crafted from the spoils of victory against a Felixus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Arms-FlavorText\", \"Armor that was truly hard-won.\")",
             "Weight": 500
@@ -18770,6 +18768,7 @@
         {
             "Name": "Item_Cat_Boss_Armor_Feet",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Feet-DisplayName\", \"Felixus Feet Armor\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Cat_Boss_Armor_Feet.T_ITEM_Cat_Boss_Armor_Feet",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Feet-Description\", \"Armor crafted from the spoils of victory against a Felixus.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Cat_Boss_Armor_Feet-FlavorText\", \"Armor that was truly hard-won.\")",
             "Weight": 500
@@ -18811,6 +18810,7 @@
         {
             "Name": "Item_Cat_Boss_Tonic",
             "DisplayName": "INVTEXT(\"[DNT] Cat Boss Tonic\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_Cat_Boss_Tonic.T_ITEM_Cat_Boss_Tonic",
             "Weight": 250,
             "MaxStack": 10
         },
@@ -20051,7 +20051,8 @@
         },
         {
             "Name": "Item_Windmill_Blade_Steel",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Windmill_Blade_Steel-DisplayName\", \"Windmill Blade Steel\")",
+            "DisplayName": "INVTEXT(\"[DNT] Windmill Blade Steel\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Windmill.T_ITEM_Windmill",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Windmill_Blade_Steel-Description\", \"Blades that can be fit to a windmill to increase production.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Windmill_Blade_Steel-FlavorText\", \"Spin to win\")",
             "Weight": 15000
@@ -20059,6 +20060,7 @@
         {
             "Name": "Item_Windmill_Blade_Platinum",
             "DisplayName": "INVTEXT(\"[DNT] Windmill Blade Platinum\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Windmill.T_ITEM_Windmill",
             "Description": "INVTEXT(\"[DNT] Blades that can be fit to a windmill to increase production.\")",
             "FlavorText": "INVTEXT(\"[DNT] Spin to win\")",
             "Weight": 15000
@@ -20066,6 +20068,7 @@
         {
             "Name": "Item_Windmill_Blade_Titanium",
             "DisplayName": "INVTEXT(\"[DNT] Windmill Blade Titanium\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Windmill.T_ITEM_Windmill",
             "Description": "INVTEXT(\"[DNT] Blades that can be fit to a windmill to increase production.\")",
             "FlavorText": "INVTEXT(\"[DNT] Spin to win\")",
             "Weight": 15000
@@ -20966,12 +20969,15 @@
         {
             "Name": "Item_Zipline_T3",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Zipline_T3-DisplayName\", \"Zipline\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Interior_Wood_Beam_1.ITEM_Interior_Wood_Beam_1",
             "Weight": 10000,
             "MaxStack": 2
         },
         {
             "Name": "Item_NightVision",
-            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-DisplayName\", \"Night Vision\")"
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_NightVision-DisplayName\", \"Night Vision\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/ITEM_Binoculars.ITEM_Binoculars",
+            "Weight": 500
         },
         {
             "Name": "Item_ResearchCrate",
@@ -22778,31 +22784,41 @@
         {
             "Name": "Item_MinerArmor_Head",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Head-DisplayName\", \"Dusty Miner Head Armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_SandArmor_Head.T_ITEM_SandArmor_Head",
-            "Weight": 1000
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_MinerArmor_Head.T_ITEM_MinerArmor_Head",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Head-Description\", \"Specialised Armor Designed Specifically for Suvival and Resource Retrieval in the Caves of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Head-FlavorText\", \"Lets Go Mining!\")",
+            "Weight": 1500
         },
         {
             "Name": "Item_MinerArmor_Chest",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Chest-DisplayName\", \"Dusty Miner Chest Armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_SandArmor_Chest.T_ITEM_SandArmor_Chest",
-            "Weight": 1000
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_MinerArmor_Chest.T_ITEM_MinerArmor_Chest",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Chest-Description\", \"Specialised Armor Designed Specifically for Suvival and Resource Retrieval in the Caves of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Chest-FlavorText\", \"Lets Go Mining!\")",
+            "Weight": 2000
         },
         {
             "Name": "Item_MinerArmor_Arms",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Arms-DisplayName\", \"Dusty Miner Arms Armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_SandArmor_Arms.T_ITEM_SandArmor_Arms",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_MinerArmor_Arms.T_ITEM_MinerArmor_Arms",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Arms-Description\", \"Specialised Armor Designed Specifically for Suvival and Resource Retrieval in the Caves of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Arms-FlavorText\", \"Lets Go Mining!\")",
             "Weight": 1000
         },
         {
             "Name": "Item_MinerArmor_Legs",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Legs-DisplayName\", \"Dusty Miner Legs Armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_SandArmor_Legs.T_ITEM_SandArmor_Legs",
-            "Weight": 1000
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_MinerArmor_Legs.T_ITEM_MinerArmor_Legs",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Legs-Description\", \"Specialised Armor Designed Specifically for Suvival and Resource Retrieval in the Caves of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Legs-FlavorText\", \"Lets Go Mining!\")",
+            "Weight": 2000
         },
         {
             "Name": "Item_MinerArmor_Feet",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Feet-DisplayName\", \"Dusty Miner Feet Armor\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_SandArmor_Feet.T_ITEM_SandArmor_Feet",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_MinerArmor_Feet.T_ITEM_MinerArmor_Feet",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Feet-Description\", \"Specialised Armor Designed Specifically for Suvival and Resource Retrieval in the Caves of Icarus.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_MinerArmor_Feet-FlavorText\", \"Lets Go Mining!\")",
             "Weight": 1000
         },
         {
@@ -23067,9 +23083,9 @@
             "Name": "Item_Exotic_Uranium_Collector",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Uranium_Collector-DisplayName\", \"Uranium Extraction Unit\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Exotic_Uranium_Collector.T_ITEM_Exotic_Uranium_Collector",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Uranium_Collector-Description\", \"A machine that can safely extract Raw Uranium.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Uranium_Collector-FlavorText\", \"A new machine for new types of Exotics!\")",
-            "Weight": 10000
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Uranium_Collector-Description\", \"A portable mining unit powered by electricity, used to extract resources from Uranium deposits.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Uranium_Collector-FlavorText\", \"Warning: Uranium extraction is known to aggravate nearby wildlife\")",
+            "Weight": 8000
         },
         {
             "Name": "Item_Uranium_Raw",
@@ -23418,6 +23434,7 @@
         {
             "Name": "Item_Clay_Brick_Diagonal_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Set-DisplayName\", \"Clay Brick Diagonal Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Diagonal_Set_0.T_ITEM_ClayBrick_Diagonal_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Set-Description\", \"A set of cross-tile diagonal pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23425,6 +23442,7 @@
         {
             "Name": "Item_Clay_Brick_Curved_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Set-DisplayName\", \"Clay Brick Curved Buildings\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Curved_Set_0.T_ITEM_ClayBrick_Curved_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Set-Description\", \"A set of cross-tile curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23432,6 +23450,7 @@
         {
             "Name": "Item_Clay_Brick_Diagonal_Curved_Wall_Angles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Curved_Wall_Angles-DisplayName\", \"Clay Brick Curved Wall Angles\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Diagonal_Curved_Wall_Angles_0.T_ITEM_ClayBrick_Diagonal_Curved_Wall_Angles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Diagonal_Curved_Wall_Angles-Description\", \"A set of cross-tile curved walls in various angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23439,6 +23458,7 @@
         {
             "Name": "Item_Clay_Brick_Roof_CurvedAngles",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Roof_CurvedAngles-DisplayName\", \"Clay Brick Roof Curved Angle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Roof_CurvedAngles_0.T_ITEM_ClayBrick_Roof_CurvedAngles_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Roof_CurvedAngles-Description\", \"A set of curved roof pieces to place over or under curved wall angles.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23446,6 +23466,7 @@
         {
             "Name": "Item_Clay_Brick_Curved_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Wall-DisplayName\", \"Clay Brick Wall/Roof Curved\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Wall_Curved_0.T_ITEM_ClayBrick_Wall_Curved_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Curved_Wall-Description\", \"Curved versions of the wall angles, for use underneath curved roofs.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23453,6 +23474,7 @@
         {
             "Name": "Item_Clay_Brick_Advanced_Beam_Set",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Advanced_Beam_Set-DisplayName\", \"Clay Brick Advanced Beams\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ClayBrick_Advanced_Beam_Set_0.T_ITEM_ClayBrick_Advanced_Beam_Set_0",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Clay_Brick_Advanced_Beam_Set-Description\", \"An advanced set of beams for use with diagonal and curved pieces.\")",
             "Weight": 5000,
             "MaxStack": 20
@@ -23770,7 +23792,7 @@
             "Name": "Item_Turret_Flamethrower",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-DisplayName\", \"Automated Defense System: Flamethrower\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-Description\", \"A modified turret which fires a stead steam of flame at nearby enemies.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-Description\", \"A modified turret which fires a steady stream of flame at nearby enemies.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-FlavorText\", \"Burn baby burn. \")",
             "Weight": 20000
         },
@@ -23790,6 +23812,7 @@
         {
             "Name": "Item_Mission_TPS_Communication_Tower",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_TPS_Communication_Tower-DisplayName\", \"TPS Communication Tower\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Bunker_Antenna.T_ITEM_Bunker_Antenna",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_TPS_Communication_Tower-Description\", \"Intercepting Communication Signals within the Area\")",
             "Weight": 2000
         },
@@ -24469,184 +24492,214 @@
             "Name": "TPS_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"TPS_note-DisplayName\", \"Discarded TPS Note\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"TPS_note-Description\", \"A crumpled note left behind by a TPS member.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"TPS_note-Description\", \"A crumpled note left behind by a TPS member.\")",
+            "Weight": 100
         },
         {
             "Name": "Letter_to_Sol",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Letter_to_Sol-DisplayName\", \"Letter adressed to Mr Berlinski\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Letter_to_Sol-Description\", \"A letter addressed to your friend, Sol.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Letter_to_Sol-Description\", \"A letter addressed to your friend, Sol.\")",
+            "Weight": 100
         },
         {
             "Name": "Incident_report_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Incident_report_note-DisplayName\", \"Incident Report to Command\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Incident_report_note-Description\", \"A typed up incident report written by Victor.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Incident_report_note-Description\", \"A typed up incident report written by Victor.\")",
+            "Weight": 100
         },
         {
             "Name": "Journal_entry",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Journal_entry-DisplayName\", \"Journal Entry\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Journal_entry-Description\", \"An entry from Iris\\' Journal.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Journal_entry-Description\", \"An entry from Iris\\' Journal.\")",
+            "Weight": 100
         },
         {
             "Name": "G15_Blacklist_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"G15_Blacklist_note-DisplayName\", \"G15 Blacklist\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"G15_Blacklist_note-Description\", \"A list of \\'criminals\\' for Group members to watchout for.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"G15_Blacklist_note-Description\", \"A list of \\'criminals\\' for Group members to watchout for.\")",
+            "Weight": 100
         },
         {
             "Name": "Note_field_readings",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Note_field_readings-DisplayName\", \"Note on Abnormal Field Readings\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Note_field_readings-Description\", \"A somewhat alarming report.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Note_field_readings-Description\", \"A somewhat alarming report.\")",
+            "Weight": 100
         },
         {
             "Name": "Internal_email_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Internal_email_note-DisplayName\", \"Internal Email - Subject: Terminations\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Internal_email_note-Description\", \"An internal email, printed out.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Internal_email_note-Description\", \"An internal email, printed out.\")",
+            "Weight": 100
         },
         {
             "Name": "Performance_review_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Performance_review_note-DisplayName\", \"Performance Review - D. Heller\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Performance_review_note-Description\", \"An unfortunate review.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Performance_review_note-Description\", \"An unfortunate review.\")",
+            "Weight": 100
         },
         {
             "Name": "Scrawled_message_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Scrawled_message_note-DisplayName\", \"Scrawled Message\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Scrawled_message_note-Description\", \"You can only just make out what this says.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Scrawled_message_note-Description\", \"You can only just make out what this says.\")",
+            "Weight": 100
         },
         {
             "Name": "Transcript_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Transcript_note-DisplayName\", \"Audio Log Transcript (Partial)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Transcript_note-Description\", \"A partial transcript of a conversation.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Transcript_note-Description\", \"A partial transcript of a conversation.\")",
+            "Weight": 100
         },
         {
             "Name": "Security_memo_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Security_memo_note-DisplayName\", \"Security Memo - Clearance Level 5\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Security_memo_note-Description\", \"A classified memo.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Security_memo_note-Description\", \"A classified memo.\")",
+            "Weight": 100
         },
         {
             "Name": "Incident_report_g15_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Incident_report_g15_note-DisplayName\", \"Lab Incident Report - 0428A\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Incident_report_g15_note-Description\", \"An unfortunate report.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Incident_report_g15_note-Description\", \"An unfortunate report.\")",
+            "Weight": 100
         },
         {
             "Name": "Transfer_papers_note",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Transfer_papers_note-DisplayName\", \"TRANSFER PAPERS FOR MR C L RIORNON\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Transfer_papers_note-Description\", \"Papers relating to a G15 member.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Transfer_papers_note-Description\", \"Papers relating to a G15 member.\")",
+            "Weight": 100
         },
         {
             "Name": "Mo_area_note_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_1-DisplayName\", \"Dossier on TEI members\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_1-Description\", \"A file on each member of the Eris Inquisition.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_1-Description\", \"A file on each member of the Eris Inquisition.\")",
+            "Weight": 100
         },
         {
             "Name": "Mo_area_note_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_2-DisplayName\", \"Handwritten Letter\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_2-Description\", \"It\\'s addressed to Mo.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_2-Description\", \"It\\'s addressed to Mo.\")",
+            "Weight": 100
         },
         {
             "Name": "Mo_area_note_3",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_3-DisplayName\", \"TPS Propaganda Flyer\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_3-Description\", \"A slightly torn flyer advertising TPS.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mo_area_note_3-Description\", \"A slightly torn flyer advertising TPS.\")",
+            "Weight": 100
         },
         {
             "Name": "Theo_area_note_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Theo_area_note_1-DisplayName\", \"Scrawled Note\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Theo_area_note_1-Description\", \"A smudged sticky note.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Theo_area_note_1-Description\", \"A smudged sticky note.\")",
+            "Weight": 100
         },
         {
             "Name": "Theo_area_note_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Theo_area_note_2-DisplayName\", \"Note To Self\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Theo_area_note_2-Description\", \"Theo\\'s Notes to Himself.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Theo_area_note_2-Description\", \"Theo\\'s Notes to Himself.\")",
+            "Weight": 100
         },
         {
             "Name": "Iris_area_note_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Iris_area_note_1-DisplayName\", \"Postcard From Earth\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Iris_area_note_1-Description\", \"It\\'s addressed to Iris.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Iris_area_note_1-Description\", \"It\\'s addressed to Iris.\")",
+            "Weight": 100
         },
         {
             "Name": "Iris_area_note_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Iris_area_note_2-DisplayName\", \"Travel Journal\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Iris_area_note_2-Description\", \"A journal belonging to Iris.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Iris_area_note_2-Description\", \"A journal belonging to Iris.\")",
+            "Weight": 100
         },
         {
             "Name": "Vic_area_note_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Vic_area_note_1-DisplayName\", \"Coded Message\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Vic_area_note_1-Description\", \"What could this say?\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Vic_area_note_1-Description\", \"What could this say?\")",
+            "Weight": 100
         },
         {
             "Name": "Vic_area_note_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Vic_area_note_2-DisplayName\", \"Personal Journal\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Vic_area_note_2-Description\", \"Victor\\'s Notes to Himself.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Vic_area_note_2-Description\", \"Victor\\'s Notes to Himself.\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY2_note_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY2_note_1-DisplayName\", \"G15 Memo\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY2_note_1-Description\", \"A memo from the Group.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY2_note_1-Description\", \"A memo from the Group.\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY2_note_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY2_note_2-DisplayName\", \"G15 Incident Report\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY2_note_2-Description\", \"A report from the Group.\")"
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY2_note_2-Description\", \"A report from the Group.\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY5_note_1",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_1-DisplayName\", \"Mo\\'s Journal Entry #1\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_1-Description\", \"An excerpt from Mo\\'s journal.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_1-FlavorText\", \"Should you be reading this?\")"
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_1-FlavorText\", \"Should you be reading this?\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY5_note_2",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_2-DisplayName\", \"Mo\\'s Journal Entry #2\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_2-Description\", \"An excerpt from Mo\\'s journal.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_2-FlavorText\", \"Should you be reading this?\")"
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_2-FlavorText\", \"Should you be reading this?\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY5_note_3",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_3-DisplayName\", \"Mo\\'s Journal Entry #3\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_3-Description\", \"An excerpt from Mo\\'s journal.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_3-FlavorText\", \"Should you be reading this?\")"
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_3-FlavorText\", \"Should you be reading this?\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY5_note_4",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_4-DisplayName\", \"Mo\\'s Journal Entry #4\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_4-Description\", \"An excerpt from Mo\\'s journal.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_4-FlavorText\", \"Should you be reading this?\")"
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_4-FlavorText\", \"Should you be reading this?\")",
+            "Weight": 100
         },
         {
             "Name": "Mission_ELY5_note_5",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_5-DisplayName\", \"Mo\\'s Journal Entry #5\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_5-Description\", \"An excerpt from Mo\\'s journal.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_5-FlavorText\", \"Should you be reading this?\")"
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Mission_ELY5_note_5-FlavorText\", \"Should you be reading this?\")",
+            "Weight": 100
         },
         {
             "Name": "Item_EdenStation_OEI",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_EdenStation_OEI-DisplayName\", \"Eden Orbital Exchange Interface\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Landing_Pad_OEI.T_ITEM_Landing_Pad_OEI",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_EdenStation_OEI-Description\", \"Your only option for sending or receiving goods between Icarus and orbit.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_EdenStation_OEI-FlavorText\", \"Thanks, Sinotai!\")",
             "Weight": 10000
@@ -24763,7 +24816,7 @@
             "Name": "Item_Fortification_Concrete_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Wall-DisplayName\", \"Concrete Wall Fortification\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fortification_Concrete_Wall.T_ITEM_Fortification_Concrete_Wall",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Wall-Description\", \"A soild concrete wall fortification.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Wall-Description\", \"A solid concrete wall fortification.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Wall-FlavorText\", \"Protect yourself.\")",
             "Weight": 4000,
             "MaxStack": 20
@@ -24781,7 +24834,7 @@
             "Name": "Item_Fortification_Concrete_Gate",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Gate-DisplayName\", \"Concrete Gate Fortification\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fortification_Concrete_Gate.T_ITEM_Fortification_Concrete_Gate",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Gate-Description\", \"A soild gate which can be used to create a fortificed encampment.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Gate-Description\", \"A solid gate which can be used to create a fortified encampment.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Concrete_Gate-FlavorText\", \"Protect yourself.\")",
             "Weight": 4000,
             "MaxStack": 20
@@ -24808,7 +24861,7 @@
             "Name": "Item_Fortification_Stone_Wall",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Stone_Wall-DisplayName\", \"Stone Wall Fortification\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Fortification_Stone_Wall.T_ITEM_Fortification_Stone_Wall",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Stone_Wall-Description\", \"A soild stone wall fortification.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Stone_Wall-Description\", \"A solid stone wall fortification.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Fortification_Stone_Wall-FlavorText\", \"Stronger than Wood.\")",
             "Weight": 3000,
             "MaxStack": 20
@@ -24932,6 +24985,7 @@
         {
             "Name": "Item_Raptor_Trophy",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Raptor_Trophy-DisplayName\", \"Raptor Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Raptor_Trophy.T_ITEM_Raptor_Trophy",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Raptor_Trophy-Description\", \"A mounted Raptor head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Raptor_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 4000
@@ -24939,6 +24993,7 @@
         {
             "Name": "Item_Raptor_Desert_Trophy",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Raptor_Desert_Trophy-DisplayName\", \"Dune Raptor Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Raptor_Desert_Trophy.T_ITEM_Raptor_Desert_Trophy",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Raptor_Desert_Trophy-Description\", \"A mounted Dune Raptor head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Raptor_Desert_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 4000
@@ -25075,6 +25130,14 @@
             "MaxStack": 5
         },
         {
+            "Name": "Item_SulfurWorm_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_SulfurWorm_Trophy-DisplayName\", \"Sulfur Worm Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_SulfurWorm_Trophy.T_ITEM_SulfurWorm_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_SulfurWorm_Trophy-Description\", \"A mounted Sulfur Worm head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_SulfurWorm_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2000
+        },
+        {
             "Name": "Item_Stomper_Head",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Head-DisplayName\", \"Stomper Vestige\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Stomper_Head.T_ITEM_Stomper_Head",
@@ -25165,14 +25228,25 @@
         {
             "Name": "Item_Tundra_Monkey_Trophy",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Tundra_Monkey_Trophy-DisplayName\", \"Gribbler Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Tundra_Monkey_Trophy.T_ITEM_Tundra_Monkey_Trophy",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Tundra_Monkey_Trophy-Description\", \"A mounted Gribbler head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Tundra_Monkey_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 3500
         },
         {
+            "Name": "Item_Storca_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Storca_Trophy-DisplayName\", \"Storca Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Storca_Trophy.T_ITEM_Storca_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Storca_Trophy-Description\", \"A mounted Storca head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Storca_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 2500
+        },
+        {
             "Name": "Item_CreatureBait_Tundra_Monkey",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_CreatureBait_Tundra_Monkey-DisplayName\", \"Gribbler Bait\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_CreatureBait_TundraMonkey.T_ITEM_CreatureBait_TundraMonkey",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_CreatureBait_Tundra_Monkey-Description\", \"Can be used in a Snare Trap to attract and capture wild Gribblers. Only effective in Tundra biomes.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_CreatureBait_Tundra_Monkey-FlavorText\", \"Monkey Business.\")",
             "Weight": 200,
             "MaxStack": 10
         },
@@ -25190,7 +25264,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Bolt-DisplayName\", \"Lithium Bolt\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ITEM_Lithium_Bolt.T_ITEM_Lithium_Bolt",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Bolt-Description\", \"An electrically charged bolt, carefully crafted using lithium harvested from Icarus.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Bolt-FlavorText\", \"Wear rubber gloves when handelling.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Bolt-FlavorText\", \"Wear rubber gloves when handling.\")",
             "Weight": 15,
             "MaxStack": 100
         },
@@ -25217,7 +25291,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Arrow-DisplayName\", \"Lithium Arrow\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Projectiles/T_ITEM_Lithium_Arrow.T_ITEM_Lithium_Arrow",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Arrow-Description\", \"An electrically charged arrow, carefully crafted using lithium harvested from Icarus.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Arrow-FlavorText\", \"Wear rubber gloves when handelling.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Lithium_Arrow-FlavorText\", \"Wear rubber gloves when handling.\")",
             "Weight": 30,
             "MaxStack": 100
         },
@@ -25276,7 +25350,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Terraforming_Dust-DisplayName\", \"Ionic Dust\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_Terraforming_Dust.T_Terraforming_Dust",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Terraforming_Dust-Description\", \"Remnants of the terraforming process brimming with ions for catalysation. \")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Terraforming_Dust-FlavorText\", \"It is blue, just like the enzymes.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Terraforming_Dust-FlavorText\", \"Such a rich, dangerous blue shade.\")",
             "Weight": 10,
             "MaxStack": 200
         },
@@ -25359,7 +25433,6 @@
         {
             "Name": "Item_Specimen_Small",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Small-DisplayName\", \"Small Specimen Sample\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Specimen_Small.T_ITEM_Prop_Specimen_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Small-Description\", \"A specimen preserved in a small vat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Small-FlavorText\", \"Not sure if you even want to know what\\'s in there.\")",
             "Weight": 500,
@@ -25368,7 +25441,6 @@
         {
             "Name": "Item_Specimen",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen-DisplayName\", \"Specimen Sample\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Specimen_Small.T_ITEM_Prop_Specimen_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen-Description\", \"A specimen preserved in a small vat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen-FlavorText\", \"Not sure if you even want to know what\\'s in there.\")",
             "Weight": 500,
@@ -25377,7 +25449,6 @@
         {
             "Name": "Item_Specimen_Large",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Large-DisplayName\", \"Large Specimen Sample\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Specimen_Large.T_ITEM_Prop_Specimen_Large",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Large-Description\", \"A specimen preserved in a large vat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Large-FlavorText\", \"Not sure if you even want to know what\\'s in there.\")",
             "Weight": 5000,
@@ -25448,6 +25519,7 @@
         {
             "Name": "Item_Prop_UDA_Sign",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign-DisplayName\", \"Group 15 Sign\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_UDA_Sign.T_ITEM_Prop_UDA_Sign",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign-Description\", \"A sign for Group 15 employees to adhere to.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign-FlavorText\", \"You had better be paying attention.\")",
             "Weight": 2000,
@@ -25456,7 +25528,8 @@
         {
             "Name": "Item_Prop_UDA_Sign_Defaced",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign_Defaced-DisplayName\", \"Group 15 Sign (Defaced)\")",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign_Defaced-Description\", \"A largely defaced sign.\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_UDA_Sign.T_ITEM_Prop_UDA_Sign",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign_Defaced-Description\", \"A rudely defaced sign.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_UDA_Sign_Defaced-FlavorText\", \"A classic TPS move.\")",
             "Weight": 2000,
             "MaxStack": 20
@@ -25473,7 +25546,7 @@
             "Name": "Item_Saddle_Carrier",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Carrier-DisplayName\", \"Carrier Saddle\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Saddle_Carrier.T_ITEM_Saddle_Carrier",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Carrier-Description\", \"An exclusive saddle for the Buffalo, Tusker, Terranus and Horse.\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Carrier-Description\", \"An exclusive saddle for the Buffalo, Tusker, Terrenus and Horse.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Carrier-FlavorText\", \"Riding in style.\")",
             "Weight": 1500
         },
@@ -25482,7 +25555,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Head-DisplayName\", \"Stabilization Head Armor \")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Bulky_Armor_Head.T_ITEM_Bulky_Armor_Head",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Head-Description\", \"Uses advanced medical technology to provide chemicals directly into the bloodstream to promote recovery.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Head-FlavorText\", \"At some point you become more man than machine.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Head-FlavorText\", \"At some point you become more machine than man.\")",
             "Weight": 2000
         },
         {
@@ -25490,7 +25563,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Chest-DisplayName\", \"Stabilization Chest Armor \")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Bulky_Armor_Chest.T_ITEM_Bulky_Armor_Chest",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Chest-Description\", \"Uses advanced medical technology to provide chemicals directly into the bloodstream to promote recovery.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Chest-FlavorText\", \"At some point you become more man than machine.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Chest-FlavorText\", \"At some point you become more machine than man.\")",
             "Weight": 2000
         },
         {
@@ -25498,7 +25571,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Arms-DisplayName\", \"Stabilization Arm Armor \")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Bulky_Armor_Arms.T_ITEM_Bulky_Armor_Arms",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Arms-Description\", \"Uses advanced medical technology to provide chemicals directly into the bloodstream to promote recovery.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Arms-FlavorText\", \"At some point you become more man than machine.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Arms-FlavorText\", \"At some point you become more machine than man.\")",
             "Weight": 2000
         },
         {
@@ -25506,7 +25579,7 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Legs-DisplayName\", \"Stabilization Leg Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Bulky_Armor_Legs.T_ITEM_Bulky_Armor_Legs",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Legs-Description\", \"Uses advanced medical technology to provide chemicals directly into the bloodstream to promote recovery.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Legs-FlavorText\", \"At some point you become more man than machine.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Legs-FlavorText\", \"At some point you become more machine than man.\")",
             "Weight": 2000
         },
         {
@@ -25514,14 +25587,23 @@
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Feet-DisplayName\", \"Stabilization Feet Armor\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Bulky_Armor_Feet.T_ITEM_Bulky_Armor_Feet",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Feet-Description\", \"Uses advanced medical technology to provide chemicals directly into the bloodstream to promote recovery.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Feet-FlavorText\", \"At some point you become more man than machine.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bulky_Armor_Feet-FlavorText\", \"At some point you become more machine than man.\")",
             "Weight": 2000
         },
         {
             "Name": "Item_Enzyme_Vat",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat-DisplayName\", \"Enzyme Vat\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Enzyme_Vat.T_ITEM_Prop_Enzyme_Vat",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat-Description\", \"A huge vat filled with terraforming enzymes.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat-FlavorText\", \"Why does the Group have so many of these?\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat-FlavorText\", \"A disturbingly volatile substance.\")",
+            "Weight": 5000,
+            "MaxStack": 10
+        },
+        {
+            "Name": "Item_Enzyme_Vat_Empty",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat_Empty-DisplayName\", \"Enzyme Vat (Empty)\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat_Empty-Description\", \"A huge vat previously filled with terraforming enzymes.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enzyme_Vat_Empty-FlavorText\", \"This is bad. Very bad.\")",
             "Weight": 5000,
             "MaxStack": 10
         },
@@ -25529,8 +25611,8 @@
             "Name": "Item_Prop_Eden_Whiteboard",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Eden_Whiteboard-DisplayName\", \"White Board (Subspecies 1341)\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Bunker_Whiteboard.T_ITEM_Bunker_Whiteboard",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Eden_Whiteboard-Description\", \"Contains a lot of notes related to the evolution of Subspecies 1341.\")",
-            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Eden_Whiteboard-FlavorText\", \"Is that a Striker?\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Eden_Whiteboard-Description\", \"Contains a lot of notes related to the evolution and experimentation on Subspecies 1341.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Eden_Whiteboard-FlavorText\", \"Huh, that kinda looks like a Striker...\")",
             "Weight": 5000
         },
         {
@@ -25584,6 +25666,7 @@
         {
             "Name": "Item_Carcass_WoollyMammoth_Juvenile",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_WoollyMammoth_Juvenile-DisplayName\", \"Juvenile Woolly Mammoth\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_WoollyMammoth_Juvenile.T_ITEM_AnimalCarcass_WoollyMammoth_Juvenile",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_WoollyMammoth_Juvenile-Description\", \"A juvenile Woolly Mammoth which never quite made it to full adulthood.\")",
             "Weight": 7000
         },
@@ -25595,6 +25678,71 @@
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dead_EI_Agent-FlavorText\", \"Another victim of Icarus.\")",
             "Weight": 100,
             "MaxStack": 10
+        },
+        {
+            "Name": "Item_Carcass_Mammoth_Mount",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Carcass_Mammoth_Mount-DisplayName\", \"Woolly Mammoth Carcass\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Mammoth.ITEM_AnimalCarcass_Mammoth",
+            "Description": "INVTEXT(\"[DNT] Woolly Mammoth Mount Carcass\")",
+            "Weight": 10000
+        },
+        {
+            "Name": "Item_Prop_LaserControls",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_LaserControls-DisplayName\", \"Orbital Laser Controls\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_LaserControls.T_ITEM_Prop_LaserControls",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_LaserControls-Description\", \"A control system for the Orbital Laser system. Currently password locked.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_LaserControls-FlavorText\", \"The damage this could do...\")",
+            "Weight": 10000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Saddle_Mammoth_Standard",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Mammoth_Standard-DisplayName\", \"Woolly Mammoth Saddle\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_Saddle_Mammoth_Standard.T_ITEM_Saddle_Mammoth_Standard",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Mammoth_Standard-Description\", \"Place this saddle inside a tamed creature\\'s inventory to allow it to become rideable\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Mammoth_Standard-FlavorText\", \"XL size\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Saddle_Mammoth_Heavy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Mammoth_Heavy-DisplayName\", \"Heavy Woolly Mammoth Saddle\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Mammoth_Heavy-Description\", \"A heavy version of the regular saddle that trades inventory space for the ability to place deployables. Specialized training is required to equip this saddle.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Saddle_Mammoth_Heavy-FlavorText\", \"The possibilities are endless\")",
+            "Weight": 1500
+        },
+        {
+            "Name": "Item_Spider_Silk",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Silk-DisplayName\", \"Spider Silk\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Spider_Silk.T_ITEM_Spider_Silk",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Silk-Description\", \"Strong silk produced by spiders created from their webbing.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Silk-FlavorText\", \"Very strong fibrous substance.\")",
+            "Weight": 10,
+            "MaxStack": 200
+        },
+        {
+            "Name": "Item_Spider_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Head-DisplayName\", \"Spider Vestige\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Carcasses/T_ITEM_Spider_Head.T_ITEM_Spider_Head",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Head-Description\", \"A preserved memory of a many legged creature.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 1000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Spider_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Trophy-DisplayName\", \"Spider Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Spider_Trophy.T_ITEM_Spider_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Trophy-Description\", \"A mounted Spider.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Spider_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Reaver_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Reaver_Trophy-DisplayName\", \"Reaver Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Reaver_Trophy.T_ITEM_Reaver_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Reaver_Trophy-Description\", \"A mounted Reaver head.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Reaver_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
         }
     ]
 }
