@@ -29,4 +29,3 @@ See [gamedata/README.md](./gamedata/README.md).
   - yeast
 
   Maybe because we need to show items that are used in craftable recipes. 
-- [x] Either fix .avif being larger than .webp or remove it
