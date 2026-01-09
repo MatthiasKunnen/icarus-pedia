@@ -1,7 +1,9 @@
 <script lang="ts">
-    export let size: 'auto' | 64 | 128;
+    let {size}: {
+        size: 'auto' | 64 | 128;
+    } = $props();
 
-    $: imgSize = typeof size !== 'number' ? '' : `_${size}x${size}`
+    let imgSize = $derived(typeof size !== 'number' ? '' : `_${size}x${size}`)
 </script>
 
 <div class="logo">

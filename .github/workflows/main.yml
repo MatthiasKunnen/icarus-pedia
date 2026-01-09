@@ -33,11 +33,11 @@ jobs:
         run: |
           yarn install --immutable
       -
-        name: Lint
-        run: yarn run lint
+        name: Svelte check
+        run: yarn run check
       -
         name: Build website
         run: yarn run build
       -
-        name: Svelte check
-        run: yarn run check
+        name: Lint
+        run: yarn run lint

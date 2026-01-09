@@ -3,7 +3,7 @@
     import Recipe from '$lib/Recipe.svelte';
     import Seconds from '$lib/Seconds.svelte';
 
-    export let data;
+    let {data} = $props();
 </script>
 
 <svelte:head>
@@ -15,7 +15,7 @@
 <div class="icon">
     <GameIcon
         icon={data.icon}
-        alt="{data.displayName}"
+        alt={data.displayName}
         size="128"
         showCaption={false}></GameIcon>
 </div>

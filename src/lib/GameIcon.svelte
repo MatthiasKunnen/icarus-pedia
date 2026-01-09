@@ -1,10 +1,17 @@
 <script lang="ts">
-export let counter: number = 0;
-export let icon: string;
-export let alt: string;
-export let size: '64' | '128';
-
-export let showCaption: boolean = true;
+    let {
+        counter = 0,
+        icon,
+        alt,
+        size,
+        showCaption = true,
+    }: {
+        counter?: number;
+        icon: string;
+        alt: string;
+        size: '64' | '128';
+        showCaption?: boolean;
+    } = $props();
 </script>
 
 <figure>

@@ -1,7 +1,7 @@
 <script lang="ts">
     import GameIcon from '$lib/GameIcon.svelte'
 
-    export let data;
+    let {data} = $props();
 
 </script>
 
@@ -20,7 +20,7 @@
         <a href="/Items/Item/{name}">
             <GameIcon
                 icon={item.icon}
-                alt="{item.displayName}"
+                alt={item.displayName}
                 size="64"
                 showCaption={false}></GameIcon>
             <h2>{item.displayName}</h2>

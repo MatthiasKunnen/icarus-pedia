@@ -1,7 +1,7 @@
 <script lang="ts">
     import GameIcon from '$lib/GameIcon.svelte';
 
-    export let data;
+    let {data} = $props();
 </script>
 <svelte:head>
     <title>Crafters | IcarusPedia</title>
@@ -14,7 +14,7 @@
         <a href="/Items/Item/{name}" data-name={name}>
             <GameIcon
                 icon={crafter.icon}
-                alt="{crafter.displayName}"
+                alt={crafter.displayName}
                 size="64"
                 showCaption={false}></GameIcon>
             <h2>{crafter.displayName}</h2>

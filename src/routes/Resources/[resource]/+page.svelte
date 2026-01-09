@@ -2,7 +2,7 @@
     import GameIcon from '$lib/GameIcon.svelte';
     import Recipe from '$lib/Recipe.svelte';
 
-    export let data;
+    let {data} = $props();
 </script>
 
 <svelte:head>
@@ -13,7 +13,7 @@
 <div class="icon">
     <GameIcon
         icon={data.icon}
-        alt="{data.displayName}"
+        alt={data.displayName}
         size="128"
         showCaption={false}></GameIcon>
 </div>

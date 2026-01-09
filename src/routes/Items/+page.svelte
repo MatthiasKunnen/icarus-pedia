@@ -1,11 +1,11 @@
 <script lang="ts">
     import GameIcon from '$lib/GameIcon.svelte'
 
-    export let data;
+    let {data} = $props();
 
-    let searchTerm = ''
+    let searchTerm = $state('')
 
-    $: filteredItems = (() => {
+    let filteredItems = $derived((() => {
         if (searchTerm === '') {
             return data.items
         }
@@ -23,7 +23,7 @@
             result.push(data.items[match.index]!)
         }
         return result
-    })();
+    })());
 </script>
 <svelte:head>
     <title>Crafting Items | IcarusPedia</title>
@@ -47,7 +47,7 @@
         <a href="/Items/Item/{name}">
             <GameIcon
                 icon={item.icon}
-                alt="{item.displayName}"
+                alt={item.displayName}
                 size="64"
                 showCaption={false}></GameIcon>
             <h2>{item.displayName}</h2>

@@ -1,5 +1,7 @@
 <script lang="ts">
-    export let seconds: number;
+    let {seconds}: {
+        seconds: number;
+    } = $props();
 
     function secondsToHuman(seconds: number): string {
         const hours = Math.floor(seconds / 3600);
@@ -29,8 +31,8 @@
         return formattedTimeParts.join(' ');
     }
 
-    $: time = secondsToHuman(seconds);
-    $: showSeconds = seconds > 60;
+    let time = $derived(secondsToHuman(seconds));
+    let showSeconds = $derived(seconds > 60);
 </script>
 
 {time}

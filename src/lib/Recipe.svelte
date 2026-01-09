@@ -2,7 +2,9 @@
     import type {FullRecipe} from '$lib/recipe.interface';
     import RecipeItems from '$lib/RecipeItems.svelte';
 
-    export let recipe: FullRecipe;
+    let {recipe}: {
+        recipe: FullRecipe;
+    } = $props();
 </script>
 
 <div class="recipe">

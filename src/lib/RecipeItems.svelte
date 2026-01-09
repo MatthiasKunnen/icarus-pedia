@@ -2,7 +2,9 @@
     import GameIcon from '$lib/GameIcon.svelte';
     import type {FullItemCount} from '$lib/recipe.interface';
 
-    export let items: Iterable<FullItemCount>;
+    let {items}: {
+        items: Iterable<FullItemCount>;
+    } = $props();
 </script>
 
 {#each items as item, i}

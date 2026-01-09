@@ -2,15 +2,24 @@
     import {afterNavigate} from '$app/navigation';
     import Logo from '$lib/Logo.svelte';
     import type {Snapshot} from '@sveltejs/kit';
+    import type {Snippet} from 'svelte';
 
     import './normalize.css';
     import './global.css';
 
-    let rootContent: HTMLElement;
-    let mobileNavOpen = false;
+    let {children}: {
+        children?: Snippet;
+    } = $props();
+
+    let rootContent = $state<HTMLElement>();
+    let mobileNavOpen = $state(false);
     let lastScrollRestoreTime = 0;
 
     afterNavigate(() => {
+        if (rootContent === undefined) {
+            return;
+        }
+
         mobileNavOpen = false;
         if (Date.now() - lastScrollRestoreTime > 500) {
             // Only scroll to top if no restore has been performed. This prevents content from
@@ -23,9 +32,12 @@
 
     export const snapshot: Snapshot<number> = {
         capture: () => {
-            return rootContent.scrollTop;
+            return rootContent?.scrollTop ?? 0;
         },
         restore: (value) => {
+            if (rootContent === undefined) {
+                return;
+            }
             // Executed before afterNavigate, see https://github.com/sveltejs/kit/issues/10823
             lastScrollRestoreTime = Date.now()
             rootContent.scrollTop = value
@@ -50,7 +62,8 @@
         </nav>
         <button
             class="nav-toggle"
-            on:click={() => mobileNavOpen = !mobileNavOpen}
+            onclick={() => mobileNavOpen = !mobileNavOpen}
+            aria-label="Open navigation"
         >
             <svg class="text-icon" viewBox="0 -960 960 960">
                 <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
@@ -68,12 +81,12 @@
         </nav>
     </header>
     <div class="root-content" bind:this={rootContent}>
-        <slot></slot>
+        {@render children?.()}
     </div>
     <div
         class="mobile-nav-overlay"
         aria-hidden="true"
-        on:click={() => mobileNavOpen = false}></div>
+        onclick={() => mobileNavOpen = false}></div>
 </div>
 
 
