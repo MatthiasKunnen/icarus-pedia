@@ -1,5 +1,6 @@
 html {
-    background-color: #191919;
+    --background-color: #191919;
+    background-color: var(--background-color);
     color: white;
     font-family: sans-serif;
 }
@@ -55,4 +56,12 @@ ul.list {
     display: block;
     height: 1em;
     width: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }

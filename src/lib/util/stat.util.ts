@@ -2,14 +2,16 @@ import type {Stat} from '$lib/data.interface';
 
 export function formatStat(
     statName: string,
-    statValue: number,
-    stats: Record<string, Stat>,
+    statValue: number | string,
+    stat: Stat | undefined,
 ): string {
-    const stat = stats[statName];
-
     if (stat === undefined) {
         console.error(`Could not find stat with name ${statName}`);
-        return `${statName} ${statValue}`;
+        return `${statName}: ${statValue}`;
+    }
+
+    if (typeof statValue === 'string') {
+        return stat.positiveFormat.replace('{0}', statValue);
     }
 
     const format = statValue < 0 && stat.negativeFormat !== undefined
