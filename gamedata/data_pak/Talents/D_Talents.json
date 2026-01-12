@@ -30457,6 +30457,31 @@
             "RequiredLevel": 20
         },
         {
+            "Name": "Workshop_Backpack_Explorers",
+            "ExtraData": {
+                "RowName": "Meta_Explorers_Backpack",
+                "DataTableName": "D_WorkshopItems"
+            },
+            "TalentTree": {
+                "RowName": "Workshop_Backpacks"
+            },
+            "Position": {
+                "X": 3600,
+                "Y": 1150
+            },
+            "Size": {
+                "X": 250,
+                "Y": 250
+            },
+            "RequiredTalents": [
+                {
+                    "RowName": "Workshop_Backpack_Farmers",
+                    "DataTableName": "D_Talents"
+                }
+            ],
+            "DrawMethodOverride": "YThenX"
+        },
+        {
             "Name": "Workshop_Backpack_Chef",
             "ExtraData": {
                 "RowName": "Meta_Chefs_Backpack",
@@ -31004,30 +31029,6 @@
                     "RowName": "GreatHunts"
                 }
             }
-        },
-        {
-            "Name": "Workshop_Backpack_Reroute",
-            "TalentType": "Reroute",
-            "TalentTree": {
-                "RowName": "Workshop_Backpacks"
-            },
-            "Position": {
-                "X": 3350,
-                "Y": 800
-            },
-            "Size": {
-                "X": 0,
-                "Y": 0
-            },
-            "Rewards": [],
-            "RequiredTalents": [
-                {
-                    "RowName": "Workshop_Backpack_Chef",
-                    "DataTableName": "D_Talents"
-                }
-            ],
-            "bDefaultUnlocked": true,
-            "DrawMethodOverride": "XThenY"
         },
         {
             "Name": "Black_Wolf_Shield",

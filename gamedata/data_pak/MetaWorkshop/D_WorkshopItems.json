@@ -5970,7 +5970,7 @@
                         "RowName": "Exotic1",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 250
+                    "Amount": 500
                 }
             ],
             "ReplicationCost": [
@@ -5979,7 +5979,7 @@
                         "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 250
+                    "Amount": 100
                 },
                 {
                     "Meta": {

@@ -13471,6 +13471,25 @@
             "ingredientIn": [],
             "usable": false
         },
+        "Explorers_Backpack": {
+            "displayName": "Explorer Backpack",
+            "icon": "Items/Item_Icons/UseableItems/T_ITEM_Explorers_Backpack",
+            "description": "A handy backpack to help you on your travels.",
+            "flavorText": "Just think of the possibilities...",
+            "recipes": [],
+            "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 100,
+                    "Exotic1": 250
+                },
+                "researchCost": {
+                    "Credits": 250,
+                    "Exotic1": 500
+                }
+            },
+            "usable": false
+        },
         "Exposed_Ceiling_Light": {
             "displayName": "Exposed Ceiling Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light",

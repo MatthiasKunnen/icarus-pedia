@@ -8,6 +8,7 @@ The gamedata and textures are extracted from the game files.
 See [gamedata/README.md](./gamedata/README.md).
 
 ## TODO
+- [ ] Why are workshop backpacks usable false?
 - [ ] Add tag based crafting support, introduced in week 213, 2026-01-01
 - [ ] Add groups; ammo, attachments
 - [ ] Add more content and buttons to items on landingspage

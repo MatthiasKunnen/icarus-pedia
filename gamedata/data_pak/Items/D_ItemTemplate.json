@@ -11315,6 +11315,12 @@
             }
         },
         {
+            "Name": "Explorers_Backpack",
+            "ItemStaticData": {
+                "RowName": "Explorers_Backpack"
+            }
+        },
+        {
             "Name": "Medic_Backpack",
             "ItemStaticData": {
                 "RowName": "Medic_Backpack"

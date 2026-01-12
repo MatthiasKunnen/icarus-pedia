@@ -224,7 +224,7 @@ Recipe Homestead_Picnic_Table excluded: Recipe Homestead_Picnic_Table has non-ex
 Recipe Homestead_Barbed_Wire_Fence excluded: Recipe Homestead_Barbed_Wire_Fence has non-existent requirement Homestead_Decorations
 Recipe Homestead_Lamp_Ground excluded: Recipe Homestead_Lamp_Ground has non-existent requirement Homestead_Decorations
 Recipe Homestead_Lamp_Wall excluded: Recipe Homestead_Lamp_Wall has non-existent requirement Homestead_Decorations
-Of the non-excluded items, 1680 are usable in crafting, the following 698 are not:
+Of the non-excluded items, 1680 are usable in crafting, the following 699 are not:
 - Kit_Concrete_Furnace
 - Kit_Electric_Furnace
 - Kit_Radar
@@ -658,6 +658,7 @@ Of the non-excluded items, 1680 are usable in crafting, the following 698 are no
 - Farmers_Backpack
 - Medic_Backpack
 - Chefs_Backpack
+- Explorers_Backpack
 - Tech_Backpack
 - Hunters_Backpack
 - Larkwell_Armor_Black_Head

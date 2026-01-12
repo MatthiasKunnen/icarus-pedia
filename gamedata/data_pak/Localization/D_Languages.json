@@ -23,12 +23,12 @@
         {
             "Name": "pt-BR",
             "bEnabled": true,
-            "Coverage": 96
+            "Coverage": 97
         },
         {
             "Name": "de-DE",
             "bEnabled": true,
-            "Coverage": 97
+            "Coverage": 99
         },
         {
             "Name": "ru-RU",
