@@ -1,13 +1,17 @@
-html {
+:root {
+    --accent-color: #388edb;
     --background-color: #191919;
+    --border-radius: 4px;
     background-color: var(--background-color);
     color: white;
+}
+
+html {
     font-family: sans-serif;
 }
 
 body {
     height: 100%;
-    --accent-color: #388edb;
     scrollbar-color: var(--accent-color) transparent;
 }
 
@@ -33,6 +37,26 @@ h3 {
 a.link {
     text-decoration: underline;
 }
+
+button.outline, a.outline {
+    padding: 0.25em 1em;
+    border: 1px solid var(--accent-color);
+}
+
+button.outline,
+a.outline,
+.focus {
+    border-radius: var(--border-radius);
+}
+
+button.outline:hover,
+button.outline:focus,
+a.outline:hover,
+a.outline:focus,
+.focus:hover,
+.focus:focus {
+    background-color: rgb(255 255 255 / 10%);
+}   
 
 ul {
     list-style: none;

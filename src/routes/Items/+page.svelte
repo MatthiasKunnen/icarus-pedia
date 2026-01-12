@@ -70,7 +70,7 @@
     search input {
         font-size: 1.3em;
         width: min(100%, 600px);
-        border-radius: 0.2em;
+        border-radius: var(--border-radius);
     }
 
     .items {

@@ -51,6 +51,7 @@
             <Logo size={64}></Logo>
         </a>
         <nav class="nav-desktop">
+            <a href="/Food">Food</a>
             <a href="/Items">Items</a>
             <a href="/Crafters">Crafters</a>
             <a href="https://github.com/MatthiasKunnen/icarus-pedia">
@@ -70,6 +71,7 @@
             </svg>
         </button>
         <nav class="nav-mobile">
+            <a href="/Food">Food</a>
             <a href="/Items">Items</a>
             <a href="/Crafters">Crafters</a>
             <a href="https://github.com/MatthiasKunnen/icarus-pedia">
@@ -157,7 +159,7 @@
     }
 
     .nav-desktop a {
-        border-radius: 4px;
+        border-radius: var(--border-radius);
     }
 
     header nav a {
@@ -176,7 +178,7 @@
 
     .nav-toggle {
         padding: 0.2em 0.2em;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         font-size: 2em;
         display: none;
     }
