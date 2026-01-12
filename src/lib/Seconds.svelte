@@ -1,5 +1,9 @@
 <script lang="ts">
-    let {seconds}: {
+    let {
+        format = 'short',
+        seconds,
+    }: {
+        format?: 'short' | 'long',
         seconds: number;
     } = $props();
 
@@ -10,19 +14,25 @@
 
         const formattedTimeParts: string[] = [];
 
-        if (hours > 1) {
+        if (format === 'short' && hours > 0) {
+            formattedTimeParts.push(`${hours}h`);
+        } else if (hours > 1) {
             formattedTimeParts.push(`${hours} hours`);
         } else if (hours === 1) {
             formattedTimeParts.push(`1 hour`);
         }
 
-        if (minutes > 1) {
+        if (format === 'short' && minutes > 0) {
+            formattedTimeParts.push(`${minutes}m`);
+        } else if (minutes > 1) {
             formattedTimeParts.push(`${minutes} minutes`);
         } else if (minutes === 1) {
             formattedTimeParts.push(`1 minute`);
         }
 
-        if (remainingSeconds > 1) {
+        if (format === 'short' && remainingSeconds > 0) {
+            formattedTimeParts.push(`${remainingSeconds}s`);
+        } else if (remainingSeconds > 1) {
             formattedTimeParts.push(`${remainingSeconds} seconds`);
         } else if (remainingSeconds === 1) {
             formattedTimeParts.push(`1 second`);
@@ -36,4 +46,4 @@
 </script>
 
 {time}
-{#if showSeconds}({seconds} seconds){/if}
+{#if showSeconds && format === 'long'}({seconds} seconds){/if}
