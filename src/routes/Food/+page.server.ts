@@ -20,14 +20,14 @@ export const load = async () => {
     for (const [statId, stat] of Object.entries(data.stats)) {
         food.find(([,item]) => {
             if (item.stats?.[statId] !== undefined) {
-                return true
+                return true;
             }
             if (item.modifier?.stats?.[statId] !== undefined) {
-                return true
+                return true;
             }
 
-            return false
-        })
+            return false;
+        });
         stats.set(statId, stat);
     }
 

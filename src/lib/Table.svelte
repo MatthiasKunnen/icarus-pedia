@@ -1,29 +1,6 @@
 <script lang="ts">
-    import type {TableColumn, TableRow} from './Table.interface';
-
-    export type TableValue = string | number | undefined;
-
-    export interface TableColumn<Row = any> {
-        align?: 'center' | 'right';
-        headerDisplay: string;
-        id: string;
-        render: Snippet<[Row, columnId: string]>;
-        /**
-         * Columns with reorder set to true will be ordered so that the columns with most values
-         * are placed first. If set to false, this column will not be reordered.
-         */
-        reorder?: boolean;
-        sort?: 'asc' | 'desc';
-        /**
-         * @default true
-         */
-        sortEnabled?: boolean;
-    }
-
-    export interface TableRow {
-        id: TableValue;
-        [key: string]: TableValue
-    }
+    import type {TableColumn, TableRow} from './table.interface';
+    import {toHtmlId} from '$lib/util/id.util';
 
     let {
         columns,
@@ -38,6 +15,8 @@
         firstColumnSticky?: boolean,
         id: string,
     } = $props()
+
+
 </script>
 
 <div class="table-wrapper">
@@ -48,8 +27,8 @@
         <tr>
             {#each displayedColumnIds as columnId (columnId)}
                 {@const column = columns.get(columnId)!}
-                {@const htmlId = columnId.replaceAll(/[^a-zA-Z0-9\-_]/g, '_')}
-                <th data-column-id={column.id}>
+                {@const htmlId = toHtmlId(columnId)}
+                <th data-column-id={columnId}>
                     <button
                         class="focus"
                         commandfor="{htmlId}-dialog"
@@ -57,45 +36,10 @@
                         title="Open filter/sort options"
                         aria-label="Open filter/sort options"
                     >
-                        {column.headerDisplay}{#if column.hasOptions}
+                        {column.headerDisplay}{#if column.renderOptions !== undefined}
                         ▼
                         {/if}
                     </button>
-                    <dialog id="{htmlId}-dialog" class="filter-dialog" closedby="any">
-                        <div class="top-actions">
-                            <button class="outline">Sort ascending 🡱</button>
-                            <button class="outline">Sort descending 🡳</button>
-                        </div>
-                        <form class="inputs">
-                            <!--{#if column.filterType === 'CheckboxWithFilter'}
-                                <label for="{htmlId}-search">Contains</label>
-                                <input id="{htmlId}-search" type="search">
-                            {/if}
-                            {#if column.filterType === 'CheckboxWithFilter'
-                                || column.filterType === 'CheckboxNoFilter'}
-                                {#each column.uniqueValues as value}
-                                    <label>
-                                        <input type="checkbox" checked>
-                                        {value ?? '<empty>'}
-                                    </label>
-                                {/each}
-                            {:else if column.filterType === 'Filter'}
-                                <label for="{htmlId}-search">Contains</label>
-                                <input id="{htmlId}-search" type="search">
-                            {:else if column.filterType === 'Range'}
-                                <div class="input-grid">
-                                    <label for="{htmlId}-from">From</label>
-                                    <input id="{htmlId}-from" type="number" placeholder="10">
-                                    <label for="{htmlId}-to">To</label>
-                                    <input id="{htmlId}-to" type="number" placeholder="50">
-                                </div>
-                            {/if}-->
-                            <div class="bottom-actions">
-                                <button type="submit" formmethod="dialog" class="outline">Close</button>
-                                <button type="reset" formmethod="dialog" class="outline">Clear</button>
-                            </div>
-                        </form>
-                    </dialog>
                 </th>
             {/each}
         </tr>
@@ -109,13 +53,54 @@
                         'text-center': column.align === 'center',
                         'text-right': column.align === 'right',
                     }}>
-                        {@render column.render(row, column.id)}
+                        {@render column.render(row, columnId)}
                     </td>
                 {/each}
             </tr>
         {/each}
         </tbody>
     </table>
+
+    {#each displayedColumnIds as columnId (columnId)}
+        {@const column = columns.get(columnId)!}
+        {@const htmlId = toHtmlId(columnId)}
+        <dialog id="{htmlId}-dialog" class="filter-dialog" closedby="any">
+            {@render column.renderOptions?.(columnId)}
+            <div class="top-actions">
+                <button class="outline">Sort ascending 🡱</button>
+                <button class="outline">Sort descending 🡳</button>
+            </div>
+            <form class="inputs">
+                <!--{#if column.filterType === 'CheckboxWithFilter'}
+                    <label for="{htmlId}-search">Contains</label>
+                    <input id="{htmlId}-search" type="search">
+                {/if}
+                {#if column.filterType === 'CheckboxWithFilter'
+                    || column.filterType === 'CheckboxNoFilter'}
+                    {#each column.uniqueValues as value}
+                        <label>
+                            <input type="checkbox" checked>
+                            {value ?? '<empty>'}
+                        </label>
+                    {/each}
+                {:else if column.filterType === 'Filter'}
+                    <label for="{htmlId}-search">Contains</label>
+                    <input id="{htmlId}-search" type="search">
+                {:else if column.filterType === 'Range'}
+                    <div class="input-grid">
+                        <label for="{htmlId}-from">From</label>
+                        <input id="{htmlId}-from" type="number" placeholder="10">
+                        <label for="{htmlId}-to">To</label>
+                        <input id="{htmlId}-to" type="number" placeholder="50">
+                    </div>
+                {/if}-->
+                <div class="bottom-actions">
+                    <button type="submit" formmethod="dialog" class="outline">Close</button>
+                    <button type="reset" formmethod="dialog" class="outline">Clear</button>
+                </div>
+            </form>
+        </dialog>
+    {/each}
 </div>
 
 <style lang="scss">
@@ -178,9 +163,9 @@
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
         max-height: 90vh;
-        background-color: inherit;
         color: inherit;
         padding: 1em;
+        background-color: var(--background-color);
         border: 1px solid white;
         border-radius: var(--border-radius);
         margin: 0;

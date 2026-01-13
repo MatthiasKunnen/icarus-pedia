@@ -1,7 +1,8 @@
 <script lang="ts">
     import Seconds from '$lib/Seconds.svelte';
-    import type {TableColumn, TableRow} from '$lib/Table.svelte';
+    import type {TableColumn, TableRow} from '$lib/table.interface.js';
     import Table from '$lib/Table.svelte';
+    import {toHtmlId} from '$lib/util/id.util';
 
     let {data} = $props();
 
@@ -28,11 +29,12 @@
         return {
             align: 'center',
             headerDisplay: display,
-            id: statId,
             render: stringVal,
-            reorder: true,
+            renderOptions: statFilter,
         }
     }
+
+    let filter = $state({})
 
     let rows = $derived.by(() => {
         return data.items.map(([itemId, item]) => {
@@ -125,13 +127,25 @@
 {#snippet nameRender(val: TableRow, columnId: string)}
     <a class="name-link" href="/Items/Item/{val.id}">{val[columnId]}</a>
 {/snippet}
+
 {#snippet stringVal(val: TableRow, columnId: string)}
     {val[columnId]}
 {/snippet}
+
 {#snippet duration(val: TableRow, columnId: string)}
     {#if typeof val[columnId] === 'number'}
         <Seconds seconds={val[columnId]} format="short"></Seconds>
     {/if}
+{/snippet}
+
+{#snippet statFilter(columnId: string)}
+    {@const htmlId = toHtmlId(columnId)}
+    <div class="input-grid">
+        <label for="{htmlId}-from">From</label>
+        <input bind:value={filter[columnId].from} id="{htmlId}-from" type="number" placeholder="10">
+        <label for="{htmlId}-to">To</label>
+        <input id="{htmlId}-to" type="number" placeholder="50">
+    </div>
 {/snippet}
 
 <style>
