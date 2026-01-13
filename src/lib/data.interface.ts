@@ -13,6 +13,7 @@ export interface Item {
     usable: boolean | undefined;
     icon: string;
     description: string | undefined;
+    durability: number | undefined;
     flavorText: string | undefined;
     type: ItemType | undefined;
     recipes: Array<string>;

@@ -31,6 +31,7 @@ const logWriter = new LogWriter(path.join(dirname, 'summarized-data.log'));
 (async () => {
     const gameData = summarizeData({
         consumables: await readDataTable('Traits/D_Consumable.json'),
+        durable: await readDataTable('Traits/D_Durable.json'),
         itemTemplates: await readDataTable('Items/D_ItemTemplate.json'),
         itemables: await readDataTable('Traits/D_Itemable.json'),
         itemsStatic: await readDataTable('Items/D_ItemsStatic.json'),

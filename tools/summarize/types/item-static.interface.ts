@@ -1,4 +1,4 @@
-import type {Ref, Tags} from './common.interface.js';
+import type {Ref, RefWithDataTable, Tags} from './common.interface.js';
 import type {ItemStats} from '../../../src/lib/data.interface.js';
 import type {DataTable} from '../util/datatable.js';
 
@@ -9,6 +9,7 @@ export interface ItemStaticRow {
     Actionable?: Ref;
     Consumable?: Ref;
     Decayable?: Ref;
+    Durable?: RefWithDataTable;
     Floatable?: Ref;
     Focusable?: Ref;
     Highlightable?: Ref;

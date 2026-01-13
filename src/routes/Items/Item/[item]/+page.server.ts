@@ -26,6 +26,7 @@ export const load = async ({params}) => {
         crafts: crafter?.recipes.map(r => getRecipe(r, data)) ?? [],
         description: item.description,
         displayName: item.displayName,
+        durability: item.durability,
         flavorText: item.flavorText,
         icon: item.icon,
         ingredientIn: item.ingredientIn.map(r => {

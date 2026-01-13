@@ -18,6 +18,7 @@ import type {
 } from '../../../src/lib/data.interface.js';
 import type {RefWithDataTable} from '../types/common.interface.js';
 import type {ConsumableDataTable} from '../types/consumable.interface.js';
+import type {DurableDataTable, DurableRow} from '../types/durable.interface.js';
 import type {ItemStaticDataTable} from '../types/item-static.interface.js';
 import type {ItemTemplateDataTable} from '../types/item-templates.interface.js';
 import type {ItemableDataTable} from '../types/itemable.interface.js';
@@ -39,6 +40,7 @@ export interface SummarizeInput {
     itemsStatic: ItemStaticDataTable;
     itemTemplates: ItemTemplateDataTable;
     consumables: ConsumableDataTable;
+    durable: DurableDataTable;
     modifiers: ModifierStateDataTable;
     statsFile: StatsDataTable;
     itemables: ItemableDataTable;
@@ -52,6 +54,7 @@ export interface SummarizeInput {
 
 export function summarizeData(
     {
+        durable,
         itemTemplates,
         itemsStatic,
         log,
@@ -346,10 +349,16 @@ export function summarizeData(
             }
         }
 
+        let durability: DurableRow | undefined;
+        if (item.Durable !== undefined) {
+            durability = durable.get(item.Durable.RowName);
+        }
+
         mappedItems[item.Name] = {
             displayName: displayName,
             icon: processIcon(itemable.Icon),
             description: description,
+            durability: durability?.Max_Durability,
             flavorText: flavorText,
             type: type,
             recipes: [],

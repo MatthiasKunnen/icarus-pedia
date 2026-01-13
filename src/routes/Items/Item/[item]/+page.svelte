@@ -36,6 +36,10 @@
                 <dd>{data.stackSize}</dd>
                 <dt>Full stack weight:</dt>
                 <dd>{data.stackSize * data.weight / 1000} kg</dd>
+                {#if data.durability !== undefined}
+                    <dt>Durability:</dt>
+                    <dd>{data.durability}</dd>
+                {/if}
             </dl>
         </div>
     </div>
