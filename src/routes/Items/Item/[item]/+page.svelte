@@ -25,32 +25,50 @@
     <p class="flavor-text">{data.flavorText}</p>
 {/if}
 
-{#if data.stats.length > 0}
-    <h2 id="stats" class="box-start">Stats</h2>
-    <div class="box">
-        <ul class="list stats">
-            {#each data.stats as stat}
-                <li>{stat}</li>
-            {/each}
-        </ul>
+<div class="stats-wrapper">
+    <div class="statblock">
+        <h2 id="info" class="box-start">Information</h2>
+        <div class="box">
+            <dl class="info-grid">
+                <dt>Weight:</dt>
+                <dd>{data.weight / 1000} kg</dd>
+                <dt>Stack size:</dt>
+                <dd>{data.stackSize}</dd>
+                <dt>Full stack weight:</dt>
+                <dd>{data.stackSize * data.weight / 1000} kg</dd>
+            </dl>
+        </div>
     </div>
-{/if}
-
-{#if data.modifier !== undefined}
-    <h2 id="modifier" class="box-start">Modifier</h2>
-    <div class="box">
-        {#if data.modifier.lifetime}
-            <p>
-                Duration: <Seconds seconds={data.modifier.lifetime}></Seconds>
-            </p>
-        {/if}
-        <ul class="list stats">
-            {#each data.modifier.stats as stat}
-                <li>{stat}</li>
-            {/each}
-        </ul>
-    </div>
-{/if}
+    {#if data.stats.length > 0}
+        <div class="statblock">
+            <h2 id="stats" class="box-start">Stats</h2>
+            <div class="box">
+                <ul class="list stats">
+                    {#each data.stats as stat}
+                        <li>{stat}</li>
+                    {/each}
+                </ul>
+            </div>
+        </div>
+    {/if}
+    {#if data.modifier !== undefined}
+        <div class="statblock">
+            <h2 id="modifier" class="box-start">Modifier</h2>
+            <div class="box">
+                {#if data.modifier.lifetime}
+                    <p>
+                        Duration: <Seconds seconds={data.modifier.lifetime}></Seconds>
+                    </p>
+                {/if}
+                <ul class="list stats">
+                    {#each data.modifier.stats as stat}
+                        <li>{stat}</li>
+                    {/each}
+                </ul>
+            </div>
+        </div>
+    {/if}
+</div>
 
 <h2 id="craft" class="box-start">Craft</h2>
 <div class="recipes">
@@ -96,5 +114,38 @@
 
     h2 {
         margin-bottom: 0;
+    }
+
+    .stats-wrapper {
+        display: flex;
+        gap: 1.5em;
+    }
+
+    .statblock {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+
+    .statblock .box {
+        flex-grow: 1;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5em;
+    }
+
+    .info-grid dt {
+        justify-self: flex-end;
+    }
+
+    @media (max-width: 1199px) {
+        .stats-wrapper {
+            flex-direction: column;
+            gap: 0;
+        }
     }
 </style>

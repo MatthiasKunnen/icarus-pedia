@@ -17,6 +17,7 @@ export interface Item {
     type: ItemType | undefined;
     recipes: Array<string>;
     ingredientIn: Array<string>;
+    stackSize: number;
 
     /**
      * E.g.
@@ -32,6 +33,11 @@ export interface Item {
      */
     modifier: ItemModifier | undefined;
     workshopItem: WorkshopItem | undefined;
+
+    /**
+     * Weight in grams.
+     */
+    weight: number;
 }
 
 export type ItemType =

@@ -355,9 +355,11 @@ export function summarizeData(
             recipes: [],
             ingredientIn: [],
             workshopItem: workshopItem,
+            stackSize: itemable.MaxStack ?? 1,
             stats: Object.keys(itemStats).length > 0 ? itemStats : undefined,
             modifier: modifier ?? undefined,
             usable: undefined,
+            weight: itemable.Weight,
         };
     }
 

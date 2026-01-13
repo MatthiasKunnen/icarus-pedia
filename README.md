@@ -18,8 +18,6 @@ See [gamedata/README.md](./gamedata/README.md).
 - [ ] Add effected by weather from D_Deployable
 - [ ] Maybe make a simple calculator?
 - [ ] Smaller icons and font on mobile
-- [ ] Add max stack
-- [ ] Add weight
 - [ ] Add required tech tree item
 - [ ] Show prospects, exotics min and max, and maybe, the todos,
       example: Tier3_RiverLands_Stockpile_0

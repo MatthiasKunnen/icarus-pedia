@@ -11,6 +11,9 @@ export interface ItemableRow {
     Icon?: string;
     Description: string;
     FlavorText?: string;
+    /**
+     * Weight in grams.
+     */
     Weight: number;
-    MaxStack: number;
+    MaxStack?: number;
 }
