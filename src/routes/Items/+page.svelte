@@ -4,20 +4,22 @@
     let {data} = $props();
 
     let searchTerm = $state('')
+    let craftingOnly = $state(false)
 
     let filteredItems = $derived((() => {
-        if (searchTerm === '') {
-            return data.items
-        }
-
         const matches: Array<{index: number, score: number}> = []
         data.items.forEach((([id, item], index) => {
+            if (craftingOnly && item.isCraftingRelated === false) {
+                return;
+            }
             if (item.displayName.toLowerCase().includes(searchTerm.toLowerCase())) {
                 matches.push({index: index, score: item.displayName.length})
             }
         }));
 
-        matches.sort((a, b) => a.score - b.score)
+        if (searchTerm !== '') {
+            matches.sort((a, b) => a.score - b.score)
+        }
         const result: typeof data.items = []
         for (const match of matches) {
             result.push(data.items[match.index]!)
@@ -26,21 +28,24 @@
     })());
 </script>
 <svelte:head>
-    <title>Crafting Items | IcarusPedia</title>
+    <title>Items | IcarusPedia</title>
 </svelte:head>
 
-<h1>All Crafting Items</h1>
+<h1>All items in Icarus</h1>
 <p>
-    This page contains all items in Icarus that can be crafted or are used as a crafting
-    ingredient.
+    This page contains all items in Icarus.
+    Some items may still be in development and are not yet available in-game.
 </p>
-<p>Other lists of Icarus items:</p>
-<ul class="list">
-    <li><a href="/Items/All" class="link">All items including non-usable experimental items</a></li>
-</ul>
-
+<h2>Filter</h2>
 <search>
-    <input id="search" aria-label="Search" type="search" placeholder="E.g. Epoxy" bind:value={searchTerm}/>
+    <label>
+        <input id="craftingOnly" type="checkbox" bind:checked={craftingOnly}>
+        Craftable items/ingredients only
+    </label>
+    <label>
+        Search by name
+        <input id="search" aria-label="Search" type="search" placeholder="E.g. Epoxy" bind:value={searchTerm}/>
+    </label>
 </search>
 <div class="items">
     {#each filteredItems as [name, item] (name)}
@@ -63,11 +68,10 @@
     search {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin: 2em 0 1em;
+        gap: 1em;
     }
 
-    search input {
+    #search {
         font-size: 1.3em;
         width: min(100%, 600px);
         border-radius: 0.2em;

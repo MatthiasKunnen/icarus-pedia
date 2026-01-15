@@ -5,12 +5,12 @@ export const load = async () => {
 
     return {
         items: Object.entries(data.items)
-            .filter(([_, item]) => item.isCraftingRelated !== false)
             .map(([itemId, item]) => [
                 itemId,
                 {
                     displayName: item.displayName,
                     icon: item.icon,
+                    isCraftingRelated: item.isCraftingRelated,
                 },
             ] as const)
             .sort(([, a], [, b]) => {
