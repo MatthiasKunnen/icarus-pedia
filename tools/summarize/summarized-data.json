@@ -4011,7 +4011,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "AlienFossil_Conch": {
@@ -4332,7 +4332,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Ammo_AssaultRifle_Round_Workshop_Bundle": {
@@ -4351,7 +4351,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Ammo_Casing": {
@@ -4512,7 +4512,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Ammo_Pistol_Round_Workshop_Bundle": {
@@ -4531,7 +4531,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Ammo_Rifle_Round": {
@@ -4642,7 +4642,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Ammo_Rifle_Round_Workshop_Bundle": {
@@ -4661,7 +4661,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Ammo_Shell_Buckshot": {
@@ -4761,7 +4761,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12
         },
         "Ammo_Shell_Workshop_Bundle": {
@@ -4780,7 +4780,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Ammo_Sniper_Round": {
@@ -4791,7 +4791,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 50,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Ammo_Sniper_Round_Explosive": {
@@ -4802,7 +4802,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 50,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Ammo_Sniper_Round_Explosive_Workshop_Bundle": {
@@ -4821,7 +4821,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Ammo_Sniper_Round_Incendiary": {
@@ -4835,7 +4835,7 @@
             "stats": {
                 "BaseFireDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Ammo_Sniper_Round_Incendiary_Workshop_Bundle": {
@@ -4857,7 +4857,7 @@
             "stats": {
                 "BaseFireDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Ammo_Sniper_Round_Workshop_Bundle": {
@@ -4876,7 +4876,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "AnimalCarcass_Alpha_Desert_Wolf": {
@@ -4888,7 +4888,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12000
         },
         "AnimalCarcass_Alpha_Snow_Wolf": {
@@ -4900,7 +4900,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12000
         },
         "AnimalCarcass_Alpha_Wolf": {
@@ -4912,7 +4912,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12000
         },
         "AnimalCarcass_Ape": {
@@ -4924,7 +4924,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Ape_Juvenile": {
@@ -4936,7 +4936,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Ape_Juvenile_Wounded": {
@@ -4948,7 +4948,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Arctic_Moa": {
@@ -4960,7 +4960,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Arctic_Moa_Juvenile": {
@@ -4971,7 +4971,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3500
         },
         "AnimalCarcass_Arctic_Moa_Mount": {
@@ -4983,7 +4983,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_BabyDeer": {
@@ -5020,7 +5020,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_BearCub": {
@@ -5032,7 +5032,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2500
         },
         "AnimalCarcass_Bear_Contaminated": {
@@ -5044,7 +5044,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_BlueBack": {
@@ -5055,7 +5055,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_BlueBack_Lava": {
@@ -5066,7 +5066,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Blueback_Lava_Mount": {
@@ -5077,7 +5077,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Blueback_Mount": {
@@ -5088,7 +5088,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Blueback_Mount_Daisy": {
@@ -5100,7 +5100,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Broodling": {
@@ -5112,7 +5112,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Broodling_WorldSpawn": {
@@ -5124,7 +5124,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Buffalo": {
@@ -5136,7 +5136,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Buffalo_Juvenile": {
@@ -5147,7 +5147,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 4500
         },
         "AnimalCarcass_Buffalo_Mount": {
@@ -5159,7 +5159,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Calf": {
@@ -5170,7 +5170,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 7500
         },
         "AnimalCarcass_Chamois_M": {
@@ -5207,7 +5207,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Conifer_Wolf": {
@@ -5232,7 +5232,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_Cow": {
@@ -5244,7 +5244,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Crocodile": {
@@ -5256,7 +5256,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Deer": {
@@ -5294,7 +5294,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 13000
         },
         "AnimalCarcass_DeerLarge": {
@@ -5306,7 +5306,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 13000
         },
         "AnimalCarcass_Deer_Variant": {
@@ -5331,7 +5331,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_Desert_Wolf": {
@@ -5356,7 +5356,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Hammerhead_Slug_Small": {
@@ -5368,7 +5368,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "AnimalCarcass_Horse": {
@@ -5380,7 +5380,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Horse_Mount": {
@@ -5392,7 +5392,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Ice_Mammoth": {
@@ -5404,7 +5404,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Jaguar": {
@@ -5429,7 +5429,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 15000
         },
         "AnimalCarcass_JuvieHorse": {
@@ -5441,7 +5441,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Kea": {
@@ -5464,7 +5464,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "AnimalCarcass_Komodo": {
@@ -5476,7 +5476,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3500
         },
         "AnimalCarcass_LavaBomber": {
@@ -5485,7 +5485,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Lava_Komodo": {
@@ -5497,7 +5497,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3500
         },
         "AnimalCarcass_Lava_Slug": {
@@ -5509,7 +5509,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "AnimalCarcass_Lion_F": {
@@ -5534,7 +5534,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_MammothDesert": {
@@ -5546,7 +5546,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Mammoth_Icy": {
@@ -5558,7 +5558,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_MiniHippo": {
@@ -5570,7 +5570,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 6000
         },
         "AnimalCarcass_Moa": {
@@ -5582,7 +5582,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Moa_Juvenile": {
@@ -5593,7 +5593,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3500
         },
         "AnimalCarcass_Moa_Mount": {
@@ -5605,7 +5605,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Mount_Horse_Standard": {
@@ -5617,7 +5617,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Needler": {
@@ -5629,7 +5629,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Pack_Wolf": {
@@ -5654,7 +5654,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_PolarBearCub": {
@@ -5666,7 +5666,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_PredatorBird": {
@@ -5751,7 +5751,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_RockGolem_Juvie": {
@@ -5763,7 +5763,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_RockGolem_Juvie_Arctic": {
@@ -5775,7 +5775,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Scorpion": {
@@ -5800,7 +5800,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_Scorpion_Armored": {
@@ -5812,7 +5812,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_Sheep": {
@@ -5824,7 +5824,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_SnowLeopard": {
@@ -5849,7 +5849,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12000
         },
         "AnimalCarcass_Snow_Rabbit": {
@@ -5873,7 +5873,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_Snow_Striker_Mount": {
@@ -5885,7 +5885,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_Snow_Wolf": {
@@ -5910,7 +5910,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "AnimalCarcass_SwampBird": {
@@ -5921,7 +5921,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_SwampBird_Juvenile": {
@@ -5932,7 +5932,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3500
         },
         "AnimalCarcass_SwampBird_Mount": {
@@ -5943,7 +5943,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_SwampQuad_Mount": {
@@ -5955,7 +5955,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Swamp_Quad": {
@@ -5967,7 +5967,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Swamp_Slug": {
@@ -5978,7 +5978,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "AnimalCarcass_Swamp_Slug_Enzyme": {
@@ -5989,7 +5989,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "AnimalCarcass_Tame_Cat_A": {
@@ -6000,7 +6000,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Tame_Dog_A": {
@@ -6012,7 +6012,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Tame_Dog_B": {
@@ -6024,7 +6024,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Tame_Dog_C": {
@@ -6035,7 +6035,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Tame_Dog_D": {
@@ -6046,7 +6046,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "AnimalCarcass_Tusker": {
@@ -6057,7 +6057,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Tusker_Juvenile": {
@@ -6068,7 +6068,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 4500
         },
         "AnimalCarcass_Tusker_Mount": {
@@ -6079,7 +6079,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_WildBoar": {
@@ -6103,7 +6103,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 7000
         },
         "AnimalCarcass_WoollyMammoth_Mount": {
@@ -6113,7 +6113,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Wooly_Zebra": {
@@ -6138,7 +6138,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Wooly_Zebra_Mount": {
@@ -6150,7 +6150,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "AnimalCarcass_Zebra": {
@@ -6175,7 +6175,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Animal_Bed": {
@@ -6479,7 +6479,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Antipoison_Paste": {
@@ -6541,7 +6541,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Anvil_Bench": {
@@ -7267,7 +7267,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Basic_Ceiling_Light": {
@@ -7377,7 +7377,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Basic_Wall_Light": {
@@ -7609,7 +7609,7 @@
                 "BaseSleepModifierDurationSeconds_+": 650,
                 "BaseSleepQuality_%": 110
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Beehive": {
@@ -7823,7 +7823,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Biofuel_Can_Meta": {
@@ -7842,7 +7842,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Biofuel_Lamp": {
@@ -8167,7 +8167,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Blood_Thinning_Paste": {
@@ -9087,7 +9087,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_Antenna": {
@@ -9102,7 +9102,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_Base_Sign": {
@@ -9117,7 +9117,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_Broken_Window": {
@@ -9129,7 +9129,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 5,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_BunkBed": {
@@ -9146,7 +9146,7 @@
                 "BaseSleepModifierDurationSeconds_+": 650,
                 "BaseSleepQuality_%": 110
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Bunker_BunkBed_TopBunk": {
@@ -9162,7 +9162,7 @@
                 "BaseSleepModifierDurationSeconds_+": 650,
                 "BaseSleepQuality_%": 110
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Bunker_ExtinguisherWallMount": {
@@ -9177,7 +9177,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Bunker_Locker": {
@@ -9189,7 +9189,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Bunker_Poster": {
@@ -9204,7 +9204,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_Prop": {
@@ -9219,7 +9219,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_Sign": {
@@ -9234,7 +9234,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_SolarPanel": {
@@ -9249,7 +9249,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Bunker_Whiteboard": {
@@ -9264,7 +9264,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Butchery_Bench": {
@@ -9404,7 +9404,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Carbon_Arrow": {
@@ -9438,7 +9438,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Carbon_Feet": {
@@ -9458,7 +9458,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Carbon_Fiber": {
@@ -9586,7 +9586,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Carbon_Legs": {
@@ -9606,7 +9606,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Carbon_Paste": {
@@ -9770,7 +9770,7 @@
                     "BaseReloadSpeed_+%": 30
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Carved_Bed": {
@@ -10233,7 +10233,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 5,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Cave_Bat_Trophy": {
@@ -10248,7 +10248,7 @@
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "CavewormScale_Arms": {
@@ -10715,7 +10715,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Chemistry_Bench": {
@@ -10922,7 +10922,7 @@
                     "BaseStaminaRegen_+%": 200
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Clay": {
@@ -11285,7 +11285,7 @@
                     "BaseToolStaminaActionCost_+%": -40
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Coconut_Cookie": {
@@ -11625,7 +11625,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Collectable_Clipboard": {
@@ -11640,7 +11640,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Collectable_Laptop": {
@@ -11655,7 +11655,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2500
         },
         "Collectable_Logbook": {
@@ -11670,7 +11670,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Collectable_Note": {
@@ -11685,7 +11685,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Collectable_Note_NoDeploy": {
@@ -11700,7 +11700,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Combat_Knife": {
@@ -13189,7 +13189,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "DEV_Pyromancy_Flame": {
@@ -13199,7 +13199,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Dead_Ape": {
@@ -13214,7 +13214,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Dead_EI_Agent": {
@@ -13229,7 +13229,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Dead_Miner": {
@@ -13244,7 +13244,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Dead_Researcher": {
@@ -13258,7 +13258,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "DebugViking": {
@@ -13280,7 +13280,7 @@
                     "BaseWaterConsumption_+%": -10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Deep_Freeze": {
@@ -13409,7 +13409,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Delivery_Object_Temperature": {
@@ -13423,7 +13423,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "DesertWolf_Head": {
@@ -13610,7 +13610,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Dirt_Ramp": {
@@ -14218,7 +14218,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Dropship_Grenade_T4": {
@@ -14249,7 +14249,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Drying_Rack": {
@@ -14276,7 +14276,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Egg": {
@@ -14623,7 +14623,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "Energy_Bar": {
@@ -14669,7 +14669,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Deluxe": {
@@ -14688,7 +14688,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Inaris_Alpha": {
@@ -14709,7 +14709,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Envirosuit_Larkwell_Alpha": {
@@ -14729,7 +14729,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Larkwell_Bravo": {
@@ -14749,7 +14749,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Sand": {
@@ -14760,7 +14760,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Shengong": {
@@ -14781,7 +14781,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Shengong_2": {
@@ -14802,7 +14802,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Tier2": {
@@ -14821,7 +14821,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Tier3": {
@@ -14840,7 +14840,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Tier4": {
@@ -14859,7 +14859,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Tier5": {
@@ -14878,7 +14878,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Tier6": {
@@ -14897,7 +14897,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Envirosuit_Tier7": {
@@ -14916,7 +14916,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Enzyme_Cannon_Hub": {
@@ -15264,7 +15264,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2500
         },
         "Explorers_Backpack": {
@@ -15286,7 +15286,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Exposed_Ceiling_Light": {
@@ -15398,7 +15398,7 @@
             "stats": {
                 "BaseExtractorDrillSpeed_+%": 33
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Fabricator": {
@@ -15492,7 +15492,7 @@
                 "IsInvolvedInQuest_?": 1,
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "Faction_Mission_DownLaser": {
@@ -15507,7 +15507,7 @@
                 "IsInvolvedInQuest_?": 1,
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Faction_Mission_Drill": {
@@ -15522,7 +15522,7 @@
                 "IsInvolvedInQuest_?": 1,
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Faction_Mission_Laser": {
@@ -15553,7 +15553,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Faction_Mission_WallDrill": {
@@ -15568,7 +15568,7 @@
                 "IsInvolvedInQuest_?": 1,
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Farmers_Backpack": {
@@ -15590,7 +15590,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Farmers_Shotgun": {
@@ -15678,7 +15678,7 @@
                 "BasePlantedCropHarvestedItemSpoilTime_+%": 25,
                 "BasePlantedCropYield_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Fatty_Tbone": {
@@ -16033,7 +16033,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "FieldGuide_Character": {
@@ -16043,7 +16043,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "FieldGuide_Electricity": {
@@ -16053,7 +16053,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "FieldGuide_Milk": {
@@ -16063,7 +16063,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "FieldGuide_Oxygen": {
@@ -16074,7 +16074,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "FieldGuide_PyriticCrust": {
@@ -16085,7 +16085,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 50,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "FieldGuide_Water": {
@@ -16095,7 +16095,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Filletting_Station": {
@@ -16107,7 +16107,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "FireExtinguisher": {
@@ -16234,7 +16234,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_01_Var2": {
             "displayName": "Ember Snapper",
@@ -16244,7 +16244,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_01_Var3": {
             "displayName": "Crimson Snapper",
@@ -16254,7 +16254,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_01_Var4": {
             "displayName": "Emerald Snapper",
@@ -16264,7 +16264,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_02": {
             "displayName": "Sunset Jack",
@@ -16274,7 +16274,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_02_Var2": {
             "displayName": "Banded Jack",
@@ -16284,7 +16284,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_02_Var3": {
             "displayName": "Emerald Jack",
@@ -16294,7 +16294,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_02_Var4": {
             "displayName": "Ember Jack",
@@ -16304,7 +16304,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_03": {
             "displayName": "Oceanic Piranha",
@@ -16314,7 +16314,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_03_Var2": {
             "displayName": "Crimson Piranha",
@@ -16324,7 +16324,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_03_Var3": {
             "displayName": "Crystal Piranha",
@@ -16334,7 +16334,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_03_Var4": {
             "displayName": "Titan Piranha",
@@ -16344,7 +16344,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_04": {
             "displayName": "Coral Ripjaw",
@@ -16354,7 +16354,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_04_Var2": {
             "displayName": "Titan Ripjaw",
@@ -16364,7 +16364,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_04_Var3": {
             "displayName": "Opal Ripjaw",
@@ -16374,7 +16374,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_04_Var4": {
             "displayName": "Sunset Ripjaw",
@@ -16384,7 +16384,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_05": {
             "displayName": "Sea Darter",
@@ -16394,7 +16394,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_05_Var2": {
             "displayName": "Crimson Darter",
@@ -16404,7 +16404,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_05_Var3": {
             "displayName": "Sunset Darter",
@@ -16414,7 +16414,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_05_Var4": {
             "displayName": "Coral Darter",
@@ -16424,7 +16424,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_06": {
             "displayName": "Titan Triggerfish",
@@ -16434,7 +16434,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_06_Var2": {
             "displayName": "Crimson Triggerfish",
@@ -16444,7 +16444,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_06_Var3": {
             "displayName": "Sunset Triggerfish",
@@ -16454,7 +16454,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_06_Var4": {
             "displayName": "Void Triggerfish",
@@ -16464,7 +16464,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_07": {
             "displayName": "Pearl Perch",
@@ -16474,7 +16474,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_07_Var2": {
             "displayName": "Spotted Perch",
@@ -16484,7 +16484,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_07_Var3": {
             "displayName": "Sunset Perch",
@@ -16494,7 +16494,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_07_Var4": {
             "displayName": "Ember Perch",
@@ -16504,7 +16504,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_08": {
             "displayName": "Neon Tetra",
@@ -16514,7 +16514,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_08_Var2": {
             "displayName": "Spotted Tetra",
@@ -16524,7 +16524,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_08_Var3": {
             "displayName": "Sunset Tetra",
@@ -16534,7 +16534,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_08_Var4": {
             "displayName": "Banded Tetra",
@@ -16544,7 +16544,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_09": {
             "displayName": "Sunset Trout",
@@ -16554,7 +16554,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_09_Var2": {
             "displayName": "Opal Trout",
@@ -16564,7 +16564,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_09_Var3": {
             "displayName": "Ember Trout",
@@ -16574,7 +16574,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_09_Var4": {
             "displayName": "Void Trout",
@@ -16584,7 +16584,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_10": {
             "displayName": "Emerald Diano",
@@ -16594,7 +16594,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_10_Var2": {
             "displayName": "Azure Diano",
@@ -16604,7 +16604,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_10_Var3": {
             "displayName": "Coral Diano",
@@ -16614,7 +16614,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_10_Var4": {
             "displayName": "Pearl Diano",
@@ -16624,7 +16624,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_11": {
             "displayName": "Banded Dory",
@@ -16634,7 +16634,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_11_Var2": {
             "displayName": "Neon Dory",
@@ -16644,7 +16644,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_11_Var3": {
             "displayName": "Crimson Dory",
@@ -16654,7 +16654,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_11_Var4": {
             "displayName": "Titan Dory",
@@ -16664,7 +16664,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_12": {
             "displayName": "Crimson Wrasse",
@@ -16674,7 +16674,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_12_Var2": {
             "displayName": "Crystal Wrasse",
@@ -16684,7 +16684,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_12_Var3": {
             "displayName": "Spotted Wrasse",
@@ -16694,7 +16694,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_12_Var4": {
             "displayName": "Ember Wrasse",
@@ -16704,7 +16704,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_13": {
             "displayName": "Emerald Dorado",
@@ -16714,7 +16714,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_13_Var2": {
             "displayName": "Coral Dorado",
@@ -16724,7 +16724,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_13_Var3": {
             "displayName": "Neon Dorado",
@@ -16734,7 +16734,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_13_Var4": {
             "displayName": "Ember Dorado",
@@ -16744,7 +16744,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_14": {
             "displayName": "Black Diamond Discus",
@@ -16754,7 +16754,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_14_Var2": {
             "displayName": "Opal Discus",
@@ -16764,7 +16764,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_14_Var3": {
             "displayName": "Banded Discus",
@@ -16774,7 +16774,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_14_Var4": {
             "displayName": "Crystal Discus",
@@ -16784,7 +16784,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_15": {
             "displayName": "Ghostly Tang",
@@ -16794,7 +16794,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_16": {
             "displayName": "Electric Wraith",
@@ -16804,7 +16804,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_17": {
             "displayName": "Ember Gar",
@@ -16814,7 +16814,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_17_Var2": {
             "displayName": "Spotted Gar",
@@ -16824,7 +16824,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_17_Var3": {
             "displayName": "Banded Gar",
@@ -16834,7 +16834,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_17_Var4": {
             "displayName": "Speckled Gar",
@@ -16844,7 +16844,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_18": {
             "displayName": "Ghostly Puffer",
@@ -16854,7 +16854,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_18_Var2": {
             "displayName": "Neon Puffer",
@@ -16864,7 +16864,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_18_Var3": {
             "displayName": "Cobalt Puffer",
@@ -16874,7 +16874,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_18_Var4": {
             "displayName": "Crystal Puffer",
@@ -16884,7 +16884,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_19": {
             "displayName": "Crimson Springfield",
@@ -16894,7 +16894,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_19_Var2": {
             "displayName": "Striped Springfield",
@@ -16904,7 +16904,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_19_Var3": {
             "displayName": "Sunset Springfield",
@@ -16914,7 +16914,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_19_Var4": {
             "displayName": "Void Springfield",
@@ -16924,7 +16924,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false
+            "isCraftingRelated": false
         },
         "Fish_Chunk_Stew": {
             "displayName": "Fish Chunk Stew",
@@ -17043,7 +17043,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Flame_Thrower": {
@@ -17107,7 +17107,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_Coffee": {
@@ -17116,7 +17116,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_CoffeeCream": {
@@ -17125,7 +17125,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_Gorse": {
@@ -17134,7 +17134,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_GreenTea": {
@@ -17143,7 +17143,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_Honey": {
@@ -17152,7 +17152,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_Ice": {
@@ -17161,7 +17161,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_PurificationPill": {
@@ -17170,7 +17170,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_Smoothie": {
@@ -17179,7 +17179,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_Water": {
@@ -17188,7 +17188,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "FlavoredDrinkIcon_XigoPuri": {
@@ -17197,7 +17197,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Flint_Arrow": {
@@ -17342,7 +17342,7 @@
                     "BaseWeightCapacity_+": 100
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Food_Animal_Feed_Corn": {
@@ -17388,7 +17388,7 @@
                     "BaseStaminaRegen_+%": 25
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Food_Animal_Feed_Mushroom": {
@@ -17480,7 +17480,7 @@
                     "BaseMovementSpeed_+%": 25
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Food_Animal_Feed_Squash": {
@@ -17633,7 +17633,7 @@
                     "BaseStaminaRegen_+%": 15
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Food_Fish_Dish": {
@@ -17657,7 +17657,7 @@
                     "BaseStaminaRegen_+%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Food_Flatbread": {
@@ -18501,7 +18501,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Frozen_Ore": {
@@ -19426,7 +19426,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 12,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Glass_Bottle_Wine": {
@@ -19436,7 +19436,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 12,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Glass_Door": {
@@ -20890,7 +20890,7 @@
                     "BaseParasiticModifierDuration_+%": -25
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Honeycomb": {
@@ -21093,7 +21093,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Hyena_Statue_Bronze": {
@@ -21224,7 +21224,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 25,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "IceMammoth_Head": {
@@ -21412,7 +21412,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Icebox_Backpack": {
@@ -22259,7 +22259,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 40000
         },
         "Kit_Electric_Furnace": {
@@ -22270,7 +22270,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50000
         },
         "Kit_Floor_Torch": {
@@ -22365,7 +22365,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Kit_Skinning_Bench": {
@@ -22759,7 +22759,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Land_Shark_Head": {
@@ -22802,7 +22802,7 @@
                 "BaseAttacksCauseBurn_%": 100,
                 "BaseFireDamage_+": 200
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Landmine_Enemy": {
@@ -22817,7 +22817,7 @@
                 "BaseAttacksCauseSlow_%": 100,
                 "BaseExplosiveDamage_+": 500
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Landmine_Freeze": {
@@ -22832,7 +22832,7 @@
                 "BaseAttacksCauseFreeze_%": 100,
                 "BaseFrostDamage_+": 250
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Landmine_Poison": {
@@ -22847,7 +22847,7 @@
                 "BaseAttacksCausePoison_%": 100,
                 "BasePoisonDamage_+": 200
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Landmine_Shock": {
@@ -22862,7 +22862,7 @@
                 "BaseAttacksCauseElectroshock_%": 100,
                 "BaseElectricDamage_+": 250
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Landshark_Trophy": {
@@ -22929,7 +22929,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Alpha_Chest": {
@@ -22951,7 +22951,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Alpha_Feet": {
@@ -22973,7 +22973,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Alpha_Head": {
@@ -22995,7 +22995,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Alpha_Legs": {
@@ -23017,7 +23017,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Black_Arms": {
@@ -23039,7 +23039,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Black_Chest": {
@@ -23061,7 +23061,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Black_Feet": {
@@ -23083,7 +23083,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Black_Head": {
@@ -23105,7 +23105,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Larkwell_Armor_Black_Legs": {
@@ -23127,7 +23127,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Lava_Broodling_Head": {
@@ -23694,7 +23694,7 @@
                 "ApeClubSlamAttack_?": 1,
                 "IceSledgeHammerSweep_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12000
         },
         "LegendaryWeapon_Black_Wolf_Revolver": {
@@ -23709,7 +23709,7 @@
             "stats": {
                 "BaseCriticalDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2500
         },
         "LegendaryWeapon_Bow": {
@@ -23721,7 +23721,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "LegendaryWeapon_GolemGauntlet": {
@@ -23737,7 +23737,7 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseBiofuelConsumedOnUse_+": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "LegendaryWeapon_IceMammoth_Sledgehammer": {
@@ -23752,7 +23752,7 @@
             "stats": {
                 "IceSledgeHammerStd_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "LegendaryWeapon_IceMammoth_Sledgehammer_Ammo": {
@@ -23766,7 +23766,7 @@
             "stats": {
                 "IceSledgeHammerStd_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "LegendaryWeapon_LavaHunter_FlameThrower": {
@@ -23783,7 +23783,7 @@
                 "BaseFlamethrowerFlameDamageRadius_+": 44,
                 "BaseFlamethrowerFuelUse_+": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "LegendaryWeapon_Sandworm_Crossbow": {
@@ -23800,7 +23800,7 @@
                 "BaseMovementSpeedWhileReloading_+%": -50,
                 "BaseMovementSpeed_+%": -10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 15000
         },
         "LegendaryWeapon_Scorpion_Rifle": {
@@ -23812,7 +23812,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "LegendaryWeapon_SlugLauncher": {
@@ -23829,7 +23829,7 @@
                 "BaseProjectileAOE_+": 500,
                 "BaseProjectileSplashLifespan_+": 20
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2500
         },
         "LegendaryWeapon_Sniper": {
@@ -23841,7 +23841,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Licence": {
@@ -23852,7 +23852,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Light_Worklamp_Directional": {
@@ -24084,7 +24084,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Medic_Cabinet": {
@@ -24096,7 +24096,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Medicine_Bench": {
@@ -24146,7 +24146,7 @@
             "modifier": {
                 "lifetime": 1800
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antibiotic_Vaccine_Beta": {
@@ -24169,7 +24169,7 @@
             "modifier": {
                 "lifetime": 7200
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antibiotic_Vaccine_Charlie": {
@@ -24193,7 +24193,7 @@
             "modifier": {
                 "lifetime": 21600
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antiparasitic_Vaccine_Alpha": {
@@ -24215,7 +24215,7 @@
             "modifier": {
                 "lifetime": 1800
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antiparasitic_Vaccine_Beta": {
@@ -24238,7 +24238,7 @@
             "modifier": {
                 "lifetime": 7200
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antiparasitic_Vaccine_Charlie": {
@@ -24262,7 +24262,7 @@
             "modifier": {
                 "lifetime": 21600
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antipoison_Vaccine_Alpha": {
@@ -24284,7 +24284,7 @@
             "modifier": {
                 "lifetime": 1800
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antipoison_Vaccine_Beta": {
@@ -24307,7 +24307,7 @@
             "modifier": {
                 "lifetime": 7200
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Antipoison_Vaccine_Charlie": {
@@ -24331,7 +24331,7 @@
             "modifier": {
                 "lifetime": 21600
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Arrow_Inaris_Alpha": {
@@ -24342,7 +24342,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Meta_Arrow_Inaris_Bravo": {
@@ -24357,7 +24357,7 @@
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 40
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Meta_Arrow_Inaris_Charlie": {
@@ -24372,7 +24372,7 @@
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 40
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Meta_Arrow_Inaris_Delta": {
@@ -24387,7 +24387,7 @@
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 40
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Meta_Arrow_Inaris_Set_Bravo": {
@@ -24410,7 +24410,7 @@
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 40
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Inaris_Set_Charlie": {
@@ -24433,7 +24433,7 @@
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 40
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Inaris_Set_Delta": {
@@ -24456,7 +24456,7 @@
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 40
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Larkwell_Ballistic": {
@@ -24471,7 +24471,7 @@
                 "BaseExplosiveDamageRadius_+": 500,
                 "BaseExplosiveDamage_+": 300
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Meta_Arrow_Larkwell_Bleed": {
@@ -24485,7 +24485,7 @@
             "stats": {
                 "BaseAttacksCauseBleed_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 30
         },
         "Meta_Arrow_Larkwell_Standard": {
@@ -24496,7 +24496,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 30
         },
         "Meta_Arrow_Larkwell_Tazer": {
@@ -24510,7 +24510,7 @@
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Meta_Arrow_Printed_Alpha": {
@@ -24524,7 +24524,7 @@
             "stats": {
                 "BaseAttacksCausePoison_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 15
         },
         "Meta_Arrow_Printed_Beta": {
@@ -24538,7 +24538,7 @@
             "stats": {
                 "BaseAttacksCauseSlow_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 15
         },
         "Meta_Arrow_Printed_Charlie": {
@@ -24552,7 +24552,7 @@
             "stats": {
                 "BaseAttacksCauseWound_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 15
         },
         "Meta_Arrow_Set_Inaris_Alpha": {
@@ -24571,7 +24571,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Meta_Arrow_Set_Larkwell_Ballistic": {
@@ -24593,7 +24593,7 @@
                 "BaseExplosiveDamageRadius_+": 500,
                 "BaseExplosiveDamage_+": 300
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Set_Larkwell_Bleed": {
@@ -24614,7 +24614,7 @@
             "stats": {
                 "BaseAttacksCauseBleed_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Set_Larkwell_Standard": {
@@ -24632,7 +24632,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Set_Larkwell_Tazer": {
@@ -24653,7 +24653,7 @@
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Set_Printed_Alpha": {
@@ -24675,7 +24675,7 @@
             "stats": {
                 "BaseAttacksCausePoison_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Arrow_Set_Printed_Beta": {
@@ -24697,7 +24697,7 @@
             "stats": {
                 "BaseAttacksCauseSlow_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Arrow_Set_Printed_Charlie": {
@@ -24719,7 +24719,7 @@
             "stats": {
                 "BaseAttacksCauseWound_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Arrow_Set_Shengong": {
@@ -24738,7 +24738,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Arrow_Shengong": {
@@ -24749,7 +24749,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20
         },
         "Meta_Avocado_Seed": {
@@ -24768,7 +24768,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Axe": {
@@ -24780,7 +24780,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Axe_Inaris_Alpha": {
@@ -24803,7 +24803,7 @@
             "stats": {
                 "BaseWoodCarryWeight_+%": -50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Axe_Inaris_Bravo": {
@@ -24830,7 +24830,7 @@
                 "BaseInfectedBarkPerWoodChopped_%": 100,
                 "BasePoisonDamage_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Axe_Inaris_Charlie": {
@@ -24856,7 +24856,7 @@
                 "BaseFrostDamage_+": 50,
                 "BaseFrostedFellChance_%": 30
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Axe_Inaris_Delta": {
@@ -24883,7 +24883,7 @@
                 "BaseFellingScorchConversion_%": 15,
                 "BaseFireDamage_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Axe_Larkwell": {
@@ -24907,7 +24907,7 @@
                 "BaseAxeAttackSpeed_+%": 10,
                 "BaseWoodCarryWeight_+%": -10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Axe_Printed": {
@@ -24927,7 +24927,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Axe_Shengong_Alpha": {
@@ -24952,7 +24952,7 @@
                 "BaseMeleeDamage_+%": 10,
                 "BaseMovementSpeed_+%": -15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Axe_Shengong_Beta": {
@@ -24977,7 +24977,7 @@
                 "BaseFellingDamage_+%": 10,
                 "BaseMeleeDamage_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Axe_Shengong_Charlie": {
@@ -25003,7 +25003,7 @@
                 "BaseAttackSpeed_+%": -10,
                 "BaseFellingDamage_+%": 15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Axe_Shengong_Echo": {
@@ -25027,7 +25027,7 @@
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Backpack_Larkwell_Alpha": {
@@ -25049,7 +25049,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Backpack_Larkwell_Beta": {
@@ -25071,7 +25071,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Banana_Seed": {
@@ -25090,7 +25090,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bandage_Shengong": {
@@ -25112,7 +25112,7 @@
             "modifier": {
                 "lifetime": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bean_Seed": {
@@ -25131,7 +25131,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Berry_Seed": {
@@ -25150,7 +25150,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_AlphaWolf": {
@@ -25179,7 +25179,7 @@
                     "BaseWoundResistance_%": 30
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_Hammerhead": {
@@ -25208,7 +25208,7 @@
                     "BasePyriticCrustPerMinedResource_%": 15
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_IceMammoth": {
@@ -25237,7 +25237,7 @@
                     "BaseHypothermiaResistance_%": 50
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_LavaHunter": {
@@ -25267,7 +25267,7 @@
                     "BaseWaterConsumption_+%": -20
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_RockGolem": {
@@ -25297,7 +25297,7 @@
                     "BaseVoxelChanceToHarvestSecondaryResource_%": 15
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_Sandworm": {
@@ -25326,7 +25326,7 @@
                     "BaseHyperthermiaResistance_%": 50
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_Scorpion": {
@@ -25355,7 +25355,7 @@
                     "BaseMaximumHealth_+%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Biolab_Inhaler_SwampApe": {
@@ -25384,7 +25384,7 @@
                     "BaseInfectedBarkPerWoodChopped_%": 15
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Blood_Thinning_Vaccine_Alpha": {
@@ -25406,7 +25406,7 @@
             "modifier": {
                 "lifetime": 1800
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Blood_Thinning_Vaccine_Beta": {
@@ -25429,7 +25429,7 @@
             "modifier": {
                 "lifetime": 7200
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Blood_Thinning_Vaccine_Charlie": {
@@ -25453,7 +25453,7 @@
             "modifier": {
                 "lifetime": 21600
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Meta_Bolt_Larkwell_Electroshock": {
@@ -25468,7 +25468,7 @@
                 "BaseAttacksCauseElectroshock_%": 25,
                 "BaseElectricDamage_+": 75
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 30
         },
         "Meta_Bolt_Larkwell_Explosive": {
@@ -25483,7 +25483,7 @@
                 "BaseExplosiveDamageRadius_+": 500,
                 "BaseExplosiveDamage_+": 300
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 30
         },
         "Meta_Bolt_Larkwell_Piercing": {
@@ -25499,7 +25499,7 @@
                 "BaseHardenedPointDamage_+%": 25,
                 "BaseHardenedPointPenetration_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 30
         },
         "Meta_Bolt_Larkwell_Standard": {
@@ -25510,7 +25510,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 30
         },
         "Meta_Bolt_Set_Larkwell_Electroshock": {
@@ -25533,7 +25533,7 @@
                 "BaseAttacksCauseElectroshock_%": 25,
                 "BaseElectricDamage_+": 75
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Bolt_Set_Larkwell_Explosive": {
@@ -25556,7 +25556,7 @@
                 "BaseExplosiveDamageRadius_+": 500,
                 "BaseExplosiveDamage_+": 300
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Bolt_Set_Larkwell_Piercing": {
@@ -25580,7 +25580,7 @@
                 "BaseHardenedPointDamage_+%": 25,
                 "BaseHardenedPointPenetration_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Bolt_Set_Larkwell_Standard": {
@@ -25598,7 +25598,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Bow_Larkwell": {
@@ -25620,7 +25620,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Meta_Bow_Shengong_Alpha": {
@@ -25644,7 +25644,7 @@
                 "BaseArrowProjectileSpeed_+%": 15,
                 "BaseBowCriticalDamage_+%": -5
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bow_Shengong_Beta": {
@@ -25668,7 +25668,7 @@
                 "BaseBowChargeSpeed_+%": -15,
                 "BaseMovementSpeed_+%": -15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bow_Shengong_Charlie": {
@@ -25695,7 +25695,7 @@
                 "BaseBowChargeSpeed_+%": -15,
                 "BaseBowProjectileDamage_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bow_Shengong_Delta": {
@@ -25716,7 +25716,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bow_Shengong_Echo": {
@@ -25742,7 +25742,7 @@
                 "BaseFrostDamage_+%": 25,
                 "BasePoisonDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Bramble_Seed": {
@@ -25761,7 +25761,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Campfire_Printed": {
@@ -25784,7 +25784,7 @@
             "stats": {
                 "BaseEnergyTransmutationResourceCost_+%": -25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Meta_Canteen_Shengong": {
@@ -25807,7 +25807,7 @@
                 "BaseUnitsConsumed_+": 200,
                 "BaseWaterRecovery_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Carbon_Arms_Alpha": {
@@ -25829,7 +25829,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Carbon_Arms_Beta": {
@@ -25851,7 +25851,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Carbon_Chest_Alpha": {
@@ -25873,7 +25873,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Carbon_Chest_Beta": {
@@ -25895,7 +25895,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Carbon_Feet_Alpha": {
@@ -25917,7 +25917,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Carbon_Feet_Beta": {
@@ -25939,7 +25939,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Carbon_Head_Alpha": {
@@ -25961,7 +25961,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Carbon_Head_Beta": {
@@ -25983,7 +25983,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Carbon_Legs_Alpha": {
@@ -26005,7 +26005,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Carbon_Legs_Beta": {
@@ -26027,7 +26027,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Carrot_Seed": {
@@ -26046,7 +26046,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Coal": {
@@ -26057,7 +26057,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 600
         },
         "Meta_Coal_Set": {
@@ -26076,7 +26076,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Cocao_Seed": {
@@ -26095,7 +26095,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Coconut_Seed": {
@@ -26114,7 +26114,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Coffee_Seed": {
@@ -26133,7 +26133,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Corn_Seed": {
@@ -26152,7 +26152,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Cot_Printed": {
@@ -26177,7 +26177,7 @@
                 "BaseSleepModifierDurationSeconds_+": 800,
                 "BaseSleepQuality_%": 110
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 7500
         },
         "Meta_Crate_Printed": {
@@ -26197,7 +26197,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Meta_Creature_Scanner": {
@@ -26217,7 +26217,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Crossbow_Inaris_A": {
@@ -26241,7 +26241,7 @@
                 "BaseAttacksCauseSlow_%": 20,
                 "BaseHardenedPointPenetration_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Crossbow_Inaris_B": {
@@ -26269,7 +26269,7 @@
                 "BaseBowProjectileDamage_+%": 15,
                 "BaseHardenedPointPenetration_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Crossbow_Inaris_C": {
@@ -26294,7 +26294,7 @@
                 "BaseAttacksCauseSlow_%": 25,
                 "BaseHardenedPointPenetration_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Crossbow_Inaris_D": {
@@ -26323,7 +26323,7 @@
                 "BaseHardenedPointPenetration_%": 100,
                 "BasePoisonDamage_+%": 35
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Fiber_Seed": {
@@ -26342,7 +26342,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Firewhacker_Printed": {
@@ -26365,7 +26365,7 @@
             "stats": {
                 "BaseToolStaminaActionCost_+%": -20
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Fishfinder": {
@@ -26385,7 +26385,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Furnace_Printed": {
@@ -26408,7 +26408,7 @@
             "stats": {
                 "BaseEnergyTransmutationResourceCost_+%": -25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Meta_GreenTea_Seed": {
@@ -26427,7 +26427,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Hammer_Larkwell": {
@@ -26451,7 +26451,7 @@
                 "BaseActionHoldTime_+%": -30,
                 "BaseExposureResistance_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Hammer_Printed": {
@@ -26475,7 +26475,7 @@
                 "BaseActionHoldTime_+%": -16,
                 "BaseMovementSpeed_+%": -5
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Hammer_Shengong_Alpha": {
@@ -26499,7 +26499,7 @@
                 "BaseActionHoldTime_+%": -22,
                 "BaseMovementSpeed_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Hammer_Shengong_Beta": {
@@ -26523,7 +26523,7 @@
                 "BaseActionHoldTime_+%": -22,
                 "BaseExposureResistance_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Meta_Heated_Canteen_Larkwell": {
@@ -26547,7 +26547,7 @@
                 "BaseWaterRecovery_+": 50,
                 "ConvertCoolWaterToWarmWater_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Kiwi_Fruit_Seed": {
@@ -26566,7 +26566,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Knife": {
@@ -26578,7 +26578,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Knife_Inaris_Alpha": {
@@ -26601,7 +26601,7 @@
             "stats": {
                 "BaseWoundResistance_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Knife_Inaris_Bravo": {
@@ -26628,7 +26628,7 @@
                 "BasePoisonDamage_+": 50,
                 "BaseSkinningRewards_%": -50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Knife_Inaris_Charlie": {
@@ -26654,7 +26654,7 @@
                 "BaseFireDamage_+": 50,
                 "BaseSkinningCookChance_%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Knife_Inaris_Delta": {
@@ -26680,7 +26680,7 @@
                 "BaseChilledAlterationChance_%": 30,
                 "BaseFrostDamage_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Knife_Larkwell": {
@@ -26703,7 +26703,7 @@
             "stats": {
                 "BaseAttackSpeed_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Knife_Printed": {
@@ -26723,7 +26723,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Knife_Shengong_Alpha": {
@@ -26748,7 +26748,7 @@
                 "BaseSkinningSpeed_+%": 15,
                 "BaseToolStaminaActionCost_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Knife_Shengong_Beta": {
@@ -26772,7 +26772,7 @@
                 "BaseItemWear_+%": -10,
                 "BaseToolStaminaActionCost_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Knife_Shengong_Charlie": {
@@ -26796,7 +26796,7 @@
                 "BaseMeleeDamage_+%": 10,
                 "BaseStealthThreatModifier_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Knife_Shengong_Delta": {
@@ -26823,7 +26823,7 @@
                 "BaseSkinningRewards_+%": 15,
                 "BaseSkinningSpeed_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Knife_Shengong_Echo": {
@@ -26847,7 +26847,7 @@
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Kumara_Seed": {
@@ -26866,7 +26866,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Lily_Seed": {
@@ -26885,7 +26885,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Alpha": {
@@ -26906,7 +26906,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Module_Animal_Healthbar": {
@@ -26927,7 +26927,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Animal_Highlighting": {
@@ -26948,7 +26948,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Beta": {
@@ -26969,7 +26969,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Module_Carry_Weight": {
@@ -26990,7 +26990,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Caving": {
@@ -27009,7 +27009,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Consumption": {
@@ -27030,7 +27030,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Extremes": {
@@ -27049,7 +27049,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Fall_Damage": {
@@ -27070,7 +27070,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Fire_Resistance": {
@@ -27091,7 +27091,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Fishing": {
@@ -27110,7 +27110,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Inventory_Slots": {
@@ -27131,7 +27131,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Inventory_Slots_2": {
@@ -27152,7 +27152,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Movement": {
@@ -27171,7 +27171,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_PlayerTracker": {
@@ -27192,7 +27192,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Poison_Resistance": {
@@ -27213,7 +27213,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Taming": {
@@ -27232,7 +27232,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Temperature": {
@@ -27251,7 +27251,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_WorldBoss": {
@@ -27272,7 +27272,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Module_Wounds": {
@@ -27291,7 +27291,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Mushroom_Seed": {
@@ -27310,7 +27310,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Oxygen_Gel": {
@@ -27333,7 +27333,7 @@
             "stats": {
                 "BaseOxygenRecovery_+": 150
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Meta_Oxygen_Tank_Larkwell": {
@@ -27359,7 +27359,7 @@
                     "BaseHealthRegen_+%": 20
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Meta_Oxygen_Tank_Shengong": {
@@ -27378,7 +27378,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Pickaxe": {
@@ -27393,7 +27393,7 @@
             "stats": {
                 "BaseArmorDamageModifier_+%": 500
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Pickaxe_Inaris_Alpha": {
@@ -27418,7 +27418,7 @@
                 "BaseMiningRewards_%": 15,
                 "BaseOverencumberedPenalty_+%": -50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Pickaxe_Inaris_Bravo": {
@@ -27446,7 +27446,7 @@
                 "BasePoisonDamage_+": 50,
                 "BasePyriticCrustPerMinedResource_%": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Pickaxe_Inaris_Charlie": {
@@ -27473,7 +27473,7 @@
                 "BaseFrostDamage_+": 50,
                 "BaseFrozenOrePerMinedResource_%": 20
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Pickaxe_Inaris_Delta": {
@@ -27500,7 +27500,7 @@
                 "BaseFireDamage_+": 50,
                 "BaseMiningSmeltChance_%": 30
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Pickaxe_Larkwell": {
@@ -27525,7 +27525,7 @@
                 "BaseOverencumberedPenalty_+%": -10,
                 "BasePickaxeAttackSpeed_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Pickaxe_Printed": {
@@ -27548,7 +27548,7 @@
             "stats": {
                 "BaseArmorDamageModifier_+%": 500
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Pickaxe_Shengong_Alpha": {
@@ -27572,7 +27572,7 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BasePickaxeItemWear_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Pickaxe_Shengong_Beta": {
@@ -27596,7 +27596,7 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BasePickaxeStaminaActionCost_+%": 15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Pickaxe_Shengong_Charlie": {
@@ -27623,7 +27623,7 @@
                 "BaseMiningCopperRewards_+%": 10,
                 "BaseMiningGoldRewards_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Pickaxe_Shengong_Delta": {
@@ -27649,7 +27649,7 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseMiningMetalRewards_+%": 10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Pickaxe_Shengong_Echo": {
@@ -27674,7 +27674,7 @@
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Potato_Seed": {
@@ -27693,7 +27693,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Power_Source": {
@@ -27712,7 +27712,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Pumpkin_Seed": {
@@ -27731,7 +27731,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Ration": {
@@ -27765,7 +27765,7 @@
                     "BaseWaterConsumption_+%": -10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Meta_Reed_Seed": {
@@ -27784,7 +27784,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Repair_Item": {
@@ -27795,7 +27795,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Repair_Item_Pack": {
@@ -27814,7 +27814,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Meta_Resource_Pack_Aluminium": {
@@ -27833,7 +27833,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Clay": {
@@ -27853,7 +27853,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Copper": {
@@ -27872,7 +27872,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Dirt": {
@@ -27891,7 +27891,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Gold": {
@@ -27910,7 +27910,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Iron": {
@@ -27929,7 +27929,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Obsidian": {
@@ -27949,7 +27949,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Oxite": {
@@ -27968,7 +27968,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Platinum": {
@@ -27987,7 +27987,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Scoria": {
@@ -28007,7 +28007,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Silica": {
@@ -28026,7 +28026,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Stone": {
@@ -28045,7 +28045,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Sulfur": {
@@ -28064,7 +28064,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Synthetic_Enzymes": {
@@ -28083,7 +28083,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Titanium": {
@@ -28102,7 +28102,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Resource_Pack_Wood": {
@@ -28121,7 +28121,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Meta_Rhubarb_Seed": {
@@ -28140,7 +28140,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Scanner_DeepOre": {
@@ -28159,7 +28159,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Sickle_Inaris_00": {
@@ -28183,7 +28183,7 @@
                 "BaseReapingSeedRewards_+%": 100,
                 "CanHarvestSeeds_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Sickle_Larkwell": {
@@ -28208,7 +28208,7 @@
                 "BaseCriticalDamage_+%": 25,
                 "BaseSickleAttacksCauseWound_%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Sickle_Printed": {
@@ -28228,7 +28228,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Soda": {
@@ -28259,7 +28259,7 @@
                     "BaseWaterConsumption_+%": -10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Meta_Spear_Inaris_Alpha": {
@@ -28283,7 +28283,7 @@
                 "BaseAttacksCauseImmobilise_%": 10,
                 "BaseAttacksCauseSlow_%": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Inaris_Bravo": {
@@ -28309,7 +28309,7 @@
                 "BasePoisonDamage_+": 50,
                 "BaseSpearCriticalDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Inaris_Charlie": {
@@ -28335,7 +28335,7 @@
                 "BaseFrostDamage_+": 50,
                 "BaseSpearCriticalDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Inaris_Delta": {
@@ -28361,7 +28361,7 @@
                 "BaseFireDamage_+": 50,
                 "BaseSpearCriticalDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Larkwell": {
@@ -28385,7 +28385,7 @@
                 "BaseSpearAttackSpeed_+%": 10,
                 "BaseSpearStaminaActionCost_+%": -15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Meta_Spear_Printed": {
@@ -28408,7 +28408,7 @@
             "stats": {
                 "BaseSpearCriticalDamage_+%": 15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Shengong_Alpha": {
@@ -28433,7 +28433,7 @@
                 "BaseMovementSpeed_+%": 10,
                 "BaseSpearCriticalDamage_+%": 20
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Shengong_Beta": {
@@ -28458,7 +28458,7 @@
                 "BaseSpearCriticalDamage_+%": 20,
                 "BaseToolStaminaActionCost_+%": 20
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Shengong_Charlie": {
@@ -28484,7 +28484,7 @@
                 "BaseSpearAttackSpeed_+%": 15,
                 "BaseSpearCriticalDamage_+%": 20
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Shengong_Delta": {
@@ -28511,7 +28511,7 @@
                 "BaseSpearCriticalDamage_+%": 20,
                 "BaseSprintingStaminaActionCost_+%": -10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Meta_Spear_Shengong_Echo": {
@@ -28536,7 +28536,7 @@
                 "BaseElectricDamage_+": 50,
                 "BaseSpearCriticalDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Squash_Seed": {
@@ -28555,7 +28555,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Stamina_Gel": {
@@ -28578,7 +28578,7 @@
             "stats": {
                 "BaseStaminaRecovery_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Meta_Strawberry_Seed": {
@@ -28597,7 +28597,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_SugarCane_Seed": {
@@ -28616,7 +28616,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Super_Ration": {
@@ -28650,7 +28650,7 @@
                     "BaseWaterConsumption_+%": -10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Meta_Tomato_Seed": {
@@ -28669,7 +28669,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Watermelon_Seed": {
@@ -28688,7 +28688,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Wheat_Seed": {
@@ -28707,7 +28707,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_WildTea_Seed": {
@@ -28726,7 +28726,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Meta_Yeast_Seed": {
@@ -28745,7 +28745,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Metal_Axe": {
@@ -28988,7 +28988,7 @@
                 "BaseMiningRewards_%": 100,
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Metal_Grate_Building": {
@@ -29003,7 +29003,7 @@
             "stats": {
                 "IsInGracePeriod_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Metal_Knife": {
@@ -29320,7 +29320,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mini_Hippo_Head": {
@@ -29370,7 +29370,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_Aerosol_Emitter": {
@@ -29414,7 +29414,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mission_AudioLog_Prometheus_1": {
@@ -29427,7 +29427,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_AudioLog_Prometheus_2": {
@@ -29440,7 +29440,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_AudioLog_Prometheus_3": {
@@ -29454,7 +29454,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_AudioLog_Prometheus_4": {
@@ -29468,7 +29468,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_Biochip_A": {
@@ -29482,7 +29482,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Mission_Biochip_B": {
@@ -29496,7 +29496,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Mission_Biochip_C": {
@@ -29510,7 +29510,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Mission_Biotag": {
@@ -29524,7 +29524,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Mission_Broken_Prototype_Laser": {
@@ -29597,7 +29597,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Mission_Communication_Blueprint_T2": {
@@ -29611,7 +29611,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Mission_Communication_Device_T2": {
@@ -29623,7 +29623,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Mission_Communication_Device_T3": {
@@ -29708,7 +29708,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_Pellet": {
@@ -29722,7 +29722,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_Precipitated": {
@@ -29736,7 +29736,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_Ruined": {
@@ -29750,7 +29750,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_Sample": {
@@ -29764,7 +29764,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_Scalpel": {
@@ -29778,7 +29778,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_Supernatant": {
@@ -29792,7 +29792,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_DNA_TissueSample": {
@@ -29821,7 +29821,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Mission_Delivery_Crystal": {
@@ -29835,7 +29835,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 400
         },
         "Mission_Device": {
@@ -29862,7 +29862,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Mission_Empty_Enzyme_Container": {
@@ -29892,7 +29892,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mission_Enzyme_Propogation_Unit": {
@@ -29907,7 +29907,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mission_Enzyme_Propogation_Unit_Craftable": {
@@ -29964,7 +29964,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Mission_Explosive": {
@@ -29979,7 +29979,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_Explosive_Crafted": {
@@ -30009,7 +30009,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Mission_Full_Enzyme_Container": {
@@ -30044,7 +30044,7 @@
                 "BasePoisonDamageResistance_%": 1000,
                 "BaseProjectileDamageResistance_%": 1000
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 40000
         },
         "Mission_HighTech_1": {
@@ -30128,7 +30128,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_Knife_Lion": {
@@ -30144,7 +30144,7 @@
                 "BasePrimeMeatDropChance_%": 400,
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mission_Laser_Part_1": {
@@ -30219,7 +30219,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Mission_Medical_Device": {
@@ -30293,7 +30293,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_Power_Source": {
@@ -30307,7 +30307,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Mission_Prototype_Battery": {
@@ -30321,7 +30321,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Mission_Prototype_Laser": {
@@ -30353,7 +30353,7 @@
                 "BaseInventoryCannotSpoil_?": 1,
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mission_Radiator": {
@@ -30394,7 +30394,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 400
         },
         "Mission_STYX_D_Research2_Bomb": {
@@ -30466,7 +30466,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Mission_Seismic_Probe": {
@@ -30478,7 +30478,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mission_Shackles": {
@@ -30492,7 +30492,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Mission_Ship_Cargo": {
@@ -30506,7 +30506,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_Ship_Gyro": {
@@ -30610,7 +30610,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Mission_Sonic_Disrupter": {
@@ -30655,7 +30655,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_IM_Researcher2": {
@@ -30669,7 +30669,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_NPC_4": {
@@ -30683,7 +30683,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_NPC_5": {
@@ -30697,7 +30697,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_RG_NPC1": {
@@ -30711,7 +30711,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_RG_NPC2": {
@@ -30725,7 +30725,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_RG_NPC3": {
@@ -30739,7 +30739,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Stasis_Bag_Full_RG_NPC4": {
@@ -30753,7 +30753,7 @@
             "stats": {
                 "IsInvolvedInQuest_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 75000
         },
         "Mission_Tomato": {
@@ -30764,7 +30764,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 100,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 300
         },
         "Mission_Vesper_Cage": {
@@ -30844,7 +30844,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Molotov": {
@@ -30855,7 +30855,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 5,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Mushroom": {
@@ -31501,7 +31501,7 @@
                     "BaseFoodConsumption_+%": -5
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Health_Buff": {
@@ -31519,7 +31519,7 @@
                     "BaseMaximumHealth_+%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Health_Regen": {
@@ -31537,7 +31537,7 @@
                     "BaseHealthRegen_+%": 100
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Health_Restore": {
@@ -31552,7 +31552,7 @@
             "stats": {
                 "BaseHealthRecovery_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Oxygen_Buff": {
@@ -31570,7 +31570,7 @@
                     "BaseMaximumOxygen_+%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Oxygen_Consumption": {
@@ -31588,7 +31588,7 @@
                     "BaseOxygenConsumption_+%": -5
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Oxygen_Restore": {
@@ -31603,7 +31603,7 @@
             "stats": {
                 "BaseOxygenRecovery_+": 100
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Stamina_Buff": {
@@ -31621,7 +31621,7 @@
                     "BaseMaximumStamina_+%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Stamina_Consumption": {
@@ -31639,7 +31639,7 @@
                     "BaseStaminaActionCost_+%": -5
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Stamina_Regen": {
@@ -31657,7 +31657,7 @@
                     "BaseStaminaRegen_+%": 100
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Stamina_Restore": {
@@ -31672,7 +31672,7 @@
             "stats": {
                 "BaseStaminaRecovery_+": 50
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Paste_Water_Consumption": {
@@ -31690,7 +31690,7 @@
                     "BaseWaterConsumption_+%": -5
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Pastry": {
@@ -31980,7 +31980,7 @@
                 "BaseCriticalDamage_+%": 25,
                 "BaseProjectileDamage_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Pistol_Handgun": {
@@ -32398,7 +32398,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Plough_Platinum": {
@@ -32829,7 +32829,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Prop_Boardgame": {
@@ -32843,7 +32843,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_Book": {
@@ -32857,7 +32857,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Bookstack": {
@@ -32871,7 +32871,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_Burlap_Sack": {
@@ -32885,7 +32885,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_Cards": {
@@ -32899,7 +32899,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Centrifuge": {
@@ -32926,7 +32926,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 30,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_CleaningSupplies": {
@@ -32937,7 +32937,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_Clipboard": {
@@ -32951,7 +32951,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Container": {
@@ -32966,7 +32966,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Corkboard_Large": {
@@ -32980,7 +32980,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Prop_Corkboard_Small": {
@@ -32994,7 +32994,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_Cryogenic_Sample_Storage": {
@@ -33009,7 +33009,7 @@
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Eden_Whiteboard": {
@@ -33024,7 +33024,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Prop_Eye_Wash_Station": {
@@ -33035,7 +33035,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Prop_Flask": {
@@ -33049,7 +33049,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Goggles": {
@@ -33060,7 +33060,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 30,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Industrial_Sign_Diamond": {
@@ -33074,7 +33074,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Industrial_Sign_Square": {
@@ -33088,7 +33088,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Industrial_Sign_Triangle": {
@@ -33102,7 +33102,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Lab_Poster": {
@@ -33116,7 +33116,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Lab_Stand": {
@@ -33131,7 +33131,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Lab_Table": {
@@ -33146,7 +33146,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Labcoats": {
@@ -33157,7 +33157,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Laptop": {
@@ -33171,7 +33171,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Large_Flask": {
@@ -33182,7 +33182,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Magazine": {
@@ -33196,7 +33196,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 200
         },
         "Prop_Medical_Trolly": {
@@ -33207,7 +33207,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 5,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Prop_Microscope": {
@@ -33254,7 +33254,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50000
         },
         "Prop_Mining_Rail": {
@@ -33269,7 +33269,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Prop_Moisture_Analyzer": {
@@ -33296,7 +33296,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Mortar_And_Pestle": {
@@ -33308,7 +33308,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_PaperTowls": {
@@ -33319,7 +33319,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Photo_Frame_Standing": {
@@ -33333,7 +33333,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Pipe1": {
@@ -33344,7 +33344,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Pipe2": {
@@ -33355,7 +33355,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Plastic_Crate": {
@@ -33370,7 +33370,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1500
         },
         "Prop_Poster": {
@@ -33384,7 +33384,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Poster_Fishing": {
@@ -33398,7 +33398,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Prop_Propaganda_Sign": {
@@ -33412,7 +33412,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Saddle_Bag": {
@@ -33426,7 +33426,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Scales": {
@@ -33453,7 +33453,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Skeleton": {
@@ -33464,7 +33464,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Prop_Sled": {
@@ -33479,7 +33479,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "Prop_Soap": {
@@ -33490,7 +33490,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Stirrer": {
@@ -33517,7 +33517,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 10,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Prop_Surgical_Equipment": {
@@ -33546,7 +33546,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Prop_Test_Tube_Rack": {
@@ -33560,7 +33560,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "ProspectorID": {
@@ -33571,7 +33571,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 300
         },
         "Prototype_Boss_Tracker": {
@@ -33583,7 +33583,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Pumpkin": {
@@ -33729,7 +33729,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 50,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 250
         },
         "Pyritic_Crust_Obsidian": {
@@ -33888,7 +33888,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Rabbit_Head": {
@@ -34019,7 +34019,7 @@
                 "BaseRadarPrecision_%": 33,
                 "BaseRadarScanningSpeed_+%": 25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Rain_Reservoir": {
@@ -34422,7 +34422,7 @@
             "stats": {
                 "BaseFoodRecovery_+": 15
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Raw_Iron_Wood": {
@@ -35218,7 +35218,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1000,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "Repair_Bench": {
@@ -35247,7 +35247,7 @@
                 "IsInvolvedInQuest_?": 1,
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 35000
         },
         "ResearchEquipment_Centrifuge": {
@@ -35481,7 +35481,7 @@
                 "BaseCriticalDamage_+%": 25,
                 "BaseProjectileDamage_+%": -10
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Rifle_Hunting": {
@@ -35644,7 +35644,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 50
         },
         "Rock_Golem_Gun": {
@@ -35850,7 +35850,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Rocket_Part_Mid_Mk1": {
@@ -35862,7 +35862,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Rocket_Part_Mid_RespawnPod": {
@@ -35871,7 +35871,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Rocket_Part_Top_Mk1": {
@@ -35883,7 +35883,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Rope": {
@@ -36100,7 +36100,7 @@
             "stats": {
                 "BaseComfortLevel_+": 8
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Rug_Bear": {
@@ -38550,7 +38550,7 @@
                 "BaseCriticalDamage_+%": 25,
                 "BaseProjectileDamage_+%": 60
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3500
         },
         "Shotgun_Casing": {
@@ -39651,7 +39651,7 @@
                     "BaseFallDamageResistance_%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Splint_Workshop_Bundle": {
@@ -39670,7 +39670,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Spoiled_Meat": {
@@ -41403,7 +41403,7 @@
                 "IsInvolvedInQuest_?": 1,
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Survey_Transmitter": {
@@ -41415,7 +41415,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Survival_Backpack": {
@@ -41435,7 +41435,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Sustenence_Enhancement_Tonic": {
@@ -41560,7 +41560,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 12500
         },
         "Target_Dummy": {
@@ -41611,7 +41611,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Teddy_Bear": {
@@ -41626,7 +41626,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Teenage_Caveworm_Head": {
@@ -41891,7 +41891,7 @@
                     "BaseInternalTemperatureModification_+": 1000
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Thermos_Coffee": {
@@ -41913,7 +41913,7 @@
                     "BaseStaminaRegen_+%": 10
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Thermos_GreenTea": {
@@ -41934,7 +41934,7 @@
                     "BaseInternalTemperatureModification_+": 1000
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Thermos_IceWater": {
@@ -41954,7 +41954,7 @@
                     "BaseInternalTemperatureModification_+": -1500
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Thermos_WildTea": {
@@ -41975,7 +41975,7 @@
                     "BaseWaterConsumption_+%": -25
                 }
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Thumper": {
@@ -42313,7 +42313,7 @@
             "stats": {
                 "BaseComfortLevel_+": 2
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Tomato": {
@@ -42631,7 +42631,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1
         },
         "Vapour_Condenser": {
@@ -43187,7 +43187,7 @@
             "stats": {
                 "IsInvulnerable_?": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10
         },
         "WildTea": {
@@ -43564,7 +43564,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Wood_Build_HalfPitch": {
@@ -43576,7 +43576,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Wood_Burner": {
@@ -43826,7 +43826,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Wood_Railing_Gate_Refined_V2": {
@@ -44400,7 +44400,7 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 5,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 100
         },
         "Workshop_Calf": {
@@ -44420,7 +44420,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Workshop_Cat_A1": {
@@ -44440,7 +44440,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Workshop_Cat_A2": {
@@ -44460,7 +44460,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Workshop_Cat_A3": {
@@ -44480,7 +44480,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 3000
         },
         "Workshop_Chicken": {
@@ -44500,7 +44500,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1000
         },
         "Workshop_Cooker": {
@@ -44520,7 +44520,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "Workshop_Dog_A1": {
@@ -44540,7 +44540,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dog_A2": {
@@ -44560,7 +44560,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dog_B1": {
@@ -44580,7 +44580,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dog_B2": {
@@ -44600,7 +44600,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dog_C1": {
@@ -44620,7 +44620,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dog_D1": {
@@ -44640,7 +44640,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dog_D2": {
@@ -44660,7 +44660,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Dressing_Bundle": {
@@ -44680,7 +44680,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 8000
         },
         "Workshop_Dressing_Kit": {
@@ -44694,7 +44694,7 @@
             "modifier": {
                 "lifetime": 1
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 1600
         },
         "Workshop_Heater": {
@@ -44714,7 +44714,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 20000
         },
         "Workshop_Horse_A1": {
@@ -44734,7 +44734,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Workshop_Horse_A2": {
@@ -44754,7 +44754,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Workshop_Horse_A3": {
@@ -44774,7 +44774,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 10000
         },
         "Workshop_Hydrazine_Container": {
@@ -44793,7 +44793,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 2000
         },
         "Workshop_Purification_Tablet": {
@@ -44835,7 +44835,7 @@
                 }
             },
             "stackSize": 1,
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 5000
         },
         "Workshop_Shovel": {
@@ -44860,7 +44860,7 @@
                 "BaseDiggingRewards_+%": 100,
                 "BaseToolStaminaActionCost_+%": -25
             },
-            "usable": false,
+            "isCraftingRelated": false,
             "weight": 500
         },
         "Yeast": {

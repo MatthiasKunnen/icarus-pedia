@@ -5,7 +5,7 @@ export const load = async () => {
 
     return {
         items: Object.entries(data.items)
-            .filter(([_, item]) => item.usable !== false)
+            .filter(([_, item]) => item.isCraftingRelated !== false)
             .map(([itemId, item]) => [
                 itemId,
                 {

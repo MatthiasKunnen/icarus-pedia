@@ -367,7 +367,7 @@ export function summarizeData(
             stackSize: itemable.MaxStack ?? 1,
             stats: Object.keys(itemStats).length > 0 ? itemStats : undefined,
             modifier: modifier ?? undefined,
-            usable: undefined,
+            isCraftingRelated: undefined,
             weight: itemable.Weight,
         };
     }
@@ -645,54 +645,54 @@ export function summarizeData(
     }
 
     // Weed out items that are not craftable/used in recipes
-    const usabilityChecked = new Set<string>();
-    function markUsableRecursive(itemName: string, item: OutputItem): void {
-        if (usabilityChecked.has(itemName)) {
+    const craftingRelatedChecked = new Set<string>();
+    function markCraftingRelatedRecursive(itemName: string, item: OutputItem): void {
+        if (craftingRelatedChecked.has(itemName)) {
             return;
         }
-        usabilityChecked.add(itemName);
+        craftingRelatedChecked.add(itemName);
         if (item.recipes.length > 0 || item.ingredientIn.length > 0) {
-            item.usable = true;
+            item.isCraftingRelated = true;
         }
 
         for (const recipeName of item.recipes) {
             const recipe = mappedRecipes[recipeName];
             if (recipe === undefined) {
                 log.print(`Recipe of item ${itemName} with recipe name ${
-                    recipeName} not found in usability check`);
+                    recipeName} not found in crating check`);
                 continue;
             }
             for (const input of recipe.inputs) {
                 const mappedItem = mappedItems[input.item];
                 if (mappedItem === undefined) {
                     log.print(`Recipe input of item ${input.item}, recipe ${
-                        recipeName}, item ${input.item} not found in usability check`);
+                        recipeName}, item ${input.item} not found in crating check`);
                     continue;
                 }
 
-                markUsableRecursive(input.item, mappedItem);
+                markCraftingRelatedRecursive(input.item, mappedItem);
             }
         }
     }
     for (const [name, item] of Object.entries(mappedItems)) {
         // First mark everything
-        markUsableRecursive(name, item);
+        markCraftingRelatedRecursive(name, item);
     }
     let usable = 0;
-    const unusable: Array<string> = [];
+    const notCraftingRelated: Array<string> = [];
     for (const [itemName, item] of Object.entries(mappedItems)) {
-        if (item.usable === true) {
+        if (item.isCraftingRelated === true) {
             usable++;
             // Undefined equals usable, this is done to decrease the size of the resulting output
-            item.usable = undefined;
+            item.isCraftingRelated = undefined;
         } else {
-            item.usable = false;
-            unusable.push(itemName);
+            item.isCraftingRelated = false;
+            notCraftingRelated.push(itemName);
         }
     }
-    log.print(`Of the non-excluded items, ${usable} are usable in crafting, the following ${
-        unusable.length} are not:`);
-    for (const itemName of unusable) {
+    log.print(`Of the non-excluded items, ${usable} are crafting related, the following ${
+        notCraftingRelated.length} are not:`);
+    for (const itemName of notCraftingRelated) {
         log.print(`- ${itemName}`);
     }
 

@@ -8,9 +8,9 @@ export interface Item {
     displayName: string;
     /**
      * Whether the item can be crafted or is used in a recipe.
-     * Undefined and true means usable.
+     * @default true
      */
-    usable: boolean | undefined;
+    isCraftingRelated: boolean | undefined;
     icon: string;
     description: string | undefined;
     durability: number | undefined;
