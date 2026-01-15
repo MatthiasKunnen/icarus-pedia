@@ -82,6 +82,12 @@
     </header>
     <div class="root-content" bind:this={rootContent}>
         {@render children?.()}
+        <footer>
+            Latest game data update on
+            <time datetime="2026-01-12">2026-01-12</time>
+            for game version
+            REV. 2.3.25.146718-SHIPPING-GREATHUNTS GREAT HUNTS.
+        </footer>
     </div>
     <div
         class="mobile-nav-overlay"
@@ -184,6 +190,11 @@
     .nav-toggle:hover,
     .nav-toggle:focus {
         background-color: rgb(255 255 255 / 22%);
+    }
+
+    footer {
+        padding-top: 1em;
+        text-align: center;
     }
 
     @media (max-width: 599px) {

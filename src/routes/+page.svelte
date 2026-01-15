@@ -12,8 +12,7 @@
     <p>An information hub on the items in Icarus and how they are crafted.</p>
     <p>
         Content is extracted from the game files. This makes sure the information is up-to-date
-        though items that are not yet accessible may be shown.<br>
-        Last updated for REV. 2.3.25.146718-SHIPPING-GREATHUNTS GREAT HUNTS on 2026-01-12.
+        though items that are not yet accessible may be shown.
     </p>
     <p>
     </p>
