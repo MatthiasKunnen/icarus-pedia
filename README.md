@@ -1,5 +1,16 @@
-# Icaruspedia
-View all icarus items and recipes on <https://icaruspedia.gametools.cloud/>.
+# [IcarusPedia](https://icaruspedia.gametools.cloud/)
+IcarusPedia is a website dedicated to information on the game Icarus
+([View on Steam](https://store.steampowered.com/app/1149460/ICARUS/)).
+It contains information such as crafting recipes, stats, and comparisons.
+It predates, and aims to contain more information than, the game's internal field guide.
+
+Information is compiled straight from the game files in order to stay up-to-date.
+
+View IcarusPedia on <https://icaruspedia.gametools.cloud/>.
+
+## Why does it exist
+IcarusPedia is both meant to be an accurate, helpful, and up-to-date resource for players as well as technical challenge for myself in making it fast, static only and UX friendly.
+To that order, the website is developed in Svelte 5, and is compiled to static HTML files. The interactivity enabled by Svelte is loaded in after the content is already displayed, enabling a fast experience for users.
 
 ## Development
 
