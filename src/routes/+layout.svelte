@@ -84,9 +84,9 @@
         {@render children?.()}
         <footer>
             Latest game data update on
-            <time datetime="2026-01-12">2026-01-12</time>
+            <time datetime="2026-01-16">2026-01-16</time>
             for game version
-            REV. 2.3.25.146718-SHIPPING-GREATHUNTS GREAT HUNTS.
+            REV. 2.3.26.147083-SHIPPING-GREATHUNTS.
         </footer>
     </div>
     <div

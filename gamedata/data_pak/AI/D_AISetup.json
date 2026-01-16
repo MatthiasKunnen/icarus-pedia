@@ -4654,7 +4654,7 @@
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
                     "BrakingDeceleration": 250,
-                    "RotationRate": 100,
+                    "RotationRate": 360,
                     "MaxSwimSpeed": 1
                 },
                 "Attacking": {
@@ -4804,7 +4804,7 @@
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
                     "BrakingDeceleration": 250,
-                    "RotationRate": 100,
+                    "RotationRate": 360,
                     "MaxSwimSpeed": 1
                 },
                 "Attacking": {
@@ -12018,7 +12018,7 @@
                     "BrakingFriction": 2,
                     "MaxAcceleration": 300,
                     "BrakingDeceleration": 250,
-                    "RotationRate": 100,
+                    "RotationRate": 360,
                     "MaxSwimSpeed": 1
                 },
                 "Attacking": {
@@ -24912,6 +24912,9 @@
                     1
                 ],
                 "AutoDescription": " ANY( GOAP.Food.Herbivore.Bait, GOAP.Food.Carnivore.Bait )"
+            },
+            "Loot": {
+                "RowName": "Drone_Loot"
             },
             "BestiaryGroup": {
                 "RowName": "Drone"

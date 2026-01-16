@@ -6349,6 +6349,13 @@
             "DynamicSubtreeOverrides": {
                 "(TagName=\"BT.GOAP.Melee_Attack\")": "BehaviorTree'/Game/BP/AI/GOAP/BehaviourTrees/BT_IcarusNPCGOAP_Melee_Attack_Stomper.BT_IcarusNPCGOAP_Melee_Attack_Stomper'"
             }
+        },
+        {
+            "Name": "Drone_Hunter",
+            "DynamicSubtreeOverrides": {
+                "(TagName=\"BT.Drone.Attack\")": "BehaviorTree'/Game/BP/AI/Basic/Drone/BT_DroneAttackHunter.BT_DroneAttackHunter'",
+                "(TagName=\"BT.Drone.Investigate\")": "BehaviorTree'/Game/BP/AI/Basic/Drone/BT_DroneInvestigateHunter.BT_DroneInvestigateHunter'"
+            }
         }
     ]
 }

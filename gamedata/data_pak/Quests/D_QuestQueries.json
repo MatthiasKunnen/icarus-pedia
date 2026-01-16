@@ -11650,6 +11650,456 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Elysium.Story4.Laser )"
             }
+        },
+        {
+            "Name": "ELY_STORY_6_DRONE_1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Drone.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Drone.1 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_DRONE_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Drone.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Drone.2 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_DRONE_3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Drone.3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Drone.3 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_DRONE_4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Drone.4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Drone.4 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_SATELLITE",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Satellite"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Satellite )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_SPOTLIGHT",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Spotlight"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Spotlight )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_BLOCKER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Blocker"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Blocker )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_HELMET",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Helmet"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Helmet )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_SHIP",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Ship"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Ship )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_ENTER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Enter"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Enter )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_MOPOD",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.MoPod"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.MoPod )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_TOWERDOOR",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.TowerDoor"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.TowerDoor )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_MAIN",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Main"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Main )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_EVENT",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Event"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Event )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Igloo",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Igloo.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Igloo.Base )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Yeti",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Yeti.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Yeti.Boss )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.Base"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.Base )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_Container",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.Container"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.Container )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.1 )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.2 )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.3 )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.4 )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_5",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.5"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.5 )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_Owner",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.Owner"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.Owner )"
+            }
+        },
+        {
+            "Name": "ELY_SQ_Fish_Board",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.SQ_Fish.Board"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.Board )"
+            }
         }
     ]
 }

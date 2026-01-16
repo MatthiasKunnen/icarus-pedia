@@ -1505,7 +1505,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 15450,
+                "X": 15600,
                 "Y": 1200
             },
             "Size": {
@@ -5921,7 +5921,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 15300,
+                "X": 15450,
                 "Y": 850
             },
             "Size": {
@@ -5945,7 +5945,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 15100,
+                "X": 15250,
                 "Y": 1200
             },
             "Size": {
@@ -12378,7 +12378,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 13600,
+                "X": 13500,
                 "Y": 1200
             },
             "Size": {
@@ -14757,7 +14757,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14500,
+                "X": 14400,
                 "Y": 850
             },
             "Size": {
@@ -21963,7 +21963,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 13300,
+                "X": 13250,
                 "Y": 1050
             },
             "Size": {
@@ -21988,7 +21988,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14150,
+                "X": 14050,
                 "Y": 850
             },
             "Size": {
@@ -22014,7 +22014,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 13800,
+                "X": 13700,
                 "Y": 850
             },
             "Size": {
@@ -28858,7 +28858,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 12950,
+                "X": 12900,
                 "Y": 850
             },
             "Size": {
@@ -29011,7 +29011,7 @@
             },
             "RequiredTalents": [
                 {
-                    "RowName": "Fabricator",
+                    "RowName": "Wire_Tool",
                     "DataTableName": "D_Talents"
                 }
             ],
@@ -51448,7 +51448,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14300,
+                "X": 14550,
                 "Y": 1200
             },
             "Size": {
@@ -52211,7 +52211,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 14650,
+                "X": 14900,
                 "Y": 1200
             },
             "Size": {
@@ -56733,7 +56733,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 13950,
+                "X": 14200,
                 "Y": 1200
             },
             "Size": {
@@ -56857,7 +56857,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 12950,
+                "X": 12900,
                 "Y": 1200
             },
             "Size": {
@@ -56882,7 +56882,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 12650,
+                "X": 12600,
                 "Y": 1200
             },
             "Size": {
@@ -57252,7 +57252,7 @@
                 "RowName": "Blueprint_T3_Machine"
             },
             "Position": {
-                "X": 15900,
+                "X": 16050,
                 "Y": 850
             },
             "Size": {
@@ -58348,7 +58348,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 350
+                "Y": 300
             },
             "Size": {
                 "X": 128,
@@ -58398,7 +58398,7 @@
             },
             "Position": {
                 "X": 900,
-                "Y": 450
+                "Y": 500
             },
             "Size": {
                 "X": 128,
@@ -58447,7 +58447,7 @@
             },
             "Position": {
                 "X": 500,
-                "Y": 550
+                "Y": 500
             },
             "Size": {
                 "X": 128,
@@ -58577,7 +58577,7 @@
             },
             "Position": {
                 "X": 100,
-                "Y": 450
+                "Y": 500
             },
             "Size": {
                 "X": 128,
@@ -66366,43 +66366,6 @@
                 {
                     "RowName": "Creature_Base_Mammoth",
                     "DataTableName": "D_Talents"
-                }
-            ],
-            "DrawMethodOverride": "ShortestDistance"
-        },
-        {
-            "Name": "Creature_WoolyMammoth_ArcticStealth",
-            "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_ArcticStealth-DisplayName\", \"Blended Fur\")",
-            "Description": "NSLOCTEXT(\"D_Talents\", \"Creature_WoolyMammoth_ArcticStealth-Description\", \"Reduced Animal Threat while in Arctic\")",
-            "Icon": "/Game/Assets/2DArt/UI/Talents/Companion/T_Talent_WoolyZebra_ArcticStealth.T_Talent_WoolyZebra_ArcticStealth",
-            "TalentTree": {
-                "RowName": "Creature_WoolyZebra"
-            },
-            "Position": {
-                "Y": 638.53955078125
-            },
-            "Size": {
-                "X": 128,
-                "Y": 128
-            },
-            "Rewards": [
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -4
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -10
-                    },
-                    "GrantedFlags": []
-                },
-                {
-                    "GrantedStats": {
-                        "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -20
-                    },
-                    "GrantedFlags": []
                 }
             ],
             "DrawMethodOverride": "ShortestDistance"

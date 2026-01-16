@@ -13,6 +13,9 @@
             "RowName": "None",
             "DataTableName": "D_Durable"
         },
+        "RewardStat": {
+            "Value": "None"
+        },
         "Tags": {
             "GameplayTags": []
         },
@@ -47,6 +50,9 @@
             "Durable": {
                 "RowName": "Rock"
             },
+            "RewardStat": {
+                "Value": "ShatteringObsidianRewards_+%"
+            },
             "Tags": {
                 "GameplayTags": [
                     {
@@ -67,6 +73,9 @@
             "Durable": {
                 "RowName": "Rock"
             },
+            "RewardStat": {
+                "Value": "ShatteringScoriaRewards_+%"
+            },
             "Tags": {
                 "GameplayTags": [
                     {
@@ -86,6 +95,9 @@
             },
             "Durable": {
                 "RowName": "Rock"
+            },
+            "RewardStat": {
+                "Value": "ShatteringClayRewards_+%"
             },
             "Tags": {
                 "GameplayTags": [

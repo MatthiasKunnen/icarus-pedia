@@ -456,6 +456,11 @@
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Cave_Worm_Loot-Description\", \"A small sack containing the remnants of a worm.\")"
         },
         {
+            "Name": "SulfurWorm_Loot",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"SulfurWorm_Loot-DisplayName\", \"Sulfur Worm Remains\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"SulfurWorm_Loot-Description\", \"A sack containing the remnants of a Sulfur Worm.\")"
+        },
+        {
             "Name": "Mission_Biological_Containment",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Biological_Containment-DisplayName\", \"Arachnid Containment Unit\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"Mission_Biological_Containment-Description\", \"There is a faint sound of scratching coming from this case.\")"
@@ -1280,7 +1285,7 @@
         {
             "Name": "Lab01_Door",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Lab01_Door-DisplayName\", \"LAB-01 Door\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Lab01_Door-Description\", \"Requires an access card to enter.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Lab01_Door-Description\", \"Heavy duty security door.\")"
         },
         {
             "Name": "Exotic_Deposit_Yellow",
@@ -1376,6 +1381,42 @@
             "Name": "InquisitionAgent",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"InquisitionAgent-DisplayName\", \"Eris Inquisition Agent\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"InquisitionAgent-Description\", \"An agent killed in the line of duty.\")"
+        },
+        {
+            "Name": "Drone_Remains",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Drone_Remains-DisplayName\", \"Drone Remains\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Drone_Remains-Description\", \"The crashed remains of a drone.\")"
+        },
+        {
+            "Name": "SulfurWater",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"SulfurWater-DisplayName\", \"Sulfuric Water Source\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"SulfurWater-Description\", \"Consume or fill containers.\")",
+            "bDisableMeshOutline": true
+        },
+        {
+            "Name": "MoHelmet",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"MoHelmet-DisplayName\", \"Mo\\'s Helmet\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"MoHelmet-Description\", \"Once worn by Mo. Contains her tracking beacon.\")"
+        },
+        {
+            "Name": "Door_Keycard",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"Door_Keycard-DisplayName\", \"Security Door\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"Door_Keycard-Description\", \"Requires a pin code to open.\")"
+        },
+        {
+            "Name": "InquisitionAgent_Alive",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"InquisitionAgent_Alive-DisplayName\", \"Eris Inquisition Agent\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"InquisitionAgent_Alive-Description\", \"An agent contracted to the Eris Inquisiton.\")"
+        },
+        {
+            "Name": "FishOwner",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"FishOwner-DisplayName\", \"Chief Fisheries Officer Dunski\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"FishOwner-Description\", \"Master fisherman who is has been fishing longer than you\\'ve been alive.\")"
+        },
+        {
+            "Name": "FishStockpile",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"FishStockpile-DisplayName\", \"Fish Stockpile\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"FishStockpile-Description\", \"Large Cool Storage for Fish.\")"
         }
     ]
 }

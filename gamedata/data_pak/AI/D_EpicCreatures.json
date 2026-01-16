@@ -954,6 +954,18 @@
             "AISetup": {
                 "RowName": "Irradiated_Abomination"
             }
+        },
+        {
+            "Name": "SQ_Yeti",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"SQ_Yeti-CreatureNames-0\", \"Roaming Frostfoot\")"
+            ],
+            "AISetup": {
+                "RowName": "Yeti"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": -10
+            }
         }
     ]
 }

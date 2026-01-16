@@ -24380,7 +24380,7 @@
             "Name": "Item_Mission_ELY3_AccessCard",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY3_AccessCard-DisplayName\", \"LAB-01 Access Card\")",
             "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/QuestItems/T_ITEM_Keycard.T_ITEM_Keycard",
-            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY3_AccessCard-Description\", \"A Battered Access Card to LAB-01\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY3_AccessCard-Description\", \"A Battered Access Card to LAB-01 - Door Code [52201] \")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY3_AccessCard-FlavorText\", \"The UDA Employee won\\'t miss it.\")",
             "Weight": 500
         },
@@ -24722,7 +24722,7 @@
         {
             "Name": "Item_Flare_Gun",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flare_Gun-DisplayName\", \"Flare Gun\")",
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_Flaregun.T_ITEM_Flaregun",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Weapons/Guns/T_ITEM_FlareGun.T_ITEM_Flaregun",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flare_Gun-Description\", \"An Instrument which can be used to project your position into the sky.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flare_Gun-FlavorText\", \"A key tool for scouting.\")",
             "Weight": 800
@@ -24766,6 +24766,7 @@
         {
             "Name": "Item_Yeti_Trophy",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Trophy-DisplayName\", \"Frostfoot Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Yeti_Trophy.T_ITEM_Yeti_Trophy",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Trophy-Description\", \"A mounted Frostfoot head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Yeti_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 4000
@@ -25433,6 +25434,7 @@
         {
             "Name": "Item_Specimen_Small",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Small-DisplayName\", \"Small Specimen Sample\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_Specimen_Small.T_ITEM_PROP_Specimen_Small",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Small-Description\", \"A specimen preserved in a small vat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Small-FlavorText\", \"Not sure if you even want to know what\\'s in there.\")",
             "Weight": 500,
@@ -25441,6 +25443,7 @@
         {
             "Name": "Item_Specimen",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen-DisplayName\", \"Specimen Sample\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_Specimen.T_ITEM_PROP_Specimen",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen-Description\", \"A specimen preserved in a small vat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen-FlavorText\", \"Not sure if you even want to know what\\'s in there.\")",
             "Weight": 500,
@@ -25449,6 +25452,7 @@
         {
             "Name": "Item_Specimen_Large",
             "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Large-DisplayName\", \"Large Specimen Sample\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_SpecimenLarge.T_ITEM_PROP_SpecimenLarge",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Large-Description\", \"A specimen preserved in a large vat.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Specimen_Large-FlavorText\", \"Not sure if you even want to know what\\'s in there.\")",
             "Weight": 5000,
@@ -25743,6 +25747,243 @@
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Reaver_Trophy-Description\", \"A mounted Reaver head.\")",
             "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Reaver_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
             "Weight": 4000
+        },
+        {
+            "Name": "Item_Prop_Camera",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Camera-DisplayName\", \"Security Camera\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Camera.T_ITEM_Prop_Camera",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Camera-Description\", \"Used for surveilling an area.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Camera-FlavorText\", \"Big Brother is watching...\")",
+            "Weight": 1000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Prop_Mug",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Mug-DisplayName\", \"Mug\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_B.T_ITEM_Prop_Mug_B",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Mug-Description\", \"Perfect for holding coffee or tea.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Prop_Mug-FlavorText\", \"Delicious\")",
+            "Weight": 1000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Slinker_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Slinker_Trophy-DisplayName\", \"Slinker Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slinker_Trophy.T_ITEM_Slinker_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Slinker_Trophy-Description\", \"The mounted remains of a Slinker.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Slinker_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Chew_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Chew_Trophy-DisplayName\", \"Draven Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Chew_Trophy-Description\", \"The mounted remains of a Draven.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Chew_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Bounder_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Bounder_Trophy-DisplayName\", \"Korrin Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Bounder_Trophy.T_ITEM_Bounder_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Bounder_Trophy-Description\", \"The mounted remains of a Korrin.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Bounder_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Tundra_Deer_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Tundra_Deer_Trophy-DisplayName\", \"Drosik Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Tundra_Deer_Trophy.T_ITEM_Tundra_Deer_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Tundra_Deer_Trophy-Description\", \"The mounted remains of a Drosik.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Tundra_Deer_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Hopping_Creature_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hopping_Creature_Trophy-DisplayName\", \"Hopper Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Hopping_Creature_Trophy.T_ITEM_Hopping_Creature_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Hopping_Creature_Trophy-Description\", \"The mounted remains of a Hopper.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Hopping_Creature_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Hopping_Creature_Trophy_Swamp",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Hopping_Creature_Trophy_Swamp-DisplayName\", \"Swamp Hopper Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Hopping_Creature_Swamp_Trophy.T_ITEM_Hopping_Creature_Swamp_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Hopping_Creature_Trophy_Swamp-Description\", \"The mounted remains of a Swamp Hopper.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Hopping_Creature_Trophy_Swamp-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Stomper_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Trophy-DisplayName\", \"Stomper Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Trophy-Description\", \"The mounted remains of a Stomper.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Stomper_Matriarch_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Matriarch_Trophy-DisplayName\", \"Stomper Matriarch Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Matriarch_Trophy-Description\", \"The mounted remains of a Stomper Matriarch.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Stomper_Matriarch_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Giant_Roach_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Giant_Roach_Trophy-DisplayName\", \"Clicker Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Giant_Roach_Trophy.T_ITEM_Giant_Roach_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Giant_Roach_Trophy-Description\", \"The mounted remains of a Clicker.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Giant_Roach_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Dragonfly_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Dragonfly_Trophy-DisplayName\", \"Venomfly Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_DragonFly_Trophy.T_ITEM_DragonFly_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dragonfly_Trophy-Description\", \"The mounted remains of a Venomfly.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Dragonfly_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Flightless_Tank_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flightless_Tank_Trophy-DisplayName\", \"Sandhorn Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Flightless_Tank_Trophy.T_ITEM_Flightless_Tank_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flightless_Tank_Trophy-Description\", \"The mounted remains of a Sandhorn.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flightless_Tank_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Flying_Tank_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flying_Tank_Trophy-DisplayName\", \"Ravager Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Flying_Tank_Trophy.T_ITEM_Flying_Tank_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flying_Tank_Trophy-Description\", \"The mounted remains of a Ravager.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flying_Tank_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Sandwyrm_Queen_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Queen_Trophy-DisplayName\", \"Sandwyrm Queen Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Queen_Trophy-Description\", \"The mounted remains of a Sandwyrm Queen.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandwyrm_Queen_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Rabbit_Variant_Snow_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Rabbit_Variant_Snow_Trophy-DisplayName\", \"Snow Pygmy Lop Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_AnimalCarcass_Rabbit_Variant_Snow.T_ITEM_AnimalCarcass_Rabbit_Variant_Snow",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Rabbit_Variant_Snow_Trophy-Description\", \"The mounted remains of a Snow Pygmy Lop.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Rabbit_Variant_Snow_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Flesh_Sac_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flesh_Sac_Trophy-DisplayName\", \"Gaseous Floater Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flesh_Sac_Trophy-Description\", \"The mounted remains of a Gaseous Floater.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flesh_Sac_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 3500
+        },
+        {
+            "Name": "Item_Sandscuttle_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandscuttle_Trophy-DisplayName\", \"Scuttler Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandscuttle_Trophy-Description\", \"The mounted remains of a Scuttler.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandscuttle_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 3500
+        },
+        {
+            "Name": "Item_Mange_Wolf_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mange_Wolf_Trophy-DisplayName\", \"Skulmutt Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mange_Wolf_Trophy-Description\", \"The mounted remains of a Skulmutt.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mange_Wolf_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 3500
+        },
+        {
+            "Name": "Item_Mange_Wolf_Alpha_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mange_Wolf_Alpha_Trophy-DisplayName\", \"Skulmutt Prime Trophy\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mange_Wolf_Alpha_Trophy-Description\", \"The mounted remains of a Skulmutt Prime.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Mange_Wolf_Alpha_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 3500
+        },
+        {
+            "Name": "Item_Ghost_Crocodile_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ghost_Crocodile_Trophy-DisplayName\", \"Trapjaw Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Ghost_Crocodile_Trophy.T_ITEM_Ghost_Crocodile_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ghost_Crocodile_Trophy-Description\", \"The mounted remains of a Trapjaw.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Ghost_Crocodile_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 3500
+        },
+        {
+            "Name": "Item_Geothermal_Spider_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Spider_Trophy-DisplayName\", \"Geothermal Spider Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Geothermal_Spider_Trophy_A.T_ITEM_Geothermal_Spider_Trophy_A",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Spider_Trophy-Description\", \"A mounted Geothermal Spider.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Spider_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 4000
+        },
+        {
+            "Name": "Item_Geothermal_Spider_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Spider_Head-DisplayName\", \"Geothermal Spider Vestige\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Spider_Head-Description\", \"A preserved memory of a many legged creature.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Spider_Head-FlavorText\", \"Who knew taxidermy would be so popular on Icarus?\")",
+            "Weight": 1000,
+            "MaxStack": 5
+        },
+        {
+            "Name": "Item_Geothermal_Bat_Trophy",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Bat_Trophy-DisplayName\", \"Sulfur Vesper Trophy\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Geothermal_Bat_Trophy.T_ITEM_Geothermal_Bat_Trophy",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Bat_Trophy-Description\", \"A Trophy of a mutated bat like creature.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Geothermal_Bat_Trophy-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Flesh_Sac_Head",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Flesh_Sac_Head-DisplayName\", \"Gaseous Floater Vestige\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Flesh_Sac_Head-Description\", \"The remains of a floating gas creature.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Flesh_Sac_Head-FlavorText\", \"Evidence of skill, patience and accuracy.\")",
+            "Weight": 1000
+        },
+        {
+            "Name": "Item_Enemy_Turret_Flamethrower",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-DisplayName\", \"Blackmarket Automative Defence Turret (Flamethrower)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-Description\", \"A modified turret which fires a steady stream of flame at nearby enemies.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_Flamethrower-FlavorText\", \"This design is marked as \\\"experimental\\\" by the Lagos Group - The UDA is not liable for any injuries caused by this unit.\")",
+            "Weight": 20000
+        },
+        {
+            "Name": "Item_Enemy_Turret_NPC",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_NPC-DisplayName\", \"TPS Agent\")",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Enemy_Turret_NPC-Description\", \"Agressive, will fire at you.\")",
+            "Weight": 20000
+        },
+        {
+            "Name": "Item_Mission_ELY6_Code",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY6_Code-DisplayName\", \"TPS Compound Tower Code\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Logbook.T_ITEM_Collectable_Logbook",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY6_Code-Description\", \"Tower Door Code [4255]\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Mission_ELY6_Code_2",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY6_Code_2-DisplayName\", \"TPS Compound Entry Code\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Collectable_Note.T_ITEM_Collectable_Note",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Mission_ELY6_Code_2-Description\", \"Security Door Code [3326]\")",
+            "Weight": 500
+        },
+        {
+            "Name": "Item_Landing_Pad_Prop",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Landing_Pad_Prop-DisplayName\", \"TPS Landing Pad\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Landing_Pad_Prop.T_ITEM_Landing_Pad_Prop",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Landing_Pad_Prop-Description\", \"Landing Pads used Exclusively by the TPS.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Landing_Pad_Prop-FlavorText\", \"What goes up, must come down.\")",
+            "Weight": 25000
+        },
+        {
+            "Name": "Item_Polarbear_Head_Armor_Yeti",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-DisplayName\", \"Arctic Head Armor (Yeti)\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Armour/T_ITEM_Polarbear_Head_Armor_Yeti.T_ITEM_Polarbear_Head_Armor_Yeti",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-Description\", \"Lightweight, highly insulated head protection.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Polarbear_Head_Armor_Yeti-FlavorText\", \"Once a warm high altitude desert, the arctic\\'s temperature dropped in the aftermath of failed terraforming, leaving a frigid wasteland of which the polar Frostfoot is now the unchallenged apex predator.\")",
+            "Weight": 2000
         }
     ]
 }

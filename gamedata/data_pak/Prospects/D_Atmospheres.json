@@ -205,9 +205,9 @@
         {
             "Name": "Geothermal",
             "AtmosphereName": "NSLOCTEXT(\"D_Atmospheres\", \"Geothermal-AtmosphereName\", \"Geothermal\")",
-            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_M.T_Bestiary_Diorama_Desert_M",
-            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XL.T_Bestiary_Diorama_Desert_XL",
-            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Desert_XXL.T_Bestiary_Diorama_Desert_XXL",
+            "Image_Small": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Geothermal_S.T_Bestiary_Diorama_Geothermal_S",
+            "Image_Medium": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Geothermal_M.T_Bestiary_Diorama_Geothermal_M",
+            "Image_Large": "/Game/Assets/2DArt/UI/FieldGuide/Dioramas/T_Bestiary_Diorama_Geothermal_L.T_Bestiary_Diorama_Geothermal_L",
             "FogColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_FogTint.C_GT_FogTint'",
             "SunColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_AtmosSun.C_GT_AtmosSun'",
             "RayleighScatteringColour": "CurveLinearColor'/Game/ASS/ENV/ATM/Biomes/GT/C_GT_RayleighColour.C_GT_RayleighColour'",

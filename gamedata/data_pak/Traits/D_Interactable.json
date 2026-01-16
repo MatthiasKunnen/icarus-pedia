@@ -3269,11 +3269,23 @@
             ]
         },
         {
-            "Name": "AccessCardDoor",
+            "Name": "LockedDoor",
             "WorldPressInteracts": [
                 {
                     "InteractionRow": {
-                        "RowName": "Interact_AccessCardDoor",
+                        "RowName": "Interact_LockedDoor",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "SecurityDoor",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_SecurityDoor",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
@@ -3314,6 +3326,75 @@
                 {
                     "InteractionRow": {
                         "RowName": "Interact_Toggle_Device_On",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "NPC_EDEN_Reward_Interact",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_EDEN_NPC_Reward",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Medical_Scan",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_NPC_Inventory_Take",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "NPC_EDEN_FishOwner",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_PresentFish",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Medical_Scan",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_NPC_Inventory_Take",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_EndContest",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""

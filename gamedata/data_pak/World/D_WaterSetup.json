@@ -13,6 +13,10 @@
         },
         "WaterAlteration": {
             "Value": "None"
+        },
+        "Highlightable": {
+            "RowName": "WaterNode",
+            "DataTableName": "D_Highlightable"
         }
     },
     "Rows": [
@@ -248,6 +252,9 @@
             },
             "WaterAlteration": {
                 "Value": "Dirty_Water_Lava"
+            },
+            "Highlightable": {
+                "RowName": "SulfurWater"
             }
         },
         {
@@ -269,6 +276,9 @@
             },
             "WaterAlteration": {
                 "Value": "Dirty_Water_Lava"
+            },
+            "Highlightable": {
+                "RowName": "SulfurWater"
             }
         },
         {

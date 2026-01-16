@@ -11539,6 +11539,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "RelevantAutonomousSpawners": [
@@ -11597,6 +11606,15 @@
                             "Value": "Snow_Wolf"
                         },
                         "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -11686,6 +11704,15 @@
                             "Value": "Snow_Wolf"
                         },
                         "SpawnWeight": 5,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12004,6 +12031,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "RelevantAutonomousSpawners": [
@@ -12091,6 +12127,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "RelevantAutonomousSpawners": [
@@ -12137,6 +12182,15 @@
                     {
                         "AISetup": {
                             "Value": "Geothermal_Spider"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
@@ -12194,6 +12248,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "BiomeSpawnDensity": 10,
@@ -12243,6 +12306,15 @@
                             "Value": "Geothermal_Spider"
                         },
                         "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12375,6 +12447,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "BiomeSpawnDensity": 20
@@ -12482,6 +12563,15 @@
                             "Value": "Chew"
                         },
                         "SpawnWeight": 2,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12677,6 +12767,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ]
             },
@@ -12718,6 +12817,15 @@
                     {
                         "AISetup": {
                             "Value": "Deer_Desert_Medium"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
@@ -12815,6 +12923,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "RelevantAutonomousSpawners": [
@@ -12877,6 +12994,15 @@
                             "Value": "Komodo"
                         },
                         "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12973,6 +13099,15 @@
                         "EpicCreature": {
                             "Value": "None"
                         }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
                     }
                 ],
                 "RelevantAutonomousSpawners": [
@@ -13044,6 +13179,15 @@
                             "Value": "Swamp_Bird"
                         },
                         "SpawnWeight": 3,
+                        "EpicCreature": {
+                            "Value": "None"
+                        }
+                    },
+                    {
+                        "AISetup": {
+                            "Value": "Drone_Scout"
+                        },
+                        "SpawnWeight": 1,
                         "EpicCreature": {
                             "Value": "None"
                         }

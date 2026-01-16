@@ -128,18 +128,144 @@
             "CameraFOV": 20
         },
         {
-            "Name": "Mount_Moa",
+            "Name": "Mount_Chicken",
             "RelativeOffset": {
                 "Rotation": {
-                    "Z": -0.7071067094802856,
-                    "W": 0.7071068286895752
+                    "Z": -0.7071065902709961,
+                    "W": 0.7071069478988647
                 },
                 "Translation": {
                     "Y": 700,
-                    "Z": 150
+                    "Z": 50
                 }
             },
-            "CameraFOV": 28
+            "CameraFOV": 10
+        },
+        {
+            "Name": "Mount_Sheep",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 60
+                }
+            },
+            "CameraFOV": 12
+        },
+        {
+            "Name": "Mount_Cat",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 70
+                }
+            },
+            "CameraFOV": 16
+        },
+        {
+            "Name": "Mount_Wolf",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 80
+                }
+            },
+            "CameraFOV": 18
+        },
+        {
+            "Name": "Mount_Striker",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065902709961,
+                    "W": 0.7071069478988647
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 50
+                }
+            },
+            "CameraFOV": 10
+        },
+        {
+            "Name": "Mount_Blueback",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071066498756409,
+                    "W": 0.70710688829422
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 100
+                }
+            },
+            "CameraFOV": 22
+        },
+        {
+            "Name": "Mount_Buffalo",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065902709961,
+                    "W": 0.7071069478988647
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 110
+                }
+            },
+            "CameraFOV": 22
+        },
+        {
+            "Name": "Mount_SwampQuad",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 120
+                }
+            },
+            "CameraFOV": 26
+        },
+        {
+            "Name": "Mount_Tusker",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 110
+                }
+            },
+            "CameraFOV": 24
+        },
+        {
+            "Name": "Mount_Moa",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065902709961,
+                    "W": 0.7071069478988647
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 170
+                }
+            },
+            "CameraFOV": 30
         },
         {
             "Name": "Mount_Horse",
@@ -154,6 +280,76 @@
                 }
             },
             "CameraFOV": 17
+        },
+        {
+            "Name": "Mount_Storca",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071066498756409,
+                    "W": 0.70710688829422
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 110
+                }
+            },
+            "CameraFOV": 26
+        },
+        {
+            "Name": "Mount_Horse_Standard",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065306663513,
+                    "W": 0.7071070671081543
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 70
+                }
+            },
+            "CameraFOV": 16
+        },
+        {
+            "Name": "Mount_Slinker",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071067690849304,
+                    "W": 0.7071067094802856
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 100
+                }
+            },
+            "CameraFOV": 21
+        },
+        {
+            "Name": "Mount_Zebra",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065902709961,
+                    "W": 0.7071069478988647
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 90
+                }
+            },
+            "CameraFOV": 17
+        },
+        {
+            "Name": "Mount_Chew",
+            "RelativeOffset": {
+                "Rotation": {
+                    "Z": -0.7071065902709961,
+                    "W": 0.7071069478988647
+                },
+                "Translation": {
+                    "Y": 700,
+                    "Z": 90
+                }
+            },
+            "CameraFOV": 16
         },
         {
             "Name": "Tame_MediumSize",
@@ -181,7 +377,7 @@
                     "Z": 185
                 }
             },
-            "CameraFOV": 28
+            "CameraFOV": 33
         },
         {
             "Name": "Mount_Mammoth",

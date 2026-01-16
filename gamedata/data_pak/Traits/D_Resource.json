@@ -566,6 +566,13 @@
             }
         },
         {
+            "Name": "Charging_Device_Wall",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Charging_Device_Wall"
+            }
+        },
+        {
             "Name": "Manufacturer",
             "bHasEnergyConnection": true,
             "EnergyFlow": {

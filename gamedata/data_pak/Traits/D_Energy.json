@@ -412,6 +412,12 @@
             "AutoShutoffFlowPercent": 99
         },
         {
+            "Name": "Charging_Device_Wall",
+            "AutoActivate": true,
+            "ResourceFlowRate": 250,
+            "AutoShutoffFlowPercent": 99
+        },
+        {
             "Name": "Aerosol_Emitter",
             "AlwaysActive": true,
             "AutoActivate": true,

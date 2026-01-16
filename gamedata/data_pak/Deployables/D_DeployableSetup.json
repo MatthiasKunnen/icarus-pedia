@@ -12984,8 +12984,8 @@
         },
         {
             "Name": "Yeti_Trophy",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Yeti_Trophy.BP_Yeti_Trophy_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Lamb/SM_DEP_Trophy_Lamb.SM_DEP_Trophy_Lamb",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Yeti.BP_Trophy_Yeti_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Yeti/SM_DEP_Trophy_Yeti.SM_DEP_Trophy_Yeti",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
@@ -13340,8 +13340,8 @@
         },
         {
             "Name": "Tundra_Monkey_Trophy",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Tundra_Monkey_Trophy.BP_Tundra_Monkey_Trophy_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Lamb/SM_DEP_Trophy_Lamb.SM_DEP_Trophy_Lamb",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Tundra_Monkey.BP_Trophy_Tundra_Monkey_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Tundra_Monkey/SM_DEP_Trophy_Tundra_Monkey.SM_DEP_Trophy_Tundra_Monkey",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
@@ -13492,7 +13492,7 @@
         {
             "Name": "Prop_Specimen_Small",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen_Small.BP_Prop_Specimen_Small_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_Specimen_Small.T_ITEM_PROP_Specimen_Small",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen_Small-DeployableName\", \"Empty\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_SML.SM_DEP_Trophy_Slug_Boss_Tank_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13502,7 +13502,7 @@
         {
             "Name": "Prop_Specimen",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen.BP_Prop_Specimen_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_Specimen.T_ITEM_PROP_Specimen",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen-DeployableName\", \"Empty\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_SML.SM_DEP_Trophy_Slug_Boss_Tank_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13512,7 +13512,7 @@
         {
             "Name": "Prop_Specimen_Growth",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen_Growth.BP_Prop_Specimen_Growth_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_SpecimenGrowth.T_ITEM_PROP_SpecimenGrowth",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen_Growth-DeployableName\", \"Growth\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_SML.SM_DEP_Trophy_Slug_Boss_Tank_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13522,7 +13522,7 @@
         {
             "Name": "Prop_Specimen_Striker",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen_Striker.BP_Prop_Specimen_Striker_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_Specimen_Striker.T_ITEM_PROP_Specimen_Striker",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen_Striker-DeployableName\", \"Striker\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_SML.SM_DEP_Trophy_Slug_Boss_Tank_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13532,7 +13532,7 @@
         {
             "Name": "Prop_Specimen_Dragon",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen_Dragonfly.BP_Prop_Specimen_Dragonfly_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_SpecimenDragonfly.T_ITEM_PROP_SpecimenDragonfly",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen_Dragon-DeployableName\", \"Dragonfly\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_SML.SM_DEP_Trophy_Slug_Boss_Tank_SML",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13542,7 +13542,7 @@
         {
             "Name": "Prop_Specimen_Large",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen_Large.BP_Prop_Specimen_Large_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_SpecimenLarge.T_ITEM_PROP_SpecimenLarge",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen_Large-DeployableName\", \"Empty\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_MED.SM_DEP_Trophy_Slug_Boss_Tank_MED",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13552,7 +13552,7 @@
         {
             "Name": "Prop_Specimen_Large_Raptor",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Specimen_Large_Raptor.BP_Prop_Specimen_Large_Raptor_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Slug_Trophy_TANK_MED.T_ITEM_Slug_Trophy_TANK_MED",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_PROP_SpecimenLargeRaptot.T_ITEM_PROP_SpecimenLargeRaptot",
             "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prop_Specimen_Large_Raptor-DeployableName\", \"Raptor\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slug_Boss/SM_DEP_Trophy_Slug_Boss_Tank_MED.SM_DEP_Trophy_Slug_Boss_Tank_MED",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
@@ -13964,6 +13964,407 @@
             "WorldPlacementType": "WallPlacement",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Prop_Camera",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Camera.BP_Prop_Camera_C",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Security_Camera/SM_PRP_SecurityCamera.SM_PRP_SecurityCamera",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_A.BP_Prop_Mug_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_A.T_ITEM_Prop_Mug_A",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_B.BP_Prop_Mug_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_B.T_ITEM_Prop_Mug_B",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_C.BP_Prop_Mug_C_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_C.T_ITEM_Prop_Mug_C",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_D",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_D.BP_Prop_Mug_D_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_D.T_ITEM_Prop_Mug_D",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_E",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_E.BP_Prop_Mug_E_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_E.T_ITEM_Prop_Mug_E",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_F",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_F.BP_Prop_Mug_F_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_F.T_ITEM_Prop_Mug_F",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_G",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_G.BP_Prop_Mug_G_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_G.T_ITEM_Prop_Mug_G",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_H",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_H.BP_Prop_Mug_H_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_H.T_ITEM_Prop_Mug_H",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_I",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_I.BP_Prop_Mug_I_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_I.T_ITEM_Prop_Mug_I",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_J",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_J.BP_Prop_Mug_J_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_J.T_ITEM_Prop_Mug_J",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_K",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_K.BP_Prop_Mug_K_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_K.T_ITEM_Prop_Mug_K",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_L",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_L.BP_Prop_Mug_L_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_L.T_ITEM_Prop_Mug_L",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_M",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_M.BP_Prop_Mug_M_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_M.T_ITEM_Prop_Mug_M",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Prop_Mug_N",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_Mug_N.BP_Prop_Mug_N_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Mug_N.T_ITEM_Prop_Mug_N",
+            "PreviewStaticMesh": "/Game/ASS/PRP/Mugs/SM_PRP_Mug_1.SM_PRP_Mug_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Slinker_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Slinker.BP_Trophy_Slinker_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slinker/SM_CRE_Trophy_Slinker.SM_CRE_Trophy_Slinker",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Chew_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Chew.BP_Trophy_Chew_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Slinker/SM_CRE_Trophy_Slinker.SM_CRE_Trophy_Slinker",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Bounder_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Bounder_Desert.BP_Trophy_Bounder_Desert_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Bounder_Desert/SM_DEP_Trophy_Bounder_Desert.SM_DEP_Trophy_Bounder_Desert",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Tundra_Deer_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Tundra_Deer.BP_Trophy_Tundra_Deer_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Tundra_Deer/SM_DEP_Trophy_Tundra_Deer.SM_DEP_Trophy_Tundra_Deer",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Hopping_Creature_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Hopping_Creature.BP_Trophy_Hopping_Creature_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Hopping_Creature/SM_DEP_Trophy_Hopping_Creature.SM_DEP_Trophy_Hopping_Creature",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Hopping_Creature_Swamp_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Hopping_Creature_Swamp.BP_Trophy_Hopping_Creature_Swamp_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Hopping_Creature/SM_DEP_Trophy_Hopping_Creature.SM_DEP_Trophy_Hopping_Creature",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Stomper_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Stomper.BP_Trophy_Stomper_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Hopping_Creature/SM_DEP_Trophy_Hopping_Creature.SM_DEP_Trophy_Hopping_Creature",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Stomper_Matriach_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Stomper_Matraich.BP_Trophy_Stomper_Matraich_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Hopping_Creature/SM_DEP_Trophy_Hopping_Creature.SM_DEP_Trophy_Hopping_Creature",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Giant_Roach_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Giant_Roach.BP_Trophy_Giant_Roach_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Giant_Roach/SM_DEP_Trophy_Giant_Roach.SM_DEP_Trophy_Giant_Roach",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Dragonfly_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Dragonfly.BP_Trophy_Dragonfly_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Giant_Roach/SM_DEP_Trophy_Giant_Roach.SM_DEP_Trophy_Giant_Roach",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Flightless_Tank_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Flightless_Tank.BP_Trophy_Flightless_Tank_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Flightless_Tank/SM_DEP_Trophy_Flightless_Tank.SM_DEP_Trophy_Flightless_Tank",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Flying_Tank_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Flying_Tank.BP_Trophy_Flying_Tank_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Flying_Tank/SM_DEP_Trophy_Flying_Tank.SM_DEP_Trophy_Flying_Tank",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Sandwyrm_Queen_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Sandwyrm_Queen.BP_Trophy_Sandwyrm_Queen_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Flying_Tank/SM_DEP_Trophy_Flying_Tank.SM_DEP_Trophy_Flying_Tank",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Rabbit_Variant_Snow_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Rabbit_Snow_Var.BP_Trophy_Rabbit_Snow_Var_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rabbit_Var/SM_DEP_Trophy_Rabbit_Var.SM_DEP_Trophy_Rabbit_Var",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Flesh_Sac_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Flesh_Sac.BP_Trophy_Flesh_Sac_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rabbit_Var/SM_DEP_Trophy_Rabbit_Var.SM_DEP_Trophy_Rabbit_Var",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Sandscuttle_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Sandscuttle.BP_Trophy_Sandscuttle_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rabbit_Var/SM_DEP_Trophy_Rabbit_Var.SM_DEP_Trophy_Rabbit_Var",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Mange_Wolf_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Mange_Wolf.BP_Trophy_Mange_Wolf_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rabbit_Var/SM_DEP_Trophy_Rabbit_Var.SM_DEP_Trophy_Rabbit_Var",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Mange_Wolf_Alpha_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Mange_Alpha_Wolf.BP_Trophy_Mange_Alpha_Wolf_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rabbit_Var/SM_DEP_Trophy_Rabbit_Var.SM_DEP_Trophy_Rabbit_Var",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Ghost_Crocodile_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Ghost_Croc.BP_Trophy_Ghost_Croc_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Tophy_Ghost_Croc/SM_DEP_Trophy_Ghost_Croc.SM_DEP_Trophy_Ghost_Croc",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Geothermal_Spider_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Geothermal_Spider.BP_Trophy_Geothermal_Spider_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Spider_Trophy.T_ITEM_Spider_Trophy",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Geothermal_Spider_Trophy-DeployableName\", \"Ground\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Spider/SM_DEP_TROPHY_SPIDER_GROUND.SM_DEP_TROPHY_SPIDER_GROUND",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Geothermal_Spider_Trophy_Wall",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Geothermal_Spider_Wall.BP_Trophy_Geothermal_Spider_Wall_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Spider_Trophy_Wall.T_ITEM_Spider_Trophy_Wall",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Geothermal_Spider_Trophy_Wall-DeployableName\", \"Wall\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Spider/SM_DEP_TROPHY_SPIDER_WALL.SM_DEP_TROPHY_SPIDER_WALL",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Geothermal_Bat_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Bat_Geothermal.BP_Trophy_Bat_Geothermal_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Bat/SM_DEP_Trophy_Bat.SM_DEP_Trophy_Bat",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Enemy_Turret_Flamethrower",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Flamethrower_Turret_Enemy.BP_Flamethrower_Turret_Enemy_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Turret_T4/SM_DEP_Turret_T4_Flamethrower_Combined.SM_DEP_Turret_T4_Flamethrower_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'",
+            "NavigationFallbackExtents": {
+                "X": 1,
+                "Y": 1,
+                "Z": 1
+            }
+        },
+        {
+            "Name": "Mission_Device_EDEN",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/MissionCommunication/BP_Mission_Device_EDEN.BP_Mission_Device_EDEN_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_GreatHunt_Comms/SM_DEP_Bench_GreatHunt_Comms.SM_DEP_Bench_GreatHunt_Comms",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "DeployCollisionExtentOffset": {
+                "Z": -100
+            }
+        },
+        {
+            "Name": "Landing_Pad_Prop",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Prop/BP_Prop_LandingPad.BP_Prop_LandingPad_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/LandingPad_T4/SM_DEP_LandingPad_T4_Combined.SM_DEP_LandingPad_T4_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_CONC.SFX_BLD_CONC",
+            "SnapToSurfaceNormal": false,
+            "MaxSurfaceSnapAngle": 20,
+            "SupportsCustomRotation": false
         }
     ]
 }

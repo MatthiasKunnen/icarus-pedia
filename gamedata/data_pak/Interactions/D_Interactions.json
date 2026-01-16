@@ -775,9 +775,14 @@
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Inventory_Take-InteractionText\", \"Take Items\")"
         },
         {
-            "Name": "Interact_AccessCardDoor",
-            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_AcessCardDoor.BP_Interactable_AcessCardDoor_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_AccessCardDoor-InteractionText\", \"Use Access Card\")"
+            "Name": "Interact_LockedDoor",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Locked_Door.BP_Interactable_Locked_Door_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_LockedDoor-InteractionText\", \"Open Door\")"
+        },
+        {
+            "Name": "Interact_SecurityDoor",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Security_Door.BP_Interactable_Security_Door_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_SecurityDoor-InteractionText\", \"Enter Pin\")"
         },
         {
             "Name": "Interact_Satellite_Arm",
@@ -800,6 +805,21 @@
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_UnClaimPad.BP_Interactable_UnClaimPad_C",
             "InteractCooldown": 0.10000000149011612,
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Unclaim_LandingPad-InteractionText\", \"Unclaim Landing Pad\")"
+        },
+        {
+            "Name": "Interact_EDEN_NPC_Reward",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_EDEN_NPC_Reward.BP_Interactable_EDEN_NPC_Reward_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_EDEN_NPC_Reward-InteractionText\", \"Claim Reward\")"
+        },
+        {
+            "Name": "Interact_PresentFish",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_PresentFish.BP_Interactable_PresentFish_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_PresentFish-InteractionText\", \"Present Fish\")"
+        },
+        {
+            "Name": "Interact_EndContest",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_EndContest.BP_Interactable_EndContest_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_EndContest-InteractionText\", \"End Fishing Contest\")"
         }
     ]
 }

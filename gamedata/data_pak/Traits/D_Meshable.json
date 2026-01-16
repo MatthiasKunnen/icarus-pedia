@@ -7924,15 +7924,15 @@
         },
         {
             "Name": "Mesh_Flare",
-            "ItemMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_Flare.BP_SkeletalItem_Flare_C",
-            "EquipHandMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot"
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_Yeti_Trophy",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Yeti_Trophy.BP_Yeti_Trophy_C"
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Yeti.BP_Trophy_Yeti_C"
         },
         {
             "Name": "Mesh_Synthetic_Armor_Pack",
@@ -7959,8 +7959,7 @@
         },
         {
             "Name": "Mesh_Laser_Pistol_Ammo",
-            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_Laser_Pistol_Ammo.BP_Laser_Pistol_Ammo_C"
+            "ItemMesh": "/Game/ASS/WEP/SM_Buckshot.SM_Buckshot"
         },
         {
             "Name": "Mesh_Attachment_Laser",

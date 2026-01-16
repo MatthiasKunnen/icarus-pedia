@@ -1544,6 +1544,12 @@
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Irradiated_Prospector-EventDescription\", \"Killed Spectre\")",
             "SharedExperience": true,
             "ExperienceGranted": 2250
+        },
+        {
+            "Name": "FishingContest",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"FishingContest-EventDescription\", \"Fishing Contest Participation\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 5000
         }
     ]
 }

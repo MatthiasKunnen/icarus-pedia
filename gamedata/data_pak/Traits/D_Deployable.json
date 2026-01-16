@@ -8033,10 +8033,6 @@
                 {
                     "RowName": "Enemy_Turret_Pistol",
                     "DataTableName": "D_DeployableSetup"
-                },
-                {
-                    "RowName": "Enemy_Turret_NPC",
-                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false,
@@ -10318,6 +10314,335 @@
             "Variants": [
                 {
                     "RowName": "Reaver_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Camera",
+            "Variants": [
+                {
+                    "RowName": "Prop_Camera",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prop_Mug",
+            "Variants": [
+                {
+                    "RowName": "Prop_Mug_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_E",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_F",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_G",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_H",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_I",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_J",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_K",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_L",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_M",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Prop_Mug_N",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Slinker_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Slinker_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Chew_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Chew_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Bounder_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Bounder_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Tundra_Deer_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Tundra_Deer_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Hopping_Creature_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Hopping_Creature_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Hopping_Creature_Trophy_Swamp",
+            "Variants": [
+                {
+                    "RowName": "Hopping_Creature_Swamp_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Stomper_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Stomper_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Stomper_Matriach_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Stomper_Matriach_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Giant_Roach_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Giant_Roach_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Dragonfly_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Dragonfly_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Flightless_Tank_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Flightless_Tank_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Flying_Tank_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Flying_Tank_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Sandwyrm_Queen_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Sandwyrm_Queen_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Rabbit_Variant_Snow_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Rabbit_Variant_Snow_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Flesh_Sac_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Flesh_Sac_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Sandscuttle_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Sandscuttle_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Mange_Wolf_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Mange_Wolf_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Mange_Wolf_Alpha_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Mange_Wolf_Alpha_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Ghost_Crocodile_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Ghost_Crocodile_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Geothermal_Spider_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Geothermal_Spider_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Geothermal_Spider_Trophy_Wall",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Geothermal_Bat_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Geothermal_Bat_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Enemy_Turret_Flamethrower",
+            "Variants": [
+                {
+                    "RowName": "Enemy_Turret_Flamethrower",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Enemy_Turret_NPC",
+            "Variants": [
+                {
+                    "RowName": "Enemy_Turret_NPC",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Mission_Device_EDEN",
+            "Variants": [
+                {
+                    "RowName": "Mission_Device_EDEN",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Landing_Pad_Prop",
+            "Variants": [
+                {
+                    "RowName": "Landing_Pad_Prop",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

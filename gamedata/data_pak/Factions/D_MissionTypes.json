@@ -103,6 +103,16 @@
             "Name": "Fortification",
             "DisplayText": "NSLOCTEXT(\"D_MissionTypes\", \"Fortification-DisplayText\", \"Fortifying and Defending a Location\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/MissionIcons/T_ICON_MISSION_Fortification.T_ICON_MISSION_Fortification"
+        },
+        {
+            "Name": "Eden",
+            "DisplayText": "NSLOCTEXT(\"D_MissionTypes\", \"Eden-DisplayText\", \"Visit EDEN when Complete for a Specialised Reward\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MissionIcons/T_ICON_MISSION_Eden.T_ICON_MISSION_Eden"
+        },
+        {
+            "Name": "Taming",
+            "DisplayText": "NSLOCTEXT(\"D_MissionTypes\", \"Taming-DisplayText\", \"Tame and Raise Creatures\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MissionIcons/T_ICON_MISSION_Tame.T_ICON_MISSION_Tame"
         }
     ]
 }

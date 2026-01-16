@@ -3911,6 +3911,22 @@
             "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_Solar.SK_ITM_Backpack_Solar",
             "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
             "ArmourType": "Backpack"
+        },
+        {
+            "Name": "Polarbear_Head_Armor_Yeti",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_ARM_Head_Yeti.SK_CHA_ARM_Head_Yeti",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_ARM_Head_Yeti.SK_CHA_ARM_Head_Yeti",
+            "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_ARM_Head_PolarBear_Skeleton_AnimBlueprint.SK_CHA_ARM_Head_PolarBear_Skeleton_AnimBlueprint_C",
+            "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_ARM_Head_PolarBear_Skeleton_AnimBlueprint.SK_CHA_ARM_Head_PolarBear_Skeleton_AnimBlueprint_C",
+            "ArmourStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 4,
+                "(Value=\"BaseColdResistance_%\")": 7,
+                "(Value=\"BaseExposureResistance_+%\")": 4
+            },
+            "ArmourType": "Head",
+            "ArmourSet": {
+                "RowName": "Polarbear"
+            }
         }
     ]
 }

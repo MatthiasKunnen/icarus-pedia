@@ -89,6 +89,9 @@
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Jump_Montage.Buffalo_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage"
             },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Buffalo"
+            },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-0\", \"Thales\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Buffalo-DefaultNames-1\", \"Pythagoras\")",
@@ -249,6 +252,7 @@
             "AISetup": {
                 "RowName": "Mount_SwampQuad"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_SwampQuad.T_Icon_Map_SwampQuad",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle_Standard"
             },
@@ -268,7 +272,7 @@
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Swamp_Quadruped/Anims/SwampQuad_Jump_Montage.SwampQuad_Jump_Montage"
             },
             "InventoryPreviewCameraSettings": {
-                "RowName": "Mount_Moa"
+                "RowName": "Mount_SwampQuad"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"SwampQuad-DefaultNames-0\", \"Ranginui\")",
@@ -310,6 +314,7 @@
             "AISetup": {
                 "RowName": "Mount_Snow_Striker"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Striker.T_Icon_Map_Striker",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle_Standard"
             },
@@ -329,7 +334,7 @@
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Moa/Anims/Moa_Jump_Montage.Moa_Jump_Montage"
             },
             "InventoryPreviewCameraSettings": {
-                "RowName": "Mount_Moa"
+                "RowName": "Mount_Striker"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Snow_Striker-DefaultNames-0\", \"Ranginui\")",
@@ -391,6 +396,9 @@
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Zebra/Anim/Montages/Zebra_Jump_Montage.Zebra_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Zebra/Anim/Wooly_zebra_Attack_Montage.Wooly_zebra_Attack_Montage"
             },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Chew"
+            },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-0\", \"Boris\")",
                 "NSLOCTEXT(\"D_Mounts\", \"WoolyZebra-DefaultNames-1\", \"Natalya\")",
@@ -428,6 +436,7 @@
             "AISetup": {
                 "RowName": "Mount_BlueBack"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_blueback.T_Icon_Map_blueback",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -448,6 +457,9 @@
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Eating_Montage.BlueBack_Eating_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Jump_Montage.BlueBack_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Blueback/Anim/BlueBack_Attack_Montage.BlueBack_Attack_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Blueback"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Blueback-DefaultNames-0\", \"Arnold\")",
@@ -575,6 +587,9 @@
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Attack_Montage.Buffalo_Attack_Montage",
                 "(TagName=\"BT.Mount.Animation.Attack.Charge\")": "/Game/ASS/CRE/Tusker/Animations/Tusker_Charge_Montage.Tusker_Charge_Montage"
             },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Tusker"
+            },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-0\", \"Odin\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Tusker-DefaultNames-1\", \"Thor\")",
@@ -632,6 +647,9 @@
                 "(TagName=\"BT.Mount.Animation.Dodge.Backwards\")": "/Game/ThirdPartyAssets/AnimalsVol01/Wolf/Meshes/Animations/Wolf_Hop_Montage.Wolf_Hop_Montage",
                 "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ThirdPartyAssets/AnimalsVol01/Wolf/Meshes/Animations/Wolf_Drinking_Montage_2.Wolf_Drinking_Montage_2"
             },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Wolf"
+            },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Wolf-DefaultNames-0\", \"Arthur\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Wolf-DefaultNames-1\", \"Merlin\")",
@@ -667,6 +685,7 @@
             "AISetup": {
                 "RowName": "Tamed_Snow_Wolf"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_ArcticWolf.T_Icon_Map_ArcticWolf",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -684,6 +703,9 @@
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ThirdPartyAssets/AnimalsVol01/Wolf/Meshes/Animations/Wolf_Attack_Montage.Wolf_Attack_Montage",
                 "(TagName=\"BT.Mount.Animation.Dodge.Backwards\")": "/Game/ThirdPartyAssets/AnimalsVol01/Wolf/Meshes/Animations/Wolf_Hop_Montage.Wolf_Hop_Montage",
                 "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ThirdPartyAssets/AnimalsVol01/Wolf/Meshes/Animations/Wolf_Drinking_Montage_2.Wolf_Drinking_Montage_2"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Wolf"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Snow_Wolf-DefaultNames-0\", \"Arthur\")",
@@ -721,6 +743,7 @@
             "AISetup": {
                 "RowName": "Tamed_Desert_Wolf"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_DesertWolf.T_Icon_Map_DesertWolf",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -737,6 +760,9 @@
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Wolf/DesertWolf/Animation/Wolf_Jump_Montage.Wolf_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Wolf/DesertWolf/Animation/Wolf_Attack_Montage.Wolf_Attack_Montage",
                 "(TagName=\"BT.Mount.Animation.Dodge.Backwards\")": "/Game/ThirdPartyAssets/AnimalsVol01/Wolf/Meshes/Animations/Wolf_Hop_Montage.Wolf_Hop_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Wolf"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Wolf_Desert-DefaultNames-0\", \"Anansi\")",
@@ -797,7 +823,7 @@
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Zebra/Anim/Montages/zebra_Attack_Montage.zebra_Attack_Montage"
             },
             "InventoryPreviewCameraSettings": {
-                "RowName": "Mount_Horse"
+                "RowName": "Mount_Zebra"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Zebra-DefaultNames-0\", \"Spot\")",
@@ -840,6 +866,7 @@
             "AISetup": {
                 "RowName": "Mini_Hippo_Quest"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Hippo.T_Icon_Map_Hippo",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -857,6 +884,9 @@
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Wild_Boar/Animation/Boar_Eating_Montage.Boar_Eating_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Baby_Wildboar/Animation/Boar_Jump_Montage.Boar_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Wild_Boar/Animation/Boar_Attack_Montage.Boar_Attack_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Striker"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Mini_Hippo-DefaultNames-0\", \"Snuffles\")"
@@ -878,6 +908,7 @@
             "AISetup": {
                 "RowName": "Chicken"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Chicken.T_Icon_Map_Chicken",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -891,6 +922,9 @@
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Eat_Montage.Chicken_Eat_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Jump_Montage.Chicken_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.LayEgg\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_LayEgg_Montage.Chicken_LayEgg_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Chicken"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Chicken-DefaultNames-0\", \"Fowler\")",
@@ -923,6 +957,7 @@
             "AISetup": {
                 "RowName": "Sheep"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Sheep.T_Icon_Map_Sheep",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -936,6 +971,9 @@
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Eating_Montage.Sheep_Eating_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Jump_Montage.Sheep_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Eating_Montage.Sheep_Eating_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Sheep"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Sheep-DefaultNames-0\", \"Shaun\")",
@@ -986,6 +1024,9 @@
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Wild_Boar/Animation/Boar_Attack_Montage.Boar_Attack_Montage",
                 "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ASS/CRE/Wild_Boar/Animation/Boar_Eating_Montage.Boar_Eating_Montage"
             },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Sheep"
+            },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Wild_Boar-DefaultNames-0\", \"Thicket\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Wild_Boar-DefaultNames-1\", \"Bramble\")",
@@ -1022,7 +1063,7 @@
             "AISetup": {
                 "RowName": "Tamed_Forest_Wolf"
             },
-            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Wolf.T_Icon_Map_Wolf",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Dog.T_Icon_Map_Dog",
             "SupportedCombatStates": [
                 "DoNotEngage",
                 "NeutralEngagement",
@@ -1078,7 +1119,7 @@
             "AISetup": {
                 "RowName": "Tamed_Forest_Wolf"
             },
-            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Wolf.T_Icon_Map_Wolf",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Dog.T_Icon_Map_Dog",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -1148,6 +1189,9 @@
                 "(TagName=\"BT.Mount.Animation.Attack\")": "/Game/ASS/CRE/Cougar/Animations/Lion_F_Attack_Montage.Lion_F_Attack_Montage",
                 "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ASS/CRE/Cougar/Animations/Cat_Drinking_Montage_2.Cat_Drinking_Montage_2"
             },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Cat"
+            },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Cat-DefaultNames-0\", \"Marie\")",
                 "NSLOCTEXT(\"D_Mounts\", \"Cat-DefaultNames-1\", \"Duchess\")",
@@ -1204,7 +1248,7 @@
                 "(TagName=\"BT.Mount.Animation.Pet\")": "/Game/ASS/CRE/Zebra/Anim/Montages/Horse_Idle_Montage.Horse_Idle_Montage"
             },
             "InventoryPreviewCameraSettings": {
-                "RowName": "Mount_Horse"
+                "RowName": "Mount_Horse_Standard"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Horse_Standard-DefaultNames-0\", \"Sir Percival\")",
@@ -1311,6 +1355,7 @@
             "AISetup": {
                 "RowName": "Cow"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Cow.T_Icon_Map_Cow",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -1357,6 +1402,7 @@
             "AISetup": {
                 "RowName": "Bull"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Bull.T_Icon_Map_Bull",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -1409,6 +1455,7 @@
             "AISetup": {
                 "RowName": "Rooster"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_MapRooster.T_Icon_MapRooster",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -1426,6 +1473,9 @@
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Eat_Montage.Chicken_Eat_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_Jump_Montage.Chicken_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.LayEgg\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_LayEgg_Montage.Chicken_LayEgg_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Chicken"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Rooster-DefaultNames-0\", \"Cluck\")",
@@ -1458,6 +1508,7 @@
             "AISetup": {
                 "RowName": "Ram"
             },
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_RAM.T_Icon_Map_RAM",
             "SupportedCombatStates": [
                 "DoNotEngage"
             ],
@@ -1475,6 +1526,9 @@
                 "(TagName=\"BT.Mount.Animation.Eat\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Eating_Montage.Sheep_Eating_Montage",
                 "(TagName=\"BT.Mount.Animation.Jump\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Jump_Montage.Sheep_Jump_Montage",
                 "(TagName=\"BT.Mount.Animation.Drink\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Eating_Montage.Sheep_Eating_Montage"
+            },
+            "InventoryPreviewCameraSettings": {
+                "RowName": "Mount_Sheep"
             },
             "DefaultNames": [
                 "NSLOCTEXT(\"D_Mounts\", \"Ram-DefaultNames-0\", \"Pan\")",
@@ -1507,7 +1561,7 @@
             "AISetup": {
                 "RowName": "Mount_WoollyMammoth"
             },
-            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Mammoth.Icon_Map_Mammoth",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_WoolMammoth.T_Icon_Map_WoolMammoth",
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },

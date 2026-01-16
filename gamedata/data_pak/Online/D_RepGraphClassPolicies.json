@@ -797,6 +797,24 @@
             "Settings": {
                 "RowName": "Spatialize_Default"
             }
+        },
+        {
+            "Name": "Icarus.BP_Uranium_Emitter",
+            "Class": "/Game/BP/Objects/World/Resources/Meta/BP_Uranium_Emitter.BP_Uranium_Emitter_C",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
+        },
+        {
+            "Name": "Icarus.FishBoardController",
+            "Class": "/Script/Icarus.FishBoardController",
+            "Description": "Always Relevant (all connections)",
+            "Policy": "RelevantAllConnections",
+            "Settings": {
+                "RowName": "AlwaysRelevant_Default"
+            }
         }
     ]
 }

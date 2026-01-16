@@ -4542,7 +4542,6 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 4500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
-                "(Value=\"BaseMaximumHealth_+\")": 1500,
                 "(Value=\"BaseCharacterMass_+\")": 25,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 1000,
@@ -4565,6 +4564,7 @@
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 2,
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 70
             },
+            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Health.C_Drone_Health'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4577,7 +4577,6 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 5500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 4500,
-                "(Value=\"BaseMaximumHealth_+\")": 2000,
                 "(Value=\"BaseCharacterMass_+\")": 40,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 800,
@@ -4600,6 +4599,7 @@
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 2,
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 50
             },
+            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Scout_Health.C_Drone_Scout_Health'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4612,7 +4612,6 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 3500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2000,
-                "(Value=\"BaseMaximumHealth_+\")": 3000,
                 "(Value=\"BaseCharacterMass_+\")": 60,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 800,
@@ -4633,8 +4632,10 @@
                 "(Value=\"BaseFlyerFlightDurationDeviation_+\")": 500,
                 "(Value=\"BaseFlyerForwardMovementDurationDeviation_+\")": 150,
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
-                "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 90
+                "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 90,
+                "(Value=\"BaseExplosiveDamage_+\")": 200
             },
+            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Hunter_Health.C_Drone_Hunter_Health'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4647,7 +4648,6 @@
                 "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 4500,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
                 "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
-                "(Value=\"BaseMaximumHealth_+\")": 500,
                 "(Value=\"BaseCharacterMass_+\")": 25,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 50,
@@ -4670,6 +4670,7 @@
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 30
             },
+            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Carrier_Health.C_Drone_Carrier_Health'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -5835,7 +5836,7 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 75
             },
             "Health": "CurveFloat'/Game/Data/AI/C_Tame_TundraMonkey_Health.C_Tame_TundraMonkey_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_TundraMonkeyMeleeDamage.C_TundraMonkeyMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_TundraMonkeyMeleeDamage.C_Tame_TundraMonkeyMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
