@@ -23,7 +23,7 @@ import type {ItemStaticDataTable} from '../types/item-static.interface.js';
 import type {ItemTemplateDataTable} from '../types/item-templates.interface.js';
 import type {ItemableDataTable} from '../types/itemable.interface.js';
 import type {ModifierStateDataTable} from '../types/modifier-states.interface.js';
-import type {ProcessingDataTable} from '../types/processing.interface.js';
+import type {ProcessingDataTable, ProcessingFileRow} from '../types/processing.interface.js';
 import type {
     ElementCount,
     ProcessorRecipeResource,
@@ -354,6 +354,11 @@ export function summarizeData(
             durability = durable.get(item.Durable.RowName);
         }
 
+        let itemProcessing: ProcessingFileRow | undefined;
+        if (refIsSet(item.Processing)) {
+            itemProcessing = processing.get(item.Processing.RowName);
+        }
+
         mappedItems[item.Name] = {
             displayName: displayName,
             icon: processIcon(itemable.Icon),
@@ -361,6 +366,7 @@ export function summarizeData(
             durability: durability?.Max_Durability,
             flavorText: flavorText,
             type: type,
+            requiresShelter: itemProcessing?.bRequiresShelter,
             recipes: [],
             ingredientIn: [],
             workshopItem: workshopItem,

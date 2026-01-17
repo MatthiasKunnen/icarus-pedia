@@ -41,6 +41,7 @@ export const load = async ({params}) => {
         }),
         modifier: itemModifier,
         recipes: item.recipes.map(r => getRecipe(r, data)),
+        requiresShelter: item.requiresShelter,
         stackSize: item.stackSize,
         stats: itemStats,
         weight: item.weight,

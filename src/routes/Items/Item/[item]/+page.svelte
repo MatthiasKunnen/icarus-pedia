@@ -40,6 +40,10 @@
                     <dt>Durability:</dt>
                     <dd>{data.durability}</dd>
                 {/if}
+                {#if data.requiresShelter !== undefined}
+                    <dt>Requires shelter:</dt>
+                    <dd>{data.requiresShelter ? 'Yes' : 'No'}</dd>
+                {/if}
             </dl>
         </div>
     </div>

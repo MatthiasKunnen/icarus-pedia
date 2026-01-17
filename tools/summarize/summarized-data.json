@@ -3734,6 +3734,7 @@
             "description": "A bench with a 3d printer to create any attachment. Allows faster altering of items than the basic Alteration Bench.",
             "durability": 500,
             "flavorText": "Think outside the box.",
+            "requiresShelter": true,
             "recipes": [
                 "Advanced_Alteration_Bench"
             ],
@@ -3763,6 +3764,7 @@
             "description": "Craft and assemble advanced protective items and garments.",
             "durability": 1000,
             "flavorText": "With the ability to weave platinum into fiber and cure leather on a drying rack prospectors can craft tougher outfits for the harsh environment of Icarus.",
+            "requiresShelter": true,
             "recipes": [
                 "Advanced_Armor_Bench"
             ],
@@ -3871,6 +3873,7 @@
             "description": "A full food preparation area.",
             "durability": 1000,
             "flavorText": "Cleaner and more durable than other benches on Icarus. ",
+            "requiresShelter": true,
             "recipes": [
                 "Advanced_Kitchen_Bench"
             ],
@@ -4113,6 +4116,7 @@
             "description": "A bench with built-in drill press for crafting attachments and a workspace for altering Items.",
             "durability": 500,
             "flavorText": "Time to get creative.",
+            "requiresShelter": true,
             "recipes": [
                 "Alteration_Bench"
             ],
@@ -6341,6 +6345,7 @@
             "description": "Specialised bench for crafting saddles, troughs, carts and various feeds.",
             "durability": 1000,
             "flavorText": "Your one stop show for all your animal needs.",
+            "requiresShelter": false,
             "recipes": [
                 "Animal_Bench"
             ],
@@ -6565,6 +6570,7 @@
             "description": "Heavyweight work surface for iron and steel tools, using ingots smelted in their appropriate furnaces.",
             "durability": 500,
             "flavorText": "Arguably the simplest fabrication system known to humanity.",
+            "requiresShelter": true,
             "recipes": [
                 "Anvil_Bench"
             ],
@@ -6578,6 +6584,7 @@
             "description": "A versatile forge powered by coal for crafting various weapons and tools.",
             "durability": 1500,
             "flavorText": "Try to keep all digits away from the anvil...",
+            "requiresShelter": false,
             "recipes": [
                 "Anvil_Bench_T3"
             ],
@@ -6591,6 +6598,7 @@
             "description": "An impressive foundry powered by electricity for crafting various higher quality weapons and tools.",
             "durability": 10000,
             "flavorText": "The UDA states that it has been at least seven days since the last accident using this piece of equipment...",
+            "requiresShelter": true,
             "recipes": [
                 "Anvil_Bench_T4"
             ],
@@ -7031,6 +7039,7 @@
             "description": "Craft and assemble various protective items and garments.",
             "durability": 500,
             "flavorText": "Basic fabric, leatherwork and armorers tools allow you to fashion a range of clothing and protective wear from natural materials and fibers.",
+            "requiresShelter": true,
             "recipes": [
                 "Armor_Bench"
             ],
@@ -9296,6 +9305,7 @@
             "description": "A modular workspace for working with all kinds of meat products.",
             "durability": 750,
             "flavorText": "Be careful, the knives are sharp.",
+            "requiresShelter": true,
             "recipes": [
                 "Butchery_Bench"
             ],
@@ -9357,6 +9367,7 @@
             "description": "A place to cook food and fend the cold away.",
             "durability": 1000,
             "flavorText": "One of the simplest sources of heat available on Icarus, the campfire burns sticks and wood to cook basic foods. Toxins in the planets atmosphere do not interfere with combustion.",
+            "requiresShelter": false,
             "recipes": [
                 "Campfire"
             ],
@@ -9686,6 +9697,7 @@
             "description": "Workbench and tools for advanced wooden crafting.",
             "durability": 500,
             "flavorText": "The rapid growth of trees on Icarus makes for noticeably less durable wooden creations.",
+            "requiresShelter": true,
             "recipes": [
                 "Carpentry_Bench"
             ],
@@ -9698,6 +9710,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Carpentry_Bench_T4",
             "description": "Powered workbench and machine tools for advanced woodworking.",
             "durability": 1500,
+            "requiresShelter": true,
             "recipes": [
                 "Carpentry_Bench_T4"
             ],
@@ -10517,6 +10530,7 @@
             "description": "Craft concrete construction elements.",
             "durability": 500,
             "flavorText": "Concrete is composed of two essential elements: aggregate and a cement binder, with ratios depending on the specific design mix. Specialized concrete engineers are rare on Icarus, though.",
+            "requiresShelter": true,
             "recipes": [
                 "Cement_Mixer"
             ],
@@ -10760,6 +10774,7 @@
             "description": "A rough but effective laboratory.",
             "durability": 1500,
             "flavorText": "Unlikely to win anyone a Nobel Prize, but sufficient for the average Icarus alchemist.",
+            "requiresShelter": true,
             "recipes": [
                 "Chemistry_Bench"
             ],
@@ -11964,6 +11979,7 @@
             "description": "Rapidly decomposes organic matter into biofuel, which is collected by adding a biofuel can. Can be connected to a water network for increased processing speed.",
             "durability": 1500,
             "flavorText": "Requires a fuel can to be added to collect biofuel.",
+            "requiresShelter": false,
             "recipes": [
                 "Composter"
             ],
@@ -11977,6 +11993,7 @@
             "description": "Advanced biofuel unit for accelerated production.",
             "durability": 2000,
             "flavorText": "An upshot of the Climate Emergency was a focus on efficient, sustainable technology that squeezes every ounce of energy from nature.",
+            "requiresShelter": true,
             "recipes": [
                 "Composter_Electric"
             ],
@@ -11990,6 +12007,7 @@
             "description": "Change your trash into Fertilizer with this simple composter. Items placed in this device will spoil at an accelerated rate.",
             "durability": 500,
             "flavorText": "Reduce, reuse, recycle",
+            "requiresShelter": false,
             "recipes": [
                 "Composter_Wood"
             ],
@@ -12067,6 +12085,7 @@
             "description": "An insulated, high-temperature furnace for smelting a wide range of materials including steel.",
             "durability": 1500,
             "flavorText": "Icaruss oxygen levels may slow combustion, but ceramic insulation produces temperatures sufficient for smelting more advanced alloys.",
+            "requiresShelter": true,
             "recipes": [
                 "Concrete_Furnace"
             ],
@@ -12693,6 +12712,7 @@
             "description": "A food preparation and butchering bench.",
             "durability": 750,
             "flavorText": "While it may not deliver high cuisine, the Cooking Station rewards the attentions of an attentive chef with a swifter, more sustaining food supply.",
+            "requiresShelter": true,
             "recipes": [
                 "Cooking_Station"
             ],
@@ -13023,6 +13043,7 @@
             "description": "A sturdy construction bench, though useless without shelter.",
             "durability": 500,
             "flavorText": "A heavy woodworking table that enables construction of improved tools, weapons and structural elements.",
+            "requiresShelter": true,
             "recipes": [
                 "Crafting_Bench"
             ],
@@ -14297,6 +14318,7 @@
             "description": "A rack for slowly drying various cuts of meat and curing leather.",
             "durability": 1000,
             "flavorText": "Jerky is always a winner",
+            "requiresShelter": false,
             "recipes": [
                 "Drying_Rack"
             ],
@@ -14372,6 +14394,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Armor_Bench",
             "description": "Powered workbench for advanced textiles production and maintenance.",
             "durability": 1500,
+            "requiresShelter": true,
             "recipes": [
                 "Electric_Armor_Bench"
             ],
@@ -14401,6 +14424,7 @@
             "description": "An electric fireplace, suitable for both basic cooking and heating.",
             "durability": 2000,
             "flavorText": "On Icarus, fire is both friend and foe.",
+            "requiresShelter": false,
             "recipes": [
                 "Electric_Fireplace"
             ],
@@ -14448,6 +14472,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Electric_Furnace_Large",
             "description": "A laboratory grade arc furnace, smelts basic and advanced materials alike.",
             "durability": 2000,
+            "requiresShelter": true,
             "recipes": [
                 "Electric_Furnace"
             ],
@@ -14474,6 +14499,7 @@
             "description": "A swifter, safer cooking system.",
             "durability": 750,
             "flavorText": "Less explosive than using home made biofuel.",
+            "requiresShelter": true,
             "recipes": [
                 "Electric_Stove"
             ],
@@ -15262,6 +15288,7 @@
             "description": "A machine that can process Volatile Exotics into usable materials.",
             "durability": 2000,
             "flavorText": "You probably should still keep a good distance from this thing.",
+            "requiresShelter": true,
             "recipes": [
                 "Exotic_Processor"
             ],
@@ -15450,6 +15477,7 @@
             "description": "A marvel of survival technology.",
             "durability": 2000,
             "flavorText": "Surprisingly simple for such a versatile machine, the Fabricator combines a flatbed CNC router with limited 3D alloy printing capabilities.",
+            "requiresShelter": true,
             "recipes": [
                 "Fabricator"
             ],
@@ -16084,6 +16112,7 @@
             "displayName": "Character Crafting",
             "icon": "Icons/Icon_PlayerCrafting",
             "description": "Characters can craft basic equipment necessary for survival.",
+            "requiresShelter": false,
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -16148,6 +16177,7 @@
             "description": "A place to craft Rods and Lures and to fillet Fish that youve caught.",
             "durability": 1000,
             "flavorText": "The stench of this bench...",
+            "requiresShelter": false,
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -16173,6 +16203,7 @@
             "description": "A large, stone-lined pit for swift cooking and heating.",
             "durability": 2000,
             "flavorText": "Flashroast a steak or an entire mammoth forequarter.",
+            "requiresShelter": false,
             "recipes": [
                 "Firepit"
             ],
@@ -16214,6 +16245,7 @@
             "description": "Cooks food swiftly and safely. Basically a large enclosed firepit, for a more homely feel.",
             "durability": 1000,
             "flavorText": "On Icarus, fire is both friend and foe.",
+            "requiresShelter": false,
             "recipes": [
                 "Fireplace"
             ],
@@ -17138,6 +17170,7 @@
             "description": "A place to craft Rods and Lures and to fillet Fish that youve caught.",
             "durability": 1000,
             "flavorText": "The stench of this bench...",
+            "requiresShelter": false,
             "recipes": [
                 "Fishing_Bench"
             ],
@@ -18998,6 +19031,7 @@
             "description": "A biofuel powered fireplace, suitable for both basic cooking and heating.",
             "durability": 2000,
             "flavorText": "On Icarus, fire is both friend and foe.",
+            "requiresShelter": false,
             "recipes": [
                 "Gas_Fireplace"
             ],
@@ -19862,6 +19896,7 @@
             "description": "Tools for creating glass items and construction elements.",
             "durability": 1000,
             "flavorText": "True glass-making originated in the Indus Valley in 1700 BCE, passing into the Mediterranean, then Africa and the rest of the world, before extending through space to Icarus in the mid 22nd century.",
+            "requiresShelter": true,
             "recipes": [
                 "Glassworking_Bench"
             ],
@@ -19974,6 +20009,7 @@
             "description": "A gilded fireplace that embodies the sleek, decorative essence of traditional Art Deco design.",
             "durability": 1500,
             "flavorText": "Art Deco is a decorative art and architectural style characterized by bold geometric patterns, and sleek lines which emerged in the 1920s and 30s on Earth.",
+            "requiresShelter": false,
             "recipes": [
                 "Gold_Fireplace"
             ],
@@ -20872,6 +20908,7 @@
             "description": "Craft, create, concoct.",
             "durability": 500,
             "flavorText": "Once the realm of witches and shaman, herbalism offers useful wisdom to those who can discern basic science from hocus pocus.",
+            "requiresShelter": true,
             "recipes": [
                 "Herbalism_Bench"
             ],
@@ -22376,6 +22413,7 @@
             "description": "An insulated, high-temperature furnace for smelting a wide range of materials including steel.",
             "durability": 1500,
             "flavorText": "Icaruss oxygen levels may slow combustion, but ceramic insulation produces temperatures sufficient for smelting more advanced alloys.",
+            "requiresShelter": true,
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -22387,6 +22425,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Electric_Furnace",
             "description": "A laboratory grade arc furnace, smelts basic and advanced materials alike.",
             "durability": 2000,
+            "requiresShelter": true,
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -22427,6 +22466,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Machining_Bench",
             "description": "Upgrades your manufacturing abilities with basic machine tools.",
             "durability": 1000,
+            "requiresShelter": true,
             "recipes": [
                 "Machining_Bench"
             ],
@@ -22456,6 +22496,7 @@
             "description": "A simple tool for crafting resins, pastes, medicines and more.",
             "durability": 250,
             "flavorText": "The tool of chefs, herbalists, apothecaries and alchemists.",
+            "requiresShelter": true,
             "recipes": [
                 "Mortar_And_Pestle"
             ],
@@ -22469,6 +22510,7 @@
             "description": "A more efficient oxidizer for processing oxite into oxygen.",
             "durability": 250,
             "flavorText": "Place oxite and an appropriate container into the dissolver to start filling it. Requires sulfur for fuel.",
+            "requiresShelter": true,
             "recipes": [
                 "Oxite_Dissolver"
             ],
@@ -22494,6 +22536,7 @@
             "description": "Fully processes animal carcasses for more resources.",
             "durability": 500,
             "flavorText": "As any hunter knows, preparing an animal can be a slow, messy, wasteful task. The right tools make all the difference.",
+            "requiresShelter": true,
             "recipes": [
                 "Skinning_Bench"
             ],
@@ -22507,6 +22550,7 @@
             "description": "A simple stone furnace for smelting iron, copper and steel.",
             "durability": 1000,
             "flavorText": "Bronze-age technology, spread to the stars.",
+            "requiresShelter": true,
             "recipes": [
                 "Stone_Furnace"
             ],
@@ -22549,6 +22593,7 @@
             "description": "A modular workspace for cooking and concocting complex recipes.",
             "durability": 750,
             "flavorText": "Prep advanced food recipes here to assist on your adventures",
+            "requiresShelter": true,
             "recipes": [
                 "Kitchen_Bench"
             ],
@@ -22588,6 +22633,7 @@
             "description": "An efficient, biofuel-powered cooking unit.",
             "durability": 750,
             "flavorText": "A well-crafted, solidly insulated stove for discerning off-world chefs.",
+            "requiresShelter": true,
             "recipes": [
                 "Kitchen_Stove"
             ],
@@ -24150,6 +24196,7 @@
             "description": "Tools for working and shaping stone.",
             "durability": 500,
             "flavorText": "The art of stonework is untouched by the distance between worlds.",
+            "requiresShelter": true,
             "recipes": [
                 "Masonry_Bench"
             ],
@@ -24163,6 +24210,7 @@
             "description": "A manual workspace for detailed stonework and crafting.",
             "durability": 1000,
             "flavorText": "The skill and precision of a mason can never be replaced by machines...",
+            "requiresShelter": true,
             "recipes": [
                 "Masonry_Bench_T3"
             ],
@@ -24175,6 +24223,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Masonry_Bench_T4",
             "description": "Powered bench for heavy stonework and carving.",
             "durability": 1500,
+            "requiresShelter": true,
             "recipes": [
                 "Masonry_Bench_T4"
             ],
@@ -24187,6 +24236,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Material_Processor",
             "description": "Swiftly craft advanced ingredients and resources.",
             "durability": 1000,
+            "requiresShelter": true,
             "recipes": [
                 "Material_Processor"
             ],
@@ -24234,6 +24284,7 @@
             "description": "Used for creating tonics, pills and other medicines.",
             "durability": 750,
             "flavorText": "Slots nicely into your kitchen.",
+            "requiresShelter": true,
             "recipes": [
                 "Medicine_Bench"
             ],
@@ -25899,6 +25950,7 @@
             "description": "A simple, prefabricated campfire for heat, light and cooking, designed to remain lit under all conditions.",
             "durability": 30000,
             "flavorText": "Ancient technolgy meets modern construction.",
+            "requiresShelter": false,
             "recipes": [],
             "ingredientIn": [],
             "workshopItem": {
@@ -26523,6 +26575,7 @@
             "description": "A premade furnace for all of your basic smelting needs",
             "durability": 30000,
             "flavorText": "Basic but gets the job done",
+            "requiresShelter": true,
             "recipes": [],
             "ingredientIn": [],
             "workshopItem": {
@@ -29222,6 +29275,7 @@
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Biofuel_Oxite_Dissolver",
             "description": "A faster and more efficient, biofuel-powered oxidizer with greater storage.",
             "durability": 1000,
+            "requiresShelter": true,
             "recipes": [
                 "Metal_Oxite_Dissolver"
             ],
@@ -29708,6 +29762,7 @@
             "description": "A simple tool for heating solutions.",
             "durability": 30000,
             "flavorText": "Wouldnt find a chemistry lab without one of these.",
+            "requiresShelter": false,
             "recipes": [
                 "Mission_Burner"
             ],
@@ -32836,6 +32891,7 @@
             "description": "A wrought iron stove for cooking basic meals.",
             "durability": 750,
             "flavorText": "Hearty and filling, the warm meals provided by this stove are the next steps towards culinary perfection.",
+            "requiresShelter": true,
             "recipes": [
                 "PotBellyStove"
             ],
@@ -33464,6 +33520,7 @@
             "description": "A mortar and pestle used for grinding up elements.",
             "durability": 250,
             "flavorText": "Science!",
+            "requiresShelter": true,
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 20,
@@ -36614,6 +36671,7 @@
             "description": "A bench for crafting decorations from a range of tech levels.",
             "durability": 500,
             "flavorText": "Pick up a new hobby, today!",
+            "requiresShelter": false,
             "recipes": [
                 "Rustic_Decoration_Bench"
             ],
@@ -38413,6 +38471,7 @@
             "description": "A simple tool which grinds up fruit and vegetables and extracts their seeds.",
             "durability": 250,
             "flavorText": "An essential tool for Farmers.",
+            "requiresShelter": false,
             "recipes": [
                 "Seed_Extractor"
             ],
@@ -39393,6 +39452,7 @@
             "description": "A helpful device that can preserve food, using the power of smoke.",
             "durability": 750,
             "flavorText": "The UDA advises you to use this item in a well-ventilated area.",
+            "requiresShelter": false,
             "recipes": [
                 "T3_Smoker"
             ],
@@ -40778,6 +40838,7 @@
             "description": "A classically built fireplace. Built for longevity, can be used to cook and heat.",
             "durability": 1500,
             "flavorText": "Still used on earth to this day.",
+            "requiresShelter": false,
             "recipes": [
                 "Stone_Brick_Fireplace"
             ],
@@ -41707,6 +41768,7 @@
             "description": "Cleans Volatile Exotics and processes select boss material into biomass for use in the orbital Biolab.",
             "durability": 2000,
             "flavorText": "Keep all hands and feet clear when in use.",
+            "requiresShelter": true,
             "recipes": [
                 "T3_Cleaning_Device"
             ],
@@ -42738,6 +42800,7 @@
             "description": "Taxidermy tools and mounting equipment.",
             "durability": 500,
             "flavorText": "Make a record of your victories, because planet is barely aware of you.",
+            "requiresShelter": true,
             "recipes": [
                 "Trophy_Bench"
             ],
@@ -43432,6 +43495,7 @@
             "description": "A mill using mechanical power from wind to grind various items found on Icarus.",
             "durability": 2000,
             "flavorText": "A tried and true method, used for 100s of years.",
+            "requiresShelter": false,
             "recipes": [
                 "Windmill"
             ],
@@ -43777,6 +43841,7 @@
             "description": "For keeping you warm in cold environments and basic cooking.",
             "durability": 1000,
             "flavorText": "Youre a true survivor now.",
+            "requiresShelter": false,
             "recipes": [
                 "Wood_Burner"
             ],
@@ -44711,6 +44776,7 @@
             "description": "A convenient cooking solution for a prospector on the go.",
             "durability": 30000,
             "flavorText": "Powered By Hydrazine",
+            "requiresShelter": false,
             "recipes": [],
             "ingredientIn": [],
             "workshopItem": {

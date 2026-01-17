@@ -33,6 +33,10 @@ export interface Item {
      * - bandage effect
      */
     modifier: ItemModifier | undefined;
+    /**
+     * Only set for processors.
+     */
+    requiresShelter?: boolean;
     workshopItem: WorkshopItem | undefined;
 
     /**
