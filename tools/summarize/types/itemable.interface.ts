@@ -15,5 +15,6 @@ export interface ItemableRow {
      * Weight in grams.
      */
     Weight: number;
-    MaxStack?: number;
+    MaxStack: number;
+    bAllowZeroWeight: boolean;
 }

@@ -1,4 +1,4 @@
-import {sortObjectKeys} from './object.util.js';
+import {objectHasKeys, refIsSet, sortObjectKeys} from './object.util.js';
 import type {ItemModifier, ItemStats} from '../../../src/lib/data.interface.js';
 import type {ConsumableRow} from '../types/consumable.interface.js';
 import type {ModifierStateDataTable} from '../types/modifier-states.interface.js';
@@ -42,7 +42,7 @@ export function getModifier(
     modifierStatesMap: ModifierStateDataTable,
     knownStats: ReadonlyMap<string, unknown>,
 ): [modifer: null, error: string] | [modifier: ItemModifier | undefined, error: null] {
-    if (consumable?.Modifier?.Modifier === undefined) {
+    if (!refIsSet(consumable?.Modifier?.Modifier)) {
         return [undefined, null];
     }
 
@@ -54,7 +54,7 @@ export function getModifier(
     }
 
     let stats: ItemStats | undefined;
-    if (modifierState.GrantedStats !== undefined) {
+    if (objectHasKeys(modifierState.GrantedStats)) {
         const [statsResult, error] = extractStats(
             modifierState.GrantedStats,
             knownStats,

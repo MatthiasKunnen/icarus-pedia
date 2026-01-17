@@ -15,7 +15,7 @@ import {summarizeData} from './util/summarize.js';
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const gameDataPath = path.join(dirname, '..', '..', 'gamedata', 'data_pak');
 
-async function readDataTable<T extends DataTable<any, any>>(
+async function readDataTable<T extends DataTable<any>>(
     filepath: string,
 ): Promise<T> {
     const parsed = JSON.parse(await fs.promises.readFile(path.join(

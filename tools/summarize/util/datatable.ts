@@ -21,21 +21,35 @@ export class DataTableIdMap<Value> {
 
 export class DataTable<
     T extends {Name: string},
-    Defaults = Record<string, unknown>,
 > {
     readonly Rows: Array<T>;
     readonly RowStruct: string;
 
-    private readonly defaults: Defaults | undefined;
     /**
      * maps the name to the index in the rows.
      */
     private readonly map = new Map<string, number>();
 
-    constructor(dataTable: DataTableInput<T, Defaults>) {
-        this.Rows = dataTable.Rows;
+    constructor(dataTable: DataTableInput<T, Partial<Exclude<T, 'Name'>>>) {
+        const defaults = dataTable.Defaults ?? {};
+        this.Rows = dataTable.Rows.map(r => new Proxy(r, {
+            get(target: T, p: string | symbol, receiver: any): any {
+                const val: unknown = Reflect.get(target, p, receiver);
+                if (val !== undefined) {
+                    return val;
+                }
+
+                const defaultVal = Reflect.get(defaults, p, defaults);
+                if (defaultVal == null) {
+                    return defaultVal;
+                } else if (defaultVal === '' || defaultVal === 'None') {
+                    return undefined;
+                }
+
+                return defaultVal;
+            },
+        }));
         this.RowStruct = dataTable.RowStruct;
-        this.defaults = dataTable.Defaults;
         let i = 0;
         for (const row of dataTable.Rows) {
             this.map.set(row.Name.toLowerCase(), i);

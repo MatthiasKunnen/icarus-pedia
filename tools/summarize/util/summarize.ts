@@ -1,6 +1,6 @@
 import {extractTranslation} from './localization.util.js';
 import type {LogWriter} from './logwriter.js';
-import {sortObjectKeys} from './object.util.js';
+import {refIsSet, sortObjectKeys} from './object.util.js';
 import {extractStats, getModifier} from './stats.util.js';
 import {staticItemTagMatches} from './tag.util.js';
 import {workshopItemToSummary} from './workshop.util.js';
@@ -209,7 +209,7 @@ export function summarizeData(
     const itemExcluded: Record<string, string> = {};
     const mappedItems: Record<string, OutputItem> = {};
     for (const item of itemsStatic.Rows) {
-        if (item.Itemable === undefined) {
+        if (!refIsSet(item.Itemable)) {
             itemExcluded[item.Name] = 'Not itemable';
             continue;
         }
@@ -259,9 +259,9 @@ export function summarizeData(
             }
         }
 
-        const consumable = item.Consumable?.RowName === undefined
-            ? undefined
-            : consumables.get(item.Consumable.RowName);
+        const consumable = refIsSet(item.Consumable)
+            ? consumables.get(item.Consumable.RowName)
+            : undefined;
         let consumeStats: ItemStats | undefined;
         if (consumable?.Stats !== undefined) {
             const [statsResult, error] = extractStats(consumable.Stats, stats);
@@ -328,7 +328,7 @@ export function summarizeData(
         })();
 
         let type: ItemType | undefined;
-        if (item.Consumable !== undefined) {
+        if (refIsSet(item.Consumable)) {
             if (staticItemTagMatches(item, t => t.startsWith('Item.Medicine.Tonic.'))) {
                 type = 'Tonic';
             } else if (staticItemTagMatches(item, t => t === 'Item.Medicine.Pill')) {
@@ -350,7 +350,7 @@ export function summarizeData(
         }
 
         let durability: DurableRow | undefined;
-        if (item.Durable !== undefined) {
+        if (refIsSet(item.Durable)) {
             durability = durable.get(item.Durable.RowName);
         }
 
@@ -364,7 +364,7 @@ export function summarizeData(
             recipes: [],
             ingredientIn: [],
             workshopItem: workshopItem,
-            stackSize: itemable.MaxStack ?? 1,
+            stackSize: itemable.MaxStack,
             stats: Object.keys(itemStats).length > 0 ? itemStats : undefined,
             modifier: modifier ?? undefined,
             isCraftingRelated: undefined,
@@ -382,7 +382,7 @@ export function summarizeData(
     // Key=ItemStatic.Name
     const crafters = new Map<string, Crafter>();
     for (const itemStatic of itemsStatic.Rows) {
-        if (itemStatic.Processing === undefined) {
+        if (!refIsSet(itemStatic.Processing)) {
             continue;
         }
         if (staticItemTagMatches(itemStatic, t => {
@@ -407,7 +407,7 @@ export function summarizeData(
             throw new Error(`Skipping ItemStatic.${itemStatic.Name
                 }.Processing, not found in D_Processing`);
         }
-        if (processor.DefaultRecipeSet === undefined) {
+        if (!refIsSet(processor.DefaultRecipeSet)) {
             throw new Error(`Skipping ItemStatic.${itemStatic.Name
                 }.Processing, DefaultRecipeSet not set`);
         }
@@ -418,7 +418,7 @@ export function summarizeData(
             throw new Error(`RecipeSet ${processor.DefaultRecipeSet.RowName} not found.`);
         }
 
-        if (itemStatic.Itemable === undefined) {
+        if (!refIsSet(itemStatic.Itemable)) {
             log.print(`Crafter skipped ItemStatic.${itemStatic.Name}: not itemable`);
             continue;
         }
@@ -454,7 +454,9 @@ export function summarizeData(
             continue;
         }
 
-        if (recipe.Requirement !== undefined) {
+        let requirementName: string | undefined;
+        if (refIsSet(recipe.Requirement)) {
+            requirementName = recipe.Requirement.RowName;
             if (talents.get(recipe.Requirement.RowName) === undefined) {
                 excludedRecipes[recipe.Name] = `Recipe ${
                     recipe.Name} has non-existent requirement ${recipe.Requirement.RowName}`;
@@ -622,12 +624,16 @@ export function summarizeData(
         }
 
         mappedRecipes[recipe.Name] = {
-            requirement: recipe.Requirement?.RowName,
+            requirement: requirementName,
             craftedAt: Array.from(craftedAt),
             inputs: inputs,
-            inputResources: inputResources,
+            inputResources: inputResources !== undefined && inputResources.length > 0
+                ? inputResources
+                : undefined,
             outputs: outputs,
-            outputResources: outputResources,
+            outputResources: outputResources !== undefined && outputResources.length > 0
+                ? outputResources
+                : undefined,
         };
     }
 

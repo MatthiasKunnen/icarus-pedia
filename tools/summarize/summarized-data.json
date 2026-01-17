@@ -3856,6 +3856,7 @@
             "displayName": "Advanced Iron Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Advanced_Iron_Lure",
             "description": "A sophisticated lure carefully crafted out of iron, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Advanced_Iron_Lure"
@@ -4990,6 +4991,7 @@
             "displayName": "Small Deer Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_BabyDeer",
             "description": "Far from Earth, further from help.",
+            "durability": 100,
             "flavorText": "Lightyears from Earth, the corpse of a baby deer somehow retains an echo of the tragic.",
             "recipes": [],
             "ingredientIn": [
@@ -5203,6 +5205,7 @@
             "displayName": "Chicken Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Chicken",
             "description": "A feathered friend lies at your feet, now dead.",
+            "durability": 100,
             "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
             "recipes": [],
             "ingredientIn": [],
@@ -5448,6 +5451,7 @@
             "displayName": "Kea Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Kea",
             "description": "A now flightless bird.",
+            "durability": 100,
             "flavorText": "Once endangered on Earth, Icarus brings new life to this native bird.",
             "recipes": [],
             "ingredientIn": [
@@ -5460,6 +5464,7 @@
             "displayName": "Kiwi Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Kiwi",
             "description": "A Fallen Feathered Friend.",
+            "durability": 100,
             "flavorText": "Life was hard enough being flightless.",
             "recipes": [],
             "ingredientIn": [],
@@ -5482,6 +5487,7 @@
         "AnimalCarcass_LavaBomber": {
             "displayName": "Lava Bomber Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_LavaBomber",
+            "durability": 100,
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -5673,6 +5679,7 @@
             "displayName": "Dreadwing Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_PredatorBird",
             "description": "An endemic ambush predator torn from the skies.",
+            "durability": 100,
             "flavorText": "These intelligent flying reptiles are particular about their hunting opportunities. Often choosing targets that are weak or unaware. Mostly found scavenging an easy meal from a recent corpse.",
             "recipes": [],
             "ingredientIn": [
@@ -5698,6 +5705,7 @@
             "displayName": "Rabbit Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Rabbit",
             "description": "As on Earth, a survivor, but not today.",
+            "durability": 100,
             "flavorText": "The rabbit variant has found a new niche on this malformed environment.",
             "recipes": [],
             "ingredientIn": [
@@ -5710,6 +5718,7 @@
             "displayName": "Pygmy Lop Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Rabbit_Variant",
             "description": "As on Earth, a survivor, but not today.",
+            "durability": 100,
             "flavorText": "The rabbit variant has found a new niche on this malformed environment.",
             "recipes": [],
             "ingredientIn": [
@@ -5722,6 +5731,7 @@
             "displayName": "Lava Roat Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Roat_Lava",
             "description": "A dead specimen of local wildlife.",
+            "durability": 100,
             "flavorText": "One of the rare endemic lifeforms able to survive in the failed terraforming zone, the roat endured the savage shift in Icaruss climate, due to its uniquely flexible respiratory system.",
             "recipes": [],
             "ingredientIn": [
@@ -5734,6 +5744,7 @@
             "displayName": "Swamp Roat Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Roat",
             "description": "A dead specimen of local wildlife.",
+            "durability": 100,
             "flavorText": "One of the rare endemic lifeforms able to survive in the failed terraforming zone, the roat endured the savage shift in Icaruss climate, due to its uniquely flexible respiratory system.",
             "recipes": [],
             "ingredientIn": [
@@ -5856,6 +5867,7 @@
             "displayName": "Snow Rabbit Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Snow_Rabbit",
             "description": "As on Earth, a survivor, but not today.",
+            "durability": 100,
             "flavorText": "As reproductively prodigious, even in the harshest environments of Icarus, as it was on earth.",
             "recipes": [],
             "ingredientIn": [
@@ -5996,6 +6008,7 @@
             "displayName": "Cat Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Cat",
             "description": "A furry friend lies at your feet now dead.",
+            "durability": 100,
             "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
             "recipes": [],
             "ingredientIn": [],
@@ -6031,6 +6044,7 @@
             "displayName": "Pug Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tame_Dog_C",
             "description": "A good dog lies at your feet now dead.",
+            "durability": 100,
             "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
             "recipes": [],
             "ingredientIn": [],
@@ -6042,6 +6056,7 @@
             "displayName": "Laika Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_Dog_Carcass_D1_1",
             "description": "A good dog lies at your feet now dead.",
+            "durability": 100,
             "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
             "recipes": [],
             "ingredientIn": [],
@@ -7150,6 +7165,7 @@
             "displayName": "Animal Bait",
             "icon": "Items/Item_Icons/UseableItems/ITEM_Bait",
             "description": "A highly fragrant animal lure.",
+            "durability": 100,
             "flavorText": "Youd hate it.",
             "recipes": [
                 "Bait"
@@ -7237,6 +7253,7 @@
             "displayName": "Bark Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Bark_Lure",
             "description": "A basic lure carefully crafted from bark, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Bark_Lure"
@@ -7274,6 +7291,7 @@
             "displayName": "Basic Ceiling Light",
             "icon": "Items/Item_Icons/Deployables/ITEM_Basic_Ceiling_Light",
             "description": "A ceiling-mounted lamp, providing wide illumination, needing power.",
+            "durability": 100,
             "flavorText": "We forgive children who are afraid of the dark. The tragedy is adults afraid of the light. - Plato",
             "recipes": [
                 "Basic_Ceiling_Light"
@@ -7384,6 +7402,7 @@
             "displayName": "Basic Wall Light",
             "icon": "Items/Item_Icons/Deployables/ITEM_Basic_Wall_Light",
             "description": "A wall-mounted lamp, providing wide illumination, needing power.",
+            "durability": 100,
             "flavorText": "Darkness cannot drive out darkness.",
             "recipes": [
                 "Basic_Wall_Light"
@@ -7564,6 +7583,7 @@
             "displayName": "Bedroll",
             "icon": "Items/Item_Icons/Deployables/ITEM_Bed_Bedroll",
             "description": "Once placed in shelter, a bed can be set as a respawn location. Can also be used to sleep through the night.",
+            "durability": 100,
             "flavorText": "A bed is where the soul returns after a nights travelling ~ Russian folk saying",
             "recipes": [
                 "Bed_Bedroll"
@@ -8019,6 +8039,7 @@
             "displayName": "Black Wolf Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Black_Wolf_Lure",
             "description": "A sophisticated lure carefully crafted out of the remains of a Black Wolf.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Black_Wolf_Lure"
@@ -8225,6 +8246,7 @@
             "displayName": "Blue Reed Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Blue_Reed_Lure",
             "description": "A delicate lure carefully crafted from flowers, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Blue_Reed_Lure"
@@ -8505,6 +8527,7 @@
             "displayName": "Bone Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Bone_Lure",
             "description": "A lightweight lure carefully crafted out of bone, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Bone_Lure"
@@ -9828,6 +9851,7 @@
             "displayName": "Carved Wood Chair",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Chair_Dining_A",
             "description": "A finely crafted chair.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Chair_Dining"
@@ -9843,6 +9867,7 @@
             "displayName": "Carved Wood Armchair",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Chair_Living",
             "description": "A finely crafted armchair.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Chair_Living"
@@ -9858,6 +9883,7 @@
             "displayName": "Carved Wood 2-Seater Couch",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Chair_Living_2Seater",
             "description": "A finely crafted couch for two people.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Chair_Living_2Seater"
@@ -9873,6 +9899,7 @@
             "displayName": "Carved Wood 3-Seater Couch",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Chair_Living_3Seater",
             "description": "A finely crafted couch for three people.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Chair_Living_3Seater"
@@ -9888,6 +9915,7 @@
             "displayName": "Carved Wood Coffee Table",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Coffee_Table_A",
             "description": "A finely crafted coffee table.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Coffee_Table"
@@ -9951,6 +9979,7 @@
             "displayName": "Carved Wood Narrow Wardrobe",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Narrow_Wardrobe_A",
             "description": "A finely crafted narrow wardrobe.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Narrow_Wardrobe"
@@ -9982,6 +10011,7 @@
             "displayName": "Carved Wood Sitting Bench",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Sitting_Bench",
             "description": "A finely crafted bench.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Sitting_Bench"
@@ -9997,6 +10027,7 @@
             "displayName": "Carved Wood Stool",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Stool",
             "description": "A finely crafted stool.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Stool"
@@ -10012,6 +10043,7 @@
             "displayName": "Carved Wood Large Table",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Table_10Seater_A",
             "description": "A finely crafted long table.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Table_10"
@@ -10027,6 +10059,7 @@
             "displayName": "Carved Wood Table",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Table_6Seater_A",
             "description": "A finely crafted table.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Table_6"
@@ -10042,6 +10075,7 @@
             "displayName": "Carved Wood Round Table",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Table_Round",
             "description": "A finely crafted round table.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Table_Round"
@@ -10057,6 +10091,7 @@
             "displayName": "Carved Wood Wall Shelf",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Wall_Shelf_A",
             "description": "A finely crafted shelf.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Wall_Shelf"
@@ -10072,6 +10107,7 @@
             "displayName": "Carved Wood Wardrobe",
             "icon": "Items/Item_Icons/Deployables/ITEM_Carved_Wardrobe_A",
             "description": "A finely crafted wardrobe.",
+            "durability": 100,
             "flavorText": "Carving wood by hand is a time-consuming process that requires a great deal of skill and patience.",
             "recipes": [
                 "Carved_Wardrobe"
@@ -13173,6 +13209,7 @@
             "displayName": "Cured Leather Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Cured_Leather_Lure",
             "description": "A sophisticated lure carefully crafted out of leather, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Cured_Leather_Lure"
@@ -13185,6 +13222,7 @@
             "displayName": "Leather Curtain Window",
             "icon": "Items/Item_Icons/Deployables/ITEM_Leather_Curtain_Window",
             "description": "Heavy duty leather curtains.",
+            "durability": 100,
             "flavorText": "Happier with flaps.",
             "recipes": [],
             "ingredientIn": [],
@@ -13901,6 +13939,7 @@
             "displayName": "Dogtags Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Dogtags_Lure",
             "description": "A flashy lure carefully crafted out of... dogtags?",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Dogtags_Lure"
@@ -15293,6 +15332,7 @@
             "displayName": "Exposed Ceiling Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light",
             "description": "A classic exposed light bulb.",
+            "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "recipes": [
                 "Exposed_Ceiling_Light"
@@ -15308,6 +15348,7 @@
             "displayName": "Frosted Ceiling Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light_Foggy",
             "description": "A classic exposed light bulb.",
+            "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "recipes": [
                 "Exposed_Ceiling_Light_Foggy"
@@ -15323,6 +15364,7 @@
             "displayName": "Exposed Wall Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Wall_Light",
             "description": "A classic exposed light bulb.",
+            "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "recipes": [
                 "Exposed_Wall_Light"
@@ -15338,6 +15380,7 @@
             "displayName": "Frosted Wall Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Wall_Light_Foggy",
             "description": "A classic exposed light bulb.",
+            "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "recipes": [
                 "Exposed_Wall_Light_Foggy"
@@ -16018,6 +16061,7 @@
             "displayName": "Fiber Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Fiber_Lure",
             "description": "A basic lure carefully crafted out of fiber, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Fiber_Lure"
@@ -16234,7 +16278,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_01_Var2": {
             "displayName": "Ember Snapper",
@@ -16244,7 +16289,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_01_Var3": {
             "displayName": "Crimson Snapper",
@@ -16254,7 +16300,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_01_Var4": {
             "displayName": "Emerald Snapper",
@@ -16264,7 +16311,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_02": {
             "displayName": "Sunset Jack",
@@ -16274,7 +16322,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_02_Var2": {
             "displayName": "Banded Jack",
@@ -16284,7 +16333,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_02_Var3": {
             "displayName": "Emerald Jack",
@@ -16294,7 +16344,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_02_Var4": {
             "displayName": "Ember Jack",
@@ -16304,7 +16355,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_03": {
             "displayName": "Oceanic Piranha",
@@ -16314,7 +16366,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_03_Var2": {
             "displayName": "Crimson Piranha",
@@ -16324,7 +16377,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_03_Var3": {
             "displayName": "Crystal Piranha",
@@ -16334,7 +16388,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_03_Var4": {
             "displayName": "Titan Piranha",
@@ -16344,7 +16399,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_04": {
             "displayName": "Coral Ripjaw",
@@ -16354,7 +16410,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_04_Var2": {
             "displayName": "Titan Ripjaw",
@@ -16364,7 +16421,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_04_Var3": {
             "displayName": "Opal Ripjaw",
@@ -16374,7 +16432,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_04_Var4": {
             "displayName": "Sunset Ripjaw",
@@ -16384,7 +16443,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_05": {
             "displayName": "Sea Darter",
@@ -16394,7 +16454,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_05_Var2": {
             "displayName": "Crimson Darter",
@@ -16404,7 +16465,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_05_Var3": {
             "displayName": "Sunset Darter",
@@ -16414,7 +16476,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_05_Var4": {
             "displayName": "Coral Darter",
@@ -16424,7 +16487,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_06": {
             "displayName": "Titan Triggerfish",
@@ -16434,7 +16498,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_06_Var2": {
             "displayName": "Crimson Triggerfish",
@@ -16444,7 +16509,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_06_Var3": {
             "displayName": "Sunset Triggerfish",
@@ -16454,7 +16520,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_06_Var4": {
             "displayName": "Void Triggerfish",
@@ -16464,7 +16531,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_07": {
             "displayName": "Pearl Perch",
@@ -16474,7 +16542,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_07_Var2": {
             "displayName": "Spotted Perch",
@@ -16484,7 +16553,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_07_Var3": {
             "displayName": "Sunset Perch",
@@ -16494,7 +16564,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_07_Var4": {
             "displayName": "Ember Perch",
@@ -16504,7 +16575,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_08": {
             "displayName": "Neon Tetra",
@@ -16514,7 +16586,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_08_Var2": {
             "displayName": "Spotted Tetra",
@@ -16524,7 +16597,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_08_Var3": {
             "displayName": "Sunset Tetra",
@@ -16534,7 +16608,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_08_Var4": {
             "displayName": "Banded Tetra",
@@ -16544,7 +16619,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_09": {
             "displayName": "Sunset Trout",
@@ -16554,7 +16630,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_09_Var2": {
             "displayName": "Opal Trout",
@@ -16564,7 +16641,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_09_Var3": {
             "displayName": "Ember Trout",
@@ -16574,7 +16652,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_09_Var4": {
             "displayName": "Void Trout",
@@ -16584,7 +16663,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_10": {
             "displayName": "Emerald Diano",
@@ -16594,7 +16674,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_10_Var2": {
             "displayName": "Azure Diano",
@@ -16604,7 +16685,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_10_Var3": {
             "displayName": "Coral Diano",
@@ -16614,7 +16696,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_10_Var4": {
             "displayName": "Pearl Diano",
@@ -16624,7 +16707,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_11": {
             "displayName": "Banded Dory",
@@ -16634,7 +16718,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_11_Var2": {
             "displayName": "Neon Dory",
@@ -16644,7 +16729,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_11_Var3": {
             "displayName": "Crimson Dory",
@@ -16654,7 +16740,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_11_Var4": {
             "displayName": "Titan Dory",
@@ -16664,7 +16751,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_12": {
             "displayName": "Crimson Wrasse",
@@ -16674,7 +16762,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_12_Var2": {
             "displayName": "Crystal Wrasse",
@@ -16684,7 +16773,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_12_Var3": {
             "displayName": "Spotted Wrasse",
@@ -16694,7 +16784,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_12_Var4": {
             "displayName": "Ember Wrasse",
@@ -16704,7 +16795,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_13": {
             "displayName": "Emerald Dorado",
@@ -16714,7 +16806,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_13_Var2": {
             "displayName": "Coral Dorado",
@@ -16724,7 +16817,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_13_Var3": {
             "displayName": "Neon Dorado",
@@ -16734,7 +16828,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_13_Var4": {
             "displayName": "Ember Dorado",
@@ -16744,7 +16839,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_14": {
             "displayName": "Black Diamond Discus",
@@ -16754,7 +16850,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_14_Var2": {
             "displayName": "Opal Discus",
@@ -16764,7 +16861,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_14_Var3": {
             "displayName": "Banded Discus",
@@ -16774,7 +16872,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_14_Var4": {
             "displayName": "Crystal Discus",
@@ -16784,7 +16883,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_15": {
             "displayName": "Ghostly Tang",
@@ -16794,7 +16894,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_16": {
             "displayName": "Electric Wraith",
@@ -16804,7 +16905,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_17": {
             "displayName": "Ember Gar",
@@ -16814,7 +16916,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_17_Var2": {
             "displayName": "Spotted Gar",
@@ -16824,7 +16927,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_17_Var3": {
             "displayName": "Banded Gar",
@@ -16834,7 +16938,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_17_Var4": {
             "displayName": "Speckled Gar",
@@ -16844,7 +16949,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_18": {
             "displayName": "Ghostly Puffer",
@@ -16854,7 +16960,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_18_Var2": {
             "displayName": "Neon Puffer",
@@ -16864,7 +16971,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_18_Var3": {
             "displayName": "Cobalt Puffer",
@@ -16874,7 +16982,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_18_Var4": {
             "displayName": "Crystal Puffer",
@@ -16884,7 +16993,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_19": {
             "displayName": "Crimson Springfield",
@@ -16894,7 +17004,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_19_Var2": {
             "displayName": "Striped Springfield",
@@ -16904,7 +17015,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_19_Var3": {
             "displayName": "Sunset Springfield",
@@ -16914,7 +17026,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_19_Var4": {
             "displayName": "Void Springfield",
@@ -16924,7 +17037,8 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
-            "isCraftingRelated": false
+            "isCraftingRelated": false,
+            "weight": 0
         },
         "Fish_Chunk_Stew": {
             "displayName": "Fish Chunk Stew",
@@ -18497,6 +18611,7 @@
             "displayName": "Cryogenically Frozen Kiwi",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Frozen_Kiwi",
             "description": "A Kiwi preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "A Native New Zealand Species",
             "recipes": [],
             "ingredientIn": [],
@@ -18738,6 +18853,7 @@
             "displayName": "Fur Curtain Door",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Fur_Curtain_Door",
             "description": "A rugged curtained doorway.",
+            "durability": 100,
             "recipes": [
                 "Fur_Curtain_Door"
             ],
@@ -18749,6 +18865,7 @@
             "displayName": "Fur Curtain Window",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Fur_Curtain_Window",
             "description": "Rugged window curtains.",
+            "durability": 100,
             "recipes": [
                 "Fur_Curtain_Window"
             ],
@@ -19990,6 +20107,7 @@
             "displayName": "Gold Ore Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Gold_Ore_Lure",
             "description": "A luxurious lure carefully crafted out of gold, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Gold_Ore_Lure"
@@ -20279,6 +20397,7 @@
             "displayName": "Gorse Flower Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Gorse_Flower_Lure",
             "description": "A delicate lure carefully crafted out of flowers, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Gorse_Flower_Lure"
@@ -21619,6 +21738,7 @@
             "displayName": "Iron Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Iron_Lure",
             "description": "A heavier lure carefully crafted out of iron, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Iron_Lure"
@@ -22778,6 +22898,7 @@
             "displayName": "Makeshift Landmine",
             "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
             "description": "Place to Trigger and Arm.",
+            "durability": 100,
             "flavorText": "Dangerous... Very Dangerous....",
             "recipes": [
                 "Landmine"
@@ -22794,6 +22915,7 @@
             "displayName": "Incendiary Landmine",
             "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
             "description": "Place to Trigger and Arm.",
+            "durability": 100,
             "flavorText": "Dangerous... Very Dangerous....",
             "recipes": [],
             "ingredientIn": [],
@@ -22809,6 +22931,7 @@
             "displayName": "Makeshift Landmine",
             "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
             "description": "Place to Trigger and Arm.",
+            "durability": 100,
             "flavorText": "Dangerous... Very Dangerous....",
             "recipes": [],
             "ingredientIn": [],
@@ -22824,6 +22947,7 @@
             "displayName": "Cryo Landmine",
             "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
             "description": "Place to Trigger and Arm.",
+            "durability": 100,
             "flavorText": "Dangerous... Very Dangerous....",
             "recipes": [],
             "ingredientIn": [],
@@ -22839,6 +22963,7 @@
             "displayName": "Poison Gas Landmine",
             "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
             "description": "Place to Trigger and Arm.",
+            "durability": 100,
             "flavorText": "Dangerous... Very Dangerous....",
             "recipes": [],
             "ingredientIn": [],
@@ -22854,6 +22979,7 @@
             "displayName": "Volt Landmine",
             "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
             "description": "Place to Trigger and Arm.",
+            "durability": 100,
             "flavorText": "Dangerous... Very Dangerous....",
             "recipes": [],
             "ingredientIn": [],
@@ -23271,6 +23397,7 @@
             "displayName": "Lava Hunter Bomber Mine",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Lava_Hunter_Mine",
             "description": "When placed will break open Lava Hunter Eggs and Release Bombers.",
+            "durability": 100,
             "flavorText": "Lets see how they like it.",
             "recipes": [
                 "Lava_Hunter_Mine"
@@ -23625,6 +23752,7 @@
             "displayName": "Leather Curtain Door",
             "icon": "Items/Item_Icons/Deployables/ITEM_Leather_Curtain_Door",
             "description": "A heavily curtained doorway.",
+            "durability": 100,
             "flavorText": "A door for those unimpressed by hinges and handles.",
             "recipes": [
                 "Leather_Curtain_Door"
@@ -23637,6 +23765,7 @@
             "displayName": "Leather Curtain Window",
             "icon": "Items/Item_Icons/Deployables/ITEM_Leather_Curtain_Window",
             "description": "Heavy duty leather curtains.",
+            "durability": 100,
             "flavorText": "Happier with flaps.",
             "recipes": [
                 "Leather_Curtain_Window"
@@ -29561,6 +29690,7 @@
             "displayName": "Tris-EDTA Buffer ",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Chemicals_B",
             "description": "Industrial Chemicals for Experimentation.",
+            "durability": 100,
             "flavorText": "These look dangerous.",
             "recipes": [
                 "Mission_Buffer"
@@ -29945,6 +30075,7 @@
             "displayName": "Ethanol",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Chemicals_A",
             "description": "Industrial Chemicals for Experimentation.",
+            "durability": 100,
             "flavorText": "These look dangerous.",
             "recipes": [
                 "Mission_Ethanol"
@@ -29960,6 +30091,7 @@
             "displayName": "Examination Table",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Metal_Table_Dining6",
             "description": "A Table for Speciments to be Placed and Examined.",
+            "durability": 100,
             "flavorText": "Good and Sturdy",
             "recipes": [],
             "ingredientIn": [],
@@ -30196,6 +30328,7 @@
             "displayName": "Liquid Solution",
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antiparasitic_Tonic",
             "description": "A liquid solution, simple to deploy, just dump on the ground.",
+            "durability": 100,
             "recipes": [
                 "Mission_LiquidDeployment"
             ],
@@ -32062,6 +32195,7 @@
             "displayName": "Reinforced Curtain Window",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_PlatinumWeave_Curtain_Window",
             "description": "Reinforced fabric window curtains.",
+            "durability": 100,
             "recipes": [
                 "PlatinumWeave_Curtain_Window"
             ],
@@ -32493,6 +32627,7 @@
             "displayName": "Poison Sac Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Poison_Sack_Lure",
             "description": "A basic lure carefully crafted from an intact poison sac.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Poison_Sack_Lure"
@@ -32505,6 +32640,7 @@
             "displayName": "Poisoned Animal Bait",
             "icon": "Items/Item_Icons/UseableItems/ITEM_BaitPoisoned",
             "description": "A poison-laced animal lure.",
+            "durability": 100,
             "flavorText": "Keep away from pets and children.",
             "recipes": [
                 "Poisoned_Bait"
@@ -32836,6 +32972,7 @@
             "displayName": "Boardgame",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Boardgame_A",
             "description": "Something to pass the time on Icarus.",
+            "durability": 100,
             "flavorText": "Immerse yourself in a game for a few hours and forget about everything trying to kill you outside.",
             "recipes": [],
             "ingredientIn": [],
@@ -32850,6 +32987,7 @@
             "displayName": "Book",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Book_B",
             "description": "Something to pass the time on Icarus.",
+            "durability": 100,
             "flavorText": "A classic Novel from Earth.",
             "recipes": [],
             "ingredientIn": [],
@@ -32864,6 +33002,7 @@
             "displayName": "Bookstack",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Bookstack",
             "description": "A collection of books.",
+            "durability": 100,
             "flavorText": "Immerse yourself in a game for a few hours and forget about everything trying to kill you outside.",
             "recipes": [],
             "ingredientIn": [],
@@ -32878,6 +33017,7 @@
             "displayName": "Burlap Sack",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Burlap_Sack_C",
             "description": "A Simple Burlap Sack. Anything could be inside.",
+            "durability": 100,
             "flavorText": "A classic means of storage.",
             "recipes": [],
             "ingredientIn": [],
@@ -32892,6 +33032,7 @@
             "displayName": "Cards",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Cards_A",
             "description": "Something to pass the time on Icarus.",
+            "durability": 100,
             "flavorText": "Poker anyone?",
             "recipes": [],
             "ingredientIn": [],
@@ -32922,6 +33063,7 @@
             "displayName": "Chemicals",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Chemicals_A",
             "description": "Industrial Chemicals for Experimentation.",
+            "durability": 100,
             "flavorText": "These look dangerous.",
             "recipes": [],
             "ingredientIn": [],
@@ -32933,6 +33075,7 @@
             "displayName": "Cleaning Supplies",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_CleaningSupplies_A",
             "description": "Industrial Strength Cleaning Supplies which can clean almost anything.",
+            "durability": 100,
             "flavorText": "This could strip paint.",
             "recipes": [],
             "ingredientIn": [],
@@ -32944,6 +33087,7 @@
             "displayName": "Clipboard",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Clipboard_A",
             "description": "Contains notes on Experiments and Observations.",
+            "durability": 100,
             "flavorText": "People will always use paper.",
             "recipes": [],
             "ingredientIn": [],
@@ -32973,6 +33117,7 @@
             "displayName": "Large Cork board",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Corkboard_Large",
             "description": "Contains notes and detailed diagrams of various things.",
+            "durability": 100,
             "flavorText": "A classic organisational tool.",
             "recipes": [],
             "ingredientIn": [],
@@ -32987,6 +33132,7 @@
             "displayName": "Small Cork board",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Corkboard_Small",
             "description": "Contains notes and detailed diagrams of various things.",
+            "durability": 100,
             "flavorText": "A classic organisational tool.",
             "recipes": [],
             "ingredientIn": [],
@@ -33031,6 +33177,7 @@
             "displayName": "Eye Wash Station",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Eye_Wash_Station",
             "description": "A quick station for when experiments go wrong.",
+            "durability": 100,
             "flavorText": "Its a blast.",
             "recipes": [],
             "ingredientIn": [],
@@ -33042,6 +33189,7 @@
             "displayName": "Flasks",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Flask_A",
             "description": "Can store all manner of chemicals for experiments.",
+            "durability": 100,
             "flavorText": "Or if you need to break bad...",
             "recipes": [],
             "ingredientIn": [],
@@ -33056,6 +33204,7 @@
             "displayName": "Safety Goggles",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Goggles_A",
             "description": "Face Protection for dangerous Experiments.",
+            "durability": 100,
             "flavorText": "Doesnt Beat a Helmet.",
             "recipes": [],
             "ingredientIn": [],
@@ -33067,6 +33216,7 @@
             "displayName": "Industrial Sign - Diamond",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Industrial_Sign_Diamond_E",
             "description": "A sign used in industrial sites and lab for conveying information. ",
+            "durability": 100,
             "flavorText": "At least the UDA has SOME safety regulations.",
             "recipes": [],
             "ingredientIn": [],
@@ -33081,6 +33231,7 @@
             "displayName": "Industrial Sign - Square",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Industrial_Sign_Square_A",
             "description": "A sign used in industrial sites and lab for conveying information. ",
+            "durability": 100,
             "flavorText": "At least the UDA has SOME safety regulations.",
             "recipes": [],
             "ingredientIn": [],
@@ -33095,6 +33246,7 @@
             "displayName": "Industrial Sign - Triangle",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Industrial_Sign_Triangle_A",
             "description": "A sign used in industrial sites and lab for conveying information. ",
+            "durability": 100,
             "flavorText": "At least the UDA has SOME safety regulations.",
             "recipes": [],
             "ingredientIn": [],
@@ -33109,6 +33261,7 @@
             "displayName": "Lab Info Poster",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Lab_Poster_A",
             "description": "Helpful Tips for Lab Procedures.",
+            "durability": 100,
             "flavorText": "Who even looks at these.",
             "recipes": [],
             "ingredientIn": [],
@@ -33153,6 +33306,7 @@
             "displayName": "Labcoats",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Labcoats",
             "description": "Wall mounted labcoat hooks.",
+            "durability": 100,
             "flavorText": "White Coats make anyone look professional.",
             "recipes": [],
             "ingredientIn": [],
@@ -33164,6 +33318,7 @@
             "displayName": "Laptop",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Laptop_A",
             "description": "Someones personal computer.",
+            "durability": 100,
             "flavorText": "There is no Password...",
             "recipes": [],
             "ingredientIn": [],
@@ -33178,6 +33333,7 @@
             "displayName": "Large Flask",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Large_Flask_A",
             "description": "A Large Experimental Flask.",
+            "durability": 100,
             "flavorText": "Good for mixing chemicals.",
             "recipes": [],
             "ingredientIn": [],
@@ -33189,6 +33345,7 @@
             "displayName": "Magazine",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Magazine_A",
             "description": "Something to pass the time on Icarus.",
+            "durability": 100,
             "flavorText": "Full of quizes and self help tips.",
             "recipes": [],
             "ingredientIn": [],
@@ -33203,6 +33360,7 @@
             "displayName": "Medical Trolley",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Medical_Trolly_A",
             "description": "Perfect for Storage of Medical Instruments.",
+            "durability": 100,
             "flavorText": "Who builds a trolley with locked wheels?",
             "recipes": [],
             "ingredientIn": [],
@@ -33292,6 +33450,7 @@
             "displayName": "Molecules",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Molecule_A",
             "description": "A model of chemical compounds.",
+            "durability": 100,
             "flavorText": "Great for Teaching.",
             "recipes": [],
             "ingredientIn": [],
@@ -33315,6 +33474,7 @@
             "displayName": "Paper Towels",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_PaperTowls",
             "description": "A Roll of Paper Towels.",
+            "durability": 100,
             "flavorText": "An all purpose cleaning product.",
             "recipes": [],
             "ingredientIn": [],
@@ -33326,6 +33486,7 @@
             "displayName": "Photo Frame",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Photo_Frame_Standing",
             "description": "A small standing photo frame. ",
+            "durability": 100,
             "flavorText": "Feels like home.",
             "recipes": [],
             "ingredientIn": [],
@@ -33340,6 +33501,7 @@
             "displayName": "Wall Pipes",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Pipe1_A",
             "description": "Pipes that carry all sorts of wires and electrical elements.",
+            "durability": 100,
             "flavorText": "Just for Decoration.",
             "recipes": [],
             "ingredientIn": [],
@@ -33351,6 +33513,7 @@
             "displayName": "Dark Wall Pipes",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Pipe2_A",
             "description": "Pipes that carry all sorts of wires and electrical elements.",
+            "durability": 100,
             "flavorText": "Just for Decoration.",
             "recipes": [],
             "ingredientIn": [],
@@ -33377,6 +33540,7 @@
             "displayName": "Safety Poster",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Poster_Checklist",
             "description": "UDA approved workplace safety posters.",
+            "durability": 100,
             "flavorText": "Who even looks at these.",
             "recipes": [],
             "ingredientIn": [],
@@ -33391,6 +33555,7 @@
             "displayName": "Fish Poster",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Poster_Fishing",
             "description": "Displays some of the Fish of Icarus",
+            "durability": 100,
             "flavorText": "Fish N Chips anyone?",
             "recipes": [],
             "ingredientIn": [],
@@ -33405,6 +33570,7 @@
             "displayName": "Helpful UDA Sign",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Propaganda_Sign_A",
             "description": "A helpful sign - brought to you by the UDA.",
+            "durability": 100,
             "flavorText": "The UDAs very own mascot.",
             "recipes": [],
             "ingredientIn": [],
@@ -33419,6 +33585,7 @@
             "displayName": "Saddle Bag",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Saddle_Bag_A",
             "description": "A small saddle bag that can store small objects.",
+            "durability": 100,
             "flavorText": "A classic means of storage.",
             "recipes": [],
             "ingredientIn": [],
@@ -33449,6 +33616,7 @@
             "displayName": "Science Tray",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Science_Tray_A",
             "description": "A tray containing different bits of equipment used in science experiments.",
+            "durability": 100,
             "flavorText": "What was this prepared for?",
             "recipes": [],
             "ingredientIn": [],
@@ -33460,6 +33628,7 @@
             "displayName": "Skeleton Stand",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Skeleton",
             "description": "A fully anatomically correct skeleton stand.",
+            "durability": 100,
             "flavorText": "Spooky Scary Skeleton.",
             "recipes": [],
             "ingredientIn": [],
@@ -33486,6 +33655,7 @@
             "displayName": "Soap Dispensers",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Soap",
             "description": "A device which releases soap from the base when pushed.",
+            "durability": 100,
             "flavorText": "A good prospector always washes their hands.",
             "recipes": [],
             "ingredientIn": [],
@@ -33513,6 +33683,7 @@
             "displayName": "Stool",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Stool",
             "description": "A sturdy lab stool.",
+            "durability": 100,
             "flavorText": "For sitting.",
             "recipes": [],
             "ingredientIn": [],
@@ -33524,6 +33695,7 @@
             "displayName": "Surgical Equipment",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Surgical_Equipment_Set",
             "description": "A set of sterilized surgical equipment used for operations or experimentation.",
+            "durability": 100,
             "flavorText": "Some of this looks dangerous.",
             "recipes": [
                 "Mission_Surgical_Equipment"
@@ -33539,6 +33711,7 @@
             "displayName": "Surgical Masks",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Surgical_Masks_A",
             "description": "A box of surgical masks that can be used to filter contaminates in and out of your mouth.",
+            "durability": 100,
             "flavorText": "Science!",
             "recipes": [],
             "ingredientIn": [],
@@ -33553,6 +33726,7 @@
             "displayName": "Test Tubes",
             "icon": "Items/Item_Icons/Props/T_ITEM_Prop_Test_Tube_Rack",
             "description": "A handy device for holding and storing test tubes.",
+            "durability": 100,
             "flavorText": "Science!",
             "recipes": [],
             "ingredientIn": [],
@@ -33884,6 +34058,7 @@
             "displayName": "Queen Bee",
             "icon": "Items/Item_Icons/Resources/T_ITEM_Queen_Bee",
             "description": "A Queen Bee that can be used for making Honeycomb or for breeding more bees.",
+            "durability": 100,
             "flavorText": "The Bees of Icarus are known for their long, needle-like stingers which are capable of piercing even the toughest of envirosuits. Proceed with caution.",
             "recipes": [],
             "ingredientIn": [],
@@ -34522,6 +34697,7 @@
             "displayName": "Classic Rustic Sign",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Raw_Wood_Sign_Ground",
             "description": "A charming sign to display information on.",
+            "durability": 100,
             "flavorText": "Made with love.",
             "recipes": [
                 "Raw_Wood_Sign"
@@ -34537,6 +34713,7 @@
             "displayName": "Natural Rustic Sign",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Raw_Wood_Sign_Trunk_A_Ground",
             "description": "A charming sign to display information on.",
+            "durability": 100,
             "flavorText": "Made with love.",
             "recipes": [
                 "Raw_Wood_Sign_Trunk_A"
@@ -34552,6 +34729,7 @@
             "displayName": "Round Rustic Sign",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Raw_Wood_Sign_Trunk_B_Ground",
             "description": "A charming sign to display information on.",
+            "durability": 100,
             "flavorText": "Made with love.",
             "recipes": [
                 "Raw_Wood_Sign_Trunk_B"
@@ -34642,6 +34820,7 @@
             "displayName": "Reed Flower Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Reed_Flower_Lure",
             "description": "A delicate lure carefully crafted out of flowers, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Reed_Flower_Lure"
@@ -35015,6 +35194,7 @@
             "displayName": "Refined Wooden Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Refined_Wood_Lure",
             "description": "A sophisticated lure carefully crafted out of wood, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Refined_Wood_Lure"
@@ -35640,6 +35820,7 @@
             "displayName": "Quarrite Caltrops",
             "icon": "Items/Item_Icons/UseableItems/T_ITEM_Rock_Golem_Grenade",
             "description": "The sharp remains of a Quarrite Grenade. Will slow and cause damage when stepped on.",
+            "durability": 100,
             "flavorText": "Like those little colored toy building blocks, but much much older.",
             "recipes": [],
             "ingredientIn": [],
@@ -36068,6 +36249,7 @@
             "displayName": "Rotten Meat Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Rotten_Meat_Lure",
             "description": "A basic lure carefully crafted from... rotten meat.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Rotten_Meat_Lure"
@@ -36080,6 +36262,7 @@
             "displayName": "Rubber Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Rubber_Lure",
             "description": "A basic lure carefully crafted out of rubber, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Rubber_Lure"
@@ -36634,6 +36817,7 @@
             "displayName": "Rustic Wall Shelf",
             "icon": "Items/Item_Icons/Deployables/ITEM_Rustic_Wood_Shelf_A",
             "description": "A rustic shelf.",
+            "durability": 100,
             "flavorText": "A shelf made of wood, your parents will be proud.",
             "recipes": [
                 "Rustic_Shelf"
@@ -38044,6 +38228,7 @@
             "displayName": "Scorpion Tail Lure",
             "icon": "Items/Item_Icons/Fishing/T_ITEM_Scorpion_Lure",
             "description": "A sophisticated lure carefully crafted out of a deadly Scorpion tail.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Scorpion_Lure"
@@ -38693,6 +38878,7 @@
             "displayName": "Elegant Curtain Window",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_SilkWeave_Curtain_Window",
             "description": "Luxurious window curtains.",
+            "durability": 100,
             "recipes": [
                 "SilkWeave_Curtain_Window"
             ],
@@ -38704,6 +38890,7 @@
             "displayName": "Single Ceiling Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Single_Ceiling_Light",
             "description": "A simple ceiling light.",
+            "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "recipes": [
                 "Single_Ceiling_Light"
@@ -38719,6 +38906,7 @@
             "displayName": "Single Wall Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Single_Wall_Light",
             "description": "A simple wall light.",
+            "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "recipes": [
                 "Single_Wall_Light"
@@ -40936,6 +41124,7 @@
             "displayName": "Small Stone Sign",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Stone_Sign_C",
             "description": "A stone sign to display information.",
+            "durability": 100,
             "recipes": [
                 "Stone_Sign_Small"
             ],
@@ -41754,6 +41943,7 @@
             "displayName": "Thatch Ladder",
             "icon": "Items/Item_Icons/Deployables/ITEM_Thatch_Ladder",
             "description": "An easily craftable ladder.",
+            "durability": 100,
             "recipes": [
                 "Thatch_Ladder"
             ],
@@ -43079,6 +43269,7 @@
             "displayName": "White Jelly Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_White_Jelly_Lure",
             "description": "A sophisticated lure carefully crafted from White Jelly, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "White_Jelly_Lure"
@@ -43276,6 +43467,7 @@
             "displayName": "Wolf Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Wolf_Lure",
             "description": "A sophisticated lure carefully crafted out of a rather unfortunate Wolf.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Wolf_Lure"
@@ -43600,6 +43792,7 @@
             "displayName": "Wooden Chair",
             "icon": "Items/Item_Icons/Deployables/ITEM_Wood_Chair",
             "description": "A robust, rustic wooden seat.",
+            "durability": 100,
             "flavorText": "Driven by the demands and scarcity of life on the surface, a recognizable Icarus vernacular has swiftly emerged, spanning many forms of design, with furniture being no exception.",
             "recipes": [
                 "Wood_Chair"
@@ -43773,6 +43966,7 @@
             "displayName": "Wooden Lure ",
             "icon": "Items/Item_Icons/Fishing/ITEM_Wood_Lure",
             "description": "A basic lure carefully crafted out of wood, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Wood_Lure"
@@ -44159,6 +44353,7 @@
             "displayName": "Small Wood Sign",
             "icon": "Items/Item_Icons/Deployables/ITEM_Wood_Sign_Small",
             "description": "Places writeable signage.",
+            "durability": 100,
             "recipes": [
                 "Wood_Sign_Small"
             ],
@@ -44233,6 +44428,7 @@
             "displayName": "Interior Wood Trapdoor",
             "icon": "Items/Item_Icons/Deployables/ITEM_Wood_TrapDoor_Refined",
             "description": "A light wooden hatch.",
+            "durability": 100,
             "flavorText": "Attaches to a floor trapdoor structure. Less durable than basic wooden construction elements, refined materials will make your lumber go further, but require protection from the elements.",
             "recipes": [
                 "Interior_Wood_TrapDoor"
@@ -44396,6 +44592,7 @@
             "displayName": "Worker Bee",
             "icon": "Items/Item_Icons/Resources/T_ITEM_Worker_Bee",
             "description": "A simple worker bee that can be used for making Honeycomb.",
+            "durability": 100,
             "flavorText": "The Bees of Icarus are known for their long, needle-like stingers which are capable of piercing even the toughest of envirosuits. Proceed with caution.",
             "recipes": [],
             "ingredientIn": [],
@@ -44407,6 +44604,7 @@
             "displayName": "Cryogenically Frozen Calf",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Calf",
             "description": "A Calf preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Preserved for revival - not eating.",
             "recipes": [],
             "ingredientIn": [],
@@ -44427,6 +44625,7 @@
             "displayName": "Cryogenically Frozen Grey Tabby Cat",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Cat_A1",
             "description": "A Cat preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Meow",
             "recipes": [],
             "ingredientIn": [],
@@ -44447,6 +44646,7 @@
             "displayName": "Cryogenically Frozen Orange Tabby Cat",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Cat_A2",
             "description": "A Cat preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Meow",
             "recipes": [],
             "ingredientIn": [],
@@ -44467,6 +44667,7 @@
             "displayName": "Cryogenically Frozen Black Cat",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Cat_A3",
             "description": "A Cat preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Meow",
             "recipes": [],
             "ingredientIn": [],
@@ -44487,6 +44688,7 @@
             "displayName": "Cryogenically Frozen Chicken",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Chicken",
             "description": "A Chicken preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Comes in 3 different colours",
             "recipes": [],
             "ingredientIn": [],
@@ -44527,6 +44729,7 @@
             "displayName": "Cryogenically Frozen Golden Labrador",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Dog_A1",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Woof",
             "recipes": [],
             "ingredientIn": [],
@@ -44547,6 +44750,7 @@
             "displayName": "Cryogenically Frozen Chocolate Labrador",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Dog_A2",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Woof",
             "recipes": [],
             "ingredientIn": [],
@@ -44567,6 +44771,7 @@
             "displayName": "Cryogenically Frozen German Shepherd",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Dog_B1",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Woof",
             "recipes": [],
             "ingredientIn": [],
@@ -44587,6 +44792,7 @@
             "displayName": "Cryogenically Frozen Panda German Shepherd",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Dog_B2",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Woof",
             "recipes": [],
             "ingredientIn": [],
@@ -44607,6 +44813,7 @@
             "displayName": "Cryogenically Frozen Pug",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Tame_Dog_C1",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Woof",
             "recipes": [],
             "ingredientIn": [],
@@ -44627,6 +44834,7 @@
             "displayName": "Cryogenically Frozen Tan Laika",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Dog_D1",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "It is Laika - Back from space - what a good dog.",
             "recipes": [],
             "ingredientIn": [],
@@ -44647,6 +44855,7 @@
             "displayName": "Cryogenically Frozen Brown Laika",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Dog_D2",
             "description": "A Dog preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "It is Laika - Back from space - what a good dog.",
             "recipes": [],
             "ingredientIn": [],
@@ -44721,6 +44930,7 @@
             "displayName": "Cryogenically Frozen Brown Horse",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Horse_A1",
             "description": "A Horse preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Neigh",
             "recipes": [],
             "ingredientIn": [],
@@ -44741,6 +44951,7 @@
             "displayName": "Cryogenically Frozen Black Horse",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Horse_A2",
             "description": "A Horse preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Neigh",
             "recipes": [],
             "ingredientIn": [],
@@ -44761,6 +44972,7 @@
             "displayName": "Cryogenically Frozen White Horse",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Horse_A3",
             "description": "A Horse preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Neigh",
             "recipes": [],
             "ingredientIn": [],
@@ -44822,6 +45034,7 @@
             "displayName": "Cryogenically Frozen Sheep",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Sheep",
             "description": "A Sheep preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
             "flavorText": "Ba Ba Black Sheep...",
             "recipes": [],
             "ingredientIn": [],
@@ -44889,6 +45102,7 @@
             "displayName": "Yeast Lure",
             "icon": "Items/Item_Icons/Fishing/ITEM_Yeast_Lure",
             "description": "A basic lure carefully crafted from yeast, to attract more fish.",
+            "durability": 100,
             "flavorText": "Surely youll catch a big one with this in your kit.",
             "recipes": [
                 "Yeast_Lure"

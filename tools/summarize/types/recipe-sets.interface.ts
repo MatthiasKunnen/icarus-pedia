@@ -1,10 +1,6 @@
 import type {DataTable} from '../util/datatable.js';
 
-export type RecipeSetsDataTable = DataTable<RecipeSetRow, {
-    RecipeSetIcon: string;
-    ExperienceMultiplier: number;
-    bAllowRefundOfRecipesOnDestroy: boolean;
-}>;
+export type RecipeSetsDataTable = DataTable<RecipeSetRow>;
 
 export interface RecipeSetRow {
     Name: string;
