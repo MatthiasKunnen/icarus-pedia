@@ -5,6 +5,10 @@ export interface Crafter {
 }
 
 export interface Item {
+    /**
+     * Only set for deployables.
+     */
+    affectedByWeather: boolean | undefined;
     displayName: string;
     /**
      * Whether the item can be crafted or is used in a recipe.
@@ -33,6 +37,12 @@ export interface Item {
      * - bandage effect
      */
     modifier: ItemModifier | undefined;
+
+    /**
+     * Only set for deployables.
+     */
+    mustBeOutside: boolean | undefined;
+
     /**
      * Only set for processors.
      */

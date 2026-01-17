@@ -9,6 +9,7 @@ export interface ItemStaticRow {
     Actionable?: Ref;
     Consumable?: Ref;
     Decayable?: Ref;
+    Deployable?: RefWithDataTable;
     Durable?: RefWithDataTable;
     Floatable?: Ref;
     Focusable?: Ref;

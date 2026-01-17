@@ -40,9 +40,17 @@
                     <dt>Durability:</dt>
                     <dd>{data.durability}</dd>
                 {/if}
+                {#if data.affectedByWeather !== undefined}
+                    <dt>Affected by weather:</dt>
+                    <dd>{data.affectedByWeather ? 'Yes' : 'No'}</dd>
+                {/if}
                 {#if data.requiresShelter !== undefined}
                     <dt>Requires shelter:</dt>
                     <dd>{data.requiresShelter ? 'Yes' : 'No'}</dd>
+                {/if}
+                {#if data.mustBeOutside !== undefined}
+                    <dt>Must be outside:</dt>
+                    <dd>{data.mustBeOutside ? 'Yes' : 'No'}</dd>
                 {/if}
             </dl>
         </div>

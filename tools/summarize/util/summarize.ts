@@ -18,6 +18,7 @@ import type {
 } from '../../../src/lib/data.interface.js';
 import type {RefWithDataTable} from '../types/common.interface.js';
 import type {ConsumableDataTable} from '../types/consumable.interface.js';
+import type {DeployableDataTable, DeployableRow} from '../types/deployable.interface.js';
 import type {DurableDataTable, DurableRow} from '../types/durable.interface.js';
 import type {ItemStaticDataTable} from '../types/item-static.interface.js';
 import type {ItemTemplateDataTable} from '../types/item-templates.interface.js';
@@ -40,6 +41,7 @@ export interface SummarizeInput {
     itemsStatic: ItemStaticDataTable;
     itemTemplates: ItemTemplateDataTable;
     consumables: ConsumableDataTable;
+    deployable: DeployableDataTable;
     durable: DurableDataTable;
     modifiers: ModifierStateDataTable;
     statsFile: StatsDataTable;
@@ -54,6 +56,7 @@ export interface SummarizeInput {
 
 export function summarizeData(
     {
+        deployable,
         durable,
         itemTemplates,
         itemsStatic,
@@ -354,6 +357,11 @@ export function summarizeData(
             durability = durable.get(item.Durable.RowName);
         }
 
+        let itemDeployable: DeployableRow | undefined;
+        if (refIsSet(item.Deployable)) {
+            itemDeployable = deployable.get(item.Deployable.RowName);
+        }
+
         let itemProcessing: ProcessingFileRow | undefined;
         if (refIsSet(item.Processing)) {
             itemProcessing = processing.get(item.Processing.RowName);
@@ -367,6 +375,8 @@ export function summarizeData(
             flavorText: flavorText,
             type: type,
             requiresShelter: itemProcessing?.bRequiresShelter,
+            mustBeOutside: itemDeployable?.bMustBeOutside,
+            affectedByWeather: itemDeployable?.EffectedByWeather,
             recipes: [],
             ingredientIn: [],
             workshopItem: workshopItem,

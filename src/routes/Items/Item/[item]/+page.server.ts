@@ -23,6 +23,7 @@ export const load = async ({params}) => {
         };
 
     return {
+        affectedByWeather: item.affectedByWeather,
         crafts: crafter?.recipes.map(r => getRecipe(r, data)) ?? [],
         description: item.description,
         displayName: item.displayName,
@@ -40,6 +41,7 @@ export const load = async ({params}) => {
             return recipe;
         }),
         modifier: itemModifier,
+        mustBeOutside: item.mustBeOutside,
         recipes: item.recipes.map(r => getRecipe(r, data)),
         requiresShelter: item.requiresShelter,
         stackSize: item.stackSize,
