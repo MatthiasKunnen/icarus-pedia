@@ -44,11 +44,11 @@
                     <dt>Affected by weather:</dt>
                     <dd>{data.affectedByWeather ? 'Yes' : 'No'}</dd>
                 {/if}
-                {#if data.requiresShelter !== undefined}
+                {#if data.requiresShelter !== undefined && data.mustBeOutside !== true}
                     <dt>Requires shelter:</dt>
                     <dd>{data.requiresShelter ? 'Yes' : 'No'}</dd>
                 {/if}
-                {#if data.mustBeOutside !== undefined}
+                {#if data.mustBeOutside !== undefined && data.requiresShelter !== true}
                     <dt>Must be outside:</dt>
                     <dd>{data.mustBeOutside ? 'Yes' : 'No'}</dd>
                 {/if}
