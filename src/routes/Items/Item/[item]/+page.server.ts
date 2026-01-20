@@ -56,6 +56,6 @@ function mapStats(itemStats: ItemStats | undefined, statsMap: Record<string, Sta
     }
 
     return Object.entries(itemStats).map(([name, value]) => {
-        return formatStat(name, value, statsMap);
+        return formatStat(name, value, statsMap[name]);
     });
 }
