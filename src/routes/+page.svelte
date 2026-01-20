@@ -17,6 +17,8 @@
     </p>
     <h2>Items</h2>
     <p>View all items in Icarus at <a class="link" href="/Items">/Items</a>.</p>
+    <h2>Comparisons</h2>
+    <p>Compare all <a class="link" href="/Food">Food/consumables</a>.</p>
     <h2>Crafting benches</h2>
     <p>View all crafting benches <a class="link" href="/Crafters">/Crafters</a>.</p>
 </div>

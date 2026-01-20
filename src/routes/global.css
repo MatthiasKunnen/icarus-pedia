@@ -1,12 +1,17 @@
-html {
-    background-color: #191919;
+:root {
+    --accent-color: #388edb;
+    --background-color: #191919;
+    --border-radius: 4px;
+    background-color: var(--background-color);
     color: white;
+}
+
+html {
     font-family: sans-serif;
 }
 
 body {
     height: 100%;
-    --accent-color: #388edb;
     scrollbar-color: var(--accent-color) transparent;
 }
 
@@ -33,6 +38,25 @@ a.link {
     text-decoration: underline;
 }
 
+button.outline, a.outline {
+    padding: 0.25em 1em;
+    border: 1px solid var(--accent-color);
+}
+
+button.outline,
+a.outline,
+.focus {
+    border-radius: var(--border-radius);
+}
+
+:where(
+    button.outline,
+    a.outline,
+    .focus
+):where(:hover, :focus) {
+    background-color: rgb(255 255 255 / 10%);
+}
+
 ul {
     list-style: none;
 }
@@ -55,4 +79,12 @@ ul.list {
     display: block;
     height: 1em;
     width: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
