@@ -244,12 +244,12 @@
             type="submit"
             class="outline"
             onclick={() => sort = {columnId: columnId, asc: false}}
-        >Sort descending 🡳</button>
+        >Sort descending</button>
         <button
             type="submit"
             class="outline"
             onclick={() => sort = {columnId: columnId, asc: true}}
-        >Sort ascending 🡱</button>
+        >Sort ascending</button>
     </div>
 {/snippet}
 
