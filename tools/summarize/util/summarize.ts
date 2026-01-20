@@ -726,5 +726,14 @@ export function summarizeData(
         stats: sortObjectKeys(Object.fromEntries(stats)),
     };
 
+    touchUpGameData(gameData);
+    return gameData;
+}
+
+function touchUpGameData(gameData: GameData): GameData {
+    if (gameData.items.Wind_Turbine !== undefined) {
+        gameData.items.Wind_Turbine.affectedByWeather = true;
+    }
+
     return gameData;
 }

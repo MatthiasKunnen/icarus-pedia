@@ -44859,7 +44859,7 @@
             "durability": 2500,
             "flavorText": "As if the UDA ever cared about being environmentally friendly...",
             "mustBeOutside": false,
-            "affectedByWeather": false,
+            "affectedByWeather": true,
             "recipes": [
                 "Wind_Turbine"
             ],
