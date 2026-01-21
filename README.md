@@ -19,6 +19,11 @@ The gamedata and textures are extracted from the game files.
 See [gamedata/README.md](./gamedata/README.md).
 
 ## TODO
+- [ ] Enter in filter fields changes sort
+- [ ] Add ingredient filter in foods comparison
+- [ ] Add select option to food comparison which shows all ingredients. This is so you know what to plant.
+- [ ] Add crafter filter to foods comparison
+- [ ] Attachements are missing their stats
 - [ ] Add tool damage to item stats, e.g. the Neves Pickaxe (Meta_Pickaxe_Inaris_Alpha) should show 148% yield
 - [ ] Add tag based crafting support, introduced in week 213, 2026-01-01
 - [ ] Add groups; ammo, attachments
