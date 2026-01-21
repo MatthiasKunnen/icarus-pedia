@@ -19,6 +19,8 @@ The gamedata and textures are extracted from the game files.
 See [gamedata/README.md](./gamedata/README.md).
 
 ## TODO
+- [ ] Hot coffee/Cocoa/... recipe outputs don't have proper icons and link to a generic item.
+      Additionally, the Hot Cocoa item does not show the recipes.
 - [ ] Enter in filter fields changes sort
 - [ ] Add ingredient filter in foods comparison
 - [ ] Add select option to food comparison which shows all ingredients. This is so you know what to plant.
