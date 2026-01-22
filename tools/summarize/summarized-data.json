@@ -55962,6 +55962,7 @@
             "craftedAt": [
                 "FieldGuide_Character"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_PurificationPill",
             "inputs": [
                 {
                     "item": "Purification_Pill",
@@ -56082,6 +56083,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Cocoa",
             "inputs": [
                 {
                     "item": "Cocoa",
@@ -56258,6 +56260,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Coffee",
             "inputs": [
                 {
                     "item": "Coffee",
@@ -56305,6 +56308,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Coffeeand_Cream",
             "inputs": [
                 {
                     "item": "Coffee",
@@ -62816,6 +62820,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Resources/T_Icon_FrozenOreOutputHiRes",
             "inputs": [
                 {
                     "item": "Frozen_Ore",
@@ -62930,6 +62935,7 @@
                 "Kitchen_Bench",
                 "Advanced_Kitchen_Bench"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Smoothie",
             "inputs": [
                 {
                     "item": "Berry",
@@ -65385,6 +65391,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_GreenTea",
             "inputs": [
                 {
                     "item": "GreenTea",
@@ -66089,6 +66096,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Honey",
             "inputs": [
                 {
                     "item": "Honey",
@@ -66426,6 +66434,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Water",
             "inputs": [
                 {
                     "item": "Ice",
@@ -66891,6 +66900,7 @@
             "craftedAt": [
                 "FieldGuide_Character"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Ice",
             "inputs": [
                 {
                     "item": "Ice",
@@ -75572,6 +75582,7 @@
             "craftedAt": [
                 "FieldGuide_Character"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_XigoPuri",
             "inputs": [
                 {
                     "item": "Workshop_Purification_Tablet",
@@ -87357,6 +87368,7 @@
                 "Kitchen_Stove",
                 "Electric_Stove"
             ],
+            "iconOverride": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Gorse",
             "inputs": [
                 {
                     "item": "WildTea",

@@ -26,6 +26,11 @@ const log = new LogWriter(path.join(dirname, 'sync-icons.log'));
         icons.add(item.resourceIcon);
         icons.add(item.recipeIcon);
     }
+    for (const item of Object.values(data.recipes)) {
+        if (item.iconOverride !== undefined) {
+            icons.add(item.iconOverride);
+        }
+    }
     icons.add('Logos/Icon_Icarus');
 
     log.print('Cleaning output path');

@@ -6,6 +6,7 @@ export type ProcessorRecipesDataTable = DataTable<ProcessorRecipesRow>;
 export interface ProcessorRecipesRow {
     Name: string;
     bForceDisableRecipe?: boolean;
+    ItemIconOverride: ProcessorRecipeItemIconOverride;
     Requirement?: Ref;
     RecipeSets: Array<RefWithDataTable>;
     ResourceCostMultipliers: Array<{Value: string}>;
@@ -28,4 +29,8 @@ export interface ProcessorRecipeResource {
         Value: string;
     };
     RequiredUnits: number;
+}
+
+export interface ProcessorRecipeItemIconOverride {
+    ItemStaticData: RefWithDataTable;
 }

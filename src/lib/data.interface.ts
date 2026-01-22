@@ -85,6 +85,10 @@ export interface ItemCount {
 export interface Recipe {
     requirement: string | undefined;
     craftedAt: Array<string>;
+    /**
+     * The name of the static item to use the icon of for all outputs.
+     */
+    iconOverride: string | undefined;
     inputs: Array<ItemCount>;
     inputResources?: Array<ItemCount>;
     outputs: Array<ItemCount>;

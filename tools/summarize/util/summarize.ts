@@ -387,6 +387,24 @@ export function summarizeData(
         log.print(`- ${itemName}: ${exclusionReason}`);
     }
 
+    function getItemStaticIcon(staticName: string): string | undefined {
+        const mappedItem = mappedItems[staticName];
+        if (mappedItem !== undefined) {
+            return mappedItem.icon;
+        }
+        const staticItem = itemsStatic.get(staticName);
+        if (staticItem === undefined || !refIsSet(staticItem.Itemable)) {
+            return undefined;
+        }
+        const itemable = itemables.get(staticItem
+            .Itemable.RowName);
+        if (itemable?.Icon === undefined) {
+            return undefined;
+        }
+
+        return processIcon(itemable.Icon);
+    }
+
     const blacklistedCrafters = new Set<string>();
     // Key=ItemStatic.Name
     const crafters = new Map<string, Crafter>();
@@ -632,9 +650,14 @@ export function summarizeData(
             }
         }
 
+        let override;
+
         mappedRecipes[recipe.Name] = {
             requirement: requirementName,
             craftedAt: Array.from(craftedAt),
+            iconOverride: refIsSet(recipe.ItemIconOverride.ItemStaticData)
+                ? getItemStaticIcon(recipe.ItemIconOverride.ItemStaticData.RowName)
+                : undefined,
             inputs: inputs,
             inputResources: inputResources !== undefined && inputResources.length > 0
                 ? inputResources

@@ -19,8 +19,10 @@ The gamedata and textures are extracted from the game files.
 See [gamedata/README.md](./gamedata/README.md).
 
 ## TODO
-- [ ] Hot coffee/Cocoa/... recipe outputs don't have proper icons and link to a generic item.
+- [ ] Hot coffee not in foods table and recipe outputs don't have proper icons and link to a generic item.
       Additionally, the Hot Cocoa item does not show the recipes.
+     Thoughts: These recipes have an ItemIconOverride which change all the outputs' icons. This links to ItemStatic but is marked as fieldguide blacklisted. We might need to force overwrite. Use this itemstatic to set the displayname and icon via Itemable. How can we identify is as food?
+      It also has Alterations (D_Alterations). Get the modifiers by getting all AlterationModifers with Rows.Alteration.Value equal to the alteration name. Can, and should, we handle multiple modifiers?
 - [ ] Add ingredient filter in foods comparison
 - [ ] Add select option to food comparison which shows all ingredients. This is so you know what to plant.
 - [ ] Add crafter filter to foods comparison

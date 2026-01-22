@@ -10,7 +10,11 @@ export async function getData(): Promise<GameData> {
     return summarizedData as any;
 }
 
-export function itemCountToFull(ic: ItemCount, data: GameData): FullItemCount {
+export function itemCountToFull(
+    ic: ItemCount,
+    data: GameData,
+    iconOverride: string | undefined,
+): FullItemCount {
     const item = data.items[ic.item];
     if (item === undefined) {
         throw new Error(`Could not find item '${ic.item}'`);
@@ -21,12 +25,17 @@ export function itemCountToFull(ic: ItemCount, data: GameData): FullItemCount {
         isResource: false,
         item: {
             displayName: item.displayName,
-            icon: item.icon,
+            icon: iconOverride ?? item.icon,
             name: ic.item,
         },
     };
 }
-export function resourceCountToFull(ic: ItemCount, data: GameData): FullItemCount {
+
+export function resourceCountToFull(
+    ic: ItemCount,
+    data: GameData,
+    iconOverride: string | undefined,
+): FullItemCount {
     const resource = data.resources[ic.item];
     if (resource === undefined) {
         throw new Error(`Could not find resource '${ic.item}'`);
@@ -37,7 +46,7 @@ export function resourceCountToFull(ic: ItemCount, data: GameData): FullItemCoun
         isResource: true,
         item: {
             displayName: resource.displayName,
-            icon: resource.recipeIcon,
+            icon: iconOverride ?? resource.recipeIcon,
             name: ic.item,
         },
     };
@@ -56,13 +65,17 @@ export function getRecipe(recipeName: string, data: GameData): FullRecipe {
             id: craftedAtId,
         })),
         inputs: [
-            ...recipe.inputResources?.map(ic => resourceCountToFull(ic, data)) ?? [],
-            ...recipe.inputs.map(ic => itemCountToFull(ic, data)),
-            ],
+            ...recipe.inputResources?.map(ic => resourceCountToFull(ic, data, undefined)) ?? [],
+            ...recipe.inputs.map(ic => itemCountToFull(ic, data, undefined)),
+        ],
         name: recipeName,
         outputs: [
-            ...recipe.outputResources?.map(ic => resourceCountToFull(ic, data)) ?? [],
-            ...recipe.outputs.map(ic => itemCountToFull(ic, data)),
+            ...recipe.outputResources?.map(ic => {
+                return resourceCountToFull(ic, data, recipe.iconOverride);
+            }) ?? [],
+            ...recipe.outputs.map(ic => {
+                return itemCountToFull(ic, data, recipe.iconOverride);
+            }),
         ],
         requirement: recipe.requirement,
     };
