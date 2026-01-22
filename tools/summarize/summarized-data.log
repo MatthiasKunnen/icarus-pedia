@@ -1,9 +1,28 @@
 Excluded items:
-- Cooking_Station: Blacklisted
-- Kit_Road: Blacklisted
-- DEV_Fireball: Blacklisted
-- DEV_Inspection_Tool: Blacklisted
-- DEV_Bug_Tool: Blacklisted
+- Kit_Concrete_Furnace: FieldGuide blacklist
+- Kit_Electric_Furnace: FieldGuide blacklist
+- Cooking_Station: FieldGuide blacklist
+- Kit_Road: FieldGuide blacklist
+- DEV_Fireball: FieldGuide blacklist
+- Molotov: FieldGuide blacklist
+- DEV_Inspection_Tool: FieldGuide blacklist
+- DropShip: FieldGuide blacklist
+- Meta_Axe: FieldGuide blacklist
+- Meta_Pickaxe: FieldGuide blacklist
+- Meta_Knife: FieldGuide blacklist
+- Wood_Railing_Gate_Refined: FieldGuide blacklist
+- Module_Player_Tracker: FieldGuide blacklist
+- Rocket_Part_Top_Mk1: FieldGuide blacklist
+- Rocket_Part_Mid_Mk1: FieldGuide blacklist
+- Rocket_Part_Bot_Mk1: FieldGuide blacklist
+- Glass_Bottle_Beer: FieldGuide blacklist
+- DEV_Bug_Tool: FieldGuide blacklist
+- Glass_Bottle_Wine: FieldGuide blacklist
+- Thermos_IceWater: FieldGuide blacklist
+- Rocket_Part_Mid_RespawnPod: FieldGuide blacklist
+- DebugViking: FieldGuide blacklist
+- Player_Fist: FieldGuide blacklist
+- DEV_Pyromancy_Flame: FieldGuide blacklist
 - Spacesuit_Cap_Male: Not itemable
 - Spacesuit_Cap_Female: Not itemable
 - Spacesuit_Cap_Male_01: Not itemable
@@ -12,11 +31,25 @@ Excluded items:
 - Spacesuit_Cap_Female_02: Not itemable
 - Spacesuit_Cap_Male_03: Not itemable
 - Spacesuit_Cap_Female_03: Not itemable
+- WildSeed_Lily: FieldGuide blacklist
 - Spacesuit_Male: Not itemable
 - Spacesuit_Female: Not itemable
-- Debug_Target: Blacklisted
-- Player_Gravestone_MIA: Blacklisted
-- Player_Gravestone_DBNO: Blacklisted
+- Rug_AlphaWolf: FieldGuide blacklist
+- Paste_Health_Regen: FieldGuide blacklist
+- Paste_Health_Buff: FieldGuide blacklist
+- Paste_Health_Restore: FieldGuide blacklist
+- Paste_Stamina_Regen: FieldGuide blacklist
+- Paste_Stamina_Buff: FieldGuide blacklist
+- Paste_Stamina_Restore: FieldGuide blacklist
+- Paste_Stamina_Consumption: FieldGuide blacklist
+- Paste_Oxygen_Buff: FieldGuide blacklist
+- Paste_Oxygen_Restore: FieldGuide blacklist
+- Paste_Oxygen_Consumption: FieldGuide blacklist
+- Paste_Food_Consumption: FieldGuide blacklist
+- Paste_Water_Consumption: FieldGuide blacklist
+- Debug_Target: FieldGuide blacklist
+- Player_Gravestone_MIA: FieldGuide blacklist
+- Player_Gravestone_DBNO: FieldGuide blacklist
 - Skin_Head_Female_01: Not itemable
 - Skin_Head_Female_02: Not itemable
 - Skin_Head_Female_03: Not itemable
@@ -29,40 +62,128 @@ Excluded items:
 - Skin_Head_Male_04: Not itemable
 - Skin_Head_Male_05: Not itemable
 - Skin_Head_Male_06: Not itemable
-- Glassworking_Bench: Blacklisted
+- AnimalCarcass_Alpha_Snow_Wolf: FieldGuide blacklist
+- Antiseptic_Paste: FieldGuide blacklist
+- Antipoison_Item: FieldGuide blacklist
+- Blood_Thinner: FieldGuide blacklist
+- Glassworking_Bench: FieldGuide blacklist
 - SandWorm_Spit: Not itemable
 - SandWorm_Spit_Large: Not itemable
 - SandWorm_Spit_Multi: Not itemable
+- AnimalCarcass_Zebra_Mount: FieldGuide blacklist
 - CaveWorm_Spit: Not itemable
 - TeenageCaveWorm_Spit: Not itemable
-- Electric_Dehumidifier: Blacklisted
-- Faction_MIssion_Analyzer: Blacklisted
-- Faction_Mission_Mammoth_Sample: Blacklisted
-- Faction_Mission_Frozen_Mammoth_Sample: Blacklisted
+- Wood_Build_HalfPitch: FieldGuide blacklist
+- Food_Fish_Dish: FieldGuide blacklist
+- Food_Crumbed_Fish_Fillet: FieldGuide blacklist
+- Electric_Dehumidifier: FieldGuide blacklist
+- Meta_Coal: FieldGuide blacklist
+- Thermos_GreenTea: FieldGuide blacklist
+- Thermos_WildTea: FieldGuide blacklist
+- Thermos_Cocoa: FieldGuide blacklist
+- Thermos_Coffee: FieldGuide blacklist
+- Faction_MIssion_Analyzer: Manual blacklist
+- Faction_Mission_Mammoth_Sample: Manual blacklist
+- Faction_Mission_Frozen_Mammoth_Sample: Manual blacklist
+- Mission_CaveWormEgg: FieldGuide blacklist
 - Caveworm_Spit_Large: Not itemable
+- Target_DPSDummy: FieldGuide blacklist
+- Mission_Communication_Device_T2: FieldGuide blacklist
+- AnimalCarcass_Moa_Juvenile: FieldGuide blacklist
+- AnimalCarcass_Buffalo_Juvenile: FieldGuide blacklist
+- AnimalCarcass_Buffalo_Mount: FieldGuide blacklist
+- AnimalCarcass_Moa_Mount: FieldGuide blacklist
+- Advanced_Leather_Process: FieldGuide blacklist
+- AnimalCarcass_Bear_Contaminated: FieldGuide blacklist
+- AnimalCarcass_Blueback_Mount: FieldGuide blacklist
+- AnimalCarcass_Blueback_Mount_Daisy: FieldGuide blacklist
+- AnimalCarcass_Blueback_Lava_Mount: FieldGuide blacklist
+- ProspectorID: FieldGuide blacklist
+- AnimalCarcass_SwampQuad_Mount: FieldGuide blacklist
+- AnimalCarcass_Snow_Striker_Mount: FieldGuide blacklist
 - Dropship_Grenade_Flare: Not itemable
+- Filletting_Station: FieldGuide blacklist
 - Landshark_Spit: Not itemable
 - Landshark_Spit_Large: Not itemable
 - Needler_Spike: Not itemable
 - LavaHunter_Spit: Not itemable
 - GasFlyer_Projectile: Not itemable
+- AnimalCarcass_Broodling_WorldSpawn: FieldGuide blacklist
 - Rockdog_Spit: Not itemable
+- AnimalCarcass_Horse_Mount: FieldGuide blacklist
+- Unknown_Ore: FieldGuide blacklist
+- AnimalCarcass_Tusker_Mount: FieldGuide blacklist
+- AnimalCarcass_Tusker_Juvenile: FieldGuide blacklist
+- Honey_Tea: FieldGuide blacklist
+- AnimalCarcass_Ice_Mammoth: FieldGuide blacklist
+- AnimalCarcass_Ape: FieldGuide blacklist
+- AnimalCarcass_Mount_Horse_Standard: FieldGuide blacklist
+- AnimalCarcass_Tame_Dog_A: FieldGuide blacklist
+- AnimalCarcass_Tame_Dog_B: FieldGuide blacklist
+- AnimalCarcass_Tame_Dog_C: FieldGuide blacklist
+- AnimalCarcass_Tame_Cat_A: FieldGuide blacklist
+- AnimalCarcass_Arctic_Moa_Mount: FieldGuide blacklist
+- AnimalCarcass_Arctic_Moa_Juvenile: FieldGuide blacklist
+- AnimalCarcass_Tame_Dog_D: FieldGuide blacklist
 - Spider_Web: Not itemable
 - IceMammoth_Ice_Projectile: Not itemable
 - RockGolem_Ceiling_Rock: Not itemable
 - Slug_Spit: Not itemable
 - HammerheadSlug_Spit: Not itemable
-- Electric_Motor: No display name
+- Electric_Motor: FieldGuide blacklist
+- Flagpole: FieldGuide blacklist
+- DEV_Transform_Tool: FieldGuide blacklist
 - AnimalCarcass_Needler_Fire: No display name
-- Ashlands_Blocker: No display name
-- DecalDeployable: No display name
+- Metal_Grate_Building: FieldGuide blacklist
+- Bunker_BunkBed_TopBunk: FieldGuide blacklist
+- Ashlands_Blocker: FieldGuide blacklist
+- Rifle_Assault: FieldGuide blacklist
+- LegendaryWeapon_SlugLauncher: FieldGuide blacklist
+- LegendaryWeapon_IceMammoth_Sledgehammer: FieldGuide blacklist
+- Collectable_Note: FieldGuide blacklist
+- Collectable_Audio_Log: FieldGuide blacklist
+- Collectable_Logbook: FieldGuide blacklist
+- DecalDeployable: FieldGuide blacklist
 - GreatApe_Rock_Projectile: Not itemable
 - GreatApe_Rock_Projectile_Fast: Not itemable
+- ResearchEquipment_Centrifuge: FieldGuide blacklist
+- ResearchEquipment_Flasks: FieldGuide blacklist
+- ResearchEquipment_Microscope: FieldGuide blacklist
+- ResearchEquipment_TestTubes: FieldGuide blacklist
+- ResearchEquipment_LabDesk: FieldGuide blacklist
 - GreatApe_Log_Projectile: Not itemable
+- FlavoredDrinkIcon_Cocoa: FieldGuide blacklist
+- FlavoredDrinkIcon_Coffee: FieldGuide blacklist
+- FlavoredDrinkIcon_Gorse: FieldGuide blacklist
+- FlavoredDrinkIcon_GreenTea: FieldGuide blacklist
+- FlavoredDrinkIcon_Honey: FieldGuide blacklist
+- FlavoredDrinkIcon_Ice: FieldGuide blacklist
+- FlavoredDrinkIcon_PurificationPill: FieldGuide blacklist
+- FlavoredDrinkIcon_Smoothie: FieldGuide blacklist
+- FlavoredDrinkIcon_XigoPuri: FieldGuide blacklist
+- FlavoredDrinkIcon_Water: FieldGuide blacklist
+- FlavoredDrinkIcon_CoffeeCream: FieldGuide blacklist
+- ResearchCrate: FieldGuide blacklist
 - SlugLauncher_Ammo: Not itemable
 - Flamethrower_Fireball: Not itemable
 - RockGolem_Gauntlet_Projectile: Not itemable
-- Ammo_Sniper_Round_Illumination: No display name
+- Dead_Researcher: FieldGuide blacklist
+- Collectable_Clipboard: FieldGuide blacklist
+- Collectable_Laptop: FieldGuide blacklist
+- Dead_Miner: FieldGuide blacklist
+- Dead_Ape: FieldGuide blacklist
+- LegendaryWeapon_IceMammoth_Sledgehammer_Ammo: FieldGuide blacklist
+- Mission_Generator_NoDestroy: FieldGuide blacklist
+- Cave_Bat_Trophy: FieldGuide blacklist
+- AnimalCarcass_Ape_Juvenile_Wounded: FieldGuide blacklist
+- Landmine_Enemy: FieldGuide blacklist
+- Ammo_Sniper_Round_Illumination: FieldGuide blacklist
+- AnimalCarcass_SwampBird_Mount: FieldGuide blacklist
+- AnimalCarcass_Wooly_Zebra_Mount: FieldGuide blacklist
+- AnimalCarcass_SwampBird_Juvenile: FieldGuide blacklist
+- Collectable_Note_NoDeploy: FieldGuide blacklist
+- AnimalCarcass_WoollyMammoth_Juvenile: FieldGuide blacklist
+- Dead_EI_Agent: FieldGuide blacklist
 recipe Lantern, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
 recipe Waterskin, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
 recipe Oxygen_Bladder, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
@@ -209,6 +330,11 @@ Recipe Homestead_Water_Tank excluded: Recipe Homestead_Water_Tank has non-existe
 Recipe Homestead_Cabinet excluded: Recipe Homestead_Cabinet has non-existent requirement Homestead_Decorations
 Recipe Homestead_Cabinet_LRG excluded: Recipe Homestead_Cabinet_LRG has non-existent requirement Homestead_Decorations
 Recipe Homestead_BirdFeeder excluded: Recipe Homestead_BirdFeeder has non-existent requirement Homestead_Decorations
+Recipe ResearchEquipment_Centrifuge excluded: output ResearchEquipment_Centrifuge is not mapped. Reason: FieldGuide blacklist.
+Recipe ResearchEquipment_Flasks excluded: output ResearchEquipment_Flasks is not mapped. Reason: FieldGuide blacklist.
+Recipe ResearchEquipment_Microscope excluded: output ResearchEquipment_Microscope is not mapped. Reason: FieldGuide blacklist.
+Recipe ResearchEquipment_TestTubes excluded: output ResearchEquipment_TestTubes is not mapped. Reason: FieldGuide blacklist.
+Recipe ResearchEquipment_LabDesk excluded: output ResearchEquipment_LabDesk is not mapped. Reason: FieldGuide blacklist.
 Recipe Homestead_Sewing_Machine excluded: Recipe Homestead_Sewing_Machine has non-existent requirement Homestead_Decorations
 Recipe Homestead_Ranch_Sign excluded: Recipe Homestead_Ranch_Sign has non-existent requirement Homestead_Decorations
 Recipe Homestead_Ranch_Gate_Sign excluded: Recipe Homestead_Ranch_Gate_Sign has non-existent requirement Homestead_Decorations
@@ -224,29 +350,18 @@ Recipe Homestead_Picnic_Table excluded: Recipe Homestead_Picnic_Table has non-ex
 Recipe Homestead_Barbed_Wire_Fence excluded: Recipe Homestead_Barbed_Wire_Fence has non-existent requirement Homestead_Decorations
 Recipe Homestead_Lamp_Ground excluded: Recipe Homestead_Lamp_Ground has non-existent requirement Homestead_Decorations
 Recipe Homestead_Lamp_Wall excluded: Recipe Homestead_Lamp_Wall has non-existent requirement Homestead_Decorations
-Of the non-excluded items, 1680 are crafting related, the following 699 are not:
-- Kit_Concrete_Furnace
-- Kit_Electric_Furnace
+Recipe Assault_Rifle_Legacy excluded: output Rifle_Assault is not mapped. Reason: FieldGuide blacklist.
+Of the non-excluded items, 1674 are crafting related, the following 585 are not:
 - Kit_Radar
 - Envirosuit
 - Envirosuit_Sand
 - Envirosuit_Deluxe
 - Envirosuit_Shengong
 - Envirosuit_Shengong_2
-- Molotov
-- DropShip
 - Bed_Wood
-- Meta_Axe
-- Meta_Pickaxe
-- Meta_Knife
 - Raw_Fish
 - AnimalCarcass_Bear
 - AnimalCarcass_Elephant
-- Wood_Railing_Gate_Refined
-- Module_Player_Tracker
-- Rocket_Part_Top_Mk1
-- Rocket_Part_Mid_Mk1
-- Rocket_Part_Bot_Mk1
 - AnimalCarcass_PolarBear
 - Envirosuit_Tier2
 - Envirosuit_Tier3
@@ -254,42 +369,17 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Envirosuit_Tier5
 - Envirosuit_Tier6
 - Envirosuit_Tier7
-- Glass_Bottle_Beer
-- Glass_Bottle_Wine
-- Thermos_IceWater
 - Carbon_Chest
 - Carbon_Arms
 - Carbon_Legs
 - Carbon_Feet
 - Carbon_Head
-- Rocket_Part_Mid_RespawnPod
 - AnimalCarcass_Cougar_Alpha
-- DebugViking
-- Player_Fist
-- DEV_Pyromancy_Flame
 - AnimalCarcass_Mammoth
-- WildSeed_Lily
-- Rug_AlphaWolf
-- Paste_Health_Regen
-- Paste_Health_Buff
-- Paste_Health_Restore
-- Paste_Stamina_Regen
-- Paste_Stamina_Buff
-- Paste_Stamina_Restore
-- Paste_Stamina_Consumption
-- Paste_Oxygen_Buff
-- Paste_Oxygen_Restore
-- Paste_Oxygen_Consumption
-- Paste_Food_Consumption
-- Paste_Water_Consumption
 - AnimalCarcass_DeerLarge
 - AnimalCarcass_DeerDesertLarge
 - AnimalCarcass_Alpha_Wolf
-- AnimalCarcass_Alpha_Snow_Wolf
 - AnimalCarcass_Alpha_Desert_Wolf
-- Antiseptic_Paste
-- Antipoison_Item
-- Blood_Thinner
 - AnimalCarcass_SnowLeopard_Alpha
 - AnimalCarcass_Jaguar_Black
 - Bio_Needle
@@ -298,13 +388,11 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Survey_Radar
 - Faction_Mission_AquaScanner
 - Survey_Transmitter
-- AnimalCarcass_Zebra_Mount
 - Meta_Ration
 - Meta_Super_Ration
 - Meta_Soda
 - Meta_Oxygen_Gel
 - Meta_Stamina_Gel
-- Wood_Build_HalfPitch
 - Meta_Module_PlayerTracker
 - Meta_Module_Movement
 - Meta_Module_Carry_Weight
@@ -328,8 +416,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Meta_Knife_Shengong_Charlie
 - Meta_Knife_Shengong_Delta
 - Meta_Knife_Shengong_Echo
-- Food_Fish_Dish
-- Food_Crumbed_Fish_Fillet
 - AnimalCarcass_Buffalo
 - Meta_Spear_Shengong_Alpha
 - Meta_Spear_Shengong_Beta
@@ -374,12 +460,7 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Meta_Blood_Thinning_Vaccine_Charlie
 - Faction_Mission_Radar
 - Meta_Coal_Set
-- Meta_Coal
 - Faction_Mission_WallDrill
-- Thermos_GreenTea
-- Thermos_WildTea
-- Thermos_Cocoa
-- Thermos_Coffee
 - Delivery_Object
 - Mining_Backpack
 - Basic_Quiver
@@ -470,7 +551,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Mission_Knife_Lion
 - Meta_Module_WorldBoss
 - Mission_Analyzer_Egg
-- Mission_CaveWormEgg
 - Delivery_Object_Temperature
 - AnimalCarcass_BearCub
 - Meta_Arrow_Set_Larkwell_Standard
@@ -489,18 +569,10 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Meta_Crossbow_Inaris_D
 - AnimalCarcass_Scorpion_Arctic
 - AnimalCarcass_Scorpion_Armored
-- Target_DPSDummy
 - AnimalCarcass_Moa
-- Mission_Communication_Device_T2
-- AnimalCarcass_Moa_Juvenile
-- AnimalCarcass_Buffalo_Juvenile
-- AnimalCarcass_Buffalo_Mount
-- AnimalCarcass_Moa_Mount
-- Advanced_Leather_Process
 - Mission_Flora_Biomatter_Sample
 - Mission_Digested_Biomatter_Sample
 - Mission_Damaged_Bioweapon_Sample
-- AnimalCarcass_Bear_Contaminated
 - AnimalCarcass_RockDog
 - Mission_Communication_Blueprint_T2
 - AnimalCarcass_Needler
@@ -509,20 +581,13 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - AnimalCarcass_Swamp_Quad
 - AnimalCarcass_SwampBird
 - AnimalCarcass_BlueBack
-- AnimalCarcass_Blueback_Mount
-- AnimalCarcass_Blueback_Mount_Daisy
 - AnimalCarcass_BlueBack_Lava
-- AnimalCarcass_Blueback_Lava_Mount
-- ProspectorID
 - AnimalCarcass_Spider
 - AnimalCarcass_Snow_Striker
 - AnimalCarcass_Desert_Striker
 - Dynamic_Mission_Beacon
-- AnimalCarcass_SwampQuad_Mount
-- AnimalCarcass_Snow_Striker_Mount
 - Dropship_Grenade_Workshop
 - AnimalCarcass_Wooly_Zebra_Juvenile
-- Filletting_Station
 - Fish_01
 - Fish_01_Var2
 - Fish_01_Var3
@@ -622,7 +687,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - AnimalCarcass_Lava_Slug
 - Mission_Prototype_Printed_Crate
 - AnimalCarcass_Broodling
-- AnimalCarcass_Broodling_WorldSpawn
 - Farming_CropPlot_Workshop
 - Workshop_Shovel
 - Meta_Reed_Seed
@@ -637,8 +701,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Meta_Potato_Seed
 - AnimalCarcass_Horse
 - AnimalCarcass_JuvieHorse
-- AnimalCarcass_Horse_Mount
-- Unknown_Ore
 - Meta_Resource_Pack_Wood
 - Meta_Resource_Pack_Stone
 - Meta_Resource_Pack_Silica
@@ -667,8 +729,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Larkwell_Armor_Black_Legs
 - Larkwell_Armor_Black_Feet
 - AnimalCarcass_Tusker
-- AnimalCarcass_Tusker_Mount
-- AnimalCarcass_Tusker_Juvenile
 - Ice_Halfpiece
 - LegendaryWeapon_Black_Wolf_Revolver
 - Meta_Biolab_Inhaler_Sandworm
@@ -686,26 +746,18 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Meta_SugarCane_Seed
 - AnimalCarcass_Sheep
 - AnimalCarcass_Chicken
-- Honey_Tea
 - AnimalCarcass_Hammerhead_Slug_Small
 - AnimalCarcass_MiniHippo
 - Meta_Coconut_Seed
 - Meta_Bramble_Seed
 - Shotgun_CHAC
 - AnimalCarcass_Kiwi
-- AnimalCarcass_Ice_Mammoth
-- AnimalCarcass_Ape
 - Mission_AudioLog_Prometheus_4
 - Workshop_Chicken
 - Workshop_Sheep
 - Pistol_CHAC
 - Rifle_CHAC
 - Pyritic_Crust_Limestone
-- AnimalCarcass_Mount_Horse_Standard
-- AnimalCarcass_Tame_Dog_A
-- AnimalCarcass_Tame_Dog_B
-- AnimalCarcass_Tame_Dog_C
-- AnimalCarcass_Tame_Cat_A
 - Workshop_Dog_A1
 - Workshop_Dog_A2
 - Workshop_Dog_B1
@@ -721,13 +773,10 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Workshop_Dog_C1
 - Dirt_Mound
 - AnimalCarcass_Arctic_Moa
-- AnimalCarcass_Arctic_Moa_Mount
-- AnimalCarcass_Arctic_Moa_Juvenile
 - Workshop_Dressing_Kit
 - Workshop_Dressing_Bundle
 - Workshop_Dog_D1
 - Workshop_Dog_D2
-- AnimalCarcass_Tame_Dog_D
 - Ammo_Pistol_Round_Workshop
 - Ammo_Pistol_Round_Workshop_Bundle
 - Frozen_Kiwi
@@ -748,18 +797,15 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Bunker_SolarPanel
 - Bunker_Whiteboard
 - Bunker_BunkBed
-- Flagpole
 - Bunker_Sign
 - Bunker_Base_Sign
 - Medic_Cabinet
 - Bunker_Locker
 - Mission_Stasis_Bag_Full_NPC_4
 - Mission_Stasis_Bag_Full_NPC_5
-- Metal_Grate_Building
 - Teddy_Bear
 - Toilet
 - IceMammoth_Fractured_Ice
-- Bunker_BunkBed_TopBunk
 - FieldGuide_Character
 - FieldGuide_Biofuel
 - FieldGuide_Oxygen
@@ -772,7 +818,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - AnimalCarcass_Cow
 - AnimalCarcass_Calf
 - Workshop_Calf
-- LegendaryWeapon_SlugLauncher
 - Meta_Biolab_Inhaler_LavaHunter
 - Meta_Biolab_Inhaler_Hammerhead
 - Meta_Biolab_Inhaler_RockGolem
@@ -785,41 +830,17 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Meta_Resource_Pack_Obsidian
 - Meta_Resource_Pack_Clay
 - LegendaryWeapon_LavaHunter_FlameThrower
-- LegendaryWeapon_IceMammoth_Sledgehammer
 - AnimalCarcass_RockGolem_Juvie
 - AnimalCarcass_RockGolem_Juvie_Arctic
-- Collectable_Note
-- Collectable_Audio_Log
-- Collectable_Logbook
 - ExperimentalGoop
 - AnimalCarcass_Ape_Juvenile
 - Lab_Stool
 - Mission_Seismic_Probe
-- FlavoredDrinkIcon_Cocoa
-- FlavoredDrinkIcon_Coffee
-- FlavoredDrinkIcon_Gorse
-- FlavoredDrinkIcon_GreenTea
-- FlavoredDrinkIcon_Honey
-- FlavoredDrinkIcon_Ice
-- FlavoredDrinkIcon_PurificationPill
-- FlavoredDrinkIcon_Smoothie
-- FlavoredDrinkIcon_XigoPuri
-- FlavoredDrinkIcon_Water
-- FlavoredDrinkIcon_CoffeeCream
-- ResearchCrate
 - Mission_MammothBioSample
 - AnimalCarcass_MammothDesert
-- Dead_Researcher
-- Collectable_Clipboard
-- Collectable_Laptop
-- Dead_Miner
-- Dead_Ape
-- LegendaryWeapon_IceMammoth_Sledgehammer_Ammo
-- Mission_Generator_NoDestroy
 - AnimalCarcass_Mammoth_Icy
 - Curtain_PlatinumWeave
 - Cave_Bat_Head
-- Cave_Bat_Trophy
 - Meta_Resource_Pack_Synthetic_Enzymes
 - Enemy_Turret_Pistol
 - Landmine_Poison
@@ -857,7 +878,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Prop_Propaganda_Sign
 - Prop_Poster
 - Mission_Shackles
-- AnimalCarcass_Ape_Juvenile_Wounded
 - Prop_Cryogenic_Sample_Storage
 - Prop_Clipboard
 - Prop_Laptop
@@ -897,7 +917,6 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Prop_Mining_Equipment
 - Ammo_Shell_Workshop
 - Ammo_Shell_Workshop_Bundle
-- Landmine_Enemy
 - Splint_Workshop
 - Splint_Workshop_Bundle
 - LegendaryWeapon_Bow
@@ -916,11 +935,5 @@ Of the non-excluded items, 1680 are crafting related, the following 699 are not:
 - Ammo_Rifle_Round_Workshop_Bundle
 - Ammo_AssaultRifle_Round_Workshop
 - Ammo_AssaultRifle_Round_Workshop_Bundle
-- AnimalCarcass_SwampBird_Mount
-- AnimalCarcass_Wooly_Zebra_Mount
-- AnimalCarcass_SwampBird_Juvenile
-- Collectable_Note_NoDeploy
 - Prop_Eden_Whiteboard
-- AnimalCarcass_WoollyMammoth_Juvenile
-- Dead_EI_Agent
 - AnimalCarcass_WoollyMammoth_Mount

@@ -1025,11 +1025,6 @@
                 "Quality_Fertilizer",
                 "Resistance_Fertilizer",
                 "Ape_Tonic",
-                "ResearchEquipment_Centrifuge",
-                "ResearchEquipment_Flasks",
-                "ResearchEquipment_Microscope",
-                "ResearchEquipment_TestTubes",
-                "ResearchEquipment_LabDesk",
                 "Synthetic_Enzymes",
                 "Synthetic_Enzymes_2",
                 "Synthetic_Enzymes_3",
@@ -1833,7 +1828,6 @@
                 "Mission_Explosive_Crafted",
                 "Mission_Neurotoxic_Aerosol",
                 "Assault_Rifle_T4",
-                "Assault_Rifle_Legacy",
                 "AssaultRifle_Round",
                 "AssaultRifle_Round_Incendiary",
                 "AssaultRifle_Round_Explosive",
@@ -4023,17 +4017,6 @@
             "stackSize": 250,
             "weight": 10
         },
-        "Advanced_Leather_Process": {
-            "displayName": "Curing Leather",
-            "icon": "Items/Item_Icons/Resources/ITEM_Advanced_Leather",
-            "description": "Treated leather in the process of drying.",
-            "flavorText": "Given time this leather will be able to be put to good use.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10
-        },
         "AlienFossil_Conch": {
             "displayName": "Decorative shell",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_AlienFossil_Conch",
@@ -4922,18 +4905,6 @@
             "isCraftingRelated": false,
             "weight": 12000
         },
-        "AnimalCarcass_Alpha_Snow_Wolf": {
-            "displayName": "Black Wolf Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Alpha_Wolf",
-            "description": "A savage hunter.",
-            "durability": 200,
-            "flavorText": "The Formidable Alpha wolf variant endures where little else survives.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 12000
-        },
         "AnimalCarcass_Alpha_Wolf": {
             "displayName": "Black Wolf Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Alpha_Wolf",
@@ -4945,18 +4916,6 @@
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 12000
-        },
-        "AnimalCarcass_Ape": {
-            "displayName": "Garganutan Prime Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Ape",
-            "description": "The Apex of the Garganutan Line",
-            "durability": 500,
-            "flavorText": "Another one bites the dust.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
         },
         "AnimalCarcass_Ape_Juvenile": {
             "displayName": "Garganutan Carcass",
@@ -4970,42 +4929,7 @@
             "isCraftingRelated": false,
             "weight": 5000
         },
-        "AnimalCarcass_Ape_Juvenile_Wounded": {
-            "displayName": "Wounded Garganutan",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Ape",
-            "description": "The Wounded Body of what looks like a Giant Ape.",
-            "durability": 200,
-            "flavorText": "What are the scientists on Icarus doing?",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
         "AnimalCarcass_Arctic_Moa": {
-            "displayName": "Arctic Moa Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa",
-            "description": "A once-extinct large predatory bird, native to New Zealand, brought back to life on Icarus through the terraforming process. And then killed again, by you.",
-            "durability": 200,
-            "flavorText": "Adapted from its temperate counterpart this variation thrived in the arctic regions of Icarus.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Arctic_Moa_Juvenile": {
-            "displayName": "Juvenile Arctic Moa Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa",
-            "description": "A juvenile Arctic Moa which never quite made it to full adulthood.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 3500
-        },
-        "AnimalCarcass_Arctic_Moa_Mount": {
             "displayName": "Arctic Moa Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa",
             "description": "A once-extinct large predatory bird, native to New Zealand, brought back to life on Icarus through the terraforming process. And then killed again, by you.",
@@ -5067,18 +4991,6 @@
             "isCraftingRelated": false,
             "weight": 2500
         },
-        "AnimalCarcass_Bear_Contaminated": {
-            "displayName": "Contaminated Bear Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Bear",
-            "description": "Poor creature seems to be contaminated by some toxin.",
-            "durability": 500,
-            "flavorText": "Within the zone of failed terraforming, little can challenge the grizzly variant as an apex predator. Outside the zone, however, is another matter.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
         "AnimalCarcass_BlueBack": {
             "displayName": "Blueback Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_BlueBack",
@@ -5101,40 +5013,6 @@
             "isCraftingRelated": false,
             "weight": 10000
         },
-        "AnimalCarcass_Blueback_Lava_Mount": {
-            "displayName": "Redback Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_BlueBack_Lava",
-            "description": "The corpse of a sometimes gentle giant.",
-            "durability": 500,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_Blueback_Mount": {
-            "displayName": "Blueback Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_BlueBack",
-            "description": "What the Blueback lacks in speed, it makes up for in bulk.",
-            "durability": 500,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_Blueback_Mount_Daisy": {
-            "displayName": "Daisy Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_BlueBack",
-            "description": "The decaying remains of the Blueback known as Daisy",
-            "durability": 500,
-            "flavorText": "Poor Creature",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
         "AnimalCarcass_Broodling": {
             "displayName": "Lava Broodling Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Broodling",
@@ -5147,42 +5025,7 @@
             "isCraftingRelated": false,
             "weight": 10000
         },
-        "AnimalCarcass_Broodling_WorldSpawn": {
-            "displayName": "Lava Broodling Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Broodling",
-            "description": "The spawn of a much larger creature.",
-            "durability": 500,
-            "flavorText": "You really dont want to meet its parents.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
         "AnimalCarcass_Buffalo": {
-            "displayName": "Buffalo Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Buffalo",
-            "description": "No longer roaming.",
-            "durability": 500,
-            "flavorText": "Often confused with bison.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_Buffalo_Juvenile": {
-            "displayName": "Juvenile Buffalo Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Buffalo",
-            "description": "A juvenile Buffalo which never quite made it to full adulthood.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 4500
-        },
-        "AnimalCarcass_Buffalo_Mount": {
             "displayName": "Buffalo Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Buffalo",
             "description": "No longer roaming.",
@@ -5416,30 +5259,6 @@
             "isCraftingRelated": false,
             "weight": 10000
         },
-        "AnimalCarcass_Horse_Mount": {
-            "displayName": "Terrenus Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Terrenus",
-            "description": "A once powerful steed now lies cold at your feet.",
-            "durability": 200,
-            "flavorText": "The result of mixing DNA from Wild Boar and Horses on earth, with a dash of exotics thrown into the mix.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_Ice_Mammoth": {
-            "displayName": "Rimetusk Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Ice_Mammoth",
-            "description": "A behemoth from prehistory.",
-            "durability": 500,
-            "flavorText": "In the aftermath of failed terraforming, this mammoth variant was released illicitly by a disillusioned geneticist. It found an unexpected home in the newly arctified snowfields of Icarus.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
         "AnimalCarcass_Jaguar": {
             "displayName": "Jaguar Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Jaguar",
@@ -5615,41 +5434,6 @@
             "description": "A once-extinct large predatory bird, native to New Zealand, brought back to life on Icarus through the terraforming process. And then killed again, by you.",
             "durability": 200,
             "flavorText": "At its peak, reaching almost 12 feet tall and over 500 pounds, this long neck means business.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Moa_Juvenile": {
-            "displayName": "Juvenile Moa Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa",
-            "description": "A juvenile Moa which never quite made it to full adulthood.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 3500
-        },
-        "AnimalCarcass_Moa_Mount": {
-            "displayName": "Moa Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Moa",
-            "description": "A once-extinct large predatory bird, native to New Zealand, brought back to life on Icarus through the terraforming process. And then killed again, by you.",
-            "durability": 200,
-            "flavorText": "At its peak, reaching almost 12 feet tall and over 500 pounds, this long neck means business.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Mount_Horse_Standard": {
-            "displayName": "Horse Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Mount_Horse_Standard",
-            "description": "A good horse lies at your feet now dead.",
-            "durability": 200,
-            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -5918,18 +5702,6 @@
             "isCraftingRelated": false,
             "weight": 8000
         },
-        "AnimalCarcass_Snow_Striker_Mount": {
-            "displayName": "Snow Stalker Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Snow_Striker",
-            "description": "Fringe Zone apex predator, native to Icarus.",
-            "durability": 200,
-            "flavorText": "The most frightening predator found on Icarus, known for its intelligence. Stalkers are known to follow prospectors for hours, even days.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 8000
-        },
         "AnimalCarcass_Snow_Wolf": {
             "displayName": "Snow Wolf Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Snow_Wolf",
@@ -5960,40 +5732,6 @@
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_SwampBird",
             "description": "The body of a large flightless bird. Its bone-like face makes a natural death mask.",
             "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_SwampBird_Juvenile": {
-            "displayName": "Juvenile Ubis Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_SwampBird_Juvenile",
-            "description": "The lifeless body of a flightless bird, yours to harvest.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 3500
-        },
-        "AnimalCarcass_SwampBird_Mount": {
-            "displayName": "Ubis Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_SwampBird",
-            "description": "The body of a large flightless bird. Its bone-like face makes a natural death mask.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_SwampQuad_Mount": {
-            "displayName": "Stryder Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Swamp_Quad",
-            "description": "The Stryder evolved to run. This one did not run fast enough.",
-            "durability": 200,
-            "flavorText": "A snail, turtle and crab walked into a bar. Something obscene occurred, and we got the Stryder. Do you think it... tastes like crab?",
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -6034,89 +5772,7 @@
             "isCraftingRelated": false,
             "weight": 20000
         },
-        "AnimalCarcass_Tame_Cat_A": {
-            "displayName": "Cat Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Cat",
-            "description": "A furry friend lies at your feet now dead.",
-            "durability": 100,
-            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Tame_Dog_A": {
-            "displayName": "Labrador Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tame_Dog_A",
-            "description": "A good dog lies at your feet now dead.",
-            "durability": 200,
-            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Tame_Dog_B": {
-            "displayName": "German Shepherd Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tame_Dog_B",
-            "description": "A good dog lies at your feet now dead.",
-            "durability": 200,
-            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Tame_Dog_C": {
-            "displayName": "Pug Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tame_Dog_C",
-            "description": "A good dog lies at your feet now dead.",
-            "durability": 100,
-            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
-        "AnimalCarcass_Tame_Dog_D": {
-            "displayName": "Laika Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_Dog_Carcass_D1_1",
-            "description": "A good dog lies at your feet now dead.",
-            "durability": 100,
-            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
         "AnimalCarcass_Tusker": {
-            "displayName": "Tusker Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tusker",
-            "description": "A once proud beast, now lies dead at your feet.",
-            "durability": 500,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "AnimalCarcass_Tusker_Juvenile": {
-            "displayName": "Juvenile Tusker Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tusker_Juvenile",
-            "description": "A juvenile Tusker which never quite made it to full adulthood.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 4500
-        },
-        "AnimalCarcass_Tusker_Mount": {
             "displayName": "Tusker Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tusker",
             "description": "A once proud beast, now lies dead at your feet.",
@@ -6139,17 +5795,6 @@
             ],
             "stackSize": 1,
             "weight": 6000
-        },
-        "AnimalCarcass_WoollyMammoth_Juvenile": {
-            "displayName": "Juvenile Woolly Mammoth",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_WoollyMammoth_Juvenile",
-            "description": "A juvenile Woolly Mammoth which never quite made it to full adulthood.",
-            "durability": 200,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 7000
         },
         "AnimalCarcass_WoollyMammoth_Mount": {
             "displayName": "Woolly Mammoth Carcass",
@@ -6186,18 +5831,6 @@
             "isCraftingRelated": false,
             "weight": 10000
         },
-        "AnimalCarcass_Wooly_Zebra_Mount": {
-            "displayName": "Shaggy Zebra Carcass",
-            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Wooly_Zebra",
-            "description": "A gregarious, migratory grazer and icon of the savannah.",
-            "durability": 200,
-            "flavorText": "The exact purpose of zebra stripes remains a mystery.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
         "AnimalCarcass_Zebra": {
             "displayName": "Zebra Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Zebra",
@@ -6209,18 +5842,6 @@
                 "Carcass_Zebra"
             ],
             "stackSize": 1,
-            "weight": 10000
-        },
-        "AnimalCarcass_Zebra_Mount": {
-            "displayName": "Zebra Carcass",
-            "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Zebra",
-            "description": "A gregarious, migratory grazer and icon of the savannah.",
-            "durability": 200,
-            "flavorText": "The exact purpose of zebra stripes remains a mystery.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
             "weight": 10000
         },
         "Animal_Bed": {
@@ -6541,17 +6162,6 @@
             "stackSize": 10,
             "weight": 250
         },
-        "Antipoison_Item": {
-            "displayName": "Anti-poison",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Antipoison",
-            "description": "A basic toxicology and anti-venom kit to combat poisoning.",
-            "flavorText": "Its speculated that exotics may suffuse much of the plant life in the terrazone, imparting bioactive properties, though exactly what these are, whether theyre safe, and exactly how it works ... at this stage, who knows?",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "isCraftingRelated": false,
-            "weight": 200
-        },
         "Antipoison_Paste": {
             "displayName": "Anti-poison Paste",
             "icon": "Items/Item_Icons/UseableItems/ITEM_Antipoison_Paste",
@@ -6602,17 +6212,6 @@
             ],
             "stackSize": 10,
             "weight": 250
-        },
-        "Antiseptic_Paste": {
-            "displayName": "Antibiotics",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Antiseptic_Paste",
-            "description": "Heals food poisoning, infected wounds and bacterial infections like cave sickness.",
-            "flavorText": "Broad-spectrum, natural antibiotics that provide some ongoing protection against afflictions such as cave sickness.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "isCraftingRelated": false,
-            "weight": 200
         },
         "Anvil_Bench": {
             "displayName": "Anvil Bench",
@@ -8313,17 +7912,6 @@
             },
             "weight": 5000
         },
-        "Blood_Thinner": {
-            "displayName": "Blood Thinner",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Blood_Thinner",
-            "description": "A folk remedy for concussions and contusions.",
-            "flavorText": "A very basic anticoagulant.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "isCraftingRelated": false,
-            "weight": 200
-        },
         "Blood_Thinning_Paste": {
             "displayName": "Blood Thinning Paste",
             "icon": "Items/Item_Icons/UseableItems/ITEM_Blood_Thinning_Paste",
@@ -9368,24 +8956,6 @@
             },
             "isCraftingRelated": false,
             "weight": 10000
-        },
-        "Bunker_BunkBed_TopBunk": {
-            "displayName": "Top Bunk",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Bunker_BunkBed",
-            "description": "Reign supreme over your bottom bunk compatriot.",
-            "durability": 500,
-            "mustBeOutside": false,
-            "affectedByWeather": true,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 10,
-                "BaseSleepModifierDurationSeconds_+": 650,
-                "BaseSleepQuality_%": 110
-            },
-            "isCraftingRelated": false,
-            "weight": 1
         },
         "Bunker_ExtinguisherWallMount": {
             "displayName": "Fire Extinguisher Wall Mount",
@@ -10552,23 +10122,6 @@
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 5,
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Cave_Bat_Trophy": {
-            "displayName": "Cave Vesper Trophy",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Cave_Bat_Trophy",
-            "description": "A Trophy of a mutated bat like creature.",
-            "durability": 250,
-            "flavorText": "Evidence of skill, patience and accuracy.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 4
-            },
             "isCraftingRelated": false,
             "weight": 1000
         },
@@ -11972,106 +11525,6 @@
                 "BaseCriticalDamage_+%": 25,
                 "BaseFrostDamage_+": 200
             },
-            "weight": 500
-        },
-        "Collectable_Audio_Log": {
-            "displayName": "Audio Log",
-            "icon": "Items/Item_Icons/Modules/ITEM_Module_Waypoint",
-            "description": "A note written by someone. Right click to read.",
-            "durability": 250,
-            "flavorText": "Someone really needs to improve their handwriting.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 500
-        },
-        "Collectable_Clipboard": {
-            "displayName": "Note",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Collectable_Note",
-            "description": "A note written by someone. Right click to read.",
-            "durability": 250,
-            "flavorText": "Someone really needs to improve their handwriting.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 500
-        },
-        "Collectable_Laptop": {
-            "displayName": "Laptop",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Collectable_Laptop",
-            "description": "A Laptop containing sensitive information.",
-            "durability": 250,
-            "flavorText": "Who forgets to put a password on their laptop?",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 2500
-        },
-        "Collectable_Logbook": {
-            "displayName": "Log Book",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Collectable_Logbook",
-            "description": "A note written by someone. Right click to read.",
-            "durability": 250,
-            "flavorText": "Someone really needs to improve their handwriting.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 500
-        },
-        "Collectable_Note": {
-            "displayName": "Note",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Collectable_Note",
-            "description": "A note written by someone. Right click to read.",
-            "durability": 250,
-            "flavorText": "Someone really needs to improve their handwriting.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 500
-        },
-        "Collectable_Note_NoDeploy": {
-            "displayName": "Note",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Collectable_Note",
-            "description": "A note written by someone. Right click to read.",
-            "durability": 250,
-            "flavorText": "Someone really needs to improve their handwriting.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1
-            },
-            "isCraftingRelated": false,
             "weight": 500
         },
         "Combat_Knife": {
@@ -13609,105 +13062,6 @@
             "isCraftingRelated": false,
             "weight": 1000
         },
-        "DEV_Pyromancy_Flame": {
-            "displayName": "Pyromancy Flame",
-            "icon": "Items/Item_Icons/Dev/ITEM_Dev_Pyromancy_Flame",
-            "description": "Flame medium used by Great Swamp pyromancers. Pyromancers arouse this flame to produce various fire arts. Equip pyromancer flame to produce pyromancy",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Dead_Ape": {
-            "displayName": "Dead Ape",
-            "icon": "Icons/Icon_PassiveCreature",
-            "description": "Killed by Something Nearby.",
-            "durability": 1500,
-            "flavorText": "There is always a bigger fish.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 100
-        },
-        "Dead_EI_Agent": {
-            "displayName": "Eris Inquisition Agent",
-            "icon": "Icons/Icon_PassiveCreature",
-            "description": "Fallen in the line of duty.",
-            "durability": 1500,
-            "flavorText": "Another victim of Icarus.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 100
-        },
-        "Dead_Miner": {
-            "displayName": "Dead Miner",
-            "icon": "Icons/Icon_PassiveCreature",
-            "description": "Mining is a Dangerous Career.",
-            "durability": 1500,
-            "flavorText": "Delved too Deep.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 100
-        },
-        "Dead_Researcher": {
-            "displayName": "Dead Researcher",
-            "icon": "Icons/Icon_PassiveCreature",
-            "description": "Not all experiments work out.",
-            "durability": 1500,
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 100
-        },
-        "DebugViking": {
-            "displayName": "Raw Meat",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Raw_Meat",
-            "description": "Meat from a recently killed animal, worth cooking first.",
-            "flavorText": "Transplanted from Earth, a range of genetically modified animals thrive in the terrazone, providing an energy-dense food source.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 20,
-            "stats": {
-                "BaseFoodRecovery_+": 10
-            },
-            "modifier": {
-                "stats": {
-                    "BaseFoodStomachSlots_+": 1,
-                    "BaseMaximumStamina_+": 50,
-                    "BaseWaterConsumption_+%": -10
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 50
-        },
         "Deep_Freeze": {
             "displayName": "Deep Freeze",
             "icon": "Items/Item_Icons/Deployables/ITEM_Deep_Freeze",
@@ -14686,16 +14040,6 @@
                 "IgnoresRicochet_?": 1
             },
             "weight": 50
-        },
-        "DropShip": {
-            "displayName": "Drop Ship",
-            "icon": "Logos/Icon_Icarus",
-            "description": "Dropship",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
         },
         "Dropship_Grenade_T4": {
             "displayName": "Composite Dropship Recall Beacon",
@@ -16661,21 +16005,6 @@
             "isCraftingRelated": false,
             "weight": 100
         },
-        "Filletting_Station": {
-            "displayName": "Basic Fishing Bench",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Fishing_Bench",
-            "description": "A place to craft Rods and Lures and to fillet Fish that youve caught.",
-            "durability": 1000,
-            "flavorText": "The stench of this bench...",
-            "requiresShelter": false,
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 20000
-        },
         "FireExtinguisher": {
             "displayName": "Fire Extinguisher",
             "icon": "Items/Item_Icons/UseableItems/ITEM_Extinguisher",
@@ -17684,23 +17013,6 @@
             "stackSize": 1,
             "weight": 20000
         },
-        "Flagpole": {
-            "displayName": "Flag Pole",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Flagpole",
-            "description": "A Flag Pole with flag, made to withstand harsh conditions.",
-            "durability": 1500,
-            "flavorText": "A little piece of home",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 2
-            },
-            "isCraftingRelated": false,
-            "weight": 5000
-        },
         "Flame_Thrower": {
             "displayName": "Flamethrower",
             "icon": "Items/Item_Icons/Weapons/Guns/T_ITEM_Flame_Thrower",
@@ -17757,105 +17069,6 @@
             "ingredientIn": [],
             "stackSize": 5,
             "weight": 10000
-        },
-        "FlavoredDrinkIcon_Cocoa": {
-            "displayName": "Hot Cocoa",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Cocoa",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_Coffee": {
-            "displayName": "Coffee",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Coffee",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_CoffeeCream": {
-            "displayName": "Coffee With Cream",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Coffeeand_Cream",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_Gorse": {
-            "displayName": "Wild Tea",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Gorse",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_GreenTea": {
-            "displayName": "Green Tea",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_GreenTea",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_Honey": {
-            "displayName": "Honey Tea",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Honey",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_Ice": {
-            "displayName": "Ice Water",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Ice",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_PurificationPill": {
-            "displayName": "Purified Water",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_PurificationPill",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_Smoothie": {
-            "displayName": "Fruit Smoothie",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Smoothie",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_Water": {
-            "displayName": "Water",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_Water",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
-        "FlavoredDrinkIcon_XigoPuri": {
-            "displayName": "Purified Water",
-            "icon": "Items/Item_Icons/Consumeables/T_ITEM_DRINK_XigoPuri",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
         },
         "Flint_Arrow": {
             "displayName": "Flint Arrow",
@@ -18268,55 +17481,6 @@
                     "BaseStaminaActionCost_+%": -10
                 }
             },
-            "weight": 500
-        },
-        "Food_Crumbed_Fish_Fillet": {
-            "displayName": "Crumbed Fish Fillet",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_CrumbedFishFillet",
-            "description": "Battered in breadcrumbs, lightly fried, boosts health and stamina.",
-            "flavorText": "Bread meets fish.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "stats": {
-                "BaseFoodRecovery_+": 150
-            },
-            "modifier": {
-                "lifetime": 1200,
-                "stats": {
-                    "BaseExperience_+%": 10,
-                    "BaseFoodStomachSlots_+": 1,
-                    "BaseMaximumHealth_+": 150,
-                    "BaseMaximumStamina_+": 75,
-                    "BaseStaminaRegen_+%": 15
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 500
-        },
-        "Food_Fish_Dish": {
-            "displayName": "Fish curry",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_FishDish",
-            "description": "A simple curry with a large health boost.",
-            "flavorText": "Not the best fish curry in the galaxy, but far from the worst.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "stats": {
-                "BaseFoodRecovery_+": 100
-            },
-            "modifier": {
-                "lifetime": 900,
-                "stats": {
-                    "BaseFoodStomachSlots_+": 1,
-                    "BaseHealthRegen_+%": 10,
-                    "BaseMaximumHealth_+": 225,
-                    "BaseStaminaRegen_+%": 10
-                }
-            },
-            "isCraftingRelated": false,
             "weight": 500
         },
         "Food_Flatbread": {
@@ -20138,26 +19302,6 @@
             "stackSize": 12,
             "weight": 150
         },
-        "Glass_Bottle_Beer": {
-            "displayName": "Beer Bottle",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_BeerBottle",
-            "description": "A small, empty glass bottle. ",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 12,
-            "isCraftingRelated": false,
-            "weight": 500
-        },
-        "Glass_Bottle_Wine": {
-            "displayName": "Wine Bottle",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_WineBottle",
-            "description": "A large, empty glass bottle.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 12,
-            "isCraftingRelated": false,
-            "weight": 500
-        },
         "Glass_Door": {
             "displayName": "Glass Door",
             "icon": "Items/Item_Icons/Deployables/ITEM_Glass_Door",
@@ -21664,29 +20808,6 @@
             },
             "weight": 500
         },
-        "Honey_Tea": {
-            "displayName": "Honey Tea",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Thermos",
-            "description": "A mild honey tea with small health benefits.",
-            "flavorText": "Nothing is better than the smell of fresh honey tea on a cold winters night.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseWaterRecovery_+": 300
-            },
-            "modifier": {
-                "lifetime": 1200,
-                "stats": {
-                    "BaseBacterialModifierDuration_+%": -25,
-                    "BaseFoodModifierDuration_+%": 20,
-                    "BaseInternalTemperatureModification_+": 1000,
-                    "BaseParasiticModifierDuration_+%": -25
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
         "Honeycomb": {
             "displayName": "Honeycomb",
             "icon": "Items/Item_Icons/Resources/T_ITEM_Honeycomb",
@@ -23099,35 +22220,6 @@
             },
             "weight": 2000
         },
-        "Kit_Concrete_Furnace": {
-            "displayName": "Concrete Furnace",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Concrete_Furnace",
-            "description": "An insulated, high-temperature furnace for smelting a wide range of materials including steel.",
-            "durability": 1500,
-            "flavorText": "Icaruss oxygen levels may slow combustion, but ceramic insulation produces temperatures sufficient for smelting more advanced alloys.",
-            "requiresShelter": true,
-            "mustBeOutside": false,
-            "affectedByWeather": true,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 40000
-        },
-        "Kit_Electric_Furnace": {
-            "displayName": "Electric Furnace",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Electric_Furnace",
-            "description": "A laboratory grade arc furnace, smelts basic and advanced materials alike.",
-            "durability": 2000,
-            "requiresShelter": true,
-            "mustBeOutside": false,
-            "affectedByWeather": true,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 50000
-        },
         "Kit_Floor_Torch": {
             "displayName": "Floor Torch",
             "icon": "Items/Item_Icons/Deployables/ITEM_Kit_Floor_Torch",
@@ -23709,24 +22801,6 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 100,
                 "BaseFireDamage_+": 200
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Landmine_Enemy": {
-            "displayName": "Makeshift Landmine",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Landmine",
-            "description": "Place to Trigger and Arm.",
-            "durability": 100,
-            "flavorText": "Dangerous... Very Dangerous....",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 20,
-            "stats": {
-                "BaseAttacksCauseSlow_%": 100,
-                "BaseExplosiveDamage_+": 500
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -24685,35 +23759,6 @@
             "isCraftingRelated": false,
             "weight": 8000
         },
-        "LegendaryWeapon_IceMammoth_Sledgehammer": {
-            "displayName": "Frostbreaker",
-            "icon": "Items/Item_Icons/LegendaryWeapons/T_ITEM_LegendaryWeapon_IceMammoth_Sledgehammer",
-            "description": "A Prototype Upgradeable Sledgehammer created via studying of the Rimetusk mutated mammoth.",
-            "durability": 40000,
-            "flavorText": "A Giant Sledgehammer made from a Mutated Mammoth. Thanks Norex.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IceSledgeHammerStd_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 10000
-        },
-        "LegendaryWeapon_IceMammoth_Sledgehammer_Ammo": {
-            "displayName": "Ice",
-            "icon": "Items/Item_Icons/Resources/ITEM_Ice",
-            "description": "Frozen water, can be melted for drinking.",
-            "flavorText": "Store in a chilly bin or add to a campfire, with a water vessel, to collect drinkable water.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "stats": {
-                "IceSledgeHammerStd_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 20
-        },
         "LegendaryWeapon_LavaHunter_FlameThrower": {
             "displayName": "Heavy Flamethrower",
             "icon": "Items/Item_Icons/LegendaryWeapons/T_ITEM_LegendaryWeapon_LavaHunter_FlameThrower",
@@ -24759,23 +23804,6 @@
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 5000
-        },
-        "LegendaryWeapon_SlugLauncher": {
-            "displayName": "Slugger",
-            "icon": "Items/Item_Icons/LegendaryWeapons/T_ITEM_LegendaryWeapon_SlugLauncher",
-            "description": "A Prototype Upgradeable Launcher created via studying of the Hammerhead Slug.",
-            "durability": 20000,
-            "flavorText": "Another Weird Norex Invention, this one shoots Slime?",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseFirearmFillablePerShot_+": 400,
-                "BaseProjectileAOE_+": 500,
-                "BaseProjectileSplashLifespan_+": 20
-            },
-            "isCraftingRelated": false,
-            "weight": 2500
         },
         "LegendaryWeapon_Sniper": {
             "displayName": "Anti-materiel Rifle",
@@ -25744,18 +24772,6 @@
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 100
-        },
-        "Meta_Axe": {
-            "displayName": "Xigo Jack Axe",
-            "icon": "Items/Item_Icons/Tools/ITEM_Meta_Axe",
-            "description": "A mass-produced, but unremarkable hewing tool.",
-            "durability": 500000,
-            "flavorText": "Xigo specialises in high-end look at a low-end price.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 500
         },
         "Meta_Axe_Inaris_Alpha": {
             "displayName": "Inaris Dias Axe",
@@ -27026,17 +26042,6 @@
             "isCraftingRelated": false,
             "weight": 100
         },
-        "Meta_Coal": {
-            "displayName": "Comet Coal",
-            "icon": "Items/Item_Icons/Voxels/ITEM_Ore_Coal",
-            "description": "A high density petrochemical material refined from cometary hydrocarbons.",
-            "flavorText": "Comets are formed from material that never became planets, let alone stars. Burning its the next best thing.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "isCraftingRelated": false,
-            "weight": 600
-        },
         "Meta_Coal_Set": {
             "displayName": "UDA Comet Coal Resource Supply",
             "icon": "Items/Item_Icons/ResourcePack/T_ITEM_Resource_Pack_Coal",
@@ -27552,18 +26557,6 @@
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 100
-        },
-        "Meta_Knife": {
-            "displayName": "Xigo Shimmer Knife",
-            "icon": "Items/Item_Icons/Tools/ITEM_Meta_Knife",
-            "description": "A low grade, serviceable knife from the Purveyor of Everything",
-            "durability": 1000000,
-            "flavorText": "Whatever you kill with this blade doesnt need to know how little you paid.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 500
         },
         "Meta_Knife_Inaris_Alpha": {
             "displayName": "Inaris Ventura Knife",
@@ -28364,21 +27357,6 @@
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 100
-        },
-        "Meta_Pickaxe": {
-            "displayName": "Xigo Hertz Pickaxe",
-            "icon": "Items/Item_Icons/Tools/ITEM_Meta_Pickaxe",
-            "description": "A fancy name for a fairly ordinary mining device.",
-            "durability": 500000,
-            "flavorText": "Theres a joke: Where Xigo goes, humanity is never far behind.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseArmorDamageModifier_+%": 500
-            },
-            "isCraftingRelated": false,
-            "weight": 500
         },
         "Meta_Pickaxe_Inaris_Alpha": {
             "displayName": "Inaris Neves Pickaxe",
@@ -30001,21 +28979,6 @@
             "isCraftingRelated": false,
             "weight": 1000
         },
-        "Metal_Grate_Building": {
-            "displayName": "Metal Grate Building Kit",
-            "icon": "Items/Item_Icons/Buildables/ITEM_Iron_Floor_0",
-            "description": "Grating with an industrial feel. ",
-            "durability": 1000,
-            "flavorText": "Perfect for building walkways.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 20,
-            "stats": {
-                "IsInGracePeriod_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
         "Metal_Knife": {
             "displayName": "Iron Knife",
             "icon": "Items/Item_Icons/Tools/ITEM_Metal_Knife",
@@ -30632,17 +29595,6 @@
             },
             "weight": 2000
         },
-        "Mission_CaveWormEgg": {
-            "displayName": "Caveworm Egg",
-            "icon": "Items/Item_Icons/QuestItems/ITEM_Mission_CaveWormEgg",
-            "description": "An egg snatched from a caveworm nest.",
-            "flavorText": "Its all slimy and gross.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 100
-        },
         "Mission_Communication_Blueprint_T2": {
             "displayName": "Prototype UDA Communication Upgrade",
             "icon": "Items/Item_Icons/Resources/T_ITEM_CommunicatorUpgrade",
@@ -30656,20 +29608,6 @@
             },
             "isCraftingRelated": false,
             "weight": 250
-        },
-        "Mission_Communication_Device_T2": {
-            "displayName": "Short Range Radio",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Mission_Communication_Device_T2",
-            "description": "Interact to Receive a Mission From SMPL3 - Simplified Mission Prospector Liaison V3",
-            "durability": 500,
-            "flavorText": "Replacing UDA agents one mission at a time.",
-            "mustBeOutside": true,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 10000
         },
         "Mission_Communication_Device_T3": {
             "displayName": "Infrasonic Relay Upgrade",
@@ -31093,28 +30031,6 @@
                 "IsInvolvedInQuest_?": 1
             },
             "weight": 5000
-        },
-        "Mission_Generator_NoDestroy": {
-            "displayName": "Biofuel Generator",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Kit_Generator",
-            "description": "An efficient, if basic biofuel-driven electric generator.",
-            "durability": 1000,
-            "flavorText": "Literally or figuratively, weve come a long way from the Faraday Disc.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseExplosiveDamageResistance_%": 1000,
-                "BaseFireDamageResistance_%": 1000,
-                "BaseFrostDamageResistance_%": 1000,
-                "BaseMeleeDamageResistance_%": 1000,
-                "BasePoisonDamageResistance_%": 1000,
-                "BaseProjectileDamageResistance_%": 1000
-            },
-            "isCraftingRelated": false,
-            "weight": 40000
         },
         "Mission_HighTech_1": {
             "displayName": "Unknown component",
@@ -31928,28 +30844,6 @@
             },
             "weight": 2000
         },
-        "Module_Player_Tracker": {
-            "displayName": "Player Tracker Module",
-            "icon": "Items/Item_Icons/Modules/T_ITEM_MODULE_UTILITY_PlayerTracker",
-            "description": "Provides realtime location data on team members.",
-            "flavorText": "Equip in a module slot to view your team members on the map.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 100
-        },
-        "Molotov": {
-            "displayName": "Frag Grenade",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Genade_Frag",
-            "description": "A basic fragmentation grenade design.",
-            "flavorText": "Homemade explosives are the best kind.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 5,
-            "isCraftingRelated": false,
-            "weight": 500
-        },
         "Mushroom": {
             "displayName": "Mushroom",
             "icon": "Items/Item_Icons/Consumeables/ITEM_Mushroom",
@@ -32592,213 +31486,6 @@
                 "Pouch_Generic_Blue"
             ],
             "stackSize": 500,
-            "weight": 10
-        },
-        "Paste_Food_Consumption": {
-            "displayName": "Food Consumption Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_Food",
-            "description": "An organic confection that arrests hunger for a limited time.",
-            "flavorText": "Just because its organic, doesnt mean its good for you.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 180,
-                "stats": {
-                    "BaseFoodConsumption_+%": -5
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Health_Buff": {
-            "displayName": "Health Buff Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_HP_buff",
-            "description": "An organic preparation that temporarily increases health.",
-            "flavorText": "Like so many things on Icarus, the exact ingredients would probably render this concoction illegal on Earth.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 60,
-                "stats": {
-                    "BaseMaximumHealth_+%": 10
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Health_Regen": {
-            "displayName": "Health Regeneration Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_HP_regen",
-            "description": "A herbal confection that speeds healing.",
-            "flavorText": "The lilys high concentration of bioactive ingredients is thought to inhibit the reuptake of certain cytochromes, briefly flooding your body with oxidating enzymes.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 60,
-                "stats": {
-                    "BaseHealthRegen_+%": 100
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Health_Restore": {
-            "displayName": "Health Restoration Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_HP_resto",
-            "description": "An organic fusion that restores health.",
-            "flavorText": "The combination of Icaruss unique conditions and genetic adjustments to plant life has seen the addition of useful methyl chains to many previously innocuous plant-based preparations.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "stats": {
-                "BaseHealthRecovery_+": 50
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Oxygen_Buff": {
-            "displayName": "Oxygen Buff Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_02_buff",
-            "description": "A natural concoction that increases available oxygen.",
-            "flavorText": "Your parents are a long way from here. What you do with your body is your business.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 60,
-                "stats": {
-                    "BaseMaximumOxygen_+%": 10
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Oxygen_Consumption": {
-            "displayName": "Oxygen Consumption Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_02_consumption",
-            "description": "A natural beta blocker.",
-            "flavorText": "This preparation reduces the heart rate, dropping oxygen consumption temporarily.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 180,
-                "stats": {
-                    "BaseOxygenConsumption_+%": -5
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Oxygen_Restore": {
-            "displayName": "Oxygen Restoration Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_02_resto",
-            "description": "An organic co-factor that rapidly restores oxygen.",
-            "flavorText": "Helper molecule",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "stats": {
-                "BaseOxygenRecovery_+": 100
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Stamina_Buff": {
-            "displayName": "Stamina Buff Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_stam_buff",
-            "description": "A herbal concoction, temporarily increasing stamina.",
-            "flavorText": "While lacking some of the pharmaceutical refinements, this paste produces similar physiological affects to the wakers once offered to long haul space pilots.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 60,
-                "stats": {
-                    "BaseMaximumStamina_+%": 10
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Stamina_Consumption": {
-            "displayName": "Stamina Consumption Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_stam_consumption",
-            "description": "A biotic compound that slows stamina loss temporarily.",
-            "flavorText": "The time-jarring effects of exotics find their influence in many subtle, poorly understood ways on Icarus.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 60,
-                "stats": {
-                    "BaseStaminaActionCost_+%": -5
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Stamina_Regen": {
-            "displayName": "Stamina Regeneration Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_stam_regen",
-            "description": "An organic stimulant that accelerates stamina recovery.",
-            "flavorText": "A herbal preparation that acts rapidly on the sympathetic nervous system, increasing noradrenergic activity.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 60,
-                "stats": {
-                    "BaseStaminaRegen_+%": 100
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Stamina_Restore": {
-            "displayName": "Stamina Restoration Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_stam_resto",
-            "description": "A natural stimulant that restores lost stamina.",
-            "flavorText": "As countless athletes, party-goers and would-be mystics have noted, the line between natural stimulant and highly addictive narcotic is arbitrary, at best.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "stats": {
-                "BaseStaminaRecovery_+": 50
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
-        "Paste_Water_Consumption": {
-            "displayName": "Water Consumption Paste",
-            "icon": "Items/Item_Icons/Consumeables/ITEM_Paste_H20",
-            "description": "A natural preparation, temporarily reducing the bodys need for water.",
-            "flavorText": "The key word here is temporarily.",
-            "type": "Food",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "modifier": {
-                "lifetime": 180,
-                "stats": {
-                    "BaseWaterConsumption_+%": -5
-                }
-            },
-            "isCraftingRelated": false,
             "weight": 10
         },
         "Pastry": {
@@ -33506,16 +32193,6 @@
                 "Saddle_Mammoth_Standard"
             ],
             "stackSize": 250,
-            "weight": 10
-        },
-        "Player_Fist": {
-            "displayName": "Fists",
-            "icon": "Items/Item_Icons/Tools/ITEM_Fists",
-            "description": "Throw hands.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
             "weight": 10
         },
         "Plough_Platinum": {
@@ -34849,17 +33526,6 @@
             },
             "isCraftingRelated": false,
             "weight": 500
-        },
-        "ProspectorID": {
-            "displayName": "Prospector Identification",
-            "icon": "Items/Item_Icons/Modules/T_ITEM_MODULE_UTILITY_ProspectorID",
-            "description": "The Standard ID of a Prospector Issued by the UDA",
-            "flavorText": "DO NOT LOSE",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 300
         },
         "Prototype_Boss_Tracker": {
             "displayName": "Prototype Threat Tracker",
@@ -36573,99 +35239,6 @@
             "stackSize": 1,
             "weight": 20000
         },
-        "ResearchCrate": {
-            "displayName": "Large Crate of Research",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_ResearchCrate",
-            "description": "A large collection of research.",
-            "durability": 1500,
-            "flavorText": "What secrets does this contain?",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvolvedInQuest_?": 1,
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 35000
-        },
-        "ResearchEquipment_Centrifuge": {
-            "displayName": "Battered Centrifuge",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_ResearchEquipment_Centrifuge",
-            "description": "A Centrifuge brought from orbit.",
-            "durability": 750,
-            "flavorText": "Still functional but has seen better days.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "ResearchEquipment_Centrifuge"
-            ],
-            "ingredientIn": [],
-            "stackSize": 5,
-            "weight": 4000
-        },
-        "ResearchEquipment_Flasks": {
-            "displayName": "Battered Shaker",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_ResearchEquipment_Flasks",
-            "description": "A Shaker brought from Orbit.",
-            "durability": 750,
-            "flavorText": "A simple device, still running after many hours of research.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "ResearchEquipment_Flasks"
-            ],
-            "ingredientIn": [],
-            "stackSize": 5,
-            "weight": 2500
-        },
-        "ResearchEquipment_LabDesk": {
-            "displayName": "Battered Lab Desk",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_ResearchEquipment_LabDesk",
-            "description": "A simple Laboratory Desk brought from Orbit.",
-            "durability": 1500,
-            "flavorText": "Easier to craft on Icarus these days.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "ResearchEquipment_LabDesk"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "weight": 12000
-        },
-        "ResearchEquipment_Microscope": {
-            "displayName": "Battered Microscope",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_ResearchEquipment_Microscope",
-            "description": "A Microscope brought from Orbit.",
-            "durability": 1000,
-            "flavorText": "Expensive to replace on Earth, even more expensive on Icarus.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "ResearchEquipment_Microscope"
-            ],
-            "ingredientIn": [],
-            "stackSize": 5,
-            "weight": 3000
-        },
-        "ResearchEquipment_TestTubes": {
-            "displayName": "Battered Test Tubes",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_ResearchEquipment_TestTubes",
-            "description": "Test Tubes brought from Orbit.",
-            "durability": 250,
-            "flavorText": "Collected many samples during their time.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "ResearchEquipment_TestTubes"
-            ],
-            "ingredientIn": [],
-            "stackSize": 10,
-            "weight": 1000
-        },
         "Resistance_Fertilizer": {
             "displayName": "Resistance Fertilizer",
             "icon": "Items/Item_Icons/UseableItems/T_ITEM_Fertalizer_Resistance",
@@ -36764,24 +35337,6 @@
                 }
             },
             "weight": 500
-        },
-        "Rifle_Assault": {
-            "displayName": "Submachine Gun",
-            "icon": "Items/Item_Icons/Weapons/Guns/T_ITEM_Submachine_Gun",
-            "description": "An automatic firearm that fires low caliber pistol rounds. Works with Pistol Attachments and Talents.",
-            "durability": 45000,
-            "flavorText": "Quantity over Quality",
-            "recipes": [
-                "Assault_Rifle_Legacy"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseCriticalDamage_+%": -75,
-                "BaseProjectileDamage_+%": -25,
-                "IsKillcamDisabled_?": 1
-            },
-            "weight": 3000
         },
         "Rifle_Assault_T4": {
             "displayName": "Assault Rifle",
@@ -37205,51 +35760,6 @@
             },
             "weight": 1000
         },
-        "Rocket_Part_Bot_Mk1": {
-            "displayName": "Rocket Part Bottom",
-            "icon": "Items/Item_Icons/Dropship/ITEM_DropshipBottom_1",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Rocket_Part_Mid_Mk1": {
-            "displayName": "Rocket Part Mid",
-            "icon": "Items/Item_Icons/Dropship/ITEM_DropshipMiddle_1",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Rocket_Part_Mid_RespawnPod": {
-            "displayName": "Rocket Part Mid",
-            "icon": "Items/Item_Icons/Dropship/ITEM_DropshipMiddle_1",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Rocket_Part_Top_Mk1": {
-            "displayName": "Rocket Part Top",
-            "icon": "Items/Item_Icons/Dropship/ITEM_DropshipTop_1",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
         "Rope": {
             "displayName": "Rope",
             "icon": "Items/Item_Icons/Resources/ITEM_Rope",
@@ -37453,23 +35963,6 @@
             "ingredientIn": [],
             "stackSize": 1,
             "weight": 250
-        },
-        "Rug_AlphaWolf": {
-            "displayName": "Black Wolf Rug",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Rug_AlphaWolf",
-            "description": "A decorative alpha wolf skin.",
-            "durability": 250,
-            "flavorText": "Instantly transforms your shelter or cabin into an 18th century hunting lodge.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 8
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
         },
         "Rug_Bear": {
             "displayName": "Bear Rug",
@@ -43100,20 +41593,6 @@
             "stackSize": 1,
             "weight": 12500
         },
-        "Target_DPSDummy": {
-            "displayName": "Target Dummy",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Target_Dummy",
-            "description": "Can be used to test out Damage Per Second.",
-            "durability": 50000,
-            "flavorText": "If only real bears would stay this still.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 12500
-        },
         "Target_Dummy": {
             "displayName": "Target Dummy",
             "icon": "Items/Item_Icons/Deployables/ITEM_Target_Dummy",
@@ -43444,111 +41923,6 @@
             "ingredientIn": [],
             "stackSize": 1,
             "weight": 750
-        },
-        "Thermos_Cocoa": {
-            "displayName": "Hot Cocoa",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Thermos",
-            "description": "A savory chocolate drink that slows hunger, and warms.",
-            "flavorText": "In the absence of sugar, Icaruss cocoa drinks return to a classical, savory Spanish style.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseWaterRecovery_+": 300
-            },
-            "modifier": {
-                "lifetime": 900,
-                "stats": {
-                    "BaseFoodConsumption_+%": -25,
-                    "BaseInternalTemperatureModification_+": 1000
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Thermos_Coffee": {
-            "displayName": "Hot Coffee",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Thermos",
-            "description": "Do more.",
-            "flavorText": "If it didnt shield you from the leaden weight of fatigue, it wouldnt be coffee.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseWaterRecovery_+": 300
-            },
-            "modifier": {
-                "lifetime": 900,
-                "stats": {
-                    "BaseInternalTemperatureModification_+": 1000,
-                    "BaseMaximumStamina_+%": 10,
-                    "BaseStaminaRegen_+%": 10
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Thermos_GreenTea": {
-            "displayName": "Hot Tea",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Thermos",
-            "description": "A nourishing, warming drink that soothes the spirit.",
-            "flavorText": "Arguably humanitys single greatest contribution to the galaxy.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseWaterRecovery_+": 300
-            },
-            "modifier": {
-                "lifetime": 900,
-                "stats": {
-                    "BaseHealthRegen_+%": 25,
-                    "BaseInternalTemperatureModification_+": 1000
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Thermos_IceWater": {
-            "displayName": "Ice Water",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Thermos",
-            "description": "Like a Canteen, but with better thermal protection",
-            "flavorText": "The perfect temperature, every time.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseWaterRecovery_+": 100
-            },
-            "modifier": {
-                "lifetime": 600,
-                "stats": {
-                    "BaseInternalTemperatureModification_+": -1500
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
-        },
-        "Thermos_WildTea": {
-            "displayName": "Gorse Tea",
-            "icon": "Items/Item_Icons/UseableItems/ITEM_Thermos",
-            "description": "A slightly bitter, warming beverage that reduces thirst.",
-            "flavorText": "Smells a little like coconut.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseWaterRecovery_+": 300
-            },
-            "modifier": {
-                "lifetime": 900,
-                "stats": {
-                    "BaseInternalTemperatureModification_+": 1000,
-                    "BaseWaterConsumption_+%": -25
-                }
-            },
-            "isCraftingRelated": false,
-            "weight": 1000
         },
         "Thumper": {
             "displayName": "Prototype Thumper",
@@ -44216,15 +42590,6 @@
             },
             "weight": 2000
         },
-        "Unknown_Ore": {
-            "displayName": "Unknown Ore",
-            "icon": "Items/Item_Icons/Resources/T_Icon_FrozenOreOutputHiRes",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "isCraftingRelated": false,
-            "weight": 1
-        },
         "Vapour_Condenser": {
             "displayName": "Vapor Condenser",
             "icon": "Items/Item_Icons/Deployables/ITEM_Vapour_Condenser",
@@ -44802,22 +43167,6 @@
             "stackSize": 5,
             "weight": 2000
         },
-        "WildSeed_Lily": {
-            "displayName": "Wild Lily Seed",
-            "icon": "Items/Item_Icons/Resources/ITEM_Lily",
-            "description": "Grow your own.",
-            "flavorText": "Wherever this is planted, a lily will appear.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 100,
-            "stats": {
-                "IsInvulnerable_?": 1
-            },
-            "isCraftingRelated": false,
-            "weight": 10
-        },
         "WildTea": {
             "displayName": "Gorse Flower",
             "icon": "Items/Item_Icons/Consumeables/T_ITEM_WildTea",
@@ -45203,18 +43552,6 @@
             "isCraftingRelated": false,
             "weight": 500
         },
-        "Wood_Build_HalfPitch": {
-            "displayName": "Wood Halfpitches",
-            "icon": "Items/Item_Icons/Buildables/ITEM_Wood_Half_Pitch_2",
-            "description": "Combinable elements for creating 2:1 inclines.",
-            "durability": 1000,
-            "flavorText": "For the more discerning builder.",
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 20,
-            "isCraftingRelated": false,
-            "weight": 500
-        },
         "Wood_Burner": {
             "displayName": "Wood Burner",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Wood_Burner",
@@ -45477,19 +43814,6 @@
             ],
             "ingredientIn": [],
             "stackSize": 20,
-            "weight": 1000
-        },
-        "Wood_Railing_Gate_Refined": {
-            "displayName": "Interior Wood Gate",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Wood_Railing_Gate_Refined",
-            "description": "A light wooden railing gateway for interior use.",
-            "durability": 500,
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [],
-            "ingredientIn": [],
-            "stackSize": 20,
-            "isCraftingRelated": false,
             "weight": 1000
         },
         "Wood_Railing_Gate_Refined_V2": {
@@ -49182,40 +47506,6 @@
                 {
                     "item": "Ammo_AssaultRifle_Round_Obsidian",
                     "count": 5
-                }
-            ]
-        },
-        "Assault_Rifle_Legacy": {
-            "requirement": "T4_Assault_Rifle",
-            "craftedAt": [
-                "Fabricator"
-            ],
-            "inputs": [
-                {
-                    "item": "Epoxy",
-                    "count": 15
-                },
-                {
-                    "item": "Seed_Oil",
-                    "count": 5
-                },
-                {
-                    "item": "Steel_Screw",
-                    "count": 25
-                },
-                {
-                    "item": "Titanium_Ingot",
-                    "count": 40
-                },
-                {
-                    "item": "Wood_Refined",
-                    "count": 15
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Rifle_Assault",
-                    "count": 1
                 }
             ]
         },
@@ -78850,156 +77140,6 @@
                 }
             ]
         },
-        "ResearchEquipment_Centrifuge": {
-            "requirement": "Ape_ResearchEquipment",
-            "craftedAt": [
-                "Chemistry_Bench"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 6
-                },
-                {
-                    "item": "Electronics",
-                    "count": 6
-                },
-                {
-                    "item": "Glass",
-                    "count": 4
-                },
-                {
-                    "item": "Gold_Wire",
-                    "count": 12
-                },
-                {
-                    "item": "Steel_Ingot",
-                    "count": 6
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "ResearchEquipment_Centrifuge",
-                    "count": 1
-                }
-            ]
-        },
-        "ResearchEquipment_Flasks": {
-            "requirement": "Ape_ResearchEquipment",
-            "craftedAt": [
-                "Chemistry_Bench"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 4
-                },
-                {
-                    "item": "Electronics",
-                    "count": 2
-                },
-                {
-                    "item": "Glass",
-                    "count": 16
-                },
-                {
-                    "item": "Steel_Ingot",
-                    "count": 6
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "ResearchEquipment_Flasks",
-                    "count": 1
-                }
-            ]
-        },
-        "ResearchEquipment_LabDesk": {
-            "requirement": "Ape_ResearchEquipment",
-            "craftedAt": [
-                "Chemistry_Bench"
-            ],
-            "inputs": [
-                {
-                    "item": "Composites",
-                    "count": 6
-                },
-                {
-                    "item": "Steel_Ingot",
-                    "count": 16
-                },
-                {
-                    "item": "Wood_Refined",
-                    "count": 25
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "ResearchEquipment_LabDesk",
-                    "count": 1
-                }
-            ]
-        },
-        "ResearchEquipment_Microscope": {
-            "requirement": "Ape_ResearchEquipment",
-            "craftedAt": [
-                "Chemistry_Bench"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 4
-                },
-                {
-                    "item": "Electronics",
-                    "count": 6
-                },
-                {
-                    "item": "Epoxy",
-                    "count": 8
-                },
-                {
-                    "item": "Glass",
-                    "count": 10
-                },
-                {
-                    "item": "Steel_Ingot",
-                    "count": 6
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "ResearchEquipment_Microscope",
-                    "count": 1
-                }
-            ]
-        },
-        "ResearchEquipment_TestTubes": {
-            "requirement": "Ape_ResearchEquipment",
-            "craftedAt": [
-                "Chemistry_Bench"
-            ],
-            "inputs": [
-                {
-                    "item": "Epoxy",
-                    "count": 16
-                },
-                {
-                    "item": "Glass",
-                    "count": 10
-                },
-                {
-                    "item": "Steel_Ingot",
-                    "count": 2
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "ResearchEquipment_TestTubes",
-                    "count": 1
-                }
-            ]
-        },
         "Resistance_Fertilizer": {
             "requirement": "Fertilizer_Resistance",
             "craftedAt": [
@@ -90766,10 +88906,6 @@
             "positiveFormat": "+{0} Explosive Damage Radius",
             "negativeFormat": "-{0} Explosive Damage Radius"
         },
-        "BaseExplosiveDamageResistance_%": {
-            "positiveFormat": "+{0} Explosive Resistance",
-            "negativeFormat": "-{0} Explosive Resistance"
-        },
         "BaseExplosiveDamage_+": {
             "positiveFormat": "+{0} Explosive Damage",
             "negativeFormat": "-{0} Explosive Damage"
@@ -90821,10 +88957,6 @@
         "BaseFireDamage_+%": {
             "positiveFormat": "+{0}% Fire Damage",
             "negativeFormat": "-{0}% Fire Damage"
-        },
-        "BaseFirearmFillablePerShot_+": {
-            "positiveFormat": "+{0}L Consumed Per Shot",
-            "negativeFormat": "-{0}L Consumed Per Shot"
         },
         "BaseFishingCaptureZoneSize_+%": {
             "positiveFormat": "+{0}% Fishing Capture Zone Size",
@@ -90937,10 +89069,6 @@
             "positiveFormat": "+{0}% Infected Bark per Wood Chopped",
             "negativeFormat": "-{0}% Infected Bark per Wood Chopped"
         },
-        "BaseInternalTemperatureModification_+": {
-            "positiveFormat": "+{0}C to Temperature",
-            "negativeFormat": "-{0}C to Temperature"
-        },
         "BaseInventoryCannotSpoil_?": {
             "positiveFormat": "Inventory contents will not spoil"
         },
@@ -90972,10 +89100,6 @@
             "positiveFormat": "+{0}% Maximum Health",
             "negativeFormat": "-{0}% Maximum Health"
         },
-        "BaseMaximumOxygen_+%": {
-            "positiveFormat": "+{0}% Maximum Oxygen Capacity",
-            "negativeFormat": "-{0}% Maximum Oxygen Capacity"
-        },
         "BaseMaximumStamina_+": {
             "positiveFormat": "+{0} Maximum Stamina",
             "negativeFormat": "-{0} Maximum Stamina"
@@ -90987,10 +89111,6 @@
         "BaseMeatHarvestedFromAnimals_+%": {
             "positiveFormat": "+{0}% Yield from Butchering Animals",
             "negativeFormat": "-{0}% Yield from Butchering Animals"
-        },
-        "BaseMeleeDamageResistance_%": {
-            "positiveFormat": "+{0} Melee Resistance",
-            "negativeFormat": "-{0} Melee Resistance"
         },
         "BaseMeleeDamageResistance_+%": {
             "positiveFormat": "+{0}% Melee Resistance",
@@ -91096,10 +89216,6 @@
             "positiveFormat": "+{0}% chance to Resist Cave Sickness",
             "negativeFormat": "-{0}% chance to Resist Cave Sickness"
         },
-        "BasePoisonDamageResistance_%": {
-            "positiveFormat": "+{0} Poison Resistance",
-            "negativeFormat": "-{0} Poison Resistance"
-        },
         "BasePoisonDamage_+": {
             "positiveFormat": "+{0} Poison Damage",
             "negativeFormat": "-{0} Poison Damage"
@@ -91120,14 +89236,6 @@
             "positiveFormat": "{0}% Chance to find Additional Rare Meat while Skinning",
             "negativeFormat": "-{0}% Chance to find Additional Rare Meat while Skinning"
         },
-        "BaseProjectileAOE_+": {
-            "positiveFormat": "+{0} Projectile Splash Radius",
-            "negativeFormat": "-{0} Projectile Splash Radius"
-        },
-        "BaseProjectileDamageResistance_%": {
-            "positiveFormat": "+{0} Projectile Resistance",
-            "negativeFormat": "-{0} Projectile Resistance"
-        },
         "BaseProjectileDamage_+": {
             "positiveFormat": "+{0} Projectile Damage",
             "negativeFormat": "-{0} Projectile Damage"
@@ -91135,10 +89243,6 @@
         "BaseProjectileDamage_+%": {
             "positiveFormat": "+{0}% Projectile Damage",
             "negativeFormat": "-{0}% Projectile Damage"
-        },
-        "BaseProjectileSplashLifespan_+": {
-            "positiveFormat": "+{0} Projectile Splash Lifespan",
-            "negativeFormat": "-{0} Projectile Splash Lifespan"
         },
         "BasePureDamage_+": {
             "positiveFormat": "+{0} Pure Damage",
@@ -91305,9 +89409,6 @@
         "ConvertCoolWaterToWarmWater_?": {
             "positiveFormat": "Converts Cool Water Into Warm Water when Filled"
         },
-        "IceSledgeHammerStd_?": {
-            "positiveFormat": "Sledgehammer Standard"
-        },
         "IceSledgeHammerSweep_?": {
             "positiveFormat": "Attacks Sweep to Hit Multiple Targets"
         },
@@ -91331,9 +89432,6 @@
         },
         "InfusionOxite_?": {
             "positiveFormat": "Infused with Oxite"
-        },
-        "IsInGracePeriod_?": {
-            "positiveFormat": "Temporary Immunity"
         },
         "IsInvolvedInQuest_?": {
             "positiveFormat": "Quest Item"
