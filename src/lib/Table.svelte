@@ -79,6 +79,10 @@
             closedby="any">
             <h1>{column.headerDisplay}: options</h1>
             <form class="inputs" method="dialog">
+                <button type="submit" hidden>
+                    <!--A submit button must be first to prevent triggering another
+                    submit button-->
+                </button>
                 {@render column.renderOptions?.(columnId)}
                 <div class="bottom-actions">
                     <button
