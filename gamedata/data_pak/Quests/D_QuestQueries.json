@@ -12100,6 +12100,312 @@
                 ],
                 "AutoDescription": " ALL( FactionMission.Elysium.SQ_Fish.Board )"
             }
+        },
+        {
+            "Name": "ELY_STORY_6_ARCTICCAVE",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.ArcticCave"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.ArcticCave )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_ARCTICEXIT",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.ArcticExit"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.ArcticExit )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_HUNTER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Hunter"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Hunter )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_NOREX",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Norex"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Norex )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC1 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC2 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC3 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC4 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC_LEVEL2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC.Level2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC.Level2 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC_LEVEL3",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC.Level3"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC.Level3 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_NPC_LEVEL4",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.NPC.Level4"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.NPC.Level4 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_GATE0",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Gate0"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Gate0 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_GATE1",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Gate1"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Gate1 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_6_GATE2",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story6.Gate2"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story6.Gate2 )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_FISHER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Fisher"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Fisher )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_FARMER",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.Farmer"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.Farmer )"
+            }
+        },
+        {
+            "Name": "ELY_STORY_1_CHEFICEBOX",
+            "Query": {
+                "TagDictionary": [
+                    {
+                        "TagName": "FactionMission.Elysium.Story1.ChefsIcebox"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( FactionMission.Elysium.Story1.ChefsIcebox )"
+            }
         }
     ]
 }

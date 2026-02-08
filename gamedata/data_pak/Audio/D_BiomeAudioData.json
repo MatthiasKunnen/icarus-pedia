@@ -115,12 +115,12 @@
         },
         {
             "Name": "ElyTundra",
-            "BiomeFMODParam": "Arctic",
+            "BiomeFMODParam": "Conifer",
             "MusicLocationCondition": {
                 "RowName": "DHTundra"
             },
             "AudioAmbienceBase": "/Game/FMOD/Events/Ambient/Prospect/AMB_TUNDRA_ELY.AMB_TUNDRA_ELY",
-            "AudioAmbienceTransitional": "/Game/FMOD/Events/Environment/Caves/ENV_TUNDRA_CAVE_ENTRANCE.ENV_TUNDRA_CAVE_ENTRANCE"
+            "AudioAmbienceTransitional": "/Game/FMOD/Events/Environment/Caves/ENV_CF_CAVE_ENTRANCE.ENV_CF_CAVE_ENTRANCE"
         },
         {
             "Name": "Beach",

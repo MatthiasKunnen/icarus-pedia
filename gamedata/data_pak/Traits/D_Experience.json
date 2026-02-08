@@ -518,6 +518,18 @@
             }
         },
         {
+            "Name": "Creature_Cave_Worm_Teenage",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Cave_Worm_Teenage",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
             "Name": "Creature_Zebra",
             "ExperienceEvents": {
                 "XP_OnDeath": {
@@ -1327,6 +1339,42 @@
                 "XP_OnDeath": {
                     "ExperienceEvent": {
                         "RowName": "Kill_Irradiated_Prospector",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Irradiated_Mutation",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Irradiated_Mutation",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_TundraMonkey",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_TundraMonkey",
+                        "DataTableName": "D_ExperienceEvents"
+                    },
+                    "GainedExperience": 0
+                }
+            }
+        },
+        {
+            "Name": "Creature_Chick",
+            "ExperienceEvents": {
+                "XP_OnDeath": {
+                    "ExperienceEvent": {
+                        "RowName": "Kill_Chicken",
                         "DataTableName": "D_ExperienceEvents"
                     },
                     "GainedExperience": 0

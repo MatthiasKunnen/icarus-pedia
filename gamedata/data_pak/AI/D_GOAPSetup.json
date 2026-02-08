@@ -4266,8 +4266,7 @@
                 "RowName": "Wander"
             },
             "DynamicSubtreeOverrides": {
-                "(TagName=\"BT.Mount.IdleBehaviour\")": "BehaviorTree'/Game/BP/AI/Basic/Mounts/BT_Tame_CowIdle.BT_Tame_CowIdle'",
-                "(TagName=\"BT.Mount.MainBehaviour\")": "BehaviorTree'/Game/BP/AI/Basic/Mounts/BT_Tame_Pregnant.BT_Tame_Pregnant'"
+                "(TagName=\"BT.Mount.IdleBehaviour\")": "BehaviorTree'/Game/BP/AI/Basic/Mounts/BT_Tame_CowIdle.BT_Tame_CowIdle'"
             }
         },
         {
@@ -6355,6 +6354,22 @@
             "DynamicSubtreeOverrides": {
                 "(TagName=\"BT.Drone.Attack\")": "BehaviorTree'/Game/BP/AI/Basic/Drone/BT_DroneAttackHunter.BT_DroneAttackHunter'",
                 "(TagName=\"BT.Drone.Investigate\")": "BehaviorTree'/Game/BP/AI/Basic/Drone/BT_DroneInvestigateHunter.BT_DroneInvestigateHunter'"
+            }
+        },
+        {
+            "Name": "Drone_Carrier",
+            "DynamicSubtreeOverrides": {
+                "(TagName=\"BT.Drone.Attack\")": "None",
+                "(TagName=\"BT.Drone.Investigate\")": "BehaviorTree'/Game/BP/AI/Basic/Drone/BT_DroneInvestigateCarrier.BT_DroneInvestigateCarrier'"
+            }
+        },
+        {
+            "Name": "Sheep",
+            "DefaultGoal": {
+                "RowName": "Wander"
+            },
+            "DynamicSubtreeOverrides": {
+                "(TagName=\"BT.Mount.IdleBehaviour\")": "BehaviorTree'/Game/BP/AI/Basic/Mounts/BT_Tame_Husbandry.BT_Tame_Husbandry'"
             }
         }
     ]

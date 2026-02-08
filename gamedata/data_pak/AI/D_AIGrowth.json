@@ -35,14 +35,14 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 33,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BearHealth.C_BearHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BearMeleeDamage.C_BearMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BearHealth.C_BearHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BearMeleeDamage.C_BearMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -67,7 +67,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BasePoisonDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MediumDeerHealth.C_MediumDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MediumDeerHealth.C_MediumDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -90,7 +90,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BasePoisonDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_LargeDeerHealth.C_LargeDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_LargeDeerHealth.C_LargeDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -141,14 +141,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_WolfHealth.C_WolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_WolfMeleeDamage.C_WolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_WolfHealth.C_WolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_WolfMeleeDamage.C_WolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -178,14 +178,14 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 10,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_WolfHealth.C_WolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_WolfMeleeDamage.C_WolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_WolfHealth.C_WolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_WolfMeleeDamage.C_WolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -216,8 +216,8 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 33,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ElephantHealth.C_ElephantHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ElephantDamage.C_ElephantDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ElephantHealth.C_ElephantHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ElephantDamage.C_ElephantDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -240,7 +240,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BasePoisonDamageResistance_+%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BabyDeerHealth.C_BabyDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BabyDeerHealth.C_BabyDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -270,14 +270,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BaseMovementSpeed_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_PolarBearHealth.C_PolarBearHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_PolarBearMeleeDamage.C_PolarBearMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_PolarBearHealth.C_PolarBearHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_PolarBearMeleeDamage.C_PolarBearMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -309,14 +309,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BaseMovementSpeed_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_PolarBearBossHealth.C_PolarBearBossHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_PolarBearBossMeleeDamage.C_PolarBearBossMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_PolarBearBossHealth.C_PolarBearBossHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_PolarBearBossMeleeDamage.C_PolarBearBossMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -345,14 +345,14 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 15,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_JaguarHealth.C_JaguarHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JaguarMeleeDamage.C_JaguarMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JaguarHealth.C_JaguarHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JaguarMeleeDamage.C_JaguarMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_JaguarWoundChance.C_JaguarWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_JaguarWoundChance.C_JaguarWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -430,8 +430,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MammothHealth.C_MammothHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MammothDamage.C_MammothDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MammothHealth.C_MammothHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MammothDamage.C_MammothDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -464,8 +464,8 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 75,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_AlphaWolfHealth.C_AlphaWolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfHealth.C_AlphaWolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -494,14 +494,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -50,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_WolfHealth.C_WolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_WolfMeleeDamage.C_WolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_WolfHealth.C_WolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_WolfMeleeDamage.C_WolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -537,8 +537,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BaseMovementSpeed_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MammothBossHealth.C_MammothBossHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MammothBossDamage.C_MammothBossDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MammothBossHealth.C_MammothBossHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MammothBossDamage.C_MammothBossDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -587,14 +587,14 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 15,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_JaguarHealth.C_JaguarHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JaguarMeleeDamage.C_JaguarMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JaguarHealth.C_JaguarHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JaguarMeleeDamage.C_JaguarMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_JaguarWoundChance.C_JaguarWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_JaguarWoundChance.C_JaguarWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -624,14 +624,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -100,
                 "(Value=\"BaseFrostDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_JaguarHealth.C_JaguarHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JaguarMeleeDamage.C_JaguarMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JaguarHealth.C_JaguarHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JaguarMeleeDamage.C_JaguarMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_JaguarWoundChance.C_JaguarWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_JaguarWoundChance.C_JaguarWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -660,8 +660,8 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 75,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_JaguarBlackHealth.C_JaguarBlackHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JaguarBlackMeleeDamage.C_JaguarBlackMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JaguarBlackHealth.C_JaguarBlackHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JaguarBlackMeleeDamage.C_JaguarBlackMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -687,14 +687,14 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_PackWolfHealth.C_PackWolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_PackWolfMeleeDamage.C_PackWolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_PackWolfHealth.C_PackWolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_PackWolfMeleeDamage.C_PackWolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -730,8 +730,8 @@
                 "(Value=\"BaseImmobiliseResistance_%\")": 75,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_AlphaWolfBossHealth.C_AlphaWolfBossHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaWolfBossMeleeDamage.C_AlphaWolfBossMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfBossHealth.C_AlphaWolfBossHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfBossMeleeDamage.C_AlphaWolfBossMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -761,8 +761,8 @@
                 "(Value=\"BaseMiningRadius_+\")": 100,
                 "(Value=\"BasePoisonDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BuffaloHealth.C_BuffaloHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloHealth.C_BuffaloHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -790,14 +790,14 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BoarHealth.C_BoarHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BoarMeleeDamage.C_BoarMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BoarHealth.C_BoarHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BoarMeleeDamage.C_BoarMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -822,7 +822,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MediumDeerHealth.C_MediumDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MediumDeerHealth.C_MediumDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -922,8 +922,8 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ScorpionHealth.C_ScorpionHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ScorpionMeleeDamage.C_ScorpionMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionHealth.C_ScorpionHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionMeleeDamage.C_ScorpionMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -954,8 +954,8 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -50,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ScorpionBossHealth.C_ScorpionBossHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ScorpionBossMeleeDamage.C_ScorpionBossMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionBossHealth.C_ScorpionBossHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionBossMeleeDamage.C_ScorpionBossMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -1024,14 +1024,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -100,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_CrocodileHealth.C_CrocodileHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_CrocodileMeleeDamage.C_CrocodileMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_CrocodileHealth.C_CrocodileHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_CrocodileMeleeDamage.C_CrocodileMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_CrocodileDeepWoundChance.C_CrocodileDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_CrocodileDeepWoundChance.C_CrocodileDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1068,14 +1068,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_KomodoHealth.C_KomodoHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_KomodoMeleeDamage.C_KomodoMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_KomodoHealth.C_KomodoHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_KomodoMeleeDamage.C_KomodoMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseKomodoBite_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_KomodoBiteChance.C_KomodoBiteChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_KomodoBiteChance.C_KomodoBiteChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1119,8 +1119,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -100,
                 "(Value=\"BaseMovementSpeed_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_PolarBearCubHealth.C_PolarBearCubHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_PolarBearCubMeleeDamage.C_PolarBearCubMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_PolarBearCubHealth.C_PolarBearCubHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_PolarBearCubMeleeDamage.C_PolarBearCubMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -1146,8 +1146,8 @@
                 "(Value=\"BaseGOAPActionWanderMinDistance_+\")": 100,
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BearCubHealth.C_BearCubHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BearCubMeleeDamage.C_BearCubMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BearCubHealth.C_BearCubHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BearCubMeleeDamage.C_BearCubMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -1198,14 +1198,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -1242,8 +1242,8 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -100,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ScorpionHealth.C_ScorpionHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ScorpionMeleeDamage.C_ScorpionMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionHealth.C_ScorpionHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionMeleeDamage.C_ScorpionMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -1271,8 +1271,8 @@
                 "(Value=\"BaseGOAPMotivationProtectiveIncreaseRate_+%\")": 50,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MoaHealth.C_MoaHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MoaMeleeDamage.C_MoaMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MoaHealth.C_MoaHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MoaMeleeDamage.C_MoaMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -1322,14 +1322,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Health.C_Mount_Moa_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Health.C_Mount_Moa_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -1418,14 +1418,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -100,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_RockDog_Health.C_RockDog_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_RockDog_MeleeDamage.C_RockDog_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_RockDog_Health.C_RockDog_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_RockDog_MeleeDamage.C_RockDog_MeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1456,14 +1456,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -50,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BatDog_Health.C_BatDog_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BatDog_MeleeDamage.C_BatDog_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BatDog_Health.C_BatDog_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BatDog_MeleeDamage.C_BatDog_MeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BatDog_WoundChance.C_BatDog_WoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BatDog_WoundChance.C_BatDog_WoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1501,14 +1501,14 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -100,
                 "(Value=\"BasePoisonDamage_+\")": 20
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_NeedlerHealth.C_NeedlerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_NeedlerMeleeDamage.C_NeedlerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_NeedlerHealth.C_NeedlerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_NeedlerMeleeDamage.C_NeedlerMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_CrocodileDeepWoundChance.C_CrocodileDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_CrocodileDeepWoundChance.C_CrocodileDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1539,8 +1539,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SwampBirdHealth.C_SwampBirdHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SwampBirdMeleeDamage.C_SwampBirdMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SwampBirdHealth.C_SwampBirdHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SwampBirdMeleeDamage.C_SwampBirdMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -1590,14 +1590,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 60,
                 "(Value=\"IsMountPrimaryAttackDisabledByDefault_?\")": 1
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_SwampBird_Health.C_Mount_SwampBird_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_SwampBird_MeleeDamage.C_Mount_SwampBird_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_SwampBird_Health.C_Mount_SwampBird_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_SwampBird_MeleeDamage.C_Mount_SwampBird_MeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -1631,8 +1631,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -100,
                 "(Value=\"BaseFrostDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Blueback_Health.C_Blueback_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Blueback_Health.C_Blueback_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -1672,10 +1672,12 @@
                 "(Value=\"BaseFireDamageResistance_%\")": 40,
                 "(Value=\"BaseFrostDamageResistance_%\")": 40,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-                "(Value=\"BasePoisonDamageResistance_%\")": 40
+                "(Value=\"BasePoisonDamageResistance_%\")": 40,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Blueback_Health.C_Blueback_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Blueback_Health.C_Blueback_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -1718,7 +1720,7 @@
                 "(Value=\"BaseMovementSpeed_+\")": 50,
                 "(Value=\"BaseNPCAttackRadius_+\")": 150
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -1736,7 +1738,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 50
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -1767,26 +1769,26 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -100,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SpiderHealth.C_SpiderHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SpiderMeleeDamage.C_SpiderMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SpiderHealth.C_SpiderHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SpiderMeleeDamage.C_SpiderMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BasePoisonDamage_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_SpiderMeleeDamage.C_SpiderMeleeDamage'"
-                },
-                {
-                    "Stat": {
-                        "Value": "BaseAttacksCausePoison_%"
-                    },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_SpiderPoisonChance.C_SpiderPoisonChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_SpiderPoisonDamage.C_SpiderPoisonDamage'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseSlow_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
+                },
+                {
+                    "Stat": {
+                        "Value": "BaseAttacksCausePoison_%"
+                    },
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_SpiderPoisonChance.C_SpiderPoisonChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1821,14 +1823,14 @@
                 "(Value=\"BaseFrostDamage_+\")": 20,
                 "(Value=\"BaseElectricDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_StrikerHealth.C_StrikerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_StrikerMeleeDamage.C_StrikerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_StrikerHealth.C_StrikerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_StrikerMeleeDamage.C_StrikerMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -1879,14 +1881,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Health.C_Mount_Moa_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Health.C_Mount_Moa_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -1938,14 +1940,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Health.C_Mount_Moa_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Health.C_Mount_Moa_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Moa_Stamina.C_Mount_Moa_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -1997,14 +1999,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -2054,8 +2056,8 @@
                 "(Value=\"BaseFireDamageResistance_%\")": 40,
                 "(Value=\"BaseFallDamageResistance_%\")": 99
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_LavaHunterHealth.C_LavaHunterHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_LavaHunterMeleeDamage.C_LavaHunterMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_LavaHunterHealth.C_LavaHunterHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_LavaHunterMeleeDamage.C_LavaHunterMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -2085,14 +2087,14 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -100,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SwampSlugHealth.C_SwampSlugHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SwampSlugMeleeDamage.C_SwampSlugMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SwampSlugHealth.C_SwampSlugHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SwampSlugMeleeDamage.C_SwampSlugMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -2125,14 +2127,14 @@
                 "(Value=\"BaseMovementSpeed_+\")": 150,
                 "(Value=\"BaseFireDamage_+\")": 10
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SwampSlugHealth.C_SwampSlugHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SwampSlugMeleeDamage.C_SwampSlugMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SwampSlugHealth.C_SwampSlugHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SwampSlugMeleeDamage.C_SwampSlugMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -2162,8 +2164,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -100,
                 "(Value=\"BaseFireDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_LavaBroodlingHealth.C_LavaBroodlingHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_LavaBroodlingMeleeDamage.C_LavaBroodlingMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_LavaBroodlingHealth.C_LavaBroodlingHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_LavaBroodlingMeleeDamage.C_LavaBroodlingMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -2191,8 +2193,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -100,
                 "(Value=\"BaseFireDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_LavaBroodlingWorldSpawn_Health.C_LavaBroodlingWorldSpawn_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_LavaBroodlingWorldSpawnMeleeDamage.C_LavaBroodlingWorldSpawnMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_LavaBroodlingWorldSpawn_Health.C_LavaBroodlingWorldSpawn_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_LavaBroodlingWorldSpawnMeleeDamage.C_LavaBroodlingWorldSpawnMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -2211,7 +2213,7 @@
                 "(Value=\"BaseExplosiveDamageRadius_+\")": 300,
                 "(Value=\"BaseExplosiveDamage_+\")": 35
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2246,8 +2248,8 @@
                 "(Value=\"BaseProjectileDamageResistance_%\")": 60,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ArcticScorpionHealth.C_ArcticScorpionHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ArcticScorpionMeleeDamage.C_ArcticScorpionMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ArcticScorpionHealth.C_ArcticScorpionHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ArcticScorpionMeleeDamage.C_ArcticScorpionMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -2302,7 +2304,8 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseMovementSpeed_+\")": 170,
                 "(Value=\"BaseExplosiveDamageRadius_+\")": 350,
-                "(Value=\"BaseExplosiveDamage_+\")": 75
+                "(Value=\"BaseExplosiveDamage_+\")": 75,
+                "(Value=\"BaseMaximumHealth_+\")": 100
             },
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
@@ -2326,7 +2329,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BasePoisonDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MediumDeerHealth.C_MediumDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MediumDeerHealth.C_MediumDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2350,7 +2353,7 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MediumDeerHealth.C_MediumDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MediumDeerHealth.C_MediumDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2404,8 +2407,8 @@
                 "(Value=\"BaseFireDamageResistance_%\")": 50,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Blueback_Health.C_Blueback_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Blueback_Health.C_Blueback_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2438,14 +2441,14 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -100,
                 "(Value=\"BaseElectricDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_StrikerHealth.C_StrikerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_StrikerMeleeDamage.C_StrikerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_StrikerHealth.C_StrikerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_StrikerMeleeDamage.C_StrikerMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -2482,14 +2485,14 @@
                 "(Value=\"BaseFireDamageResistance_%\")": 50,
                 "(Value=\"BaseFrostDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_KomodoHealth.C_KomodoHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_KomodoMeleeDamage.C_KomodoMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_KomodoHealth.C_KomodoHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_KomodoMeleeDamage.C_KomodoMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseKomodoBite_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_KomodoBiteChance.C_KomodoBiteChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_KomodoBiteChance.C_KomodoBiteChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -2518,8 +2521,8 @@
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 750,
                 "(Value=\"BaseGOAPMotivationProtectiveIncreaseRate_+%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_HorseHealth.C_HorseHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_HorseMeleeDamage.C_HorseMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_HorseHealth.C_HorseHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_HorseMeleeDamage.C_HorseMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -2569,14 +2572,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Horse_Health.C_Mount_Horse_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_Horse_MeleeDamage.C_Mount_Horse_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_Health.C_Mount_Horse_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_MeleeDamage.C_Mount_Horse_MeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Horse_Stamina.C_Mount_Horse_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_Stamina.C_Mount_Horse_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -2637,8 +2640,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -100,
                 "(Value=\"BaseAttacksCauseBleed_%\")": 75
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_TuskerHealth.C_TuskerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_TuskerMeleeDamage.C_TuskerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_TuskerHealth.C_TuskerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_TuskerMeleeDamage.C_TuskerMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2690,14 +2693,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Tusker_Health.C_Mount_Tusker_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_TuskerMeleeDamage.C_TuskerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Tusker_Health.C_Mount_Tusker_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_TuskerMeleeDamage.C_TuskerMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -2746,7 +2749,7 @@
                 "(Value=\"BaseMovementSpeed_+\")": 50,
                 "(Value=\"BaseNPCAttackRadius_+\")": 150
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BatMeleeDamage.C_BatMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BatMeleeDamage.C_BatMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2765,7 +2768,7 @@
                 "(Value=\"BaseMovementSpeed_+\")": 50,
                 "(Value=\"BaseNPCAttackRadius_+\")": 150
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BatMeleeDamage.C_BatMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BatMeleeDamage.C_BatMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2797,7 +2800,7 @@
                 "(Value=\"BaseFallDamageResistance_%\")": 40,
                 "(Value=\"BaseMaximumStomachFullness_+\")": 2
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ChickenHealth.C_ChickenHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ChickenHealth.C_ChickenHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2818,7 +2821,7 @@
                 "(Value=\"BaseAttacksCauseBeeSwarm_%\")": 100,
                 "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": -75
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BeeMeleeDamage.C_BeeMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BeeMeleeDamage.C_BeeMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2869,8 +2872,8 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Horse_Health.C_Mount_Horse_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_Horse_MeleeDamage.C_Mount_Horse_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_Health.C_Mount_Horse_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_MeleeDamage.C_Mount_Horse_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2903,7 +2906,7 @@
                 "(Value=\"BaseMaximumFood_+\")": 200,
                 "(Value=\"BaseMaximumWater_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SheepHealth.C_SheepHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SheepHealth.C_SheepHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -2938,13 +2941,13 @@
                 "(Value=\"BaseMaximumHealth_+\")": 3600,
                 "(Value=\"BaseMaximumArmor_+\")": 750
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Hammerhead_Slug_S_Damage.C_Hammerhead_Slug_S_Damage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Hammerhead_Slug_S_Damage.C_Hammerhead_Slug_S_Damage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -2982,13 +2985,13 @@
                 "(Value=\"BaseMeleeDamageResistance_+%\")": -50,
                 "(Value=\"BaseMaximumHealth_+\")": 25000
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Hammerhead_Slug_L_Damage.C_Hammerhead_Slug_L_Damage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Hammerhead_Slug_L_Damage.C_Hammerhead_Slug_L_Damage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3027,13 +3030,13 @@
                 "(Value=\"BaseMaximumHealth_+\")": 10000,
                 "(Value=\"BaseMaximumArmor_+\")": 1000
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Hammerhead_Slug_M_Damage.C_Hammerhead_Slug_M_Damage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Hammerhead_Slug_M_Damage.C_Hammerhead_Slug_M_Damage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3063,20 +3066,20 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MiniHippoHealth.C_MiniHippoHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MiniHippoMeleeDamage.C_MiniHippoMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoHealth.C_MiniHippoHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoMeleeDamage.C_MiniHippoMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseSlow_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseMarkedTarget_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3106,14 +3109,14 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MiniHippoHealth.C_MiniHippoHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MiniHippoMeleeDamage.C_MiniHippoMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoHealth.C_MiniHippoHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoMeleeDamage.C_MiniHippoMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseBluntTrauma_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3143,14 +3146,14 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MiniHippoHealth.C_MiniHippoHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MiniHippoMeleeDamage_Horns.C_MiniHippoMeleeDamage_Horns'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoHealth.C_MiniHippoHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoMeleeDamage_Horns.C_MiniHippoMeleeDamage_Horns'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3183,14 +3186,14 @@
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 300,
                 "(Value=\"BaseMovementSpeed_+\")": 187
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MangeWolfHealth.C_MangeWolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MangeWolfMeleeDamage.C_MangeWolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MangeWolfHealth.C_MangeWolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MangeWolfMeleeDamage.C_MangeWolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseRadiationBurn_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3221,20 +3224,20 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -50,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_AlphaMangeWolfHealth.C_AlphaMangeWolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaMangeWolfMeleeDamage.C_AlphaMangeWolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_AlphaMangeWolfHealth.C_AlphaMangeWolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaMangeWolfMeleeDamage.C_AlphaMangeWolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseBleed_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseRadiationBurn_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3266,8 +3269,8 @@
                 "(Value=\"BaseMiningRadius_+\")": 100,
                 "(Value=\"BasePoisonDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_KiwiHealth.C_KiwiHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_KiwiMeleeDamage.C_KiwiMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_KiwiHealth.C_KiwiHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_KiwiMeleeDamage.C_KiwiMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -3291,8 +3294,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BasePoisonDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_WoolyZebra_Health.C_WoolyZebra_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_WoolyZebra_Health.C_WoolyZebra_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -3328,14 +3331,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -100,
                 "(Value=\"BaseFireDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_GhostCrocodileHealth.C_GhostCrocodileHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_GhostCrocodileMeleeDamage.C_GhostCrocodileMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_GhostCrocodileHealth.C_GhostCrocodileHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_GhostCrocodileMeleeDamage.C_GhostCrocodileMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_CrocodileDeepWoundChance.C_CrocodileDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_CrocodileDeepWoundChance.C_CrocodileDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3424,8 +3427,8 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Horse_Health.C_Mount_Horse_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_Horse_MeleeDamage.C_Mount_Horse_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_Health.C_Mount_Horse_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Horse_MeleeDamage.C_Mount_Horse_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -3467,8 +3470,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 40,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Wolf_Health.C_Tame_Wolf_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Wolf_MeleeDamage.C_Tame_Wolf_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Wolf_Health.C_Tame_Wolf_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Wolf_MeleeDamage.C_Tame_Wolf_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3510,8 +3513,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 40,
                 "(Value=\"BaseMovementSpeed_+\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Wolf_Health.C_Tame_Wolf_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Wolf_MeleeDamage.C_Tame_Wolf_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Wolf_Health.C_Tame_Wolf_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Wolf_MeleeDamage.C_Tame_Wolf_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3550,8 +3553,8 @@
                 "(Value=\"BaseFallDamageResistance_%\")": 40,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Dog_Health.C_Tame_Dog_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Dog_MeleeDamage.C_Tame_Dog_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Dog_Health.C_Tame_Dog_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Dog_MeleeDamage.C_Tame_Dog_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3590,8 +3593,8 @@
                 "(Value=\"BaseFallDamageResistance_%\")": 40,
                 "(Value=\"BaseMovementSpeed_+\")": 100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Dog_Health.C_Tame_Dog_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Dog_MeleeDamage.C_Tame_Dog_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Dog_Health.C_Tame_Dog_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Dog_MeleeDamage.C_Tame_Dog_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3619,16 +3622,20 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": -50,
                 "(Value=\"BasePhysicalDamageResistance_%\")": 50,
-                "(Value=\"BaseFallDamageResistance_%\")": 40
+                "(Value=\"BaseFallDamageResistance_%\")": 40,
+                "(Value=\"BaseMaximumFood_+\")": 300,
+                "(Value=\"BaseMaximumWater_+\")": 250,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 1,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 2
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MiniHippoHealth_Quest.C_MiniHippoHealth_Quest'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MiniHippoMeleeDamage.C_MiniHippoMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoHealth_Quest.C_MiniHippoHealth_Quest'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MiniHippoMeleeDamage.C_MiniHippoMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseSlow_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -3672,8 +3679,8 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Boar_Health.C_Tame_Boar_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Boar_MeleeDamage.C_Tame_Boar_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Boar_Health.C_Tame_Boar_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Boar_MeleeDamage.C_Tame_Boar_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3702,8 +3709,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": 50,
                 "(Value=\"BasePoisonDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MoaHealth.C_MoaHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MoaMeleeDamage.C_MoaMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MoaHealth.C_MoaHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MoaMeleeDamage.C_MoaMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3743,8 +3750,8 @@
                 "(Value=\"BaseWeightCapacity_+\")": 5,
                 "(Value=\"BaseMovementSpeed_+\")": 112
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Dog_Health.C_Tame_Dog_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Dog_MeleeDamage.C_Tame_Dog_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Dog_Health.C_Tame_Dog_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Dog_MeleeDamage.C_Tame_Dog_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3794,7 +3801,7 @@
                 "(Value=\"IsInvulnerable_?\")": 1,
                 "(Value=\"BaseMeleeDamage_+\")": 5000
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ScorpionBossHealth.C_ScorpionBossHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ScorpionBossHealth.C_ScorpionBossHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3833,7 +3840,7 @@
                 "(Value=\"BaseMaximumHealth_+\")": 40000,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 50
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MammothBossDamage.C_MammothBossDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MammothBossDamage.C_MammothBossDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3929,8 +3936,8 @@
                 "(Value=\"BaseFireDamage_+\")": 8,
                 "(Value=\"BaseAttacksCauseBurn_%\")": 5
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_NeedlerHealth.C_NeedlerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_NeedlerMeleeDamage.C_NeedlerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_NeedlerHealth.C_NeedlerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_NeedlerMeleeDamage.C_NeedlerMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -3959,7 +3966,7 @@
                 "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 0
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -3998,7 +4005,7 @@
                 "(Value=\"BaseFoodConsumptionPerHour_+\")": 60,
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 120
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4030,7 +4037,7 @@
                 "(Value=\"BaseFallDamageResistance_%\")": 40,
                 "(Value=\"BaseMaximumStomachFullness_+\")": 2
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ChickenHealth.C_ChickenHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ChickenHealth.C_ChickenHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4061,7 +4068,7 @@
                 "(Value=\"BaseChickenResourcesConsumedPerEgg_+%\")": 50,
                 "(Value=\"BaseFallDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ChickenHealth.C_ChickenHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ChickenHealth.C_ChickenHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4094,7 +4101,7 @@
                 "(Value=\"BaseMaximumFood_+\")": 200,
                 "(Value=\"BaseMaximumWater_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SheepHealth.C_SheepHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SheepHealth.C_SheepHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4127,7 +4134,7 @@
                 "(Value=\"BaseMaximumFood_+\")": 200,
                 "(Value=\"BaseMaximumWater_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SheepHealth.C_SheepHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SheepHealth.C_SheepHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4178,14 +4185,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Health.C_Mount_Buffalo_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BuffaloMeleeDamage.C_BuffaloMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Buffalo_Stamina.C_Mount_Buffalo_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -4217,8 +4224,8 @@
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
                 "(Value=\"BaseMovementSpeed_+\")": 120
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ApeHealth.C_ApeHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ApeMeleeDamage.C_ApeMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ApeHealth.C_ApeHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ApeMeleeDamage.C_ApeMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -4251,7 +4258,7 @@
                 "(Value=\"BaseMeleeDamageAgainstBuildings_+%\")": 300,
                 "(Value=\"BaseMeleeDamageAgainstDeployables_+%\")": 500
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ApeMeleeDamage.C_ApeMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ApeMeleeDamage.C_ApeMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -4283,8 +4290,8 @@
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
                 "(Value=\"BaseMovementSpeed_+\")": 120
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ApeHealth.C_ApeHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ApeMeleeDamage.C_ApeMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ApeHealth.C_ApeHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ApeMeleeDamage.C_ApeMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -4317,8 +4324,8 @@
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_JuvenileRockGolemHealth.C_JuvenileRockGolemHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JuvenileRockGolemMeleeDamage.C_JuvenileRockGolemMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JuvenileRockGolemHealth.C_JuvenileRockGolemHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JuvenileRockGolemMeleeDamage.C_JuvenileRockGolemMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -4351,8 +4358,8 @@
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_JuvenileRockGolemHealth.C_JuvenileRockGolemHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_JuvenileRockGolemMeleeDamage.C_JuvenileRockGolemMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_JuvenileRockGolemHealth.C_JuvenileRockGolemHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_JuvenileRockGolemMeleeDamage.C_JuvenileRockGolemMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -4400,7 +4407,7 @@
                 "(Value=\"BaseExplosiveDamage_+\")": 225,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 100
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_AlphaWolfMeleeDamage.C_AlphaWolfMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4432,14 +4439,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -50,
                 "(Value=\"BaseFrostDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_OrkaHealth.C_OrkaHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_OrkaMeleeDamage.C_OrkaMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_OrkaHealth.C_OrkaHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_OrkaMeleeDamage.C_OrkaMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -4476,20 +4483,20 @@
                 "(Value=\"BaseFrostDamage_+\")": 50,
                 "(Value=\"BaseAttacksCauseFreeze_%\")": 25
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_MammothHealth.C_MammothHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_MammothDamage.C_MammothDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_MammothHealth.C_MammothHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_MammothDamage.C_MammothDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseFreeze_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseMaximumHealth_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_SnowSlugArmor.C_SnowSlugArmor'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_SnowSlugArmor.C_SnowSlugArmor'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -4520,14 +4527,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -50,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_WolfHealth.C_WolfHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_WolfMeleeDamage.C_WolfMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_WolfHealth.C_WolfHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_WolfMeleeDamage.C_WolfMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -4564,8 +4571,8 @@
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 2,
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 70
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Health.C_Drone_Health'",
-            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Drone_Health.C_Drone_Health'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
             "Name": "Drone_Scout",
@@ -4599,8 +4606,8 @@
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 2,
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Scout_Health.C_Drone_Scout_Health'",
-            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Drone_Scout_Health.C_Drone_Scout_Health'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
             "Name": "Drone_Hunter",
@@ -4635,8 +4642,8 @@
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 90,
                 "(Value=\"BaseExplosiveDamage_+\")": 200
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Hunter_Health.C_Drone_Hunter_Health'",
-            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Drone_Hunter_Health.C_Drone_Hunter_Health'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
             "Name": "Drone_Carrier",
@@ -4644,13 +4651,13 @@
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 1,
                 "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
                 "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
-                "(Value=\"BaseAIPerceptionSightRadius_+\")": 4000,
-                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 4500,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 12000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 13000,
                 "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
-                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 4000,
                 "(Value=\"BaseCharacterMass_+\")": 25,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
-                "(Value=\"BaseMovementSpeed_+\")": 50,
+                "(Value=\"BaseMovementSpeed_+\")": 250,
                 "(Value=\"BaseProjectileDamage_+%\")": -75,
                 "(Value=\"BasePoisonResistance_%\")": 100,
                 "(Value=\"BaseBleedResistance_%\")": 100,
@@ -4658,10 +4665,10 @@
                 "(Value=\"BaseDeepWoundResistance_%\")": 100,
                 "(Value=\"BaseElectricDamageResistance_%\")": -100,
                 "(Value=\"BaseFlyerMinDistanceToTarget_+\")": 2000,
-                "(Value=\"BaseFlyerMaxDistanceToTargetEngage_+\")": 3000,
+                "(Value=\"BaseFlyerMaxDistanceToTargetEngage_+\")": 6000,
                 "(Value=\"BaseFlyerMaxDistanceFromAnchor_+\")": 3500,
-                "(Value=\"BaseFlyerTargetHeight_+\")": 700,
-                "(Value=\"BaseFlyerFlightDuration_+\")": 2500,
+                "(Value=\"BaseFlyerTargetHeight_+\")": 1200,
+                "(Value=\"BaseFlyerFlightDuration_+\")": 3000,
                 "(Value=\"BaseFlyerMaxTurnRate_+\")": 4,
                 "(Value=\"BaseFlyerVerticalMoveRate_+\")": 250,
                 "(Value=\"BaseFlyerTargetHeightDeviation_+\")": 0,
@@ -4670,8 +4677,8 @@
                 "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
                 "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 30
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Drone_Carrier_Health.C_Drone_Carrier_Health'",
-            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Drone_Carrier_Health.C_Drone_Carrier_Health'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
             "Name": "Snow_Slug",
@@ -4700,20 +4707,20 @@
                 "(Value=\"BaseMovementSpeed_+\")": 150,
                 "(Value=\"BaseFrostDamage_+\")": 20
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SwampSlugHealth.C_SwampSlugHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SwampSlugMeleeDamage.C_SwampSlugMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SwampSlugHealth.C_SwampSlugHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SwampSlugMeleeDamage.C_SwampSlugMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseFreeze_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseMaximumHealth_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_SnowSlugArmor.C_SnowSlugArmor'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_SnowSlugArmor.C_SnowSlugArmor'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -4748,14 +4755,14 @@
                 "(Value=\"BaseProjectileDamageResistance_%\")": 33,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -4783,21 +4790,22 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseSlowResistance_%\")": 33,
                 "(Value=\"BaseImmobiliseResistance_%\")": 33,
-                "(Value=\"BaseMovementSpeed_+\")": 150,
+                "(Value=\"BaseMovementSpeed_+\")": 190,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 1500,
                 "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 200,
                 "(Value=\"BaseFrostDamageResistance_%\")": 80,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
-                "(Value=\"BaseFireDamageResistance_%\")": -50
+                "(Value=\"BaseFireDamageResistance_%\")": -50,
+                "(Value=\"BaseFrostDamageOverTime_+%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SlinkerHealth.C_SlinkerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SlinkerMeleeDamage.C_SlinkerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SlinkerHealth.C_SlinkerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SlinkerMeleeDamage.C_SlinkerMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
-                        "Value": "BaseAttacksCauseFreeze_%"
+                        "Value": "BaseAttacksCauseBleed_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -4823,7 +4831,7 @@
                 "(Value=\"BaseFrostDamageResistance_+%\")": -100,
                 "(Value=\"BaseFireDamageResistance_+%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_BounderHealth.C_BounderHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_BounderHealth.C_BounderHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4846,7 +4854,7 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFireDamageResistance_%\")": -25
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_TundraDeerHealth.C_TundraDeerHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_TundraDeerHealth.C_TundraDeerHealth'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4870,8 +4878,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -100,
                 "(Value=\"BaseNPCAttackRadius_+\")": 600
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ChewHealth.C_ChewHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ChewMeleeDamage.C_ChewMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ChewHealth.C_ChewHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ChewMeleeDamage.C_ChewMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4903,8 +4911,8 @@
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500,
                 "(Value=\"BasePoisonDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_HoppingCreature_Health.C_HoppingCreature_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_HoppingCreatureMeleeDamage.C_HoppingCreatureMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_HoppingCreature_Health.C_HoppingCreature_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_HoppingCreatureMeleeDamage.C_HoppingCreatureMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -4932,8 +4940,8 @@
                 "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 0
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_RaptorJuviHealth.C_RaptorJuviHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_RaptorJuviMeleeDamage.C_RaptorJuviMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_RaptorJuviHealth.C_RaptorJuviHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_RaptorJuviMeleeDamage.C_RaptorJuviMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -4952,7 +4960,7 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": -100,
                 "(Value=\"BaseProjectileDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SulfurWormHealth.C_SulfurWormHealth'"
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SulfurWormHealth.C_SulfurWormHealth'"
         },
         {
             "Name": "Reaver",
@@ -4984,14 +4992,14 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 100,
                 "(Value=\"BaseAttacksCausePoison_%\")": 25
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ReaverHealth.C_ReaverHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ReaverMeleeDamage.C_ReaverMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ReaverHealth.C_ReaverHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ReaverMeleeDamage.C_ReaverMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -5024,8 +5032,8 @@
                 "(Value=\"BaseElectricDamageResistance_%\")": -50,
                 "(Value=\"BasePoisonResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_RaptorHealth.C_RaptorHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_RaptorMeleeDamage.C_RaptorMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_RaptorHealth.C_RaptorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_RaptorMeleeDamage.C_RaptorMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -5072,16 +5080,18 @@
                 "(Value=\"BaseFireDamageResistance_%\")": 40,
                 "(Value=\"BaseFrostDamageResistance_%\")": 40,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
-                "(Value=\"BasePoisonDamageResistance_%\")": 40
+                "(Value=\"BasePoisonDamageResistance_%\")": 40,
+                "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
+                "(Value=\"BaseMountSecondaryAttackCooldown_+\")": 10
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_RaptorHealth.C_Mount_RaptorHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_RaptorMeleeDamage.C_Mount_RaptorMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_RaptorHealth.C_Mount_RaptorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_RaptorMeleeDamage.C_Mount_RaptorMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Raptor_Stamina.C_Mount_Raptor_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Raptor_Stamina.C_Mount_Raptor_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -5135,14 +5145,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_ChewHealth.C_Mount_ChewHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_ChewMeleeDamage.C_Mount_ChewMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_ChewHealth.C_Mount_ChewHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_ChewMeleeDamage.C_Mount_ChewMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Chew_Stamina.C_Mount_Chew_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Chew_Stamina.C_Mount_Chew_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -5172,8 +5182,8 @@
                 "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 0
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_ChewHealth_Juvenile.C_ChewHealth_Juvenile'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_ChewMeleeDamage_Juvenile.C_ChewMeleeDamage_Juvenile'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_ChewHealth_Juvenile.C_ChewHealth_Juvenile'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_ChewMeleeDamage_Juvenile.C_ChewMeleeDamage_Juvenile'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -5204,8 +5214,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 50,
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_HoppingCreature_Health.C_HoppingCreature_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SwampHoppingCreatureMeleeDamage.C_SwampHoppingCreatureMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_HoppingCreature_Health.C_HoppingCreature_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SwampHoppingCreatureMeleeDamage.C_SwampHoppingCreatureMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5234,10 +5244,12 @@
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 0,
                 "(Value=\"BaseFrostDamageResistance_+%\")": -100,
                 "(Value=\"BaseElectricDamageResistance_+%\")": -50,
-                "(Value=\"BaseFireDamageResistance_+%\")": 50
+                "(Value=\"BaseFireDamageResistance_+%\")": 50,
+                "(Value=\"IsMountSecondaryAttackDisabledByDefault_?\")": 1,
+                "(Value=\"BaseMountSecondaryAttackCooldown_+\")": 10
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_RaptorHealth.C_RaptorHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_RaptorMeleeDamage.C_RaptorMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_RaptorHealth.C_RaptorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_RaptorMeleeDamage.C_RaptorMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -5266,8 +5278,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -50,
                 "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_StomperHealth.C_StomperHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_StomperMeleeDamage.C_StomperMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_StomperHealth.C_StomperHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_StomperMeleeDamage.C_StomperMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5296,8 +5308,8 @@
                 "(Value=\"BaseFrostDamageResistance_%\")": -50,
                 "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_StomperMatriarchHealth.C_StomperMatriarchHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_StomperMatriarchMeleeDamage.C_StomperMatriarchMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_StomperMatriarchHealth.C_StomperMatriarchHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_StomperMatriarchMeleeDamage.C_StomperMatriarchMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5325,8 +5337,8 @@
                 "(Value=\"BaseFoodConsumptionPerHour_+\")": 1200,
                 "(Value=\"BaseWaterConsumptionPerHour_+\")": 0
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SlinkerJuvenileHealth.C_SlinkerJuvenileHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SlinkerJuvenileMeleeDamage.C_SlinkerJuvenileMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SlinkerJuvenileHealth.C_SlinkerJuvenileHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SlinkerJuvenileMeleeDamage.C_SlinkerJuvenileMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -5356,8 +5368,8 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -50,
                 "(Value=\"BaseFrostDamageResistance_%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_StorcaHealth.C_StorcaHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_StorcaMeleeDamage.C_StorcaMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_StorcaHealth.C_StorcaHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_StorcaMeleeDamage.C_StorcaMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5389,19 +5401,19 @@
                 "(Value=\"BaseElectricDamageResistance_%\")": 80,
                 "(Value=\"BaseFireDamageResistance_%\")": -50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_GiantRoachHealth.C_GiantRoachHealth'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_GiantRoachHealth.C_GiantRoachHealth'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseElectricDamage_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_GiantRoachElectricDamage.C_GiantRoachElectricDamage'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_GiantRoachElectricDamage.C_GiantRoachElectricDamage'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseElectroshock_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_GiantRoach_ElectroshockChance.C_GiantRoach_ElectroshockChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_GiantRoach_ElectroshockChance.C_GiantRoach_ElectroshockChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -5434,7 +5446,7 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 100,
                 "(Value=\"BaseElectricDamageResistance_%\")": -100
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_DragonFlyMeleeDamage.C_DragonFlyMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_DragonFlyMeleeDamage.C_DragonFlyMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5465,8 +5477,8 @@
                 "(Value=\"BaseElectricDamageResistance_%\")": -50,
                 "(Value=\"BaseProjectileDamageResistance_+%\")": 33
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_FlyingTankHealth.C_FlyingTankHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_FlyingTankMeleeDamage.C_FlyingTankMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_FlyingTankHealth.C_FlyingTankHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_FlyingTankMeleeDamage.C_FlyingTankMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5497,8 +5509,8 @@
                 "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 75,
                 "(Value=\"BaseProjectileDamageResistance_+%\")": 50
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_FlightlessTankHealth.C_FlightlessTankHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_FlightlessTankMeleeDamage.C_FlightlessTankMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_FlightlessTankHealth.C_FlightlessTankHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_FlightlessTankMeleeDamage.C_FlightlessTankMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5536,7 +5548,7 @@
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -5559,7 +5571,7 @@
                 "(Value=\"BaseFireDamage_+\")": 5,
                 "(Value=\"BaseElectricDamageResistance_%\")": -50
             },
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_BatMeleeDamage.C_BatMeleeDamage'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_BatMeleeDamage.C_BatMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         },
         {
@@ -5588,13 +5600,13 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 15,
                 "(Value=\"BaseGOAPActionWanderMaxDistance_+\")": 1400,
                 "(Value=\"BaseMovementSpeed_+\")": 250,
-                "(Value=\"BaseGOAPMotivationEnrageActivationTime_+\")": 7,
+                "(Value=\"BaseGOAPMotivationEnrageActivationTime_+\")": 30,
                 "(Value=\"BaseGOAPMotivationEnrageCooldownTime_+\")": 15,
-                "(Value=\"BaseGOAPMotivationEnrageDuration_+\")": 20,
+                "(Value=\"BaseGOAPMotivationEnrageDuration_+\")": 25,
                 "(Value=\"BaseFireDamageResistance_%\")": -100
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_YetiHealth.C_YetiHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_YetiMeleeDamage.C_YetiMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_YetiHealth.C_YetiHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_YetiMeleeDamage.C_YetiMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5624,14 +5636,14 @@
                 "(Value=\"BaseAttacksCauseRadiationBurn_%\")": 33,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedAbominationHealth.C_IrradiatedAbominationHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedAbominationMeleeDamage.C_IrradiatedAbominationMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedAbominationHealth.C_IrradiatedAbominationHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedAbominationMeleeDamage.C_IrradiatedAbominationMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -5661,14 +5673,14 @@
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
                 "(Value=\"BaseFrostDamageResistance_%\")": 75
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_TundraMonkeyHealth.C_TundraMonkeyHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_TundraMonkeyMeleeDamage.C_TundraMonkeyMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_TundraMonkeyHealth.C_TundraMonkeyHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_TundraMonkeyMeleeDamage.C_TundraMonkeyMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
             "Name": "Mount_Slinker",
             "Base": {
-                "(Value=\"BaseMovementSpeed_+\")": 235,
+                "(Value=\"BaseMovementSpeed_+\")": 190,
                 "(Value=\"BaseSwimSpeed_+\")": 300,
                 "(Value=\"BaseHealthRegenPerMinute_+\")": 10,
                 "(Value=\"BaseMinimumFallDamage_%\")": 1,
@@ -5712,14 +5724,14 @@
                 "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
                 "(Value=\"BasePoisonDamageResistance_%\")": 40
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_SlinkerHealth.C_Mount_SlinkerHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_SlinkerMeleeDamage.C_Mount_SlinkerMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_SlinkerHealth.C_Mount_SlinkerHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_SlinkerMeleeDamage.C_Mount_SlinkerMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Slinker_Stamina.C_Mount_Slinker_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Slinker_Stamina.C_Mount_Slinker_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -5763,8 +5775,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 40,
                 "(Value=\"BaseMovementSpeed_+\")": 75
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Orka_Health.C_Tame_Orka_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Orka_MeleeDamage.C_Tame_Orka_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Orka_Health.C_Tame_Orka_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Orka_MeleeDamage.C_Tame_Orka_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5806,8 +5818,8 @@
                 "(Value=\"BasePoisonDamageResistance_%\")": 40,
                 "(Value=\"BaseMovementSpeed_+\")": 150
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_Storca_Health.C_Tame_Storca_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_Storca_MeleeDamage.C_Tame_Storca_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Storca_Health.C_Tame_Storca_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Storca_MeleeDamage.C_Tame_Storca_MeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5830,13 +5842,27 @@
                 "(Value=\"BaseCharacterMass_+\")": 100,
                 "(Value=\"BaseNPCAttackRadius_+\")": 350,
                 "(Value=\"CanNPCDamageDurableActors_?\")": 1,
-                "(Value=\"BaseGOAPMotivationProtectiveIncreaseRate_+%\")": -50,
-                "(Value=\"BaseMovementSpeed_+\")": 60,
                 "(Value=\"BaseHealthRegenDelay_+\")": 2,
-                "(Value=\"BaseFrostDamageResistance_%\")": 75
+                "(Value=\"BaseSlowResistance_%\")": 10,
+                "(Value=\"BaseImmobiliseResistance_%\")": 10,
+                "(Value=\"BaseMaximumFood_+\")": 100,
+                "(Value=\"BaseMaximumWater_+\")": 100,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 90,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
+                "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
+                "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+                "(Value=\"BaseMaximumStomachFullness_+\")": 2,
+                "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
+                "(Value=\"BaseFallDamageResistance_%\")": 40,
+                "(Value=\"BaseFireDamageResistance_%\")": -10,
+                "(Value=\"BaseFrostDamageResistance_%\")": 75,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": 10,
+                "(Value=\"BasePoisonDamageResistance_%\")": 10,
+                "(Value=\"BaseMovementSpeed_+\")": 60
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Tame_TundraMonkey_Health.C_Tame_TundraMonkey_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Tame_TundraMonkeyMeleeDamage.C_Tame_TundraMonkeyMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_TundraMonkey_Health.C_Tame_TundraMonkey_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_TundraMonkeyMeleeDamage.C_Tame_TundraMonkeyMeleeDamage'",
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
         },
         {
@@ -5867,26 +5893,26 @@
                 "(Value=\"BaseFireDamageResistance_%\")": -100,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 2500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_SpiderHealth.C_SpiderHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_SpiderMeleeDamage.C_SpiderMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SpiderHealth.C_SpiderHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_SpiderMeleeDamage.C_SpiderMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BasePoisonDamage_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_SpiderMeleeDamage.C_SpiderMeleeDamage'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_SpiderPoisonDamage.C_SpiderPoisonDamage'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseAttacksCausePoison_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_SpiderPoisonChance.C_SpiderPoisonChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_SpiderPoisonChance.C_SpiderPoisonChance'"
                 },
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseSlow_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_WolfWoundChance.C_WolfWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_WolfWoundChance.C_WolfWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -5919,14 +5945,14 @@
                 "(Value=\"BaseLaserDamageResistance_%\")": -100,
                 "(Value=\"BaseGOAPActionAnchoredWanderDistance_+\")": 6500
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseAttacksCauseDeepWound_%"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_BeerDeepWoundChance.C_BeerDeepWoundChance'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
@@ -5984,14 +6010,14 @@
                 "(Value=\"BaseNPCStompAttackRadius_+\")": 100,
                 "(Value=\"BaseHeatResistance_%\")": 15
             },
-            "Health": "CurveFloat'/Game/Data/AI/C_Mount_Mammoth_Health.C_Mount_Mammoth_Health'",
-            "MeleeDamage": "CurveFloat'/Game/Data/AI/C_Mount_Mammoth_MeleeDamage.C_Mount_Mammoth_MeleeDamage'",
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Mammoth_Health.C_Mount_Mammoth_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Mammoth_MeleeDamage.C_Mount_Mammoth_MeleeDamage'",
             "CustomStats": [
                 {
                     "Stat": {
                         "Value": "BaseMaximumStamina_+"
                     },
-                    "Curve": "CurveFloat'/Game/Data/AI/C_Mount_Mammoth_Stamina.C_Mount_Mammoth_Stamina'"
+                    "Curve": "CurveFloat'/Game/Data/AI/Curves/C_Mount_Mammoth_Stamina.C_Mount_Mammoth_Stamina'"
                 }
             ],
             "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
@@ -6039,6 +6065,143 @@
                 "(Value=\"BaseHealthPerConnectedPlayer_+\")": 150,
                 "(Value=\"BaseExplosiveDamageResistance_%\")": -50
             }
+        },
+        {
+            "Name": "Drone_Hunter_Carrier",
+            "Base": {
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 1,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 3000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 3500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2000,
+                "(Value=\"BaseCharacterMass_+\")": 60,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseMovementSpeed_+\")": 800,
+                "(Value=\"BaseProjectileDamage_+%\")": -75,
+                "(Value=\"BasePoisonResistance_%\")": 100,
+                "(Value=\"BaseBleedResistance_%\")": 100,
+                "(Value=\"BaseWoundResistance_%\")": 100,
+                "(Value=\"BaseDeepWoundResistance_%\")": 100,
+                "(Value=\"BaseElectricDamageResistance_%\")": -100,
+                "(Value=\"BaseFlyerMinDistanceToTarget_+\")": 2000,
+                "(Value=\"BaseFlyerMaxDistanceToTargetEngage_+\")": 1800,
+                "(Value=\"BaseFlyerMaxDistanceFromAnchor_+\")": 4000,
+                "(Value=\"BaseFlyerTargetHeight_+\")": 900,
+                "(Value=\"BaseFlyerFlightDuration_+\")": 2000,
+                "(Value=\"BaseFlyerMaxTurnRate_+\")": 6,
+                "(Value=\"BaseFlyerVerticalMoveRate_+\")": 500,
+                "(Value=\"BaseFlyerTargetHeightDeviation_+\")": 0,
+                "(Value=\"BaseFlyerFlightDurationDeviation_+\")": 500,
+                "(Value=\"BaseFlyerForwardMovementDurationDeviation_+\")": 150,
+                "(Value=\"BaseFlyerMaxTurnRateDeviation_+\")": 1,
+                "(Value=\"BaseFlyerMaxDegreesPerTurn_+\")": 90,
+                "(Value=\"BaseExplosiveDamage_+\")": 75
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Drone_Hunter_Health.C_Drone_Hunter_Health'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "NPC_Soldier",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 1000,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 5,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 6500,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 15000,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 3500,
+                "(Value=\"BaseCharacterMass_+\")": 80,
+                "(Value=\"BaseNPCAttackRadius_+\")": 300,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 999999,
+                "(Value=\"BaseMovementSpeed_+\")": 140
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorHealth.C_IrradiatedProspectorHealth'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_IrradiatedProspectorMeleeDamage.C_IrradiatedProspectorMeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Pig",
+            "Base": {
+                "(Value=\"BaseSwimSpeed_+\")": 300,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 20,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 4000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 4500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMinimumThreat_+\")": 1500,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 200,
+                "(Value=\"BaseCharacterMass_+\")": 100,
+                "(Value=\"BaseNPCAttackRadius_+\")": 500,
+                "(Value=\"CanNPCDamageDurableActors_?\")": 1,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseSlowResistance_%\")": 10,
+                "(Value=\"BaseImmobiliseResistance_%\")": 10,
+                "(Value=\"BaseMaximumFood_+\")": 200,
+                "(Value=\"BaseMaximumWater_+\")": 200,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 180,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 60,
+                "(Value=\"BaseWaterConsumedPerStaminaUsed_+%\")": 0,
+                "(Value=\"BaseOxygenConsumedPerStaminaUsed_+%\")": 0,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 40,
+                "(Value=\"BaseMaximumStomachFullness_+\")": 2,
+                "(Value=\"BaseNPCMeleeAttacksPerMinute_+\")": 100,
+                "(Value=\"BaseFallDamageResistance_%\")": 40,
+                "(Value=\"BaseMovementSpeed_+\")": 140,
+                "(Value=\"BaseFireDamageResistance_%\")": 40,
+                "(Value=\"BaseFrostDamageResistance_%\")": 40,
+                "(Value=\"BaseExplosiveDamageResistance_%\")": 40,
+                "(Value=\"BasePoisonDamageResistance_%\")": 40
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Boar_Health.C_Tame_Boar_Health'",
+            "MeleeDamage": "CurveFloat'/Game/Data/AI/Curves/C_Tame_Boar_MeleeDamage.C_Tame_Boar_MeleeDamage'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_AggressiveExperience.C_AggressiveExperience'"
+        },
+        {
+            "Name": "Piglet",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+\")": 50,
+                "(Value=\"BaseSwimSpeed_+\")": 150,
+                "(Value=\"BaseHealthRegenPerMinute_+\")": 10,
+                "(Value=\"BaseMinimumFallDamage_%\")": 1,
+                "(Value=\"BaseMaximumFallDamage_%\")": 100,
+                "(Value=\"BaseMinimumFallDamageVelocity_+\")": 1250,
+                "(Value=\"BaseMaximumFallDamageVelocity_+\")": 1950,
+                "(Value=\"BaseAIPerceptionMaxAge_+\")": 3,
+                "(Value=\"BaseAIDamagePerceptionMaxAge_+\")": 10,
+                "(Value=\"BaseAIPerceptionSightRadius_+\")": 5000,
+                "(Value=\"BaseAIPerceptionLoseSightRadius_+\")": 7500,
+                "(Value=\"BaseAIPerceptionPeripheralVisionAngle_+\")": 115,
+                "(Value=\"BaseAIPerceptionSoundRadius_+\")": 2500,
+                "(Value=\"BaseCharacterMass_+\")": 175,
+                "(Value=\"BaseHealthRegenDelay_+\")": 2,
+                "(Value=\"BaseFrostDamageResistance_%\")": -100,
+                "(Value=\"BaseSheepFoodConsumedPerWoolTick_+\")": 10,
+                "(Value=\"BaseSheepWaterConsumedPerWoolTick_+\")": 10,
+                "(Value=\"BaseSheepWoolGrowthPerTick_+\")": 20,
+                "(Value=\"BaseSheepSecondsBetweenWoolTick_+\")": 540,
+                "(Value=\"BaseFoodConsumptionPerHour_+\")": 60,
+                "(Value=\"BaseWaterConsumptionPerHour_+\")": 120,
+                "(Value=\"BaseFallDamageResistance_%\")": 40,
+                "(Value=\"BaseMaximumStomachFullness_+\")": 2,
+                "(Value=\"BaseMaximumFood_+\")": 200,
+                "(Value=\"BaseMaximumWater_+\")": 200
+            },
+            "Health": "CurveFloat'/Game/Data/AI/Curves/C_SheepHealth.C_SheepHealth'",
+            "ExperienceMultiplier": "CurveFloat'/Game/Data/AI/C_GenericExperience.C_GenericExperience'"
         }
     ]
 }

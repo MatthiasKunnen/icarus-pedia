@@ -11768,28 +11768,6 @@
             "bEffectsPlayers": false
         },
         {
-            "Name": "Creature_Male",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Male.T_ICON_Male'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Creature_Male-ModifierName\", \"Male Creature\")",
-            "ModifierDescription": "",
-            "GrantedStats": {
-                "(Value=\"CreatureIsMale_?\")": 1
-            },
-            "MergeType": "Stack",
-            "bEffectsPlayers": false
-        },
-        {
-            "Name": "Creature_Female",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_Icon_Female.T_Icon_Female'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Creature_Female-ModifierName\", \"Female Creature\")",
-            "ModifierDescription": "",
-            "GrantedStats": {
-                "(Value=\"CreatureIsFemale_?\")": 1
-            },
-            "MergeType": "Stack",
-            "bEffectsPlayers": false
-        },
-        {
             "Name": "ReadyToMilk",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Resource_Milk.T_ICON_Resource_Milk'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"ReadyToMilk-ModifierName\", \"Ready To Milk\")",
@@ -11799,86 +11777,6 @@
             },
             "MergeType": "Stack",
             "bEffectsPlayers": false
-        },
-        {
-            "Name": "Animal_Fertilize",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_ContextPlant.Icon_ContextPlant'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilize-ModifierName\", \"Fertilize\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilize-ModifierDescription\", \"This animal is attempting to fertilize other animals of the same species in range.\")",
-            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Fertilize.BP_Modifier_Fertilize_C",
-            "ShouldTick": true,
-            "ModifierTickRate": 30,
-            "MergeType": "Stack",
-            "bEffectsPlayers": false,
-            "SaveToDatabase": false
-        },
-        {
-            "Name": "Animal_Chance_Fertilized",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/ICON_SelectionTimed.ICON_SelectionTimed'",
-            "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Chance_Fertilized-ModifierName\", \"Hopeful?\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Chance_Fertilized-ModifierDescription\", \"This animal may be Pregnant, time will tell.\")",
-            "GrantedStats": {
-                "(Value=\"BaseWaterConsumption_+%\")": 200,
-                "(Value=\"BaseFoodConsumption_+%\")": 200,
-                "(Value=\"BaseMovementSpeed_+%\")": -25
-            },
-            "bEscalates": true,
-            "Escalation": {
-                "RowName": "Animal_Fertilization"
-            },
-            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_GestatingEsculation.BP_Modifier_GestatingEsculation_C",
-            "MergeType": "Stack",
-            "ModifierTags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Husbandry.Fertilized"
-                    }
-                ]
-            },
-            "ModifierAllowedQuery": {
-                "TagDictionary": [
-                    {
-                        "TagName": "NPC.Husbandry.Pregnant"
-                    }
-                ],
-                "QueryTokenStream": [
-                    0,
-                    1,
-                    3,
-                    1,
-                    0
-                ],
-                "AutoDescription": " NONE( NPC.Husbandry.Pregnant )"
-            },
-            "bEffectsPlayers": false,
-            "SaveToDatabase": false
-        },
-        {
-            "Name": "Animal_Fertilized",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/Icons/Icon_FishQuality.Icon_FishQuality'",
-            "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilized-ModifierName\", \"Pregnant\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilized-ModifierDescription\", \"This animal is with child and will soon give birth.\")",
-            "GrantedStats": {
-                "(Value=\"BaseWaterConsumption_+%\")": 200,
-                "(Value=\"BaseFoodConsumption_+%\")": 200,
-                "(Value=\"BaseMovementSpeed_+%\")": -25
-            },
-            "bRemovedOnEscalation": false,
-            "MergeType": "Stack",
-            "ModifierTags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Husbandry.Fertilized"
-                    },
-                    {
-                        "TagName": "NPC.Husbandry.Pregnant"
-                    }
-                ]
-            },
-            "bEffectsPlayers": false,
-            "SaveToDatabase": false
         },
         {
             "Name": "New_Mother",
@@ -11998,32 +11896,6 @@
             },
             "MergeType": "Replace",
             "bEffectsNPCs": false
-        },
-        {
-            "Name": "Animal_Fertilized_Chicken",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/FieldGuide/Icons/Icon_FishQuality.Icon_FishQuality'",
-            "Type": "Debuff",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilized_Chicken-ModifierName\", \"Fertilized\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilized_Chicken-ModifierDescription\", \"This animal will produced fertilized eggs.\")",
-            "GrantedStats": {
-                "(Value=\"BaseWaterConsumption_+%\")": 200,
-                "(Value=\"BaseFoodConsumption_+%\")": 200,
-                "(Value=\"BaseMovementSpeed_+%\")": -25
-            },
-            "bRemovedOnEscalation": false,
-            "MergeType": "Stack",
-            "ModifierTags": {
-                "GameplayTags": [
-                    {
-                        "TagName": "NPC.Husbandry.Fertilized"
-                    },
-                    {
-                        "TagName": "NPC.Husbandry.Pregnant"
-                    }
-                ]
-            },
-            "bEffectsPlayers": false,
-            "SaveToDatabase": false
         },
         {
             "Name": "Chocolate_Cake_Piece",
@@ -14048,7 +13920,7 @@
             "Name": "AntiRadiation_Transfusion",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_AntiRadiation_Transfusion.T_ITEM_AntiRadiation_Transfusion'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Transfusion-ModifierName\", \"Rad-Ex Transfusion\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Transfusion-ModifierDescription\", \"Slowly Cleans Irradiated Blood and Stimulates The Repair of Cells.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Transfusion-ModifierDescription\", \"Removing Radiation Accumulation within the body.\")",
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationRecovery.BP_ModifierStateBehaviour_RadiationRecovery_C",
             "ShouldTick": true,
             "MergeType": "Replace"
@@ -14057,7 +13929,7 @@
             "Name": "AntiRadiation_Injection",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/Consumeables/T_ITEM_AntiRadiation_Injection.T_ITEM_AntiRadiation_Injection'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Injection-ModifierName\", \"Rad-Ex Injection\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Injection-ModifierDescription\", \"Instantly removes a large amount of Radiation Exposure.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Injection-ModifierDescription\", \"Fast Acting Removal of Radiation within the body.\")",
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationInjection.BP_ModifierStateBehaviour_RadiationInjection_C",
             "ShouldTick": true,
             "MergeType": "Replace"
@@ -14069,9 +13941,10 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Onion-ModifierDescription\", \"Increases Harvesting Rewards and Threat Against Animals. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 5,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
                 "(Value=\"BaseFoodConsumption_+%\")": -10,
-                "(Value=\"BaseForagingHarvestingRewards_+%\")": 5
+                "(Value=\"BaseForagingHarvestingRewards_+%\")": 5,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 5
             },
             "ModifierEffectivenessAffectors": [
                 {
@@ -14192,8 +14065,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Agave-ModifierDescription\", \"Increases Explosive Damage and Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseExplosiveDamage_+%\")": 5,
-                "(Value=\"BaseFoodConsumption_+%\")": -10
+                "(Value=\"BaseMaximumHealth_+\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": -10,
+                "(Value=\"BaseExplosiveDamage_+%\")": 5
             },
             "ModifierEffectivenessAffectors": [
                 {
@@ -14215,6 +14089,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Agave_Syrup-ModifierDescription\", \"Increases Explosive Damage.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 50,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5
             },
             "ModifierEffectivenessAffectors": [
@@ -14237,6 +14112,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Tequila-ModifierDescription\", \"Increases Explosive Damage, Temperature and Melee Resistance. Increased Thirst.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 50,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseMeleeDamageResistance_%\")": 10,
                 "(Value=\"BaseWaterConsumption_+%\")": 10,
@@ -14258,6 +14134,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Glazed_Carrots-ModifierDescription\", \"Increases Explosive and Projectile Damage. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseProjectileDamage_+%\")": 5
             },
@@ -14281,6 +14158,8 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Pumpkin_Pie-ModifierDescription\", \"Increases Explosive Damage and Exposure Resistance. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 100,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseExposureResistance_+%\")": 10
             },
@@ -14304,6 +14183,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_PricklyPear-ModifierDescription\", \"Adds a Chance to Return Melee Damage to Attacker. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
                 "(Value=\"BaseChanceToReturnDamage_%\")": 10,
                 "(Value=\"BaseDamageReturned_%\")": 15,
                 "(Value=\"BaseFoodConsumption_+%\")": -10
@@ -14328,6 +14208,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Margarita-ModifierDescription\", \"Increases Explosive Damage and Melee Resistance. Adds a Chance to Return Melee Damage to Attacker.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 50,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseMeleeDamageResistance_%\")": 10,
                 "(Value=\"BaseWaterConsumption_+%\")": 10,
@@ -14351,6 +14232,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"PricklyPear_Jelly-ModifierDescription\", \"Increases Explosive Damage and Experience. Adds a Chance to Return Melee Damage to Attacker.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseSharedExperience_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 10,
@@ -14402,9 +14284,10 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Garlic-ModifierDescription\", \"Increases Health Regen and Threat Against Animals. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumHealth_+\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 15,
                 "(Value=\"BaseAnimalThreatModifier_+%\")": 5,
-                "(Value=\"BaseFoodConsumption_+%\")": -10,
-                "(Value=\"BaseHealthRegen_+%\")": 15
+                "(Value=\"BaseFoodConsumption_+%\")": -10
             },
             "ModifierEffectivenessAffectors": [
                 {
@@ -14426,8 +14309,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Butter-ModifierDescription\", \"Increases Health Regen and Threat Against Animals.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 5,
-                "(Value=\"BaseHealthRegen_+%\")": 15
+                "(Value=\"BaseMaximumHealth_+\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 15,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 5
             },
             "ModifierLifetimeAffectors": [
                 {
@@ -14444,8 +14328,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Bread-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 50,
                 "(Value=\"BaseHealthRegen_+%\")": 35,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 20,
                 "(Value=\"BaseFoodConsumption_+%\")": -10
             },
@@ -14469,8 +14354,10 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Garlic_Pizza-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
                 "(Value=\"BaseHealthRegen_+%\")": 35,
+                "(Value=\"BaseMaximumStamina_+\")": 50,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 20,
                 "(Value=\"BaseFoodConsumption_+%\")": -10
             },
@@ -14494,8 +14381,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Smoked_Garlic-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
                 "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 20,
                 "(Value=\"BaseWaterConsumption_+%\")": 15
             },
@@ -14519,6 +14407,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Cooked_Truffle-ModifierDescription\", \"Increases Taming Speed of Nearby Creatures. Decreases Threat Against Animals and Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
                 "(Value=\"BaseAnimalThreatModifier_+%\")": -5,
                 "(Value=\"BaseFoodConsumption_+%\")": -10,
                 "(Value=\"GrantedAuraTamingSpeed_?\")": 1
@@ -14543,6 +14432,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Vodka-ModifierDescription\", \"Increases Explosive Damage, Temperature and Projectile Resistance. Increased Thirst.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseProjectileDamageResistance_+%\")": 10,
                 "(Value=\"BaseWaterConsumption_+%\")": 10,
@@ -14564,6 +14454,7 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Vodka-ModifierDescription\", \"Increases Explosive Damage, Thirst, Temperature and Projectile Resistance. Increased Taming Speed of Nearby Creatures.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
+                "(Value=\"BaseMaximumStamina_+\")": 75,
                 "(Value=\"BaseExplosiveDamage_+%\")": 5,
                 "(Value=\"BaseProjectileDamageResistance_+%\")": 10,
                 "(Value=\"BaseWaterConsumption_+%\")": 10,
@@ -14587,8 +14478,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Focaccia-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
                 "(Value=\"BaseHealthRegen_+%\")": 35,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 10,
                 "(Value=\"BaseFoodConsumption_+%\")": -10,
                 "(Value=\"BaseSharedExperience_+%\")": 10
@@ -14613,8 +14505,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Pasta-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. Grants a Chance of Additional Stone when Mining.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 125,
                 "(Value=\"BaseHealthRegen_+%\")": 35,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 10,
                 "(Value=\"BaseFoodConsumption_+%\")": -10,
                 "(Value=\"BaseSharedExperience_+%\")": 10,
@@ -14640,8 +14533,9 @@
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Truffle_Fries-ModifierDescription\", \"Increases Health Regen, Experience and Threat Against Animals. Decreases Food Consumption. Grants a Chance of Additional Stone when Mining.\")",
             "GrantedStats": {
                 "(Value=\"BaseFoodStomachSlots_+\")": 1,
-                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
+                "(Value=\"BaseMaximumHealth_+\")": 75,
                 "(Value=\"BaseHealthRegen_+%\")": 35,
+                "(Value=\"BaseAnimalThreatModifier_+%\")": 10,
                 "(Value=\"BaseExperience_+%\")": 10,
                 "(Value=\"BaseFoodConsumption_+%\")": -10,
                 "(Value=\"BaseSharedExperience_+%\")": 10,
@@ -15186,7 +15080,7 @@
             "Name": "AntiRadiation_Tonic",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Items/Item_Icons/UseableItems/T_ITEM_AntiRadiationTonic.T_ITEM_AntiRadiationTonic'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Tonic-ModifierName\", \"Rad-Ex Tonic\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Tonic-ModifierDescription\", \"Slowly Cleans Irradiated Blood and Stimulates The Repair of Cells.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AntiRadiation_Tonic-ModifierDescription\", \"Slowly Removing Radiation Accumulation within the body.\")",
             "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_RadiationRecovery_Slow.BP_ModifierStateBehaviour_RadiationRecovery_Slow_C",
             "ShouldTick": true,
             "MergeType": "Replace",
@@ -15213,7 +15107,7 @@
             "Name": "Sneaking",
             "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/HUD/StealthEyeVisible.StealthEyeVisible'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Sneaking-ModifierName\", \"Sneaking\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sneaking-ModifierDescription\", \"Moving Low and Slow to Reduce Threat\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Sneaking-ModifierDescription\", \"Moving Low and Slow to Further Reduce Threat\")",
             "GrantedStats": {
                 "(Value=\"BaseAnimalThreatModifier_+%\")": -50,
                 "(Value=\"BaseMovementSpeed_+%\")": -70
@@ -15371,6 +15265,454 @@
             "bEffectsObjects": true,
             "bEffectsNPCs": false,
             "bEffectsPlayers": false
+        },
+        {
+            "Name": "Companion_Boost",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Windows/T_ICON_GradArrow_Up.T_ICON_GradArrow_Up'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Companion_Boost-ModifierName\", \"Companion Boost\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Companion_Boost-ModifierDescription\", \"Creature is Receiving a boost to Health Regen, Stamina Regen and Experience.\")",
+            "GrantedStats": {
+                "(Value=\"BaseExperience_+%\")": 500,
+                "(Value=\"BaseHealthRegen_+%\")": 200,
+                "(Value=\"BaseStaminaRegen_+%\")": 200
+            },
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Animal_Fertilize",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Animal_Fertilise.T_ICON_Animal_Fertilise'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilize-ModifierName\", \"Fertilize\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilize-ModifierDescription\", \"This animal is attempting to fertilize other animals of the same species in range.\")",
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Fertilize.BP_Modifier_Fertilize_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 30,
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Husbandry.TryingToFertilize"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Husbandry.Rest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( NPC.Husbandry.Rest )"
+            },
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Animal_Fertilized",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Animal_Fertilised.T_ICON_Animal_Fertilised'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilized-ModifierName\", \"Gestating\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Fertilized-ModifierDescription\", \"This animal is with child or looking after an egg. A Child will be Born soon.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": 200,
+                "(Value=\"BaseFoodConsumption_+%\")": 200,
+                "(Value=\"BaseMovementSpeed_+%\")": -25,
+                "(Value=\"IsGestating_?\")": 1
+            },
+            "bRemovedOnEscalation": false,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Gestating.BP_Modifier_Gestating_C",
+            "ShouldTick": true,
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Husbandry.Fertilized"
+                    }
+                ]
+            },
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Animal_Resting",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Animal_Resting.T_ICON_Animal_Resting'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Resting-ModifierName\", \"Resting\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Animal_Resting-ModifierDescription\", \"Creature just Fertilized another or was recently Gestating and Needs to Rest\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": 50,
+                "(Value=\"BaseFoodConsumption_+%\")": 50,
+                "(Value=\"BaseMovementSpeed_+%\")": -10
+            },
+            "EscalationTime": 0,
+            "bRemovedOnEscalation": false,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "ModifierLifetimeAffectors": [
+                {
+                    "Value": "FertilizationRecoverySpeed_+%"
+                }
+            ],
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "NPC.Husbandry.Rest"
+                    }
+                ]
+            },
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "Stunned",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Disoriented.Icon_Disoriented'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Stunned-ModifierName\", \"Stunned\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Stunned-ModifierDescription\", \"Temporarily prevents any form of attack or movement\")",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": -100,
+                "(Value=\"BaseAttackSpeed_+%\")": -100
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_Stunned.BP_ModifierStateBehaviour_Stunned_C",
+            "ModifierTickRate": 0.009999999776482582,
+            "MergeType": "LongestDuration",
+            "MaxStackNum": 3,
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Character.NPC.Boss"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Character.NPC.Boss )"
+            },
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Desert_Atmosphere",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_HeatRES.Icon_HeatRES'",
+            "Type": "Biome",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_Atmosphere-ModifierName\", \"Solar-scorched\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Desert_Atmosphere-ModifierDescription\", \"Exposed to relentless sunlight, with extreme heat and minimal natural shelter.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": 250
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Swamp_Atmosphere",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_PlantNoDecay.T_ICON_PlantNoDecay'",
+            "Type": "Biome",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Swamp_Atmosphere-ModifierName\", \"Chronically wet\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Swamp_Atmosphere-ModifierDescription\", \"Permanently saturated terrain where standing water and poor drainage dominate the landscape.\")",
+            "GrantedStats": {
+                "(Value=\"BaseOxygenConsumption_+%\")": -50,
+                "(Value=\"BaseFoodConsumption_+%\")": 100
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Geothermal_Atmosphere",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/icon-weather-cloud1.icon-weather-cloud1'",
+            "Type": "Biome",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Geothermal_Atmosphere-ModifierName\", \"Seismically Active\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Geothermal_Atmosphere-ModifierDescription\", \"The ground is unstable, with frequent tremors and shifting terrain caused by constant geological movement.\")",
+            "GrantedStats": {
+                "(Value=\"BasePoisonResistance_%\")": -25,
+                "(Value=\"BaseHealthRegen_+%\")": -50
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Corrosive_DOT",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Corrosive.Icon_Corrosive'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Corrosive_DOT-ModifierName\", \"Corrosive\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Corrosive_DOT-ModifierDescription\", \"Slowly drains health and corrodes away armor and equipment\")",
+            "AudioData": {
+                "RowName": "Corrosive"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_Corrosive.BP_ModifierStateBehaviour_Corrosive_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 10,
+                    "Deviation": 3
+                },
+                "CorrosionAmount": {
+                    "BaseValue": 30,
+                    "Deviation": 5
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 2,
+            "MergeType": "LongestDuration",
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Eden_Atmosphere",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/Icon_Map_Home.Icon_Map_Home'",
+            "Type": "Biome",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Eden_Atmosphere-ModifierName\", \"EDEN\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Eden_Atmosphere-ModifierDescription\", \"A safe environment where you can relax without fear of attack.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -50,
+                "(Value=\"BaseOxygenConsumption_+%\")": -50,
+                "(Value=\"BaseFoodConsumption_+%\")": -50,
+                "(Value=\"BaseHeatResistance_%\")": 10,
+                "(Value=\"BaseColdResistance_%\")": 10
+            },
+            "MergeType": "Stack",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_FallDamageReduction",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER__FallDamageReduction.T_ICON_MODIFIER__FallDamageReduction'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_FallDamageReduction-ModifierName\", \"Aura: Carbonweave Backpack\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_FallDamageReduction-ModifierDescription\", \"Nearby allies receive additional Fall Damage Reduction\")",
+            "bAura": true,
+            "AuraRange": 2000,
+            "AuraFlags": {
+                "EffectsNPCs": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_FallDamageReduction"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_FallDamageReduction",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER__FallDamageReduction.T_ICON_MODIFIER__FallDamageReduction'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_FallDamageReduction-ModifierName\", \"Aura Effect: Carbonweave Backpack\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_FallDamageReduction-ModifierDescription\", \"Fall Damage Reduction\")",
+            "GrantedStats": {
+                "(Value=\"BaseFallDamageResistance_%\")": 50
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Strengthened_Gestation",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_StrongCritPoint.Icon_StrongCritPoint'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Strengthened_Gestation-ModifierName\", \"Fortified\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Strengthened_Gestation-ModifierDescription\", \"Creature is stronger and more resistant to damage while gestating.\")",
+            "GrantedStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25,
+                "(Value=\"BaseMeleeDamage_+%\")": 10
+            },
+            "EscalationTime": 0,
+            "bRemovedOnEscalation": false,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "Stack",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Husbandry.Fertilized"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Husbandry.Fertilized )"
+            },
+            "bEffectsPlayers": false
+        },
+        {
+            "Name": "GrantedAura_MaternalInstincts",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_AggressiveCreature.Icon_AggressiveCreature'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_MaternalInstincts-ModifierName\", \"Aura: Maternal Instincts\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_MaternalInstincts-ModifierDescription\", \"Nearby Juveniles Recieve Increased Resistance and Taming Speed\")",
+            "bAura": true,
+            "AuraRange": 2000,
+            "AuraFlags": {
+                "EffectsPlayers": false,
+                "EffectsNPCs": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_MaternalInstincts"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Husbandry.Rest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Husbandry.Rest )"
+            },
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_MaternalInstincts",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_AggressiveCreature.Icon_AggressiveCreature'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_MaternalInstincts-ModifierName\", \"Aura Effect: Maternal Instincts\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_MaternalInstincts-ModifierDescription\", \"Increased Resistance and Taming Speed\")",
+            "GrantedStats": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50,
+                "(Value=\"BaseTamingSpeed_%\")": 25
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "SireVigor",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_MODIFIER__SUMMONWOLF.T_ICON_MODIFIER__SUMMONWOLF'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"SireVigor-ModifierName\", \"Sire Vigor\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"SireVigor-ModifierDescription\", \"Increased Speed, Damage and Resistance\")",
+            "GrantedStats": {
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseMovementSpeed_+%\")": 5,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 5
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Husbandry.Rest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Husbandry.Rest )"
+            },
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_GestationSpeed",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MountTameIcons/ICON_Bed.ICON_Bed'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_GestationSpeed-ModifierName\", \"Aura: Nesting Bed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_GestationSpeed-ModifierDescription\", \"Creatures Gestate Faster\")",
+            "bAura": true,
+            "AuraRange": 2000,
+            "AuraFlags": {
+                "EffectsPlayers": false,
+                "EffectsNPCs": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_MaternalInstincts"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_Base.BP_Modifier_Aura_Base_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "RemovedOnDeath": false,
+            "MergeType": "Count",
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "NPC.Husbandry.Rest"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    2,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ALL( NPC.Husbandry.Rest )"
+            },
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_GestationSpeed",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MountTameIcons/ICON_Bed.ICON_Bed'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_GestationSpeed-ModifierName\", \"Aura Effect: Nesting Bed\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_GestationSpeed-ModifierDescription\", \"Creatures Gestate Faster\")",
+            "GrantedStats": {
+                "(Value=\"BaseGestationSpeed_+%\")": 100
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "GrantedAura_InhibitSlinkerHunting",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Slinker.T_Icon_Map_Slinker'",
+            "Type": "Aura_Positive",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_InhibitSlinkerHunting-ModifierName\", \"Aura: Slinker Hunt Protection\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"GrantedAura_InhibitSlinkerHunting-ModifierDescription\", \"Prevents Hostile Slinkers From Hunting Affected Targets\")",
+            "bAura": true,
+            "AuraRange": 1,
+            "AuraFlags": {
+                "EffectsNPCs": true,
+                "EffectsDeployables": true
+            },
+            "ModifierGrantedByAura": {
+                "RowName": "AuraEffect_Sheltered"
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Aura_RangeModifiable.BP_Modifier_Aura_RangeModifiable_C",
+            "ShouldTick": true,
+            "ModifierTickRate": 0.5,
+            "MergeType": "Count",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "AuraEffect_InhibitSlinkerHunting",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Slinker.T_Icon_Map_Slinker'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_InhibitSlinkerHunting-ModifierName\", \"Aura Effect: Slinker Hunt Protection\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"AuraEffect_InhibitSlinkerHunting-ModifierDescription\", \"Prevents Hostile Slinkers From Hunting Affected Targets\")",
+            "GrantedStats": {
+                "(Value=\"ShouldPreventSlinkerHunting_?\")": 1
+            },
+            "AuraRange": 500,
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_Modifier_Base.BP_Modifier_Base_C",
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
+            "SaveToDatabase": false
         }
     ]
 }

@@ -6,6 +6,7 @@
             "DataTableName": "D_AISetup"
         },
         "Icon": "None",
+        "Variations": [],
         "RelevantSaddleQuery": {
             "RowName": "None",
             "DataTableName": "D_TagQueries"
@@ -18,7 +19,6 @@
             "None"
         ],
         "SupportedGrazingStates": [],
-        "SupportedHusbandryStates": [],
         "Animations": {},
         "InventoryPreviewCameraSettings": {
             "RowName": "Mount",
@@ -68,6 +68,98 @@
                 "RowName": "Mount_Buffalo"
             },
             "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Buffalo.T_Icon_Map_Buffalo",
+            "Variations": [
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo.MI_CRE_Buffalo",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_fur.MI_CRE_Buffalo_fur",
+                    "Weighting": 1000
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarA.MI_CRE_Buffalo_Base_VarA",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarA_Fur.MI_CRE_Buffalo_Base_VarA_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarB.MI_CRE_Buffalo_Base_VarB",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarB_Fur.MI_CRE_Buffalo_Base_VarB_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarC.MI_CRE_Buffalo_Base_VarC",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarC_Fur.MI_CRE_Buffalo_Base_VarC_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarD.MI_CRE_Buffalo_Base_VarD",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarD_Fur.MI_CRE_Buffalo_Base_VarD_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarE.MI_CRE_Buffalo_Base_VarE",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarE_Fur.MI_CRE_Buffalo_Base_VarE_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarF.MI_CRE_Buffalo_Base_VarF",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Base_VarF_Fur.MI_CRE_Buffalo_Base_VarF_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarA.MI_CRE_Buffalo_Rare_VarA",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarA_Fur.MI_CRE_Buffalo_Rare_VarA_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarB.MI_CRE_Buffalo_Rare_VarB",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarB_Fur.MI_CRE_Buffalo_Rare_VarB_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarC.MI_CRE_Buffalo_Rare_VarC",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarC_Fur.MI_CRE_Buffalo_Rare_VarC_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarD.MI_CRE_Buffalo_Rare_VarD",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarD_Fur.MI_CRE_Buffalo_Rare_VarD_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarE.MI_CRE_Buffalo_Rare_VarE",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarE_Fur.MI_CRE_Buffalo_Rare_VarE_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarF.MI_CRE_Buffalo_Rare_VarF",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarF_Fur.MI_CRE_Buffalo_Rare_VarF_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarG.MI_CRE_Buffalo_Rare_VarG",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarG_Fur.MI_CRE_Buffalo_Rare_VarG_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarH.MI_CRE_Buffalo_Rare_VarH",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Rare_VarH_Fur.MI_CRE_Buffalo_Rare_VarH_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_White.MI_CRE_Buffalo_White",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_White_fur.MI_CRE_Buffalo_White_fur",
+                    "Weighting": 5
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Legendary_VarA.MI_CRE_Buffalo_Legendary_VarA",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Legendary_VarA_Fur.MI_CRE_Buffalo_Legendary_VarA_Fur",
+                    "Weighting": 5
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Legendary_VarB.MI_CRE_Buffalo_Legendary_VarB",
+                    "GFurMaterial": "/Game/ASS/CRE/Buffalo/MI_CRE_Buffalo_Legendary_VarB_Fur.MI_CRE_Buffalo_Legendary_VarB_Fur",
+                    "Weighting": 5
+                }
+            ],
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle"
             },
@@ -126,6 +218,78 @@
                 "RowName": "Mount_Moa"
             },
             "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Moa.T_Icon_Map_Moa",
+            "Variations": [
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/M_CRE_Moa_MI.M_CRE_Moa_MI",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/M_CRE_Moa_fur.M_CRE_Moa_fur",
+                    "Weighting": 1000
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var1.M_CRE_Moa_Var1",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var1_fur.M_CRE_Moa_Var1_fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var2.M_CRE_Moa_Var2",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var2_Fur.M_CRE_Moa_Var2_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var3.M_CRE_Moa_Var3",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var3_Fur.M_CRE_Moa_Var3_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var4.M_CRE_Moa_Var4",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var4_Fur.M_CRE_Moa_Var4_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var5.M_CRE_Moa_Var5",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var5_Fur.M_CRE_Moa_Var5_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var6.M_CRE_Moa_Var6",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var6_Fur.M_CRE_Moa_Var6_Fur",
+                    "Weighting": 100
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var7.M_CRE_Moa_Var7",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var7_Fur.M_CRE_Moa_Var7_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var8.M_CRE_Moa_Var8",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var8_Fur.M_CRE_Moa_Var8_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var9.M_CRE_Moa_Var9",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var9_Fur.M_CRE_Moa_Var9_Fur",
+                    "Weighting": 50
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var10.M_CRE_Moa_Var10",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var10_Fur.M_CRE_Moa_Var10_Fur",
+                    "Weighting": 25
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var11.M_CRE_Moa_Var11",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var11_Fur.M_CRE_Moa_Var11_Fur",
+                    "Weighting": 25
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var12.M_CRE_Moa_Var12",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var12_Fur.M_CRE_Moa_Var12_Fur",
+                    "Weighting": 25
+                },
+                {
+                    "MeshMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var13.M_CRE_Moa_Var13",
+                    "GFurMaterial": "/Game/ASS/CRE/Moa/Colour_Variants/M_CRE_Moa_Var13_Fur.M_CRE_Moa_Var13_Fur",
+                    "Weighting": 5
+                }
+            ],
             "RelevantSaddleQuery": {
                 "RowName": "Any_Saddle_Standard"
             },
@@ -1415,10 +1579,6 @@
                 "Follow",
                 "IdleWander"
             ],
-            "SupportedHusbandryStates": [
-                "Fertilize",
-                "None"
-            ],
             "Animations": {
                 "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Stand_Idle_Montage.Buffalo_Stand_Idle_Montage",
                 "(TagName=\"BT.Mount.Animation.Rest\")": "/Game/ThirdPartyAssets/AnimalsVol01/Buffalo/Meshes/Animations/Buffalo_Rest_Montage.Buffalo_Rest_Montage",
@@ -1441,13 +1601,8 @@
             "MapIcon": {
                 "RowName": "Mount"
             },
-            "RelativeFeetOffset": {
-                "X": -10,
-                "Y": -17.5,
-                "Z": 10
-            },
             "MountTalentArchetype": {
-                "RowName": "Creature_Buffalo"
+                "RowName": "Creature_Bull"
             }
         },
         {
@@ -1462,10 +1617,6 @@
             "SupportedMovementStates": [
                 "Follow",
                 "IdleWander"
-            ],
-            "SupportedHusbandryStates": [
-                "Fertilize",
-                "None"
             ],
             "Animations": {
                 "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Chicken/Anim/Chicken_StandIdle_Montage.Chicken_StandIdle_Montage",
@@ -1515,10 +1666,6 @@
             "SupportedMovementStates": [
                 "Follow",
                 "IdleWander"
-            ],
-            "SupportedHusbandryStates": [
-                "Fertilize",
-                "None"
             ],
             "Animations": {
                 "(TagName=\"BT.Mount.Animation.IdleStanding\")": "/Game/ASS/CRE/Sheep/Anim/Sheep_Idle_Montage.Sheep_Idle_Montage",

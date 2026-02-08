@@ -11722,6 +11722,10 @@
                     {
                         "RowName": "Arctic_Bat",
                         "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "NPC_Outpost",
+                        "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
             },
@@ -11874,6 +11878,10 @@
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Arctic_Bat",
+                        "DataTableName": "D_AutonomousSpawns"
+                    },
+                    {
+                        "RowName": "NPC_Outpost",
                         "DataTableName": "D_AutonomousSpawns"
                     }
                 ]
@@ -12458,7 +12466,13 @@
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 20
+                "BiomeSpawnDensity": 20,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "NPC_Outpost",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
             },
             "MinLevel": 30,
             "MedianLevel": 30,
@@ -12777,6 +12791,12 @@
                             "Value": "None"
                         }
                     }
+                ],
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "NPC_Outpost",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
                 ]
             },
             "MinLevel": 40,
@@ -12833,7 +12853,13 @@
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 5
+                "BiomeSpawnDensity": 5,
+                "RelevantAutonomousSpawners": [
+                    {
+                        "RowName": "NPC_Outpost",
+                        "DataTableName": "D_AutonomousSpawns"
+                    }
+                ]
             },
             "MinLevel": 40,
             "MedianLevel": 50,
@@ -12847,7 +12873,7 @@
                         "AISetup": {
                             "Value": "Reaver"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12856,7 +12882,7 @@
                         "AISetup": {
                             "Value": "Giant_Roach"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12865,7 +12891,7 @@
                         "AISetup": {
                             "Value": "Roat_Swamp"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 5,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12874,7 +12900,7 @@
                         "AISetup": {
                             "Value": "Swamp_Quadruped"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 30,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12883,7 +12909,7 @@
                         "AISetup": {
                             "Value": "Hopping_Creature_Swamp"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12892,7 +12918,7 @@
                         "AISetup": {
                             "Value": "Komodo"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12901,7 +12927,7 @@
                         "AISetup": {
                             "Value": "Rabbit_Variant"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 5,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12910,7 +12936,7 @@
                         "AISetup": {
                             "Value": "Swamp_Bird"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 10,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -12919,14 +12945,14 @@
                         "AISetup": {
                             "Value": "Swamp_Slug"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 8,
                         "EpicCreature": {
                             "Value": "None"
                         }
                     },
                     {
                         "AISetup": {
-                            "Value": "Drone_Scout"
+                            "Value": "Drone_Carrier"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
@@ -12934,6 +12960,7 @@
                         }
                     }
                 ],
+                "BiomeSpawnDensity": 20,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer_Swamp",
@@ -13008,7 +13035,7 @@
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 8,
+                "BiomeSpawnDensity": 12,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer_Swamp",
@@ -13032,7 +13059,7 @@
                         "AISetup": {
                             "Value": "DragonFly"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13041,7 +13068,7 @@
                         "AISetup": {
                             "Value": "Giant_Roach"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13050,7 +13077,7 @@
                         "AISetup": {
                             "Value": "Roat_Swamp"
                         },
-                        "SpawnWeight": 1,
+                        "SpawnWeight": 5,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13059,7 +13086,7 @@
                         "AISetup": {
                             "Value": "Swamp_Quadruped"
                         },
-                        "SpawnWeight": 4,
+                        "SpawnWeight": 40,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13068,7 +13095,7 @@
                         "AISetup": {
                             "Value": "Needler"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 30,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13077,7 +13104,7 @@
                         "AISetup": {
                             "Value": "Crocodile"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13086,7 +13113,7 @@
                         "AISetup": {
                             "Value": "Komodo"
                         },
-                        "SpawnWeight": 2,
+                        "SpawnWeight": 20,
                         "EpicCreature": {
                             "Value": "None"
                         }
@@ -13095,14 +13122,14 @@
                         "AISetup": {
                             "Value": "Swamp_Bird"
                         },
-                        "SpawnWeight": 3,
+                        "SpawnWeight": 30,
                         "EpicCreature": {
                             "Value": "None"
                         }
                     },
                     {
                         "AISetup": {
-                            "Value": "Drone_Scout"
+                            "Value": "Drone_Carrier"
                         },
                         "SpawnWeight": 1,
                         "EpicCreature": {
@@ -13110,6 +13137,7 @@
                         }
                     }
                 ],
+                "BiomeSpawnDensity": 20,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer_Swamp",
@@ -13193,7 +13221,7 @@
                         }
                     }
                 ],
-                "BiomeSpawnDensity": 8,
+                "BiomeSpawnDensity": 12,
                 "RelevantAutonomousSpawners": [
                     {
                         "RowName": "Gas_Flyer_Swamp",

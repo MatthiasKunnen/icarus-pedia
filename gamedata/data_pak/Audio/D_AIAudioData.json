@@ -53,20 +53,6 @@
                 "RowName": "DeerDeath"
             },
             "StateVocalisations": {
-                "Fleeing": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "DeerFlee",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                },
                 "Idle": {
                     "StateEnteredVocalisation": {
                         "RowName": "None",
@@ -74,6 +60,20 @@
                     },
                     "StatePersistentVocalisation": {
                         "RowName": "DeerIdle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Fleeing": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "DeerFlee",
                         "DataTableName": "D_Vocalisations"
                     },
                     "StateExitedVocalisation": {
@@ -5442,62 +5442,6 @@
             "FoliageCheckMaxDistance": 6000
         },
         {
-            "Name": "NPCEnemyWolfTest",
-            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Batdog/SFX_CRE_BATDOG_FOOTSTEPS.SFX_CRE_BATDOG_FOOTSTEPS",
-            "FrontFootSocket": "RigLFLeg1",
-            "RearFootSocket": "RigLBLeg1",
-            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_MEDIUM.SFX_CRE_FOLIAGE_MEDIUM",
-            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_SMALL.SFX_CRE_BODY_FALL_SMALL",
-            "DeathCollisionSocket": "RigChest",
-            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
-            "VocalisationSocket": "RigJaw",
-            "AttackVocalisation": {
-                "RowName": "NPC1_Attack"
-            },
-            "FlinchVocalisation": {
-                "RowName": "NPC1_Flinch"
-            },
-            "DeathVocalisation": {
-                "RowName": "NPC1_Death"
-            },
-            "StateVocalisations": {
-                "Idle": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "NPC1_Idle",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                },
-                "Attacking": {
-                    "StateEnteredVocalisation": {
-                        "RowName": "NPC1_Spot",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StatePersistentVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    },
-                    "StateExitedVocalisation": {
-                        "RowName": "None",
-                        "DataTableName": "D_Vocalisations"
-                    }
-                }
-            },
-            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
-            "ThreatLevel": 100,
-            "ThreatConfig": {
-                "RowName": "Default"
-            },
-            "FoliageCheckMaxDistance": 6000
-        },
-        {
             "Name": "Lamb",
             "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Chamois/SFX_FOOTSTEP_LAMB.SFX_FOOTSTEP_LAMB",
             "FrontFootSocket": "RigNeck3",
@@ -5829,13 +5773,13 @@
         },
         {
             "Name": "Slinker",
-            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Wolf/SFX_CRE_MANGE_ALPHA_WOLF_FOOTSTEPS.SFX_CRE_MANGE_ALPHA_WOLF_FOOTSTEPS",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/SFX_CRE_FOOTSTEPS_SLINKER.SFX_CRE_FOOTSTEPS_SLINKER",
             "FrontFootSocket": "RigLFLeg1",
             "RearFootSocket": "RigLBLeg1",
             "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_MEDIUM.SFX_CRE_FOLIAGE_MEDIUM",
             "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_MEDIUM.SFX_CRE_BODY_FALL_MEDIUM",
             "DeathCollisionSocket": "RigChest",
-            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigJaw_M",
             "AttackVocalisation": {
                 "RowName": "SlinkerAttack"
@@ -6468,16 +6412,16 @@
         {
             "Name": "RaptorMount",
             "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Striker/SFX_CRE_FOOTSTEPS_STRIKER.SFX_CRE_FOOTSTEPS_STRIKER",
-            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_LARGE.SFX_CRE_FOLIAGE_LARGE",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_MEDIUM.SFX_CRE_FOLIAGE_MEDIUM",
             "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_MEDIUM.SFX_CRE_BODY_FALL_MEDIUM",
             "DeathCollisionSocket": "RigSpine",
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
             "VocalisationSocket": "RigRJaw",
             "AttackVocalisation": {
-                "RowName": "RaptorAttack"
+                "RowName": "RaptorMountAttack"
             },
             "FlinchVocalisation": {
-                "RowName": "RaptorFlinch"
+                "RowName": "RaptorMountFlinch"
             },
             "DeathVocalisation": {
                 "RowName": "RaptorDeath"
@@ -6594,7 +6538,9 @@
             "ThreatLevel": 100,
             "ThreatConfig": {
                 "RowName": "Default"
-            }
+            },
+            "FootstepMaxDistance": 2000,
+            "FoliageCheckMaxDistance": 2000
         },
         {
             "Name": "DragonFly",
@@ -6672,7 +6618,7 @@
             "FrontFootSocket": "RigHead",
             "RearFootSocket": "RigTail1",
             "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
-            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_VERY_SMALL.SFX_CRE_BODY_FALL_VERY_SMALL",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_SMALL.SFX_CRE_BODY_FALL_SMALL",
             "DeathCollisionSocket": "RigPelvis",
             "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
             "VocalisationSocket": "RigJaw_M",
@@ -6943,7 +6889,7 @@
         {
             "Name": "DroneCarrier",
             "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
-            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH_IMPACT.SFX_DRONE_DEATH_IMPACT",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH_IMPACT_CARRIER.SFX_DRONE_DEATH_IMPACT_CARRIER",
             "DeathVocalisation": {
                 "RowName": "DroneCarrierDeath"
             },
@@ -6972,9 +6918,9 @@
         {
             "Name": "DroneHunter",
             "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
-            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH_IMPACT.SFX_DRONE_DEATH_IMPACT",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH_IMPACT_HUNTER.SFX_DRONE_DEATH_IMPACT_HUNTER",
             "DeathVocalisation": {
-                "RowName": "DroneDeath"
+                "RowName": "DroneHunterDeath"
             },
             "StateVocalisations": {
                 "Idle": {
@@ -6997,6 +6943,132 @@
             "ThreatConfig": {
                 "RowName": "Default"
             }
+        },
+        {
+            "Name": "Piglet",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/WildBoar/SFX_FOOTSTEP_WILDBOAR.SFX_FOOTSTEP_WILDBOAR",
+            "FrontFootSocket": "RigNeck1",
+            "RearFootSocket": "RigPelvis",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_SMALL.SFX_CRE_BODY_FALL_SMALL",
+            "DeathCollisionSocket": "RigChest",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_MED.SFX_CRE_DEATHFALL_WATER_MED",
+            "VocalisationSocket": "RigJaw",
+            "FlinchVocalisation": {
+                "RowName": "PigletFlinch"
+            },
+            "DeathVocalisation": {
+                "RowName": "PigletDeath"
+            },
+            "StateVocalisations": {
+                "Idle": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "PigletIdle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
+            "ThreatLevel": 100,
+            "ThreatConfig": {
+                "RowName": "Default"
+            },
+            "FootstepMaxDistance": 6000,
+            "FoliageCheckMaxDistance": 6000
+        },
+        {
+            "Name": "Chick",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Creatures/Footsteps/Rabbit/SFX_FOOTSTEP_RABBIT.SFX_FOOTSTEP_RABBIT",
+            "FrontFootSocket": "RigLFLeg2",
+            "RearFootSocket": "RigTail2",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_SMALL.SFX_CRE_FOLIAGE_SMALL",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_VERY_SMALL.SFX_CRE_BODY_FALL_VERY_SMALL",
+            "DeathCollisionSocket": "RigChest",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
+            "VocalisationSocket": "RigJaw",
+            "DeathVocalisation": {
+                "RowName": "ChickDeath"
+            },
+            "StateVocalisations": {
+                "Idle": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "ChickIdle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
+            "FootstepMaxDistance": 2000,
+            "FoliageCheckMaxDistance": 3500,
+            "bUsesShelter": false
+        },
+        {
+            "Name": "NPCEnemy3",
+            "FootstepSound": "/Game/FMOD/Events/SFX/Character/Movement/NPC/SFX_NPC_SOLDIER_FOOTSTEP.SFX_NPC_SOLDIER_FOOTSTEP",
+            "FrontFootSocket": "RigLFLeg1",
+            "RearFootSocket": "RigLBLeg1",
+            "MovementSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_FOLIAGE_MEDIUM.SFX_CRE_FOLIAGE_MEDIUM",
+            "DeathCollisionSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_BODY_FALL_MEDIUM.SFX_CRE_BODY_FALL_MEDIUM",
+            "DeathCollisionSocket": "RigChest",
+            "WaterDeathSound": "/Game/FMOD/Events/SFX/Creatures/Movement/SFX_CRE_DEATHFALL_WATER_SMALL.SFX_CRE_DEATHFALL_WATER_SMALL",
+            "VocalisationSocket": "RigJaw",
+            "FlinchVocalisation": {
+                "RowName": "NPCEnemy3Flinch"
+            },
+            "DeathVocalisation": {
+                "RowName": "NPCEnemy3Death"
+            },
+            "StateVocalisations": {
+                "Attacking": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "NPC1_Spot",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                },
+                "Idle": {
+                    "StateEnteredVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StatePersistentVocalisation": {
+                        "RowName": "NPC1_Idle",
+                        "DataTableName": "D_Vocalisations"
+                    },
+                    "StateExitedVocalisation": {
+                        "RowName": "None",
+                        "DataTableName": "D_Vocalisations"
+                    }
+                }
+            },
+            "ThreatComponentClass": "/Script/Icarus.CreatureAudioThreatGOAPComponent",
+            "ThreatLevel": 100,
+            "ThreatConfig": {
+                "RowName": "Default"
+            },
+            "FoliageCheckMaxDistance": 6000
         }
     ]
 }

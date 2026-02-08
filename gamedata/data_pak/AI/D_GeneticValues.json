@@ -1,0 +1,71 @@
+{
+    "RowStruct": "/Script/Icarus.GeneticValue",
+    "Defaults": {
+        "Title": "",
+        "Short": "",
+        "Base": {}
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Vitality",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Vitality-Title\", \"Vitality\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Vitality-Short\", \"VIT\")",
+            "Base": {
+                "(Value=\"BaseMaximumHealth_+\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_Health.C_G_Health'"
+            }
+        },
+        {
+            "Name": "Endurance",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Endurance-Title\", \"Endurance\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Endurance-Short\", \"END\")",
+            "Base": {
+                "(Value=\"BaseMaximumStamina_+\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_Stamina.C_G_Stamina'"
+            }
+        },
+        {
+            "Name": "Muscle",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Muscle-Title\", \"Muscle\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Muscle-Short\", \"MSC\")",
+            "Base": {
+                "(Value=\"BaseMeleeDamage_+\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_Melee.C_G_Melee'",
+                "(Value=\"BaseWeightCapacity_+\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_Carry.C_G_Carry'"
+            }
+        },
+        {
+            "Name": "Agility",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Agility-Title\", \"Agility\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Agility-Short\", \"AGI\")",
+            "Base": {
+                "(Value=\"BaseMovementSpeed_+%\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_Movement.C_G_Movement'"
+            }
+        },
+        {
+            "Name": "Toughness",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Toughness-Title\", \"Toughness\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Toughness-Short\", \"TGH\")",
+            "Base": {
+                "(Value=\"BasePhysicalDamageResistance_%\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_PhysicalResist.C_G_PhysicalResist'"
+            }
+        },
+        {
+            "Name": "Hardiness",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Hardiness-Title\", \"Hardiness\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Hardiness-Short\", \"HRD\")",
+            "Base": {
+                "(Value=\"BaseColdResistance_%\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_TemperatureResist.C_G_TemperatureResist'",
+                "(Value=\"BaseHeatResistance_%\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_TemperatureResist.C_G_TemperatureResist'"
+            }
+        },
+        {
+            "Name": "Utility",
+            "Title": "NSLOCTEXT(\"D_GeneticValues\", \"Utility-Title\", \"Utility\")",
+            "Short": "NSLOCTEXT(\"D_GeneticValues\", \"Utility-Short\", \"UTL\")",
+            "Base": {
+                "(Value=\"BaseCowTimeBetweenMilk_+%\")": "CurveFloat'/Game/Data/AI/Genetics/C_EggTime.C_EggTime'",
+                "(Value=\"BaseChickenTimeBetweenEggs_+%\")": "CurveFloat'/Game/Data/AI/Genetics/C_EggTime.C_EggTime'",
+                "(Value=\"BaseMountCargoSlots_+\")": "CurveFloat'/Game/Data/AI/Genetics/C_G_Slots.C_G_Slots'"
+            }
+        }
+    ]
+}

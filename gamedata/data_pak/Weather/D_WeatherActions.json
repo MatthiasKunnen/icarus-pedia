@@ -71,6 +71,9 @@
         "Severity_SandStart": 0,
         "Severity_SandEnd": 0,
         "Curve_Sand": "None",
+        "bEnableVisuals_Sand_Buildup": false,
+        "Severity_Sand_BuildupStart": 0,
+        "Severity_Sand_BuildupEnd": 0,
         "bEnableVisuals_Snow": false,
         "Severity_SnowStart": 0,
         "Severity_SnowEnd": 0,
@@ -85,6 +88,9 @@
         "Severity_AshStart": 0,
         "Severity_AshEnd": 0,
         "Curve_Ash": "None",
+        "bEnableVisuals_Ash_Buildup": false,
+        "Severity_Ash_BuildupStart": 0,
+        "Severity_Ash_BuildupEnd": 0,
         "bEnableVisuals_Embers": false,
         "Severity_EmbersStart": 0,
         "Severity_EmbersEnd": 0,
@@ -594,7 +600,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "MediumSand_Body",
@@ -641,7 +649,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "MediumSand_Chaos",
@@ -708,7 +719,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.800000011920929,
             "Severity_SandEnd": 1,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "MediumSand_Stop",
@@ -761,7 +775,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "LongWinds_Start",
@@ -1401,7 +1417,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.4000000059604645
+            "Severity_SandEnd": 0.4000000059604645,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "LightSand_Body",
@@ -1448,7 +1466,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.125,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "LightSand_Chaos",
@@ -1518,7 +1539,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.4000000059604645,
             "Severity_SandEnd": 0.6000000238418579,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "LightSand_Stop",
@@ -1571,7 +1595,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.5
+            "Severity_SandEnd": 0.5,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5
         },
         {
             "Name": "HeavySand_Start",
@@ -1625,7 +1651,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "HeavySand_Body",
@@ -1672,7 +1700,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "HeavySand_Chaos",
@@ -1742,7 +1773,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.800000011920929,
             "Severity_SandEnd": 1.2000000476837158,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "HeavySand_Stop",
@@ -1795,7 +1829,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "LightSnow_Start_1",
@@ -4291,7 +4327,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "Shamal_Body_1",
@@ -4338,7 +4376,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "Shamal_Chaos_1",
@@ -4408,7 +4449,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.800000011920929,
             "Severity_SandEnd": 1,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "Shamal_Stop_1",
@@ -4461,7 +4505,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "Heatwave_Start_1",
@@ -16769,7 +16815,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T4_Desert_Sand_Body",
@@ -16827,7 +16875,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T4_Desert_Sand_Chaos",
@@ -16902,7 +16953,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.800000011920929,
             "Severity_SandEnd": 1,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T4_Desert_Sand_Stop",
@@ -16963,7 +17017,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "T5_Desert_Sand_Start",
@@ -16990,7 +17046,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T5_Desert_Sand_Body",
@@ -17048,7 +17106,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T5_Desert_Sand_Chaos",
@@ -17123,7 +17184,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.800000011920929,
             "Severity_SandEnd": 1,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T5_Desert_Sand_Stop",
@@ -17184,7 +17248,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "T1_Desert_Wind_Start",
@@ -18116,7 +18182,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T6_Desert_Sand_Body",
@@ -18171,7 +18239,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T6_Desert_Sand_Chaos",
@@ -18249,7 +18320,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.800000011920929,
             "Severity_SandEnd": 1.2000000476837158,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T6_Desert_Sand_Stop",
@@ -18310,7 +18384,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "T2_Desert_Sand_Start",
@@ -18337,7 +18413,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "T2_Desert_Sand_Body",
@@ -18392,7 +18470,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.5,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "T2_Desert_Sand_Chaos",
@@ -18467,7 +18548,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.6000000238418579,
             "Severity_SandEnd": 0.800000011920929,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "T2_Desert_Sand_Stop",
@@ -18528,7 +18612,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.800000011920929
+            "Severity_SandEnd": 0.800000011920929,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5
         },
         {
             "Name": "T0_Desert_Sand_Start",
@@ -18555,7 +18641,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.30000001192092896
+            "Severity_SandEnd": 0.30000001192092896,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "T0_Desert_Sand_Body",
@@ -18609,7 +18697,10 @@
             "Damage_Deployables_MaxInterval": 6,
             "Damage_Deployables_Intensity": 0.125,
             "FireExtinguish_MinInterval": 2,
-            "FireExtinguish_MaxInterval": 4
+            "FireExtinguish_MaxInterval": 4,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "T0_Desert_Sand_Chaos",
@@ -18687,7 +18778,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.4000000059604645,
             "Severity_SandEnd": 0.6000000238418579,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Generic_010.C_Weather_Generic_010",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5,
+            "Severity_Sand_BuildupEnd": 0.5
         },
         {
             "Name": "T0_Desert_Sand_Stop",
@@ -18748,7 +18842,9 @@
             "FireExtinguish_MinInterval": 2,
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
-            "Severity_SandEnd": 0.30000001192092896
+            "Severity_SandEnd": 0.30000001192092896,
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 0.5
         },
         {
             "Name": "T3_Conifer_Hail_Start_Rain",
@@ -23614,7 +23710,9 @@
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
             "Severity_SandEnd": 0.4000000059604645,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "Sandwyrm_DustStorm_Body",
@@ -23675,7 +23773,10 @@
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.4000000059604645,
             "Severity_SandEnd": 0.4000000059604645,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1,
+            "Severity_Sand_BuildupEnd": 1
         },
         {
             "Name": "Sandwyrm_DustStorm_Stop",
@@ -23733,7 +23834,9 @@
             "FireExtinguish_MaxInterval": 4,
             "bEnableVisuals_Sand": true,
             "Severity_SandStart": 0.4000000059604645,
-            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand"
+            "Curve_Sand": "/Game/BP/Systems/Weather/Actions/Curves/C_Weather_Sand.C_Weather_Sand",
+            "bEnableVisuals_Sand_Buildup": true,
+            "Severity_Sand_BuildupStart": 1
         },
         {
             "Name": "NoWeather_Body",

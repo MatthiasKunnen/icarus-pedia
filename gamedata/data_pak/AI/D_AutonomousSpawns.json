@@ -218,6 +218,14 @@
             },
             "AISpawnBehaviour": "/Game/BP/AI/SpawnBehaviours/BP_AISpawnBehaviour_AroundCaveEntrances_Spider.BP_AISpawnBehaviour_AroundCaveEntrances_Spider_C",
             "MaxSpawnCount": 8,
+            "MaxDistanceToPlayers": 35000
+        },
+        {
+            "Name": "NPC_Outpost",
+            "IcarusActorClass": "/Game/BP/Objects/World/Items/WorldObjects/Missions/BP_Prebuilt_WorldSpawner_NPC_Outpost.BP_Prebuilt_WorldSpawner_NPC_Outpost_C",
+            "AISpawnBehaviour": "/Game/BP/AI/SpawnBehaviours/BP_AISpawnBehaviour_AroundPlayers_PrebuiltStructure.BP_AISpawnBehaviour_AroundPlayers_PrebuiltStructure_C",
+            "MaxNumAroundPlayers": 1,
+            "MaxSpawnCount": 2,
             "MaxDistanceToPlayers": 30000
         }
     ]

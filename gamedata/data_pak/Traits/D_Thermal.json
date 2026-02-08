@@ -183,6 +183,20 @@
             },
             "FireNavigationModifierClass": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavArea_Fire.NavArea_Fire_C'",
             "FireNavigationModifierRadius": 4250
+        },
+        {
+            "Name": "Forge",
+            "InnerRadius": 100,
+            "OuterRadius": 500,
+            "TemperatureChange": 800,
+            "OcclusionTraceOffset": {
+                "X": -40,
+                "Y": 40,
+                "Z": 170
+            },
+            "EffectOriginOffset": {
+                "Z": 50
+            }
         }
     ]
 }

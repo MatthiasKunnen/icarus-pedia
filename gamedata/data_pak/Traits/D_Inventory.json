@@ -1493,6 +1493,15 @@
             ]
         },
         {
+            "Name": "Weapon_Rack_Single",
+            "Inventories": [
+                {
+                    "RowName": "Weapon_Rack_Single",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
             "Name": "Storage_Plastic_Crate",
             "Inventories": [
                 {
@@ -1564,6 +1573,46 @@
             "Inventories": [
                 {
                     "RowName": "Fishing_Crate",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Homestead_Cabinet",
+            "Inventories": [
+                {
+                    "RowName": "Storage_Homestead_Cabinet",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Homestead_Cabinet_Large",
+            "Inventories": [
+                {
+                    "RowName": "Storage_Homestead_Cabinet_Large",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Flower_Pot",
+            "Inventories": [
+                {
+                    "RowName": "Flower_Pot",
+                    "DataTableName": "D_InventoryInfo"
+                }
+            ]
+        },
+        {
+            "Name": "Deep_Mining_Drill_Oil",
+            "Inventories": [
+                {
+                    "RowName": "Deep_Ore_Miner_Oil_Storage",
+                    "DataTableName": "D_InventoryInfo"
+                },
+                {
+                    "RowName": "Fuel_Oil",
                     "DataTableName": "D_InventoryInfo"
                 }
             ]

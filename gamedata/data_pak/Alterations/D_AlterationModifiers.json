@@ -234,6 +234,18 @@
             "ModifierDuration": 300,
             "bIsCrafted": false,
             "bCannotBeFurtherAltered": true
+        },
+        {
+            "Name": "Corrosive_Water",
+            "Alteration": {
+                "Value": "Corrosive_Water"
+            },
+            "ModifierDuration": 120,
+            "Modifier": {
+                "RowName": "Corrosive_DOT"
+            },
+            "Priority": 1,
+            "bIsCrafted": false
         }
     ]
 }

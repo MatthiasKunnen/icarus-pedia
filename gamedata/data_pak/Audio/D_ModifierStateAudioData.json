@@ -72,28 +72,31 @@
             "Name": "Exposure_Radiation_MED",
             "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
             "bReplayOnStack": true,
-            "CooldownTime": 30,
-            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/Character/Vocals/Vocal_System/SFX_CHAR_VOC_RADIATION_MED.SFX_CHAR_VOC_RADIATION_MED"
+            "CooldownTime": 30
         },
         {
             "Name": "Exposure_Radiation_HIGH",
             "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
             "bReplayOnStack": true,
-            "CooldownTime": 30,
-            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/Character/Vocals/Vocal_System/SFX_CHAR_VOC_RADIATION_HIGH.SFX_CHAR_VOC_RADIATION_HIGH"
+            "CooldownTime": 30
         },
         {
             "Name": "Exposure_Radiation_Geiger",
             "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
             "bReplayOnStack": true,
-            "CooldownTime": 30,
-            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_WARN_RADIATION_HIGH.SFX_MODIF_WARN_RADIATION_HIGH"
+            "CooldownTime": 30
         },
         {
             "Name": "Radiation_Warning_1SHOT",
             "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/D_Modifier_States/SFX_MODIF_GENERIC_NEGATIVE_RADIATION.SFX_MODIF_GENERIC_NEGATIVE_RADIATION",
             "bReplayOnStack": true,
             "CooldownTime": 10
+        },
+        {
+            "Name": "Corrosive",
+            "PlayerModifierAddedSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_CRE_SLUGLAUNCHER_CORROSIVE_DAMAGE_SPOT.SFX_CRE_SLUGLAUNCHER_CORROSIVE_DAMAGE_SPOT",
+            "bReplayOnStack": true,
+            "PlayerModifierLoopSound": "/Game/FMOD/Events/SFX/Weapons/Grenades/SFX_CRE_SLUGLAUNCHER_CORROSIVE_DAMAGE_SPOT.SFX_CRE_SLUGLAUNCHER_CORROSIVE_DAMAGE_SPOT"
         }
     ]
 }

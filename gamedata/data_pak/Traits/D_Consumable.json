@@ -4317,6 +4317,103 @@
                 },
                 "ModifierLifetime": 600
             }
+        },
+        {
+            "Name": "Food_Fertility_Serum",
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Animal_Fertilize"
+                },
+                "ModifierLifetime": 900
+            }
+        },
+        {
+            "Name": "Cooked_Banana",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Cooked_Banana"
+                },
+                "ModifierLifetime": 600
+            }
+        },
+        {
+            "Name": "Dried_Banana",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Dried_Banana_Chips"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Banana_Porridge",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Banana_Porridge"
+                },
+                "ModifierLifetime": 900
+            }
+        },
+        {
+            "Name": "Frozen_Banana",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 100,
+                "(Value=\"BaseWaterRecovery_+\")": 25
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Frozen_Banana"
+                },
+                "ModifierLifetime": 900
+            }
+        },
+        {
+            "Name": "Banana_Tart",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Banana_Tart"
+                },
+                "ModifierLifetime": 1200
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Banana_Toast",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50
+            },
+            "Modifier": {
+                "Modifier": {
+                    "RowName": "Banana_Toast"
+                },
+                "ModifierLifetime": 900
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
+        },
+        {
+            "Name": "Food_Gruel",
+            "Stats": {
+                "(Value=\"BaseFoodRecovery_+\")": 50,
+                "(Value=\"BaseWaterRecovery_+\")": 10
+            },
+            "Modifier": {
+                "ModifierLifetime": 600
+            },
+            "DescriptionText": "Can be placed in a Suit Food Slot to Auto Consume."
         }
     ]
 }

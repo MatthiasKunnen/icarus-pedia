@@ -3318,6 +3318,189 @@
                     }
                 }
             }
+        },
+        {
+            "Name": "Fertility_Serum",
+            "ActionMapping": {
+                "(RowName=\"Feed_Fertilise\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        },
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            }
+        },
+        {
+            "Name": "Melee_1HAxe_Electric",
+            "ActionMapping": {
+                "(RowName=\"Melee_1H_Axe\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "Generic_Melee_1H",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"ToggleElectric\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
+        },
+        {
+            "Name": "Generic_Melee_Electric",
+            "ActionMapping": {
+                "(RowName=\"Melee_1H_Generic\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "Generic_Melee_1H",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"Shield\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"ToggleElectric\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
+        },
+        {
+            "Name": "1H_Knife_Electric",
+            "ActionMapping": {
+                "(RowName=\"Melee_1H_Knife\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "Generic_Melee_1H",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"ToggleElectric\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
+        },
+        {
+            "Name": "Melee_2HSpear_Electric",
+            "ActionMapping": {
+                "(RowName=\"Melee_2H_Spear\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "Spear_Melee",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"ToggleElectric\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
+        },
+        {
+            "Name": "Sickle_Electric",
+            "ActionMapping": {
+                "(RowName=\"Sickle\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "Generic_Melee_1H",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"ToggleElectric\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
         }
     ]
 }

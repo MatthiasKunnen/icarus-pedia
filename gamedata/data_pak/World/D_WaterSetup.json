@@ -265,6 +265,10 @@
                 {
                     "RowName": "GeothermalPool_Wet",
                     "DataTableName": "D_ModifierStates"
+                },
+                {
+                    "RowName": "Corrosive_DOT",
+                    "DataTableName": "D_ModifierStates"
                 }
             ],
             "GameplayTags": {
@@ -275,7 +279,7 @@
                 ]
             },
             "WaterAlteration": {
-                "Value": "Dirty_Water_Lava"
+                "Value": "Corrosive_Water"
             },
             "Highlightable": {
                 "RowName": "SulfurWater"
@@ -315,6 +319,27 @@
             },
             "WaterAlteration": {
                 "Value": "Dirty_Water"
+            }
+        },
+        {
+            "Name": "Eden_CleanWater",
+            "Material": "/Game/ASS/ENV/WAT/MI_WaterRVT.MI_WaterRVT",
+            "Sound": "/Game/FMOD/Events/Environment/Fluids/Lake/ENV_LAKE.ENV_LAKE",
+            "WetModifiers": [
+                {
+                    "RowName": "Wet",
+                    "DataTableName": "D_ModifierStates"
+                }
+            ],
+            "GameplayTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Water"
+                    }
+                ]
+            },
+            "WaterAlteration": {
+                "Value": "Rain_Water"
             }
         }
     ]

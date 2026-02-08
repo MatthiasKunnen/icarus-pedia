@@ -290,7 +290,7 @@
             "Name": "Kill_Snow_Slug",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Snow_Slug-EventDescription\", \"Killed Glaci\")",
             "SharedExperience": true,
-            "ExperienceGranted": 3000
+            "ExperienceGranted": 1500
         },
         {
             "Name": "Kill_Cougar",
@@ -642,6 +642,12 @@
             "ExperienceGranted": 400
         },
         {
+            "Name": "Kill_Cave_Worm_Teenage",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Cave_Worm_Teenage-EventDescription\", \"Killed Large Caveworm\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 2000
+        },
+        {
             "Name": "Kill_Scorpion",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Scorpion-EventDescription\", \"Killed Scorpion\")",
             "SharedExperience": true,
@@ -671,7 +677,7 @@
             "Name": "Kill_Scorpion_Summon",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Scorpion_Summon-EventDescription\", \"Killed Young Scorpion\")",
             "SharedExperience": true,
-            "ExperienceGranted": 100
+            "ExperienceGranted": 200
         },
         {
             "Name": "Kill_PolarBearCub",
@@ -1007,7 +1013,7 @@
             "Name": "Kill_Horse",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Horse-EventDescription\", \"Killed Terrenus\")",
             "SharedExperience": true,
-            "ExperienceGranted": 600
+            "ExperienceGranted": 1000
         },
         {
             "Name": "Skin_Horse",
@@ -1060,6 +1066,12 @@
             "ExperienceGranted": 200
         },
         {
+            "Name": "Kill_Chicken",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Chicken-EventDescription\", \"Killed Chicken\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 160
+        },
+        {
             "Name": "Skin_Chicken",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Chicken-EventDescription\", \"Skinned Chicken\")",
             "ExperienceGranted": 80
@@ -1101,7 +1113,7 @@
             "Name": "Kill_Bee",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Bee-EventDescription\", \"Killed Bee\")",
             "SharedExperience": true,
-            "ExperienceGranted": 500
+            "ExperienceGranted": 250
         },
         {
             "Name": "Kill_MiniHippo",
@@ -1145,7 +1157,7 @@
             "Name": "Kill_GhostCrocodile",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_GhostCrocodile-EventDescription\", \"Killed Trapjaw\")",
             "SharedExperience": true,
-            "ExperienceGranted": 1000
+            "ExperienceGranted": 3000
         },
         {
             "Name": "Skin_Ghost_Crocodile",
@@ -1261,7 +1273,7 @@
             "Name": "Kill_Orka",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Orka-EventDescription\", \"Killed Skulk\")",
             "SharedExperience": true,
-            "ExperienceGranted": 2000
+            "ExperienceGranted": 1500
         },
         {
             "Name": "Skin_Orka",
@@ -1314,12 +1326,12 @@
             "Name": "Kill_Slinker",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Slinker-EventDescription\", \"Killed Slinker\")",
             "SharedExperience": true,
-            "ExperienceGranted": 1750
+            "ExperienceGranted": 2500
         },
         {
             "Name": "Skin_Slinker",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Slinker-EventDescription\", \"Skinned Slinker\")",
-            "ExperienceGranted": 870
+            "ExperienceGranted": 1250
         },
         {
             "Name": "Mine_Lithium",
@@ -1360,7 +1372,7 @@
             "Name": "Kill_Chew",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Chew-EventDescription\", \"Killed Draven\")",
             "SharedExperience": true,
-            "ExperienceGranted": 550
+            "ExperienceGranted": 1750
         },
         {
             "Name": "Skin_Chew",
@@ -1382,7 +1394,7 @@
             "Name": "Kill_BabyRaptor",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_BabyRaptor-EventDescription\", \"Killed Juvenile Raptor\")",
             "SharedExperience": true,
-            "ExperienceGranted": 260
+            "ExperienceGranted": 520
         },
         {
             "Name": "Skin_BabyRaptor",
@@ -1398,7 +1410,7 @@
             "Name": "Kill_Raptor",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Raptor-EventDescription\", \"Killed Raptor\")",
             "SharedExperience": true,
-            "ExperienceGranted": 260
+            "ExperienceGranted": 2500
         },
         {
             "Name": "Skin_Raptor",
@@ -1414,7 +1426,7 @@
             "Name": "Kill_HoppingCreature",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_HoppingCreature-EventDescription\", \"Killed Hopper\")",
             "SharedExperience": true,
-            "ExperienceGranted": 260
+            "ExperienceGranted": 1000
         },
         {
             "Name": "Skin_HoppingCreature",
@@ -1425,7 +1437,7 @@
             "Name": "Kill_HoppingCreature_Swamp",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_HoppingCreature_Swamp-EventDescription\", \"Killed Swamp Hopper\")",
             "SharedExperience": true,
-            "ExperienceGranted": 260
+            "ExperienceGranted": 1000
         },
         {
             "Name": "Skin_HoppingCreature_Swamp",
@@ -1436,7 +1448,7 @@
             "Name": "Kill_Raptor_Desert",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Raptor_Desert-EventDescription\", \"Killed Dune Raptor\")",
             "SharedExperience": true,
-            "ExperienceGranted": 260
+            "ExperienceGranted": 2500
         },
         {
             "Name": "Skin_Raptor_Desert",
@@ -1521,7 +1533,7 @@
             "Name": "Kill_DragonFly",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_DragonFly-EventDescription\", \"Killed Venomfly\")",
             "SharedExperience": true,
-            "ExperienceGranted": 100
+            "ExperienceGranted": 1500
         },
         {
             "Name": "Skin_DragonFly",
@@ -1532,7 +1544,7 @@
             "Name": "Kill_TundraMonkey",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_TundraMonkey-EventDescription\", \"Killed Gribbler\")",
             "SharedExperience": true,
-            "ExperienceGranted": 750
+            "ExperienceGranted": 500
         },
         {
             "Name": "Skin_TundraMonkey",
@@ -1546,10 +1558,26 @@
             "ExperienceGranted": 2250
         },
         {
+            "Name": "Kill_Irradiated_Mutation",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Kill_Irradiated_Mutation-EventDescription\", \"Killed Wraith\")",
+            "SharedExperience": true,
+            "ExperienceGranted": 3000
+        },
+        {
             "Name": "FishingContest",
             "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"FishingContest-EventDescription\", \"Fishing Contest Participation\")",
             "SharedExperience": true,
             "ExperienceGranted": 5000
+        },
+        {
+            "Name": "Skin_Pig",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Pig-EventDescription\", \"Skinned Pig\")",
+            "ExperienceGranted": 400
+        },
+        {
+            "Name": "Skin_Piglet",
+            "EventDescription": "NSLOCTEXT(\"D_ExperienceEvents\", \"Skin_Piglet-EventDescription\", \"Skinned Piglet\")",
+            "ExperienceGranted": 200
         }
     ]
 }

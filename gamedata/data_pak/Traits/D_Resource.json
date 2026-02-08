@@ -174,6 +174,13 @@
             }
         },
         {
+            "Name": "Electric_Light_250w",
+            "bHasEnergyConnection": true,
+            "EnergyFlow": {
+                "RowName": "Light_250w"
+            }
+        },
+        {
             "Name": "Electric_Spawn_Blocker",
             "bHasEnergyConnection": true,
             "EnergyFlow": {

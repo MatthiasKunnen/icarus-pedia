@@ -74,8 +74,16 @@
             "FloatValue": 10000
         },
         {
-            "Name": "RadiationDistanceInventory",
+            "Name": "RadiationMinDistanceInventory",
+            "FloatValue": 750
+        },
+        {
+            "Name": "RadiationMAxDistanceInventory",
             "FloatValue": 3500
+        },
+        {
+            "Name": "MaxGeneticCombination",
+            "FloatValue": 60
         }
     ]
 }

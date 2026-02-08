@@ -560,6 +560,10 @@
                 {
                     "RowName": "Worklamp_OmniDirectional",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Worklamp_Directional",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -1524,6 +1528,10 @@
                 {
                     "RowName": "Basic_Ceiling_Light",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Basic_Wall_Light",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -2352,10 +2360,14 @@
             "EffectedByWeather": false
         },
         {
-            "Name": "Spotlight_Tripod",
+            "Name": "Spotlight",
             "Variants": [
                 {
                     "RowName": "Spotlight_Tripod",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Spotlight_Ceiling",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -4024,30 +4036,14 @@
             "EffectedByWeather": false
         },
         {
-            "Name": "Basic_Ceiling_Light_Shroud",
+            "Name": "Shroud_Light",
             "Variants": [
                 {
-                    "RowName": "Basic_Ceiling_Light_Shroud",
+                    "RowName": "Ceiling_Shroud_Light",
                     "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
-            "Name": "Basic_Wall_Light_Shroud",
-            "Variants": [
+                },
                 {
-                    "RowName": "Basic_Wall_Light_Shroud",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
-            "Name": "Basic_Ceiling_Light_Spotlight",
-            "Variants": [
-                {
-                    "RowName": "Basic_Ceiling_Light_Spotlight",
+                    "RowName": "Wall_Shroud_Light",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -6074,6 +6070,10 @@
                 {
                     "RowName": "Single_Ceiling_Light",
                     "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Single_Wall_Light",
+                    "DataTableName": "D_DeployableSetup"
                 }
             ],
             "EffectedByWeather": false
@@ -6093,6 +6093,10 @@
             "Variants": [
                 {
                     "RowName": "Exposed_Ceiling_Light",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Exposed_Wall_Light",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -6169,6 +6173,10 @@
             "Variants": [
                 {
                     "RowName": "Exposed_Ceiling_Light_Foggy",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Exposed_Wall_Light_Foggy",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -7828,6 +7836,16 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Homestead_Butter_Churn_Large",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Butter_Churn_Large",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
             "Name": "Homestead_Cheese",
             "Variants": [
                 {
@@ -7958,6 +7976,16 @@
             "Variants": [
                 {
                     "RowName": "Homestead_Weapon_Rack",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Weapon_Rack_Single",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Weapon_Rack_Single",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -10643,6 +10671,674 @@
             "Variants": [
                 {
                     "RowName": "Landing_Pad_Prop",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Wall_Candle",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Candle_Wall",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Refrigerator",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Refrigerator",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Homestead_Copper_Pot",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Copper_Pot_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Copper_Pot_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Copper_Pot_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Copper_Pot_D",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Cushion_A",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Cushion_A_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_A_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_A_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_A_4",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_A_5",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Cushion_B",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Cushion_B_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_B_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_B_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_B_4",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Cushion_B_5",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Lantern",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Lantern",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Fireplace_Tools",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Fireplace_Tools",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Fireplace_Screen",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Fireplace_Screen",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Fireplace_Bellows",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Fireplace_Bellows",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Knitting_Decor",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Knitting_Decor_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Knitting_Decor_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Knitting_Decor_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Knitting_Decor_D",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_BirdBath_Iron",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Birdbath_Iron",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_BirdBath_Gold",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Birdbath_Gold",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Well",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Well",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Well_Moss",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Spinning_Wheel",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Spinning_Wheel",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Sink",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Sink",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Stove",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Stove",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Bench",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Bench",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Storage",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Storage",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Corner",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Corner",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Butchery",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Butchery",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Kitchen_Herbalism",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Kitchen_Herbalism",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Shutter",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Shutter",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Shutter_Painted",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Curtain",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Curtain_Window_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Curtain_Window_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Curtain_Window_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Curtain_Window_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Curtain_Window_E",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Curtain_Window_F",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Saloon_Door",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Saloon_Door",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Saloon_Door_B",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Cuckcoo_Clock",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Cuckcoo_Clock",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Weather_Vane",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Weather_Vane",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Nesting_Box",
+            "Variants": [
+                {
+                    "RowName": "Nesting_Box",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Iron_Stove",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Iron_Stove",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Homestead_Retaining_Wall",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Retaining_Wall_Frame",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Retaining_Wall_Ramp_L",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Retaining_Wall_Ramp_R",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_A",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Flower_Pot_A_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_A_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_A_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_A_4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_B",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Flower_Pot_B_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_B_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_B_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_B_4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_C",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Flower_Pot_C_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_C_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_C_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_C_4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_D",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Flower_Pot_D_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_D_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_D_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_D_4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_E",
+            "Variants": [
+                {
+                    "RowName": "Homestead_Flower_Pot_E_1",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_E_2",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_E_3",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Homestead_Flower_Pot_E_4",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Homestead_Door_Barn",
+            "Variants": [
+                {
+                    "RowName": "Barn_Door_L",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Barn_Door_R",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Sandwyrm_Target_Dummy",
+            "Variants": [
+                {
+                    "RowName": "Sandwrym_Target_Dummy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "AudioOcclusionAmount": 0.5,
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Sandwyrm_Chair",
+            "Variants": [
+                {
+                    "RowName": "Sandwrym_Chair",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Sandwyrm_Throne",
+            "Variants": [
+                {
+                    "RowName": "Sandwrym_Throne",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Kitchen_Sink",
+            "Variants": [
+                {
+                    "RowName": "Kitchen_Sink",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Oil_Barrel",
+            "Variants": [
+                {
+                    "RowName": "Oil_Barrel",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Eden_NPC_Hunter",
+            "Variants": [
+                {
+                    "RowName": "Eden_NPC_Hunter",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Deep_Mining_Drill_Oil",
+            "Variants": [
+                {
+                    "RowName": "Deep_Mining_Drill_Oil",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Lamb_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Lamb_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Pig_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Pig_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Piglet_Trophy",
+            "Variants": [
+                {
+                    "RowName": "Piglet_Trophy",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Eden_NPC_Norex",
+            "Variants": [
+                {
+                    "RowName": "Eden_NPC_Norex",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Nesting",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Nesting",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Eden_NPC_Farmer",
+            "Variants": [
+                {
+                    "RowName": "Eden_NPC_Farmer",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Prebuilt_Spawn_Location",
+            "Variants": [
+                {
+                    "RowName": "Prebuilt_Spawn_Location",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Eden_NPC_Fisher",
+            "Variants": [
+                {
+                    "RowName": "Eden_NPC_Fisher",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Eden_NPC_Chef",
+            "Variants": [
+                {
+                    "RowName": "Eden_NPC_Chef",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

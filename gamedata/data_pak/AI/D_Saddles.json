@@ -888,21 +888,6 @@
             "AttachSocket": "RigRoot"
         },
         {
-            "Name": "Saddle_Blueback",
-            "SaddleTag": {
-                "TagName": "Item.Mount.Saddle.Standard"
-            },
-            "SupportedMount": [
-                {
-                    "RowName": "Blueback",
-                    "DataTableName": "D_Mounts"
-                }
-            ],
-            "SaddleAnimBlueprint": "/Game/ASS/ITM/SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint.SK_ITM_Saddle_Buffalo_Skeleton_AnimBlueprint_C",
-            "SaddleBlueprint": "BlueprintGeneratedClass'/Game/BP/Mounts/BP_Seat_Mount.BP_Seat_Mount_C'",
-            "AttachSocket": "MountSocket"
-        },
-        {
             "Name": "Saddle_Tusker_DeluxeLeather",
             "SaddleTag": {
                 "TagName": "Item.Mount.Saddle.DeluxeLeather"

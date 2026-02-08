@@ -9,7 +9,8 @@
             "RowName": "None",
             "DataTableName": "D_StaminaActionCosts"
         },
-        "bShowInteractionWhenUnavailable": false
+        "bShowInteractionWhenUnavailable": false,
+        "bCanPerformInteractionWhileSeated": false
     },
     "Rows": [
         {
@@ -125,7 +126,8 @@
         {
             "Name": "OpenClose_Door",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_OpenClose_Door.BP_Interactable_OpenClose_Door_C",
-            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"OpenClose_Door-InteractionText\", \"Open/Close\")"
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"OpenClose_Door-InteractionText\", \"Open/Close\")",
+            "bCanPerformInteractionWhileSeated": true
         },
         {
             "Name": "Harvest_Corpse",
@@ -820,6 +822,41 @@
             "Name": "Interact_EndContest",
             "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_EndContest.BP_Interactable_EndContest_C",
             "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_EndContest-InteractionText\", \"End Fishing Contest\")"
+        },
+        {
+            "Name": "Interact_UpdateSign",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_UpdateSign.BP_Interactable_UpdateSign_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_UpdateSign-InteractionText\", \"Update Sign\")"
+        },
+        {
+            "Name": "Water_Purifier_Drink_T3",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Water_Purifier_Drink.BP_Interactable_Water_Purifier_Drink_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Water_Purifier_Drink_T3-InteractionText\", \"Drink From Purifier\")"
+        },
+        {
+            "Name": "Interact_NPC_Hunter",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Deployable.BP_Interactable_Interact_Deployable_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Hunter-InteractionText\", \"Trade\")"
+        },
+        {
+            "Name": "Interact_NPC_Cook_Shop",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_Interact_Cook_Shop.BP_Interactable_Interact_Cook_Shop_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"Interact_NPC_Cook_Shop-InteractionText\", \"Trade\")"
+        },
+        {
+            "Name": "WaterStorage_DrawWater",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WaterStorage_DrawStats.BP_Interactable_WaterStorage_DrawStats_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"WaterStorage_DrawWater-InteractionText\", \"Fill Container\")"
+        },
+        {
+            "Name": "WaterStorage_DrinkWater",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WaterStorage_DrinkStats.BP_Interactable_WaterStorage_DrinkStats_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"WaterStorage_DrinkWater-InteractionText\", \"Drink\")"
+        },
+        {
+            "Name": "WaterStorage_FillWater",
+            "Behaviour": "/Game/BP/Behaviours/Interactable/BP_Interactable_WaterStorage_FillStats.BP_Interactable_WaterStorage_FillStats_C",
+            "InteractionText": "NSLOCTEXT(\"D_Interactions\", \"WaterStorage_FillWater-InteractionText\", \"Fill Water Storage\")"
         }
     ]
 }

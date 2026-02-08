@@ -1634,13 +1634,6 @@
                 },
                 {
                     "InteractionRow": {
-                        "RowName": "Water_Purifier_Drink",
-                        "DataTableName": "D_Interactions"
-                    },
-                    "Tag": ""
-                },
-                {
-                    "InteractionRow": {
                         "RowName": "Pickup_Item",
                         "DataTableName": "D_Interactions"
                     },
@@ -1651,6 +1644,15 @@
                 {
                     "InteractionRow": {
                         "RowName": "Interact_GeneratorUI",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Water_Purifier_Drink",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
@@ -2217,21 +2219,21 @@
             "WorldAltPressInteracts": [
                 {
                     "InteractionRow": {
-                        "RowName": "Fill_Water_Storage",
+                        "RowName": "WaterStorage_FillWater",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
                 },
                 {
                     "InteractionRow": {
-                        "RowName": "Rain_Reservoir_Container",
+                        "RowName": "WaterStorage_DrawWater",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
                 },
                 {
                     "InteractionRow": {
-                        "RowName": "Rain_Reservoir_Drink",
+                        "RowName": "WaterStorage_DrinkWater",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
@@ -3395,6 +3397,152 @@
                 {
                     "InteractionRow": {
                         "RowName": "Interact_EndContest",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "Sign_Gate",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_UpdateSign",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "Water_Purifier_T3",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Toggle_Device_On",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Water_Purifier_Drink_T3",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Deployable",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "NPC_Craft_Exchange",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_NPC_Hunter",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ]
+        },
+        {
+            "Name": "NPC_EDEN_Cook",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_EDEN_NPC_Reward",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_NPC_Cook_Shop",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldHoldInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_Medical_Scan",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
+            "WorldAltPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_NPC_Inventory_Take",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""

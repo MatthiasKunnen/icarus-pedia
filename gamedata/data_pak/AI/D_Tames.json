@@ -29,7 +29,8 @@
         "MaxNearbyAutoSpawnedJuveniles": 2,
         "TimeToSpawnDynamicCharacter": 300,
         "TimeToSpawnDynamicCharacterRandomDeviation": 120,
-        "TrappingSupportedAtmospheres": []
+        "TrappingSupportedAtmospheres": [],
+        "GestationPeriodSeconds": 1500
     },
     "Rows": [
         {
@@ -62,7 +63,8 @@
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 75,
-            "MaxNearbyAutoSpawnedJuveniles": 5
+            "MaxNearbyAutoSpawnedJuveniles": 5,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Buffalo",
@@ -94,7 +96,8 @@
             },
             "bAutomaticallySpawnJuvenileWithParent": true,
             "PercentChanceToSpawnJuvenile": 75,
-            "MaxNearbyAutoSpawnedJuveniles": 5
+            "MaxNearbyAutoSpawnedJuveniles": 5,
+            "GestationPeriodSeconds": 3000
         },
         {
             "Name": "Horse",
@@ -363,6 +366,14 @@
             "TamedAI": {
                 "RowName": "Cow"
             },
+            "TamedAIOverride": {
+                "(RowName=\"Bull\",DataTableName=\"D_AISetup\")": {
+                    "Stat": {
+                        "Value": "CreatureIsMale_?"
+                    },
+                    "Value": 1
+                }
+            },
             "MatureCreatureType": {
                 "RowName": "Cow"
             },
@@ -370,7 +381,8 @@
                 "RowName": "Calf"
             },
             "PercentChanceToSpawnJuvenile": 0,
-            "MaxNearbyAutoSpawnedJuveniles": 0
+            "MaxNearbyAutoSpawnedJuveniles": 0,
+            "GestationPeriodSeconds": 3500
         },
         {
             "Name": "Chick",
@@ -391,12 +403,6 @@
                 "RowName": "Chicken"
             },
             "TamedAIOverride": {
-                "(RowName=\"Chicken\",DataTableName=\"D_AISetup\")": {
-                    "Stat": {
-                        "Value": "CreatureIsFemale_?"
-                    },
-                    "Value": 1
-                },
                 "(RowName=\"Rooster\",DataTableName=\"D_AISetup\")": {
                     "Stat": {
                         "Value": "CreatureIsMale_?"
@@ -411,7 +417,8 @@
                 "RowName": "Chick"
             },
             "PercentChanceToSpawnJuvenile": 0,
-            "MaxNearbyAutoSpawnedJuveniles": 0
+            "MaxNearbyAutoSpawnedJuveniles": 0,
+            "GestationPeriodSeconds": 1000
         },
         {
             "Name": "Lamb",
@@ -432,12 +439,6 @@
                 "RowName": "Sheep"
             },
             "TamedAIOverride": {
-                "(RowName=\"Sheep\",DataTableName=\"D_AISetup\")": {
-                    "Stat": {
-                        "Value": "CreatureIsFemale_?"
-                    },
-                    "Value": 1
-                },
                 "(RowName=\"Ram\",DataTableName=\"D_AISetup\")": {
                     "Stat": {
                         "Value": "CreatureIsMale_?"
@@ -452,7 +453,8 @@
                 "RowName": "Lamb"
             },
             "PercentChanceToSpawnJuvenile": 0,
-            "MaxNearbyAutoSpawnedJuveniles": 0
+            "MaxNearbyAutoSpawnedJuveniles": 0,
+            "GestationPeriodSeconds": 2000
         },
         {
             "Name": "WoolyZebra",
@@ -518,7 +520,7 @@
         },
         {
             "Name": "WoollyMammoth",
-            "TameDurationInSeconds": 900,
+            "TameDurationInSeconds": 1800,
             "DesiredTemperatureRange": {
                 "X": -20,
                 "Y": 45

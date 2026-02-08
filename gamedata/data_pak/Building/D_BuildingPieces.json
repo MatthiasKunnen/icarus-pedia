@@ -10140,12 +10140,23 @@
             }
         },
         {
-            "Name": "Barn_Door_1x1",
+            "Name": "Barn_Door_1x1_L",
             "Type": {
                 "RowName": "Wall_Solid"
             },
-            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Wood_Table.ITEM_Wood_Table",
-            "Blueprint": "/Game/BP/Building/BP_Building_BuildableDoor_Base.BP_Building_BuildableDoor_Base_C",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_BarnDoor_0.T_ITEM_Homestead_BarnDoor_0",
+            "Blueprint": "/Game/BP/Building/Barn/BP_Barn_Door_L.BP_Barn_Door_L_C",
+            "Audio": {
+                "RowName": "Wood"
+            }
+        },
+        {
+            "Name": "Barn_Door_1x1_R",
+            "Type": {
+                "RowName": "Wall_Solid"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_BarnDoor_0.T_ITEM_Homestead_BarnDoor_0",
+            "Blueprint": "/Game/BP/Building/Barn/BP_Barn_Door_R.BP_Barn_Door_R_C",
             "Audio": {
                 "RowName": "Wood"
             }

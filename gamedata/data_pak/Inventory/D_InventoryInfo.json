@@ -1970,6 +1970,16 @@
             "StartingSlots": 2
         },
         {
+            "Name": "Weapon_Rack_Single",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_Weapon_Or_Tool"
+            },
+            "StartingSlots": 1
+        },
+        {
             "Name": "Harvester_Attachment",
             "InventoryID": {
                 "Value": "General"
@@ -2091,6 +2101,47 @@
                 "Value": "General"
             },
             "StartingSlots": 24
+        },
+        {
+            "Name": "Storage_Homestead_Cabinet",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 45
+        },
+        {
+            "Name": "Storage_Homestead_Cabinet_Large",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 66
+        },
+        {
+            "Name": "Flower_Pot",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "SlotTemplate": {
+                "RowName": "Any_WildFlower"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Fuel_Oil",
+            "InventoryID": {
+                "Value": "Fuel"
+            },
+            "SlotTemplate": {
+                "RowName": "Fuel_Oil"
+            },
+            "StartingSlots": 1
+        },
+        {
+            "Name": "Deep_Ore_Miner_Oil_Storage",
+            "InventoryID": {
+                "Value": "General"
+            },
+            "StartingSlots": 42
         }
     ]
 }

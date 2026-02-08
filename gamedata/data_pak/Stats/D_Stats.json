@@ -10282,7 +10282,7 @@
         },
         {
             "Name": "ChanceToCatchFish10_+%",
-            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChanceToCatchFish10_+%-PositiveTitleFormat\", \"Chance to Catch Diano\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChanceToCatchFish10_+%-PositiveTitleFormat\", \"Chance to Catch Danio\")",
             "bIsReplicated": true
         },
         {
@@ -10362,8 +10362,8 @@
         },
         {
             "Name": "BaseChanceToCatchFish10_+%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish10_+%-PositiveDescription\", \"+{0}% chance to catch Diano while Fishing\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish10_+%-NegativeDescription\", \"-{0}% chance to catch Diano while Fishing\")"
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish10_+%-PositiveDescription\", \"+{0}% chance to catch Danio while Fishing\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceToCatchFish10_+%-NegativeDescription\", \"-{0}% chance to catch Danio while Fishing\")"
         },
         {
             "Name": "BaseChanceToCatchFish11_+%",
@@ -15667,15 +15667,9 @@
         },
         {
             "Name": "CreatureIsMale_?",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"CreatureIsMale_?-Title\", \"Creature Is Male\")",
-            "bIsReplicated": true,
-            "StatCategory": {
-                "RowName": "AI"
-            }
-        },
-        {
-            "Name": "CreatureIsFemale_?",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"CreatureIsFemale_?-Title\", \"Creature Is Female\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CreatureIsMale_?-Title\", \"Creature Sex\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"CreatureIsMale_?-PositiveDescription\", \"Creature is Male\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"CreatureIsMale_?-NegativeDescription\", \"Creature is Female\")",
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "AI"
@@ -19748,8 +19742,8 @@
         },
         {
             "Name": "BaseChargeConsumedPerAction_+",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChargeConsumedPerAction_+-PositiveDescription\", \"{0} kJ Consumed Per Action when Charged\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChargeConsumedPerAction_+-NegativeDescription\", \"{0} kJ Consumed Per Action when Charged\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChargeConsumedPerAction_+-PositiveDescription\", \"{0} kJ Consumed Per Action\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChargeConsumedPerAction_+-NegativeDescription\", \"{0} kJ Consumed Per Action\")",
             "StatCategory": {
                 "RowName": "Generic_Damage"
             }
@@ -20277,15 +20271,15 @@
         },
         {
             "Name": "BaseReapingCollectsPlantExtract_%",
-            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseReapingCollectsPlantExtract_%-PositiveDescription\", \"{0}% chance to collect Plant Extract when Reaping\")",
-            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseReapingCollectsPlantExtract_%-NegativeDescription\", \"-{0}% chance to collect Plant Extract when Reaping\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseReapingCollectsPlantExtract_%-PositiveDescription\", \"{0}% chance to collect Tainted Plant DNA when Reaping\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseReapingCollectsPlantExtract_%-NegativeDescription\", \"-{0}% chance to collect Tainted Plant DNA when Reaping\")",
             "StatCategory": {
                 "RowName": "Reaping"
             }
         },
         {
             "Name": "ReapingCollectsPlantExtract_%",
-            "Title": "NSLOCTEXT(\"D_Stats\", \"ReapingCollectsPlantExtract_%-Title\", \"Chance to Collect Plant Extract When Reaping\")",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ReapingCollectsPlantExtract_%-Title\", \"Chance to Collect Tainted Plant DNA When Reaping\")",
             "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
             "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
             "bIsReplicated": true,
@@ -20799,6 +20793,642 @@
             "bIsReplicated": true,
             "StatCategory": {
                 "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "FireDamageOverTime_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FireDamageOverTime_+%-Title\", \"Fire Damage Over Time\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "BaseFireDamageOverTime_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFireDamageOverTime_+%-PositiveDescription\", \"+{0}% Fire Damage Over Time\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFireDamageOverTime_+%-NegativeDescription\", \"-{0}% Fire Damage Over Time\")",
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "PoisonDamageOverTime_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PoisonDamageOverTime_+%-Title\", \"Poison Damage Over Time\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "BasePoisonDamageOverTime_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePoisonDamageOverTime_+%-PositiveDescription\", \"+{0}% Poison Damage Over Time\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePoisonDamageOverTime_+%-NegativeDescription\", \"-{0}% Poison Damage Over Time\")",
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "FrostDamageOverTime_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FrostDamageOverTime_+%-Title\", \"Frost Damage Over Time\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "BaseFrostDamageOverTime_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamageOverTime_+%-PositiveDescription\", \"+{0}% Frost Damage Over Time\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFrostDamageOverTime_+%-NegativeDescription\", \"-{0}% Frost Damage Over Time\")",
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "ElectricDamageOverTime_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ElectricDamageOverTime_+%-Title\", \"Electric Damage Over Time\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "BaseElectricDamageOverTime_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamageOverTime_+%-PositiveDescription\", \"+{0}% Electric Damage Over Time\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseElectricDamageOverTime_+%-NegativeDescription\", \"-{0}% Electric Damage Over Time\")",
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "IsMountCrouchEnabled_?",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"IsMountCrouchEnabled_?-PositiveTitleFormat\", \"Abililty to Sneak While Mounted, Significantly Reducing Threat\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"IsMountCrouchEnabled_?-PositiveDescription\", \"Abililty to Sneak While Mounted, Significantly Reducing Threat\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseAttacksCauseStun_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseStun_%-PositiveDescription\", \"+{0}% Chance to Stun on Hit with Attacks\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseAttacksCauseStun_%-NegativeDescription\", \"-{0}% Chance to Stun on Hit with Attacks\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "AttacksCauseStun_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"AttacksCauseStun_%-Title\", \"Chance Attacks will Cause Stun\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseStunResistance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStunResistance_%-PositiveDescription\", \"+{0}% chance to Resist Stun\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStunResistance_%-NegativeDescription\", \"-{0}% chance to Resist Stun\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "StunResistance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"StunResistance_%-Title\", \"Chance to Resist Stun\")",
+            "PositiveTitleFormat": "INVTEXT(\"{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseStunModifierDuration_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStunModifierDuration_+-PositiveDescription\", \"+{0}s Stun Duration\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStunModifierDuration_+-NegativeDescription\", \"-{0}s Stun Duration\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "StunModifierDuration_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"StunModifierDuration_+-Title\", \"Stun Duration\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"StunModifierDuration_+-PositiveTitleFormat\", \"+{0}s\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"StunModifierDuration_+-NegativeTitleFormat\", \"-{0}s\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseStunModifierDuration_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStunModifierDuration_+%-PositiveDescription\", \"+{0}% Stun Duration\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStunModifierDuration_+%-NegativeDescription\", \"-{0}% Stun Duration\")",
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "StunModifierDuration_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"StunModifierDuration_+%-Title\", \"Stun Duration\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "BaseMountSecondaryAttackCooldown_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMountSecondaryAttackCooldown_+-PositiveDescription\", \"{0} Seconds Between Secondary Attacks\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMountSecondaryAttackCooldown_+-NegativeDescription\", \"-{0} Seconds Between Secondary Attacks\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "MountSecondaryAttackCooldown_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MountSecondaryAttackCooldown_+-Title\", \"Seconds Between Secondary Attacks\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseMountSecondaryAttackCooldown_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMountSecondaryAttackCooldown_+%-PositiveDescription\", \"{0}% Time Between Mount Secondary Attacks\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseMountSecondaryAttackCooldown_+%-NegativeDescription\", \"-{0}% Time Between Mount Secondary Attacks\")",
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseLavaBroodlingSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "LavaBroodlingSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseHorseSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "HorseSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseMoaSpawnRate_+%",
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "MoaSpawnRate_+%",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI_Spawning"
+            }
+        },
+        {
+            "Name": "BaseCleaningEffectiveness_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCleaningEffectiveness_%-PositiveDescription\", \"{0}% Cleaning Effectiveness\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCleaningEffectiveness_%-NegativeDescription\", \"-{0}% Cleaning Effectiveness\")",
+            "StatCategory": {
+                "RowName": "Deployable"
+            }
+        },
+        {
+            "Name": "RefinedOilConsumedPerSecond_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"RefinedOilConsumedPerSecond_+-Title\", \"Refined Oil Consumed Per Second\")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"RefinedOilConsumedPerSecond_+-PositiveTitleFormat\", \"{0}mL\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"RefinedOilConsumedPerSecond_+-NegativeTitleFormat\", \"-{0}mL\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "BaseRefinedOilConsumedPerSecond_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRefinedOilConsumedPerSecond_+-PositiveDescription\", \"+{0}mL Refined Oil Consumed per Second\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRefinedOilConsumedPerSecond_+-NegativeDescription\", \"-{0}mL Refined Oil Consumed per Second\")",
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "BaseRefinedOilConsumedPerSecond_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRefinedOilConsumedPerSecond_+%-PositiveDescription\", \"+{0}% Refined Oil Consumption\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseRefinedOilConsumedPerSecond_+%-NegativeDescription\", \"-{0}% Refined Oil Consumption\")",
+            "StatCategory": {
+                "RowName": "Melee_Weapon"
+            }
+        },
+        {
+            "Name": "TamedCreatureGestationSpeed_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureGestationSpeed_+%-Title\", \"Tamed Creature Gestation Speed\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseTamedCreatureGestationSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureGestationSpeed_+%-PositiveDescription\", \"+{0}% Tamed Creature Gestation Speed \")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureGestationSpeed_+%-NegativeDescription\", \"-{0}% Tamed Creature Gestation Speed\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "GestationSpeed_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"GestationSpeed_+%-Title\", \"Gestation Speed\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseGestationSpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGestationSpeed_+%-PositiveDescription\", \"+{0}% Gestation Speed \")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGestationSpeed_+%-NegativeDescription\", \"-{0}% Gestation Speed\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureGeneticsMutationChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureGeneticsMutationChance_%-Title\", \"Tamed Creature Genotype Mutation Chance\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseTamedCreatureGeneticsMutationChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureGeneticsMutationChance_%-PositiveDescription\", \"+{0}% Tamed Creature Genotype Mutation Chance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureGeneticsMutationChance_%-NegativeDescription\", \"-{0}% Tamed Creature Genotype Mutation Chance\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "GeneticsMutationChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"GeneticsMutationChance_%-Title\", \"Genotype Mutation Chance\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseGeneticsMutationChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGeneticsMutationChance_%-PositiveDescription\", \"+{0}% Genotype Mutation Chance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseGeneticsMutationChance_%-NegativeDescription\", \"-{0}% Genotype Mutation Chance\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureCosmeticMutationChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureCosmeticMutationChance_%-Title\", \"Tamed Creature Phenotype Mutation Chance\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseTamedCreatureCosmeticMutationChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureCosmeticMutationChance_%-PositiveDescription\", \"+{0}% Tamed Creature Phenotype Mutation Chance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureCosmeticMutationChance_%-NegativeDescription\", \"-{0}% Tamed Creature Phenotype Mutation Chance\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "CosmeticMutationChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CosmeticMutationChance_%-Title\", \"Phenotype Mutation Chance\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseCosmeticMutationChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCosmeticMutationChance_%-PositiveDescription\", \"+{0}% Phenotype Mutation Chance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseCosmeticMutationChance_%-NegativeDescription\", \"-{0}% Phenotype Mutation Chance\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureFertilizationRecoverySpeed_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureFertilizationRecoverySpeed_+%-Title\", \"Tamed Creature Fertilization Recovery Speed\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseTamedCreatureFertilizationRecoverySpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureFertilizationRecoverySpeed_+%-PositiveDescription\", \"+{0}% Tamed Creature Fertilization Recovery Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureFertilizationRecoverySpeed_+%-NegativeDescription\", \"-{0}% Tamed Creature Fertilization Recovery Speed\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "FertilizationRecoverySpeed_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"FertilizationRecoverySpeed_+%-Title\", \"Fertilization Recovery Speed\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseFertilizationRecoverySpeed_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFertilizationRecoverySpeed_+%-PositiveDescription\", \"+{0}% Fertilization Recovery Speed\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseFertilizationRecoverySpeed_+%-NegativeDescription\", \"-{0}% Fertilization Recovery Speed\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureTwinBirthChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureTwinBirthChance_%-Title\", \"Tamed Creature Chance to Birth Twins\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseTamedCreatureTwinBirthChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureTwinBirthChance_%-PositiveDescription\", \"+{0}% Tamed Creature Chance to Birth Twins\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTamedCreatureTwinBirthChance_%-NegativeDescription\", \"-{0}% Tamed Creature Chance to Birth Twins\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TwinBirthChance_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TwinBirthChance_%-Title\", \"Chance to Birth Twins\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseTwinBirthChance_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTwinBirthChance_%-PositiveDescription\", \"+{0}% Chance to Birth Twins\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseTwinBirthChance_%-NegativeDescription\", \"-{0}% Chance to Birth Twins\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "ChanceForBetterWildCreaturesGenetics_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ChanceForBetterWildCreaturesGenetics_%-Title\", \"Chance to Find Stronger Wild Creatures\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseChanceForBetterWildCreaturesGenetics_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceForBetterWildCreaturesGenetics_%-PositiveDescription\", \"+{0}% Chance to Find Stronger Wild Creatures\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceForBetterWildCreaturesGenetics_%-NegativeDescription\", \"-{0}% Chance to Find Stronger Wild Creatures\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "ChanceForRarerWildCreaturesCosmetics_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ChanceForRarerWildCreaturesCosmetics_%-Title\", \"Chance to Find Rarer Wild Creatures\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseChanceForRarerWildCreaturesCosmetics_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceForRarerWildCreaturesCosmetics_%-PositiveDescription\", \"+{0}% Chance to Find Rarer Wild Creatures Variations\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChanceForRarerWildCreaturesCosmetics_%-NegativeDescription\", \"-{0}% Chance to Find Rarer Wild Creatures Variations\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "IsGestating_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"IsGestating_?-Title\", \"Creature Is Gestating\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"IsGestating_?-PositiveDescription\", \"Creature Is Gestating\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureStrongerWhileGestating_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureStrongerWhileGestating_?-Title\", \"Female Tamed Creatures are Strengthened while Gestating\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureStrongerWhileGestating_?-PositiveDescription\", \"Female Tamed Creatures are Strengthened while Gestating\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "StrongerWhileGestating_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"StrongerWhileGestating_?-Title\", \"Strengthened while Gestating\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"StrongerWhileGestating_?-PositiveDescription\", \"Strengthened while Gestating\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "BaseStrongerWhileGestating_?",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseStrongerWhileGestating_?-PositiveDescription\", \"Strengthened while Gestating\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureHasMaternalInstincts_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureHasMaternalInstincts_?-Title\", \"Female Tamed Creatures Gain the Maternal Instincts Buff After Gestation\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureHasMaternalInstincts_?-PositiveDescription\", \"Female Tamed Creatures Gain the Maternal Instincts Buff After Gestation\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "HasMaternalInstincts_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"HasMaternalInstincts_?-Title\", \"Protects Juveniles While They Are Near After Birth\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"HasMaternalInstincts_?-PositiveDescription\", \"Protects Juveniles While They Are Near After Birth\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "TamedCreatureHasSireVigor_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureHasSireVigor_?-Title\", \"Male Tamed Creatures Gain the Sire Vigor Buff after Fertalization\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"TamedCreatureHasSireVigor_?-PositiveDescription\", \"Male Tamed Creatures Gain the Sire Vigor Buff after Fertalization\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "HasSireVigor_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"HasSireVigor_?-Title\", \"Creature Becomes Strengthened After Fertilization\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"HasSireVigor_?-PositiveDescription\", \"Creature Becomes Strengthened After Fertilization\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "HasGestatingSpeedAura_?",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"HasGestatingSpeedAura_?-PositiveDescription\", \"Nearby Creatures have Increased Gestating Speed\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "CanAquireUniqueTraits_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"CanAquireUniqueTraits_?-Title\", \"When Breeding Creatures Can Acquire Unique Traits\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"CanAquireUniqueTraits_?-PositiveDescription\", \"When Breeding Creatures Can Aquire Unique Traits\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "GrantedAuraInhibitSlinkerHunting_?",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"GrantedAuraInhibitSlinkerHunting_?-PositiveDescription\", \"Prevents Nearby Hostile Slinkers From Hunting\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Modifiers"
+            }
+        },
+        {
+            "Name": "ShouldPreventSlinkerHunting_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ShouldPreventSlinkerHunting_?-Title\", \"Cannot be Hunted by Hostile Slinkers\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"ShouldPreventSlinkerHunting_?-PositiveDescription\", \"Cannot be Hunted by Hostile Slinkers\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "AI"
+            }
+        },
+        {
+            "Name": "BaseJumpDistance_+%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJumpDistance_+%-PositiveDescription\", \"+{0}% Jump Distance\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseJumpDistance_+%-NegativeDescription\", \"-{0}% Jump Distance\")",
+            "StatCategory": {
+                "RowName": "Movement"
+            }
+        },
+        {
+            "Name": "JumpDistance_+%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"JumpDistance_+%-Title\", \"Jump Distance\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Movement"
+            }
+        },
+        {
+            "Name": "BasePounceCausesSlow_%",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BasePounceCausesSlow_%-PositiveDescription\", \"+{0}% Chance to Cause Slow On Pounce\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BasePounceCausesSlow_%-NegativeDescription\", \"-{0}% Chance to Cause Slow On Pounce\")",
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "PounceCausesSlow_%",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"PounceCausesSlow_%-Title\", \"Chance to Cause Slow On Pounce\")",
+            "PositiveTitleFormat": "INVTEXT(\"+{0}%\")",
+            "NegativeTitleFormat": "INVTEXT(\"-{0}%\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Mounts"
+            }
+        },
+        {
+            "Name": "MountCanSprintJump_?",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"MountCanSprintJump_?-Title\", \"Enables Sprint Jumping\")",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"MountCanSprintJump_?-PositiveDescription\", \"Enables Sprint Jumping\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Movement"
+            }
+        },
+        {
+            "Name": "BaseChargeConsumedPerItemGenerated_+",
+            "PositiveDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChargeConsumedPerItemGenerated_+-PositiveDescription\", \"{0} kJ Consumed Per Item Generated\")",
+            "NegativeDescription": "NSLOCTEXT(\"D_Stats\", \"BaseChargeConsumedPerItemGenerated_+-NegativeDescription\", \"{0} kJ Consumed Per Item Generated\")",
+            "StatCategory": {
+                "RowName": "Generic_Damage"
+            }
+        },
+        {
+            "Name": "ChargeConsumedPerItemGenerated_+",
+            "Title": "NSLOCTEXT(\"D_Stats\", \"ChargeConsumedPerItemGenerated_+-Title\", \"Charge Consumed Per Item Generated \")",
+            "PositiveTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChargeConsumedPerItemGenerated_+-PositiveTitleFormat\", \"{0} kJ\")",
+            "NegativeTitleFormat": "NSLOCTEXT(\"D_Stats\", \"ChargeConsumedPerItemGenerated_+-NegativeTitleFormat\", \"-{0} kJ\")",
+            "bIsReplicated": true,
+            "StatCategory": {
+                "RowName": "Generic_Damage"
             }
         }
     ]

@@ -9779,7 +9779,7 @@
         {
             "Name": "Metal_Grate_Building",
             "Stability": {
-                "RowName": "Iron_General"
+                "RowName": "Iron_Frame"
             },
             "Type": {
                 "RowName": "Metal_Grate"
@@ -9853,7 +9853,17 @@
                         "DataTableName": "D_Talents"
                     },
                     "Piece": {
-                        "RowName": "Barn_Door_1x1",
+                        "RowName": "Barn_Door_1x1_L",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Barn_Door_1x1_R",
                         "DataTableName": "D_BuildingPieces"
                     }
                 }
@@ -12746,6 +12756,79 @@
                     },
                     "Piece": {
                         "RowName": "StoneBrick_Ramp_Curved",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Metal_Grate_Floor",
+            "Stability": {
+                "RowName": "Iron_Frame"
+            },
+            "Type": {
+                "RowName": "Metal_Grate"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Metal_Grate_Floor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Metal_Grate_HalfNormal_HalfFloor",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Metal_Grate_Stairs",
+            "Stability": {
+                "RowName": "Iron_Frame"
+            },
+            "Type": {
+                "RowName": "Metal_Grate"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Metal_Grate_Ramp_Stairs",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Metal_Grate_HalfStair_R",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Metal_Grate_HalfStair_L",
                         "DataTableName": "D_BuildingPieces"
                     }
                 }

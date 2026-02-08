@@ -2815,13 +2815,13 @@
         },
         {
             "Name": "Mesh_Basic_Wall_Light",
-            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Wall_Light_basic.SM_DEP_Wall_Light_basic",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Wall_Light.BP_Basic_Wall_Light_C"
         },
         {
             "Name": "Mesh_Basic_Ceiling_Light",
-            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Top_Light_Basic.SM_DEP_Top_Light_Basic",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Ceiling_Light.BP_Basic_Ceiling_Light_C"
         },
@@ -3716,9 +3716,15 @@
         },
         {
             "Name": "Mesh_Spotlight_Tripod",
-            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Spotlight_Tripod.BP_Spotlight_Tripod_C"
+        },
+        {
+            "Name": "Mesh_Spotlight_Ceiling",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Spotlight_Ceiling.BP_Spotlight_Ceiling_C"
         },
         {
             "Name": "Mesh_Clay",
@@ -6012,22 +6018,16 @@
             "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_Canteen_Inaris.SK_ITM_Canteen_Inaris"
         },
         {
-            "Name": "Mesh_Basic_Ceiling_Light_Shroud",
-            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Top_Light_Shroud.SM_DEP_Top_Light_Shroud",
+            "Name": "Mesh_Ceiling_Shroud_Light",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Ceiling_Light_Shroud.BP_Basic_Ceiling_Light_Shroud_C"
         },
         {
-            "Name": "Mesh_Basic_Wall_Light_Shroud",
-            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Wall_Light_Shroud.SM_DEP_Wall_Light_Shroud",
+            "Name": "Mesh_Wall_Shroud_Light",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Wall_Light_Shroud.BP_Basic_Wall_Light_Shroud_C"
-        },
-        {
-            "Name": "Mesh_Basic_Ceiling_Light_Spotlight",
-            "ItemMesh": "/Game/ASS/DEP/SM_DEP_Spot_Light_Basic.SM_DEP_Spot_Light_Basic",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Ceiling_Light_Spotlight.BP_Basic_Ceiling_Light_Spotlight_C"
         },
         {
             "Name": "Mesh_Generic_Head",
@@ -6589,7 +6589,8 @@
         {
             "Name": "Mesh_Snare_Trap",
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Person.SM_KIT_Person",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_SnareTrap.BP_SnareTrap_C"
         },
         {
             "Name": "Mesh_CreatureBait_Wolf",
@@ -6665,7 +6666,8 @@
         {
             "Name": "Mesh_AnimalCage_Small",
             "ItemMesh": "/Game/ASS/DEP/SM_DEP_Trap_Small_T4.SM_DEP_Trap_Small_T4",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Fishing/BP_Advanced_Aquarium.BP_Advanced_Aquarium_C"
         },
         {
             "Name": "Mesh_AnimalCage_Med",
@@ -7754,7 +7756,11 @@
         },
         {
             "Name": "Mesh_Lithium_Ore",
-            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Platinum.SM_Rock_Ore_Platinum"
+            "ItemMesh": "/Game/ASS/ITM/Ore/SM_Rock_Ore_Lithium.SM_Rock_Ore_Lithium"
+        },
+        {
+            "Name": "Mesh_Lithium_Ingot",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Copper_V2.SM_ITM_Copper_V2"
         },
         {
             "Name": "Mesh_Ruby_Ore",
@@ -7970,8 +7976,7 @@
             "ItemMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
             "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C",
             "EquipHandMesh": "/Game/ASS/CRE/Tundra_Monkey/SK_CRE_Tundra_Monkey.SK_CRE_Tundra_Monkey",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C",
-            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C"
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tundra_Monkey_Corpse.BP_Tundra_Monkey_Corpse_C"
         },
         {
             "Name": "Mesh_Carcass_Raptor_Mount",
@@ -8077,6 +8082,96 @@
             "Name": "Mesh_WyrmQueen_Spit_FlyBy",
             "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "ItemActor": "/Script/Icarus.SkeletalProjectile"
+        },
+        {
+            "Name": "Mesh_Carcass_Ram",
+            "ItemMesh": "/Game/ASS/CRE/Ram/SK_CRE_Ram.SK_CRE_Ram",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ram_Corpse.BP_Ram_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Ram/SK_CRE_Ram.SK_CRE_Ram",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ram_Corpse.BP_Ram_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Tame_Cat_B",
+            "ItemMesh": "/Game/ASS/CRE/Cat/SK_CRE_Cat.SK_CRE_Cat",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Cat_B_Corpse.BP_Tame_Cat_B_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Cat/SK_CRE_Cat.SK_CRE_Cat",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Cat_B_Corpse.BP_Tame_Cat_B_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Tame_Cat_C",
+            "ItemMesh": "/Game/ASS/CRE/Cat/SK_CRE_Cat.SK_CRE_Cat",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Cat_C_Corpse.BP_Tame_Cat_C_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Cat/SK_CRE_Cat.SK_CRE_Cat",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Cat_C_Corpse.BP_Tame_Cat_C_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Tame_Dog_C2",
+            "ItemMesh": "/Game/ASS/CRE/French_Bulldog/SK_CRE_French_Bulldog.SK_CRE_French_Bulldog",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_C2_Corpse.BP_Tame_Dog_C2_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/French_Bulldog/SK_CRE_French_Bulldog.SK_CRE_French_Bulldog",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_C2_Corpse.BP_Tame_Dog_C2_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Tame_Dog_E",
+            "ItemMesh": "/Game/ASS/CRE/Border_Collie/SK_CRE_Border_Collie.SK_CRE_Border_Collie",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_E_Corpse.BP_Tame_Dog_E_Corpse_C",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "EquipBackMesh": "/Game/ASS/CRE/Border_Collie/SK_CRE_Border_Collie.SK_CRE_Border_Collie",
+            "EquipBackActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Tame_Dog_E_Corpse.BP_Tame_Dog_E_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Sandwrym_Latern",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_BF_LAM.SK_ITM_BF_LAM",
+            "ItemActor": "/Game/BP/Objects/World/Items/Weapons/BP_SKItem_Biofuel_Lamp_World.BP_SKItem_Biofuel_Lamp_World_C",
+            "EquipHandMesh": "/Game/ASS/ITM/SK_ITM_BF_LAM.SK_ITM_BF_LAM",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SKItem_Biofuel_Lamp.BP_SKItem_Biofuel_Lamp_C"
+        },
+        {
+            "Name": "Mesh_Sandwyrm_Egg",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_Sandworm_Tendon.SM_ITM_Sandworm_Tendon"
+        },
+        {
+            "Name": "Mesh_Sandwyrm_Lure",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Bark_Bug_Lure.SK_ITM_Bark_Bug_Lure",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_CraftingBench.BP_CraftingBench_C"
+        },
+        {
+            "Name": "Mesh_Sandwyrm_Backpack",
+            "ItemMesh": "/Game/ASS/ITM/SK_ITM_Backpack_LavaHunter.SK_ITM_Backpack_LavaHunter",
+            "EquipBackMesh": "/Game/ASS/ITM/SK_ITM_Backpack_LavaHunter.SK_ITM_Backpack_LavaHunter"
+        },
+        {
+            "Name": "Mesh_Oil_Can",
+            "ItemMesh": "/Game/ASS/ITM/SM_ITM_OilCan.SM_ITM_OilCan",
+            "EquipHandMesh": "/Game/ASS/ITM/SM_ITM_OilCan.SM_ITM_OilCan"
+        },
+        {
+            "Name": "Mesh_Deep_Mining_Drill_Oil",
+            "ItemMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Biofuel_Back.SM_DEP_DeepMiningDrill_Biofuel_Back",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Carcass_Pig",
+            "ItemMesh": "/Game/ASS/CRE/Wild_Boar/SK_CRE_AGG_Wildboar.SK_CRE_AGG_Wildboar",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Pig_Corpse.BP_Pig_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Wild_Boar/SK_CRE_AGG_Wildboar.SK_CRE_AGG_Wildboar",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Pig_Corpse.BP_Pig_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Piglet",
+            "ItemMesh": "/Game/ASS/CRE/Sheep/SK_CRE_Sheep.SK_CRE_Sheep",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Piglet_Corpse.BP_Piglet_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Sheep/SK_CRE_Sheep.SK_CRE_Sheep",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Piglet_Corpse.BP_Piglet_Corpse_C"
+        },
+        {
+            "Name": "Mesh_SulfurWorm_Spit",
+            "ItemMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "ItemActor": "/Game/BP/AI/Bosses/Misc/BP_SulfurWorm_Spit.BP_SulfurWorm_Spit_C"
         }
     ]
 }

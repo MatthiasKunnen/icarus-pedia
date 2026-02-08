@@ -679,12 +679,16 @@
         {
             "Name": "Worklamp_Directional",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Worklamp_Directional.BP_Worklamp_Directional_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Light_Worklamp_Directional.ITEM_Light_Worklamp_Directional",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Worklamp_Directional-DeployableName\", \"Directional\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_OmniLight_B.SM_DEP_OmniLight_B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC"
         },
         {
             "Name": "Worklamp_OmniDirectional",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Worklamp_Omni.BP_Worklamp_Omni_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Light_Worklamp_Omnidirectional.ITEM_Light_Worklamp_Omnidirectional",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Worklamp_OmniDirectional-DeployableName\", \"Omnidirectional\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_OmniLight_A.SM_DEP_OmniLight_A",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC"
         },
@@ -2061,6 +2065,8 @@
         {
             "Name": "Basic_Wall_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Wall_Light.BP_Basic_Wall_Light_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Basic_Wall_Light.ITEM_Basic_Wall_Light",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Basic_Wall_Light-DeployableName\", \"Wall\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Wall_Light_basic.SM_DEP_Wall_Light_basic",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "MaxSurfaceSnapAngle": 180,
@@ -2071,6 +2077,8 @@
         {
             "Name": "Basic_Ceiling_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Ceiling_Light.BP_Basic_Ceiling_Light_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Basic_Ceiling_Light.ITEM_Basic_Ceiling_Light",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Basic_Ceiling_Light-DeployableName\", \"Ceiling\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Top_Light_Basic.SM_DEP_Top_Light_Basic",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SnapToSurfaceNormal": false,
@@ -2880,9 +2888,24 @@
         {
             "Name": "Spotlight_Tripod",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Spotlight_Tripod.BP_Spotlight_Tripod_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Spotlight_Tripod.ITEM_Spotlight_Tripod",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Spotlight_Tripod-DeployableName\", \"Tripod\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Tripod_Light.SM_DEP_Tripod_Light",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Spotlight_Ceiling",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Spotlight_Ceiling.BP_Spotlight_Ceiling_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Basic_Ceiling_Spotlight.T_ITEM_Basic_Ceiling_Spotlight",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Spotlight_Ceiling-DeployableName\", \"Ceiling\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Spot_Light_Basic.SM_DEP_Spot_Light_Basic",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "CeilingPlacement",
+            "bCanAffectNavigation": false
         },
         {
             "Name": "Wood_Wall_Sign",
@@ -5406,8 +5429,10 @@
             "MaxRestackingAmount": 1
         },
         {
-            "Name": "Basic_Ceiling_Light_Shroud",
+            "Name": "Ceiling_Shroud_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Ceiling_Light_Shroud.BP_Basic_Ceiling_Light_Shroud_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Basic_Ceiling_Light_Shroud.T_ITEM_Basic_Ceiling_Light_Shroud",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Ceiling_Shroud_Light-DeployableName\", \"Ceiling\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Top_Light_Shroud.SM_DEP_Top_Light_Shroud",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SnapToSurfaceNormal": false,
@@ -5417,19 +5442,10 @@
             "bCanAffectNavigation": false
         },
         {
-            "Name": "Basic_Ceiling_Light_Spotlight",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Ceiling_Light_Spotlight.BP_Basic_Ceiling_Light_Spotlight_C",
-            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Spot_Light_Basic.SM_DEP_Spot_Light_Basic",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
-            "SnapToSurfaceNormal": false,
-            "MaxSurfaceSnapAngle": 180,
-            "SupportsCustomRotation": false,
-            "WorldPlacementType": "CeilingPlacement",
-            "bCanAffectNavigation": false
-        },
-        {
-            "Name": "Basic_Wall_Light_Shroud",
+            "Name": "Wall_Shroud_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Basic_Wall_Light_Shroud.BP_Basic_Wall_Light_Shroud_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Basic_Wall_Light_Shroud.T_ITEM_Basic_Wall_Light_Shroud",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Wall_Shroud_Light-DeployableName\", \"Wall\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Wall_Light_Shroud.SM_DEP_Wall_Light_Shroud",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SupportsCustomRotation": false,
@@ -7353,7 +7369,7 @@
         {
             "Name": "Cat_Trophy_A2",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Cat_B.BP_Trophy_Cat_B_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_B.T_ITEM_Cat_Trophy_B",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_C.T_ITEM_Cat_Trophy_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Cat/SM_DEP_Trophy_Cat.SM_DEP_Trophy_Cat",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "bCanAffectNavigation": false,
@@ -7362,7 +7378,7 @@
         {
             "Name": "Cat_Trophy_A3",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Cat_C.BP_Trophy_Cat_C_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_C.T_ITEM_Cat_Trophy_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_B.T_ITEM_Cat_Trophy_B",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Cat/SM_DEP_Trophy_Cat.SM_DEP_Trophy_Cat",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "bCanAffectNavigation": false,
@@ -7416,6 +7432,8 @@
         {
             "Name": "Single_Wall_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Single_Wall_Light.BP_Single_Wall_Light_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Single_Wall_Light.T_ITEM_Single_Wall_Light",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Single_Wall_Light-DeployableName\", \"Wall\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Single_Wall_Light.SM_DEP_Single_Wall_Light",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "MaxSurfaceSnapAngle": 180,
@@ -7426,6 +7444,8 @@
         {
             "Name": "Single_Ceiling_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Single_Ceiling_Light.BP_Single_Ceiling_Light_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Single_Ceiling_Light.T_ITEM_Single_Ceiling_Light",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Single_Ceiling_Light-DeployableName\", \"Ceiling\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Single_Ceiling_Light.SM_DEP_Single_Ceiling_Light",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SnapToSurfaceNormal": false,
@@ -7437,6 +7457,8 @@
         {
             "Name": "Exposed_Wall_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Exposed_Wall_Light.BP_Exposed_Wall_Light_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Exposed_Wall_Light.T_ITEM_Exposed_Wall_Light",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Exposed_Wall_Light-DeployableName\", \"Wall\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_Exposed_Lightbulb_wall.SM_Exposed_Lightbulb_wall",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "MaxSurfaceSnapAngle": 180,
@@ -7447,6 +7469,8 @@
         {
             "Name": "Exposed_Ceiling_Light",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Exposed_Ceiling_Light.BP_Exposed_Ceiling_Light_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light.T_ITEM_Exposed_Ceiling_Light",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Exposed_Ceiling_Light-DeployableName\", \"Ceiling\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_Exposed_Lightbulb.SM_Exposed_Lightbulb",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SnapToSurfaceNormal": false,
@@ -7543,6 +7567,8 @@
         {
             "Name": "Exposed_Wall_Light_Foggy",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Exposed_Wall_Light_Foggy.BP_Exposed_Wall_Light_Foggy_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Exposed_Wall_Light_Foggy.T_ITEM_Exposed_Wall_Light_Foggy",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Exposed_Wall_Light_Foggy-DeployableName\", \"Wall\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Single_Wall_Light_Exposed.SM_DEP_Single_Wall_Light_Exposed",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "MaxSurfaceSnapAngle": 180,
@@ -7553,6 +7579,8 @@
         {
             "Name": "Exposed_Ceiling_Light_Foggy",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Lights/BP_Exposed_Ceiling_Light_Foggy.BP_Exposed_Ceiling_Light_Foggy_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light_Foggy.T_ITEM_Exposed_Ceiling_Light_Foggy",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Exposed_Ceiling_Light_Foggy-DeployableName\", \"Ceiling\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Single_Ceiling_Light_Exposed.SM_DEP_Single_Ceiling_Light_Exposed",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
             "SnapToSurfaceNormal": false,
@@ -9424,14 +9452,17 @@
         {
             "Name": "Ranch_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Ranch_Sign.BP_Ranch_Sign_C",
-            "PreviewStaticMesh": "/Game/ASS/DCO/Giant_Ranch_Sign/SM_DCO_Giant_Ranch_Sign.SM_DCO_Giant_Ranch_Sign",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
+            "PreviewStaticMesh": "/Game/ASS/DCO/Small_Ranch_Sign/SM_DCO_Small_Ranch_Sign.SM_DCO_Small_Ranch_Sign",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_RETAINING_WALL.SFX_DEPLOY_RETAINING_WALL"
         },
         {
             "Name": "Ranch_Gate_Sign",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Signs/BP_Ranch_Gate_Sign.BP_Ranch_Gate_Sign_C",
             "PreviewStaticMesh": "/Game/ASS/DCO/Giant_Ranch_Sign/SM_DCO_Giant_Ranch_Sign.SM_DCO_Giant_Ranch_Sign",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "DeployCollisionExtentOffset": {
+                "Z": -150
+            }
         },
         {
             "Name": "Vintage_Jar_A",
@@ -9641,6 +9672,15 @@
             "MaxRestackingAmount": 1
         },
         {
+            "Name": "Homestead_Butter_Churn_Large",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Butter_Churn_Large.BP_Butter_Churn_Large_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Butter_Churn_Large.T_ITEM_Homestead_Butter_Churn_Large",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Butter_Churn_LRG/SM_DEP_Butter_Churn_LRG.SM_DEP_Butter_Churn_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
             "Name": "Homestead_Cheese_A",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cheese_A.BP_Cheese_A_C",
             "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cheese_A.T_ITEM_Homestead_Cheese_A",
@@ -9786,7 +9826,7 @@
         {
             "Name": "Homestead_Barbed_Wire",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Barbed_Wire.BP_Barbed_Wire_C",
-            "PreviewStaticMesh": "/Game/ASS/BLD/Farm/Farm_Fence_Wood/SM_BLD_Farm_Fence_Wood.SM_BLD_Farm_Fence_Wood",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Railing_BarbedWire/SM_BLD_Railing_BarbedWire.SM_BLD_Railing_BarbedWire",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
@@ -9836,7 +9876,18 @@
         {
             "Name": "Homestead_Weapon_Rack",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_WeaponRack.BP_WeaponRack_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Weapon_Rack_0.T_ITEM_Homestead_Weapon_Rack_0",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Weapon_Rack/SM_DEP_Weapon_Rack.SM_DEP_Weapon_Rack",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_PAINTING.SFX_DEPLOY_PAINTING",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Weapon_Rack_Single",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_WeaponRack_Single.BP_WeaponRack_Single_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Weapon_Rack_2.T_ITEM_Homestead_Weapon_Rack_2",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Weapon_Rack/SM_DEP_Weapon_Rack_Single.SM_DEP_Weapon_Rack_Single",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_PAINTING.SFX_DEPLOY_PAINTING",
             "SupportsCustomRotation": false,
             "WorldPlacementType": "WallPlacement",
@@ -14365,6 +14416,1142 @@
             "SnapToSurfaceNormal": false,
             "MaxSurfaceSnapAngle": 20,
             "SupportsCustomRotation": false
+        },
+        {
+            "Name": "Homestead_Candle_Wall",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Homestead_Wall_Candle.BP_Homestead_Wall_Candle_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Wall_Candle_Holder_Wood/SM_DEP_Wall_Candle_Holder_Wood.SM_DEP_Wall_Candle_Holder_Wood",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Refrigerator",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Homestead_Refrigerator.BP_Homestead_Refrigerator_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Fridge_Enamel/SM_DEP_Fridge_Enamel.SM_DEP_Fridge_Enamel",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Copper_Pot_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Copper_Pot_A.BP_Copper_Pot_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Copper_Pot_A.T_ITEM_Homestead_Copper_Pot_A",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Hanging_Pots_Copper/SM_DEP_Hanging_Pot_Copper_A.SM_DEP_Hanging_Pot_Copper_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Copper_Pot_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Copper_Pot_B.BP_Copper_Pot_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Copper_Pot_B.T_ITEM_Homestead_Copper_Pot_B",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Hanging_Pots_Copper/SM_DEP_Hanging_Pot_Copper_B.SM_DEP_Hanging_Pot_Copper_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Copper_Pot_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Copper_Pot_C.BP_Copper_Pot_C_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Copper_Pot_C.T_ITEM_Homestead_Copper_Pot_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Hanging_Pots_Copper/SM_DEP_Hanging_Pot_Copper_C.SM_DEP_Hanging_Pot_Copper_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Copper_Pot_D",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Copper_Pot_D.BP_Copper_Pot_D_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Copper_Pot_D.T_ITEM_Homestead_Copper_Pot_D",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Hanging_Pots_Copper/SM_DEP_Hanging_Pot_Copper_D.SM_DEP_Hanging_Pot_Copper_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Cushion_A_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_A_1.BP_Cushion_A_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_A_1.T_ITEM_Homestead_Cushion_A_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_A.SM_DCO_Cushion_Homestead_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_A_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_A_2.BP_Cushion_A_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_A_2.T_ITEM_Homestead_Cushion_A_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_A.SM_DCO_Cushion_Homestead_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_A_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_A_3.BP_Cushion_A_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_A_3.T_ITEM_Homestead_Cushion_A_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_A.SM_DCO_Cushion_Homestead_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_A_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_A_4.BP_Cushion_A_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_A_4.T_ITEM_Homestead_Cushion_A_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_A.SM_DCO_Cushion_Homestead_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_A_5",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_A_5.BP_Cushion_A_5_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_A_5.T_ITEM_Homestead_Cushion_A_5",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_A.SM_DCO_Cushion_Homestead_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_B_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_B_1.BP_Cushion_B_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_B_1.T_ITEM_Homestead_Cushion_B_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_B.SM_DCO_Cushion_Homestead_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_B_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_B_2.BP_Cushion_B_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_B_2.T_ITEM_Homestead_Cushion_B_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_B.SM_DCO_Cushion_Homestead_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_B_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_B_3.BP_Cushion_B_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_B_3.T_ITEM_Homestead_Cushion_B_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_B.SM_DCO_Cushion_Homestead_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_B_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_B_4.BP_Cushion_B_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_B_4.T_ITEM_Homestead_Cushion_B_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_B.SM_DCO_Cushion_Homestead_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Cushion_B_5",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cushion_B_5.BP_Cushion_B_5_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cushion_B_5.T_ITEM_Homestead_Cushion_B_5",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Cushions/SM_DCO_Cushion_Homestead_B.SM_DCO_Cushion_Homestead_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_TEDDY.SFX_DEPLOY_TEDDY",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Homestead_Lantern",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Lantern_Antique_New.BP_Lantern_Antique_New_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Lantern.T_ITEM_Homestead_Lantern",
+            "PreviewStaticMesh": "/Game/ASS/ITM/Lantern_Antique/SM_Lantern_Antique.SM_Lantern_Antique",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Fireplace_Tools",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Fireplace_Tools.BP_Fireplace_Tools_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Fireplace_Tools.T_ITEM_Homestead_Fireplace_Tools",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Bellow_Fireplace/SM_DCO_Fireplace_Tools.SM_DCO_Fireplace_Tools",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Fireplace_Screen",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Fireplace_Screen.BP_Fireplace_Screen_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Fireplace_Screen.T_ITEM_Homestead_Fireplace_Screen",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Bellow_Fireplace/SM_DCO_Fireplace_Screen.SM_DCO_Fireplace_Screen",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Fireplace_Bellows",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Fireplace_Bellows.BP_Fireplace_Bellows_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Fireplace_Bellows.T_ITEM_Homestead_Fireplace_Bellows",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Bellow_Fireplace/SM_DCO_Bellows.SM_DCO_Bellows",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Knitting_Decor_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Knitting_Decor_A.BP_Knitting_Decor_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Knitting_Decor_A.T_ITEM_Homestead_Knitting_Decor_A",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Knitting_Decor/SM_DCO_Knitting_Decor_A.SM_DCO_Knitting_Decor_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Knitting_Decor_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Knitting_Decor_B.BP_Knitting_Decor_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Knitting_Decor_B.T_ITEM_Homestead_Knitting_Decor_B",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Knitting_Decor/SM_DCO_Knitting_Decor_B.SM_DCO_Knitting_Decor_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Knitting_Decor_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Knitting_Decor_C.BP_Knitting_Decor_C_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Knitting_Decor_C.T_ITEM_Homestead_Knitting_Decor_C",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Knitting_Decor/SM_DCO_Knitting_Decor_D.SM_DCO_Knitting_Decor_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Knitting_Decor_D",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Knitting_Decor_D.BP_Knitting_Decor_D_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Knitting_Decor_D.T_ITEM_Homestead_Knitting_Decor_D",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Knitting_Decor/SM_DCO_Knitting_Decor_E.SM_DCO_Knitting_Decor_E",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Birdbath_Iron",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Birdbath_Iron.BP_Birdbath_Iron_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Water_Tank_Iron.T_ITEM_Homestead_Water_Tank_Iron",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bird_Bath/SM_DEP_Bird_Bath_Iron.SM_DEP_Bird_Bath_Iron",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Birdbath_Gold",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Birdbath_Gold.BP_Birdbath_Gold_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Water_Tank_Gold.T_ITEM_Homestead_Water_Tank_Gold",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bird_Bath/SM_DEP_Bird_Bath_Gold.SM_DEP_Bird_Bath_Gold",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_GOLD.SFX_DEPLOY_GOLD",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Well",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Weather/BP_Well.BP_Well_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Well_Stone.T_ITEM_Homestead_Well_Stone",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Well-DeployableName\", \"Stone\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/Well_Reservoir_Stone/SM_DEP_Well_Reservoir_Stone.SM_DEP_Well_Reservoir_Stone",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE.SFX_BLD_STONE",
+            "SnapToSurfaceNormal": false,
+            "DeployCollisionExtentOffset": {
+                "Z": -150
+            }
+        },
+        {
+            "Name": "Homestead_Well_Moss",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Weather/BP_Well_Moss.BP_Well_Moss_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Well_Moss.T_ITEM_Homestead_Well_Moss",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Well_Moss-DeployableName\", \"Moss\")",
+            "PreviewStaticMesh": "/Game/ASS/DEP/Well_Reservoir_Stone/SM_DEP_Well_Reservoir_Stone.SM_DEP_Well_Reservoir_Stone",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_STONE.SFX_BLD_STONE",
+            "SnapToSurfaceNormal": false,
+            "DeployCollisionExtentOffset": {
+                "Z": -150
+            }
+        },
+        {
+            "Name": "Homestead_Spinning_Wheel",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Spinning_Wheel.BP_Spinning_Wheel_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Spinning_Wheel.T_ITEM_Homestead_Spinning_Wheel",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Spinning_Wheel/SM_DCO_Spinning_Wheel.SM_DCO_Spinning_Wheel",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Kitchen_Sink",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Homestead_Kitchen_Sink.BP_Homestead_Kitchen_Sink_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Homestead_Sink/SM_DEP_Bench_Kitchen_Homestead_Sink.SM_DEP_Bench_Kitchen_Homestead_Sink",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Kitchen_Stove",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Homestead_Kitchen_Stove.BP_Homestead_Kitchen_Stove_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Homestead_Stove/SM_DEP_Bench_Kitchen_Homestead_Stove.SM_DEP_Bench_Kitchen_Homestead_Stove",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Kitchen_Bench",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Homestead_Kitchen_Bench.BP_Homestead_Kitchen_Bench_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Homestead_Filleting/SM_DEP_Bench_Kitchen_Homestead_Filleting.SM_DEP_Bench_Kitchen_Homestead_Filleting",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Kitchen_Butchery",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Homestead_Kitchen_Butchery.BP_Homestead_Kitchen_Butchery_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Butchery_Homestead/SM_DEP_Bench_Kitchen_Butchery_Homestead.SM_DEP_Bench_Kitchen_Butchery_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Kitchen_Herbalism",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_Homestead_Kitchen_Herbalism.BP_Homestead_Kitchen_Herbalism_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Herbalism_Homestead/SM_DEP_Bench_Kitchen_Herbalism_Homestead.SM_DEP_Bench_Kitchen_Herbalism_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Kitchen_Storage",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Homestead_Kitchen_Storage.BP_Homestead_Kitchen_Storage_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Homestead/SM_DEP_Bench_Kitchen_Homestead.SM_DEP_Bench_Kitchen_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Kitchen_Corner",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Kitchen_Corner_Homestead.BP_Kitchen_Corner_Homestead_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Homestead_Empty/SM_DEP_Bench_Kitchen_Homestead_Empty.SM_DEP_Bench_Kitchen_Homestead_Empty",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Homestead_Shutter",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Homestead_Shutter.BP_Window_Homestead_Shutter_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Shutter-2.T_ITEM_Homestead_Shutter-2",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Window_Shutters/SM_BLD_Window_Shutters.SM_BLD_Window_Shutters",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -2,
+                "Y": -15
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 5
+            }
+        },
+        {
+            "Name": "Homestead_Shutter_Painted",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Homestead_Shutter_Painted.BP_Window_Homestead_Shutter_Painted_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Shutter.T_ITEM_Homestead_Shutter",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Window_Shutters/SM_BLD_Window_Shutters.SM_BLD_Window_Shutters",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -2,
+                "Y": -15
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 5
+            }
+        },
+        {
+            "Name": "Homestead_Curtain_Window_A",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Curtain_Homestead_A.BP_Window_Curtain_Homestead_A_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Curtain1.T_ITEM_Homestead_Curtain1",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Curtains_Homestead/SM_BLD_Window_Curtain_Homestead.SM_BLD_Window_Curtain_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window_center"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -4,
+                "Y": -38
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 6
+            }
+        },
+        {
+            "Name": "Homestead_Curtain_Window_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Curtain_Homestead_B.BP_Window_Curtain_Homestead_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Curtain2.T_ITEM_Homestead_Curtain2",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Curtains_Homestead/SM_BLD_Window_Curtain_Homestead.SM_BLD_Window_Curtain_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window_center"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -4,
+                "Y": -38
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 6
+            }
+        },
+        {
+            "Name": "Homestead_Curtain_Window_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Curtain_Homestead_C.BP_Window_Curtain_Homestead_C_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Curtain3.T_ITEM_Homestead_Curtain3",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Curtains_Homestead/SM_BLD_Window_Curtain_Homestead.SM_BLD_Window_Curtain_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window_center"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -4,
+                "Y": -38
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 6
+            }
+        },
+        {
+            "Name": "Homestead_Curtain_Window_D",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Curtain_Homestead_D.BP_Window_Curtain_Homestead_D_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Curtain4.T_ITEM_Homestead_Curtain4",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Curtains_Homestead/SM_BLD_Window_Curtain_Homestead.SM_BLD_Window_Curtain_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window_center"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -4,
+                "Y": -38
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 6
+            }
+        },
+        {
+            "Name": "Homestead_Curtain_Window_E",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Curtain_Homestead_E.BP_Window_Curtain_Homestead_E_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Curtain5.T_ITEM_Homestead_Curtain5",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Curtains_Homestead/SM_BLD_Window_Curtain_Homestead.SM_BLD_Window_Curtain_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window_center"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -4,
+                "Y": -38
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 6
+            }
+        },
+        {
+            "Name": "Homestead_Curtain_Window_F",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Windows/BP_Window_Curtain_Homestead_F.BP_Window_Curtain_Homestead_F_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Curtain6.T_ITEM_Homestead_Curtain6",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Curtains_Homestead/SM_BLD_Window_Curtain_Homestead.SM_BLD_Window_Curtain_Homestead",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "window_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "window_center"
+            ],
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "X": -4,
+                "Y": -38
+            },
+            "DeployCollisionLocationOffset": {
+                "X": 6
+            }
+        },
+        {
+            "Name": "Homestead_Saloon_Door",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Doors/BP_Homestead_Saloon_Door.BP_Homestead_Saloon_Door_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Saloon_Door_1.T_ITEM_Homestead_Saloon_Door_1",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Door_Saloon/SM_BLD_Door_Saloon_1.SM_BLD_Door_Saloon_1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "door_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "door",
+                "door_b"
+            ],
+            "UseSnapSocketRotation": true,
+            "UseSnapSocketScale": true
+        },
+        {
+            "Name": "Homestead_Saloon_Door_B",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Doors/BP_Homestead_Saloon_Door_B.BP_Homestead_Saloon_Door_B_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Saloon_Door_2.T_ITEM_Homestead_Saloon_Door_2",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Door_Saloon/SM_BLD_Door_Saloon_2.SM_BLD_Door_Saloon_2",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "door_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "door",
+                "door_b"
+            ],
+            "UseSnapSocketRotation": true,
+            "UseSnapSocketScale": true
+        },
+        {
+            "Name": "Homestead_Cuckcoo_Clock",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Cuckcoo_Clock.BP_Cuckcoo_Clock_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Cuckcoo_Clock.T_ITEM_Homestead_Cuckcoo_Clock",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Cuckoo_Clock/SM_DEP_Cuckoo_Clock_Wood.SM_DEP_Cuckoo_Clock_Wood",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_GENERIC_SMALL.SFX_DEPLOY_GENERIC_SMALL",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Homestead_Weather_Vane",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Weather_Vane.BP_Weather_Vane_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Weather_Vane.T_ITEM_Homestead_Weather_Vane",
+            "PreviewStaticMesh": "/Game/ASS/DEP/Weather_Vane/SM_ITM_Weather_Vane_Combined.SM_ITM_Weather_Vane_Combined",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "MaxSurfaceSnapAngle": 180,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Nesting_Box",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Nesting_Box.BP_Nesting_Box_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/Nest_Chicken/SM_DEP_Nest_Chicken.SM_DEP_Nest_Chicken",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Homestead_Iron_Stove",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Cooking/BP_Homestead_Iron_Stove.BP_Homestead_Iron_Stove_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Bench_Kitchen_Farmhouse/SM_DEP_Bench_Kitchen_Farmhouse.SM_DEP_Bench_Kitchen_Farmhouse",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "DeployCollisionExtentOffset": {
+                "Z": -8
+            },
+            "DeployCollisionLocationOffset": {
+                "Z": -18
+            }
+        },
+        {
+            "Name": "Homestead_Retaining_Wall_Frame",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Retaining_Wall_Frame.BP_Retaining_Wall_Frame_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Retaining_Wall.T_ITEM_Homestead_Retaining_Wall",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Retaining_Wall_Frame-DeployableName\", \"Frame\")",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Retaining_Walls/SM_BLD_Retaining_Wall_Wood.SM_BLD_Retaining_Wall_Wood",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_RETAINING_WALL.SFX_DEPLOY_RETAINING_WALL",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_DirtFrame"
+            ],
+            "SnapSocketsOrTags": [
+                "RetainingSocket1",
+                "RetainingSocket2",
+                "RetainingSocket3",
+                "RetainingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "Z": -4
+            },
+            "DeployPlacementOffset": {
+                "Z": -4
+            }
+        },
+        {
+            "Name": "Homestead_Retaining_Wall_Ramp_R",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Retaining_Wall_Angle_R.BP_Retaining_Wall_Angle_R_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Retaining_Wall_R.T_ITEM_Homestead_Retaining_Wall_R",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Retaining_Wall_Ramp_R-DeployableName\", \"Right\")",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Retaining_Walls/SM_BLD_Retaining_Wall_Angle_Wood_R.SM_BLD_Retaining_Wall_Angle_Wood_R",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_RETAINING_WALL.SFX_DEPLOY_RETAINING_WALL",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_DirtRamp"
+            ],
+            "SnapSocketsOrTags": [
+                "RetainingSocketR"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "Z": -4
+            },
+            "DeployPlacementOffset": {
+                "Z": -4
+            }
+        },
+        {
+            "Name": "Homestead_Retaining_Wall_Ramp_L",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Railings/BP_Retaining_Wall_Angle_L.BP_Retaining_Wall_Angle_L_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Retaining_Wall_L.T_ITEM_Homestead_Retaining_Wall_L",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Homestead_Retaining_Wall_Ramp_L-DeployableName\", \"Left\")",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Homestead/Retaining_Walls/SM_BLD_Retaining_Wall_Angle_Wood_L.SM_BLD_Retaining_Wall_Angle_Wood_L",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_RETAINING_WALL.SFX_DEPLOY_RETAINING_WALL",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_DirtRamp"
+            ],
+            "SnapSocketsOrTags": [
+                "RetainingSocketL"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "DeployCollisionExtentOffset": {
+                "Z": -4
+            },
+            "DeployPlacementOffset": {
+                "Z": -4
+            }
+        },
+        {
+            "Name": "Homestead_Flower_Pot_A_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_A_1.BP_FlowerPot_A_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_A_1.T_ITEM_Homestead_Flower_Pot_A_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_A.SM_DCO_Plant_Pot_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_A_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_A_2.BP_FlowerPot_A_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_A_2.T_ITEM_Homestead_Flower_Pot_A_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_A.SM_DCO_Plant_Pot_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_A_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_A_3.BP_FlowerPot_A_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_A_3.T_ITEM_Homestead_Flower_Pot_A_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_A.SM_DCO_Plant_Pot_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_A_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_A_4.BP_FlowerPot_A_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_A_4.T_ITEM_Homestead_Flower_Pot_A_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_A.SM_DCO_Plant_Pot_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_B_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_B_1.BP_FlowerPot_B_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_B_1.T_ITEM_Homestead_Flower_Pot_B_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_B.SM_DCO_Plant_Pot_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_B_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_B_2.BP_FlowerPot_B_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_B_2.T_ITEM_Homestead_Flower_Pot_B_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_B.SM_DCO_Plant_Pot_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_B_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_B_3.BP_FlowerPot_B_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_B_3.T_ITEM_Homestead_Flower_Pot_B_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_B.SM_DCO_Plant_Pot_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_B_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_B_4.BP_FlowerPot_B_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_B_4.T_ITEM_Homestead_Flower_Pot_B_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_B.SM_DCO_Plant_Pot_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_C_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_C_1.BP_FlowerPot_C_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_C_1.T_ITEM_Homestead_Flower_Pot_C_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_C.SM_DCO_Plant_Pot_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_C_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_C_2.BP_FlowerPot_C_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_C_2.T_ITEM_Homestead_Flower_Pot_C_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_C.SM_DCO_Plant_Pot_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_C_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_C_3.BP_FlowerPot_C_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_C_3.T_ITEM_Homestead_Flower_Pot_C_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_C.SM_DCO_Plant_Pot_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_C_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_C_4.BP_FlowerPot_C_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_C_4.T_ITEM_Homestead_Flower_Pot_C_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_C.SM_DCO_Plant_Pot_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_D_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_D_1.BP_FlowerPot_D_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_D_1.T_ITEM_Homestead_Flower_Pot_D_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_D.SM_DCO_Plant_Pot_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_D_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_D_2.BP_FlowerPot_D_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_D_2.T_ITEM_Homestead_Flower_Pot_D_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_D.SM_DCO_Plant_Pot_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_D_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_D_3.BP_FlowerPot_D_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_D_3.T_ITEM_Homestead_Flower_Pot_D_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_D.SM_DCO_Plant_Pot_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_D_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_D_4.BP_FlowerPot_D_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_D_4.T_ITEM_Homestead_Flower_Pot_D_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_D.SM_DCO_Plant_Pot_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_E_1",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_E_1.BP_FlowerPot_E_1_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_E_1.T_ITEM_Homestead_Flower_Pot_E_1",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_E.SM_DCO_Plant_Pot_E",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_E_2",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_E_2.BP_FlowerPot_E_2_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_E_2.T_ITEM_Homestead_Flower_Pot_E_2",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_E.SM_DCO_Plant_Pot_E",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_E_3",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_E_3.BP_FlowerPot_E_3_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_E_3.T_ITEM_Homestead_Flower_Pot_E_3",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_E.SM_DCO_Plant_Pot_E",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Homestead_Flower_Pot_E_4",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_FlowerPot_E_4.BP_FlowerPot_E_4_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_Flower_Pot_E_4.T_ITEM_Homestead_Flower_Pot_E_4",
+            "PreviewStaticMesh": "/Game/ASS/DCO/Homestead/Plant_Pot/SM_DCO_Plant_Pot_E.SM_DCO_Plant_Pot_E",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "bCanAffectNavigation": false
+        },
+        {
+            "Name": "Barn_Door_L",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Doors/BP_Door_Barn_L.BP_Door_Barn_L_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_BarnDoor_1.T_ITEM_Homestead_BarnDoor_1",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Barn_Door_L-DeployableName\", \"Left\")",
+            "PreviewStaticMesh": "/Game/ASS/BLD/SM_BLD_Door_Barn_Wood_1by1_Opposite.SM_BLD_Door_Barn_Wood_1by1_Opposite",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "wall_solid"
+            ],
+            "SnapSocketsOrTags": [
+                "Barn_L"
+            ],
+            "UseSnapSocketRotation": true,
+            "UseSnapSocketScale": true
+        },
+        {
+            "Name": "Barn_Door_R",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Doors/BP_Door_Barn_R.BP_Door_Barn_R_C",
+            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Homestead_BarnDoor_2.T_ITEM_Homestead_BarnDoor_2",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Barn_Door_R-DeployableName\", \"Right\")",
+            "PreviewStaticMesh": "/Game/ASS/BLD/Wood/Door_Barn/SM_BLD_Door_Barn_Wood_1by1.SM_BLD_Door_Barn_Wood_1by1",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "wall_solid"
+            ],
+            "SnapSocketsOrTags": [
+                "Barn_R"
+            ],
+            "UseSnapSocketRotation": true,
+            "UseSnapSocketScale": true
+        },
+        {
+            "Name": "Sandwrym_Target_Dummy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Targets/BP_DeployableTargetDummy.BP_DeployableTargetDummy_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Target_Dummy.SM_DEP_Target_Dummy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "AudioOcclusionAmount": 0.5
+        },
+        {
+            "Name": "Sandwrym_Chair",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Rock_Golem_Chair.BP_Rock_Golem_Chair_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rock_Golem/SM_DEP_Trophy_Golem_Throne.SM_DEP_Trophy_Golem_Throne",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Sandwrym_Throne",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Rock_Golem_Chair.BP_Rock_Golem_Chair_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Rock_Golem/SM_DEP_Trophy_Golem_Throne.SM_DEP_Trophy_Golem_Throne",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
+        },
+        {
+            "Name": "Kitchen_Sink",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Containers/BP_Kitchen_Sink.BP_Kitchen_Sink_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Bench_Kitchen_Sink.SM_DEP_Bench_Kitchen_Sink",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Kitchen"
+            ],
+            "SnapSocketsOrTags": [
+                "Unit_R",
+                "Unit_L",
+                "Unit_F",
+                "Unit_B"
+            ],
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Oil_Barrel",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Batteries/BP_Portable_Tank_Oil.BP_Portable_Tank_Oil_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Steel_Barrel/SM_DEP_Steel_Barrel.SM_DEP_Steel_Barrel",
+            "DeployedSound": "/Game/FMOD/Events/UI/Generic/UI_INV_DROPITEM_JERRYCAN_WATER_FULL.UI_INV_DROPITEM_JERRYCAN_WATER_FULL",
+            "SupportsCustomRotation": false,
+            "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Eden_NPC_Hunter",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_NPC_Hunter.BP_NPC_Hunter_C",
+            "PreviewStaticMesh": "/Game/BP/Objects/World/Items/WorldObjects/Missions/NPCs/SM_NPC_PLACEMENT.SM_NPC_PLACEMENT",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Deep_Mining_Drill_Oil",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Drill/BP_Deep_Mining_Drill_Oil.BP_Deep_Mining_Drill_Oil_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_DeepMiningDrill_Biofuel_v2.SM_DEP_DeepMiningDrill_Biofuel_v2",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Deployable_Deep_Mining"
+            ],
+            "SnapSocketsOrTags": [
+                "Drill_Socket"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Lamb_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Lamb.BP_Trophy_Lamb_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Lamb/SM_DEP_Trophy_Lamb.SM_DEP_Trophy_Lamb",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Pig_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Pig.BP_Trophy_Pig_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Lamb/SM_DEP_Trophy_Lamb.SM_DEP_Trophy_Lamb",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Piglet_Trophy",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Trophy_Piglet.BP_Trophy_Piglet_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Trophy_Lamb/SM_DEP_Trophy_Lamb.SM_DEP_Trophy_Lamb",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false,
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Eden_NPC_Norex",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_NPC_Norex.BP_NPC_Norex_C",
+            "PreviewStaticMesh": "/Game/BP/Objects/World/Items/WorldObjects/Missions/NPCs/SM_NPC_PLACEMENT.SM_NPC_PLACEMENT",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Animal_Bed_Nesting",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Nesting_Bed.BP_Animal_Nesting_Bed_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Animal_Bed_Nesting/SM_DEP_Animal_Bed_Nesting.SM_DEP_Animal_Bed_Nesting",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Eden_NPC_Farmer",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_NPC_Farmer.BP_NPC_Farmer_C",
+            "PreviewStaticMesh": "/Game/BP/Objects/World/Items/WorldObjects/Missions/NPCs/SM_NPC_PLACEMENT.SM_NPC_PLACEMENT",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Prebuilt_Spawn_Location",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Missions/BP_PrebuiltSpawnLocation.BP_PrebuiltSpawnLocation_C",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Prebuilt_Spawn_Location-DeployableName\", \"Prebuilt Spawn Location\")",
+            "PreviewStaticMesh": "/Game/UI/Components/DamageIndicator/DamageArrow.DamageArrow",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "SnapToSurfaceNormal": false,
+            "MaxSurfaceSnapAngle": 90,
+            "WorldPlacementType": "GroundOrWallPlacement",
+            "bCanAffectNavigation": false,
+            "DeployCollisionLocationOffset": {
+                "Z": 100
+            }
+        },
+        {
+            "Name": "Eden_NPC_Fisher",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_NPC_Fisher.BP_NPC_Fisher_C",
+            "PreviewStaticMesh": "/Game/BP/Objects/World/Items/WorldObjects/Missions/NPCs/SM_NPC_PLACEMENT.SM_NPC_PLACEMENT",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Eden_NPC_Chef",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/CraftingBenches/BP_NPC_Chef.BP_NPC_Chef_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Icebox.SM_DEP_Icebox",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
         }
     ]
 }

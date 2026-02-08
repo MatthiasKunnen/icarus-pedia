@@ -2306,7 +2306,7 @@
                 "(Value=\"BaseSleepQuality_%\")": 5
             },
             "StatsUnlock2": {
-                "(Value=\"BaseProjectileDamageResistance_+%\")": 5
+                "(Value=\"BaseProjectileDamageResistance_%\")": 5
             },
             "ProgressiveStat": [
                 {

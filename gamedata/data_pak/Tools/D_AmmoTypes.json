@@ -176,7 +176,7 @@
         },
         {
             "Name": "Rifle_Round_Uranium",
-            "ProjectileDamage": 300,
+            "ProjectileDamage": 350,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224
@@ -278,7 +278,7 @@
         },
         {
             "Name": "Pistol_Round_Uranium",
-            "ProjectileDamage": 100,
+            "ProjectileDamage": 150,
             "ProjectileAccuracy": {
                 "X": 0.5,
                 "Y": 0.5
@@ -501,7 +501,7 @@
         },
         {
             "Name": "AssaultRifle_Round_Uranium",
-            "ProjectileDamage": 200,
+            "ProjectileDamage": 250,
             "ProjectileAccuracy": {
                 "X": 0.20000000298023224,
                 "Y": 0.20000000298023224

@@ -1641,7 +1641,6 @@
                 "Bulk_Pistol_Round",
                 "Bulk_Shotgun_Shell_Buckshot",
                 "Electric_Dehumidifier",
-                "Worklamp_Directional",
                 "Worklamp_OmniDirectional",
                 "Heater_Large",
                 "Cooler_Large",
@@ -1653,7 +1652,6 @@
                 "Composter_Electric",
                 "Masonry_Bench_T4",
                 "Carpentry_Bench_T4",
-                "Basic_Wall_Light",
                 "Mission_Thruster",
                 "Mission_Navigation",
                 "Deep_Mining_Drill_Biofuel",
@@ -1680,6 +1678,7 @@
                 "Advanced_Alteration_Bench",
                 "Advanced_Armor_Bench",
                 "Electric_Armor_Bench",
+                "Spotlight",
                 "Ice_Borer",
                 "Clay_Brick_Window",
                 "Clay_Brick_Door",
@@ -1730,6 +1729,7 @@
                 "Anvil_Bench_T3",
                 "Anvil_Bench_T4",
                 "Masonry_Bench_T3",
+                "Shroud_Light",
                 "T3_Smoker",
                 "Shotgun_Shell_Cold_Steel",
                 "Shotgun_Shell_Obsidian",
@@ -1761,8 +1761,6 @@
                 "Medicine_Bench",
                 "Basic_Ceiling_Light",
                 "Exposed_Ceiling_Light",
-                "Exposed_Wall_Light",
-                "Single_Wall_Light",
                 "Single_Ceiling_Light",
                 "Wood_Burner",
                 "Electric_Oxite_Dissolver",
@@ -1780,7 +1778,6 @@
                 "Iron_Half_Pitch_Ingot",
                 "Iron_Roof_Corner_Ingot",
                 "Exposed_Ceiling_Light_Foggy",
-                "Exposed_Wall_Light_Foggy",
                 "LightningRod_Platinum",
                 "Charging_Station",
                 "Butchery_Bench",
@@ -1861,7 +1858,8 @@
                 "Great_Hunts_Boss_Upgrade",
                 "Thumper_Mini",
                 "Flat_Solar_Panel",
-                "Rope_Silk"
+                "Rope_Silk",
+                "Bulk_Shotgun_Shell_Slug"
             ]
         },
         "FieldGuide_Character": {
@@ -2462,7 +2460,8 @@
                 "Gas_Fireplace_Cap",
                 "Mission_Sonic_Device",
                 "Concrete_Door",
-                "Rope_Silk"
+                "Rope_Silk",
+                "Bulk_Shotgun_Shell_Slug"
             ]
         },
         "Kit_Mortar_And_Pestle": {
@@ -2507,7 +2506,8 @@
                 "Seed_Oil_Avocado",
                 "Sugar_Kumara",
                 "Sugar_Honey",
-                "Mission_Homogenized_Sample"
+                "Mission_Homogenized_Sample",
+                "Bone_ElephantTusks"
             ]
         },
         "Kit_Oxite_Dissolver": {
@@ -2955,7 +2955,8 @@
                 "Seed_Oil_Soy",
                 "Seed_Oil_Avocado",
                 "Sugar_Kumara",
-                "Sugar_Honey"
+                "Sugar_Honey",
+                "Bone_ElephantTusks"
             ]
         },
         "Medicine_Bench": {
@@ -3555,11 +3556,13 @@
                 "Cow_Trophy",
                 "Rock_Golem_Chair",
                 "Calf_Trophy",
+                "Chick_Trophy",
                 "Juvenile_Rock_Golem_Trophy",
                 "Juvenile_Ape_Trophy",
                 "Snow_Viscid_Trophy",
                 "Snow_Mammoth_Trophy",
-                "Spider_Trophy"
+                "Spider_Trophy",
+                "Lamb_Trophy"
             ]
         },
         "Windmill": {
@@ -3604,7 +3607,8 @@
                 "Seed_Oil_Avocado",
                 "Sugar_Kumara",
                 "Sugar_Honey",
-                "Mission_Homogenized_Sample"
+                "Mission_Homogenized_Sample",
+                "Bone_ElephantTusks"
             ]
         },
         "Wood_Burner": {
@@ -3904,7 +3908,7 @@
             "weight": 1000
         },
         "Advanced_Kitchen_Sink": {
-            "displayName": "Plumbed Sink",
+            "displayName": "Marble Plumbed Sink",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Advanced_Kitchen_Sink",
             "description": "Fully plumbed basin and running water, a luxury of sorts.",
             "durability": 1000,
@@ -3916,6 +3920,9 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseCleaningEffectiveness_%": 100
+            },
             "weight": 20000
         },
         "Advanced_Kitchen_Storage": {
@@ -4160,7 +4167,6 @@
                 "Refrigerator",
                 "Repair_Bench",
                 "Electric_Dehumidifier",
-                "Worklamp_Directional",
                 "Worklamp_OmniDirectional",
                 "Heater_Large",
                 "Cooler_Large",
@@ -4761,7 +4767,8 @@
             "description": "Standard 12 gauge slug round.",
             "flavorText": "Now this thing can do some damage.",
             "recipes": [
-                "Shotgun_Shell_Armor_Piercing"
+                "Shotgun_Shell_Armor_Piercing",
+                "Bulk_Shotgun_Shell_Slug"
             ],
             "ingredientIn": [],
             "stackSize": 100,
@@ -5073,6 +5080,18 @@
             ],
             "stackSize": 1,
             "weight": 8000
+        },
+        "AnimalCarcass_Chick": {
+            "displayName": "Chick Carcass",
+            "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Chick",
+            "description": "A feathered friend lies at your feet, now dead.",
+            "durability": 100,
+            "flavorText": "Frozen on Earth, Defrosted on Icarus, What a Life...",
+            "recipes": [],
+            "ingredientIn": [],
+            "stackSize": 1,
+            "isCraftingRelated": false,
+            "weight": 5000
         },
         "AnimalCarcass_Chicken": {
             "displayName": "Chicken Carcass",
@@ -5766,6 +5785,7 @@
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Swamp_Slug",
             "description": "Corpse of a giant slug, modified by enzyme research.",
             "durability": 500,
+            "flavorText": "Another reminder that nothing survives Icarus forever.",
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -5775,8 +5795,9 @@
         "AnimalCarcass_Tusker": {
             "displayName": "Tusker Carcass",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_AnimalCarcass_Tusker",
-            "description": "A once proud beast, now lies dead at your feet.",
+            "description": "The massive bulk of this tusker has finally collapsed, its armor-like hide still warm.",
             "durability": 500,
+            "flavorText": "Another reminder that nothing survives Icarus forever.",
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -5800,6 +5821,7 @@
             "displayName": "Woolly Mammoth Carcass",
             "icon": "Items/Item_Icons/Carcasses/ITEM_AnimalCarcass_Mammoth",
             "durability": 500,
+            "flavorText": "Another reminder that nothing survives Icarus forever.",
             "recipes": [],
             "ingredientIn": [],
             "stackSize": 1,
@@ -6976,9 +6998,9 @@
             "weight": 500
         },
         "Basic_Ceiling_Light": {
-            "displayName": "Basic Ceiling Light",
+            "displayName": "Bunker Light",
             "icon": "Items/Item_Icons/Deployables/ITEM_Basic_Ceiling_Light",
-            "description": "A ceiling-mounted lamp, providing wide illumination, needing power.",
+            "description": "A bunker-style lamp, providing wide illumination, needing power.",
             "durability": 100,
             "flavorText": "We forgive children who are afraid of the dark. The tragedy is adults afraid of the light. - Plato",
             "mustBeOutside": false,
@@ -6987,11 +7009,11 @@
                 "Basic_Ceiling_Light"
             ],
             "ingredientIn": [],
-            "stackSize": 1,
+            "stackSize": 10,
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "weight": 1000
+            "weight": 750
         },
         "Basic_Fertilizer": {
             "displayName": "Basic Fertilizer",
@@ -7091,24 +7113,6 @@
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 500
-        },
-        "Basic_Wall_Light": {
-            "displayName": "Basic Wall Light",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Basic_Wall_Light",
-            "description": "A wall-mounted lamp, providing wide illumination, needing power.",
-            "durability": 100,
-            "flavorText": "Darkness cannot drive out darkness.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "Basic_Wall_Light"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 4
-            },
-            "weight": 1000
         },
         "Battery_Lantern": {
             "displayName": "Battery Powered Lantern",
@@ -10043,8 +10047,8 @@
             "weight": 2500
         },
         "Cat_Trophy_A2": {
-            "displayName": "Black Cat Trophy",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_B",
+            "displayName": "Orange Tabby Cat Trophy",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_C",
             "description": "A preserved memory of your feline friend.",
             "durability": 250,
             "flavorText": "Once a loyal companion.",
@@ -10061,8 +10065,8 @@
             "weight": 2500
         },
         "Cat_Trophy_A3": {
-            "displayName": "Orange Tabby Cat Trophy",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_C",
+            "displayName": "Black Cat Trophy",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Cat_Trophy_B",
             "description": "A preserved memory of your feline friend.",
             "durability": 250,
             "flavorText": "Once a loyal companion.",
@@ -10620,6 +10624,36 @@
             "ingredientIn": [],
             "stackSize": 1,
             "weight": 20000
+        },
+        "Chick_Head": {
+            "displayName": "Chick Vestige",
+            "icon": "Items/Item_Icons/Carcasses/T_ITEM_Chick_Head",
+            "description": "Once a little fuzz ball.",
+            "flavorText": "Who knew taxidermy would be so popular on Icarus?",
+            "recipes": [],
+            "ingredientIn": [
+                "Chick_Trophy"
+            ],
+            "stackSize": 5,
+            "weight": 500
+        },
+        "Chick_Trophy": {
+            "displayName": "Chick Trophy",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Chick_Trophy",
+            "description": "A mounted Chick.",
+            "durability": 250,
+            "flavorText": "Evidence of skill, patience and accuracy.",
+            "mustBeOutside": false,
+            "affectedByWeather": false,
+            "recipes": [
+                "Chick_Trophy"
+            ],
+            "ingredientIn": [],
+            "stackSize": 1,
+            "stats": {
+                "BaseComfortLevel_+": 4
+            },
+            "weight": 2000
         },
         "Chicken_Coop": {
             "displayName": "Rustic Chicken Coop",
@@ -11699,7 +11733,6 @@
                 "Composite_Leg_Armor",
                 "Composite_Feet_Armor",
                 "Electric_Dehumidifier",
-                "Worklamp_Directional",
                 "Worklamp_OmniDirectional",
                 "Solar_Panel",
                 "Chemistry_Bench",
@@ -12673,7 +12706,6 @@
                 "Biofuel_Generator",
                 "SplineTool_Electricity",
                 "SplineTool_Water",
-                "Basic_Wall_Light",
                 "Deep_Mining_Drill_Biofuel",
                 "Iron_Crop_Plot",
                 "Hydro_Crop_Plot",
@@ -12682,11 +12714,13 @@
                 "Cave_Scanner",
                 "Radar_Biofuel",
                 "Vapour_Condenser",
+                "Spotlight",
                 "Mission_Communicator_T3",
                 "Mission_Communicator_T4",
                 "Electric_Stove",
                 "Exotic_Harvester",
                 "Wind_Turbine",
+                "Shroud_Light",
                 "T3_Cleaning_Device",
                 "Battery_T3_Shelf",
                 "Battery_T4_Shelf",
@@ -12698,12 +12732,9 @@
                 "Mission_Incubator",
                 "Basic_Ceiling_Light",
                 "Exposed_Ceiling_Light",
-                "Exposed_Wall_Light",
-                "Single_Wall_Light",
                 "Single_Ceiling_Light",
                 "Electric_Oxite_Dissolver",
                 "Exposed_Ceiling_Light_Foggy",
-                "Exposed_Wall_Light_Foggy",
                 "LightningRod_Platinum",
                 "Charging_Station",
                 "Trail_Beacon",
@@ -13023,7 +13054,8 @@
             "flavorText": "Highly ground bone creates a useful ingredient for a range of concoctions.",
             "recipes": [
                 "Crushed_Bone",
-                "Bone_Tusks"
+                "Bone_Tusks",
+                "Bone_ElephantTusks"
             ],
             "ingredientIn": [
                 "Epoxy_2",
@@ -14308,7 +14340,6 @@
                 "Refrigerator",
                 "Dehumidifier",
                 "Electric_Dehumidifier",
-                "Worklamp_Directional",
                 "Worklamp_OmniDirectional",
                 "Heater_Large",
                 "Cooler_Large",
@@ -14394,6 +14425,12 @@
                 "Mission_Moisture",
                 "Mission_Scales",
                 "Great_Hunts_Boss_Upgrade",
+                "Sand_Armor_Head",
+                "Sand_Armor_Chest",
+                "Sand_Armor_Arms",
+                "Sand_Armor_Legs",
+                "Sand_Armor_Feet",
+                "Sand_Armor_Backpack",
                 "Thumper_Mini",
                 "Flat_Solar_Panel"
             ],
@@ -14464,6 +14501,17 @@
                 "BaseComfortLevel_+": 4
             },
             "weight": 2000
+        },
+        "Elephant_Tusk": {
+            "displayName": "Elephant Tusk",
+            "icon": "Items/Item_Icons/Resources/ITEM_Elephant_Tusk",
+            "description": "While not the biggest tusk one could find on Icarus, its still a valuable source of bone.",
+            "recipes": [],
+            "ingredientIn": [
+                "Bone_ElephantTusks"
+            ],
+            "stackSize": 1,
+            "weight": 7500
         },
         "Enemy_Turret_Pistol": {
             "displayName": "Blackmarket Automative Defence Turret (Pistol)",
@@ -15154,7 +15202,7 @@
             "weight": 500
         },
         "Exposed_Ceiling_Light": {
-            "displayName": "Exposed Ceiling Light",
+            "displayName": "Exposed Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light",
             "description": "A classic exposed light bulb.",
             "durability": 100,
@@ -15165,16 +15213,16 @@
                 "Exposed_Ceiling_Light"
             ],
             "ingredientIn": [],
-            "stackSize": 1,
+            "stackSize": 10,
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "weight": 1000
+            "weight": 250
         },
         "Exposed_Ceiling_Light_Foggy": {
-            "displayName": "Frosted Ceiling Light",
+            "displayName": "Frosted Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Ceiling_Light_Foggy",
-            "description": "A classic exposed light bulb.",
+            "description": "A frosted-style light bulb.",
             "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "mustBeOutside": false,
@@ -15183,47 +15231,11 @@
                 "Exposed_Ceiling_Light_Foggy"
             ],
             "ingredientIn": [],
-            "stackSize": 1,
+            "stackSize": 10,
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "weight": 1000
-        },
-        "Exposed_Wall_Light": {
-            "displayName": "Exposed Wall Light",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Wall_Light",
-            "description": "A classic exposed light bulb.",
-            "durability": 100,
-            "flavorText": "A simple light for your lighting needs.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "Exposed_Wall_Light"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 4
-            },
-            "weight": 1000
-        },
-        "Exposed_Wall_Light_Foggy": {
-            "displayName": "Frosted Wall Light",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Exposed_Wall_Light_Foggy",
-            "description": "A classic exposed light bulb.",
-            "durability": 100,
-            "flavorText": "A simple light for your lighting needs.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "Exposed_Wall_Light_Foggy"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 4
-            },
-            "weight": 1000
+            "weight": 250
         },
         "Extractor_Biofuel": {
             "displayName": "Biofuel Extractor",
@@ -16530,7 +16542,7 @@
             "weight": 0
         },
         "Fish_10": {
-            "displayName": "Emerald Diano",
+            "displayName": "Emerald Danio",
             "icon": "Items/Item_Icons/Fish/ITEM_Fish_10",
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
@@ -16541,7 +16553,7 @@
             "weight": 0
         },
         "Fish_10_Var2": {
-            "displayName": "Azure Diano",
+            "displayName": "Azure Danio",
             "icon": "Items/Item_Icons/Fish/ITEM_Fish_10_Var2",
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
@@ -16552,7 +16564,7 @@
             "weight": 0
         },
         "Fish_10_Var3": {
-            "displayName": "Coral Diano",
+            "displayName": "Coral Danio",
             "icon": "Items/Item_Icons/Fish/ITEM_Fish_10_Var3",
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
@@ -16563,7 +16575,7 @@
             "weight": 0
         },
         "Fish_10_Var4": {
-            "displayName": "Pearl Diano",
+            "displayName": "Pearl Danio",
             "icon": "Items/Item_Icons/Fish/ITEM_Fish_10_Var4",
             "description": "A rare freshwater fish. Can be filleted at a Fishing Bench.",
             "flavorText": "You caught this, with a rod or a trap. Right Click to convert this to Fish Chunks.",
@@ -19168,12 +19180,10 @@
                 "Dehumidifier",
                 "Portable_Beacon",
                 "Electric_Dehumidifier",
-                "Worklamp_Directional",
                 "Worklamp_OmniDirectional",
                 "Biofuel_Generator",
                 "Solar_Panel",
                 "Chemistry_Bench",
-                "Basic_Wall_Light",
                 "Solar_Panel_Repair",
                 "Radar_Biofuel",
                 "Vapour_Condenser",
@@ -19186,6 +19196,7 @@
                 "Attachment_Ranged_Weapons_Sniper_1",
                 "Attachment_Ranged_Weapons_Sniper_2",
                 "Attachment_Ranged_Weapons_Animal_Highlight",
+                "Spotlight",
                 "Mission_Communicator_T4",
                 "Electric_Stove",
                 "Aquarium",
@@ -19195,6 +19206,7 @@
                 "SpawnBlocker_T3",
                 "Anvil_Bench_T4",
                 "Raw_Wood_Lamp",
+                "Shroud_Light",
                 "Metal_Dresser",
                 "Metal_Nightstand",
                 "Metal_Lamp",
@@ -19215,12 +19227,9 @@
                 "Medicine_Bench",
                 "Basic_Ceiling_Light",
                 "Exposed_Ceiling_Light",
-                "Exposed_Wall_Light",
-                "Single_Wall_Light",
                 "Single_Ceiling_Light",
                 "Electric_Oxite_Dissolver",
                 "Exposed_Ceiling_Light_Foggy",
-                "Exposed_Wall_Light_Foggy",
                 "Charging_Station",
                 "Slug_Grenade",
                 "Slug_Trophy_Habitat",
@@ -20200,7 +20209,13 @@
                 "SilkWeave_Curtain_Window",
                 "Recovery_Beacon_Tracker",
                 "Mission_Sonic_Device",
-                "Mission_Scales"
+                "Mission_Scales",
+                "Sand_Armor_Head",
+                "Sand_Armor_Chest",
+                "Sand_Armor_Arms",
+                "Sand_Armor_Legs",
+                "Sand_Armor_Feet",
+                "Sand_Armor_Backpack"
             ],
             "stackSize": 200,
             "weight": 25
@@ -20368,7 +20383,8 @@
                 "Mission_Explosive_Crafted",
                 "AssaultRifle_Round",
                 "AssaultRifle_Round_Incendiary",
-                "Bulk_AssaultRifle_Round"
+                "Bulk_AssaultRifle_Round",
+                "Bulk_Shotgun_Shell_Slug"
             ],
             "stackSize": 100,
             "weight": 10
@@ -22756,6 +22772,36 @@
             "isCraftingRelated": false,
             "weight": 1500
         },
+        "Lamb_Head": {
+            "displayName": "Lamb Vestige",
+            "icon": "Items/Item_Icons/Carcasses/T_ITEM_Lamb_Head",
+            "description": "Once a little fur ball.",
+            "flavorText": "Who knew taxidermy would be so popular on Icarus?",
+            "recipes": [],
+            "ingredientIn": [
+                "Lamb_Trophy"
+            ],
+            "stackSize": 5,
+            "weight": 500
+        },
+        "Lamb_Trophy": {
+            "displayName": "Lamb Trophy",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Lamb_Trophy",
+            "description": "A mounted Lamb.",
+            "durability": 250,
+            "flavorText": "Evidence of skill, patience and accuracy.",
+            "mustBeOutside": false,
+            "affectedByWeather": false,
+            "recipes": [
+                "Lamb_Trophy"
+            ],
+            "ingredientIn": [],
+            "stackSize": 1,
+            "stats": {
+                "BaseComfortLevel_+": 4
+            },
+            "weight": 2000
+        },
         "Land_Shark_Head": {
             "displayName": "Landshark Vestige",
             "icon": "Items/Item_Icons/Carcasses/T_ITEM_Head_Landshark",
@@ -23828,39 +23874,23 @@
             "isCraftingRelated": false,
             "weight": 10
         },
-        "Light_Worklamp_Directional": {
-            "displayName": "Directional Worklamp",
-            "icon": "Items/Item_Icons/Deployables/ITEM_Light_Worklamp_Directional",
-            "description": "A basic lamp for illuminating a large area.",
-            "durability": 250,
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "Worklamp_Directional"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 4
-            },
-            "weight": 1000
-        },
         "Light_Worklamp_Omnidirectional": {
-            "displayName": "Omnidirectional Worklamp",
+            "displayName": "Worklamp",
             "icon": "Items/Item_Icons/Deployables/ITEM_Light_Worklamp_Omnidirectional",
-            "description": "A basic lamp for illuminating a large area.",
+            "description": "A fluorescent lamp for illuminating a large area.",
             "durability": 250,
+            "flavorText": "The traditional workshop workhorse.",
             "mustBeOutside": false,
             "affectedByWeather": false,
             "recipes": [
                 "Worklamp_OmniDirectional"
             ],
             "ingredientIn": [],
-            "stackSize": 1,
+            "stackSize": 10,
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "weight": 1000
+            "weight": 2000
         },
         "LightningRod_Basic": {
             "displayName": "Lightning Rod",
@@ -28148,6 +28178,85 @@
             "isCraftingRelated": false,
             "weight": 1000
         },
+        "Meta_Sickle_Inaris_01": {
+            "displayName": "Inaris Thorn Sickle",
+            "icon": "Items/Item_Icons/Tools/T_ITEM_Meta_Sickle_Inaris_01",
+            "description": "A sickle infused with distilled miasmic coating to provide bonuses when harvesting.",
+            "durability": 60000,
+            "flavorText": "Another tool for your arsenal.",
+            "recipes": [],
+            "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 100,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
+            "stackSize": 1,
+            "stats": {
+                "BaseAttacksCauseMiasma_%": 15,
+                "BaseHarvestingRewards_+%": -25,
+                "BasePlantThornsPerHarvestedResource_%": 100,
+                "BasePoisonDamage_+": 50
+            },
+            "isCraftingRelated": false,
+            "weight": 1000
+        },
+        "Meta_Sickle_Inaris_02": {
+            "displayName": "Inaris Scorch Sickle",
+            "icon": "Items/Item_Icons/Tools/T_ITEM_Meta_Sickle_Inaris_02",
+            "description": "A sickle which emits heats thanks to its obsidian core.",
+            "durability": 60000,
+            "flavorText": "Another tool for your arsenal.",
+            "recipes": [],
+            "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 100,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
+            "stackSize": 1,
+            "stats": {
+                "BaseAttacksCauseBurn_%": 15,
+                "BaseFireDamage_+": 50,
+                "BaseHarvestCookChance_%": 25
+            },
+            "isCraftingRelated": false,
+            "weight": 1000
+        },
+        "Meta_Sickle_Inaris_03": {
+            "displayName": "Inaris Icy Sickle",
+            "icon": "Items/Item_Icons/Tools/T_ITEM_Meta_Sickle_Inaris_03",
+            "description": "A sickle that is kept frosty due to the research into super cooled ice.",
+            "durability": 60000,
+            "flavorText": "Another tool for your arsenal.",
+            "recipes": [],
+            "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Exotic_Red": 100,
+                    "Credits": 200
+                },
+                "researchCost": {
+                    "Exotic_Red": 250
+                }
+            },
+            "stackSize": 1,
+            "stats": {
+                "BaseAttacksCauseFreeze_%": 15,
+                "BaseChilledAlterationChance_%": 30,
+                "BaseFrostDamage_+": 50
+            },
+            "isCraftingRelated": false,
+            "weight": 1000
+        },
         "Meta_Sickle_Larkwell": {
             "displayName": "Larkwell Martinez Sickle",
             "icon": "Items/Item_Icons/Tools/ITEM_Meta_Sickle_Larkwell",
@@ -31268,13 +31377,7 @@
                 "Vitamins",
                 "Dressing_Kit",
                 "Ape_Tonic",
-                "Synthetic_Enzymes",
-                "Sand_Armor_Head",
-                "Sand_Armor_Chest",
-                "Sand_Armor_Arms",
-                "Sand_Armor_Legs",
-                "Sand_Armor_Feet",
-                "Sand_Armor_Backpack"
+                "Synthetic_Enzymes"
             ],
             "stackSize": 100,
             "weight": 10
@@ -32052,7 +32155,8 @@
                 "Mission_Alternator",
                 "Mission_Radio",
                 "AssaultRifle_Armor_Piercing_Round",
-                "Platinum_Wave_Silk"
+                "Platinum_Wave_Silk",
+                "Bulk_Shotgun_Shell_Slug"
             ],
             "stackSize": 25,
             "weight": 250
@@ -34856,7 +34960,6 @@
                 "Pistol_Handgun",
                 "Reinforced_Railing",
                 "Carpentry_Bench_T4",
-                "Basic_Wall_Light",
                 "Iron_Crop_Plot",
                 "Cave_Scanner",
                 "Mission_Gyroscope",
@@ -34874,6 +34977,7 @@
                 "Attachment_Movement_Bonus_1",
                 "Attachment_Regen_Resistance_1",
                 "Advanced_Armor_Bench",
+                "Spotlight",
                 "Shield_Wooden",
                 "Metal_Sledgehammer",
                 "Mission_Communicator_T2",
@@ -34894,6 +34998,7 @@
                 "Painting_Scroll",
                 "Watering_Can",
                 "Anvil_Bench_T3",
+                "Shroud_Light",
                 "T3_Smoker",
                 "Metal_Table_Round",
                 "Metal_Table6",
@@ -34935,11 +35040,8 @@
                 "Medicine_Bench",
                 "Basic_Ceiling_Light",
                 "Exposed_Ceiling_Light",
-                "Exposed_Wall_Light",
-                "Single_Wall_Light",
                 "Single_Ceiling_Light",
                 "Exposed_Ceiling_Light_Foggy",
-                "Exposed_Wall_Light_Foggy",
                 "Butchery_Bench",
                 "Reinforced_Railing_Gate",
                 "Mission_AerosolEmitter",
@@ -35017,7 +35119,7 @@
             "icon": "Items/Item_Icons/Deployables/ITEM_Refrigerator",
             "description": "Greatly reduces food spoilage.",
             "durability": 1500,
-            "flavorText": "The Xigo-designed Skift ",
+            "flavorText": "Very Cool. ",
             "mustBeOutside": false,
             "affectedByWeather": true,
             "recipes": [
@@ -35215,7 +35317,7 @@
         },
         "Ren": {
             "displayName": "Ren",
-            "icon": "Icons/Icon_RenCurrency",
+            "icon": "Items/Item_Icons/Voxels/T_Item_Ren",
             "description": "The main currency used by the UDA. Prospectors take on contracts to Earn this so they can purchase and upgrade gear. Use an Orbital Exchange Interface to send to orbit.",
             "flavorText": "The global currency of Earth.",
             "recipes": [],
@@ -36945,7 +37047,7 @@
         "SandArmor_Backpack": {
             "displayName": "Carbonweave Backpack",
             "icon": "Items/Item_Icons/UseableItems/T_ITEM_SandArmor_Backpack",
-            "description": "Resilient Armor Designed Withstand the Extremely Hot Temperatures and Focus on Survival.",
+            "description": "A powered backpack that emits an aura of fall damage reduction and is made to help protect againat exposure. Can be recharged at the Charging Station.",
             "durability": 4000,
             "recipes": [
                 "Sand_Armor_Backpack"
@@ -38529,7 +38631,8 @@
             "ingredientIn": [
                 "Shotgun_Shell_Buckshot",
                 "Bulk_Shotgun_Shell_Buckshot",
-                "Shotgun_Shell_Armor_Piercing"
+                "Shotgun_Shell_Armor_Piercing",
+                "Bulk_Shotgun_Shell_Slug"
             ],
             "stackSize": 200,
             "weight": 8
@@ -38567,6 +38670,24 @@
                 "BaseToolStaminaActionCost_+%": -25
             },
             "weight": 500
+        },
+        "Shroud_Light": {
+            "displayName": "Shrouded Light",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Basic_Ceiling_Light_Shroud",
+            "description": "A handy shrouded light that gives off a cozy glow.",
+            "durability": 750,
+            "flavorText": "Save power, save lives.",
+            "mustBeOutside": false,
+            "affectedByWeather": false,
+            "recipes": [
+                "Shroud_Light"
+            ],
+            "ingredientIn": [],
+            "stackSize": 10,
+            "stats": {
+                "BaseComfortLevel_+": 6
+            },
+            "weight": 2500
         },
         "Sickle": {
             "displayName": "Iron Sickle",
@@ -38671,9 +38792,9 @@
             "weight": 1000
         },
         "Single_Ceiling_Light": {
-            "displayName": "Single Ceiling Light",
+            "displayName": "Caged Light",
             "icon": "Items/Item_Icons/Deployables/T_ITEM_Single_Ceiling_Light",
-            "description": "A simple ceiling light.",
+            "description": "A simple caged light.",
             "durability": 100,
             "flavorText": "A simple light for your lighting needs.",
             "mustBeOutside": false,
@@ -38682,29 +38803,11 @@
                 "Single_Ceiling_Light"
             ],
             "ingredientIn": [],
-            "stackSize": 1,
+            "stackSize": 10,
             "stats": {
                 "BaseComfortLevel_+": 4
             },
-            "weight": 1000
-        },
-        "Single_Wall_Light": {
-            "displayName": "Single Wall Light",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Single_Wall_Light",
-            "description": "A simple wall light.",
-            "durability": 100,
-            "flavorText": "A simple light for your lighting needs.",
-            "mustBeOutside": false,
-            "affectedByWeather": false,
-            "recipes": [
-                "Single_Wall_Light"
-            ],
-            "ingredientIn": [],
-            "stackSize": 1,
-            "stats": {
-                "BaseComfortLevel_+": 4
-            },
-            "weight": 1000
+            "weight": 500
         },
         "Slug_Attachment": {
             "displayName": "Hammerhead Slime Attachment",
@@ -39730,7 +39833,6 @@
             "ingredientIn": [
                 "Biofuel7",
                 "Basic_Fertilizer",
-                "Composter_Wood",
                 "Volatile_Substance",
                 "Gunpowder_Salt",
                 "Creature_Bait_Boar",
@@ -39754,6 +39856,23 @@
                 "BaseWaterRecovery_+": 25
             },
             "weight": 100
+        },
+        "Spotlight": {
+            "displayName": "Spotlight",
+            "icon": "Items/Item_Icons/Deployables/ITEM_Spotlight_Tripod",
+            "description": "A high intensity spotlight.",
+            "durability": 250,
+            "mustBeOutside": false,
+            "affectedByWeather": false,
+            "recipes": [
+                "Spotlight"
+            ],
+            "ingredientIn": [],
+            "stackSize": 10,
+            "stats": {
+                "BaseComfortLevel_+": 4
+            },
+            "weight": 3000
         },
         "Squash": {
             "displayName": "Squash",
@@ -42429,6 +42548,7 @@
                 "Blood_Thinning_Pill",
                 "Pistol_Handgun",
                 "Farmers_Shotgun",
+                "Composter_Wood",
                 "Mission_Prototype_Laser",
                 "Cured_Leather",
                 "Cured_Leather_2",
@@ -44117,6 +44237,7 @@
                 "Submachine_Gun",
                 "Cow_Trophy",
                 "Calf_Trophy",
+                "Chick_Trophy",
                 "ResearchEquipment_LabDesk",
                 "Juvenile_Rock_Golem_Trophy",
                 "Juvenile_Ape_Trophy",
@@ -44129,7 +44250,8 @@
                 "Stone_Brick_Fireplace",
                 "Stone_Brick_Fireplace_Ext",
                 "Stone_Brick_Fireplace_Cap",
-                "Spider_Trophy"
+                "Spider_Trophy",
+                "Lamb_Trophy"
             ],
             "stackSize": 100,
             "weight": 75
@@ -44410,8 +44532,8 @@
             "weight": 100
         },
         "Workshop_Calf": {
-            "displayName": "Cryogenically Frozen Calf",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Calf",
+            "displayName": "Cryogenically Frozen Calf (Female)",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Calf_Female",
             "description": "A Calf preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
             "durability": 100,
             "flavorText": "Preserved for revival - not eating.",
@@ -44501,12 +44623,12 @@
             "isCraftingRelated": false,
             "weight": 3000
         },
-        "Workshop_Chicken": {
-            "displayName": "Cryogenically Frozen Chicken",
-            "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Chicken",
-            "description": "A Chicken preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+        "Workshop_Chick_Female": {
+            "displayName": "Cryogenically Frozen Chick (Female)",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Chick_Female",
+            "description": "A Chick preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
             "durability": 100,
-            "flavorText": "Comes in 3 different colours",
+            "flavorText": "Bok bok",
             "mustBeOutside": false,
             "affectedByWeather": false,
             "recipes": [],
@@ -44520,6 +44642,20 @@
                     "Exotic1": 250
                 }
             },
+            "stackSize": 1,
+            "isCraftingRelated": false,
+            "weight": 1000
+        },
+        "Workshop_Chicken": {
+            "displayName": "Cryogenically Frozen Chicken",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Workshop_Chicken",
+            "description": "A Chicken preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
+            "flavorText": "Comes in 3 different colours",
+            "mustBeOutside": false,
+            "affectedByWeather": false,
+            "recipes": [],
+            "ingredientIn": [],
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 1000
@@ -44545,7 +44681,7 @@
             },
             "stackSize": 1,
             "isCraftingRelated": false,
-            "weight": 20000
+            "weight": 3500
         },
         "Workshop_Dog_A1": {
             "displayName": "Cryogenically Frozen Golden Labrador",
@@ -44762,7 +44898,7 @@
             },
             "stackSize": 1,
             "isCraftingRelated": false,
-            "weight": 20000
+            "weight": 5000
         },
         "Workshop_Horse_A1": {
             "displayName": "Cryogenically Frozen Brown Horse",
@@ -44852,6 +44988,28 @@
             "isCraftingRelated": false,
             "weight": 2000
         },
+        "Workshop_Lamb_Female": {
+            "displayName": "Cryogenically Frozen Lamb (Female)",
+            "icon": "Items/Item_Icons/Deployables/T_ITEM_Lamb_Female",
+            "description": "A Lamb preserved in a cryogenic stasis that can be deployed and defrosted on planet.",
+            "durability": 100,
+            "mustBeOutside": false,
+            "affectedByWeather": false,
+            "recipes": [],
+            "ingredientIn": [],
+            "workshopItem": {
+                "craftCost": {
+                    "Credits": 250
+                },
+                "researchCost": {
+                    "Credits": 500,
+                    "Exotic1": 250
+                }
+            },
+            "stackSize": 1,
+            "isCraftingRelated": false,
+            "weight": 1000
+        },
         "Workshop_Purification_Tablet": {
             "displayName": "Xigo Puri-tab",
             "icon": "Items/Item_Icons/Resources/T_ITEM_Water_Purification_Tablet",
@@ -44884,15 +45042,6 @@
             "affectedByWeather": false,
             "recipes": [],
             "ingredientIn": [],
-            "workshopItem": {
-                "craftCost": {
-                    "Credits": 250
-                },
-                "researchCost": {
-                    "Credits": 500,
-                    "Exotic1": 250
-                }
-            },
             "stackSize": 1,
             "isCraftingRelated": false,
             "weight": 5000
@@ -47243,7 +47392,7 @@
                 },
                 {
                     "item": "Wool",
-                    "count": 20
+                    "count": 6
                 }
             ],
             "outputs": [
@@ -49536,7 +49685,7 @@
             "inputs": [
                 {
                     "item": "Wool",
-                    "count": 40
+                    "count": 6
                 }
             ],
             "outputs": [
@@ -49614,7 +49763,7 @@
                 },
                 {
                     "item": "Wool",
-                    "count": 40
+                    "count": 6
                 }
             ],
             "outputs": [
@@ -49692,7 +49841,7 @@
                 },
                 {
                     "item": "Wool",
-                    "count": 40
+                    "count": 6
                 }
             ],
             "outputs": [
@@ -49900,32 +50049,6 @@
             "outputs": [
                 {
                     "item": "Basic_Oxite_Dissolver",
-                    "count": 1
-                }
-            ]
-        },
-        "Basic_Wall_Light": {
-            "requirement": "Basic_Wall_Light",
-            "craftedAt": [
-                "Fabricator"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 40
-                },
-                {
-                    "item": "Glass",
-                    "count": 6
-                },
-                {
-                    "item": "Refined_Metal",
-                    "count": 15
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Basic_Wall_Light",
                     "count": 1
                 }
             ]
@@ -51430,6 +51553,25 @@
                 }
             ]
         },
+        "Bone_ElephantTusks": {
+            "craftedAt": [
+                "Kit_Mortar_And_Pestle",
+                "Windmill",
+                "Material_Processor"
+            ],
+            "inputs": [
+                {
+                    "item": "Elephant_Tusk",
+                    "count": 1
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Crushed_Bone",
+                    "count": 200
+                }
+            ]
+        },
         "Bone_Feet_Armor": {
             "requirement": "Bone_Chest_Armor",
             "craftedAt": [
@@ -52584,6 +52726,33 @@
             "outputs": [
                 {
                     "item": "Ammo_Shell_Buckshot",
+                    "count": 5
+                }
+            ]
+        },
+        "Bulk_Shotgun_Shell_Slug": {
+            "requirement": "Shotgun_Shell_Buckshot",
+            "craftedAt": [
+                "Kit_Machining_Bench",
+                "Fabricator"
+            ],
+            "inputs": [
+                {
+                    "item": "Gunpowder",
+                    "count": 5
+                },
+                {
+                    "item": "Platinum_Shealth",
+                    "count": 5
+                },
+                {
+                    "item": "Shotgun_Casing",
+                    "count": 5
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Ammo_Shell_Slug",
                     "count": 5
                 }
             ]
@@ -55421,6 +55590,27 @@
                 }
             ]
         },
+        "Chick_Trophy": {
+            "craftedAt": [
+                "Trophy_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "Chick_Head",
+                    "count": 1
+                },
+                {
+                    "item": "Wood_Refined",
+                    "count": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Chick_Trophy",
+                    "count": 1
+                }
+            ]
+        },
         "Chicken_Coop": {
             "requirement": "Chicken_Coop",
             "craftedAt": [
@@ -57085,16 +57275,16 @@
             ],
             "inputs": [
                 {
-                    "item": "Spoiled_Plants",
-                    "count": 5
-                },
-                {
                     "item": "Stone",
                     "count": 10
                 },
                 {
                     "item": "Sulfur",
                     "count": 5
+                },
+                {
+                    "item": "Tree_Sap",
+                    "count": 10
                 },
                 {
                     "item": "Wood",
@@ -60330,58 +60520,6 @@
             "outputs": [
                 {
                     "item": "Exposed_Ceiling_Light_Foggy",
-                    "count": 1
-                }
-            ]
-        },
-        "Exposed_Wall_Light": {
-            "requirement": "Exposed_Wall_Light",
-            "craftedAt": [
-                "Fabricator"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 10
-                },
-                {
-                    "item": "Glass",
-                    "count": 3
-                },
-                {
-                    "item": "Refined_Metal",
-                    "count": 6
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Exposed_Wall_Light",
-                    "count": 1
-                }
-            ]
-        },
-        "Exposed_Wall_Light_Foggy": {
-            "requirement": "Exposed_Wall_Light_Foggy",
-            "craftedAt": [
-                "Fabricator"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 10
-                },
-                {
-                    "item": "Glass",
-                    "count": 3
-                },
-                {
-                    "item": "Refined_Metal",
-                    "count": 6
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Exposed_Wall_Light_Foggy",
                     "count": 1
                 }
             ]
@@ -69146,6 +69284,27 @@
                 }
             ]
         },
+        "Lamb_Trophy": {
+            "craftedAt": [
+                "Trophy_Bench"
+            ],
+            "inputs": [
+                {
+                    "item": "Lamb_Head",
+                    "count": 1
+                },
+                {
+                    "item": "Wood_Refined",
+                    "count": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Lamb_Trophy",
+                    "count": 1
+                }
+            ]
+        },
         "Landmine": {
             "requirement": "Landmine",
             "craftedAt": [
@@ -74749,7 +74908,7 @@
                 },
                 {
                     "item": "Wool",
-                    "count": 30
+                    "count": 2
                 }
             ],
             "outputs": [
@@ -77870,7 +78029,7 @@
             "inputs": [
                 {
                     "item": "Wool",
-                    "count": 5
+                    "count": 3
                 }
             ],
             "outputs": [
@@ -78874,7 +79033,7 @@
                 },
                 {
                     "item": "Wool",
-                    "count": 25
+                    "count": 12
                 }
             ],
             "outputs": [
@@ -79447,8 +79606,12 @@
                     "count": 20
                 },
                 {
-                    "item": "Organic_Resin",
-                    "count": 30
+                    "item": "Electronics",
+                    "count": 1
+                },
+                {
+                    "item": "Gold_Wire",
+                    "count": 10
                 },
                 {
                     "item": "Platinum_Weave",
@@ -79473,8 +79636,12 @@
                     "count": 30
                 },
                 {
-                    "item": "Organic_Resin",
-                    "count": 25
+                    "item": "Electronics",
+                    "count": 4
+                },
+                {
+                    "item": "Gold_Wire",
+                    "count": 35
                 },
                 {
                     "item": "Platinum_Weave",
@@ -79499,8 +79666,12 @@
                     "count": 30
                 },
                 {
-                    "item": "Organic_Resin",
-                    "count": 40
+                    "item": "Electronics",
+                    "count": 2
+                },
+                {
+                    "item": "Gold_Wire",
+                    "count": 20
                 },
                 {
                     "item": "Platinum_Weave",
@@ -79525,8 +79696,12 @@
                     "count": 20
                 },
                 {
-                    "item": "Organic_Resin",
-                    "count": 25
+                    "item": "Electronics",
+                    "count": 1
+                },
+                {
+                    "item": "Gold_Wire",
+                    "count": 5
                 },
                 {
                     "item": "Platinum_Weave",
@@ -79551,8 +79726,12 @@
                     "count": 20
                 },
                 {
-                    "item": "Organic_Resin",
-                    "count": 20
+                    "item": "Electronics",
+                    "count": 1
+                },
+                {
+                    "item": "Gold_Wire",
+                    "count": 15
                 },
                 {
                     "item": "Platinum_Weave",
@@ -79577,8 +79756,12 @@
                     "count": 30
                 },
                 {
-                    "item": "Organic_Resin",
-                    "count": 40
+                    "item": "Electronics",
+                    "count": 2
+                },
+                {
+                    "item": "Gold_Wire",
+                    "count": 15
                 },
                 {
                     "item": "Platinum_Weave",
@@ -82124,6 +82307,32 @@
                 }
             ]
         },
+        "Shroud_Light": {
+            "requirement": "Shroud_Light",
+            "craftedAt": [
+                "Fabricator"
+            ],
+            "inputs": [
+                {
+                    "item": "Copper_Wire",
+                    "count": 10
+                },
+                {
+                    "item": "Glass",
+                    "count": 10
+                },
+                {
+                    "item": "Refined_Metal",
+                    "count": 20
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Shroud_Light",
+                    "count": 1
+                }
+            ]
+        },
         "Sickle": {
             "requirement": "Sickle",
             "craftedAt": [
@@ -82263,32 +82472,6 @@
             "outputs": [
                 {
                     "item": "Single_Ceiling_Light",
-                    "count": 1
-                }
-            ]
-        },
-        "Single_Wall_Light": {
-            "requirement": "Single_Wall_Light",
-            "craftedAt": [
-                "Fabricator"
-            ],
-            "inputs": [
-                {
-                    "item": "Copper_Wire",
-                    "count": 15
-                },
-                {
-                    "item": "Glass",
-                    "count": 4
-                },
-                {
-                    "item": "Refined_Metal",
-                    "count": 7
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Single_Wall_Light",
                     "count": 1
                 }
             ]
@@ -83316,6 +83499,32 @@
             "outputs": [
                 {
                     "item": "Splint",
+                    "count": 1
+                }
+            ]
+        },
+        "Spotlight": {
+            "requirement": "Spotlight",
+            "craftedAt": [
+                "Fabricator"
+            ],
+            "inputs": [
+                {
+                    "item": "Copper_Wire",
+                    "count": 10
+                },
+                {
+                    "item": "Glass",
+                    "count": 6
+                },
+                {
+                    "item": "Refined_Metal",
+                    "count": 15
+                }
+            ],
+            "outputs": [
+                {
+                    "item": "Spotlight",
                     "count": 1
                 }
             ]
@@ -85142,7 +85351,7 @@
                 },
                 {
                     "item": "Wool",
-                    "count": 10
+                    "count": 2
                 }
             ],
             "outputs": [
@@ -88384,36 +88593,6 @@
                 }
             ]
         },
-        "Worklamp_Directional": {
-            "requirement": "Worklamp_Directional",
-            "craftedAt": [
-                "Fabricator"
-            ],
-            "inputs": [
-                {
-                    "item": "Aluminium",
-                    "count": 10
-                },
-                {
-                    "item": "Composites",
-                    "count": 5
-                },
-                {
-                    "item": "Electronics",
-                    "count": 2
-                },
-                {
-                    "item": "Glass",
-                    "count": 5
-                }
-            ],
-            "outputs": [
-                {
-                    "item": "Light_Worklamp_Directional",
-                    "count": 1
-                }
-            ]
-        },
         "Worklamp_OmniDirectional": {
             "requirement": "Worklamp_OmniDirectional",
             "craftedAt": [
@@ -88422,11 +88601,11 @@
             "inputs": [
                 {
                     "item": "Aluminium",
-                    "count": 20
+                    "count": 10
                 },
                 {
                     "item": "Composites",
-                    "count": 10
+                    "count": 5
                 },
                 {
                     "item": "Electronics",
@@ -88825,6 +89004,10 @@
         "BaseChilledAlterationChance_%": {
             "positiveFormat": "+{0}% Chance to apply the Chilled Modifier",
             "negativeFormat": "-{0}% Plants with Chilled Modifier per Harvested Plant"
+        },
+        "BaseCleaningEffectiveness_%": {
+            "positiveFormat": "{0}% Cleaning Effectiveness",
+            "negativeFormat": "-{0}% Cleaning Effectiveness"
         },
         "BaseColdResistance_%": {
             "positiveFormat": "+{0}% Cold Resistance",

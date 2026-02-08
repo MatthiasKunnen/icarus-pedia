@@ -3471,7 +3471,7 @@
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
-                "(Value=\"BaseRadiationResistance_%\")": 20
+                "(Value=\"BaseRadiationResistance_%\")": 15
             },
             "ArmourType": "Undersuit_Helmet",
             "ArmourSet": {
@@ -3491,7 +3491,7 @@
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
-                "(Value=\"BaseRadiationResistance_%\")": 20
+                "(Value=\"BaseRadiationResistance_%\")": 15
             },
             "ArmourType": "Chest",
             "ArmourSet": {
@@ -3507,7 +3507,7 @@
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
             "FirstPersonAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Arm_AnimBP.SK_1ST_CHA_MAL_ARM_Arm_AnimBP_C",
             "ArmourStats": {
-                "(Value=\"BaseRadiationResistance_%\")": 20
+                "(Value=\"BaseRadiationResistance_%\")": 15
             },
             "ArmourType": "Hands",
             "ArmourSet": {
@@ -3521,7 +3521,7 @@
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
-                "(Value=\"BaseRadiationResistance_%\")": 20
+                "(Value=\"BaseRadiationResistance_%\")": 15
             },
             "ArmourType": "Legs",
             "ArmourSet": {
@@ -3535,7 +3535,7 @@
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
-                "(Value=\"BaseRadiationResistance_%\")": 20
+                "(Value=\"BaseRadiationResistance_%\")": 15
             },
             "ArmourType": "Feet",
             "ArmourSet": {
@@ -3636,8 +3636,8 @@
         },
         {
             "Name": "Synthetic_Armor_Head",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Helmet.SK_CHA_MAL_ARM_T5_Synthetic_Helmet",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Helmet.SK_CHA_MAL_ARM_T5_Synthetic_Helmet",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Head_Synthetic_Sleek.SK_CHA_MAL_ARM_Head_Synthetic_Sleek",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Head_Synthetic_Sleek.SK_CHA_MAL_ARM_Head_Synthetic_Sleek",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Head_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3646,15 +3646,15 @@
                 "(Value=\"BaseColdResistance_%\")": 7,
                 "(Value=\"BaseHealthRegen_+%\")": 200
             },
-            "ArmourType": "Head",
+            "ArmourType": "Undersuit_Helmet",
             "ArmourSet": {
                 "RowName": "Synthetic_Armor"
             }
         },
         {
             "Name": "Synthetic_Armor_Chest",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Chest.SK_CHA_MAL_ARM_T5_Synthetic_Chest",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Chest.SK_CHA_MAL_ARM_T5_Synthetic_Chest",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Chest_Synthetic_Sleek.SK_CHA_MAL_ARM_Chest_Synthetic_Sleek",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_FEM_ARM_Chest_Synthetic_Sleek.SK_CHA_FEM_ARM_Chest_Synthetic_Sleek",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Chest_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3670,9 +3670,9 @@
         },
         {
             "Name": "Synthetic_Armor_Arms",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Gloves.SK_CHA_MAL_ARM_T5_Synthetic_Gloves",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Gloves.SK_CHA_MAL_ARM_T5_Synthetic_Gloves",
-            "FirstPersonMeshVariant": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_T5_Synthetic_Gloves.SK_1ST_CHA_MAL_ARM_T5_Synthetic_Gloves",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_1ST_CHA_MAL_ARM_Arms_Synthetic_Sleek.SK_1ST_CHA_MAL_ARM_Arms_Synthetic_Sleek",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Arms_Synthetic_Sleek.SK_CHA_MAL_ARM_Arms_Synthetic_Sleek",
+            "FirstPersonMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Arms_Synthetic_Sleek.SK_CHA_MAL_ARM_Arms_Synthetic_Sleek",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Arm_base_CopyPose_AnimBP_C",
             "FirstPersonAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_1ST_CHA_MAL_ARM_Arm_AnimBP.SK_1ST_CHA_MAL_ARM_Arm_AnimBP_C",
@@ -3689,8 +3689,8 @@
         },
         {
             "Name": "Synthetic_Armor_Legs",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Legs.SK_CHA_MAL_ARM_T5_Synthetic_Legs",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Legs.SK_CHA_MAL_ARM_T5_Synthetic_Legs",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Legs_Synthetic_Sleek.SK_CHA_MAL_ARM_Legs_Synthetic_Sleek",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Legs_Synthetic_Sleek.SK_CHA_MAL_ARM_Legs_Synthetic_Sleek",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Legs_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3706,8 +3706,8 @@
         },
         {
             "Name": "Synthetic_Armor_Feet",
-            "ArmourMesh": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Feet.SK_CHA_MAL_ARM_T5_Synthetic_Feet",
-            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_T5_Synthetic_Feet.SK_CHA_MAL_ARM_T5_Synthetic_Feet",
+            "ArmourMesh": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Feet_Synthetic_Sleek.SK_CHA_MAL_ARM_Feet_Synthetic_Sleek",
+            "FemaleMeshVariant": "/Game/ASS/CHA/ARM/Synthetic_Sleek/SK_CHA_MAL_ARM_Feet_Synthetic_Sleek.SK_CHA_MAL_ARM_Feet_Synthetic_Sleek",
             "AnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
             "FemaleAnimBlueprintClass": "/Game/ASS/CHA/ARM/SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP.SK_CHA_MAL_ARM_Feet_Base_CopyPose_AnimBP_C",
             "ArmourStats": {
@@ -3927,6 +3927,12 @@
             "ArmourSet": {
                 "RowName": "Polarbear"
             }
+        },
+        {
+            "Name": "Sandwyrm_Backpack",
+            "ArmourMesh": "/Game/ASS/ITM/SK_ITM_Backpack_LavaHunter.SK_ITM_Backpack_LavaHunter",
+            "AnimBlueprintClass": "/Game/ASS/ITM/SK_ITM_Backpack_CopyPose_AnimBP.SK_ITM_Backpack_CopyPose_AnimBP_C",
+            "ArmourType": "Backpack"
         }
     ]
 }

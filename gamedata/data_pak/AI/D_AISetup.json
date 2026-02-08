@@ -73,6 +73,7 @@
         "PercentChanceToSpawn": 0,
         "AdditionalAIToSpawn": []
     },
+    "GenerateEnum": true,
     "Rows": [
         {
             "Name": "Invalid",
@@ -15876,7 +15877,7 @@
             "ActorClass": "/Game/BP/Mounts/BP_Tamed_Wolf_Snow.BP_Tamed_Wolf_Snow_C",
             "ControllerClass": "/Game/BP/AI/Basic/Mounts/BP_MountAIController.BP_MountAIController_C",
             "CreatureType": {
-                "RowName": "Wolf"
+                "RowName": "Snow_Wolf"
             },
             "DeadItem": {
                 "RowName": "AnimalCarcass_Snow_Wolf"
@@ -16025,7 +16026,7 @@
             "ActorClass": "/Game/BP/Mounts/BP_Tamed_Wolf_Desert.BP_Tamed_Wolf_Desert_C",
             "ControllerClass": "/Game/BP/AI/Basic/Mounts/BP_MountAIController.BP_MountAIController_C",
             "CreatureType": {
-                "RowName": "Wolf"
+                "RowName": "Hyena"
             },
             "DeadItem": {
                 "RowName": "AnimalCarcass_Desert_Wolf"
@@ -16633,7 +16634,7 @@
                 "RowName": "AnimalCarcass_Sheep"
             },
             "GOAPSetup": {
-                "RowName": "NoGOAP"
+                "RowName": "Sheep"
             },
             "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
             "Relationships": {
@@ -22653,6 +22654,313 @@
             }
         },
         {
+            "Name": "Chick",
+            "ActorClass": "/Game/BP/AI/GOAP/AI/BP_NPC_Chick_Juvenile_Character.BP_NPC_Chick_Juvenile_Character_C",
+            "ControllerClass": "/Game/BP/AI/GOAP/AI/BP_NPC_Juvenile_Controller.BP_NPC_Juvenile_Controller_C",
+            "CreatureType": {
+                "RowName": "Chick"
+            },
+            "Descriptors": [
+                {
+                    "RowName": "Passive",
+                    "DataTableName": "D_AIDescriptors"
+                },
+                {
+                    "RowName": "Herbivore",
+                    "DataTableName": "D_AIDescriptors"
+                }
+            ],
+            "DeadItem": {
+                "RowName": "AnimalCarcass_Chick"
+            },
+            "GOAPSetup": {
+                "RowName": "Juvenile_Domesticated"
+            },
+            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
+            "Relationships": {
+                "RowName": "Player"
+            },
+            "NotifiedNPCTypes": [
+                {
+                    "RowName": "NPC_Passive",
+                    "DataTableName": "D_TagQueries"
+                }
+            ],
+            "AIGrowth": {
+                "RowName": "Chicken"
+            },
+            "MovementMapping": {
+                "Stationary": {
+                    "MaxWalkSpeed": 0,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 250,
+                    "MaxSwimSpeed": 1
+                },
+                "Sneak": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 250,
+                    "MaxSwimSpeed": 1
+                },
+                "Walk": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 250,
+                    "MaxSwimSpeed": 1
+                },
+                "Jog": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 250,
+                    "MaxSwimSpeed": 1
+                },
+                "Run": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 250,
+                    "MaxSwimSpeed": 1
+                },
+                "Sprint": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Attacking": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Following": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Undefined": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                }
+            },
+            "Audio": {
+                "RowName": "Chick"
+            },
+            "ValidBaitTagQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.Bait"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Food.Herbivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "Chick_Head"
+            },
+            "Loot": {
+                "RowName": "Chick_Loot"
+            },
+            "Hitable": {
+                "RowName": "AnimalBones_Small"
+            },
+            "bUseSurvivalCharacterState": true,
+            "BestiaryGroup": {
+                "RowName": "Chicken"
+            }
+        },
+        {
+            "Name": "Lamb",
+            "ActorClass": "/Game/BP/AI/GOAP/AI/BP_NPC_Lamb_Juvenile_Character.BP_NPC_Lamb_Juvenile_Character_C",
+            "ControllerClass": "/Game/BP/AI/GOAP/AI/BP_NPC_Juvenile_Controller.BP_NPC_Juvenile_Controller_C",
+            "CreatureType": {
+                "RowName": "Lamb"
+            },
+            "Descriptors": [
+                {
+                    "RowName": "Passive",
+                    "DataTableName": "D_AIDescriptors"
+                },
+                {
+                    "RowName": "Herbivore",
+                    "DataTableName": "D_AIDescriptors"
+                }
+            ],
+            "DeadItem": {
+                "RowName": "AnimalCarcass_Lamb"
+            },
+            "GOAPSetup": {
+                "RowName": "Juvenile_Domesticated"
+            },
+            "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_JuvenileAI.NavFilter_JuvenileAI_C'",
+            "Relationships": {
+                "RowName": "Player"
+            },
+            "NotifiedNPCTypes": [
+                {
+                    "RowName": "NPC_Passive",
+                    "DataTableName": "D_TagQueries"
+                }
+            ],
+            "AIGrowth": {
+                "RowName": "Lamb"
+            },
+            "MovementMapping": {
+                "Stationary": {
+                    "MaxWalkSpeed": 1,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Sneak": {
+                    "MaxWalkSpeed": 1,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Walk": {
+                    "MaxWalkSpeed": 1,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 75,
+                    "MaxSwimSpeed": 1
+                },
+                "Jog": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Run": {
+                    "MaxWalkSpeed": 3,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 500,
+                    "BrakingDeceleration": 450,
+                    "RotationRate": 125,
+                    "MaxSwimSpeed": 1
+                },
+                "Sprint": {
+                    "MaxWalkSpeed": 5.449999809265137,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 1800,
+                    "BrakingDeceleration": 500,
+                    "RotationRate": 125,
+                    "MaxSwimSpeed": 1
+                },
+                "Attacking": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 125,
+                    "MaxSwimSpeed": 1
+                },
+                "Following": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                },
+                "Undefined": {
+                    "MaxWalkSpeed": 2,
+                    "GroundFriction": 8,
+                    "BrakingFriction": 2,
+                    "MaxAcceleration": 300,
+                    "BrakingDeceleration": 250,
+                    "RotationRate": 100,
+                    "MaxSwimSpeed": 1
+                }
+            },
+            "Audio": {
+                "RowName": "Lamb"
+            },
+            "CollisionHitEventBones": [
+                "RigNeck1",
+                "RigChest",
+                "RigSpine1"
+            ],
+            "ValidBaitTagQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "GOAP.Food.Herbivore.Bait"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "AutoDescription": " ANY( GOAP.Food.Herbivore.Bait )"
+            },
+            "Trophy": {
+                "RowName": "Lamb_Head"
+            },
+            "Loot": {
+                "RowName": "Lamb_Carcass"
+            },
+            "Hitable": {
+                "RowName": "AnimalBones_Medium"
+            },
+            "bUseSurvivalCharacterState": true,
+            "BestiaryGroup": {
+                "RowName": "Sheep"
+            }
+        },
+        {
             "Name": "Juvenile_Rock_Golem",
             "ActorClass": "/Game/BP/AI/GOAP/AI/BP_NPC_RockGolem_Juvenile.BP_NPC_RockGolem_Juvenile_C",
             "ControllerClass": "/Game/BP/AI/GOAP/AI/BP_NPC_RockGolemJuvenile_Controller.BP_NPC_RockGolemJuvenile_Controller_C",
@@ -24774,7 +25082,7 @@
         },
         {
             "Name": "Drone",
-            "ActorClass": "/Game/BP/AI/Basic/Drone/BP_NPC_Drone.BP_NPC_Drone_C",
+            "ActorClass": "/Game/BP/AI/Basic/Drone/BP_NPC_Drone_Standard.BP_NPC_Drone_Standard_C",
             "ControllerClass": "/Game/BP/AI/Basic/Kea/BP_NPC_Kea_Controller.BP_NPC_Kea_Controller_C",
             "CreatureType": {
                 "RowName": "Drone"
@@ -24794,7 +25102,7 @@
             },
             "DefaultNavigationFilter": "BlueprintGeneratedClass'/Game/BP/AI/GOAP/Misc/NavFilter_DefaultAI.NavFilter_DefaultAI_C'",
             "Relationships": {
-                "RowName": "EnemyPlayerOnly"
+                "RowName": "DefaultMediumCarnivore"
             },
             "NotifiedNPCTypes": [
                 {

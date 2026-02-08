@@ -11,6 +11,9 @@
             "Value": "None"
         },
         "DurationInSeconds": 0,
+        "StatBasedDuration": {
+            "Value": "None"
+        },
         "Modifier": {
             "RowName": "None",
             "DataTableName": "D_ModifierStates"
@@ -108,6 +111,9 @@
             "AfflictionStat": {
                 "Value": "AttacksCausePoisonSting_%"
             },
+            "ResistanceStat": {
+                "Value": "PoisonResistance_%"
+            },
             "DurationInSeconds": 30,
             "Modifier": {
                 "RowName": "Poison_Sting"
@@ -117,6 +123,9 @@
             "Name": "Poison_Sting_Stackable",
             "AfflictionStat": {
                 "Value": "AttacksCausePoisonStingStackable_%"
+            },
+            "ResistanceStat": {
+                "Value": "PoisonResistance_%"
             },
             "DurationInSeconds": 15,
             "Modifier": {
@@ -512,6 +521,25 @@
             },
             "LookupStat": {
                 "Value": "BaseAttacksCauseElectroshockWhenPowered_%"
+            }
+        },
+        {
+            "Name": "Stun",
+            "AfflictionStat": {
+                "Value": "AttacksCauseStun_%"
+            },
+            "ResistanceStat": {
+                "Value": "StunResistance_%"
+            },
+            "DurationInSeconds": 1,
+            "StatBasedDuration": {
+                "Value": "StunModifierDuration_+"
+            },
+            "Modifier": {
+                "RowName": "Stunned"
+            },
+            "LookupStat": {
+                "Value": "BaseAttacksCauseStun_%"
             }
         }
     ]

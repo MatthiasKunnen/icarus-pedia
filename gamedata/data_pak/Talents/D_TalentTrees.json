@@ -747,6 +747,17 @@
             "FirstRank": {
                 "RowName": "Novice"
             }
+        },
+        {
+            "Name": "Creature_Bull",
+            "DisplayName": "NSLOCTEXT(\"D_TalentTrees\", \"Creature_Bull-DisplayName\", \"Bull\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/MapIcons/T_Icon_Map_Bull.T_Icon_Map_Bull",
+            "Archetype": {
+                "RowName": "Creature_Bull"
+            },
+            "FirstRank": {
+                "RowName": "Novice"
+            }
         }
     ]
 }

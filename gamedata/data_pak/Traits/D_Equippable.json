@@ -891,15 +891,16 @@
         },
         {
             "Name": "Sand_Armor_Backpack",
-            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier_Sand_Backpack.BP_EquippableModifier_Sand_Backpack_C",
             "GrantedStats": {
-                "(Value=\"BaseWaterConsumption_+%\")": -25,
-                "(Value=\"BaseFoodConsumption_+%\")": -25,
-                "(Value=\"BaseOxygenConsumption_+%\")": -25,
+                "(Value=\"BaseWaterConsumption_+%\")": -10,
+                "(Value=\"BaseFoodConsumption_+%\")": -10,
+                "(Value=\"BaseOxygenConsumption_+%\")": -10,
                 "(Value=\"BaseVolcanicExposureResistance_+%\")": 20,
                 "(Value=\"BaseDesertExposureResistance_+%\")": 20
             },
-            "bBindToAllInventoryUpdates": false
+            "bBindToAllInventoryUpdates": false,
+            "bPreventReinitialisation": true
         },
         {
             "Name": "Saddle_Advanced_Arctic",
@@ -981,6 +982,15 @@
                 "(Value=\"BaseMountCargoSlots_+\")": 8,
                 "(Value=\"BaseMountHeavyCargoSlots_+\")": 1
             }
+        },
+        {
+            "Name": "Sandwyrm_Backpack",
+            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
+            "GrantedStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 10
+            },
+            "bBindToAllInventoryUpdates": false,
+            "bPreventReinitialisation": true
         }
     ]
 }

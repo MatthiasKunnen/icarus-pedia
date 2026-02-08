@@ -155,6 +155,16 @@
             "bAllowAutoRestart": true
         },
         {
+            "Name": "Light_250w",
+            "AlwaysActive": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 250,
+            "BrownOutModifier": {
+                "RowName": "Electronic_Light_Brownout"
+            },
+            "bAllowAutoRestart": true
+        },
+        {
             "Name": "Carpentry_Bench_T4",
             "AutoActivate": true,
             "ResourceFlowRate": 2500,

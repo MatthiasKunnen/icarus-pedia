@@ -2,6 +2,7 @@
     "RowStruct": "/Script/Icarus.BuildingLookup",
     "Defaults": {
         "PieceName": "",
+        "AccumulationEnabled": false,
         "Thatch": {
             "RowName": "None",
             "DataTableName": "D_BuildingPieces"
@@ -76,6 +77,7 @@
         {
             "Name": "Frame",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Frame-PieceName\", \"Frame\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Frame_FullFrame"
             },
@@ -166,6 +168,7 @@
         {
             "Name": "Floor",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Floor-PieceName\", \"Floor\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Floor"
             },
@@ -215,6 +218,7 @@
         {
             "Name": "Floor_Trapdoor",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Floor_Trapdoor-PieceName\", \"Trap Door\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Floor_TrapDoor"
             },
@@ -846,6 +850,7 @@
         {
             "Name": "Ramp",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp-PieceName\", \"Ramp\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Ramp"
             },
@@ -889,6 +894,7 @@
         {
             "Name": "Ramp_Stairs",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs-PieceName\", \"Stairs\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Ramp_Stairs"
             },
@@ -1079,6 +1085,7 @@
         {
             "Name": "Ramp_Roof_Angle",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Angle-PieceName\", \"Roof\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Ramp_Roof"
             },
@@ -1125,6 +1132,7 @@
         {
             "Name": "Ramp_Roof_Peak",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Peak-PieceName\", \"Roof Peak\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Ramp_RoofPeak"
             },
@@ -1171,6 +1179,7 @@
         {
             "Name": "Ramp_Roof_Peak_Connector",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Peak_Connector-PieceName\", \"Roof Peak Connector\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Ramp_RoofPeak_Connector"
             },
@@ -1217,6 +1226,7 @@
         {
             "Name": "Ramp_Roof_Peak_Cap",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Peak_Cap-PieceName\", \"Roof Peak Cap\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Ramp_RoofPeak_Cap"
             },
@@ -1263,6 +1273,7 @@
         {
             "Name": "Ramp_Roof_Corner_L",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Corner_L-PieceName\", \"Left\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Roof_Corner_Left"
             },
@@ -1309,6 +1320,7 @@
         {
             "Name": "Ramp_Roof_Corner_R",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Corner_R-PieceName\", \"Right\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Roof_Corner_Right"
             },
@@ -1355,6 +1367,7 @@
         {
             "Name": "Ramp_Roof_Corner_L_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Corner_L_Invert-PieceName\", \"Left Inverted\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Roof_Corner_InvertedLeft"
             },
@@ -1401,6 +1414,7 @@
         {
             "Name": "Ramp_Roof_Corner_R_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Roof_Corner_R_Invert-PieceName\", \"Right Inverted\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_Wall_Angle_AngleRightInverted"
             },
@@ -1447,6 +1461,7 @@
         {
             "Name": "Floor_Half",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Floor_Half-PieceName\", \"Half Floor\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfNormal_HalfFloor"
             },
@@ -1496,6 +1511,7 @@
         {
             "Name": "Floor_Quarter",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Floor_Quarter-PieceName\", \"Quarter Floor\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfNormal_QuarterFloor"
             },
@@ -1545,6 +1561,7 @@
         {
             "Name": "Ramp_Half_L",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Half_L-PieceName\", \"Half Ramp Right\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfNormal_HalfRampRight"
             },
@@ -1594,6 +1611,7 @@
         {
             "Name": "Ramp_Half_R",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Half_R-PieceName\", \"Half Ramp Left\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfNormal_HalfRampLeft"
             },
@@ -1741,6 +1759,7 @@
         {
             "Name": "Ramp_HalfPitch_Lower",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_HalfPitch_Lower-PieceName\", \"Lower Roof\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfPitch_LowerRoof"
             },
@@ -1787,6 +1806,7 @@
         {
             "Name": "Ramp_HalfPitch_Upper",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_HalfPitch_Upper-PieceName\", \"Upper Roof\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfPitch_UpperRoof"
             },
@@ -2184,6 +2204,7 @@
         {
             "Name": "Diagonal_Floor",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Floor-PieceName\", \"Floor\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Diagonal_Floor"
             },
@@ -2215,6 +2236,7 @@
         {
             "Name": "Diagonal_Ramp",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Ramp-PieceName\", \"Ramp/Roof\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Diagonal_Ramp_Roof"
             },
@@ -2246,6 +2268,7 @@
         {
             "Name": "Diagonal_Ramp_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Ramp_Invert-PieceName\", \"Ramp/Roof Inverted\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Diagonal_Ramp_Roof_Invert"
             },
@@ -2339,6 +2362,7 @@
         {
             "Name": "Diagonal_Curved_Floor",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Curved_Floor-PieceName\", \"Floor\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Diagonal_Curved_Floor"
             },
@@ -2370,6 +2394,7 @@
         {
             "Name": "Diagonal_Curved_Ramp",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Diagonal_Curved_Ramp-PieceName\", \"Ramp/Roof\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Diagonal_Curved_Ramp_Roof"
             },
@@ -2835,6 +2860,7 @@
         {
             "Name": "Ramp_Curved",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Curved-PieceName\", \"Ramp\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Ramp_Curved"
             },
@@ -3052,6 +3078,7 @@
         {
             "Name": "Roof_CurvedAngle_Up_L",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_L-PieceName\", \"Left Up-Curve\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_L"
             },
@@ -3083,6 +3110,7 @@
         {
             "Name": "Roof_CurvedAngle_Down_L",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_L-PieceName\", \"Left Down-Curve\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_L"
             },
@@ -3114,6 +3142,7 @@
         {
             "Name": "Roof_CurvedAngle_Up_L_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_L_Invert-PieceName\", \"Left Up-Curve Inverted\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_L_Invert"
             },
@@ -3145,6 +3174,7 @@
         {
             "Name": "Roof_CurvedAngle_Down_L_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_L_Invert-PieceName\", \"Left Down-Curve Inverted\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_L_Invert"
             },
@@ -3176,6 +3206,7 @@
         {
             "Name": "Roof_CurvedAngle_Up_R",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_R-PieceName\", \"Right Up-Curve\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_R"
             },
@@ -3207,6 +3238,7 @@
         {
             "Name": "Roof_CurvedAngle_Down_R",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_R-PieceName\", \"Right Down-Curve\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_R"
             },
@@ -3238,6 +3270,7 @@
         {
             "Name": "Roof_CurvedAngle_Up_R_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Up_R_Invert-PieceName\", \"Right Up-Curve Inverted\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Up_R_Invert"
             },
@@ -3269,6 +3302,7 @@
         {
             "Name": "Roof_CurvedAngle_Down_R_Invert",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Roof_CurvedAngle_Down_R_Invert-PieceName\", \"Right Down-Curve Inverted\")",
+            "AccumulationEnabled": true,
             "Stone": {
                 "RowName": "Stone_Roof_CurvedAngle_Down_R_Invert"
             },
@@ -3300,6 +3334,7 @@
         {
             "Name": "CornerStair_L",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"CornerStair_L-PieceName\", \"Left\")",
+            "AccumulationEnabled": true,
             "Refined_Wood": {
                 "RowName": "Interior_Wood_CornerStair_L"
             },
@@ -3316,6 +3351,7 @@
         {
             "Name": "CornerStair_R",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"CornerStair_R-PieceName\", \"Right\")",
+            "AccumulationEnabled": true,
             "Refined_Wood": {
                 "RowName": "Interior_Wood_CornerStair_R"
             },
@@ -3332,6 +3368,7 @@
         {
             "Name": "Ramp_Stairs_Half_L",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_L-PieceName\", \"Half Stairs Left\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfStair_L"
             },
@@ -3375,6 +3412,7 @@
         {
             "Name": "Ramp_Stairs_Half_R",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Stairs_Half_R-PieceName\", \"Half Stairs Right\")",
+            "AccumulationEnabled": true,
             "Thatch": {
                 "RowName": "Thatch_HalfStair_R"
             },
@@ -3418,6 +3456,7 @@
         {
             "Name": "Floor_Inverted",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Floor_Inverted-PieceName\", \"Inverted Floor\")",
+            "AccumulationEnabled": true,
             "Concrete": {
                 "RowName": "Concrete_Floor_Inverted"
             }
@@ -3425,6 +3464,7 @@
         {
             "Name": "Ramp_Inverted",
             "PieceName": "NSLOCTEXT(\"D_BuildingLookup\", \"Ramp_Inverted-PieceName\", \"Inverted Ramp\")",
+            "AccumulationEnabled": true,
             "Concrete": {
                 "RowName": "Concrete_Ramp_Inverted"
             }

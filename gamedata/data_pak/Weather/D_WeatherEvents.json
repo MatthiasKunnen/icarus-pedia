@@ -9682,8 +9682,8 @@
                 }
             ],
             "WeatherImage": "Texture2D'/Game/Assets/2DArt/UI/HUD/WeatherCards/WeatherEvent_HeavySand.WeatherEvent_HeavySand'",
-            "WeatherName": "INVTEXT(\"[DNT] Dust Storm\")",
-            "WeatherDescription": "INVTEXT(\"[DNT] Incoming Dust Storm!\")",
+            "WeatherName": "NSLOCTEXT(\"D_WeatherEvents\", \"DustStorm_WyrmQueen-WeatherName\", \"Dust Storm\")",
+            "WeatherDescription": "NSLOCTEXT(\"D_WeatherEvents\", \"DustStorm_WyrmQueen-WeatherDescription\", \"Incoming Dust Storm!\")",
             "WeatherActions": [
                 {
                     "Action": {

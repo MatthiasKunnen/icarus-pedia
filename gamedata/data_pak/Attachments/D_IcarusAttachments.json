@@ -942,6 +942,12 @@
             "GrantedAlteration": {
                 "RowName": "Laser_ElectricConversion"
             }
+        },
+        {
+            "Name": "Sandwyrm_Lure",
+            "GrantedAlteration": {
+                "RowName": "Sandwyrm_Lure"
+            }
         }
     ]
 }

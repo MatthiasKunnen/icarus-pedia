@@ -683,12 +683,25 @@
             "Resource": {
                 "Value": "Energy"
             },
-            "GenerationRate": 10000,
-            "GenerationRatio": 1000,
+            "GenerationRate": 100000,
+            "GenerationRatio": 10000,
             "TransmutableItems": [
                 {
                     "RowName": "Uranium_Rod",
                     "DataTableName": "D_ItemsStatic"
+                }
+            ]
+        },
+        {
+            "Name": "Deep_Mining_Oil_Drill",
+            "Resource": {
+                "Value": "Energy"
+            },
+            "GenerationRate": 1,
+            "GenerationRatio": 0.75,
+            "TransmutableResources": [
+                {
+                    "Value": "Refined_Oil"
                 }
             ]
         }

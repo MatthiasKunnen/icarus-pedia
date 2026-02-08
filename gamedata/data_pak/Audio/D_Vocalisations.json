@@ -3166,20 +3166,6 @@
             }
         },
         {
-            "Name": "NPC1_Flinch",
-            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_FLINCH.VO_NPC_1_FLINCH",
-            "Setting": {
-                "RowName": "Default"
-            }
-        },
-        {
-            "Name": "NPC1_Death",
-            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_DEATH.VO_NPC_1_DEATH",
-            "Setting": {
-                "RowName": "Important"
-            }
-        },
-        {
             "Name": "NPC1_Idle",
             "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_1_IDLE.VO_NPC_1_IDLE",
             "Setting": {
@@ -4094,6 +4080,83 @@
             "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_IDLE_HUNTER.SFX_DRONE_IDLE_HUNTER",
             "Setting": {
                 "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "DroneHunterDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Weapons/Drone/SFX_DRONE_DEATH_HUNTER.SFX_DRONE_DEATH_HUNTER",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "RaptorMountAttack",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_ATTACK_MOUNT.SFX_CRE_VOCAL_RAPTOR_ATTACK_MOUNT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "RaptorMountFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Raptor/SFX_CRE_VOCAL_RAPTOR_FLINCH_MOUNT.SFX_CRE_VOCAL_RAPTOR_FLINCH_MOUNT",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "PigletFlinch",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Wild_Boar/SFX_CRE_VOCAL_PIGLET_FLINCH.SFX_CRE_VOCAL_PIGLET_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "PigletDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Wild_Boar/SFX_CRE_VOC_PIGLET_DEATH.SFX_CRE_VOC_PIGLET_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "ChickIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/SFX_CRE_CHICK_IDLE.SFX_CRE_CHICK_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "ChickDeath",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/SFX_CRE_VOC_CHICK_DEATH.SFX_CRE_VOC_CHICK_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "PigletIdle",
+            "Sound": "/Game/FMOD/Events/SFX/Creatures/Vocals/Wild_Boar/SFX_CRE_VOC_PIGLET_IDLE.SFX_CRE_VOC_PIGLET_IDLE",
+            "Setting": {
+                "RowName": "Persistent"
+            }
+        },
+        {
+            "Name": "NPCEnemy3Flinch",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_3_FLINCH.VO_NPC_3_FLINCH",
+            "Setting": {
+                "RowName": "Default"
+            }
+        },
+        {
+            "Name": "NPCEnemy3Death",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_3_DEATH.VO_NPC_3_DEATH",
+            "Setting": {
+                "RowName": "Important"
+            }
+        },
+        {
+            "Name": "NPCEnemy3Reload",
+            "Sound": "/Game/FMOD/Events/Dialogue/NPCs/NPC_1/VO_NPC_3_RELOADING.VO_NPC_3_RELOADING",
+            "Setting": {
+                "RowName": "Lowest"
             }
         }
     ]

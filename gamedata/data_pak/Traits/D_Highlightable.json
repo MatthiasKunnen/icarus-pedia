@@ -1329,17 +1329,17 @@
         },
         {
             "Name": "EDEN_Cook",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Cook-DisplayName\", \"Culinary Specialist\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Cook-Description\", \"UDA assigned Specialist who deals in all manner of food cooking and preperation. \")"
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Cook-DisplayName\", \"Culinary Specialist Charles\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Cook-Description\", \"UDA assigned Specialist who deals in all manner of food cooking and preparation. \")"
         },
         {
             "Name": "EDEN_Logistics",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Logistics-DisplayName\", \"Logistics Officer\")",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Logistics-DisplayName\", \"Logistics Officer Lin\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Logistics-Description\", \"UDA assigned Officer who deals with the import and export of resources from EDEN.\")"
         },
         {
             "Name": "EDEN_Crafter",
-            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Crafter-DisplayName\", \"Quartermaster\")",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Crafter-DisplayName\", \"Quartermaster Nev\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Crafter-Description\", \"UDA assigned Officer who deals in the creation and assembly of equipment in EDEN.\")"
         },
         {
@@ -1411,12 +1411,22 @@
         {
             "Name": "FishOwner",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"FishOwner-DisplayName\", \"Chief Fisheries Officer Dunski\")",
-            "Description": "NSLOCTEXT(\"D_Highlightable\", \"FishOwner-Description\", \"Master fisherman who is has been fishing longer than you\\'ve been alive.\")"
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"FishOwner-Description\", \"Master fisherman who has been fishing longer than you\\'ve been alive.\")"
         },
         {
             "Name": "FishStockpile",
             "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"FishStockpile-DisplayName\", \"Fish Stockpile\")",
             "Description": "NSLOCTEXT(\"D_Highlightable\", \"FishStockpile-Description\", \"Large Cool Storage for Fish.\")"
+        },
+        {
+            "Name": "EDEN_Hunter",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Hunter-DisplayName\", \"Predator Control Specialist Liardet\")",
+            "Description": "NSLOCTEXT(\"D_Highlightable\", \"EDEN_Hunter-Description\", \"UDA assigned Specialist who deals in all manner of Creatures within the area. \")"
+        },
+        {
+            "Name": "NPC_Soldier_Carcass",
+            "DisplayName": "NSLOCTEXT(\"D_Highlightable\", \"NPC_Soldier_Carcass-DisplayName\", \"Dead Soldier\")",
+            "Description": ""
         }
     ]
 }

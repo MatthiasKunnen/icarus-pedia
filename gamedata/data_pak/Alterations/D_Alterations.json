@@ -238,7 +238,7 @@
         },
         {
             "Name": "SmeltingSpeed_1",
-            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SmeltingSpeed_1-DisplayName\", \"Well Stoaked 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SmeltingSpeed_1-DisplayName\", \"Well Stoked 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_well-stocked.Icon_Alteration_well-stocked",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -247,7 +247,7 @@
         },
         {
             "Name": "SmeltingSpeed_2",
-            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SmeltingSpeed_2-DisplayName\", \"Well Stoaked 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"SmeltingSpeed_2-DisplayName\", \"Well Stoked 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_well-stocked.Icon_Alteration_well-stocked",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -1607,7 +1607,7 @@
         },
         {
             "Name": "Scyther_Attachment",
-            "DisplayName": "INVTEXT(\"[DNT] Scyther Adaption\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Scyther_Attachment-DisplayName\", \"Scyther Adaption\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Currency/T_ICON_CURRENCY_WaterCreature.T_ICON_CURRENCY_WaterCreature",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -1617,7 +1617,7 @@
         },
         {
             "Name": "Hornet_Attachment",
-            "DisplayName": "INVTEXT(\"[DNT] Hornet Venom\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Hornet_Attachment-DisplayName\", \"Thornet Venom\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Currency/T_ICON_CURRENCY_Scorpion.T_ICON_CURRENCY_Scorpion",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -1658,6 +1658,12 @@
             "Name": "Dirty_Water_Swamp",
             "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Dirty_Water_Swamp-DisplayName\", \"Contains Swamp Water\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Water.Icon_Water",
+            "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1"
+        },
+        {
+            "Name": "Corrosive_Water",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Corrosive_Water-DisplayName\", \"Contains Corrosive Water\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Skull.Icon_Skull",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1"
         },
         {
@@ -3589,7 +3595,7 @@
         },
         {
             "Name": "Tool_Durability_1",
-            "DisplayName": "INVTEXT(\"[DNT] Tool Durability 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Tool_Durability_1-DisplayName\", \"Tool Durability 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ToolDurability.T_ATTACHMENT_ToolDurability",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3598,7 +3604,7 @@
         },
         {
             "Name": "Tool_Durability_2",
-            "DisplayName": "INVTEXT(\"[DNT] Tool Durability 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Tool_Durability_2-DisplayName\", \"Tool Durability 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_Tooldurability2.T_ATTACHMENT_Tooldurability2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3607,7 +3613,7 @@
         },
         {
             "Name": "Tool_StaminaCost_1",
-            "DisplayName": "INVTEXT(\"[DNT] Tool Stamina Cost 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Tool_StaminaCost_1-DisplayName\", \"Tool Stamina Cost 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ToolStaminaCost.T_ATTACHMENT_ToolStaminaCost",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3616,7 +3622,7 @@
         },
         {
             "Name": "Tool_StaminaCost_2",
-            "DisplayName": "INVTEXT(\"[DNT] Tool Stamina Cost 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Tool_StaminaCost_2-DisplayName\", \"Tool Stamina Cost 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ToolStaminaCost2.T_ATTACHMENT_ToolStaminaCost2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3625,7 +3631,7 @@
         },
         {
             "Name": "Knife_VestigeChance_1",
-            "DisplayName": "INVTEXT(\"[DNT] Vestige Chance 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Knife_VestigeChance_1-DisplayName\", \"Vestige Chance 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_KnifeVestige.T_ATTACHMENT_KnifeVestige",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3634,7 +3640,7 @@
         },
         {
             "Name": "Knife_VestigeChance_2",
-            "DisplayName": "INVTEXT(\"[DNT] Vestige Chance 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Knife_VestigeChance_2-DisplayName\", \"Vestige Chance 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_KnifeVestige2.T_ATTACHMENT_KnifeVestige2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3643,7 +3649,7 @@
         },
         {
             "Name": "Pickaxe_MiningRadius_1",
-            "DisplayName": "INVTEXT(\"[DNT] Mining Radius 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Pickaxe_MiningRadius_1-DisplayName\", \"Mining Radius 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_Pickaxeadius.T_ATTACHMENT_Pickaxeadius",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3652,7 +3658,7 @@
         },
         {
             "Name": "Pickaxe_MiningRadius_2",
-            "DisplayName": "INVTEXT(\"[DNT] Mining Radius 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Pickaxe_MiningRadius_2-DisplayName\", \"Mining Radius 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_PickaxeRadius2.T_ATTACHMENT_PickaxeRadius2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3661,7 +3667,7 @@
         },
         {
             "Name": "Pickaxe_BauxiteYield_1",
-            "DisplayName": "INVTEXT(\"[DNT] Aluminium Yield 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Pickaxe_BauxiteYield_1-DisplayName\", \"Aluminium Yield 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_BauxiteYield.T_ATTACHMENT_BauxiteYield",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3670,7 +3676,7 @@
         },
         {
             "Name": "Pickaxe_BauxiteYield_2",
-            "DisplayName": "INVTEXT(\"[DNT] Aluminium Yield 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Pickaxe_BauxiteYield_2-DisplayName\", \"Aluminium Yield 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_BauxiteYield2.T_ATTACHMENT_BauxiteYield2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3679,7 +3685,7 @@
         },
         {
             "Name": "Axe_WoodYield_1",
-            "DisplayName": "INVTEXT(\"[DNT] Wood Yield 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Axe_WoodYield_1-DisplayName\", \"Wood Yield 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Wood.Alteration_Wood",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3688,7 +3694,7 @@
         },
         {
             "Name": "Axe_WoodYield_2",
-            "DisplayName": "INVTEXT(\"[DNT] Wood Yield 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Axe_WoodYield_2-DisplayName\", \"Wood Yield 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Alterations/Alteration_Wood.Alteration_Wood",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3697,7 +3703,7 @@
         },
         {
             "Name": "Sledgehammer_Slow_1",
-            "DisplayName": "INVTEXT(\"[DNT] Sledge Slow 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Sledgehammer_Slow_1-DisplayName\", \"Sledge Slow 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_SledgehammerSlow.T_ATTACHMENT_SledgehammerSlow",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3706,7 +3712,7 @@
         },
         {
             "Name": "Sledgehammer_Slow_2",
-            "DisplayName": "INVTEXT(\"[DNT] Sledge Slow 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Sledgehammer_Slow_2-DisplayName\", \"Sledge Slow 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_SledgehammerSlow2.T_ATTACHMENT_SledgehammerSlow2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3715,7 +3721,7 @@
         },
         {
             "Name": "Armor_Comfort_1",
-            "DisplayName": "INVTEXT(\"[DNT] Armor Pajama 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Armor_Comfort_1-DisplayName\", \"Armor Pajama 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmourComfort.T_ATTACHMENT_ArmourComfort",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3724,7 +3730,7 @@
         },
         {
             "Name": "Armor_Comfort_2",
-            "DisplayName": "INVTEXT(\"[DNT] Armor Pajama 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Armor_Comfort_2-DisplayName\", \"Armor Pajama 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmourComfort2.T_ATTACHMENT_ArmourComfort2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3733,19 +3739,19 @@
         },
         {
             "Name": "Arms_FistDamage_1",
-            "DisplayName": "INVTEXT(\"[DNT] Fist Damage 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Arms_FistDamage_1-DisplayName\", \"Fist Damage 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmsFistDamage.T_ATTACHMENT_ArmsFistDamage",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1"
         },
         {
             "Name": "Arms_FistDamage_2",
-            "DisplayName": "INVTEXT(\"[DNT] Fist Damage 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Arms_FistDamage_2-DisplayName\", \"Fist Damage 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmsFistDamage2.T_ATTACHMENT_ArmsFistDamage2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2"
         },
         {
             "Name": "Arms_ThrowAccuracy_1",
-            "DisplayName": "INVTEXT(\"[DNT] Projectile Accuracy 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Arms_ThrowAccuracy_1-DisplayName\", \"Projectile Accuracy 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmsThrowAccuracy.T_ATTACHMENT_ArmsThrowAccuracy",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3755,7 +3761,7 @@
         },
         {
             "Name": "Arms_ThrowAccuracy_2",
-            "DisplayName": "INVTEXT(\"[DNT] Projectile Accuracy 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Arms_ThrowAccuracy_2-DisplayName\", \"Projectile Accuracy 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ArmsThrowAccuracy2.T_ATTACHMENT_ArmsThrowAccuracy2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3765,7 +3771,7 @@
         },
         {
             "Name": "Legs_Jump_1",
-            "DisplayName": "INVTEXT(\"[DNT] Jump 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Legs_Jump_1-DisplayName\", \"Jump 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_LegsJump.T_ATTACHMENT_LegsJump",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3774,7 +3780,7 @@
         },
         {
             "Name": "Legs_Jump_2",
-            "DisplayName": "INVTEXT(\"[DNT] Jump 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Legs_Jump_2-DisplayName\", \"Jump 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_LegsJump2.T_ATTACHMENT_LegsJump2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3783,7 +3789,7 @@
         },
         {
             "Name": "Chest_Oxygen_1",
-            "DisplayName": "INVTEXT(\"[DNT] Oxygen 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Chest_Oxygen_1-DisplayName\", \"Oxygen 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen.T_ATTACHMENT_ChestOxygen",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3792,7 +3798,7 @@
         },
         {
             "Name": "Chest_Oxygen_2",
-            "DisplayName": "INVTEXT(\"[DNT] Oxygen 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Chest_Oxygen_2-DisplayName\", \"Oxygen 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_ChestOxygen2.T_ATTACHMENT_ChestOxygen2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3801,7 +3807,7 @@
         },
         {
             "Name": "Guns_Damage_1",
-            "DisplayName": "INVTEXT(\"[DNT] Guns Damage 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Guns_Damage_1-DisplayName\", \"Guns Damage 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_GunsDamage.T_ATTACHMENT_GunsDamage",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3812,7 +3818,7 @@
         },
         {
             "Name": "Guns_Damage_2",
-            "DisplayName": "INVTEXT(\"[DNT] Guns Damage 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Guns_Damage_2-DisplayName\", \"Guns Damage 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_GunsDamage.T_ATTACHMENT_GunsDamage",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
@@ -3823,7 +3829,7 @@
         },
         {
             "Name": "Guns_ExtendedAmmo_1",
-            "DisplayName": "INVTEXT(\"[DNT] Guns Extended Ammo 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Guns_ExtendedAmmo_1-DisplayName\", \"Guns Extended Ammo 1\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/T_ATTACHMENT_GunsDamage2.T_ATTACHMENT_GunsDamage2",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
@@ -3833,7 +3839,7 @@
         },
         {
             "Name": "Guns_ExtendedAmmo_2",
-            "DisplayName": "INVTEXT(\"[DNT] Guns Extended Ammo 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Guns_ExtendedAmmo_2-DisplayName\", \"Guns Extended Ammo 2\")",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
                 "(Value=\"BaseAmmoCapacity_+\")": 2,
@@ -3842,7 +3848,7 @@
         },
         {
             "Name": "Pistol_Accuracy_1",
-            "DisplayName": "INVTEXT(\"[DNT] Pistol Accuracy 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Pistol_Accuracy_1-DisplayName\", \"Pistol Accuracy 1\")",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
                 "(Value=\"BasePistolProjectileAccuracy_+%\")": 20,
@@ -3851,7 +3857,7 @@
         },
         {
             "Name": "Pistol_Accuracy_2",
-            "DisplayName": "INVTEXT(\"[DNT] Pistol Accuracy 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Pistol_Accuracy_2-DisplayName\", \"Pistol Accuracy 2\")",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
                 "(Value=\"BasePistolProjectileAccuracy_+%\")": 40,
@@ -3860,7 +3866,7 @@
         },
         {
             "Name": "Rifle_Accuracy_1",
-            "DisplayName": "INVTEXT(\"[DNT] Rifle Accuracy 1\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Rifle_Accuracy_1-DisplayName\", \"Rifle Accuracy 1\")",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
             "Stats": {
                 "(Value=\"BaseRifleProjectileAccuracy_+%\")": 20,
@@ -3869,7 +3875,7 @@
         },
         {
             "Name": "Rifle_Accuracy_2",
-            "DisplayName": "INVTEXT(\"[DNT] Rifle Accuracy 2\")",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Rifle_Accuracy_2-DisplayName\", \"Rifle Accuracy 2\")",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
                 "(Value=\"BaseRifleProjectileAccuracy_+%\")": 40,
@@ -3920,11 +3926,21 @@
             "Name": "Total_Fall_Resistance",
             "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Total_Fall_Resistance-DisplayName\", \"Surefooted 2\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/ArmorAttachments/Icon_FallRes.Icon_FallRes",
-            "Description": "INVTEXT(\"[DNT] No Fall Damge\")",
+            "Description": "NSLOCTEXT(\"D_Alterations\", \"Total_Fall_Resistance-Description\", \"No Fall Damge\")",
             "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_2.Icon_Alteration_2",
             "Stats": {
                 "(Value=\"BaseFallDamageResistance_%\")": 100,
                 "(Value=\"BaseChanceToResistSprain_%\")": 40
+            }
+        },
+        {
+            "Name": "Sandwyrm_Lure",
+            "DisplayName": "NSLOCTEXT(\"D_Alterations\", \"Sandwyrm_Lure-DisplayName\", \"Sandwyrm Lure\")",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Fishing/ITEM_Bark_Lure.ITEM_Bark_Lure",
+            "RankIcon": "/Game/Assets/2DArt/UI/Alterations/Icon_Alteration_1.Icon_Alteration_1",
+            "Stats": {
+                "(Value=\"CaughtFishWeight_+%\")": 40,
+                "(Value=\"BaseFishingCaptureZoneSize_+%\")": 20
             }
         }
     ]

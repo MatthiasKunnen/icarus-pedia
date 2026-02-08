@@ -6493,14 +6493,14 @@
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic1",
+                        "RowName": "Exotic_Red",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 100
                 },
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 200
@@ -6524,14 +6524,14 @@
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic1",
+                        "RowName": "Exotic_Red",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 100
                 },
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 200
@@ -6555,14 +6555,14 @@
             "ReplicationCost": [
                 {
                     "Meta": {
-                        "RowName": "Exotic1",
+                        "RowName": "Exotic_Red",
                         "DataTableName": "D_MetaCurrency"
                     },
-                    "Amount": 200
+                    "Amount": 100
                 },
                 {
                     "Meta": {
-                        "RowName": "Exotic_Red",
+                        "RowName": "Credits",
                         "DataTableName": "D_MetaCurrency"
                     },
                     "Amount": 200
@@ -6778,7 +6778,7 @@
         {
             "Name": "Meta_Chicken",
             "Item": {
-                "RowName": "Workshop_Chicken"
+                "RowName": "Workshop_Chick_Female"
             },
             "ResearchCost": [
                 {
@@ -6814,7 +6814,7 @@
         {
             "Name": "Meta_Sheep",
             "Item": {
-                "RowName": "Workshop_Sheep"
+                "RowName": "Workshop_Lamb_Female"
             },
             "ResearchCost": [
                 {

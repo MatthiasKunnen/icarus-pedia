@@ -1777,6 +1777,20 @@
             }
         },
         {
+            "Name": "Chick",
+            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Chick-CreatureName\", \"Chick\")",
+            "Tag": {
+                "TagName": "NPC.Juvenile.Chick"
+            }
+        },
+        {
+            "Name": "Lamb",
+            "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Lamb-CreatureName\", \"Lamb\")",
+            "Tag": {
+                "TagName": "NPC.Juvenile.Lamb"
+            }
+        },
+        {
             "Name": "Juvenile_RockGolem",
             "CreatureName": "NSLOCTEXT(\"D_AICreatureType\", \"Juvenile_RockGolem-CreatureName\", \"Quarrite\")",
             "Tag": {

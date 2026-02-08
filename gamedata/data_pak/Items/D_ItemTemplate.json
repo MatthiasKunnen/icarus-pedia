@@ -6090,6 +6090,12 @@
             }
         },
         {
+            "Name": "Spotlight",
+            "ItemStaticData": {
+                "RowName": "Spotlight"
+            }
+        },
+        {
             "Name": "Clay",
             "ItemStaticData": {
                 "RowName": "Clay"
@@ -11349,6 +11355,12 @@
             ]
         },
         {
+            "Name": "Shroud_Light",
+            "ItemStaticData": {
+                "RowName": "Shroud_Light"
+            }
+        },
+        {
             "Name": "Blueback_Head",
             "ItemStaticData": {
                 "RowName": "Blueback_Head"
@@ -12801,6 +12813,24 @@
             "Name": "Meta_Sickle_Inaris_00",
             "ItemStaticData": {
                 "RowName": "Meta_Sickle_Inaris_00"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_01",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Inaris_01"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_02",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Inaris_02"
+            }
+        },
+        {
+            "Name": "Meta_Sickle_Inaris_03",
+            "ItemStaticData": {
+                "RowName": "Meta_Sickle_Inaris_03"
             }
         },
         {
@@ -17171,21 +17201,15 @@
             }
         },
         {
-            "Name": "Homestead_Food_Silo",
+            "Name": "Chick_Head",
             "ItemStaticData": {
-                "RowName": "Homestead_Food_Silo"
+                "RowName": "Chick_Head"
             }
         },
         {
-            "Name": "Homestead_Quilted_Bed",
+            "Name": "Chick_Trophy",
             "ItemStaticData": {
-                "RowName": "Homestead_Quilted_Bed"
-            }
-        },
-        {
-            "Name": "Homestead_Pitchfork",
-            "ItemStaticData": {
-                "RowName": "Homestead_Pitchfork"
+                "RowName": "Chick_Trophy"
             }
         },
         {
@@ -17216,24 +17240,6 @@
             "Name": "ResearchEquipment_LabDesk",
             "ItemStaticData": {
                 "RowName": "ResearchEquipment_LabDesk"
-            }
-        },
-        {
-            "Name": "Homestead_Farm_Railing_Gate",
-            "ItemStaticData": {
-                "RowName": "Homestead_Farm_Railing_Gate"
-            }
-        },
-        {
-            "Name": "Homestead_Farm_Railing",
-            "ItemStaticData": {
-                "RowName": "Homestead_Farm_Railing"
-            }
-        },
-        {
-            "Name": "Homestead_BarnDoor",
-            "ItemStaticData": {
-                "RowName": "Homestead_BarnDoor"
             }
         },
         {
@@ -17325,45 +17331,9 @@
             }
         },
         {
-            "Name": "Homestead_Swing_Chair",
-            "ItemStaticData": {
-                "RowName": "Homestead_Swing_Chair"
-            }
-        },
-        {
-            "Name": "Homestead_Soft_Sofa_Single",
-            "ItemStaticData": {
-                "RowName": "Homestead_Soft_Sofa_Single"
-            }
-        },
-        {
-            "Name": "Homestead_Soft_Sofa_Double",
-            "ItemStaticData": {
-                "RowName": "Homestead_Soft_Sofa_Double"
-            }
-        },
-        {
             "Name": "MakeshiftRadio",
             "ItemStaticData": {
                 "RowName": "MakeshiftRadio"
-            }
-        },
-        {
-            "Name": "Homestead_PlanterBox_SML",
-            "ItemStaticData": {
-                "RowName": "Homestead_PlanterBox_SML"
-            }
-        },
-        {
-            "Name": "Homestead_Spawn_Blocker_Scarecrow",
-            "ItemStaticData": {
-                "RowName": "Homestead_Spawn_Blocker_Scarecrow"
-            }
-        },
-        {
-            "Name": "Homestead_Water_Tank",
-            "ItemStaticData": {
-                "RowName": "Homestead_Water_Tank"
             }
         },
         {
@@ -17397,24 +17367,6 @@
             }
         },
         {
-            "Name": "Homestead_Cabinet",
-            "ItemStaticData": {
-                "RowName": "Homestead_Cabinet"
-            }
-        },
-        {
-            "Name": "Homestead_Cabinet_LRG",
-            "ItemStaticData": {
-                "RowName": "Homestead_Cabinet_LRG"
-            }
-        },
-        {
-            "Name": "Homestead_BirdFeeder",
-            "ItemStaticData": {
-                "RowName": "Homestead_BirdFeeder"
-            }
-        },
-        {
             "Name": "Mission_EDSCanister",
             "ItemStaticData": {
                 "RowName": "Mission_Neurotoxic_Aerosol"
@@ -17424,36 +17376,6 @@
             "Name": "Dead_Researcher",
             "ItemStaticData": {
                 "RowName": "Dead_Researcher"
-            }
-        },
-        {
-            "Name": "Homestead_Sewing_Machine",
-            "ItemStaticData": {
-                "RowName": "Homestead_Sewing_Machine"
-            }
-        },
-        {
-            "Name": "Homestead_Ranch_Sign",
-            "ItemStaticData": {
-                "RowName": "Homestead_Ranch_Sign"
-            }
-        },
-        {
-            "Name": "Homestead_Ranch_Gate_Sign",
-            "ItemStaticData": {
-                "RowName": "Homestead_Ranch_Gate_Sign"
-            }
-        },
-        {
-            "Name": "Homestead_Vintage_Jar",
-            "ItemStaticData": {
-                "RowName": "Homestead_Vintage_Jar"
-            }
-        },
-        {
-            "Name": "Homestead_Honey_Pot",
-            "ItemStaticData": {
-                "RowName": "Homestead_Honey_Pot"
             }
         },
         {
@@ -17484,66 +17406,6 @@
             "Name": "Juvenile_Ape_Head",
             "ItemStaticData": {
                 "RowName": "Juvenile_Ape_Head"
-            }
-        },
-        {
-            "Name": "Homestead_Coffee_Grinder",
-            "ItemStaticData": {
-                "RowName": "Homestead_Coffee_Grinder"
-            }
-        },
-        {
-            "Name": "Homestead_Butter_Churn",
-            "ItemStaticData": {
-                "RowName": "Homestead_Butter_Churn"
-            }
-        },
-        {
-            "Name": "Homestead_Hanging_Meat",
-            "ItemStaticData": {
-                "RowName": "Homestead_Hanging_Meat"
-            }
-        },
-        {
-            "Name": "Homestead_Cheese",
-            "ItemStaticData": {
-                "RowName": "Homestead_Cheese"
-            }
-        },
-        {
-            "Name": "Homestead_Rocking_Chair_Single",
-            "ItemStaticData": {
-                "RowName": "Homestead_Rocking_Chair_Single"
-            }
-        },
-        {
-            "Name": "Homestead_Rocking_Chair_Double",
-            "ItemStaticData": {
-                "RowName": "Homestead_Rocking_Chair_Double"
-            }
-        },
-        {
-            "Name": "Homestead_Picnic_Table",
-            "ItemStaticData": {
-                "RowName": "Homestead_Picnic_Table"
-            }
-        },
-        {
-            "Name": "Homestead_Barbed_Wire_Fence",
-            "ItemStaticData": {
-                "RowName": "Homestead_Barbed_Wire_Fence"
-            }
-        },
-        {
-            "Name": "Homestead_Lamp_Ground",
-            "ItemStaticData": {
-                "RowName": "Homestead_Lamp_Ground"
-            }
-        },
-        {
-            "Name": "Homestead_Lamp_Wall",
-            "ItemStaticData": {
-                "RowName": "Homestead_Lamp_Wall"
             }
         },
         {
@@ -17593,12 +17455,6 @@
                     "Value": 100
                 }
             ]
-        },
-        {
-            "Name": "Homestead_Weapon_Rack",
-            "ItemStaticData": {
-                "RowName": "Homestead_Weapon_Rack"
-            }
         },
         {
             "Name": "Ammo_AssaultRifle_Round",
@@ -17978,6 +17834,16 @@
             "ItemStaticData": {
                 "RowName": "SandArmor_Backpack"
             },
+            "ItemDynamicData": [
+                {
+                    "PropertyType": "Fillable_StoredUnits",
+                    "Value": 10800
+                },
+                {
+                    "PropertyType": "Fillable_Type",
+                    "Value": 1
+                }
+            ],
             "Metadata": {
                 "RequiredFeatureLevel": {
                     "RowName": "GreatHunts"
@@ -19596,6 +19462,52 @@
             "Name": "Spider_Silk",
             "ItemStaticData": {
                 "RowName": "Spider_Silk"
+            }
+        },
+        {
+            "Name": "Elephant_Tusk",
+            "ItemStaticData": {
+                "RowName": "Elephant_Tusk"
+            }
+        },
+        {
+            "Name": "Workshop_Chick_Female",
+            "ItemStaticData": {
+                "RowName": "Workshop_Chick_Female"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Laika"
+                }
+            }
+        },
+        {
+            "Name": "Workshop_Lamb_Female",
+            "ItemStaticData": {
+                "RowName": "Workshop_Lamb_Female"
+            },
+            "Metadata": {
+                "RequiredFeatureLevel": {
+                    "RowName": "Laika"
+                }
+            }
+        },
+        {
+            "Name": "Lamb_Head",
+            "ItemStaticData": {
+                "RowName": "Lamb_Head"
+            }
+        },
+        {
+            "Name": "Lamb_Trophy",
+            "ItemStaticData": {
+                "RowName": "Lamb_Trophy"
+            }
+        },
+        {
+            "Name": "Prebuilt_Spawn_Location",
+            "ItemStaticData": {
+                "RowName": "Prebuilt_Spawn_Location"
             }
         }
     ]

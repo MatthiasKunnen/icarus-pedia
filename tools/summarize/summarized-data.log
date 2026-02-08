@@ -11,6 +11,7 @@ Excluded items:
 - Meta_Pickaxe: FieldGuide blacklist
 - Meta_Knife: FieldGuide blacklist
 - Wood_Railing_Gate_Refined: FieldGuide blacklist
+- Light_Worklamp_Directional: FieldGuide blacklist
 - Module_Player_Tracker: FieldGuide blacklist
 - Rocket_Part_Top_Mk1: FieldGuide blacklist
 - Rocket_Part_Mid_Mk1: FieldGuide blacklist
@@ -78,6 +79,7 @@ Excluded items:
 - Food_Crumbed_Fish_Fillet: FieldGuide blacklist
 - Electric_Dehumidifier: FieldGuide blacklist
 - Meta_Coal: FieldGuide blacklist
+- Basic_Wall_Light: FieldGuide blacklist
 - Thermos_GreenTea: FieldGuide blacklist
 - Thermos_WildTea: FieldGuide blacklist
 - Thermos_Cocoa: FieldGuide blacklist
@@ -122,8 +124,11 @@ Excluded items:
 - AnimalCarcass_Tame_Dog_B: FieldGuide blacklist
 - AnimalCarcass_Tame_Dog_C: FieldGuide blacklist
 - AnimalCarcass_Tame_Cat_A: FieldGuide blacklist
+- Single_Wall_Light: FieldGuide blacklist
+- Exposed_Wall_Light: FieldGuide blacklist
 - AnimalCarcass_Arctic_Moa_Mount: FieldGuide blacklist
 - AnimalCarcass_Arctic_Moa_Juvenile: FieldGuide blacklist
+- Exposed_Wall_Light_Foggy: FieldGuide blacklist
 - AnimalCarcass_Tame_Dog_D: FieldGuide blacklist
 - Spider_Web: Not itemable
 - IceMammoth_Ice_Projectile: Not itemable
@@ -138,6 +143,7 @@ Excluded items:
 - Bunker_BunkBed_TopBunk: FieldGuide blacklist
 - Ashlands_Blocker: FieldGuide blacklist
 - Rifle_Assault: FieldGuide blacklist
+- AnimalCarcass_Lamb: FieldGuide blacklist
 - LegendaryWeapon_SlugLauncher: FieldGuide blacklist
 - LegendaryWeapon_IceMammoth_Sledgehammer: FieldGuide blacklist
 - Collectable_Note: FieldGuide blacklist
@@ -184,6 +190,7 @@ Excluded items:
 - Collectable_Note_NoDeploy: FieldGuide blacklist
 - AnimalCarcass_WoollyMammoth_Juvenile: FieldGuide blacklist
 - Dead_EI_Agent: FieldGuide blacklist
+- Prebuilt_Spawn_Location: FieldGuide blacklist
 recipe Lantern, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
 recipe Waterskin, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
 recipe Oxygen_Bladder, recipeSet Crafting_Bench, D_Processing Great_Hunt_Device: no matching StaticItem.Processing
@@ -317,41 +324,13 @@ Recipe Ice_Roof_CurvedAngles excluded: Recipe Ice_Roof_CurvedAngles has non-exis
 Recipe Ice_Wall_Curved excluded: Recipe Ice_Wall_Curved has non-existent requirement Ice_Diagonal
 Recipe Ice_Advanced_Beam_Set excluded: Recipe Ice_Advanced_Beam_Set has non-existent requirement Ice_Diagonal
 Recipe Advanced_Butchery_Bench excluded: Recipe Advanced_Butchery_Bench has non-existent requirement Advanced_Butchery_Bench
-Recipe Homestead_Silo excluded: Recipe Homestead_Silo has non-existent requirement Homestead_Decorations
-Recipe Homestead_Quilted_Bed excluded: Recipe Homestead_Quilted_Bed has non-existent requirement Homestead_Decorations
-Recipe Homestead_Farm_Railing excluded: Recipe Homestead_Farm_Railing has non-existent requirement Homestead_Decorations
-Recipe Homestead_Farm_Railing_Gate excluded: Recipe Homestead_Farm_Railing_Gate has non-existent requirement Homestead_Decorations
-Recipe Homestead_Swing_Chair excluded: Recipe Homestead_Swing_Chair has non-existent requirement Homestead_Decorations
-Recipe Homestead_Soft_Sofa_Single excluded: Recipe Homestead_Soft_Sofa_Single has non-existent requirement Homestead_Decorations
-Recipe Homestead_Soft_Sofa_Double excluded: Recipe Homestead_Soft_Sofa_Double has non-existent requirement Homestead_Decorations
-Recipe Homestead_Spawn_Blocker_Scarecrow excluded: Recipe Homestead_Spawn_Blocker_Scarecrow has non-existent requirement Homestead_Decorations
-Recipe Homestead_PlanterBox_SML excluded: Recipe Homestead_PlanterBox_SML has non-existent requirement Homestead_Decorations
-Recipe Homestead_Water_Tank excluded: Recipe Homestead_Water_Tank has non-existent requirement Homestead_Decorations
-Recipe Homestead_Cabinet excluded: Recipe Homestead_Cabinet has non-existent requirement Homestead_Decorations
-Recipe Homestead_Cabinet_LRG excluded: Recipe Homestead_Cabinet_LRG has non-existent requirement Homestead_Decorations
-Recipe Homestead_BirdFeeder excluded: Recipe Homestead_BirdFeeder has non-existent requirement Homestead_Decorations
 Recipe ResearchEquipment_Centrifuge excluded: output ResearchEquipment_Centrifuge is not mapped. Reason: FieldGuide blacklist.
 Recipe ResearchEquipment_Flasks excluded: output ResearchEquipment_Flasks is not mapped. Reason: FieldGuide blacklist.
 Recipe ResearchEquipment_Microscope excluded: output ResearchEquipment_Microscope is not mapped. Reason: FieldGuide blacklist.
 Recipe ResearchEquipment_TestTubes excluded: output ResearchEquipment_TestTubes is not mapped. Reason: FieldGuide blacklist.
 Recipe ResearchEquipment_LabDesk excluded: output ResearchEquipment_LabDesk is not mapped. Reason: FieldGuide blacklist.
-Recipe Homestead_Sewing_Machine excluded: Recipe Homestead_Sewing_Machine has non-existent requirement Homestead_Decorations
-Recipe Homestead_Ranch_Sign excluded: Recipe Homestead_Ranch_Sign has non-existent requirement Homestead_Decorations
-Recipe Homestead_Ranch_Gate_Sign excluded: Recipe Homestead_Ranch_Gate_Sign has non-existent requirement Homestead_Decorations
-Recipe Homestead_Vintage_Jar excluded: Recipe Homestead_Vintage_Jar has non-existent requirement Homestead_Decorations
-Recipe Homestead_Honey_Pot excluded: Recipe Homestead_Honey_Pot has non-existent requirement Homestead_Decorations
-Recipe Homestead_Butter_Churn excluded: Recipe Homestead_Butter_Churn has non-existent requirement Homestead_Decorations
-Recipe Homestead_Coffee_Grinder excluded: Recipe Homestead_Coffee_Grinder has non-existent requirement Homestead_Decorations
-Recipe Homestead_Cheese excluded: Recipe Homestead_Cheese has non-existent requirement Homestead_Decorations
-Recipe Homestead_Hanging_Meat excluded: Recipe Homestead_Hanging_Meat has non-existent requirement Homestead_Decorations
-Recipe Homestead_Rocking_Chair_Single excluded: Recipe Homestead_Rocking_Chair_Single has non-existent requirement Homestead_Decorations
-Recipe Homestead_Rocking_Chair_Double excluded: Recipe Homestead_Rocking_Chair_Double has non-existent requirement Homestead_Decorations
-Recipe Homestead_Picnic_Table excluded: Recipe Homestead_Picnic_Table has non-existent requirement Homestead_Decorations
-Recipe Homestead_Barbed_Wire_Fence excluded: Recipe Homestead_Barbed_Wire_Fence has non-existent requirement Homestead_Decorations
-Recipe Homestead_Lamp_Ground excluded: Recipe Homestead_Lamp_Ground has non-existent requirement Homestead_Decorations
-Recipe Homestead_Lamp_Wall excluded: Recipe Homestead_Lamp_Wall has non-existent requirement Homestead_Decorations
 Recipe Assault_Rifle_Legacy excluded: output Rifle_Assault is not mapped. Reason: FieldGuide blacklist.
-Of the non-excluded items, 1674 are crafting related, the following 585 are not:
+Of the non-excluded items, 1676 are crafting related, the following 591 are not:
 - Kit_Radar
 - Envirosuit
 - Envirosuit_Sand
@@ -739,6 +718,9 @@ Of the non-excluded items, 1674 are crafting related, the following 585 are not:
 - Worker_Bee
 - LegendaryWeapon_Scorpion_Rifle
 - Meta_Sickle_Inaris_00
+- Meta_Sickle_Inaris_01
+- Meta_Sickle_Inaris_02
+- Meta_Sickle_Inaris_03
 - Mission_AudioLog_Prometheus_3
 - Food_Animal_Feed_Speed
 - Food_Animal_Feed_CarryWeight
@@ -817,6 +799,7 @@ Of the non-excluded items, 1674 are crafting related, the following 585 are not:
 - Rock_Golem_Grenade_Caltrops
 - AnimalCarcass_Cow
 - AnimalCarcass_Calf
+- AnimalCarcass_Chick
 - Workshop_Calf
 - Meta_Biolab_Inhaler_LavaHunter
 - Meta_Biolab_Inhaler_Hammerhead
@@ -937,3 +920,5 @@ Of the non-excluded items, 1674 are crafting related, the following 585 are not:
 - Ammo_AssaultRifle_Round_Workshop_Bundle
 - Prop_Eden_Whiteboard
 - AnimalCarcass_WoollyMammoth_Mount
+- Workshop_Lamb_Female
+- Workshop_Chick_Female

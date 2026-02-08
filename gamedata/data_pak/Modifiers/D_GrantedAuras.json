@@ -234,6 +234,24 @@
             "Stat": {
                 "Value": "DoubleExperienceEvent_?"
             }
+        },
+        {
+            "Name": "AuraGestatingSpeed",
+            "Modifier": {
+                "RowName": "GrantedAura_GestationSpeed"
+            },
+            "Stat": {
+                "Value": "HasGestatingSpeedAura_?"
+            }
+        },
+        {
+            "Name": "AuraInhibitSlinkerHunting",
+            "Modifier": {
+                "RowName": "GrantedAura_InhibitSlinkerHunting"
+            },
+            "Stat": {
+                "Value": "GrantedAuraInhibitSlinkerHunting_?"
+            }
         }
     ]
 }
