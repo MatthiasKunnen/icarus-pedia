@@ -1,5 +1,5 @@
 import {getData, getRecipe} from '$lib/data';
-import type {ItemStats, Stat} from '$lib/data.interface';
+import type {ItemStats, Stat} from '$lib/data.def';
 import {formatStat} from '$lib/util/stat.util';
 
 export const load = async ({params}) => {
@@ -13,7 +13,10 @@ export const load = async ({params}) => {
 
     const crafter = data.crafters[itemName];
 
-    const itemStats = mapStats(item.stats, data.stats);
+    const itemStats = mapStats(item.stats, data.stats, new Set([
+        // 'MeleeDamage_',
+        // 'MeleeDamageVariation_%',
+    ]));
 
     const itemModifier = item.modifier === undefined
         ? undefined
@@ -45,17 +48,26 @@ export const load = async ({params}) => {
         recipes: item.recipes.map(r => getRecipe(r, data)),
         requiresShelter: item.requiresShelter,
         stackSize: item.stackSize,
+        toolDamage: item.toolDamage,
         stats: itemStats,
         weight: item.weight,
     };
 };
 
-function mapStats(itemStats: ItemStats | undefined, statsMap: Record<string, Stat>): Array<string> {
+function mapStats(
+    itemStats: ItemStats | undefined,
+    statsMap: Record<string, Stat>,
+    exclude?: Set<string>,
+): Array<string> {
     if (itemStats === undefined) {
         return [];
     }
 
-    return Object.entries(itemStats).map(([name, value]) => {
-        return formatStat(name, value, statsMap[name]);
-    });
+    return Object.entries(itemStats).reduce<Array<string>>((acc, [name, value]) => {
+        if (exclude?.has(name) ?? false) {
+            return acc
+        }
+        acc.push(formatStat(name, value, statsMap[name]));
+        return acc
+    }, []);
 }

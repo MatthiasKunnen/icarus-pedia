@@ -3,7 +3,7 @@ import * as path from 'node:path';
 import {fileURLToPath} from 'url';
 
 import {LogWriter} from './util/logwriter.js';
-import type {GameData} from '../../src/lib/data.interface.js';
+import type {GameData} from '../../src/lib/data.def.js';
 
 const dirname = path.dirname(fileURLToPath(import.meta.url));
 const outputPath = path.join(dirname, '..', '..', 'static', 'gameicons');

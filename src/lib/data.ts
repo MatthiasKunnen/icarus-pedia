@@ -1,5 +1,5 @@
 import type {FullItemCount, FullRecipe} from '$lib/recipe.interface';
-import type {GameData, ItemCount} from './data.interface';
+import type {GameData, ItemCount} from './data.def';
 import summarizedData from '../../tools/summarize/summarized-data.json';
 
 /**

@@ -1,4 +1,4 @@
-import type {WorkshopCost, WorkshopItem} from '../../../src/lib/data.interface.js';
+import type {WorkshopCost, WorkshopItem} from '../../../src/lib/data.def.js';
 import type {GameWorkshopCost, WorkshopItemRow} from '../types/workshop-items.interface.js';
 
 export function workshopItemToSummary(workshopItem: WorkshopItemRow): WorkshopItem {

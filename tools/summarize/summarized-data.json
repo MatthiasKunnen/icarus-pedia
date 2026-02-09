@@ -7746,7 +7746,10 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseAttacksCauseMinorHemorrhage_%": 25
+                "BaseAttacksCauseMinorHemorrhage_%": 25,
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 225
             },
             "weight": 500
         },
@@ -8235,6 +8238,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 55,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 150
+            },
             "weight": 500
         },
         "Bone_Legs": {
@@ -8274,6 +8282,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 100
+            },
             "weight": 500
         },
         "Bone_Spear": {
@@ -8288,7 +8301,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 10
+                "BaseSpearCriticalDamage_+%": 10,
+                "BaseMeleeDamage_+": 55,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -9456,7 +9471,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 75,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -10247,7 +10264,10 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseAttacksCausePoison_%": 100
+                "BaseAttacksCausePoison_%": 100,
+                "BaseMeleeDamage_+": 55,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 175
             },
             "weight": 500
         },
@@ -10286,7 +10306,9 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCausePoison_%": 100,
-                "BaseSpearCriticalDamage_+%": 15
+                "BaseSpearCriticalDamage_+%": 15,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -11388,7 +11410,11 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 25,
-                "BaseFrostedFellChance_%": 30
+                "BaseFrostedFellChance_%": 30,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 75,
+                "BaseFellingRewards_%": 133.00000429153442
             },
             "weight": 500
         },
@@ -11449,7 +11475,10 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseChilledAlterationChance_%": 30,
-                "BaseFrostDamage_+": 35
+                "BaseFrostDamage_+": 35,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 200
             },
             "weight": 500
         },
@@ -11468,7 +11497,11 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 25,
-                "BaseFrozenOrePerMinedResource_%": 20
+                "BaseFrozenOrePerMinedResource_%": 20,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "weight": 500
         },
@@ -11486,7 +11519,10 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseChilledAlterationChance_%": 30,
-                "BaseFrostDamage_+": 30
+                "BaseFrostDamage_+": 30,
+                "BaseMeleeDamage_+": 30,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 175
             },
             "weight": 500
         },
@@ -11506,7 +11542,11 @@
                 "BaseConstructDamage_+%": 500,
                 "BaseFrostDamage_+": 40,
                 "BaseFrozenOrePerMinedResource_%": 20,
-                "BaseHardenedPointPenetration_%": 100
+                "BaseHardenedPointPenetration_%": 100,
+                "BaseMeleeDamage_+": 85,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseShatteringDamage_+": 50,
+                "BaseShatteringRewards_%": 100
             },
             "weight": 500
         },
@@ -11524,7 +11564,9 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 35,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5
             },
             "weight": 500
         },
@@ -11572,6 +11614,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 175
+            },
             "weight": 500
         },
         "Composite_Arms": {
@@ -11696,7 +11743,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 80,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -21226,7 +21275,9 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseFreeze_%": 25,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 80,
+                "BaseMeleeDamageVariation_%": 25
             },
             "weight": 2000
         },
@@ -21778,7 +21829,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseAttacksCauseBleed_%": 50
+                "BaseAttacksCauseBleed_%": 50,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -21889,9 +21942,12 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
-                "BaseFellingRewards_%": -50,
+                "BaseFellingRewards_%": -189.9999976158142,
                 "BaseInfectedBarkPerWoodChopped_%": 100,
-                "BasePoisonDamage_+": 23
+                "BasePoisonDamage_+": 23,
+                "BaseMeleeDamage_+": 22,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 80
             },
             "weight": 500
         },
@@ -21926,7 +21982,9 @@
                 "BaseAcidicGlandsPerSkinnedResource_%": 10,
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 40,
-                "BaseSkinningRewards_%": -50
+                "BaseSkinningRewards_%": -275,
+                "BaseMeleeDamage_+": 37,
+                "BaseMeleeDamageVariation_%": 5
             },
             "weight": 500
         },
@@ -21946,7 +22004,11 @@
                 "BaseAttacksCauseMiasma_%": 15,
                 "BaseMiningRewards_+%": -50,
                 "BasePoisonDamage_+": 23,
-                "BasePyriticCrustPerMinedResource_%": 100
+                "BasePyriticCrustPerMinedResource_%": 100,
+                "BaseMeleeDamage_+": 22,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 75,
+                "BaseMiningRewards_%": 139.9999976158142
             },
             "weight": 500
         },
@@ -21965,7 +22027,10 @@
                 "BaseAttacksCauseMiasma_%": 15,
                 "BaseHarvestingRewards_+%": -50,
                 "BasePlantThornsPerHarvestedResource_%": 100,
-                "BasePoisonDamage_+": 35
+                "BasePoisonDamage_+": 35,
+                "BaseMeleeDamage_+": 32,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 185.0000023841858
             },
             "weight": 500
         },
@@ -21986,7 +22051,10 @@
                 "BaseHardenedPointPenetration_%": 100,
                 "BasePoisonDamage_+": 80,
                 "BasePyriticCrustPerMinedResource_%": 100,
-                "BaseShatteringRewards_%": -50
+                "BaseShatteringRewards_%": -150,
+                "BaseMeleeDamage_+": 80,
+                "BaseMeleeDamageVariation_%": 25,
+                "BaseShatteringDamage_+": 50
             },
             "weight": 500
         },
@@ -22004,7 +22072,9 @@
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 40,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 37,
+                "BaseMeleeDamageVariation_%": 5
             },
             "weight": 500
         },
@@ -23360,7 +23430,10 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
-                "BaseFireDamage_+": 25
+                "BaseFireDamage_+": 25,
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 150
             },
             "weight": 500
         },
@@ -23757,7 +23830,9 @@
             "stackSize": 1,
             "stats": {
                 "ApeClubSlamAttack_?": 1,
-                "IceSledgeHammerSweep_?": 1
+                "IceSledgeHammerSweep_?": 1,
+                "BaseMeleeDamage_+": 130,
+                "BaseMeleeDamageVariation_%": 10
             },
             "isCraftingRelated": false,
             "weight": 12000
@@ -23800,7 +23875,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
-                "BaseBiofuelConsumedOnUse_+": 25
+                "BaseBiofuelConsumedOnUse_+": 25,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 80,
+                "BaseMiningRewards_%": 145.00000476837158
             },
             "isCraftingRelated": false,
             "weight": 8000
@@ -23972,6 +24051,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 110.00000238418579,
+                "BaseReapingRewards_%": 100
+            },
             "weight": 500
         },
         "MakeshiftRadio": {
@@ -24821,7 +24906,11 @@
             },
             "stackSize": 1,
             "stats": {
-                "BaseWoodCarryWeight_+%": -50
+                "BaseWoodCarryWeight_+%": -50,
+                "BaseMeleeDamage_+": 45,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 50,
+                "BaseFellingRewards_%": 129.99999523162842
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -24846,9 +24935,12 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
-                "BaseFellingRewards_%": -50,
+                "BaseFellingRewards_%": -179.99999523162842,
                 "BaseInfectedBarkPerWoodChopped_%": 100,
-                "BasePoisonDamage_+": 50
+                "BasePoisonDamage_+": 50,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 60
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -24874,7 +24966,11 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 50,
-                "BaseFrostedFellChance_%": 30
+                "BaseFrostedFellChance_%": 30,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 60,
+                "BaseFellingRewards_%": 129.99999523162842
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -24901,7 +24997,11 @@
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFellingScorchChance_%": 30,
                 "BaseFellingScorchConversion_%": 15,
-                "BaseFireDamage_+": 50
+                "BaseFireDamage_+": 50,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 60,
+                "BaseFellingRewards_%": 129.99999523162842
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -24925,7 +25025,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseAxeAttackSpeed_+%": 10,
-                "BaseWoodCarryWeight_+%": -10
+                "BaseWoodCarryWeight_+%": -10,
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 60,
+                "BaseFellingRewards_%": 129.99999523162842
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -24947,6 +25051,12 @@
                 }
             },
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 30,
+                "BaseFellingRewards_%": 125
+            },
             "isCraftingRelated": false,
             "weight": 100
         },
@@ -24970,7 +25080,11 @@
             "stats": {
                 "BaseFellingDamage_+%": 10,
                 "BaseMeleeDamage_+%": 10,
-                "BaseMovementSpeed_+%": -15
+                "BaseMovementSpeed_+%": -15,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 50,
+                "BaseFellingRewards_%": 125
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -24995,7 +25109,11 @@
             "stats": {
                 "BaseAxeStaminaActionCost_+%": 15,
                 "BaseFellingDamage_+%": 10,
-                "BaseMeleeDamage_+%": 10
+                "BaseMeleeDamage_+%": 10,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 50,
+                "BaseFellingRewards_%": 125
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -25021,7 +25139,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttackSpeed_+%": -10,
-                "BaseFellingDamage_+%": 15
+                "BaseFellingDamage_+%": 15,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 50,
+                "BaseFellingRewards_%": 125
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -25045,7 +25167,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 15,
-                "BaseElectricDamage_+": 50
+                "BaseElectricDamage_+": 50,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseFellingDamage_+": 60,
+                "BaseFellingRewards_%": 129.99999523162842
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -26606,7 +26732,10 @@
             },
             "stackSize": 1,
             "stats": {
-                "BaseWoundResistance_%": 100
+                "BaseWoundResistance_%": 100,
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 225
             },
             "isCraftingRelated": false,
             "weight": 500
@@ -26633,7 +26762,9 @@
                 "BaseAcidicGlandsPerSkinnedResource_%": 10,
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 50,
-                "BaseSkinningRewards_%": -50
+                "BaseSkinningRewards_%": -225,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 500
@@ -26659,7 +26790,10 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 50,
-                "BaseSkinningCookChance_%": 10
+                "BaseSkinningCookChance_%": 10,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 500
@@ -26685,7 +26819,10 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseChilledAlterationChance_%": 30,
-                "BaseFrostDamage_+": 50
+                "BaseFrostDamage_+": 50,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 500
@@ -26708,7 +26845,10 @@
             },
             "stackSize": 1,
             "stats": {
-                "BaseAttackSpeed_+%": 10
+                "BaseAttackSpeed_+%": 10,
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 150
             },
             "isCraftingRelated": false,
             "weight": 500
@@ -26730,6 +26870,11 @@
                 }
             },
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 52,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 150
+            },
             "isCraftingRelated": false,
             "weight": 100
         },
@@ -26753,7 +26898,10 @@
             "stats": {
                 "BaseSkinningRewards_+%": 15,
                 "BaseSkinningSpeed_+%": 15,
-                "BaseToolStaminaActionCost_+%": 10
+                "BaseToolStaminaActionCost_+%": 10,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 200
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -26777,7 +26925,10 @@
             "stackSize": 1,
             "stats": {
                 "BaseItemWear_+%": -10,
-                "BaseToolStaminaActionCost_+%": 10
+                "BaseToolStaminaActionCost_+%": 10,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 200
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -26801,7 +26952,10 @@
             "stackSize": 1,
             "stats": {
                 "BaseMeleeDamage_+%": 10,
-                "BaseStealthThreatModifier_+%": 25
+                "BaseStealthThreatModifier_+%": 25,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 200
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -26828,7 +26982,10 @@
             "stats": {
                 "BaseMeleeDamage_+%": 10,
                 "BaseSkinningRewards_+%": 15,
-                "BaseSkinningSpeed_+%": 10
+                "BaseSkinningSpeed_+%": 10,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 200
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -26852,7 +27009,10 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 15,
-                "BaseElectricDamage_+": 50
+                "BaseElectricDamage_+": 50,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -27407,8 +27567,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
-                "BaseMiningRewards_%": 15,
-                "BaseOverencumberedPenalty_+%": -50
+                "BaseMiningRewards_%": -118.00000429153442,
+                "BaseOverencumberedPenalty_+%": -50,
+                "BaseMeleeDamage_+": 45,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 60
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -27436,7 +27599,11 @@
                 "BaseAttacksCauseMiasma_%": 15,
                 "BaseMiningRewards_+%": -50,
                 "BasePoisonDamage_+": 50,
-                "BasePyriticCrustPerMinedResource_%": 100
+                "BasePyriticCrustPerMinedResource_%": 100,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -27463,7 +27630,11 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 50,
-                "BaseFrozenOrePerMinedResource_%": 20
+                "BaseFrozenOrePerMinedResource_%": 20,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -27490,7 +27661,11 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 50,
-                "BaseMiningSmeltChance_%": 30
+                "BaseMiningSmeltChance_%": 30,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -27515,7 +27690,11 @@
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseOverencumberedPenalty_+%": -10,
-                "BasePickaxeAttackSpeed_+%": 10
+                "BasePickaxeAttackSpeed_+%": 10,
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -27538,7 +27717,11 @@
             },
             "stackSize": 1,
             "stats": {
-                "BaseArmorDamageModifier_+%": 500
+                "BaseArmorDamageModifier_+%": 500,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 55,
+                "BaseMiningRewards_%": 114.99999761581421
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -27562,7 +27745,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
-                "BasePickaxeItemWear_+%": 10
+                "BasePickaxeItemWear_+%": 10,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 60,
+                "BaseMiningRewards_%": 125
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -27586,7 +27773,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
-                "BasePickaxeStaminaActionCost_+%": 15
+                "BasePickaxeStaminaActionCost_+%": 15,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 60,
+                "BaseMiningRewards_%": 125
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -27613,7 +27804,11 @@
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseMiningCopperRewards_+%": 10,
-                "BaseMiningGoldRewards_+%": 10
+                "BaseMiningGoldRewards_+%": 10,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 60,
+                "BaseMiningRewards_%": 135.0000023841858
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -27639,7 +27834,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
-                "BaseMiningMetalRewards_+%": 10
+                "BaseMiningMetalRewards_+%": 10,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 60,
+                "BaseMiningRewards_%": 135.0000023841858
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -27664,7 +27863,11 @@
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseElectroshock_%": 15,
-                "BaseElectricDamage_+": 50
+                "BaseElectricDamage_+": 50,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -28173,7 +28376,10 @@
             "stackSize": 1,
             "stats": {
                 "BaseReapingSeedRewards_+%": 100,
-                "CanHarvestSeeds_?": 1
+                "CanHarvestSeeds_?": 1,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseReapingRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28200,7 +28406,11 @@
                 "BaseAttacksCauseMiasma_%": 15,
                 "BaseHarvestingRewards_+%": -25,
                 "BasePlantThornsPerHarvestedResource_%": 100,
-                "BasePoisonDamage_+": 50
+                "BasePoisonDamage_+": 50,
+                "BaseMeleeDamage_+": 45,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 125,
+                "BaseReapingRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28226,7 +28436,10 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 50,
-                "BaseHarvestCookChance_%": 25
+                "BaseHarvestCookChance_%": 25,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseReapingRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28252,7 +28465,10 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseChilledAlterationChance_%": 30,
-                "BaseFrostDamage_+": 50
+                "BaseFrostDamage_+": 50,
+                "BaseMeleeDamage_+": 35,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseReapingRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28277,7 +28493,10 @@
             "stats": {
                 "BaseAttackSpeed_+%": 25,
                 "BaseCriticalDamage_+%": 25,
-                "BaseSickleAttacksCauseWound_%": 25
+                "BaseSickleAttacksCauseWound_%": 25,
+                "BaseMeleeDamage_+": 45,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseReapingRewards_%": 175
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28299,6 +28518,11 @@
                 }
             },
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 125
+            },
             "isCraftingRelated": false,
             "weight": 1000
         },
@@ -28352,7 +28576,9 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseImmobilise_%": 10,
-                "BaseAttacksCauseSlow_%": 50
+                "BaseAttacksCauseSlow_%": 50,
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28378,7 +28604,9 @@
             "stats": {
                 "BaseAttacksCauseMiasma_%": 15,
                 "BasePoisonDamage_+": 50,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 42,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28404,7 +28632,9 @@
             "stats": {
                 "BaseAttacksCauseFreeze_%": 15,
                 "BaseFrostDamage_+": 50,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 42,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28430,7 +28660,9 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 50,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 42,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28454,7 +28686,9 @@
             "stackSize": 1,
             "stats": {
                 "BaseSpearAttackSpeed_+%": 10,
-                "BaseSpearStaminaActionCost_+%": -15
+                "BaseSpearStaminaActionCost_+%": -15,
+                "BaseMeleeDamage_+": 85,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 2000
@@ -28477,7 +28711,9 @@
             },
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 15
+                "BaseSpearCriticalDamage_+%": 15,
+                "BaseMeleeDamage_+": 55,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28502,7 +28738,9 @@
             "stats": {
                 "BaseMeleeDamageResistance_+%": -5,
                 "BaseMovementSpeed_+%": 10,
-                "BaseSpearCriticalDamage_+%": 20
+                "BaseSpearCriticalDamage_+%": 20,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28527,7 +28765,9 @@
             "stats": {
                 "BaseSpearAttackSpeed_+%": 10,
                 "BaseSpearCriticalDamage_+%": 20,
-                "BaseToolStaminaActionCost_+%": 20
+                "BaseToolStaminaActionCost_+%": 20,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28553,7 +28793,9 @@
             "stackSize": 1,
             "stats": {
                 "BaseSpearAttackSpeed_+%": 15,
-                "BaseSpearCriticalDamage_+%": 20
+                "BaseSpearCriticalDamage_+%": 20,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28580,7 +28822,9 @@
             "stats": {
                 "BaseMovementSpeed_+%": 10,
                 "BaseSpearCriticalDamage_+%": 20,
-                "BaseSprintingStaminaActionCost_+%": -10
+                "BaseSprintingStaminaActionCost_+%": -10,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -28605,7 +28849,9 @@
             "stats": {
                 "BaseAttacksCauseElectroshock_%": 15,
                 "BaseElectricDamage_+": 50,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 42,
+                "BaseMeleeDamageVariation_%": 5
             },
             "isCraftingRelated": false,
             "weight": 100
@@ -28830,6 +29076,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 50,
+                "BaseFellingRewards_%": 125
+            },
             "weight": 500
         },
         "Metal_Bed": {
@@ -29082,8 +29334,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseArmorDamageModifier_+%": 500,
-                "BaseMiningRewards_%": 100,
-                "IsInvolvedInQuest_?": 1
+                "BaseMiningRewards_%": -25,
+                "IsInvolvedInQuest_?": 1,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 60
             },
             "isCraftingRelated": false,
             "weight": 1000
@@ -29099,6 +29354,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 200
+            },
             "weight": 500
         },
         "Metal_Ladder": {
@@ -29203,7 +29463,11 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseArmorDamageModifier_+%": 500
+                "BaseArmorDamageModifier_+%": 500,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 60,
+                "BaseMiningRewards_%": 125
             },
             "weight": 500
         },
@@ -29238,7 +29502,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseConstructDamage_+%": 500,
-                "BaseHardenedPointPenetration_%": 100
+                "BaseHardenedPointPenetration_%": 100,
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 25,
+                "BaseShatteringDamage_+": 50,
+                "BaseShatteringRewards_%": 100
             },
             "weight": 5000
         },
@@ -29254,7 +29522,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 20
+                "BaseSpearCriticalDamage_+%": 20,
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -30238,7 +30508,10 @@
             "stackSize": 1,
             "stats": {
                 "BasePrimeMeatDropChance_%": 400,
-                "IsInvolvedInQuest_?": 1
+                "IsInvolvedInQuest_?": 1,
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 150
             },
             "isCraftingRelated": false,
             "weight": 500
@@ -31150,7 +31423,11 @@
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFellingScorchChance_%": 30,
                 "BaseFellingScorchConversion_%": 15,
-                "BaseFireDamage_+": 20
+                "BaseFireDamage_+": 20,
+                "BaseMeleeDamage_+": 20,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 55,
+                "BaseFellingRewards_%": 129.99999523162842
             },
             "weight": 500
         },
@@ -31223,7 +31500,10 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 30,
-                "BaseSkinningCookChance_%": 10
+                "BaseSkinningCookChance_%": 10,
+                "BaseMeleeDamage_+": 30,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 215.00000953674316
             },
             "weight": 500
         },
@@ -31255,7 +31535,11 @@
                 "BaseArmorDamageModifier_+%": 500,
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 23,
-                "BaseMiningSmeltChance_%": 30
+                "BaseMiningSmeltChance_%": 30,
+                "BaseMeleeDamage_+": 22,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 60,
+                "BaseMiningRewards_%": 129.99999523162842
             },
             "weight": 500
         },
@@ -31273,7 +31557,10 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 25,
-                "BaseHarvestCookChance_%": 25
+                "BaseHarvestCookChance_%": 25,
+                "BaseMeleeDamage_+": 25,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 150
             },
             "weight": 500
         },
@@ -31293,7 +31580,11 @@
                 "BaseConstructDamage_+%": 500,
                 "BaseFireDamage_+": 33,
                 "BaseHardenedPointPenetration_%": 100,
-                "BaseShatterSmeltChance_%": 30
+                "BaseShatterSmeltChance_%": 30,
+                "BaseMeleeDamage_+": 32,
+                "BaseMeleeDamageVariation_%": 25,
+                "BaseShatteringDamage_+": 50,
+                "BaseShatteringRewards_%": 100
             },
             "weight": 500
         },
@@ -31311,7 +31602,9 @@
             "stats": {
                 "BaseAttacksCauseBurn_%": 15,
                 "BaseFireDamage_+": 30,
-                "BaseSpearCriticalDamage_+%": 20
+                "BaseSpearCriticalDamage_+%": 20,
+                "BaseMeleeDamage_+": 30,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 500
         },
@@ -31987,6 +32280,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 75,
+                "BaseFellingRewards_%": 133.00000429153442
+            },
             "weight": 1000
         },
         "Platinum_Bolt": {
@@ -32095,6 +32394,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 200
+            },
             "weight": 500
         },
         "Platinum_Ore": {
@@ -32124,7 +32428,11 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseArmorDamageModifier_+%": 500
+                "BaseArmorDamageModifier_+%": 500,
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 70,
+                "BaseMiningRewards_%": 133.00000429153442
             },
             "weight": 1000
         },
@@ -32172,6 +32480,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 60,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 175
+            },
             "weight": 1000
         },
         "Platinum_Spear": {
@@ -32186,7 +32499,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 5
             },
             "weight": 1000
         },
@@ -35822,7 +36137,11 @@
             "stackSize": 1,
             "stats": {
                 "BaseConstructDamage_+%": 500,
-                "BaseHardenedPointPenetration_%": 100
+                "BaseHardenedPointPenetration_%": 100,
+                "BaseMeleeDamage_+": 70,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseShatteringDamage_+": 50,
+                "BaseShatteringRewards_%": 200
             },
             "weight": 500
         },
@@ -37224,7 +37543,10 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseAttacksCauseWound_%": 100
+                "BaseAttacksCauseWound_%": 100,
+                "BaseMeleeDamage_+": 75,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 225
             },
             "weight": 500
         },
@@ -37315,7 +37637,9 @@
             "stackSize": 1,
             "stats": {
                 "BaseAttacksCauseWound_%": 100,
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 75,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -38700,6 +39024,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 150
+            },
             "weight": 500
         },
         "Sickle_Attachment_Harvest_Seeds": {
@@ -38832,6 +39161,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 80,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 25,
+                "BaseFellingRewards_%": 100
+            },
             "weight": 500
         },
         "Slug_Grenade": {
@@ -39970,6 +40305,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 45,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 50,
+                "BaseFellingRewards_%": 129.99999523162842
+            },
             "weight": 500
         },
         "Steel_Bloom": {
@@ -40190,6 +40531,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 200
+            },
             "weight": 500
         },
         "Steel_Pickaxe": {
@@ -40204,7 +40550,11 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseArmorDamageModifier_+%": 500
+                "BaseArmorDamageModifier_+%": 500,
+                "BaseMeleeDamage_+": 40,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 65,
+                "BaseMiningRewards_%": 129.99999523162842
             },
             "weight": 500
         },
@@ -40474,7 +40824,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -40796,6 +41148,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 30,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 25,
+                "BaseFellingRewards_%": 100
+            },
             "weight": 500
         },
         "Stone_Beam": {
@@ -41015,6 +41373,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 100
+            },
             "weight": 500
         },
         "Stone_Pickaxe": {
@@ -41029,7 +41392,11 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseArmorDamageModifier_+%": 500
+                "BaseArmorDamageModifier_+%": 500,
+                "BaseMeleeDamage_+": 30,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 50,
+                "BaseMiningRewards_%": 100
             },
             "weight": 500
         },
@@ -41739,7 +42106,10 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseChanceToHarvestCreatureTrophiesOnSkinning_%": 100
+                "BaseChanceToHarvestCreatureTrophiesOnSkinning_%": 100,
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseSkinningRewards_%": 100
             },
             "weight": 500
         },
@@ -42098,6 +42468,12 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 55,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseFellingDamage_+": 80,
+                "BaseFellingRewards_%": 139.9999976158142
+            },
             "weight": 500
         },
         "Titanium_Bolt": {
@@ -42224,6 +42600,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 75,
+                "BaseMeleeDamageVariation_%": 5,
+                "BaseSkinningRewards_%": 225
+            },
             "weight": 500
         },
         "Titanium_Ore": {
@@ -42251,7 +42632,11 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseArmorDamageModifier_+%": 500
+                "BaseArmorDamageModifier_+%": 500,
+                "BaseMeleeDamage_+": 55,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseMiningRadius_+": 75,
+                "BaseMiningRewards_%": 139.9999976158142
             },
             "weight": 500
         },
@@ -42325,6 +42710,11 @@
             ],
             "ingredientIn": [],
             "stackSize": 1,
+            "stats": {
+                "BaseMeleeDamage_+": 65,
+                "BaseMeleeDamageVariation_%": 10,
+                "BaseReapingRewards_%": 185.0000023841858
+            },
             "weight": 500
         },
         "Titanium_Spear": {
@@ -42339,7 +42729,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 25
+                "BaseSpearCriticalDamage_+%": 25,
+                "BaseMeleeDamage_+": 75,
+                "BaseMeleeDamageVariation_%": 5
             },
             "weight": 1000
         },
@@ -44297,7 +44689,9 @@
             "ingredientIn": [],
             "stackSize": 1,
             "stats": {
-                "BaseSpearCriticalDamage_+%": 10
+                "BaseSpearCriticalDamage_+%": 10,
+                "BaseMeleeDamage_+": 50,
+                "BaseMeleeDamageVariation_%": 10
             },
             "weight": 1000
         },
@@ -89105,6 +89499,10 @@
             "positiveFormat": "+{0}% Fall Damage Resistance",
             "negativeFormat": "-{0}% Fall Damage Resistance"
         },
+        "BaseFellingDamage_+": {
+            "positiveFormat": "+{0} Felling Damage",
+            "negativeFormat": "-{0} Felling Damage"
+        },
         "BaseFellingDamage_+%": {
             "positiveFormat": "+{0}% Felling Damage",
             "negativeFormat": "-{0}% Felling Damage"
@@ -89299,6 +89697,10 @@
             "positiveFormat": "+{0}% Melee Resistance",
             "negativeFormat": "-{0}% Melee Resistance"
         },
+        "BaseMeleeDamage_+": {
+            "positiveFormat": "+{0} Melee Damage",
+            "negativeFormat": "-{0} Melee Damage"
+        },
         "BaseMeleeDamage_+%": {
             "positiveFormat": "+{0}% Melee Damage",
             "negativeFormat": "-{0}% Melee Damage"
@@ -89443,6 +89845,10 @@
             "positiveFormat": "+{0}% Radar Scanning Speed",
             "negativeFormat": "-{0}% Radar Scanning Speed"
         },
+        "BaseReapingRewards_%": {
+            "positiveFormat": "+{0}% Yield from Reaping Plants",
+            "negativeFormat": "-{0}% Yield from Reaping Plants"
+        },
         "BaseReapingSeedRewards_+%": {
             "positiveFormat": "+{0}% Reaping Seed Yield",
             "negativeFormat": "-{0}% Reaping Seed Yield"
@@ -89458,6 +89864,10 @@
         "BaseShatterSmeltChance_%": {
             "positiveFormat": "+{0}% chance to Smelt When Shattering Rock",
             "negativeFormat": "-{0}% chance to Smelt When Shattering Rock"
+        },
+        "BaseShatteringDamage_+": {
+            "positiveFormat": "+{0} Shattering Damage",
+            "negativeFormat": "-{0} Shattering Damage"
         },
         "BaseShatteringRewards_%": {
             "positiveFormat": "+{0}% Yield from Shattering",

@@ -1,5 +1,5 @@
 import {getData} from '$lib/data';
-import type {Stat} from '$lib/data.interface';
+import type {Stat} from '$lib/data.def';
 
 export const load = async () => {
     const data = await getData();

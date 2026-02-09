@@ -1,3 +1,5 @@
+import type {ToolDamageRow} from '../../tools/summarize/types/tool-damage.interface';
+
 export interface Crafter {
     displayName: string;
     icon: string;
@@ -103,6 +105,35 @@ export interface Stat {
     positiveFormat: string;
     negativeFormat: string | undefined;
 }
+
+export const toolDamageToStatObj = {
+    Melee_Damage: 'BaseMeleeDamage_+',
+    DamageVariationPercentage: 'BaseMeleeDamageVariation_%',
+    Felling_Damage: 'BaseFellingDamage_+',
+    Felling_Efficiency: 'BaseFellingRewards_%',
+    Mining_Radius: 'BaseMiningRadius_+',
+    Mining_Efficiency: 'BaseMiningRewards_%',
+    Skinning_Efficiency: 'BaseSkinningRewards_%',
+    Reaping_Efficiency: 'BaseReapingRewards_%',
+    Shattering_Damage: 'BaseShatteringDamage_+',
+    Shattering_Efficiency: 'BaseShatteringRewards_%',
+} as const;
+type ToolDamageKeys = keyof typeof toolDamageToStatObj
+export const toolDamageToStatModifier: Partial<Record<
+    ToolDamageKeys, (numIn: number) => number>
+> = {
+    Felling_Efficiency: num => num * 100,
+    Mining_Efficiency: num => num * 100,
+    Skinning_Efficiency: num => num * 100,
+    Reaping_Efficiency: num => num * 100,
+    Shattering_Efficiency: num => num * 100,
+}
+export const toolDamageToStatMap = new Map<
+    ToolDamageKeys,
+    typeof toolDamageToStatObj[ToolDamageKeys]
+>(Object.entries(toolDamageToStatObj) as any);
+export type ToolDamage
+    = Partial<Record<typeof toolDamageToStatObj[keyof typeof toolDamageToStatObj], number>>;
 
 export interface GameData {
     crafters: Record<string, Crafter>;

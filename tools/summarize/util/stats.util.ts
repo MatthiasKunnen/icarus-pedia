@@ -1,5 +1,5 @@
 import {objectHasKeys, refIsSet, sortObjectKeys} from './object.util.js';
-import type {ItemModifier, ItemStats} from '../../../src/lib/data.interface.js';
+import type {ItemModifier, ItemStats} from '../../../src/lib/data.def.js';
 import type {ConsumableRow} from '../types/consumable.interface.js';
 import type {ModifierStateDataTable} from '../types/modifier-states.interface.js';
 

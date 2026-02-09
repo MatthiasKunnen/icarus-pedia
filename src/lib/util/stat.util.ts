@@ -1,4 +1,4 @@
-import type {Stat} from '$lib/data.interface';
+import type {Stat} from '$lib/data.def';
 
 export function formatStat(
     statName: string,
@@ -18,5 +18,5 @@ export function formatStat(
         ? stat.negativeFormat
         : stat.positiveFormat;
 
-    return format.replace('{0}', Math.abs(statValue).toString());
+    return format.replace('{0}', Math.abs(statValue).toFixed(0));
 }

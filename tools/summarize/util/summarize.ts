@@ -1,3 +1,9 @@
+import {
+    ToolDamage,
+    toolDamageToStatMap,
+    toolDamageToStatModifier,
+} from '../../../src/lib/data.def.js';
+import {ToolDamageDataTable} from '../types/tool-damage.interface.js';
 import {extractTranslation} from './localization.util.js';
 import type {LogWriter} from './logwriter.js';
 import {refIsSet, sortObjectKeys} from './object.util.js';
@@ -15,7 +21,7 @@ import type {
     Resource,
     Stat,
     WorkshopItem,
-} from '../../../src/lib/data.interface.js';
+} from '../../../src/lib/data.def.js';
 import type {RefWithDataTable} from '../types/common.interface.js';
 import type {ConsumableDataTable} from '../types/consumable.interface.js';
 import type {DeployableDataTable, DeployableRow} from '../types/deployable.interface.js';
@@ -51,6 +57,7 @@ export interface SummarizeInput {
     resources: ResourceDataTable;
     recipeSets: RecipeSetsDataTable;
     talents: TalentsDataTable;
+    toolDamageData: ToolDamageDataTable;
     workshopItems: WorkshopItemsDataTable;
 }
 
@@ -70,6 +77,7 @@ export function summarizeData(
         consumables,
         resources,
         talents,
+        toolDamageData,
         workshopItems,
     }: SummarizeInput,
 ): GameData {
@@ -182,6 +190,15 @@ export function summarizeData(
             positiveFormat: positiveFormat,
             negativeFormat: negativeFormat,
         });
+    }
+
+    // Map tool damage to stats
+    for (const [toolDamageField, statId] of toolDamageToStatMap) {
+        if (statsFile.get(statId) === undefined) {
+            throw new Error(`Tool Damage field "${toolDamageField}" is mapped to stat "${
+                statId}" which was not found`);
+        }
+        statsToInclude.add(statId);
     }
 
     const itemBlacklist: Array<string> = [
@@ -359,6 +376,36 @@ export function summarizeData(
         if (refIsSet(item.Processing)) {
             itemProcessing = processing.get(item.Processing.RowName);
         }
+
+        let itemToolDamage: ToolDamage | undefined;
+        if (refIsSet(item.ToolDamage)) {
+            itemToolDamage = {};
+            const toolDamage = toolDamageData.get(item.ToolDamage.RowName);
+            if (toolDamage === undefined) {
+                log.print(`item=${item.Name}, ToolDamage "${item.ToolDamage.RowName
+                    }" not found`);
+            } else {
+                for (const [toolDamageField, statId] of toolDamageToStatMap) {
+                    let statValue = toolDamage[toolDamageField]
+                    if (statValue === undefined || statValue === 0) {
+                        continue;
+                    }
+
+                    const mapFunction = toolDamageToStatModifier[toolDamageField]
+                    if (mapFunction !== undefined) {
+                        statValue = mapFunction(statValue);
+                    }
+
+                    if (statId in itemStats) {
+                        itemStats[statId] -= statValue
+                    } else {
+                        itemStats[statId] = statValue
+                    }
+                }
+            }
+        }
+
+        // @todo add D_Ballistic for arrows such as Meta_Arrow_Set_Larkwell_Standard
 
         mappedItems[item.Name] = {
             displayName: displayName,

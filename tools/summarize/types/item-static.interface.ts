@@ -1,5 +1,5 @@
 import type {Ref, RefWithDataTable, Tags} from './common.interface.js';
-import type {ItemStats} from '../../../src/lib/data.interface.js';
+import type {ItemStats} from '../../../src/lib/data.def.js';
 import type {DataTable} from '../util/datatable.js';
 
 export type ItemStaticDataTable = DataTable<ItemStaticRow>;
@@ -26,4 +26,5 @@ export interface ItemStaticRow {
     Manual_Tags?: Tags;
     Generated_Tags?: Tags;
     Processing?: Ref;
+    ToolDamage?: RefWithDataTable;
 }
